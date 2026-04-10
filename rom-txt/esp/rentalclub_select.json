@@ -1,0 +1,1186 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "rentalclub_select",
+  "languageCode": 60,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "rentalclub_select_button_00",
+      "LabelHash": -170313915,
+      "OriginalText": "Detalles de la selección",
+      "TextInfos": [
+        {
+          "Text": "Detalles de la selección",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 1,
+      "LabelName": "rentalclub_select_button_03",
+      "LabelHash": -170313918,
+      "OriginalText": "¡Tener un nuevo encuentro!",
+      "TextInfos": [
+        {
+          "Text": "¡Tener un nuevo encuentro!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 2,
+      "LabelName": "rentalclub_select_10",
+      "LabelHash": -492001875,
+      "OriginalText": "Ver Pokémon del encuentro",
+      "TextInfos": [
+        {
+          "Text": "Ver Pokémon del encuentro",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 3,
+      "LabelName": "rentalclub_select_15",
+      "LabelHash": 267513012,
+      "OriginalText": "Próximo encuentro sin coste en:",
+      "TextInfos": [
+        {
+          "Text": "Próximo encuentro sin coste en:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 4,
+      "LabelName": "rentalclub_select_16",
+      "LabelHash": 670797539,
+      "OriginalText": "¡Encuentro sin coste disponible!",
+      "TextInfos": [
+        {
+          "Text": "¡Encuentro sin coste disponible!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 5,
+      "LabelName": "rentalclub_select_17",
+      "LabelHash": -895286402,
+      "OriginalText": " {0} h y {1} min",
+      "TextInfos": [
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " h y ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " min",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 6,
+      "LabelName": "rentalclub_select_18",
+      "LabelHash": -848232235,
+      "OriginalText": " ",
+      "TextInfos": [
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 7,
+      "LabelName": "rentalclub_select_22",
+      "LabelHash": -1654801286,
+      "OriginalText": "¿Quieres encontrarte con Pokémon nuevos?",
+      "TextInfos": [
+        {
+          "Text": "¿Quieres encontrarte con Pokémon nuevos?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 8,
+      "LabelName": "rentalclub_select_23",
+      "LabelHash": 1074082069,
+      "OriginalText": "¿Quieres encontrarte con Pokémon nuevos a cambio de\n{0} PV?",
+      "TextInfos": [
+        {
+          "Text": "¿Quieres encontrarte con Pokémon nuevos a cambio de",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": " PV?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 9,
+      "LabelName": "rentalclub_select_24",
+      "LabelHash": 1833596956,
+      "OriginalText": "No tienes suficientes cupones aceleradores o PV.",
+      "TextInfos": [
+        {
+          "Text": "No tienes suficientes cupones aceleradores o PV.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 10,
+      "LabelName": "rentalclub_select_25",
+      "LabelHash": 267513015,
+      "OriginalText": "Si tienes cupones aceleradores, se usarán primero.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Si tienes cupones aceleradores, se usarán primero.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 58
+    },
+    {
+      "Index": 11,
+      "LabelName": "rentalclub_select_26",
+      "LabelHash": 670797542,
+      "OriginalText": "Usar un ticket",
+      "TextInfos": [
+        {
+          "Text": "Usar un ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 12,
+      "LabelName": "rentalclub_select_27",
+      "LabelHash": -895286399,
+      "OriginalText": "No tienes ningún ticket.",
+      "TextInfos": [
+        {
+          "Text": "No tienes ningún ticket.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 13,
+      "LabelName": "rentalclub_select_28",
+      "LabelHash": -848232232,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 94,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 14,
+      "LabelName": "rentalclub_select_32",
+      "LabelHash": -1654801287,
+      "OriginalText": "Del {2}/{1}/{0} ({3}:{4}) al {7}/{6}/{5} ({8}:{9})",
+      "TextInfos": [
+        {
+          "Text": "Del ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "/",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "/",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " (",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              3,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ":",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              4,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ") al ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              7,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "/",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              6,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "/",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              5,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " (",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              8,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ":",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              9,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ")",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 15,
+      "LabelName": "rentalclub_select_35",
+      "LabelHash": 267513014,
+      "OriginalText": "{0} PV",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 5,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": " PV",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 16,
+      "LabelName": "rentalclub_select_36",
+      "LabelHash": 670797541,
+      "OriginalText": "¿Quieres encontrarte con Pokémon nuevos a cambio de\n{1} cup acelerador y {0} PV?",
+      "TextInfos": [
+        {
+          "Text": "¿Quieres encontrarte con Pokémon nuevos a cambio de",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "Text": " cup",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 23,
+            "TagId": 1,
+            "Params": [
+              1,
+              205,
+              4,
+              0,
+              243,
+              0,
+              110,
+              0,
+              8,
+              0,
+              111,
+              0,
+              110,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " acelerador",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 23,
+            "TagId": 1,
+            "Params": [
+              1,
+              205,
+              0,
+              0,
+              4,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " y ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": " PV?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 17,
+      "LabelName": "rentalclub_select_37",
+      "LabelHash": -895286400,
+      "OriginalText": "¿Quieres encontrarte con Pokémon nuevos a cambio de\n{0} cup acelerador?",
+      "TextInfos": [
+        {
+          "Text": "¿Quieres encontrarte con Pokémon nuevos a cambio de",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " cup",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 23,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              4,
+              0,
+              243,
+              0,
+              110,
+              0,
+              8,
+              0,
+              111,
+              0,
+              110,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " acelerador",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 23,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              4,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 18,
+      "LabelName": "rentalclub_select_38",
+      "LabelHash": -848232233,
+      "OriginalText": "Quitar",
+      "TextInfos": [
+        {
+          "Text": "Quitar",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 32
+    },
+    {
+      "Index": 19,
+      "LabelName": "rentalclub_select_40",
+      "LabelHash": -492001878,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 20,
+      "LabelName": "rentalclub_select_41",
+      "LabelHash": -2058085819,
+      "OriginalText": "Para encontrarte con Pokémon nuevos, es necesario que fiches\nprimero a un Pokémon del encuentro actual.\n¿Te gustaría fichar a un Pokémon?",
+      "TextInfos": [
+        {
+          "Text": "Para encontrarte con Pokémon nuevos, es necesario que fiches",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "primero a un Pokémon del encuentro actual.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "¿Te gustaría fichar a un Pokémon?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 21,
+      "LabelName": "rentalclub_select_46",
+      "LabelHash": 670797536,
+      "OriginalText": "×{0}",
+      "TextInfos": [
+        {
+          "Text": "×",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 22,
+      "LabelName": "rentalclub_select_48",
+      "LabelHash": -848232238,
+      "OriginalText": "×{0}",
+      "TextInfos": [
+        {
+          "Text": "×",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 23,
+      "LabelName": "rentalclub_select_49",
+      "LabelHash": 1880651117,
+      "OriginalText": "¿Quieres encontrarte con Pokémon nuevos a cambio de\n{0}?",
+      "TextInfos": [
+        {
+          "Text": "¿Quieres encontrarte con Pokémon nuevos a cambio de",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 23,
+            "TagId": 5,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 94,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    }
+  ]
+}

@@ -1,0 +1,4237 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "shop",
+  "languageCode": 90,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "shop_button_00",
+      "LabelHash": -83414448,
+      "OriginalText": "特級商店",
+      "TextInfos": [
+        {
+          "Text": "特級商店",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 1,
+      "LabelName": "shop_button_02",
+      "LabelHash": 1079384966,
+      "OriginalText": "開拓商店",
+      "TextInfos": [
+        {
+          "Text": "開拓商店",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 2,
+      "LabelName": "shop_button_200",
+      "LabelHash": 984775106,
+      "OriginalText": "特級對戰證",
+      "TextInfos": [
+        {
+          "Text": "特級對戰證",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 3,
+      "LabelName": "shop_button_201",
+      "LabelHash": 984775105,
+      "OriginalText": "會員",
+      "TextInfos": [
+        {
+          "Text": "會員",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 4,
+      "LabelName": "shop_button_202",
+      "LabelHash": 984775104,
+      "OriginalText": "特別商品",
+      "TextInfos": [
+        {
+          "Text": "特別商品",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 5,
+      "LabelName": "shop_button_203",
+      "LabelHash": 984775103,
+      "OriginalText": "服裝",
+      "TextInfos": [
+        {
+          "Text": "服裝",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 6,
+      "LabelName": "shop_button_204",
+      "LabelHash": 984775110,
+      "OriginalText": "飾品",
+      "TextInfos": [
+        {
+          "Text": "飾品",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 7,
+      "LabelName": "shop_button_205",
+      "LabelHash": 984775109,
+      "OriginalText": "打扮",
+      "TextInfos": [
+        {
+          "Text": "打扮",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 8,
+      "LabelName": "shop_button_206",
+      "LabelHash": 984775108,
+      "OriginalText": "持有物",
+      "TextInfos": [
+        {
+          "Text": "持有物",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 9,
+      "LabelName": "shop_button_207",
+      "LabelHash": 984775107,
+      "OriginalText": "超級石",
+      "TextInfos": [
+        {
+          "Text": "超級石",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 10,
+      "LabelName": "shop_button_208",
+      "LabelHash": 984775098,
+      "OriginalText": "對戰前姿勢",
+      "TextInfos": [
+        {
+          "Text": "對戰前姿勢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 11,
+      "LabelName": "shop_button_209",
+      "LabelHash": 984775097,
+      "OriginalText": "投球姿勢",
+      "TextInfos": [
+        {
+          "Text": "投球姿勢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 12,
+      "LabelName": "shop_button_210",
+      "LabelHash": -581308835,
+      "OriginalText": "勝利姿勢",
+      "TextInfos": [
+        {
+          "Text": "勝利姿勢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 13,
+      "LabelName": "shop_button_211",
+      "LabelHash": -581308836,
+      "OriginalText": "戰鬥音樂",
+      "TextInfos": [
+        {
+          "Text": "戰鬥音樂",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 14,
+      "LabelName": "shop_04",
+      "LabelHash": 472365523,
+      "OriginalText": "要購買商品嗎？\n※購買後無法取消。",
+      "TextInfos": [
+        {
+          "Text": "要購買商品嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※購買後無法取消。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 15,
+      "LabelName": "shop_05",
+      "LabelHash": 472365524,
+      "OriginalText": "購買完成。",
+      "TextInfos": [
+        {
+          "Text": "購買完成。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 16,
+      "LabelName": "shop_06",
+      "LabelHash": 472365521,
+      "OriginalText": "購買完成。\n要立刻變更風格嗎？",
+      "TextInfos": [
+        {
+          "Text": "購買完成。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "要立刻變更風格嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 17,
+      "LabelName": "shop_11",
+      "LabelHash": -1093718413,
+      "OriginalText": "總計",
+      "TextInfos": [
+        {
+          "Text": "總計",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 18,
+      "LabelName": "shop_12",
+      "LabelHash": -1093718416,
+      "OriginalText": "無法在購物車裡放入更多商品。",
+      "TextInfos": [
+        {
+          "Text": "無法在購物車裡放入更多商品。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 19,
+      "LabelName": "shop_13",
+      "LabelHash": -1093718415,
+      "OriginalText": "購物車裡沒有商品。",
+      "TextInfos": [
+        {
+          "Text": "購物車裡沒有商品。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 20,
+      "LabelName": "shop_14",
+      "LabelHash": -1093718418,
+      "OriginalText": "{0}VP",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 5,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "VP",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 21,
+      "LabelName": "shop_15",
+      "LabelHash": -1093718417,
+      "OriginalText": "已變更風格。",
+      "TextInfos": [
+        {
+          "Text": "已變更風格。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 22,
+      "LabelName": "shop_16",
+      "LabelHash": -1093718420,
+      "OriginalText": "顏色",
+      "TextInfos": [
+        {
+          "Text": "顏色",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 23,
+      "LabelName": "shop_17",
+      "LabelHash": -1093718419,
+      "OriginalText": "購買前",
+      "TextInfos": [
+        {
+          "Text": "購買前",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 24,
+      "LabelName": "shop_18",
+      "LabelHash": -1093718406,
+      "OriginalText": "購買後",
+      "TextInfos": [
+        {
+          "Text": "購買後",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 25,
+      "LabelName": "shop_19",
+      "LabelHash": -1093718405,
+      "OriginalText": "{0}VP",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 5,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "VP",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 26,
+      "LabelName": "shop_21",
+      "LabelHash": -690433886,
+      "OriginalText": "已將商品放進購物車。",
+      "TextInfos": [
+        {
+          "Text": "已將商品放進購物車。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 27,
+      "LabelName": "shop_22",
+      "LabelHash": -690433889,
+      "OriginalText": "已將商品從購物車刪除。",
+      "TextInfos": [
+        {
+          "Text": "已將商品從購物車刪除。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 28,
+      "LabelName": "shop_23",
+      "LabelHash": -690433888,
+      "OriginalText": "購買",
+      "TextInfos": [
+        {
+          "Text": "購買",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 7
+    },
+    {
+      "Index": 29,
+      "LabelName": "shop_24",
+      "LabelHash": -690433891,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 22,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 30,
+      "LabelName": "shop_25",
+      "LabelHash": -690433890,
+      "OriginalText": "加入1個月",
+      "TextInfos": [
+        {
+          "Text": "加入1個月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 31,
+      "LabelName": "shop_26",
+      "LabelHash": -690433893,
+      "OriginalText": "加入12個月",
+      "TextInfos": [
+        {
+          "Text": "加入12個月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 32,
+      "LabelName": "shop_28",
+      "LabelHash": -690433879,
+      "OriginalText": "30天以上",
+      "TextInfos": [
+        {
+          "Text": "30天以上",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 33,
+      "LabelName": "shop_29",
+      "LabelHash": -690433878,
+      "OriginalText": "{0}天",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "天",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 34,
+      "LabelName": "shop_30",
+      "LabelHash": 2038449468,
+      "OriginalText": "{0}小時",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "小時",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 35,
+      "LabelName": "shop_31",
+      "LabelHash": 2038449469,
+      "OriginalText": "{0}分鐘",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "分鐘",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 36,
+      "LabelName": "shop_32",
+      "LabelHash": 2038449466,
+      "OriginalText": "0分鐘",
+      "TextInfos": [
+        {
+          "Text": "0分鐘",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 37,
+      "LabelName": "shop_33",
+      "LabelHash": 2038449467,
+      "OriginalText": "離結束販售還有",
+      "TextInfos": [
+        {
+          "Text": "離結束販售還有",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 38,
+      "LabelName": "shop_34",
+      "LabelHash": 2038449464,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 9,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 39,
+      "LabelName": "shop_35",
+      "LabelHash": 2038449465,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 39,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 40,
+      "LabelName": "shop_36",
+      "LabelHash": 2038449462,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 40,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 41,
+      "LabelName": "shop_39",
+      "LabelHash": 2038449477,
+      "OriginalText": "已購買",
+      "TextInfos": [
+        {
+          "Text": "已購買",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 7
+    },
+    {
+      "Index": 42,
+      "LabelName": "shop_40",
+      "LabelHash": -1497002941,
+      "OriginalText": "已加入",
+      "TextInfos": [
+        {
+          "Text": "已加入",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 7
+    },
+    {
+      "Index": 43,
+      "LabelName": "shop_41",
+      "LabelHash": -1497002940,
+      "OriginalText": "1個月",
+      "TextInfos": [
+        {
+          "Text": "1個月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 7
+    },
+    {
+      "Index": 44,
+      "LabelName": "shop_42",
+      "LabelHash": -1497002943,
+      "OriginalText": "12個月",
+      "TextInfos": [
+        {
+          "Text": "12個月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 7
+    },
+    {
+      "Index": 45,
+      "LabelName": "shop_43",
+      "LabelHash": -1497002942,
+      "OriginalText": "詳情",
+      "TextInfos": [
+        {
+          "Text": "詳情",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 7
+    },
+    {
+      "Index": 46,
+      "LabelName": "shop_44",
+      "LabelHash": -1497002945,
+      "OriginalText": "已取消購買。",
+      "TextInfos": [
+        {
+          "Text": "已取消購買。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 47,
+      "LabelName": "shop_45",
+      "LabelHash": -1497002944,
+      "OriginalText": "約省{0}個月！",
+      "TextInfos": [
+        {
+          "Text": "約省",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "個月！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 48,
+      "LabelName": "shop_46",
+      "LabelHash": -1497002947,
+      "OriginalText": "查看購物車",
+      "TextInfos": [
+        {
+          "Text": "查看購物車",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 49,
+      "LabelName": "shop_47",
+      "LabelHash": -1497002946,
+      "OriginalText": "購物車",
+      "TextInfos": [
+        {
+          "Text": "購物車",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 50,
+      "LabelName": "shop_49",
+      "LabelHash": -1497002932,
+      "OriginalText": "關於特定商業交易法",
+      "TextInfos": [
+        {
+          "Text": "關於特定商業交易法",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 58
+    },
+    {
+      "Index": 51,
+      "LabelName": "shop_50",
+      "LabelHash": 1231880414,
+      "OriginalText": "About Cancellation",
+      "TextInfos": [
+        {
+          "Text": "About Cancellation",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 52,
+      "LabelName": "shop_51",
+      "LabelHash": 1231880415,
+      "OriginalText": "關於特級對戰證",
+      "TextInfos": [
+        {
+          "Text": "關於特級對戰證",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 53,
+      "LabelName": "shop_52",
+      "LabelHash": 1231880412,
+      "OriginalText": "關於會員",
+      "TextInfos": [
+        {
+          "Text": "關於會員",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 54,
+      "LabelName": "shop_54",
+      "LabelHash": 1231880410,
+      "OriginalText": "同意並繼續",
+      "TextInfos": [
+        {
+          "Text": "同意並繼續",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 55,
+      "LabelName": "shop_57",
+      "LabelHash": 1231880409,
+      "OriginalText": "在會員有效期間內無法變更為其他方案。\n\n若希望變更方案，\n請先對目前加入的方案執行自動更新的停止手續。\n\n請在有效期限結束且會員失效後，\n再次加入欲加入的方案。",
+      "TextInfos": [
+        {
+          "Text": "在會員有效期間內無法變更為其他方案。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若希望變更方案，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "請先對目前加入的方案執行自動更新的停止手續。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "請在有效期限結束且會員失效後，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "再次加入欲加入的方案。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 111
+    },
+    {
+      "Index": 57,
+      "LabelName": "shop_restore_01",
+      "LabelHash": 624168201,
+      "OriginalText": "復原購買狀態",
+      "TextInfos": [
+        {
+          "Text": "復原購買狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 16
+    },
+    {
+      "Index": 60,
+      "LabelName": "shop_restore_04",
+      "LabelHash": 624168204,
+      "OriginalText": "已復原購買狀態。",
+      "TextInfos": [
+        {
+          "Text": "已復原購買狀態。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 61,
+      "LabelName": "shop_premium_battle_pass_summary",
+      "LabelHash": -125179962,
+      "OriginalText": "◆商品的內容／分量\n特級對戰證×1個\n購買特級對戰證後，當對戰證等級提升時，\n能以報酬形式額外獲得禮物。\n禮物的具體內容請查看對戰證畫面。\n（記載於可從道館畫面前往的對戰證畫面內。）\n\n特級對戰證僅在賽季中有效。\n特級對戰證在賽季結束後會失效，\n因此在新賽季必須再次購買。\n賽季的具體日期請查看對戰證畫面。\n（記載於可從道館畫面前往的對戰證畫面內。）\n\n此外，禮物與已持有的物品重複時，\n將可能會被轉換為VP。\n購買特級對戰證後，\n會根據購買當下達到的\n對戰證等級獲得禮物。\n※透過特級對戰證獲得的禮物，\n日後有可能在商店也能購買或獲得。\n\n\n◆販售價格\n關於價格，請選擇「返回」，並確認上一個畫面的顯示內容。\n\n\n◆販售期間等\n直到該特級對戰證販售月份的賽季結束前，皆可購買特級對戰證。\n特級對戰證在販售期間只能購買1次。\n\n若在販售期間即將結束前嘗試購買特級對戰證，\n可能會因為平台付款等問題而無法正常購買。\n購買特級對戰證時，\n請在販售期間內預留充足的時間購買。\n",
+      "TextInfos": [
+        {
+          "Text": "◆商品的內容／分量",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "特級對戰證×1個",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "購買特級對戰證後，當對戰證等級提升時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "能以報酬形式額外獲得禮物。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "禮物的具體內容請查看對戰證畫面。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "（記載於可從道館畫面前往的對戰證畫面內。）",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "特級對戰證僅在賽季中有效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "特級對戰證在賽季結束後會失效，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "因此在新賽季必須再次購買。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "賽季的具體日期請查看對戰證畫面。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "（記載於可從道館畫面前往的對戰證畫面內。）",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "此外，禮物與已持有的物品重複時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "將可能會被轉換為VP。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "購買特級對戰證後，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會根據購買當下達到的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對戰證等級獲得禮物。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "※透過特級對戰證獲得的禮物，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "日後有可能在商店也能購買或獲得。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "◆販售價格",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "關於價格，請選擇「返回」，並確認上一個畫面的顯示內容。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "◆販售期間等",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "直到該特級對戰證販售月份的賽季結束前，皆可購買特級對戰證。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "特級對戰證在販售期間只能購買1次。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若在販售期間即將結束前嘗試購買特級對戰證，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "可能會因為平台付款等問題而無法正常購買。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "購買特級對戰證時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "請在販售期間內預留充足的時間購買。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 107
+    },
+    {
+      "Index": 66,
+      "LabelName": "shop_member_ship_summary",
+      "LabelHash": -1432786119,
+      "OriginalText": "1.會員特典（商品的價格／內容／分量）\n會員分為1個月方案和12個月方案兩種。\n關於各方案的價格，請選擇「返回」，並確認上一個畫面的顯示內容。\n\n加入會員後，即可獲得以下特典。\n・能夠放進盒子的寶可夢數量上限增加1000隻。\n・能夠使用的對戰隊伍數量增加15支。\n・解鎖會員專屬的任務。\n（會員專屬的任務可從任務畫面查看。）\n・解鎖會員專屬的戰鬥音樂。\n（項目圍有金框的即為會員專屬的戰鬥音樂，\n可從變更戰鬥音樂的畫面查看。）\n\n加入會員後，即可立刻獲得特典。\n\n退出會員後不會退款，且在該會員的有效期限更新前皆可獲得特典。\n\n2.會員自動更新\n\n加入會員後，系統會根據購買的會員的有效期間，\n以相同方案自動更新並扣款。\n※有效期間可能因購買方法而有所差異，敬請特別留意。\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n使用Nintendo Switch版：\n會員有效期間如下。\n1個月方案：自加入起30天後的同一時間為止。\n12個月方案：自加入起365天後的同一時間為止。\n\n例如：\n若在2026年1月1日15:00以1個月方案（30天）加入了會員，\n則會在2026年1月31日15:00自動更新30天。\n\n若在2026年1月1日05:00以12個月方案（365天）加入了會員，\n則會在2027年1月1日05:00自動更新12個月。\n\n\n使用智慧型手機版：\n會員有效期間如下。\n1個月方案：自加入起的1個月。\n12個月方案：自加入起的12個月。\n「自加入起的1個月」指的是到加入日隔月的同一日期同一時間為止。\n「自加入起的12個月」指的是到加入日隔年的同一日期同一時間為止。\n若在月底加入會員，而隔年或隔月不存在與加入日同一日期時，\n則會在該月最後一天的同一時間更新有效期間。\n\n例如：\n若在2026年1月1日15:00以1個月方案加入了會員，\n則會在2026年2月1日15:00自動更新1個月。\n\n若在2026年1月1日05:00以12個月方案加入了會員，\n則會在2027年1月1日05:00自動更新12個月。\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\n會員資格過期時將無法獲得特典。\n※部分國家和地區可能會因為用戶的年齡而不適用自動更新。\n※登入智慧型手機版時，請使用加入會員時的平台所對應的機種。\n使用對應不同平台的機種登入，自動更新可能會無法正確反映。\n\n若不希望自動更新，請在目前的有效期限的24小時前，\n到加入會員的平台執行自動更新的停止手續。\n\n關於自動更新的停止手續，\n請確認Pokémon Champions的官方用戶服務頁面。\n\n\n3.退出會員時的注意事項\n退出會員將無法獲得特典，\n且功能會有以下變更。\n\n・能夠放進盒子的寶可夢數量減少1000隻。\n・無法放進盒子的寶可夢會被鎖定，且無法對其完成以下操作。\n①登錄到對戰隊伍\n②參加對戰\n③進行訓練\n④變更對戰名\n⑤變更稱號\n⑥發行與套用該寶可夢所在隊伍的隊伍ID\n\n・可對被鎖定的寶可夢進行的操作\n①送回錄用牧場\n②送回Pokémon HOME\n③登錄與解除我的最愛\n④登錄與解除標籤\n\n・即使送回在錄用牧場錄用的寶可夢，\n或是送回從Pokémon HOME遠征前來的寶可夢\n來使盒子騰出空位，\n被鎖定的寶可夢也不會移動至空位並因此解除鎖定。\n・能在目前的級別對戰使用，並且已在Pokémon Champions\n正式錄用的寶可夢，會優先排除在鎖定對象之外。\n・再次加入會員即可解除鎖定。\n\n・能夠使用的對戰隊伍數量減少15支。\n\n・無法從會員專屬的任務領取禮物。\n（會員專屬的任務可從任務畫面查看。）\n\n・無法設定會員專屬的戰鬥音樂。\n（項目圍有金框的即為會員專屬的戰鬥音樂，\n可從變更戰鬥音樂的畫面查看。）\n\n4.加入會員的平台\n若使用1個帳號遊玩\nNintendo Switch版與智慧型手機版兩個版本，\n只能從其中一方的版本加入會員。\n特典不受執行加入手續的裝置影響，\n不管是Nintendo Switch版或是智慧型手機版，\n都能獲得特典。\n\n\n5.其他\n・因更換裝置等而再次安裝應用程式後，\n若要加入會員，請在加入會員前\n先完成帳號連結等操作，\n並登入想要加入會員的帳號後，再加入會員。\n・可能會因為平台付款等因素，\n使得加入會員的內部處理發生問題。\n在執行付款等程序時，請勿中斷應用程式。\n・在智慧型手機版加入會員後，\n若會員特典等未確實賦予或反映，\n請嘗試以下操作：\n「道館＞商店＞特級商店＞會員＞復原購買狀態」\n",
+      "TextInfos": [
+        {
+          "Text": "1.會員特典（商品的價格／內容／分量）",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會員分為1個月方案和12個月方案兩種。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "關於各方案的價格，請選擇「返回」，並確認上一個畫面的顯示內容。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "加入會員後，即可獲得以下特典。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・能夠放進盒子的寶可夢數量上限增加1000隻。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・能夠使用的對戰隊伍數量增加15支。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・解鎖會員專屬的任務。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "（會員專屬的任務可從任務畫面查看。）",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・解鎖會員專屬的戰鬥音樂。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "（項目圍有金框的即為會員專屬的戰鬥音樂，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "可從變更戰鬥音樂的畫面查看。）",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "加入會員後，即可立刻獲得特典。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "退出會員後不會退款，且在該會員的有效期限更新前皆可獲得特典。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "2.會員自動更新",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "加入會員後，系統會根據購買的會員的有效期間，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "以相同方案自動更新並扣款。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "※有效期間可能因購買方法而有所差異，敬請特別留意。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "使用Nintendo Switch版：",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會員有效期間如下。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "1個月方案：自加入起30天後的同一時間為止。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "12個月方案：自加入起365天後的同一時間為止。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "例如：",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若在2026年1月1日15:00以1個月方案（30天）加入了會員，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "則會在2026年1月31日15:00自動更新30天。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若在2026年1月1日05:00以12個月方案（365天）加入了會員，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "則會在2027年1月1日05:00自動更新12個月。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "使用智慧型手機版：",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會員有效期間如下。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "1個月方案：自加入起的1個月。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "12個月方案：自加入起的12個月。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "「自加入起的1個月」指的是到加入日隔月的同一日期同一時間為止。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "「自加入起的12個月」指的是到加入日隔年的同一日期同一時間為止。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若在月底加入會員，而隔年或隔月不存在與加入日同一日期時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "則會在該月最後一天的同一時間更新有效期間。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "例如：",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若在2026年1月1日15:00以1個月方案加入了會員，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "則會在2026年2月1日15:00自動更新1個月。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若在2026年1月1日05:00以12個月方案加入了會員，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "則會在2027年1月1日05:00自動更新12個月。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會員資格過期時將無法獲得特典。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "※部分國家和地區可能會因為用戶的年齡而不適用自動更新。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "※登入智慧型手機版時，請使用加入會員時的平台所對應的機種。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "使用對應不同平台的機種登入，自動更新可能會無法正確反映。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若不希望自動更新，請在目前的有效期限的24小時前，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "到加入會員的平台執行自動更新的停止手續。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "關於自動更新的停止手續，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "請確認Pokémon Champions的官方用戶服務頁面。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "3.退出會員時的注意事項",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "退出會員將無法獲得特典，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "且功能會有以下變更。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・能夠放進盒子的寶可夢數量減少1000隻。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・無法放進盒子的寶可夢會被鎖定，且無法對其完成以下操作。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "①登錄到對戰隊伍",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "②參加對戰",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "③進行訓練",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "④變更對戰名",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "⑤變更稱號",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "⑥發行與套用該寶可夢所在隊伍的隊伍ID",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・可對被鎖定的寶可夢進行的操作",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "①送回錄用牧場",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "②送回Pokémon HOME",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "③登錄與解除我的最愛",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "④登錄與解除標籤",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・即使送回在錄用牧場錄用的寶可夢，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "或是送回從Pokémon HOME遠征前來的寶可夢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "來使盒子騰出空位，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "被鎖定的寶可夢也不會移動至空位並因此解除鎖定。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・能在目前的級別對戰使用，並且已在Pokémon Champions",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "正式錄用的寶可夢，會優先排除在鎖定對象之外。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・再次加入會員即可解除鎖定。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・能夠使用的對戰隊伍數量減少15支。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・無法從會員專屬的任務領取禮物。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "（會員專屬的任務可從任務畫面查看。）",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・無法設定會員專屬的戰鬥音樂。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "（項目圍有金框的即為會員專屬的戰鬥音樂，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "可從變更戰鬥音樂的畫面查看。）",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "4.加入會員的平台",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若使用1個帳號遊玩",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Nintendo Switch版與智慧型手機版兩個版本，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "只能從其中一方的版本加入會員。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "特典不受執行加入手續的裝置影響，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "不管是Nintendo Switch版或是智慧型手機版，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "都能獲得特典。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "5.其他",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・因更換裝置等而再次安裝應用程式後，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若要加入會員，請在加入會員前",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "先完成帳號連結等操作，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "並登入想要加入會員的帳號後，再加入會員。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・可能會因為平台付款等因素，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "使得加入會員的內部處理發生問題。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "在執行付款等程序時，請勿中斷應用程式。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "・在智慧型手機版加入會員後，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若會員特典等未確實賦予或反映，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "請嘗試以下操作：",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "「道館＞商店＞特級商店＞會員＞復原購買狀態」",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 107
+    },
+    {
+      "Index": 79,
+      "LabelName": "shop_bgm_series",
+      "LabelHash": 1552945743,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 102,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 60
+    },
+    {
+      "Index": 80,
+      "LabelName": "shop_bgm_title",
+      "LabelHash": -1541292242,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 103,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 83,
+      "LabelName": "shop_california_terms",
+      "LabelHash": -855457869,
+      "OriginalText": "使用條款",
+      "TextInfos": [
+        {
+          "Text": "使用條款",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 87,
+      "LabelName": "shop_58",
+      "LabelHash": 1231880422,
+      "OriginalText": "關於自動更新",
+      "TextInfos": [
+        {
+          "Text": "關於自動更新",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 88,
+      "LabelName": "shop_59",
+      "LabelHash": 1231880423,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 22,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 70
+    },
+    {
+      "Index": 89,
+      "LabelName": "shop_60",
+      "LabelHash": 1635164941,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 22,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 58
+    }
+  ]
+}

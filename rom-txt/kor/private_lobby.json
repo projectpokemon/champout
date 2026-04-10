@@ -1,0 +1,2626 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "private_lobby",
+  "languageCode": 70,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "private_lobby_button_00",
+      "LabelHash": 266608284,
+      "OriginalText": "룸을 만든다",
+      "TextInfos": [
+        {
+          "Text": "룸을 만든다",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 1,
+      "LabelName": "private_lobby_button_01",
+      "LabelHash": 266608283,
+      "OriginalText": "룸 ID를 입력한다",
+      "TextInfos": [
+        {
+          "Text": "룸 ID를 입력한다",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 2,
+      "LabelName": "private_lobby_button_02",
+      "LabelHash": 266608286,
+      "OriginalText": "룸 관리자의 초대",
+      "TextInfos": [
+        {
+          "Text": "룸 관리자의 초대",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 3,
+      "LabelName": "private_lobby_01",
+      "LabelHash": -807342292,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 53,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 77
+    },
+    {
+      "Index": 4,
+      "LabelName": "private_lobby_01_01",
+      "LabelHash": -810659346,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 53,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 5,
+      "LabelName": "private_lobby_02",
+      "LabelHash": 758741649,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 84,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 6,
+      "LabelName": "private_lobby_03",
+      "LabelHash": -1970141706,
+      "OriginalText": "{0}마리",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "마리",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 5
+    },
+    {
+      "Index": 7,
+      "LabelName": "private_lobby_04",
+      "LabelHash": -404057765,
+      "OriginalText": "{0}분",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "분",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 8,
+      "LabelName": "private_lobby_05",
+      "LabelHash": 1162026176,
+      "OriginalText": "{0}분",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "분",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 9,
+      "LabelName": "private_lobby_06",
+      "LabelHash": -1566857179,
+      "OriginalText": "{0}초",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "초",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 10,
+      "LabelName": "private_lobby_08",
+      "LabelHash": -2017195873,
+      "OriginalText": "현재 룰로 룸을 만들겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "현재 룰로 룸을 만들겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 11,
+      "LabelName": "private_lobby_09",
+      "LabelHash": -451111932,
+      "OriginalText": "룸 ID를 입력해 주십시오.",
+      "TextInfos": [
+        {
+          "Text": "룸 ID를 입력해 주십시오.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 12,
+      "LabelName": "private_lobby_button_03",
+      "LabelHash": 266608285,
+      "OriginalText": "룸 멤버",
+      "TextInfos": [
+        {
+          "Text": "룸 멤버",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 13,
+      "LabelName": "private_lobby_button_04",
+      "LabelHash": 266608288,
+      "OriginalText": "룸 메뉴",
+      "TextInfos": [
+        {
+          "Text": "룸 메뉴",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 14,
+      "LabelName": "private_lobby_button_06",
+      "LabelHash": 266608290,
+      "OriginalText": "준비 중",
+      "TextInfos": [
+        {
+          "Text": "준비 중",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 15,
+      "LabelName": "private_lobby_button_07",
+      "LabelHash": 266608289,
+      "OriginalText": "준비 완료",
+      "TextInfos": [
+        {
+          "Text": "준비 완료",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 16,
+      "LabelName": "private_lobby_button_08",
+      "LabelHash": 266608276,
+      "OriginalText": "대전 중",
+      "TextInfos": [
+        {
+          "Text": "대전 중",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 17,
+      "LabelName": "private_lobby_button_09",
+      "LabelHash": 266608275,
+      "OriginalText": "대전 예약",
+      "TextInfos": [
+        {
+          "Text": "대전 예약",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 18,
+      "LabelName": "private_lobby_button_10",
+      "LabelHash": -1299475657,
+      "OriginalText": "관전 중",
+      "TextInfos": [
+        {
+          "Text": "관전 중",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 19,
+      "LabelName": "private_lobby_button_11",
+      "LabelHash": -1299475658,
+      "OriginalText": "대전한다",
+      "TextInfos": [
+        {
+          "Text": "대전한다",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 20,
+      "LabelName": "private_lobby_button_12",
+      "LabelHash": -1299475655,
+      "OriginalText": "대전을 예약한다",
+      "TextInfos": [
+        {
+          "Text": "대전을 예약한다",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 21,
+      "LabelName": "private_lobby_button_13",
+      "LabelHash": -1299475656,
+      "OriginalText": "관전한다",
+      "TextInfos": [
+        {
+          "Text": "관전한다",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 22,
+      "LabelName": "private_lobby_button_15",
+      "LabelHash": -1299475654,
+      "OriginalText": "룸 확인",
+      "TextInfos": [
+        {
+          "Text": "룸 확인",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 23,
+      "LabelName": "private_lobby_button_16",
+      "LabelHash": -1299475651,
+      "OriginalText": "대전 예약: {0}명",
+      "TextInfos": [
+        {
+          "Text": "대전 예약: ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "명",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 24,
+      "LabelName": "private_lobby_button_17",
+      "LabelHash": -1299475652,
+      "OriginalText": "친구 초대",
+      "TextInfos": [
+        {
+          "Text": "친구 초대",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 32
+    },
+    {
+      "Index": 25,
+      "LabelName": "private_lobby_button_18",
+      "LabelHash": -1299475665,
+      "OriginalText": "퇴장시킬 트레이너 선택",
+      "TextInfos": [
+        {
+          "Text": "퇴장시킬 트레이너 선택",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 32
+    },
+    {
+      "Index": 26,
+      "LabelName": "private_lobby_button_20",
+      "LabelHash": 1429407698,
+      "OriginalText": "대전 정보 초기화",
+      "TextInfos": [
+        {
+          "Text": "대전 정보 초기화",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 27,
+      "LabelName": "private_lobby_25",
+      "LabelHash": 1162026174,
+      "OriginalText": "배틀 룰",
+      "TextInfos": [
+        {
+          "Text": "배틀 룰",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 28,
+      "LabelName": "private_lobby_26",
+      "LabelHash": -1566857181,
+      "OriginalText": "포켓몬 수",
+      "TextInfos": [
+        {
+          "Text": "포켓몬 수",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 29,
+      "LabelName": "private_lobby_27",
+      "LabelHash": -773240,
+      "OriginalText": "총합 시간",
+      "TextInfos": [
+        {
+          "Text": "총합 시간",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 30,
+      "LabelName": "private_lobby_28",
+      "LabelHash": -2017195875,
+      "OriginalText": "플레이어당 제한 시간",
+      "TextInfos": [
+        {
+          "Text": "플레이어당 제한 시간",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 31,
+      "LabelName": "private_lobby_29",
+      "LabelHash": -451111934,
+      "OriginalText": "선택 시간",
+      "TextInfos": [
+        {
+          "Text": "선택 시간",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 32,
+      "LabelName": "private_lobby_30",
+      "LabelHash": 1921541060,
+      "OriginalText": "특별 요소",
+      "TextInfos": [
+        {
+          "Text": "특별 요소",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 33,
+      "LabelName": "private_lobby_31",
+      "LabelHash": -807342295,
+      "OriginalText": "싱글배틀",
+      "TextInfos": [
+        {
+          "Text": "싱글배틀",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 34,
+      "LabelName": "private_lobby_33",
+      "LabelHash": -1970141709,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 35,
+      "LabelName": "private_lobby_34",
+      "LabelHash": -404057768,
+      "OriginalText": "{0} {1} 상대로 승리!",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 25,
+            "TagId": 0,
+            "Params": [
+              3,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 25,
+            "TagId": 0,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " 상대로 승리!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 36,
+      "LabelName": "private_lobby_35",
+      "LabelHash": 1162026173,
+      "OriginalText": "{0} {1}연승 중!",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "연승 중!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 37,
+      "LabelName": "private_lobby_37",
+      "LabelHash": -773241,
+      "OriginalText": "{0} {1}승/{2}전",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "승/",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "전",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 58
+    },
+    {
+      "Index": 38,
+      "LabelName": "private_lobby_38",
+      "LabelHash": -2017195876,
+      "OriginalText": "더블배틀",
+      "TextInfos": [
+        {
+          "Text": "더블배틀",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 39,
+      "LabelName": "private_lobby_42",
+      "LabelHash": 758741645,
+      "OriginalText": "룸을 찾지 못했습니다.",
+      "TextInfos": [
+        {
+          "Text": "룸을 찾지 못했습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 40,
+      "LabelName": "private_lobby_43",
+      "LabelHash": -1970141710,
+      "OriginalText": "{0}의 룸에 입장하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "의 룸에 입장하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 41,
+      "LabelName": "private_lobby_45",
+      "LabelHash": 1162026172,
+      "OriginalText": "메가진화 가능",
+      "TextInfos": [
+        {
+          "Text": "메가진화 가능",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 42,
+      "LabelName": "private_lobby_49",
+      "LabelHash": -451111936,
+      "OriginalText": "룸 ID",
+      "TextInfos": [
+        {
+          "Text": "룸 ID",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 43,
+      "LabelName": "private_lobby_50",
+      "LabelHash": 1921541058,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 100,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 44,
+      "LabelName": "private_lobby_52",
+      "LabelHash": 758741644,
+      "OriginalText": "코트 {0}",
+      "TextInfos": [
+        {
+          "Text": "코트 ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 7
+    },
+    {
+      "Index": 45,
+      "LabelName": "private_lobby_53",
+      "LabelHash": -1970141711,
+      "OriginalText": "{0}:{1}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ":",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 46,
+      "LabelName": "private_lobby_56",
+      "LabelHash": -1566857184,
+      "OriginalText": "스타일 변경",
+      "TextInfos": [
+        {
+          "Text": "스타일 변경",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 47,
+      "LabelName": "private_lobby_66",
+      "LabelHash": -1566857185,
+      "OriginalText": "참가할 수 있는 트레이너 설정",
+      "TextInfos": [
+        {
+          "Text": "참가할 수 있는 트레이너 설정",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 32
+    },
+    {
+      "Index": 48,
+      "LabelName": "private_lobby_74",
+      "LabelHash": -404057772,
+      "OriginalText": "초대 리스트",
+      "TextInfos": [
+        {
+          "Text": "초대 리스트",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 49,
+      "LabelName": "private_lobby_75",
+      "LabelHash": 1162026169,
+      "OriginalText": "없음",
+      "TextInfos": [
+        {
+          "Text": "없음",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 50,
+      "LabelName": "private_lobby_76",
+      "LabelHash": -1566857186,
+      "OriginalText": "룸을 만든다",
+      "TextInfos": [
+        {
+          "Text": "룸을 만든다",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 52,
+      "LabelName": "private_lobby_79",
+      "LabelHash": -451111939,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 4
+    },
+    {
+      "Index": 53,
+      "LabelName": "private_lobby_80",
+      "LabelHash": 1921541055,
+      "OriginalText": "대전 정보 확인",
+      "TextInfos": [
+        {
+          "Text": "대전 정보 확인",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 54,
+      "LabelName": "private_lobby_81",
+      "LabelHash": -807342300,
+      "OriginalText": "{0}/{1}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "/",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 55,
+      "LabelName": "private_lobby_82",
+      "LabelHash": 758741641,
+      "OriginalText": "대전 접수 중",
+      "TextInfos": [
+        {
+          "Text": "대전 접수 중",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 56,
+      "LabelName": "private_lobby_83",
+      "LabelHash": -1970141714,
+      "OriginalText": "대전 준비 중",
+      "TextInfos": [
+        {
+          "Text": "대전 준비 중",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 57,
+      "LabelName": "private_lobby_84",
+      "LabelHash": -404057773,
+      "OriginalText": "대전 중",
+      "TextInfos": [
+        {
+          "Text": "대전 중",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 58,
+      "LabelName": "private_lobby_85",
+      "LabelHash": 1162026168,
+      "OriginalText": "준비 완료",
+      "TextInfos": [
+        {
+          "Text": "준비 완료",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 59,
+      "LabelName": "private_lobby_86",
+      "LabelHash": -1566857187,
+      "OriginalText": "대전 예약을 취소하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "대전 예약을 취소하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 60,
+      "LabelName": "private_lobby_88",
+      "LabelHash": -2017195881,
+      "OriginalText": "{0}\n룸에 초대하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 25,
+            "TagId": 0,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "룸에 초대하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 61,
+      "LabelName": "private_lobby_89",
+      "LabelHash": -451111940,
+      "OriginalText": "{0}\n룸에 초대했습니다.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 25,
+            "TagId": 0,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "룸에 초대했습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 62,
+      "LabelName": "private_lobby_90",
+      "LabelHash": 1921541054,
+      "OriginalText": "{0}에게 보낸 초대를\n취소하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "에게 보낸 초대를",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "취소하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 63,
+      "LabelName": "private_lobby_91",
+      "LabelHash": -807342301,
+      "OriginalText": "{0}에게 보낸 초대를\n취소했습니다.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "에게 보낸 초대를",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "취소했습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 64,
+      "LabelName": "private_lobby_92",
+      "LabelHash": 758741640,
+      "OriginalText": "룸에 입장할 수 있는 트레이너를\n친구 트레이너로 설정하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "룸에 입장할 수 있는 트레이너를",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "친구 트레이너로 설정하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 65,
+      "LabelName": "private_lobby_93",
+      "LabelHash": -1970141715,
+      "OriginalText": "룸에 입장할 수 있는 트레이너를\n친구 트레이너로 설정했습니다.",
+      "TextInfos": [
+        {
+          "Text": "룸에 입장할 수 있는 트레이너를",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "친구 트레이너로 설정했습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 66,
+      "LabelName": "private_lobby_94",
+      "LabelHash": -404057774,
+      "OriginalText": "룸에 입장할 수 있는 트레이너를\n모든 트레이너로 설정하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "룸에 입장할 수 있는 트레이너를",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "모든 트레이너로 설정하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 67,
+      "LabelName": "private_lobby_95",
+      "LabelHash": 1162026167,
+      "OriginalText": "룸에 입장할 수 있는 트레이너를\n모든 트레이너로 설정했습니다.",
+      "TextInfos": [
+        {
+          "Text": "룸에 입장할 수 있는 트레이너를",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "모든 트레이너로 설정했습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 68,
+      "LabelName": "private_lobby_96",
+      "LabelHash": -1566857188,
+      "OriginalText": "{0}\n룸에서 퇴장시키겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 25,
+            "TagId": 0,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "룸에서 퇴장시키겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 69,
+      "LabelName": "private_lobby_97",
+      "LabelHash": -773247,
+      "OriginalText": "{0}\n룸에서 퇴장시켰습니다.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 25,
+            "TagId": 0,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "룸에서 퇴장시켰습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 70,
+      "LabelName": "private_lobby_98",
+      "LabelHash": -2017195882,
+      "OriginalText": "룸에 있는 트레이너의\n대전 정보를 초기화하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "룸에 있는 트레이너의",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "대전 정보를 초기화하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 71,
+      "LabelName": "private_lobby_99",
+      "LabelHash": -451111941,
+      "OriginalText": "룸에 있는 트레이너의\n대전 정보를 초기화했습니다.",
+      "TextInfos": [
+        {
+          "Text": "룸에 있는 트레이너의",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "대전 정보를 초기화했습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 72,
+      "LabelName": "private_lobby_100",
+      "LabelHash": 600319894,
+      "OriginalText": "룸에서 퇴장하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "룸에서 퇴장하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 73,
+      "LabelName": "private_lobby_101",
+      "LabelHash": 600319895,
+      "OriginalText": "※대전 중인 경우, 대전 종료 후에 퇴장하게 됩니다.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※대전 중인 경우, 대전 종료 후에 퇴장하게 됩니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 74,
+      "LabelName": "private_lobby_102",
+      "LabelHash": 600319892,
+      "OriginalText": "※한번 초기화하면 되돌릴 수 없습니다.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※한번 초기화하면 되돌릴 수 없습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 75,
+      "LabelName": "private_lobby_103",
+      "LabelHash": 600319893,
+      "OriginalText": "※룸 관리자가 퇴장하면 룸은 해산되며\n　다른 룸 멤버도 전원 퇴장하게 됩니다.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※룸 관리자가 퇴장하면 룸은 해산되며",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　다른 룸 멤버도 전원 퇴장하게 됩니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 76,
+      "LabelName": "private_lobby_104",
+      "LabelHash": 600319890,
+      "OriginalText": "※다시 룸에 입장하려면\n　프라이빗배틀 TOP화면에서\n　룸 ID를 입력하거나\n　룸 관리자로부터 초대를 받아야 합니다.",
+      "TextInfos": [
+        {
+          "Text": "※다시 룸에 입장하려면",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　프라이빗배틀 TOP화면에서",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "룸 ID를 입력하거나",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "룸 관리자로부터 초대를 받아야 합니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 77,
+      "LabelName": "private_lobby_105",
+      "LabelHash": 600319891,
+      "OriginalText": "룸에서 퇴장했습니다.",
+      "TextInfos": [
+        {
+          "Text": "룸에서 퇴장했습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 78,
+      "LabelName": "private_lobby_106",
+      "LabelHash": 600319888,
+      "OriginalText": "대전이 종료되기까지 기다려 주십시오.",
+      "TextInfos": [
+        {
+          "Text": "대전이 종료되기까지 기다려 주십시오.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 79,
+      "LabelName": "private_lobby_107",
+      "LabelHash": 600319889,
+      "OriginalText": "매칭 대기 중에는\n룸에서 퇴장할 수 없습니다.",
+      "TextInfos": [
+        {
+          "Text": "매칭 대기 중에는",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "룸에서 퇴장할 수 없습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 80,
+      "LabelName": "private_lobby_now_inviting",
+      "LabelHash": -1094879464,
+      "OriginalText": "초대 중",
+      "TextInfos": [
+        {
+          "Text": "초대 중",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    }
+  ]
+}

@@ -1,0 +1,2600 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "mission",
+  "languageCode": 20,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "mission_00",
+      "LabelHash": -2070629049,
+      "OriginalText": "Daily Missions",
+      "TextInfos": [
+        {
+          "Text": "Daily Missions",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 1,
+      "LabelName": "mission_01",
+      "LabelHash": 658254306,
+      "OriginalText": "Weekly Missions",
+      "TextInfos": [
+        {
+          "Text": "Weekly Missions",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 2,
+      "LabelName": "mission_02",
+      "LabelHash": -907829635,
+      "OriginalText": "31+ Days Remaining",
+      "TextInfos": [
+        {
+          "Text": "31+ Days Remaining",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 3,
+      "LabelName": "mission_04",
+      "LabelHash": 254969779,
+      "OriginalText": "{0} Reroll Available",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " Reroll",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " Available",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 4,
+      "LabelName": "mission_06",
+      "LabelHash": 1417769193,
+      "OriginalText": "COMPLETE",
+      "TextInfos": [
+        {
+          "Text": "COMPLETE",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 5,
+      "LabelName": "mission_condition1000_2",
+      "LabelHash": 1149844882,
+      "OriginalText": "Take part in {0} Ranked Battle!",
+      "TextInfos": [
+        {
+          "Text": "Take part in ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " Ranked Battle",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 6,
+      "LabelName": "mission_condition1001",
+      "LabelHash": -1017968940,
+      "OriginalText": "Win {0} Ranked Battle!",
+      "TextInfos": [
+        {
+          "Text": "Win ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " Ranked Battle",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 7,
+      "LabelName": "mission_condition1010",
+      "LabelHash": 548115002,
+      "OriginalText": "Use supereffective  {0} !",
+      "TextInfos": [
+        {
+          "Text": "Use ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              4,
+              0,
+              97,
+              0,
+              32,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "supereffective ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              8,
+              0,
+              109,
+              0,
+              111,
+              0,
+              118,
+              0,
+              101,
+              0,
+              10,
+              0,
+              109,
+              0,
+              111,
+              0,
+              118,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              8,
+              0,
+              116,
+              0,
+              105,
+              0,
+              109,
+              0,
+              101,
+              0,
+              10,
+              0,
+              116,
+              0,
+              105,
+              0,
+              109,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 8,
+      "LabelName": "mission_condition1011",
+      "LabelHash": 548115001,
+      "OriginalText": "Land critical  {0} !",
+      "TextInfos": [
+        {
+          "Text": "Land ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              4,
+              0,
+              97,
+              0,
+              32,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "critical ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              6,
+              0,
+              104,
+              0,
+              105,
+              0,
+              116,
+              0,
+              8,
+              0,
+              104,
+              0,
+              105,
+              0,
+              116,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              8,
+              0,
+              116,
+              0,
+              105,
+              0,
+              109,
+              0,
+              101,
+              0,
+              10,
+              0,
+              116,
+              0,
+              105,
+              0,
+              109,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 9,
+      "LabelName": "mission_condition1031",
+      "LabelHash": 1710914415,
+      "OriginalText": "Send {2}-type Pokémon\ninto battle {0} time!",
+      "TextInfos": [
+        {
+          "Text": "Send ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "-type Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "into battle ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " time",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 10,
+      "LabelName": "mission_23",
+      "LabelHash": 1821053722,
+      "OriginalText": "Ranked Battles",
+      "TextInfos": [
+        {
+          "Text": "Ranked Battles",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 11,
+      "LabelName": "mission_24",
+      "LabelHash": 254969781,
+      "OriginalText": "Casual Battles",
+      "TextInfos": [
+        {
+          "Text": "Casual Battles",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 12,
+      "LabelName": "mission_25",
+      "LabelHash": -1311114160,
+      "OriginalText": "Private Battles",
+      "TextInfos": [
+        {
+          "Text": "Private Battles",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 13,
+      "LabelName": "mission_28",
+      "LabelHash": -1714398687,
+      "OriginalText": "Battle Data",
+      "TextInfos": [
+        {
+          "Text": "Battle Data",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 14,
+      "LabelName": "mission_29",
+      "LabelHash": 1014484668,
+      "OriginalText": "Box",
+      "TextInfos": [
+        {
+          "Text": "Box",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 15,
+      "LabelName": "mission_31",
+      "LabelHash": 658254309,
+      "OriginalText": "Replica Teams",
+      "TextInfos": [
+        {
+          "Text": "Replica Teams",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 16,
+      "LabelName": "mission_32",
+      "LabelHash": -907829632,
+      "OriginalText": "Recruiting",
+      "TextInfos": [
+        {
+          "Text": "Recruiting",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 17,
+      "LabelName": "mission_34",
+      "LabelHash": 254969782,
+      "OriginalText": "Shop",
+      "TextInfos": [
+        {
+          "Text": "Shop",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 18,
+      "LabelName": "mission_36",
+      "LabelHash": 1417769196,
+      "OriginalText": "Style",
+      "TextInfos": [
+        {
+          "Text": "Style",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 19,
+      "LabelName": "mission_condition1020",
+      "LabelHash": 144830475,
+      "OriginalText": "Mega Evolve your Pokémon {0} time!",
+      "TextInfos": [
+        {
+          "Text": "Mega Evolve your Pokémon ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " time",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 20,
+      "LabelName": "mission_condition1062",
+      "LabelHash": -1824537995,
+      "OriginalText": "Use {2}-type moves {0} time!",
+      "TextInfos": [
+        {
+          "Text": "Use ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "-type moves ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              2
+            ]
+          }
+        },
+        {
+          "Text": " time",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 21,
+      "LabelName": "mission_condition9001_1",
+      "LabelHash": 1825189596,
+      "OriginalText": "Complete all your daily missions!",
+      "TextInfos": [
+        {
+          "Text": "Complete all your daily missions!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 22,
+      "LabelName": "mission_47",
+      "LabelHash": -148314752,
+      "OriginalText": "{0}  Remaining",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              6,
+              0,
+              68,
+              0,
+              97,
+              0,
+              121,
+              0,
+              8,
+              0,
+              68,
+              0,
+              97,
+              0,
+              121,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " Remaining",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 23,
+      "LabelName": "mission_48",
+      "LabelHash": -1714398693,
+      "OriginalText": "{0}  Remaining",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              8,
+              0,
+              72,
+              0,
+              111,
+              0,
+              117,
+              0,
+              114,
+              0,
+              10,
+              0,
+              72,
+              0,
+              111,
+              0,
+              117,
+              0,
+              114,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " Remaining",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 24,
+      "LabelName": "mission_49",
+      "LabelHash": 1014484662,
+      "OriginalText": "{0}  Remaining",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              12,
+              0,
+              77,
+              0,
+              105,
+              0,
+              110,
+              0,
+              117,
+              0,
+              116,
+              0,
+              101,
+              0,
+              14,
+              0,
+              77,
+              0,
+              105,
+              0,
+              110,
+              0,
+              117,
+              0,
+              116,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " Remaining",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 25,
+      "LabelName": "mission_50",
+      "LabelHash": -2070629052,
+      "OriginalText": "<1 Minute Remaining",
+      "TextInfos": [
+        {
+          "Text": "<1 Minute Remaining",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 26,
+      "LabelName": "mission_51",
+      "LabelHash": 658254303,
+      "OriginalText": "Get Started",
+      "TextInfos": [
+        {
+          "Text": "Get Started",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 27,
+      "LabelName": "mission_52",
+      "LabelHash": -907829638,
+      "OriginalText": "{0}/{1}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              2
+            ]
+          }
+        },
+        {
+          "Text": "/",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              1,
+              2
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 28,
+      "LabelName": "mission_condition1012",
+      "LabelHash": 548115000,
+      "OriginalText": "Use extremely effective  {0} !",
+      "TextInfos": [
+        {
+          "Text": "Use ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              6,
+              0,
+              97,
+              0,
+              110,
+              0,
+              32,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "extremely effective ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              8,
+              0,
+              109,
+              0,
+              111,
+              0,
+              118,
+              0,
+              101,
+              0,
+              10,
+              0,
+              109,
+              0,
+              111,
+              0,
+              118,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              8,
+              0,
+              116,
+              0,
+              105,
+              0,
+              109,
+              0,
+              101,
+              0,
+              10,
+              0,
+              116,
+              0,
+              105,
+              0,
+              109,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 29,
+      "LabelName": "mission_condition1080",
+      "LabelHash": -661738579,
+      "OriginalText": "Win {0} Ranked Battle without\nany of your team fainting!",
+      "TextInfos": [
+        {
+          "Text": "Win ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " Ranked Battle",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " without",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "any of your team fainting!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 51
+    },
+    {
+      "Index": 30,
+      "LabelName": "mission_condition2000",
+      "LabelHash": 1690711440,
+      "OriginalText": "Log in to the game!",
+      "TextInfos": [
+        {
+          "Text": "Log in to the game!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 31,
+      "LabelName": "mission_condition3011",
+      "LabelHash": 265789999,
+      "OriginalText": "Recruit a Pokémon, whether on\na trial basis or permanently!",
+      "TextInfos": [
+        {
+          "Text": "Recruit a Pokémon, whether on",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "a trial basis or permanently!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 32,
+      "LabelName": "mission_condition4001",
+      "LabelHash": 1408386437,
+      "OriginalText": "Spend at least {0} VP\non training your Pokémon!",
+      "TextInfos": [
+        {
+          "Text": "Spend at least ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              2
+            ]
+          }
+        },
+        {
+          "Text": " VP",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "on training your Pokémon!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 33,
+      "LabelName": "mission_kikangentei",
+      "LabelHash": -1943543295,
+      "OriginalText": "Event Missions",
+      "TextInfos": [
+        {
+          "Text": "Event Missions",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 34,
+      "LabelName": "mission_condition4501st",
+      "LabelHash": -478917929,
+      "OriginalText": "Use the Replica Team feature\nto share a Battle Team!",
+      "TextInfos": [
+        {
+          "Text": "Use the Replica Team feature",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "to share a Battle Team!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 35,
+      "LabelName": "mission_condition4500st",
+      "LabelHash": -478917898,
+      "OriginalText": "Use the Auto Team Build feature\nto build a Battle Team!",
+      "TextInfos": [
+        {
+          "Text": "Use the Auto Team Build feature",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "to build a Battle Team!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 36,
+      "LabelName": "mission_condition9050st",
+      "LabelHash": 2060460459,
+      "OriginalText": "Check out the Battle Data screen!",
+      "TextInfos": [
+        {
+          "Text": "Check out the Battle Data screen!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 37,
+      "LabelName": "mission_condition6001st",
+      "LabelHash": 763663452,
+      "OriginalText": "Do some shopping in the Shop screen!",
+      "TextInfos": [
+        {
+          "Text": "Do some shopping in the Shop screen!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 38,
+      "LabelName": "mission_condition6500st",
+      "LabelHash": 763660096,
+      "OriginalText": "Change your outfit!",
+      "TextInfos": [
+        {
+          "Text": "Change your outfit!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 39,
+      "LabelName": "mission_condition9060st",
+      "LabelHash": 998417594,
+      "OriginalText": "Check out the News section!",
+      "TextInfos": [
+        {
+          "Text": "Check out the News section!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 40,
+      "LabelName": "mission_condition9040st",
+      "LabelHash": 716092592,
+      "OriginalText": "Link your game to a social media account!",
+      "TextInfos": [
+        {
+          "Text": "Link your game to a social media account!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 41,
+      "LabelName": "mission_condition9041st",
+      "LabelHash": 716092623,
+      "OriginalText": "Collect a Pokémon from Pokémon HOME!",
+      "TextInfos": [
+        {
+          "Text": "Collect a Pokémon from Pokémon HOME!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 42,
+      "LabelName": "mission_condition9030st_1",
+      "LabelHash": -2076072681,
+      "OriginalText": "Reach the Great Ball Tier (Single Battle format)\nin Ranked Battles!",
+      "TextInfos": [
+        {
+          "Text": "Reach the Great Ball Tier (Single Battle format)",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "in Ranked Battles!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 43,
+      "LabelName": "mission_condition9030st_2",
+      "LabelHash": -2076072682,
+      "OriginalText": "Reach the Great Ball Tier (Double Battle format)\nin Ranked Battles!",
+      "TextInfos": [
+        {
+          "Text": "Reach the Great Ball Tier (Double Battle format)",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "in Ranked Battles!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 44,
+      "LabelName": "mission_condition1001st",
+      "LabelHash": -107062773,
+      "OriginalText": "Win {0} Casual Battle!",
+      "TextInfos": [
+        {
+          "Text": "Win ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " Casual Battle",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 45,
+      "LabelName": "mission_condition1002st",
+      "LabelHash": -107062998,
+      "OriginalText": "Take part in {0} Private Battle!",
+      "TextInfos": [
+        {
+          "Text": "Take part in ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " Private Battle",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 46,
+      "LabelName": "mission_condition1002subsc",
+      "LabelHash": -561786377,
+      "OriginalText": "Take part in {0} Ranked Battle!",
+      "TextInfos": [
+        {
+          "Text": "Take part in ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " Ranked Battle",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 47,
+      "LabelName": "mission_starter",
+      "LabelHash": 342278852,
+      "OriginalText": "Starter Missions",
+      "TextInfos": [
+        {
+          "Text": "Starter Missions",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 48,
+      "LabelName": "mission_reroll_confirm",
+      "LabelHash": 1386541684,
+      "OriginalText": "Do you want to reroll this mission?\n\nNote: If you reroll to get a new mission, any progress\nyou made toward the old mission will be lost.",
+      "TextInfos": [
+        {
+          "Text": "Do you want to reroll this mission?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Note: If you reroll to get a new mission, any progress",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "you made toward the old mission will be lost.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 49,
+      "LabelName": "mission_reroll_zero_notice",
+      "LabelHash": 1102429101,
+      "OriginalText": "You have no rerolls remaining!\n\nNote: You will receive more rerolls the next\ntime you get a new batch of missions.",
+      "TextInfos": [
+        {
+          "Text": "You have no rerolls remaining!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Note: You will receive more rerolls the next",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "time you get a new batch of missions.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 50,
+      "LabelName": "mission_no_membership",
+      "LabelHash": -1453693413,
+      "OriginalText": "This reward requires a membership.\nDo you wish to purchase a membership?",
+      "TextInfos": [
+        {
+          "Text": "This reward requires a membership.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Do you wish to purchase a membership?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 51,
+      "LabelName": "mission_membership_category",
+      "LabelHash": 1923647214,
+      "OriginalText": "Membership Missions",
+      "TextInfos": [
+        {
+          "Text": "Membership Missions",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    }
+  ]
+}

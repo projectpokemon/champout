@@ -1,0 +1,785 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "item_ticket",
+  "languageCode": 20,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "item_ticket_00",
+      "LabelHash": -1414054123,
+      "OriginalText": "Teammate Ticket",
+      "TextInfos": [
+        {
+          "Text": "Teammate Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 1,
+      "LabelName": "item_ticket_01",
+      "LabelHash": 1314829232,
+      "OriginalText": "Quick Coupon",
+      "TextInfos": [
+        {
+          "Text": "Quick Coupon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 2,
+      "LabelName": "item_ticket_02",
+      "LabelHash": 1718113759,
+      "OriginalText": "Normal-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Normal-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 3,
+      "LabelName": "item_ticket_03",
+      "LabelHash": 152029818,
+      "OriginalText": "Fighting-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Fighting-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 4,
+      "LabelName": "item_ticket_04",
+      "LabelHash": 555314345,
+      "OriginalText": "Flying-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Flying-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 5,
+      "LabelName": "item_ticket_05",
+      "LabelHash": -1010769596,
+      "OriginalText": "Poison-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Poison-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 6,
+      "LabelName": "item_ticket_06",
+      "LabelHash": -607485069,
+      "OriginalText": "Ground-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Ground-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 7,
+      "LabelName": "item_ticket_07",
+      "LabelHash": 2121398286,
+      "OriginalText": "Rock-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Rock-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 8,
+      "LabelName": "item_ticket_08",
+      "LabelHash": -1770284483,
+      "OriginalText": "Bug-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Bug-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 9,
+      "LabelName": "item_ticket_09",
+      "LabelHash": 958598872,
+      "OriginalText": "Ghost-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Ghost-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 10,
+      "LabelName": "item_ticket_10",
+      "LabelHash": -1414054122,
+      "OriginalText": "Steel-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Steel-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 11,
+      "LabelName": "item_ticket_11",
+      "LabelHash": 1314829233,
+      "OriginalText": "Fire-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Fire-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 12,
+      "LabelName": "item_ticket_12",
+      "LabelHash": 1718113760,
+      "OriginalText": "Water-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Water-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 13,
+      "LabelName": "item_ticket_13",
+      "LabelHash": 152029819,
+      "OriginalText": "Grass-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Grass-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 14,
+      "LabelName": "item_ticket_14",
+      "LabelHash": 555314346,
+      "OriginalText": "Electric-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Electric-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 15,
+      "LabelName": "item_ticket_15",
+      "LabelHash": -1010769595,
+      "OriginalText": "Psychic-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Psychic-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 16,
+      "LabelName": "item_ticket_16",
+      "LabelHash": -607485068,
+      "OriginalText": "Ice-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Ice-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 17,
+      "LabelName": "item_ticket_17",
+      "LabelHash": 2121398287,
+      "OriginalText": "Dragon-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Dragon-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 18,
+      "LabelName": "item_ticket_18",
+      "LabelHash": -1770284482,
+      "OriginalText": "Dark-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Dark-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 19,
+      "LabelName": "item_ticket_19",
+      "LabelHash": 958598873,
+      "OriginalText": "Fairy-Type Affinity Ticket",
+      "TextInfos": [
+        {
+          "Text": "Fairy-Type Affinity Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 21,
+      "LabelName": "item_ticket_21",
+      "LabelHash": 1314829234,
+      "OriginalText": "Ultra Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Ultra Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 22,
+      "LabelName": "item_ticket_22",
+      "LabelHash": 1718113761,
+      "OriginalText": "Great Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Great Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 23,
+      "LabelName": "item_ticket_23",
+      "LabelHash": 152029820,
+      "OriginalText": "Poké Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Poké Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 25,
+      "LabelName": "item_ticket_25",
+      "LabelHash": -1010769594,
+      "OriginalText": "Net Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Net Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 26,
+      "LabelName": "item_ticket_26",
+      "LabelHash": -607485067,
+      "OriginalText": "Dive Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Dive Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 27,
+      "LabelName": "item_ticket_27",
+      "LabelHash": 2121398288,
+      "OriginalText": "Nest Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Nest Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 28,
+      "LabelName": "item_ticket_28",
+      "LabelHash": -1770284481,
+      "OriginalText": "Repeat Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Repeat Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 29,
+      "LabelName": "item_ticket_29",
+      "LabelHash": 958598874,
+      "OriginalText": "Timer Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Timer Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 30,
+      "LabelName": "item_ticket_30",
+      "LabelHash": -1414054120,
+      "OriginalText": "Luxury Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Luxury Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 31,
+      "LabelName": "item_ticket_31",
+      "LabelHash": 1314829235,
+      "OriginalText": "Premier Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Premier Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 32,
+      "LabelName": "item_ticket_32",
+      "LabelHash": 1718113762,
+      "OriginalText": "Dusk Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Dusk Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 33,
+      "LabelName": "item_ticket_33",
+      "LabelHash": 152029821,
+      "OriginalText": "Heal Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Heal Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 34,
+      "LabelName": "item_ticket_34",
+      "LabelHash": 555314348,
+      "OriginalText": "Quick Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Quick Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 45,
+      "LabelName": "item_ticket_48",
+      "LabelHash": -1770284479,
+      "OriginalText": "Training Ticket",
+      "TextInfos": [
+        {
+          "Text": "Training Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 46,
+      "LabelName": "item_ticket_49",
+      "LabelHash": 958598876,
+      "OriginalText": "Rare Poké Ball Guaranteed Ticket",
+      "TextInfos": [
+        {
+          "Text": "Rare Poké Ball Guaranteed Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    }
+  ]
+}

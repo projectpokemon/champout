@@ -1,0 +1,1450 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "achievements",
+  "languageCode": 10,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "achive_1001",
+      "LabelHash": 298844315,
+      "OriginalText": "百戦錬磨",
+      "TextInfos": [
+        {
+          "Text": "百戦錬磨",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 1,
+      "LabelName": "achive_1010",
+      "LabelHash": -1267239625,
+      "OriginalText": "ばつぐんマスター",
+      "TextInfos": [
+        {
+          "Text": "ばつぐんマスター",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 2,
+      "LabelName": "achive_1011",
+      "LabelHash": -1267239626,
+      "OriginalText": "狙い撃ち",
+      "TextInfos": [
+        {
+          "Text": "狙い撃ち",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 3,
+      "LabelName": "achive_1020",
+      "LabelHash": 1461643730,
+      "OriginalText": "メガシンカマスター",
+      "TextInfos": [
+        {
+          "Text": "メガシンカマスター",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 4,
+      "LabelName": "achive_info_1001",
+      "LabelHash": 1834677740,
+      "OriginalText": "ランクバトルの　シングルバトル　または\nダブルバトルで　{0}回　勝利しよう！",
+      "TextInfos": [
+        {
+          "Text": "ランクバトルの　シングルバトル　または",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ダブルバトルで　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "回　勝利しよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 5,
+      "LabelName": "achive_info_1010",
+      "LabelHash": 268593798,
+      "OriginalText": "{0}回　効果ばつぐんを出そう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "回　効果ばつぐんを出そう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 6,
+      "LabelName": "achive_info_1011",
+      "LabelHash": 1834677739,
+      "OriginalText": "{0}回　急所に当てよう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "回　急所に当てよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 7,
+      "LabelName": "achive_info_1020",
+      "LabelHash": 268593801,
+      "OriginalText": "{0}回　メガシンカさせよう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "回　メガシンカさせよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 8,
+      "LabelName": "achive_5001",
+      "LabelHash": 863494319,
+      "OriginalText": "{1}ファン",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "ファン",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 9,
+      "LabelName": "achive_info_5001",
+      "LabelHash": 1834677608,
+      "OriginalText": "{1}をバトルに選出し\n{0}回　勝利しよう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "をバトルに選出し",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "回　勝利しよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 10,
+      "LabelName": "achive_info_1012",
+      "LabelHash": 1431393212,
+      "OriginalText": "{0}回\n効果ちょうばつぐんを出そう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "回",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "効果ちょうばつぐんを出そう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 11,
+      "LabelName": "achive_info_1032",
+      "LabelHash": 1431393214,
+      "OriginalText": "{0}回　{2}タイプの\nポケモンをバトルに選出し　勝利しよう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "回　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "タイプの",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ポケモンをバトルに選出し　勝利しよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 12,
+      "LabelName": "achive_info_1061",
+      "LabelHash": 1834677738,
+      "OriginalText": "{0}回\n{2}タイプの技を使おう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "回",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "タイプの技を使おう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 13,
+      "LabelName": "achive_info_1080_1",
+      "LabelHash": -317840087,
+      "OriginalText": "ランクバトル　シングルバトルで\n１匹も倒されずに{0}回　勝利しよう！",
+      "TextInfos": [
+        {
+          "Text": "ランクバトル　シングルバトルで",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "１匹も倒されずに",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "回　勝利しよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 14,
+      "LabelName": "achive_info_1080_2",
+      "LabelHash": -721124614,
+      "OriginalText": "ランクバトル　ダブルバトルで\n１匹も倒されずに{0}回　勝利しよう！",
+      "TextInfos": [
+        {
+          "Text": "ランクバトル　ダブルバトルで",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "１匹も倒されずに",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "回　勝利しよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 15,
+      "LabelName": "achive_info_6000",
+      "LabelHash": 268593636,
+      "OriginalText": "ショップで{0}ＶＰ　使おう！",
+      "TextInfos": [
+        {
+          "Text": "ショップで",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 6,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "ＶＰ　使おう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 16,
+      "LabelName": "achive_1012",
+      "LabelHash": -1267239623,
+      "OriginalText": "ちょうばつぐんマスター",
+      "TextInfos": [
+        {
+          "Text": "ちょうばつぐんマスター",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 17,
+      "LabelName": "achive_1032",
+      "LabelHash": -104440209,
+      "OriginalText": "{2}タイプを選出して勝利",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "タイプを選出して勝利",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 18,
+      "LabelName": "achive_1061",
+      "LabelHash": -863955099,
+      "OriginalText": "{2}タイプ技の猛者",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "タイプ技の猛者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 19,
+      "LabelName": "achive_6000",
+      "LabelHash": 1885131233,
+      "OriginalText": "ショッピングマニア",
+      "TextInfos": [
+        {
+          "Text": "ショッピングマニア",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 20,
+      "LabelName": "achive_9010_2",
+      "LabelHash": 408039752,
+      "OriginalText": "バッジコレクター",
+      "TextInfos": [
+        {
+          "Text": "バッジコレクター",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 21,
+      "LabelName": "achive_9010_3",
+      "LabelHash": 408039751,
+      "OriginalText": "称号王",
+      "TextInfos": [
+        {
+          "Text": "称号王",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 22,
+      "LabelName": "achive_info_9010_2",
+      "LabelHash": -721116325,
+      "OriginalText": "バッジを{0}種類　集める",
+      "TextInfos": [
+        {
+          "Text": "バッジを",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "種類　集める",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 23,
+      "LabelName": "achive_info_9010_3",
+      "LabelHash": 844967616,
+      "OriginalText": "{0}種類　称号を手に入れよう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "種類　称号を手に入れよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 24,
+      "LabelName": "achievements_128",
+      "LabelHash": -1934051792,
+      "OriginalText": "{0}/{1}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 6,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "/",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 6,
+            "Params": [
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 25,
+      "LabelName": "achievements_129",
+      "LabelHash": -367967851,
+      "OriginalText": "上限まで　持っているので\nプレゼントを受け取れませんでした",
+      "TextInfos": [
+        {
+          "Text": "上限まで　持っているので",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "プレゼントを受け取れませんでした",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 26,
+      "LabelName": "achive_1080_1",
+      "LabelHash": -805103744,
+      "OriginalText": "シングルバトル完封",
+      "TextInfos": [
+        {
+          "Text": "シングルバトル完封",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 27,
+      "LabelName": "achive_1080_2",
+      "LabelHash": -805103741,
+      "OriginalText": "ダブルバトル完封",
+      "TextInfos": [
+        {
+          "Text": "ダブルバトル完封",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 28,
+      "LabelName": "achive_9010_5",
+      "LabelHash": 408039745,
+      "OriginalText": "トップスマニア",
+      "TextInfos": [
+        {
+          "Text": "トップスマニア",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 29,
+      "LabelName": "achive_info_9010_5",
+      "LabelHash": 1651536670,
+      "OriginalText": "{0}着　トップスを集めよう！\n※インナーを除きます",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "着　トップスを集めよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "※インナーを除きます",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 30,
+      "LabelName": "achive_9010_6",
+      "LabelHash": 408039748,
+      "OriginalText": "ボトムスマニア",
+      "TextInfos": [
+        {
+          "Text": "ボトムスマニア",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 31,
+      "LabelName": "achive_info_9010_6",
+      "LabelHash": 1248252143,
+      "OriginalText": "{0}着　ボトムスを集めよう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "着　ボトムスを集めよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 32,
+      "LabelName": "achive_9010_4",
+      "LabelHash": 408039746,
+      "OriginalText": "アイコンコレクター",
+      "TextInfos": [
+        {
+          "Text": "アイコンコレクター",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 33,
+      "LabelName": "achive_info_9010_4",
+      "LabelHash": 85452729,
+      "OriginalText": "{0}種類　アイコンを集めよう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "種類　アイコンを集めよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 34,
+      "LabelName": "achive_trainer",
+      "LabelHash": 1334943562,
+      "OriginalText": "トレーナー実績を見る",
+      "TextInfos": [
+        {
+          "Text": "トレーナー実績を見る",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 35,
+      "LabelName": "achive_9031_45",
+      "LabelHash": -847637278,
+      "OriginalText": "ポケモンチャンピオンズ",
+      "TextInfos": [
+        {
+          "Text": "ポケモンチャンピオンズ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 36,
+      "LabelName": "achive_info_9031_45",
+      "LabelHash": -1711237137,
+      "OriginalText": "ランクバトルのチャンピオン級で\n{0}回　シーズン終了を迎えよう！",
+      "TextInfos": [
+        {
+          "Text": "ランクバトルのチャンピオン級で",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "回　シーズン終了を迎えよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 37,
+      "LabelName": "achive_9070",
+      "LabelHash": 735628249,
+      "OriginalText": "大会のヌシ",
+      "TextInfos": [
+        {
+          "Text": "大会のヌシ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 38,
+      "LabelName": "achive_info_9070",
+      "LabelHash": 268594060,
+      "OriginalText": "大会に{0}回　参加しよう！",
+      "TextInfos": [
+        {
+          "Text": "大会に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "回　参加しよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 39,
+      "LabelName": "achive_complete",
+      "LabelHash": 880524134,
+      "OriginalText": "ＣＯＭＰＬＥＴＥ",
+      "TextInfos": [
+        {
+          "Text": "ＣＯＭＰＬＥＴＥ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    }
+  ]
+}

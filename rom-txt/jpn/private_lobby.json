@@ -1,0 +1,4198 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "private_lobby",
+  "languageCode": 10,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "private_lobby_button_00",
+      "LabelHash": 266608284,
+      "OriginalText": "ルームを作る",
+      "TextInfos": [
+        {
+          "Text": "ルームを作る",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 1,
+      "LabelName": "private_lobby_button_01",
+      "LabelHash": 266608283,
+      "OriginalText": "ルームＩＤを入力",
+      "TextInfos": [
+        {
+          "Text": "ルームＩＤを入力",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 2,
+      "LabelName": "private_lobby_button_02",
+      "LabelHash": 266608286,
+      "OriginalText": "ルーム作成者からの招待",
+      "TextInfos": [
+        {
+          "Text": "ルーム作成者からの招待",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 3,
+      "LabelName": "private_lobby_01",
+      "LabelHash": -807342292,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 53,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 77
+    },
+    {
+      "Index": 4,
+      "LabelName": "private_lobby_01_01",
+      "LabelHash": -810659346,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 53,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 5,
+      "LabelName": "private_lobby_02",
+      "LabelHash": 758741649,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 84,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 6,
+      "LabelName": "private_lobby_03",
+      "LabelHash": -1970141706,
+      "OriginalText": "{0}匹",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "匹",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 5
+    },
+    {
+      "Index": 7,
+      "LabelName": "private_lobby_04",
+      "LabelHash": -404057765,
+      "OriginalText": "{0}分",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "分",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 8,
+      "LabelName": "private_lobby_05",
+      "LabelHash": 1162026176,
+      "OriginalText": "{0}分",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "分",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 9,
+      "LabelName": "private_lobby_06",
+      "LabelHash": -1566857179,
+      "OriginalText": "{0}秒",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "秒",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 10,
+      "LabelName": "private_lobby_08",
+      "LabelHash": -2017195873,
+      "OriginalText": "このルールで　ルームを作りますか？",
+      "TextInfos": [
+        {
+          "Text": "このルールで　ルームを",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              100,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "作りますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 11,
+      "LabelName": "private_lobby_09",
+      "LabelHash": -451111932,
+      "OriginalText": "ルームＩＤを入力してください",
+      "TextInfos": [
+        {
+          "Text": "ルームＩＤを",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              12,
+              0,
+              107,
+              48,
+              133,
+              48,
+              70,
+              48,
+              138,
+              48,
+              135,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "入力してください",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 12,
+      "LabelName": "private_lobby_button_03",
+      "LabelHash": 266608285,
+      "OriginalText": "ルームメンバー",
+      "TextInfos": [
+        {
+          "Text": "ルームメンバー",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 13,
+      "LabelName": "private_lobby_button_04",
+      "LabelHash": 266608288,
+      "OriginalText": "ルームメニュー",
+      "TextInfos": [
+        {
+          "Text": "ルームメニュー",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 14,
+      "LabelName": "private_lobby_button_06",
+      "LabelHash": 266608290,
+      "OriginalText": "準備中",
+      "TextInfos": [
+        {
+          "Text": "準備中",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 15,
+      "LabelName": "private_lobby_button_07",
+      "LabelHash": 266608289,
+      "OriginalText": "準備完了",
+      "TextInfos": [
+        {
+          "Text": "準備完了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 16,
+      "LabelName": "private_lobby_button_08",
+      "LabelHash": 266608276,
+      "OriginalText": "対戦中",
+      "TextInfos": [
+        {
+          "Text": "対戦中",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 17,
+      "LabelName": "private_lobby_button_09",
+      "LabelHash": 266608275,
+      "OriginalText": "対戦予約",
+      "TextInfos": [
+        {
+          "Text": "対戦予約",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 18,
+      "LabelName": "private_lobby_button_10",
+      "LabelHash": -1299475657,
+      "OriginalText": "観戦中",
+      "TextInfos": [
+        {
+          "Text": "観戦中",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 19,
+      "LabelName": "private_lobby_button_11",
+      "LabelHash": -1299475658,
+      "OriginalText": "対戦する",
+      "TextInfos": [
+        {
+          "Text": "対戦する",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 20,
+      "LabelName": "private_lobby_button_12",
+      "LabelHash": -1299475655,
+      "OriginalText": "対戦予約する",
+      "TextInfos": [
+        {
+          "Text": "対戦予約する",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 21,
+      "LabelName": "private_lobby_button_13",
+      "LabelHash": -1299475656,
+      "OriginalText": "観戦する",
+      "TextInfos": [
+        {
+          "Text": "観戦する",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 22,
+      "LabelName": "private_lobby_button_15",
+      "LabelHash": -1299475654,
+      "OriginalText": "ルームを見る",
+      "TextInfos": [
+        {
+          "Text": "ルームを見る",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 23,
+      "LabelName": "private_lobby_button_16",
+      "LabelHash": -1299475651,
+      "OriginalText": "対戦予約　{0}人",
+      "TextInfos": [
+        {
+          "Text": "対戦予約　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "人",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 24,
+      "LabelName": "private_lobby_button_17",
+      "LabelHash": -1299475652,
+      "OriginalText": "フレンド招待",
+      "TextInfos": [
+        {
+          "Text": "フレンド招待",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 32
+    },
+    {
+      "Index": 25,
+      "LabelName": "private_lobby_button_18",
+      "LabelHash": -1299475665,
+      "OriginalText": "退出させるトレーナーを選ぶ",
+      "TextInfos": [
+        {
+          "Text": "退出させるトレーナーを選ぶ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 32
+    },
+    {
+      "Index": 26,
+      "LabelName": "private_lobby_button_20",
+      "LabelHash": 1429407698,
+      "OriginalText": "対戦情報のリセット",
+      "TextInfos": [
+        {
+          "Text": "対戦情報のリセット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 27,
+      "LabelName": "private_lobby_25",
+      "LabelHash": 1162026174,
+      "OriginalText": "バトルルール",
+      "TextInfos": [
+        {
+          "Text": "バトルルール",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 28,
+      "LabelName": "private_lobby_26",
+      "LabelHash": -1566857181,
+      "OriginalText": "ポケモンの数",
+      "TextInfos": [
+        {
+          "Text": "ポケモンの数",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 29,
+      "LabelName": "private_lobby_27",
+      "LabelHash": -773240,
+      "OriginalText": "総合時間",
+      "TextInfos": [
+        {
+          "Text": "総合時間",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 30,
+      "LabelName": "private_lobby_28",
+      "LabelHash": -2017195875,
+      "OriginalText": "持ち時間",
+      "TextInfos": [
+        {
+          "Text": "持ち時間",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 31,
+      "LabelName": "private_lobby_29",
+      "LabelHash": -451111934,
+      "OriginalText": "選択時間",
+      "TextInfos": [
+        {
+          "Text": "選択時間",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 32,
+      "LabelName": "private_lobby_30",
+      "LabelHash": 1921541060,
+      "OriginalText": "特別な要素",
+      "TextInfos": [
+        {
+          "Text": "特別な要素",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 33,
+      "LabelName": "private_lobby_31",
+      "LabelHash": -807342295,
+      "OriginalText": "シングルバトル",
+      "TextInfos": [
+        {
+          "Text": "シングルバトル",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 34,
+      "LabelName": "private_lobby_33",
+      "LabelHash": -1970141709,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 35,
+      "LabelName": "private_lobby_34",
+      "LabelHash": -404057768,
+      "OriginalText": "{0}の勝利　対戦相手は{1}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "の勝利　対戦相手は",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 36,
+      "LabelName": "private_lobby_35",
+      "LabelHash": 1162026173,
+      "OriginalText": "{0}　{1}連勝中！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "連勝中！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 37,
+      "LabelName": "private_lobby_37",
+      "LabelHash": -773241,
+      "OriginalText": "{0}　{1}勝／{2}戦",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "勝／",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "戦",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 58
+    },
+    {
+      "Index": 38,
+      "LabelName": "private_lobby_38",
+      "LabelHash": -2017195876,
+      "OriginalText": "ダブルバトル",
+      "TextInfos": [
+        {
+          "Text": "ダブルバトル",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 39,
+      "LabelName": "private_lobby_42",
+      "LabelHash": 758741645,
+      "OriginalText": "ルームが　見つかりませんでした",
+      "TextInfos": [
+        {
+          "Text": "ルームが　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              127,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "見つかりませんでした",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 40,
+      "LabelName": "private_lobby_43",
+      "LabelHash": -1970141710,
+      "OriginalText": "{0}のルームに　入りますか？",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "のルームに　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              111,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "入りますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 41,
+      "LabelName": "private_lobby_45",
+      "LabelHash": 1162026172,
+      "OriginalText": "メガシンカ可能",
+      "TextInfos": [
+        {
+          "Text": "メガシンカ可能",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 42,
+      "LabelName": "private_lobby_49",
+      "LabelHash": -451111936,
+      "OriginalText": "ルームＩＤ",
+      "TextInfos": [
+        {
+          "Text": "ルームＩＤ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 43,
+      "LabelName": "private_lobby_50",
+      "LabelHash": 1921541058,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 100,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 44,
+      "LabelName": "private_lobby_52",
+      "LabelHash": 758741644,
+      "OriginalText": "コート{0}",
+      "TextInfos": [
+        {
+          "Text": "コート",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 7
+    },
+    {
+      "Index": 45,
+      "LabelName": "private_lobby_53",
+      "LabelHash": -1970141711,
+      "OriginalText": "{0}:{1}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ":",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 46,
+      "LabelName": "private_lobby_56",
+      "LabelHash": -1566857184,
+      "OriginalText": "スタイル変更",
+      "TextInfos": [
+        {
+          "Text": "スタイル変更",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 47,
+      "LabelName": "private_lobby_66",
+      "LabelHash": -1566857185,
+      "OriginalText": "参加できるトレーナーの設定",
+      "TextInfos": [
+        {
+          "Text": "参加できるトレーナーの設定",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 32
+    },
+    {
+      "Index": 48,
+      "LabelName": "private_lobby_74",
+      "LabelHash": -404057772,
+      "OriginalText": "招待リスト",
+      "TextInfos": [
+        {
+          "Text": "招待リスト",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 49,
+      "LabelName": "private_lobby_75",
+      "LabelHash": 1162026169,
+      "OriginalText": "なし",
+      "TextInfos": [
+        {
+          "Text": "なし",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 50,
+      "LabelName": "private_lobby_76",
+      "LabelHash": -1566857186,
+      "OriginalText": "ルーム作成",
+      "TextInfos": [
+        {
+          "Text": "ルーム作成",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 52,
+      "LabelName": "private_lobby_79",
+      "LabelHash": -451111939,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 4
+    },
+    {
+      "Index": 53,
+      "LabelName": "private_lobby_80",
+      "LabelHash": 1921541055,
+      "OriginalText": "対戦情報を見る",
+      "TextInfos": [
+        {
+          "Text": "対戦情報を見る",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 54,
+      "LabelName": "private_lobby_81",
+      "LabelHash": -807342300,
+      "OriginalText": "{0}/{1}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "/",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 55,
+      "LabelName": "private_lobby_82",
+      "LabelHash": 758741641,
+      "OriginalText": "対戦受付中",
+      "TextInfos": [
+        {
+          "Text": "対戦受付中",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 56,
+      "LabelName": "private_lobby_83",
+      "LabelHash": -1970141714,
+      "OriginalText": "対戦準備中",
+      "TextInfos": [
+        {
+          "Text": "対戦準備中",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 57,
+      "LabelName": "private_lobby_84",
+      "LabelHash": -404057773,
+      "OriginalText": "対戦中",
+      "TextInfos": [
+        {
+          "Text": "対戦中",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 58,
+      "LabelName": "private_lobby_85",
+      "LabelHash": 1162026168,
+      "OriginalText": "準備完了",
+      "TextInfos": [
+        {
+          "Text": "準備完了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 59,
+      "LabelName": "private_lobby_86",
+      "LabelHash": -1566857187,
+      "OriginalText": "対戦予約をキャンセルしますか？",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              95,
+              48,
+              68,
+              48,
+              91,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "対戦",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              136,
+              48,
+              132,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "予約をキャンセルしますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 60,
+      "LabelName": "private_lobby_88",
+      "LabelHash": -2017195881,
+      "OriginalText": "{0}を\nルームに招待しますか？",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ルームに",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              87,
+              48,
+              135,
+              48,
+              70,
+              48,
+              95,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "招待しますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 61,
+      "LabelName": "private_lobby_89",
+      "LabelHash": -451111940,
+      "OriginalText": "{0}を\nルームに招待しました",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ルームに",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              87,
+              48,
+              135,
+              48,
+              70,
+              48,
+              95,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "招待しました",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 62,
+      "LabelName": "private_lobby_90",
+      "LabelHash": 1921541054,
+      "OriginalText": "{0}への招待を\nキャンセルしますか？",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "への",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              87,
+              48,
+              135,
+              48,
+              70,
+              48,
+              95,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "招待を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "キャンセルしますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 63,
+      "LabelName": "private_lobby_91",
+      "LabelHash": -807342301,
+      "OriginalText": "{0}への招待を\nキャンセルしました",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "への",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              87,
+              48,
+              135,
+              48,
+              70,
+              48,
+              95,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "招待を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "キャンセルしました",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 64,
+      "LabelName": "private_lobby_92",
+      "LabelHash": 758741640,
+      "OriginalText": "ルームに入れるトレーナーを\nフレンドのみ　にしますか？",
+      "TextInfos": [
+        {
+          "Text": "ルームに",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              111,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "入れるトレーナーを",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "フレンドのみ　にしますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 65,
+      "LabelName": "private_lobby_93",
+      "LabelHash": -1970141715,
+      "OriginalText": "ルームに入れるトレーナーを\nフレンドのみ　にしました",
+      "TextInfos": [
+        {
+          "Text": "ルームに",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              111,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "入れるトレーナーを",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "フレンドのみ　にしました",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 66,
+      "LabelName": "private_lobby_94",
+      "LabelHash": -404057774,
+      "OriginalText": "ルームに入れるトレーナーを\n全てのトレーナー　にしますか？",
+      "TextInfos": [
+        {
+          "Text": "ルームに",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              111,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "入れるトレーナーを",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              89,
+              48,
+              121,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "全てのトレーナー　にしますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 67,
+      "LabelName": "private_lobby_95",
+      "LabelHash": 1162026167,
+      "OriginalText": "ルームに入れるトレーナーを\n全てのトレーナー　にしました",
+      "TextInfos": [
+        {
+          "Text": "ルームに",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              111,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "入れるトレーナーを",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              89,
+              48,
+              121,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "全てのトレーナー　にしました",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 68,
+      "LabelName": "private_lobby_96",
+      "LabelHash": -1566857188,
+      "OriginalText": "{0}を\nルームから退出させますか？",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ルームから",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              95,
+              48,
+              68,
+              48,
+              87,
+              48,
+              133,
+              48,
+              100,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "退出させますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 69,
+      "LabelName": "private_lobby_97",
+      "LabelHash": -773247,
+      "OriginalText": "{0}を\nルームから退出させました",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ルームから",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              95,
+              48,
+              68,
+              48,
+              87,
+              48,
+              133,
+              48,
+              100,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "退出させました",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 70,
+      "LabelName": "private_lobby_98",
+      "LabelHash": -2017195882,
+      "OriginalText": "ルームにいるトレーナーの\n対戦情報を　リセットしますか？",
+      "TextInfos": [
+        {
+          "Text": "ルームにいるトレーナーの",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              95,
+              48,
+              68,
+              48,
+              91,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "対戦",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              88,
+              48,
+              135,
+              48,
+              70,
+              48,
+              123,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "情報を　リセットしますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 71,
+      "LabelName": "private_lobby_99",
+      "LabelHash": -451111941,
+      "OriginalText": "ルームにいるトレーナーの\n対戦情報を　リセットしました",
+      "TextInfos": [
+        {
+          "Text": "ルームにいるトレーナーの",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              95,
+              48,
+              68,
+              48,
+              91,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "対戦",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              88,
+              48,
+              135,
+              48,
+              70,
+              48,
+              123,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "情報を　リセットしました",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 72,
+      "LabelName": "private_lobby_100",
+      "LabelHash": 600319894,
+      "OriginalText": "ルームから退出しますか？",
+      "TextInfos": [
+        {
+          "Text": "ルームから",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              95,
+              48,
+              68,
+              48,
+              87,
+              48,
+              133,
+              48,
+              100,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "退出しますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 73,
+      "LabelName": "private_lobby_101",
+      "LabelHash": 600319895,
+      "OriginalText": "※対戦中の場合　対戦終了後に退出します",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              95,
+              48,
+              68,
+              48,
+              91,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "対戦",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              6,
+              0,
+              97,
+              48,
+              133,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "中の",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              112,
+              48,
+              66,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "場合　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              95,
+              48,
+              68,
+              48,
+              91,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "対戦",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              12,
+              0,
+              87,
+              48,
+              133,
+              48,
+              70,
+              48,
+              138,
+              48,
+              135,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "終了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              84,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "後に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              95,
+              48,
+              68,
+              48,
+              87,
+              48,
+              133,
+              48,
+              100,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "退出します",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 74,
+      "LabelName": "private_lobby_102",
+      "LabelHash": 600319892,
+      "OriginalText": "※リセットすると　元に戻せません",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※リセットすると　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              130,
+              48,
+              104,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "元に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              130,
+              48,
+              105,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "戻せません",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 75,
+      "LabelName": "private_lobby_103",
+      "LabelHash": 600319893,
+      "OriginalText": "※ルーム作成者である　あなたが退出すると\n　ルームが解散され　他のルームメンバーは\n　全員　退出することになります",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※ルーム",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              6,
+              0,
+              12,
+              0,
+              85,
+              48,
+              79,
+              48,
+              91,
+              48,
+              68,
+              48,
+              87,
+              48,
+              131,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "作成者である　あなたが",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              95,
+              48,
+              68,
+              48,
+              87,
+              48,
+              133,
+              48,
+              100,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "退出すると",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　ルームが",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              75,
+              48,
+              68,
+              48,
+              85,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "解散され　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              123,
+              48,
+              75,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "他のルームメンバーは",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              92,
+              48,
+              147,
+              48,
+              68,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "全員　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              95,
+              48,
+              68,
+              48,
+              87,
+              48,
+              133,
+              48,
+              100,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "退出することになります",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 76,
+      "LabelName": "private_lobby_104",
+      "LabelHash": 600319890,
+      "OriginalText": "※もう１度　ルームに入る場合は\n　プライベートバトルの　ＴＯＰ画面で\n　ルームＩＤを入力するか\n　ルーム作成者からの招待を　受けてください",
+      "TextInfos": [
+        {
+          "Text": "※もう１",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              105,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "度　ルームに",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              111,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "入る",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              112,
+              48,
+              66,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "場合は",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　プライベートバトルの　ＴＯＰ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              76,
+              48,
+              129,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "画面で",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "ルームＩＤを",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              12,
+              0,
+              107,
+              48,
+              133,
+              48,
+              70,
+              48,
+              138,
+              48,
+              135,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "入力",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "するか",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "ルーム",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              6,
+              0,
+              12,
+              0,
+              85,
+              48,
+              79,
+              48,
+              91,
+              48,
+              68,
+              48,
+              87,
+              48,
+              131,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "作成者からの",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              87,
+              48,
+              135,
+              48,
+              70,
+              48,
+              95,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "招待",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "を　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "受けてください",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 77,
+      "LabelName": "private_lobby_105",
+      "LabelHash": 600319891,
+      "OriginalText": "ルームから退出しました",
+      "TextInfos": [
+        {
+          "Text": "ルームから",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              95,
+              48,
+              68,
+              48,
+              87,
+              48,
+              133,
+              48,
+              100,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "退出しました",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 78,
+      "LabelName": "private_lobby_106",
+      "LabelHash": 600319888,
+      "OriginalText": "対戦終了まで　お待ちください",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              95,
+              48,
+              68,
+              48,
+              91,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "対戦",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              12,
+              0,
+              87,
+              48,
+              133,
+              48,
+              70,
+              48,
+              138,
+              48,
+              135,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "終了まで　お",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              126,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "待ちください",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 79,
+      "LabelName": "private_lobby_107",
+      "LabelHash": 600319889,
+      "OriginalText": "マッチング待機中は\nルームから退出できません",
+      "TextInfos": [
+        {
+          "Text": "マッチング",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              6,
+              0,
+              12,
+              0,
+              95,
+              48,
+              68,
+              48,
+              77,
+              48,
+              97,
+              48,
+              133,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "待機中は",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ルームから",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              95,
+              48,
+              68,
+              48,
+              87,
+              48,
+              133,
+              48,
+              100,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "退出できません",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 80,
+      "LabelName": "private_lobby_now_inviting",
+      "LabelHash": -1094879464,
+      "OriginalText": "招待中",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              87,
+              48,
+              135,
+              48,
+              70,
+              48,
+              95,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "招待",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              6,
+              0,
+              97,
+              48,
+              133,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "中",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    }
+  ]
+}

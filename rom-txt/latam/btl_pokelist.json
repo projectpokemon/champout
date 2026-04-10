@@ -1,0 +1,548 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "btl_pokelist",
+  "languageCode": 100,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "msg_ui_btl_pokelist_error_00",
+      "LabelHash": 154358319,
+      "OriginalText": "{0} ya está combatiendo.▼",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ya está combatiendo.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "▼",
+          "Type": 5,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 0
+    },
+    {
+      "Index": 1,
+      "LabelName": "msg_ui_btl_pokelist_error_02",
+      "LabelHash": 1317157733,
+      "OriginalText": "¡No puedes cambiar a ese Pokémon!▼",
+      "TextInfos": [
+        {
+          "Text": "¡No puedes cambiar a ese Pokémon!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "▼",
+          "Type": 5,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 0
+    },
+    {
+      "Index": 2,
+      "LabelName": "msg_ui_btl_pokelist_error_03",
+      "LabelHash": -248926208,
+      "OriginalText": "¡{0} ya no tiene fuerzas para\ncombatir!▼",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 189,
+            "TagId": 6,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "¡",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ya no tiene fuerzas para",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "combatir!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "▼",
+          "Type": 5,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 0
+    },
+    {
+      "Index": 3,
+      "LabelName": "msg_ui_btl_pokelist_error_04",
+      "LabelHash": -1815010149,
+      "OriginalText": "{0} ya fue seleccionado.▼",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ya fue seleccionado.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "▼",
+          "Type": 5,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 0
+    },
+    {
+      "Index": 4,
+      "LabelName": "msg_ui_btl_pokelist_error_05",
+      "LabelHash": 913873206,
+      "OriginalText": "¡No afecta a {0}!▼",
+      "TextInfos": [
+        {
+          "Text": "¡No afecta a ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "▼",
+          "Type": 5,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 0
+    },
+    {
+      "Index": 5,
+      "LabelName": "msg_ui_btl_pokelist_sel_04",
+      "LabelHash": -1720378371,
+      "OriginalText": "Izquierda",
+      "TextInfos": [
+        {
+          "Text": "Izquierda",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 6,
+      "LabelName": "msg_ui_btl_pokelist_sel_05",
+      "LabelHash": 1008504984,
+      "OriginalText": "Derecha",
+      "TextInfos": [
+        {
+          "Text": "Derecha",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 7,
+      "LabelName": "msg_ui_btl_pokelist_reg_02",
+      "LabelHash": 1411788717,
+      "OriginalText": "Combate Individual",
+      "TextInfos": [
+        {
+          "Text": "Combate Individual",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 8,
+      "LabelName": "msg_ui_btl_pokelist_reg_03",
+      "LabelHash": -154295224,
+      "OriginalText": "Combate Doble",
+      "TextInfos": [
+        {
+          "Text": "Combate Doble",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 9,
+      "LabelName": "msg_ui_btl_pokelist_kihon_00",
+      "LabelHash": 617795408,
+      "OriginalText": "Datos varios",
+      "TextInfos": [
+        {
+          "Text": "Datos varios",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 10,
+      "LabelName": "msg_ui_btl_pokelist_tp_00",
+      "LabelHash": 713209931,
+      "OriginalText": "Características",
+      "TextInfos": [
+        {
+          "Text": "Características",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 11,
+      "LabelName": "msg_ui_btl_pokelist_change_01",
+      "LabelHash": 212108080,
+      "OriginalText": "Sacar a combatir",
+      "TextInfos": [
+        {
+          "Text": "Sacar a combatir",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 12,
+      "LabelName": "msg_ui_status_choose",
+      "LabelHash": 1378917579,
+      "OriginalText": "Seleccionar",
+      "TextInfos": [
+        {
+          "Text": "Seleccionar",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 13,
+      "LabelName": "msg_ui_status_hp_00",
+      "LabelHash": 901611433,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 14,
+      "LabelName": "msg_ui_status_hp_01",
+      "LabelHash": 901611432,
+      "OriginalText": "/{0}",
+      "TextInfos": [
+        {
+          "Text": "/",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 7
+    },
+    {
+      "Index": 15,
+      "LabelName": "msg_ui_status_hp_percent_00",
+      "LabelHash": -710249123,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 16,
+      "LabelName": "msg_ui_status_hp_percent_01",
+      "LabelHash": -710249122,
+      "OriginalText": " %",
+      "TextInfos": [
+        {
+          "Text": " %",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 4
+    }
+  ]
+}

@@ -1,0 +1,1068 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "profile",
+  "languageCode": 20,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "profile_button_00",
+      "LabelHash": 1448757361,
+      "OriginalText": "Trainer ID:",
+      "TextInfos": [
+        {
+          "Text": "Trainer ID:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 1,
+      "LabelName": "profile_button_01",
+      "LabelHash": 1448757362,
+      "OriginalText": "View Gameplay Stats",
+      "TextInfos": [
+        {
+          "Text": "View Gameplay Stats",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 2,
+      "LabelName": "profile_00",
+      "LabelHash": 27634208,
+      "OriginalText": "The ID was copied!",
+      "TextInfos": [
+        {
+          "Text": "The ID was copied!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 3,
+      "LabelName": "profile_01",
+      "LabelHash": 1593718149,
+      "OriginalText": "If you change your current Trainer ID, you won’t be able to use\nit any longer. Do you still wish to change to a new Trainer ID?\n\nNote: This will not affect your current friends or\nother Trainers you have sent friend requests to.",
+      "TextInfos": [
+        {
+          "Text": "If you change your current Trainer ID, you won’t be able to use",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "it any longer. Do you still wish to change to a new Trainer ID?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Note: This will not affect your current friends or",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "other Trainers you have sent friend requests to.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 4,
+      "LabelName": "profile_02",
+      "LabelHash": 1190433622,
+      "OriginalText": "You changed your Trainer ID!",
+      "TextInfos": [
+        {
+          "Text": "You changed your Trainer ID!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 5,
+      "LabelName": "profile_03",
+      "LabelHash": -1538449733,
+      "OriginalText": "Your Trainer ID could not be changed.\nPlease wait a while, then try again.\nError Code: {0}",
+      "TextInfos": [
+        {
+          "Text": "Your Trainer ID could not be changed.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Please wait a while, then try again.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Error Code: ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 6,
+      "LabelName": "profile_button_03",
+      "LabelHash": 1448757364,
+      "OriginalText": "Icons",
+      "TextInfos": [
+        {
+          "Text": "Icons",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 7,
+      "LabelName": "profile_button_04",
+      "LabelHash": 1448757365,
+      "OriginalText": "Titles",
+      "TextInfos": [
+        {
+          "Text": "Titles",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 8,
+      "LabelName": "profile_button_05",
+      "LabelHash": 1448757366,
+      "OriginalText": "Badges",
+      "TextInfos": [
+        {
+          "Text": "Badges",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 9,
+      "LabelName": "profile_04",
+      "LabelHash": 1997002676,
+      "OriginalText": "First Day of Play:",
+      "TextInfos": [
+        {
+          "Text": "First Day of Play:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 10,
+      "LabelName": "profile_05",
+      "LabelHash": -731880679,
+      "OriginalText": "Pokémon Permanently Recruited:",
+      "TextInfos": [
+        {
+          "Text": "Pokémon Permanently Recruited:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 11,
+      "LabelName": "profile_07",
+      "LabelHash": 430918735,
+      "OriginalText": "Titles Earned:",
+      "TextInfos": [
+        {
+          "Text": "Titles Earned:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 12,
+      "LabelName": "profile_08",
+      "LabelHash": -328596152,
+      "OriginalText": "Badges Earned:",
+      "TextInfos": [
+        {
+          "Text": "Badges Earned:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 13,
+      "LabelName": "profile_09",
+      "LabelHash": 1237487789,
+      "OriginalText": "Battle Victories:",
+      "TextInfos": [
+        {
+          "Text": "Battle Victories:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 14,
+      "LabelName": "profile_10",
+      "LabelHash": 27634209,
+      "OriginalText": "Daily Log-Ins:",
+      "TextInfos": [
+        {
+          "Text": "Daily Log-Ins:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 15,
+      "LabelName": "profile_11",
+      "LabelHash": 1593718150,
+      "OriginalText": "Clothing Items Obtained:",
+      "TextInfos": [
+        {
+          "Text": "Clothing Items Obtained:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 16,
+      "LabelName": "profile_12",
+      "LabelHash": 1190433623,
+      "OriginalText": "Hair & Cosmetic Options Obtained:",
+      "TextInfos": [
+        {
+          "Text": "Hair & Cosmetic Options Obtained:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 17,
+      "LabelName": "profile_13",
+      "LabelHash": -1538449732,
+      "OriginalText": "Throwing Styles Obtained:",
+      "TextInfos": [
+        {
+          "Text": "Throwing Styles Obtained:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 18,
+      "LabelName": "profile_15",
+      "LabelHash": -731880678,
+      "OriginalText": "Pre-Battle Poses Obtained:",
+      "TextInfos": [
+        {
+          "Text": "Pre-Battle Poses Obtained:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 19,
+      "LabelName": "profile_16",
+      "LabelHash": -1135165205,
+      "OriginalText": "Victory Poses Obtained:",
+      "TextInfos": [
+        {
+          "Text": "Victory Poses Obtained:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 20,
+      "LabelName": "profile_17",
+      "LabelHash": 430918736,
+      "OriginalText": "{1} {2}, {0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 110,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ", ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 21,
+      "LabelName": "profile_18",
+      "LabelHash": -328596151,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 9,
+            "Params": [
+              0,
+              2
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 22,
+      "LabelName": "profile_19",
+      "LabelHash": 1237487790,
+      "OriginalText": "Do you want to block {0}?",
+      "TextInfos": [
+        {
+          "Text": "Do you want to block ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 23,
+      "LabelName": "profile_20",
+      "LabelHash": 27634206,
+      "OriginalText": "{0} has been blocked.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " has been blocked.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 24,
+      "LabelName": "profile_22",
+      "LabelHash": 1190433620,
+      "OriginalText": "Block Trainer",
+      "TextInfos": [
+        {
+          "Text": "Block Trainer",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 25,
+      "LabelName": "profile_23",
+      "LabelHash": -1538449735,
+      "OriginalText": "Edit Profile",
+      "TextInfos": [
+        {
+          "Text": "Edit Profile",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 26,
+      "LabelName": "profile_24",
+      "LabelHash": 1997002674,
+      "OriginalText": "Ranked Battle Victories:\n(Single Battle Format)",
+      "TextInfos": [
+        {
+          "Text": "Ranked Battle Victories:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "(Single Battle Format)",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 27,
+      "LabelName": "profile_25",
+      "LabelHash": -731880681,
+      "OriginalText": "Ranked Battle Victories:\n(Double Battle Format)",
+      "TextInfos": [
+        {
+          "Text": "Ranked Battle Victories:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "(Double Battle Format)",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 28,
+      "LabelName": "profile_26",
+      "LabelHash": -1135165208,
+      "OriginalText": "VP Spent in Shops:",
+      "TextInfos": [
+        {
+          "Text": "VP Spent in Shops:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 29,
+      "LabelName": "profile_27",
+      "LabelHash": 430918733,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 93,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 30,
+      "LabelName": "profile_29",
+      "LabelHash": 1237487787,
+      "OriginalText": "Hidden",
+      "TextInfos": [
+        {
+          "Text": "Hidden",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 31,
+      "LabelName": "profile_30",
+      "LabelHash": 27634207,
+      "OriginalText": "Single Battles",
+      "TextInfos": [
+        {
+          "Text": "Single Battles",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 32,
+      "LabelName": "profile_31",
+      "LabelHash": 1593718148,
+      "OriginalText": "Double Battles",
+      "TextInfos": [
+        {
+          "Text": "Double Battles",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 33,
+      "LabelName": "profile_37",
+      "LabelHash": 430918734,
+      "OriginalText": "You don’t have any badges.",
+      "TextInfos": [
+        {
+          "Text": "You don’t have any badges.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 34,
+      "LabelName": "profile_38",
+      "LabelHash": -328596153,
+      "OriginalText": "You don’t have any titles.",
+      "TextInfos": [
+        {
+          "Text": "You don’t have any titles.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    }
+  ]
+}

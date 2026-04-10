@@ -1,0 +1,453 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "btl_condition",
+  "languageCode": 40,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "btl_condition_paralysis_info",
+      "LabelHash": -59026412,
+      "OriginalText": "Fa sì che ci sia il 12,5% di probabilità che\nil Pokémon non sferri le mosse, e dimezza\ninoltre la sua Velocità.",
+      "TextInfos": [
+        {
+          "Text": "Fa sì che ci sia il 12,5% di probabilità che",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "il Pokémon non sferri le mosse, e dimezza",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "inoltre la sua Velocità.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 48
+    },
+    {
+      "Index": 1,
+      "LabelName": "btl_condition_freezing_info",
+      "LabelHash": -206355500,
+      "OriginalText": "Impedisce di sferrare quasi tutte le mosse, e a\nogni tentativo di usarne una, il Pokémon ha una\npossibilità su quattro di scongelarsi. Termina se\nil Pokémon subisce danni da mosse di tipo Fuoco\ne altre, o al terzo turno dopo il congelamento.",
+      "TextInfos": [
+        {
+          "Text": "Impedisce di sferrare quasi tutte le mosse, e a",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ogni tentativo di usarne una, il Pokémon ha una",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "possibilità su quattro di scongelarsi. Termina se",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "il Pokémon subisce danni da mosse di tipo Fuoco",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "e altre, o al terzo turno dopo il congelamento.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 48
+    },
+    {
+      "Index": 2,
+      "LabelName": "btl_condition_burning_info",
+      "LabelHash": -2104732437,
+      "OriginalText": "Dimezza i danni inflitti dalle mosse fisiche usate\ndal Pokémon e, alla fine di ogni turno, gli infligge\ndanni pari a 1/16 dei suoi PS massimi.",
+      "TextInfos": [
+        {
+          "Text": "Dimezza i danni inflitti dalle mosse fisiche usate",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "dal Pokémon e, alla fine di ogni turno, gli infligge",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "danni pari a 1/16 dei suoi PS massimi.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 48
+    },
+    {
+      "Index": 3,
+      "LabelName": "btl_condition_poison_info",
+      "LabelHash": -1028631508,
+      "OriginalText": "Alla fine di ogni turno, infligge al Pokémon danni\npari a 1/8 dei suoi PS massimi.",
+      "TextInfos": [
+        {
+          "Text": "Alla fine di ogni turno, infligge al Pokémon danni",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "pari a 1/8 dei suoi PS massimi.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 48
+    },
+    {
+      "Index": 4,
+      "LabelName": "btl_condition_bad_poison_info",
+      "LabelHash": 1314343280,
+      "OriginalText": "Alla fine di ogni turno, infligge al Pokémon danni\nche crescono con il passare dei turni: 1/16\ndei PS massimi prima, poi 2/16, 3/16 e così via.\nSe il Pokémon viene sostituito e rimandato poi\nin campo, il calcolo riparte da 1/16.",
+      "TextInfos": [
+        {
+          "Text": "Alla fine di ogni turno, infligge al Pokémon danni",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "che crescono con il passare dei turni: 1/16",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "dei PS massimi prima, poi 2/16, 3/16 e così via.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Se il Pokémon viene sostituito e rimandato poi",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "in campo, il calcolo riparte da 1/16.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 48
+    },
+    {
+      "Index": 5,
+      "LabelName": "btl_condition_sleep_info",
+      "LabelHash": -1236864849,
+      "OriginalText": "Impedisce di sferrare ogni mossa tranne Russare\ne Sonnolalia. Nel primo turno, il Pokémon non si\nrisveglia. Nel secondo, ha una possibilità su tre di\nrisvegliarsi. Nel terzo, si risveglia. Con la mossa\nRiposo, non si risveglia prima del terzo turno.",
+      "TextInfos": [
+        {
+          "Text": "Impedisce di sferrare ogni mossa tranne Russare",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "e Sonnolalia. Nel primo turno, il Pokémon non si",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "risveglia. Nel secondo, ha una possibilità su tre di",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "risvegliarsi. Nel terzo, si risveglia. Con la mossa",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Riposo, non si risveglia prima del terzo turno.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 48
+    }
+  ]
+}

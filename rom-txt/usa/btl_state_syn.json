@@ -1,0 +1,4961 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "btl_state_syn",
+  "languageCode": 20,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "BTR_STATE_SYN_01_02",
+      "LabelHash": 49722448,
+      "OriginalText": "Boosts the damage dealt by Fire-type moves\nby 50% and halves the damage dealt by\nWater-type moves.",
+      "TextInfos": [
+        {
+          "Text": "Boosts the damage dealt by Fire-type moves",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "by 50% and halves the damage dealt by",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Water-type moves.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 1,
+      "LabelName": "BTR_STATE_SYN_01_03",
+      "LabelHash": 49722449,
+      "OriginalText": "Harsh Sunlight",
+      "TextInfos": [
+        {
+          "Text": "Harsh Sunlight",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 2,
+      "LabelName": "BTR_STATE_SYN_02_02",
+      "LabelHash": 1353684363,
+      "OriginalText": "Boosts the damage dealt by Water-type moves\nby 50% and halves the damage dealt by\nFire-type moves.",
+      "TextInfos": [
+        {
+          "Text": "Boosts the damage dealt by Water-type moves",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "by 50% and halves the damage dealt by",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Fire-type moves.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 3,
+      "LabelName": "BTR_STATE_SYN_02_03",
+      "LabelHash": 1353684364,
+      "OriginalText": "Rain",
+      "TextInfos": [
+        {
+          "Text": "Rain",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 4,
+      "LabelName": "BTR_STATE_SYN_03_02",
+      "LabelHash": -232602554,
+      "OriginalText": "Pokémon that are not Rock, Ground, or Steel\ntypes take damage equal to 1/16 of their max\nHP at the end of every turn. Boosts the Sp. Def\nstats of Rock-type Pokémon by 50%.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon that are not Rock, Ground, or Steel",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "types take damage equal to 1/16 of their max",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "HP at the end of every turn. Boosts the Sp. Def",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "stats of Rock-type Pokémon by 50%.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 5,
+      "LabelName": "BTR_STATE_SYN_03_03",
+      "LabelHash": -232602553,
+      "OriginalText": "Sandstorm",
+      "TextInfos": [
+        {
+          "Text": "Sandstorm",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 6,
+      "LabelName": "BTR_STATE_SYN_04_02",
+      "LabelHash": 1071359361,
+      "OriginalText": "Boosts the Defense stats of Ice-type Pokémon by\n50%.",
+      "TextInfos": [
+        {
+          "Text": "Boosts the Defense stats of Ice-type Pokémon by",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "50%.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 7,
+      "LabelName": "BTR_STATE_SYN_04_03",
+      "LabelHash": 1071359362,
+      "OriginalText": "Snow",
+      "TextInfos": [
+        {
+          "Text": "Snow",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 8,
+      "LabelName": "BTR_STATE_SYN_05_02",
+      "LabelHash": -514927556,
+      "OriginalText": "Pokémon on the ground have the power of their\nElectric-type moves boosted by 30% and they\ncannot fall asleep.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon on the ground have the power of their",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Electric-type moves boosted by 30% and they",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "cannot fall asleep.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 9,
+      "LabelName": "BTR_STATE_SYN_05_03",
+      "LabelHash": -514927555,
+      "OriginalText": "Electric Terrain",
+      "TextInfos": [
+        {
+          "Text": "Electric Terrain",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 10,
+      "LabelName": "BTR_STATE_SYN_06_02",
+      "LabelHash": 789034359,
+      "OriginalText": "Pokémon on the ground have the power of their\nGrass-type moves boosted by 30% and they\nhave 1/16 of their max HP restored at the end\nof every turn.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon on the ground have the power of their",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Grass-type moves boosted by 30% and they",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "have 1/16 of their max HP restored at the end",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "of every turn.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 11,
+      "LabelName": "BTR_STATE_SYN_06_03",
+      "LabelHash": 789034360,
+      "OriginalText": "Grassy Terrain",
+      "TextInfos": [
+        {
+          "Text": "Grassy Terrain",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 12,
+      "LabelName": "BTR_STATE_SYN_07_02",
+      "LabelHash": -797252558,
+      "OriginalText": "Pokémon on the ground have the power of their\nDragon-type moves halved, they are immune to\nstatus conditions, and they cannot become\nconfused.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon on the ground have the power of their",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Dragon-type moves halved, they are immune to",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "status conditions, and they cannot become",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "confused.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 13,
+      "LabelName": "BTR_STATE_SYN_07_03",
+      "LabelHash": -797252557,
+      "OriginalText": "Misty Terrain",
+      "TextInfos": [
+        {
+          "Text": "Misty Terrain",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 14,
+      "LabelName": "BTR_STATE_SYN_08_02",
+      "LabelHash": -1529657923,
+      "OriginalText": "Pokémon with lower Speed stats move first.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon with lower Speed stats move first.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 15,
+      "LabelName": "BTR_STATE_SYN_08_03",
+      "LabelHash": -1529657922,
+      "OriginalText": "Trick Room",
+      "TextInfos": [
+        {
+          "Text": "Trick Room",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 16,
+      "LabelName": "BTR_STATE_SYN_09_02",
+      "LabelHash": 1179022456,
+      "OriginalText": "Most held items do not work.",
+      "TextInfos": [
+        {
+          "Text": "Most held items do not work.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 17,
+      "LabelName": "BTR_STATE_SYN_09_03",
+      "LabelHash": 1179022457,
+      "OriginalText": "Magic Room",
+      "TextInfos": [
+        {
+          "Text": "Magic Room",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 18,
+      "LabelName": "BTR_STATE_SYN_10_02",
+      "LabelHash": 1636012566,
+      "OriginalText": "Pokémon’s Defense and Sp. Def stats\nare swapped.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon’s Defense and Sp. Def stats",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "are swapped.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 19,
+      "LabelName": "BTR_STATE_SYN_10_03",
+      "LabelHash": 1636012565,
+      "OriginalText": "Wonder Room",
+      "TextInfos": [
+        {
+          "Text": "Wonder Room",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 20,
+      "LabelName": "BTR_STATE_SYN_11_02",
+      "LabelHash": 49725649,
+      "OriginalText": "The Pokémon’s attacks are more likely to be\ncritical hits.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon’s attacks are more likely to be",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "critical hits.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 21,
+      "LabelName": "BTR_STATE_SYN_11_03",
+      "LabelHash": 49725648,
+      "OriginalText": "Critical-Hit Ratio Boost",
+      "TextInfos": [
+        {
+          "Text": "Critical-Hit Ratio Boost",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 22,
+      "LabelName": "BTR_STATE_SYN_12_02",
+      "LabelHash": 1353687564,
+      "OriginalText": "For 1–4 turns, the Pokémon has a 1-in-3 chance\nof hurting itself.",
+      "TextInfos": [
+        {
+          "Text": "For 1–4 turns, the Pokémon has a 1-in-3 chance",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "of hurting itself.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 23,
+      "LabelName": "BTR_STATE_SYN_12_03",
+      "LabelHash": 1353687563,
+      "OriginalText": "Confused",
+      "TextInfos": [
+        {
+          "Text": "Confused",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 24,
+      "LabelName": "BTR_STATE_SYN_13_02",
+      "LabelHash": -232599353,
+      "OriginalText": "The Pokémon has a 50% chance of being unable\nto use its moves while the Pokémon that gave it\nthe Infatuated status is on the field.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon has a 50% chance of being unable",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "to use its moves while the Pokémon that gave it",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "the Infatuated status is on the field.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 25,
+      "LabelName": "BTR_STATE_SYN_13_03",
+      "LabelHash": -232599354,
+      "OriginalText": "Infatuated",
+      "TextInfos": [
+        {
+          "Text": "Infatuated",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 26,
+      "LabelName": "BTR_STATE_SYN_15_02",
+      "LabelHash": -514924355,
+      "OriginalText": "The Pokémon will fall asleep at the end of the\nnext turn after becoming drowsy.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon will fall asleep at the end of the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "next turn after becoming drowsy.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 27,
+      "LabelName": "BTR_STATE_SYN_15_03",
+      "LabelHash": -514924356,
+      "OriginalText": "Drowsy",
+      "TextInfos": [
+        {
+          "Text": "Drowsy",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 28,
+      "LabelName": "BTR_STATE_SYN_16_02",
+      "LabelHash": 789037560,
+      "OriginalText": "The Pokémon can only use\n{0}.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 189,
+            "TagId": 6,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "The Pokémon can only use",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 29,
+      "LabelName": "BTR_STATE_SYN_16_04",
+      "LabelHash": 789037562,
+      "OriginalText": "The Pokémon can only use whichever move it last\nused before gaining the Encore status.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon can only use whichever move it last",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "used before gaining the Encore status.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 30,
+      "LabelName": "BTR_STATE_SYN_16_03",
+      "LabelHash": 789037559,
+      "OriginalText": "Encore",
+      "TextInfos": [
+        {
+          "Text": "Encore",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 31,
+      "LabelName": "BTR_STATE_SYN_17_02",
+      "LabelHash": -797249357,
+      "OriginalText": "The Pokémon’s Ability loses its effect.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon’s Ability loses its effect.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 32,
+      "LabelName": "BTR_STATE_SYN_17_03",
+      "LabelHash": -797249358,
+      "OriginalText": "No Ability",
+      "TextInfos": [
+        {
+          "Text": "No Ability",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 33,
+      "LabelName": "BTR_STATE_SYN_18_02",
+      "LabelHash": -1529654722,
+      "OriginalText": "The Pokémon cannot use the same move twice\nin a row.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon cannot use the same move twice",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "in a row.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 34,
+      "LabelName": "BTR_STATE_SYN_18_03",
+      "LabelHash": -1529654723,
+      "OriginalText": "Unable to Repeat",
+      "TextInfos": [
+        {
+          "Text": "Unable to Repeat",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 35,
+      "LabelName": "BTR_STATE_SYN_19_02",
+      "LabelHash": 1179025657,
+      "OriginalText": "Doubles the Pokémon’s Speed stat.",
+      "TextInfos": [
+        {
+          "Text": "Doubles the Pokémon’s Speed stat.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 36,
+      "LabelName": "BTR_STATE_SYN_19_03",
+      "LabelHash": 1179025656,
+      "OriginalText": "Tailwind",
+      "TextInfos": [
+        {
+          "Text": "Tailwind",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 37,
+      "LabelName": "BTR_STATE_SYN_24_02",
+      "LabelHash": 1071361535,
+      "OriginalText": "{0} cannot be used.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " cannot be used.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 38,
+      "LabelName": "BTR_STATE_SYN_24_03",
+      "LabelHash": 1071361536,
+      "OriginalText": "Move Disabled",
+      "TextInfos": [
+        {
+          "Text": "Move Disabled",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 39,
+      "LabelName": "BTR_STATE_SYN_24_04",
+      "LabelHash": 1071361541,
+      "OriginalText": "The Pokémon cannot use whichever move it last\nused before gaining the Move Disabled status.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon cannot use whichever move it last",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "used before gaining the Move Disabled status.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 40,
+      "LabelName": "BTR_STATE_SYN_25_02",
+      "LabelHash": -514925382,
+      "OriginalText": "The Pokémon cannot be switched out of battle.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon cannot be switched out of battle.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 41,
+      "LabelName": "BTR_STATE_SYN_25_03",
+      "LabelHash": -514925381,
+      "OriginalText": "Can’t Escape",
+      "TextInfos": [
+        {
+          "Text": "Can’t Escape",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 42,
+      "LabelName": "BTR_STATE_SYN_26_02",
+      "LabelHash": 789036533,
+      "OriginalText": "On the next turn after gaining the Locked On\nstatus, the Pokémon’s move will not miss if\ntargeting the Pokémon that was locked onto.",
+      "TextInfos": [
+        {
+          "Text": "On the next turn after gaining the Locked On",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "status, the Pokémon’s move will not miss if",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "targeting the Pokémon that was locked onto.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 43,
+      "LabelName": "BTR_STATE_SYN_26_03",
+      "LabelHash": 789036534,
+      "OriginalText": "Locked On",
+      "TextInfos": [
+        {
+          "Text": "Locked On",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 44,
+      "LabelName": "BTR_STATE_SYN_28_02",
+      "LabelHash": -1529655749,
+      "OriginalText": "The power of the next Electric-type move used\nby the Pokémon will be doubled.",
+      "TextInfos": [
+        {
+          "Text": "The power of the next Electric-type move used",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "by the Pokémon will be doubled.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 45,
+      "LabelName": "BTR_STATE_SYN_28_03",
+      "LabelHash": -1529655748,
+      "OriginalText": "Electric Boost",
+      "TextInfos": [
+        {
+          "Text": "Electric Boost",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 46,
+      "LabelName": "BTR_STATE_SYN_29_02",
+      "LabelHash": 1179024630,
+      "OriginalText": "Boosts the accuracy of moves by 67%. Pokémon\nsuch as Flying types or ones with the Levitate\nAbility become grounded. Moves that involve\nflying or leaping cannot be used.",
+      "TextInfos": [
+        {
+          "Text": "Boosts the accuracy of moves by 67%. Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "such as Flying types or ones with the Levitate",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Ability become grounded. Moves that involve",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "flying or leaping cannot be used.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 47,
+      "LabelName": "BTR_STATE_SYN_29_03",
+      "LabelHash": 1179024631,
+      "OriginalText": "Gravity",
+      "TextInfos": [
+        {
+          "Text": "Gravity",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 48,
+      "LabelName": "BTR_STATE_SYN_31_02",
+      "LabelHash": 49719375,
+      "OriginalText": "The Pokémon is immune to status conditions and\ncannot become confused.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon is immune to status conditions and",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "cannot become confused.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 49,
+      "LabelName": "BTR_STATE_SYN_31_03",
+      "LabelHash": 49719374,
+      "OriginalText": "Safeguard",
+      "TextInfos": [
+        {
+          "Text": "Safeguard",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 50,
+      "LabelName": "BTR_STATE_SYN_32_02",
+      "LabelHash": 1353681290,
+      "OriginalText": "Pokémon that switch into battle will take damage\nequal to 1/8 of their max HP. This damage differs\ndepending on the Pokémon’s type matchup with\nthe Rock type.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon that switch into battle will take damage",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "equal to 1/8 of their max HP. This damage differs",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "depending on the Pokémon’s type matchup with",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "the Rock type.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 51,
+      "LabelName": "BTR_STATE_SYN_32_03",
+      "LabelHash": 1353681289,
+      "OriginalText": "Stealth Rock",
+      "TextInfos": [
+        {
+          "Text": "Stealth Rock",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 52,
+      "LabelName": "BTR_STATE_SYN_33_02",
+      "LabelHash": -232605627,
+      "OriginalText": "The Pokémon’s Defense and Sp. Def stats are\nboosted by 1 stage for each time it has used\nStockpile.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon’s Defense and Sp. Def stats are",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "boosted by 1 stage for each time it has used",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Stockpile.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 53,
+      "LabelName": "BTR_STATE_SYN_33_03",
+      "LabelHash": -232605628,
+      "OriginalText": "Stockpiling",
+      "TextInfos": [
+        {
+          "Text": "Stockpiling",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 54,
+      "LabelName": "BTR_STATE_SYN_34_02",
+      "LabelHash": 1071356288,
+      "OriginalText": "The Pokémon can use only attacks.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon can use only attacks.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 55,
+      "LabelName": "BTR_STATE_SYN_34_03",
+      "LabelHash": 1071356287,
+      "OriginalText": "Taunted",
+      "TextInfos": [
+        {
+          "Text": "Taunted",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 56,
+      "LabelName": "BTR_STATE_SYN_36_02",
+      "LabelHash": 789031286,
+      "OriginalText": "The Pokémon floats off the ground, making it\nimmune to Ground-type moves, as well as the\nSpikes, Toxic Spikes, and Sticky Web statuses.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon floats off the ground, making it",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "immune to Ground-type moves, as well as the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Spikes, Toxic Spikes, and Sticky Web statuses.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 57,
+      "LabelName": "BTR_STATE_SYN_36_03",
+      "LabelHash": 789031285,
+      "OriginalText": "Magnet Rise",
+      "TextInfos": [
+        {
+          "Text": "Magnet Rise",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 58,
+      "LabelName": "BTR_STATE_SYN_37_02",
+      "LabelHash": -797255631,
+      "OriginalText": "Pokémon that switch into battle will be poisoned\nor, if 2 layers of Toxic Spikes are set, badly\npoisoned. Pokémon such as Flying types or ones\nwith the Levitate Ability are unaffected.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon that switch into battle will be poisoned",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "or, if 2 layers of Toxic Spikes are set, badly",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "poisoned. Pokémon such as Flying types or ones",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "with the Levitate Ability are unaffected.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 59,
+      "LabelName": "BTR_STATE_SYN_37_03",
+      "LabelHash": -797255632,
+      "OriginalText": "Toxic Spikes",
+      "TextInfos": [
+        {
+          "Text": "Toxic Spikes",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 60,
+      "LabelName": "BTR_STATE_SYN_39_02",
+      "LabelHash": 1179019383,
+      "OriginalText": "At the end of the next turn after the Wish status\nis activated, the HP of the Pokémon in the\naffected spot will be restored by 1/2 of the max\nHP of the Pokémon that caused the status.",
+      "TextInfos": [
+        {
+          "Text": "At the end of the next turn after the Wish status",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "is activated, the HP of the Pokémon in the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "affected spot will be restored by 1/2 of the max",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "HP of the Pokémon that caused the status.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 61,
+      "LabelName": "BTR_STATE_SYN_39_03",
+      "LabelHash": 1179019382,
+      "OriginalText": "Wish",
+      "TextInfos": [
+        {
+          "Text": "Wish",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 62,
+      "LabelName": "BTR_STATE_SYN_40_02",
+      "LabelHash": 1636005273,
+      "OriginalText": "Pokémon that switch into battle will have their\nSpeed stats lowered by 1 stage. Pokémon such as\nFlying types or ones with the Levitate Ability\nare unaffected.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon that switch into battle will have their",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Speed stats lowered by 1 stage. Pokémon such as",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Flying types or ones with the Levitate Ability",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "are unaffected.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 63,
+      "LabelName": "BTR_STATE_SYN_40_03",
+      "LabelHash": 1636005274,
+      "OriginalText": "Sticky Web",
+      "TextInfos": [
+        {
+          "Text": "Sticky Web",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 64,
+      "LabelName": "BTR_STATE_SYN_41_02",
+      "LabelHash": 49718356,
+      "OriginalText": "The Pokémon has 1/16 of its max HP restored at\nthe end of every turn. It also becomes grounded\nand cannot be switched out of battle.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon has 1/16 of its max HP restored at",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "the end of every turn. It also becomes grounded",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "and cannot be switched out of battle.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 65,
+      "LabelName": "BTR_STATE_SYN_41_03",
+      "LabelHash": 49718357,
+      "OriginalText": "Ingrained",
+      "TextInfos": [
+        {
+          "Text": "Ingrained",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 66,
+      "LabelName": "BTR_STATE_SYN_42_02",
+      "LabelHash": 1353680271,
+      "OriginalText": "The Pokémon loses 1/4 of its max HP at the end\nof every turn.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon loses 1/4 of its max HP at the end",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "of every turn.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 67,
+      "LabelName": "BTR_STATE_SYN_42_03",
+      "LabelHash": 1353680272,
+      "OriginalText": "Cursed",
+      "TextInfos": [
+        {
+          "Text": "Cursed",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 68,
+      "LabelName": "BTR_STATE_SYN_43_02",
+      "LabelHash": -232606646,
+      "OriginalText": "The Pokémon gains the Ghost type.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon gains the Ghost type.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 69,
+      "LabelName": "BTR_STATE_SYN_43_03",
+      "LabelHash": -232606645,
+      "OriginalText": "Trick-or-Treating",
+      "TextInfos": [
+        {
+          "Text": "Trick-or-Treating",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 70,
+      "LabelName": "BTR_STATE_SYN_44_02",
+      "LabelHash": 1071355269,
+      "OriginalText": "Halves the damage taken from special moves.\nIn Double Battles, this damage is reduced by\n1/3 instead.",
+      "TextInfos": [
+        {
+          "Text": "Halves the damage taken from special moves.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "In Double Battles, this damage is reduced by",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "1/3 instead.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 71,
+      "LabelName": "BTR_STATE_SYN_44_03",
+      "LabelHash": 1071355270,
+      "OriginalText": "Light Screen",
+      "TextInfos": [
+        {
+          "Text": "Light Screen",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 72,
+      "LabelName": "BTR_STATE_SYN_45_02",
+      "LabelHash": -514931648,
+      "OriginalText": "Halves the damage taken from physical moves.\nIn Double Battles, this damage is reduced by\n1/3 instead.",
+      "TextInfos": [
+        {
+          "Text": "Halves the damage taken from physical moves.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "In Double Battles, this damage is reduced by",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "1/3 instead.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 73,
+      "LabelName": "BTR_STATE_SYN_45_03",
+      "LabelHash": -514931647,
+      "OriginalText": "Reflect",
+      "TextInfos": [
+        {
+          "Text": "Reflect",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 74,
+      "LabelName": "BTR_STATE_SYN_46_02",
+      "LabelHash": 789030267,
+      "OriginalText": "Any moves known by the Pokémon that caused\nthis status cannot be used by its opponents.",
+      "TextInfos": [
+        {
+          "Text": "Any moves known by the Pokémon that caused",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "this status cannot be used by its opponents.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 75,
+      "LabelName": "BTR_STATE_SYN_46_03",
+      "LabelHash": 789030268,
+      "OriginalText": "Sealing Off",
+      "TextInfos": [
+        {
+          "Text": "Sealing Off",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 76,
+      "LabelName": "BTR_STATE_SYN_47_02",
+      "LabelHash": -797256650,
+      "OriginalText": "The Pokémon will faint 3 turns after gaining the\nPerishing status.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon will faint 3 turns after gaining the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Perishing status.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 77,
+      "LabelName": "BTR_STATE_SYN_47_03",
+      "LabelHash": -797256649,
+      "OriginalText": "Perishing",
+      "TextInfos": [
+        {
+          "Text": "Perishing",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 78,
+      "LabelName": "BTR_STATE_SYN_48_02",
+      "LabelHash": -1529662015,
+      "OriginalText": "Pokémon that switch into battle will take damage\nequal to 1/8 of their max HP. This damage will\nincrease if 2 layers of Spikes are set, and again\nif 3 layers are set. Pokémon such as Flying types\nor ones with the Levitate Ability are unaffected.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon that switch into battle will take damage",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "equal to 1/8 of their max HP. This damage will",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "increase if 2 layers of Spikes are set, and again",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "if 3 layers are set. Pokémon such as Flying types",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "or ones with the Levitate Ability are unaffected.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 79,
+      "LabelName": "BTR_STATE_SYN_48_03",
+      "LabelHash": -1529662014,
+      "OriginalText": "Spikes",
+      "TextInfos": [
+        {
+          "Text": "Spikes",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 80,
+      "LabelName": "BTR_STATE_SYN_50_02",
+      "LabelHash": 1636008474,
+      "OriginalText": "If the Pokémon is knocked out by an opponent,\nthat opponent will also be knocked out.",
+      "TextInfos": [
+        {
+          "Text": "If the Pokémon is knocked out by an opponent,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "that opponent will also be knocked out.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 81,
+      "LabelName": "BTR_STATE_SYN_50_03",
+      "LabelHash": 1636008473,
+      "OriginalText": "Destiny Bound",
+      "TextInfos": [
+        {
+          "Text": "Destiny Bound",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 82,
+      "LabelName": "BTR_STATE_SYN_51_02",
+      "LabelHash": 49721557,
+      "OriginalText": "The Pokémon gains the Grass type.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon gains the Grass type.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 83,
+      "LabelName": "BTR_STATE_SYN_51_03",
+      "LabelHash": 49721556,
+      "OriginalText": "Forest Cursed",
+      "TextInfos": [
+        {
+          "Text": "Forest Cursed",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 84,
+      "LabelName": "BTR_STATE_SYN_52_02",
+      "LabelHash": 1353683472,
+      "OriginalText": "The Pokémon takes damage equal to 1/16 of\nits max HP at the end of every turn. Whichever\nPokémon is in the spot of the Pokémon that\ncaused the Leech Seeded status has its HP\nrestored by the same amount.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon takes damage equal to 1/16 of",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "its max HP at the end of every turn. Whichever",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pokémon is in the spot of the Pokémon that",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "caused the Leech Seeded status has its HP",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "restored by the same amount.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 85,
+      "LabelName": "BTR_STATE_SYN_52_03",
+      "LabelHash": 1353683471,
+      "OriginalText": "Leech Seeded",
+      "TextInfos": [
+        {
+          "Text": "Leech Seeded",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 86,
+      "LabelName": "BTR_STATE_SYN_54_02",
+      "LabelHash": 1071358470,
+      "OriginalText": "For 4–5 turns, the Pokémon takes damage equal\nto 1/8 of its max HP at the end of every turn. It\ncannot be switched out of battle.",
+      "TextInfos": [
+        {
+          "Text": "For 4–5 turns, the Pokémon takes damage equal",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "to 1/8 of its max HP at the end of every turn. It",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "cannot be switched out of battle.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 87,
+      "LabelName": "BTR_STATE_SYN_54_03",
+      "LabelHash": 1071358469,
+      "OriginalText": "Bound",
+      "TextInfos": [
+        {
+          "Text": "Bound",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 88,
+      "LabelName": "BTR_STATE_SYN_57_02",
+      "LabelHash": -797253449,
+      "OriginalText": "For 2–3 turns, the Pokémon continues its attack\nand is unable to take any other actions. After\nthat, it becomes confused.",
+      "TextInfos": [
+        {
+          "Text": "For 2–3 turns, the Pokémon continues its attack",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "and is unable to take any other actions. After",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "that, it becomes confused.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 89,
+      "LabelName": "BTR_STATE_SYN_57_03",
+      "LabelHash": -797253450,
+      "OriginalText": "Rampaging",
+      "TextInfos": [
+        {
+          "Text": "Rampaging",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 90,
+      "LabelName": "BTR_STATE_SYN_59_02",
+      "LabelHash": 1179021565,
+      "OriginalText": "The Pokémon takes increasing poison damage\nat the end of every turn, starting at 1/16 of the\nPokémon’s max HP, then 2/16, then 3/16, and\nso on. If the Pokémon switches out and reenters\nbattle, the damage restarts at 1/16 of its max HP.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon takes increasing poison damage",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "at the end of every turn, starting at 1/16 of the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pokémon’s max HP, then 2/16, then 3/16, and",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "so on. If the Pokémon switches out and reenters",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "battle, the damage restarts at 1/16 of its max HP.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 91,
+      "LabelName": "BTR_STATE_SYN_59_03",
+      "LabelHash": 1179021564,
+      "OriginalText": "Badly Poisoned",
+      "TextInfos": [
+        {
+          "Text": "Badly Poisoned",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 92,
+      "LabelName": "BTR_STATE_SYN_60_02",
+      "LabelHash": 1636007447,
+      "OriginalText": "The Pokémon in the targeted spot will take\ndamage 2 turns after the Future Attack status\nis activated.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon in the targeted spot will take",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "damage 2 turns after the Future Attack status",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "is activated.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 93,
+      "LabelName": "BTR_STATE_SYN_60_03",
+      "LabelHash": 1636007448,
+      "OriginalText": "Future Attack",
+      "TextInfos": [
+        {
+          "Text": "Future Attack",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 94,
+      "LabelName": "BTR_STATE_SYN_61_02",
+      "LabelHash": 49720530,
+      "OriginalText": "For 3 turns, the Pokémon continues its attack and\nis unable to take any other actions. During this\ntime, no Pokémon on the field can fall asleep.",
+      "TextInfos": [
+        {
+          "Text": "For 3 turns, the Pokémon continues its attack and",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "is unable to take any other actions. During this",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "time, no Pokémon on the field can fall asleep.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 95,
+      "LabelName": "BTR_STATE_SYN_61_03",
+      "LabelHash": 49720531,
+      "OriginalText": "Uproar",
+      "TextInfos": [
+        {
+          "Text": "Uproar",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 96,
+      "LabelName": "BTR_STATE_SYN_62_02",
+      "LabelHash": 1353682445,
+      "OriginalText": "The Pokémon has 1/16 of its max HP restored at\nthe end of every turn.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon has 1/16 of its max HP restored at",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "the end of every turn.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 97,
+      "LabelName": "BTR_STATE_SYN_62_03",
+      "LabelHash": 1353682446,
+      "OriginalText": "Aqua Ring",
+      "TextInfos": [
+        {
+          "Text": "Aqua Ring",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 98,
+      "LabelName": "BTR_STATE_SYN_64_02",
+      "LabelHash": 1071357443,
+      "OriginalText": "The Pokémon is now grounded and can be\naffected by Ground-type moves.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon is now grounded and can be",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "affected by Ground-type moves.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 99,
+      "LabelName": "BTR_STATE_SYN_64_03",
+      "LabelHash": 1071357444,
+      "OriginalText": "Landed",
+      "TextInfos": [
+        {
+          "Text": "Landed",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 100,
+      "LabelName": "BTR_STATE_SYN_65_02",
+      "LabelHash": -514929474,
+      "OriginalText": "No Pokémon on the field can be switched out\nof battle until the end of the next turn after the\nFairy Locked status is activated.",
+      "TextInfos": [
+        {
+          "Text": "No Pokémon on the field can be switched out",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "of battle until the end of the next turn after the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Fairy Locked status is activated.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 101,
+      "LabelName": "BTR_STATE_SYN_65_03",
+      "LabelHash": -514929473,
+      "OriginalText": "Fairy Locked",
+      "TextInfos": [
+        {
+          "Text": "Fairy Locked",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 108,
+      "LabelName": "BTR_STATE_SYN_72_02",
+      "LabelHash": 1353677198,
+      "OriginalText": "Pokémon on the ground have the power of their\nPsychic-type moves boosted by 30% and they\nare immune to priority moves.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon on the ground have the power of their",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Psychic-type moves boosted by 30% and they",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "are immune to priority moves.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 109,
+      "LabelName": "BTR_STATE_SYN_72_03",
+      "LabelHash": 1353677197,
+      "OriginalText": "Psychic Terrain",
+      "TextInfos": [
+        {
+          "Text": "Psychic Terrain",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 110,
+      "LabelName": "BTR_STATE_SYN_73_02",
+      "LabelHash": -232609719,
+      "OriginalText": "The Pokémon cannot use any sound-based moves\nfor 2 turns.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon cannot use any sound-based moves",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "for 2 turns.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 111,
+      "LabelName": "BTR_STATE_SYN_73_03",
+      "LabelHash": -232609720,
+      "OriginalText": "Throat Chopped",
+      "TextInfos": [
+        {
+          "Text": "Throat Chopped",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 112,
+      "LabelName": "BTR_STATE_SYN_74_02",
+      "LabelHash": 1071352196,
+      "OriginalText": "Halves the damage taken from physical and\nspecial moves. In Double Battles, this damage\nis reduced by 1/3 instead.",
+      "TextInfos": [
+        {
+          "Text": "Halves the damage taken from physical and",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "special moves. In Double Battles, this damage",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "is reduced by 1/3 instead.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 113,
+      "LabelName": "BTR_STATE_SYN_74_03",
+      "LabelHash": 1071352195,
+      "OriginalText": "Aurora Veil",
+      "TextInfos": [
+        {
+          "Text": "Aurora Veil",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 128,
+      "LabelName": "BTR_STATE_SYN_106_02",
+      "LabelHash": 54712378,
+      "OriginalText": "The Pokémon takes damage equal to 1/16 of its\nmax HP at the end of every turn. If the Pokémon\nis a Steel type or Water type, it takes damage\nequal to 1/8 of its max HP instead.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon takes damage equal to 1/16 of its",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "max HP at the end of every turn. If the Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "is a Steel type or Water type, it takes damage",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "equal to 1/8 of its max HP instead.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 129,
+      "LabelName": "BTR_STATE_SYN_106_03",
+      "LabelHash": 1620796319,
+      "OriginalText": "Salt Cured",
+      "TextInfos": [
+        {
+          "Text": "Salt Cured",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 130,
+      "LabelName": "BTR_STATE_SYN_108_02",
+      "LabelHash": 54712312,
+      "OriginalText": "The Pokémon’s Speed stat is lowered by 1 stage\nat the end of every turn.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon’s Speed stat is lowered by 1 stage",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "at the end of every turn.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 131,
+      "LabelName": "BTR_STATE_SYN_108_03",
+      "LabelHash": 1620796253,
+      "OriginalText": "Syrupy",
+      "TextInfos": [
+        {
+          "Text": "Syrupy",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 132,
+      "LabelName": "BTR_STATE_SYN_111_02",
+      "LabelHash": 862573254,
+      "OriginalText": "The Pokémon is unable to restore HP through\nmoves, Abilities, or held items.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon is unable to restore HP through",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "moves, Abilities, or held items.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 133,
+      "LabelName": "BTR_STATE_SYN_111_03",
+      "LabelHash": -703510687,
+      "OriginalText": "Healing Prevented",
+      "TextInfos": [
+        {
+          "Text": "Healing Prevented",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 136,
+      "LabelName": "BTR_STATE_SYN_113_02",
+      "LabelHash": 862573188,
+      "OriginalText": "The Pokémon cannot take any actions for 1 turn.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon cannot take any actions for 1 turn.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 137,
+      "LabelName": "BTR_STATE_SYN_113_03",
+      "LabelHash": -703510753,
+      "OriginalText": "Recharging",
+      "TextInfos": [
+        {
+          "Text": "Recharging",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 138,
+      "LabelName": "BTR_STATE_SYN_114_02",
+      "LabelHash": 862573153,
+      "OriginalText": "The Pokémon spends 1 turn charging before\nusing a move.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon spends 1 turn charging before",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "using a move.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 139,
+      "LabelName": "BTR_STATE_SYN_114_03",
+      "LabelHash": -703510788,
+      "OriginalText": "Charging",
+      "TextInfos": [
+        {
+          "Text": "Charging",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 140,
+      "LabelName": "BTR_STATE_SYN_115_02",
+      "LabelHash": 862573122,
+      "OriginalText": "The Pokémon cannot be hit by most moves,\nexcluding moves such as Thunder, Hurricane,\nand Smack Down. The Pokémon is also\nunaffected by the terrain.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon cannot be hit by most moves,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "excluding moves such as Thunder, Hurricane,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "and Smack Down. The Pokémon is also",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "unaffected by the terrain.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 141,
+      "LabelName": "BTR_STATE_SYN_115_03",
+      "LabelHash": -703510819,
+      "OriginalText": "Sky-High",
+      "TextInfos": [
+        {
+          "Text": "Sky-High",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 142,
+      "LabelName": "BTR_STATE_SYN_116_02",
+      "LabelHash": 862573087,
+      "OriginalText": "The Pokémon cannot be hit by most moves, but\nSurf and Whirlpool will hit and will deal double\ndamage. The Pokémon is also unaffected by\nthe terrain.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon cannot be hit by most moves, but",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Surf and Whirlpool will hit and will deal double",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "damage. The Pokémon is also unaffected by",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "the terrain.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 143,
+      "LabelName": "BTR_STATE_SYN_116_03",
+      "LabelHash": -703510854,
+      "OriginalText": "Submerged",
+      "TextInfos": [
+        {
+          "Text": "Submerged",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 144,
+      "LabelName": "BTR_STATE_SYN_117_02",
+      "LabelHash": 862573056,
+      "OriginalText": "The Pokémon cannot be hit by most moves, but\nEarthquake will hit and will deal double damage.\nThe Pokémon is also unaffected by the terrain.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon cannot be hit by most moves, but",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Earthquake will hit and will deal double damage.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "The Pokémon is also unaffected by the terrain.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 145,
+      "LabelName": "BTR_STATE_SYN_117_03",
+      "LabelHash": -703510885,
+      "OriginalText": "Underground",
+      "TextInfos": [
+        {
+          "Text": "Underground",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 146,
+      "LabelName": "BTR_STATE_SYN_118_02",
+      "LabelHash": 862573021,
+      "OriginalText": "The Pokémon cannot be hit by moves and is\nunaffected by the terrain.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon cannot be hit by moves and is",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "unaffected by the terrain.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 147,
+      "LabelName": "BTR_STATE_SYN_118_03",
+      "LabelHash": -703510920,
+      "OriginalText": "Concealed",
+      "TextInfos": [
+        {
+          "Text": "Concealed",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 148,
+      "LabelName": "BTR_STATE_SYN_119_02",
+      "LabelHash": 862572990,
+      "OriginalText": "Moves such as Supercell Slam, Body Slam,\nDragon Rush, Flying Press, Heat Crash, and\nHeavy Slam will not miss the Pokémon and\nwill deal double damage.",
+      "TextInfos": [
+        {
+          "Text": "Moves such as Supercell Slam, Body Slam,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Dragon Rush, Flying Press, Heat Crash, and",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Heavy Slam will not miss the Pokémon and",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "will deal double damage.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 149,
+      "LabelName": "BTR_STATE_SYN_119_03",
+      "LabelHash": -703510951,
+      "OriginalText": "Minimized",
+      "TextInfos": [
+        {
+          "Text": "Minimized",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 150,
+      "LabelName": "BTR_STATE_SYN_120_02",
+      "LabelHash": -1187865418,
+      "OriginalText": "The Pokémon’s Attack and Defense stats\nare swapped.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon’s Attack and Defense stats",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "are swapped.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 151,
+      "LabelName": "BTR_STATE_SYN_120_03",
+      "LabelHash": 378218523,
+      "OriginalText": "Atk/Def Swapped",
+      "TextInfos": [
+        {
+          "Text": "Atk/Def Swapped",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 152,
+      "LabelName": "BTR_STATE_SYN_121_02",
+      "LabelHash": -1187865449,
+      "OriginalText": "Boosts the power of the Pokémon’s Fire-type\nmoves by 50%.",
+      "TextInfos": [
+        {
+          "Text": "Boosts the power of the Pokémon’s Fire-type",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "moves by 50%.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 153,
+      "LabelName": "BTR_STATE_SYN_121_03",
+      "LabelHash": 378218492,
+      "OriginalText": "Flash Fire",
+      "TextInfos": [
+        {
+          "Text": "Flash Fire",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 160,
+      "LabelName": "BTR_STATE_SYN_125_02",
+      "LabelHash": -1187865581,
+      "OriginalText": "Boosts the accuracy of the Pokémon’s next move\nby 20%.",
+      "TextInfos": [
+        {
+          "Text": "Boosts the accuracy of the Pokémon’s next move",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "by 20%.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 161,
+      "LabelName": "BTR_STATE_SYN_125_03",
+      "LabelHash": 378218360,
+      "OriginalText": "Micle Berry",
+      "TextInfos": [
+        {
+          "Text": "Micle Berry",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    }
+  ]
+}

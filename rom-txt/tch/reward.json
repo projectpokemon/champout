@@ -1,0 +1,6960 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "reward",
+  "languageCode": 90,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "reward_00",
+      "LabelHash": -1559291994,
+      "OriginalText": "VP",
+      "TextInfos": [
+        {
+          "Text": "VP",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 1,
+      "LabelName": "reward_25",
+      "LabelHash": 1572875883,
+      "OriginalText": "上裝",
+      "TextInfos": [
+        {
+          "Text": "上裝",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 2,
+      "LabelName": "reward_27",
+      "LabelHash": 1572875885,
+      "OriginalText": "下裝",
+      "TextInfos": [
+        {
+          "Text": "下裝",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 3,
+      "LabelName": "reward_32",
+      "LabelHash": 6791949,
+      "OriginalText": "徽章",
+      "TextInfos": [
+        {
+          "Text": "徽章",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 4,
+      "LabelName": "reward_34",
+      "LabelHash": 6791943,
+      "OriginalText": "訓練家頭像",
+      "TextInfos": [
+        {
+          "Text": "訓練家頭像",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 5,
+      "LabelName": "reward_35",
+      "LabelHash": 6791942,
+      "OriginalText": "稱號",
+      "TextInfos": [
+        {
+          "Text": "稱號",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 6,
+      "LabelName": "reward_title_name_00_male",
+      "LabelHash": -1426172711,
+      "OriginalText": "超愛{4}",
+      "TextInfos": [
+        {
+          "Text": "超愛",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 1,
+            "Params": [
+              4,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 7,
+      "LabelName": "reward_title_name_01",
+      "LabelHash": -1790650780,
+      "OriginalText": "{4}行家",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 1,
+            "Params": [
+              4,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "行家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 8,
+      "LabelName": "reward_title_name_02_male",
+      "LabelHash": -1588313181,
+      "OriginalText": "{4}博士",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 1,
+            "Params": [
+              4,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "博士",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 9,
+      "LabelName": "reward_title_name_00_female",
+      "LabelHash": 1766775252,
+      "OriginalText": "超愛{4}",
+      "TextInfos": [
+        {
+          "Text": "超愛",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 1,
+            "Params": [
+              4,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 10,
+      "LabelName": "reward_title_name_02_female",
+      "LabelHash": -2147192374,
+      "OriginalText": "{4}博士",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 1,
+            "Params": [
+              4,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "博士",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 11,
+      "LabelName": "reward_title_name_04_male",
+      "LabelHash": -1394223291,
+      "OriginalText": "{5}道館館主",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              5,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "道館館主",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 12,
+      "LabelName": "reward_title_name_04_female",
+      "LabelHash": -1830091544,
+      "OriginalText": "{5}道館館主",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              5,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "道館館主",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 13,
+      "LabelName": "reward_title_name_05",
+      "LabelHash": 534948048,
+      "OriginalText": "{5}四天王",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              5,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "四天王",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 14,
+      "LabelName": "reward_title_name_06",
+      "LabelHash": 2101031989,
+      "OriginalText": "超級新人",
+      "TextInfos": [
+        {
+          "Text": "超級新人",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 15,
+      "LabelName": "reward_title_name_07_male",
+      "LabelHash": -1546615574,
+      "OriginalText": "新星訓練家",
+      "TextInfos": [
+        {
+          "Text": "新星訓練家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 16,
+      "LabelName": "reward_title_name_08_male",
+      "LabelHash": -1362273871,
+      "OriginalText": "精英訓練家",
+      "TextInfos": [
+        {
+          "Text": "精英訓練家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 17,
+      "LabelName": "reward_title_name_09_male",
+      "LabelHash": 1164579724,
+      "OriginalText": "資深訓練家",
+      "TextInfos": [
+        {
+          "Text": "資深訓練家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 18,
+      "LabelName": "reward_title_name_10_male",
+      "LabelHash": -1426345862,
+      "OriginalText": "對戰體育場大師",
+      "TextInfos": [
+        {
+          "Text": "對戰體育場大師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 19,
+      "LabelName": "reward_title_name_07_female",
+      "LabelHash": -1612273127,
+      "OriginalText": "新星訓練家",
+      "TextInfos": [
+        {
+          "Text": "新星訓練家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 20,
+      "LabelName": "reward_title_name_08_female",
+      "LabelHash": -1004193364,
+      "OriginalText": "精英訓練家",
+      "TextInfos": [
+        {
+          "Text": "精英訓練家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 21,
+      "LabelName": "reward_title_name_09_female",
+      "LabelHash": 1778255591,
+      "OriginalText": "資深訓練家",
+      "TextInfos": [
+        {
+          "Text": "資深訓練家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 22,
+      "LabelName": "reward_title_name_10_female",
+      "LabelHash": 1761061139,
+      "OriginalText": "對戰體育場大師",
+      "TextInfos": [
+        {
+          "Text": "對戰體育場大師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 23,
+      "LabelName": "reward_title_name_16",
+      "LabelHash": 2101031988,
+      "OriginalText": "{5}招式迷",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              5,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "招式迷",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 24,
+      "LabelName": "reward_title_name_17_male",
+      "LabelHash": -1546788725,
+      "OriginalText": "老師",
+      "TextInfos": [
+        {
+          "Text": "老師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 25,
+      "LabelName": "reward_title_name_18_male",
+      "LabelHash": -1362447022,
+      "OriginalText": "高手",
+      "TextInfos": [
+        {
+          "Text": "高手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 26,
+      "LabelName": "reward_title_name_19_male",
+      "LabelHash": 1164406573,
+      "OriginalText": "賭徒",
+      "TextInfos": [
+        {
+          "Text": "賭徒",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 27,
+      "LabelName": "reward_title_name_20_male",
+      "LabelHash": -1426379493,
+      "OriginalText": "繼承者",
+      "TextInfos": [
+        {
+          "Text": "繼承者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 28,
+      "LabelName": "reward_title_name_21_male",
+      "LabelHash": 1100474102,
+      "OriginalText": "雙打對戰大師",
+      "TextInfos": [
+        {
+          "Text": "雙打對戰大師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 29,
+      "LabelName": "reward_title_name_22_male",
+      "LabelHash": -1588519963,
+      "OriginalText": "單打對戰大師",
+      "TextInfos": [
+        {
+          "Text": "單打對戰大師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 30,
+      "LabelName": "reward_title_name_17_female",
+      "LabelHash": -1617987240,
+      "OriginalText": "老師",
+      "TextInfos": [
+        {
+          "Text": "老師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 31,
+      "LabelName": "reward_title_name_18_female",
+      "LabelHash": -1009907477,
+      "OriginalText": "高手",
+      "TextInfos": [
+        {
+          "Text": "高手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 32,
+      "LabelName": "reward_title_name_19_female",
+      "LabelHash": 1772541478,
+      "OriginalText": "賭徒",
+      "TextInfos": [
+        {
+          "Text": "賭徒",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 33,
+      "LabelName": "reward_title_name_20_female",
+      "LabelHash": 1759951446,
+      "OriginalText": "繼承者",
+      "TextInfos": [
+        {
+          "Text": "繼承者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 34,
+      "LabelName": "reward_title_name_21_female",
+      "LabelHash": 247433105,
+      "OriginalText": "雙打對戰大師",
+      "TextInfos": [
+        {
+          "Text": "雙打對戰大師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 35,
+      "LabelName": "reward_title_name_22_female",
+      "LabelHash": 2140951116,
+      "OriginalText": "單打對戰大師",
+      "TextInfos": [
+        {
+          "Text": "單打對戰大師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 36,
+      "LabelName": "reward_title_name_23_00",
+      "LabelHash": 1098242377,
+      "OriginalText": "富家少爺",
+      "TextInfos": [
+        {
+          "Text": "富家少爺",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 37,
+      "LabelName": "reward_title_name_23_01",
+      "LabelHash": 1098242378,
+      "OriginalText": "千金小姐",
+      "TextInfos": [
+        {
+          "Text": "千金小姐",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 38,
+      "LabelName": "reward_title_name_24_00_male",
+      "LabelHash": 1194212830,
+      "OriginalText": "徽章收藏家",
+      "TextInfos": [
+        {
+          "Text": "徽章收藏家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 39,
+      "LabelName": "reward_title_name_24_01_male",
+      "LabelHash": 1194211613,
+      "OriginalText": "稱號收藏家",
+      "TextInfos": [
+        {
+          "Text": "稱號收藏家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 40,
+      "LabelName": "reward_title_name_24_02_male",
+      "LabelHash": 1194206428,
+      "OriginalText": "頭像收藏家",
+      "TextInfos": [
+        {
+          "Text": "頭像收藏家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 41,
+      "LabelName": "reward_title_name_24_00_female",
+      "LabelHash": 1693595559,
+      "OriginalText": "徽章收藏家",
+      "TextInfos": [
+        {
+          "Text": "徽章收藏家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 42,
+      "LabelName": "reward_title_name_24_01_female",
+      "LabelHash": 1693561798,
+      "OriginalText": "稱號收藏家",
+      "TextInfos": [
+        {
+          "Text": "稱號收藏家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 43,
+      "LabelName": "reward_title_name_24_02_female",
+      "LabelHash": 1693388777,
+      "OriginalText": "頭像收藏家",
+      "TextInfos": [
+        {
+          "Text": "頭像收藏家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 44,
+      "LabelName": "reward_title_name_27",
+      "LabelHash": -627851368,
+      "OriginalText": "偶像明星",
+      "TextInfos": [
+        {
+          "Text": "偶像明星",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 45,
+      "LabelName": "reward_title_name_28_male",
+      "LabelHash": -1362480653,
+      "OriginalText": "模特兒",
+      "TextInfos": [
+        {
+          "Text": "模特兒",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 46,
+      "LabelName": "reward_title_name_28_female",
+      "LabelHash": -1011017170,
+      "OriginalText": "模特兒",
+      "TextInfos": [
+        {
+          "Text": "模特兒",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 47,
+      "LabelName": "reward_title_name_30",
+      "LabelHash": 938232572,
+      "OriginalText": "大賽新人",
+      "TextInfos": [
+        {
+          "Text": "大賽新人",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 48,
+      "LabelName": "reward_title_name_31_male",
+      "LabelHash": 1100579479,
+      "OriginalText": "大賽老手",
+      "TextInfos": [
+        {
+          "Text": "大賽老手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 49,
+      "LabelName": "reward_title_name_32_male",
+      "LabelHash": -1588414586,
+      "OriginalText": "大賽霸主",
+      "TextInfos": [
+        {
+          "Text": "大賽霸主",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 50,
+      "LabelName": "reward_title_name_31_female",
+      "LabelHash": 250910416,
+      "OriginalText": "大賽老手",
+      "TextInfos": [
+        {
+          "Text": "大賽老手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 51,
+      "LabelName": "reward_title_name_32_female",
+      "LabelHash": 2144428427,
+      "OriginalText": "大賽霸主",
+      "TextInfos": [
+        {
+          "Text": "大賽霸主",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 52,
+      "LabelName": "reward_title_name_champions_male",
+      "LabelHash": -1574328811,
+      "OriginalText": "寶可夢冠軍",
+      "TextInfos": [
+        {
+          "Text": "寶可夢冠軍",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 53,
+      "LabelName": "reward_title_name_35_male",
+      "LabelHash": 1132528899,
+      "OriginalText": "級別對戰冠軍",
+      "TextInfos": [
+        {
+          "Text": "級別對戰冠軍",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 54,
+      "LabelName": "reward_title_name_36_00_male",
+      "LabelHash": 56028243,
+      "OriginalText": "級別對戰四天王",
+      "TextInfos": [
+        {
+          "Text": "級別對戰四天王",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 55,
+      "LabelName": "reward_title_name_36_01_male",
+      "LabelHash": 56029460,
+      "OriginalText": "級別對戰館主",
+      "TextInfos": [
+        {
+          "Text": "級別對戰館主",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 56,
+      "LabelName": "reward_title_name_36_02_male",
+      "LabelHash": 56030289,
+      "OriginalText": "級別對戰超級老手",
+      "TextInfos": [
+        {
+          "Text": "級別對戰超級老手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 57,
+      "LabelName": "reward_title_name_37_00_male",
+      "LabelHash": 1915562542,
+      "OriginalText": "級別對戰老手",
+      "TextInfos": [
+        {
+          "Text": "級別對戰老手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 58,
+      "LabelName": "reward_title_name_37_01_male",
+      "LabelHash": 1915563759,
+      "OriginalText": "級別對戰超級精英",
+      "TextInfos": [
+        {
+          "Text": "級別對戰超級精英",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 59,
+      "LabelName": "reward_title_name_37_02_male",
+      "LabelHash": 1915564588,
+      "OriginalText": "級別對戰精英",
+      "TextInfos": [
+        {
+          "Text": "級別對戰精英",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 60,
+      "LabelName": "reward_title_name_37_03_male",
+      "LabelHash": 1915557357,
+      "OriginalText": "級別對戰超級新星",
+      "TextInfos": [
+        {
+          "Text": "級別對戰超級新星",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 61,
+      "LabelName": "reward_title_name_37_04_male",
+      "LabelHash": 1915558442,
+      "OriginalText": "級別對戰新星",
+      "TextInfos": [
+        {
+          "Text": "級別對戰新星",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 62,
+      "LabelName": "reward_title_name_champions_female",
+      "LabelHash": 1215013210,
+      "OriginalText": "寶可夢冠軍",
+      "TextInfos": [
+        {
+          "Text": "寶可夢冠軍",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 63,
+      "LabelName": "reward_title_name_35_female",
+      "LabelHash": 949010916,
+      "OriginalText": "級別對戰冠軍",
+      "TextInfos": [
+        {
+          "Text": "級別對戰冠軍",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 64,
+      "LabelName": "reward_title_name_36_00_female",
+      "LabelHash": 1383497788,
+      "OriginalText": "級別對戰四天王",
+      "TextInfos": [
+        {
+          "Text": "級別對戰四天王",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 65,
+      "LabelName": "reward_title_name_36_01_female",
+      "LabelHash": 1383531549,
+      "OriginalText": "級別對戰館主",
+      "TextInfos": [
+        {
+          "Text": "級別對戰館主",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 66,
+      "LabelName": "reward_title_name_36_02_female",
+      "LabelHash": 1383569534,
+      "OriginalText": "級別對戰超級老手",
+      "TextInfos": [
+        {
+          "Text": "級別對戰超級老手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 67,
+      "LabelName": "reward_title_name_37_00_female",
+      "LabelHash": 10663681,
+      "OriginalText": "級別對戰老手",
+      "TextInfos": [
+        {
+          "Text": "級別對戰老手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 68,
+      "LabelName": "reward_title_name_37_01_female",
+      "LabelHash": 10697442,
+      "OriginalText": "級別對戰超級精英",
+      "TextInfos": [
+        {
+          "Text": "級別對戰超級精英",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 69,
+      "LabelName": "reward_title_name_37_02_female",
+      "LabelHash": 10735427,
+      "OriginalText": "級別對戰精英",
+      "TextInfos": [
+        {
+          "Text": "級別對戰精英",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 70,
+      "LabelName": "reward_title_name_37_03_female",
+      "LabelHash": 10490660,
+      "OriginalText": "級別對戰超級新星",
+      "TextInfos": [
+        {
+          "Text": "級別對戰超級新星",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 71,
+      "LabelName": "reward_title_name_37_04_female",
+      "LabelHash": 10528389,
+      "OriginalText": "級別對戰新星",
+      "TextInfos": [
+        {
+          "Text": "級別對戰新星",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 72,
+      "LabelName": "reward_title_name_43_male",
+      "LabelHash": -1578429950,
+      "OriginalText": "{10}{0}冠軍",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "冠軍",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 73,
+      "LabelName": "reward_title_name_44_male",
+      "LabelHash": -1394088247,
+      "OriginalText": "{10}{0}決賽選手",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "決賽選手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 74,
+      "LabelName": "reward_title_name_45_00_male",
+      "LabelHash": -1229939917,
+      "OriginalText": "{10}{0}四天王",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "四天王",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 75,
+      "LabelName": "reward_title_name_45_01_male",
+      "LabelHash": -1229932686,
+      "OriginalText": "{10}{0}館主",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "館主",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 76,
+      "LabelName": "reward_title_name_46_male",
+      "LabelHash": -1556228717,
+      "OriginalText": "{10}{0}挑戰者",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "挑戰者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 77,
+      "LabelName": "reward_title_name_43_female",
+      "LabelHash": 1989058561,
+      "OriginalText": "{10}{0}冠軍",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "冠軍",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 78,
+      "LabelName": "reward_title_name_44_female",
+      "LabelHash": -1825626652,
+      "OriginalText": "{10}{0}決賽選手",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "決賽選手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 79,
+      "LabelName": "reward_title_name_45_00_female",
+      "LabelHash": 693014194,
+      "OriginalText": "{10}{0}四天王",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "四天王",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 80,
+      "LabelName": "reward_title_name_45_01_female",
+      "LabelHash": 693258961,
+      "OriginalText": "{10}{0}館主",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "館主",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 81,
+      "LabelName": "reward_title_name_46_female",
+      "LabelHash": -1444626982,
+      "OriginalText": "{10}{0}挑戰者",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "挑戰者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 82,
+      "LabelName": "reward_title_name_51_male",
+      "LabelHash": 1100642777,
+      "OriginalText": "WCS{0}冠軍",
+      "TextInfos": [
+        {
+          "Text": "WCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "冠軍",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 83,
+      "LabelName": "reward_title_name_52_male",
+      "LabelHash": -1588351288,
+      "OriginalText": "WCS{0}決賽選手",
+      "TextInfos": [
+        {
+          "Text": "WCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "決賽選手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 84,
+      "LabelName": "reward_title_name_51_female",
+      "LabelHash": 253007690,
+      "OriginalText": "WCS{0}冠軍",
+      "TextInfos": [
+        {
+          "Text": "WCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "冠軍",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 85,
+      "LabelName": "reward_title_name_52_female",
+      "LabelHash": 2146525701,
+      "OriginalText": "WCS{0}決賽選手",
+      "TextInfos": [
+        {
+          "Text": "WCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "決賽選手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 86,
+      "LabelName": "reward_title_name_53_00",
+      "LabelHash": 1098247492,
+      "OriginalText": "WCS{0}四天王",
+      "TextInfos": [
+        {
+          "Text": "WCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "四天王",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 87,
+      "LabelName": "reward_title_name_53_01_male",
+      "LabelHash": 1055939325,
+      "OriginalText": "WCS{0}館主",
+      "TextInfos": [
+        {
+          "Text": "WCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "館主",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 88,
+      "LabelName": "reward_title_name_53_02_male",
+      "LabelHash": 1055944510,
+      "OriginalText": "WCS{0}精英",
+      "TextInfos": [
+        {
+          "Text": "WCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "精英",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 89,
+      "LabelName": "reward_title_name_54_male",
+      "LabelHash": -1394261398,
+      "OriginalText": "WCS{0}挑戰者",
+      "TextInfos": [
+        {
+          "Text": "WCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "挑戰者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 90,
+      "LabelName": "reward_title_name_53_01_female",
+      "LabelHash": -453008364,
+      "OriginalText": "WCS{0}館主",
+      "TextInfos": [
+        {
+          "Text": "WCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "館主",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 91,
+      "LabelName": "reward_title_name_53_02_female",
+      "LabelHash": -452835343,
+      "OriginalText": "WCS{0}精英",
+      "TextInfos": [
+        {
+          "Text": "WCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "精英",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 92,
+      "LabelName": "reward_title_name_54_female",
+      "LabelHash": -1831340765,
+      "OriginalText": "WCS{0}挑戰者",
+      "TextInfos": [
+        {
+          "Text": "WCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "挑戰者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 93,
+      "LabelName": "reward_title_name_64_male",
+      "LabelHash": -1394295029,
+      "OriginalText": "{10}{0}{1}大師",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "大師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 94,
+      "LabelName": "reward_title_name_65_male",
+      "LabelHash": 1132558566,
+      "OriginalText": "{10}{0}{1}老手",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "老手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 95,
+      "LabelName": "reward_title_name_66_male",
+      "LabelHash": -1556435499,
+      "OriginalText": "{10}{0}{1}精英",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "精英",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 96,
+      "LabelName": "reward_title_name_67_male",
+      "LabelHash": -1546687312,
+      "OriginalText": "{10}{0}{1}新星",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "新星",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 97,
+      "LabelName": "reward_title_name_68_male",
+      "LabelHash": -1362345609,
+      "OriginalText": "{10}{0}{1}挑戰者",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "挑戰者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 98,
+      "LabelName": "reward_title_name_64_female",
+      "LabelHash": -1832450458,
+      "OriginalText": "{10}{0}{1}大師",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "大師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 99,
+      "LabelName": "reward_title_name_65_female",
+      "LabelHash": 949998497,
+      "OriginalText": "{10}{0}{1}老手",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "老手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 100,
+      "LabelName": "reward_title_name_66_female",
+      "LabelHash": -1451450788,
+      "OriginalText": "{10}{0}{1}精英",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "精英",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 101,
+      "LabelName": "reward_title_name_67_female",
+      "LabelHash": -1614632041,
+      "OriginalText": "{10}{0}{1}新星",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "新星",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 102,
+      "LabelName": "reward_title_name_68_female",
+      "LabelHash": -1006552278,
+      "OriginalText": "{10}{0}{1}挑戰者",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "挑戰者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 103,
+      "LabelName": "reward_title_name_69_00",
+      "LabelHash": -313378541,
+      "OriginalText": "短褲小子",
+      "TextInfos": [
+        {
+          "Text": "短褲小子",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 104,
+      "LabelName": "reward_title_name_69_01",
+      "LabelHash": -313378540,
+      "OriginalText": "迷你裙",
+      "TextInfos": [
+        {
+          "Text": "迷你裙",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 105,
+      "LabelName": "reward_title_name_70_00",
+      "LabelHash": -770362249,
+      "OriginalText": "園藝師",
+      "TextInfos": [
+        {
+          "Text": "園藝師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 106,
+      "LabelName": "reward_title_name_70_01",
+      "LabelHash": -770362250,
+      "OriginalText": "香氛姐姐",
+      "TextInfos": [
+        {
+          "Text": "香氛姐姐",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 107,
+      "LabelName": "reward_title_name_71",
+      "LabelHash": -1790650779,
+      "OriginalText": "營火專家",
+      "TextInfos": [
+        {
+          "Text": "營火專家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 108,
+      "LabelName": "reward_title_name_72_00",
+      "LabelHash": -488037247,
+      "OriginalText": "泳褲小伙子",
+      "TextInfos": [
+        {
+          "Text": "泳褲小伙子",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 109,
+      "LabelName": "reward_title_name_72_01",
+      "LabelHash": -488037248,
+      "OriginalText": "比基尼姐姐",
+      "TextInfos": [
+        {
+          "Text": "比基尼姐姐",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 110,
+      "LabelName": "reward_title_name_73",
+      "LabelHash": 1341517103,
+      "OriginalText": "電氣搖滾團",
+      "TextInfos": [
+        {
+          "Text": "電氣搖滾團",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 111,
+      "LabelName": "reward_title_name_74_00",
+      "LabelHash": -1335012253,
+      "OriginalText": "登山男",
+      "TextInfos": [
+        {
+          "Text": "登山男",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 112,
+      "LabelName": "reward_title_name_74_01",
+      "LabelHash": -1335012254,
+      "OriginalText": "登山女孩",
+      "TextInfos": [
+        {
+          "Text": "登山女孩",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 113,
+      "LabelName": "reward_title_name_76",
+      "LabelHash": 2101031990,
+      "OriginalText": "捕蟲少年",
+      "TextInfos": [
+        {
+          "Text": "捕蟲少年",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 114,
+      "LabelName": "reward_title_name_77",
+      "LabelHash": -627851365,
+      "OriginalText": "忍者小子",
+      "TextInfos": [
+        {
+          "Text": "忍者小子",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 115,
+      "LabelName": "reward_title_name_78_00",
+      "LabelHash": -1899662257,
+      "OriginalText": "露營少年",
+      "TextInfos": [
+        {
+          "Text": "露營少年",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 116,
+      "LabelName": "reward_title_name_78_01",
+      "LabelHash": -1899662258,
+      "OriginalText": "野餐女孩",
+      "TextInfos": [
+        {
+          "Text": "野餐女孩",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 117,
+      "LabelName": "reward_title_name_79_male",
+      "LabelHash": 1164613363,
+      "OriginalText": "養鳥人",
+      "TextInfos": [
+        {
+          "Text": "養鳥人",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 118,
+      "LabelName": "reward_title_name_79_female",
+      "LabelHash": 1779373988,
+      "OriginalText": "養鳥人",
+      "TextInfos": [
+        {
+          "Text": "養鳥人",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 119,
+      "LabelName": "reward_title_name_80_00",
+      "LabelHash": -770355088,
+      "OriginalText": "空手道王",
+      "TextInfos": [
+        {
+          "Text": "空手道王",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 120,
+      "LabelName": "reward_title_name_80_01",
+      "LabelHash": -770355087,
+      "OriginalText": "對戰少女",
+      "TextInfos": [
+        {
+          "Text": "對戰少女",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 121,
+      "LabelName": "reward_title_name_81_male",
+      "LabelHash": 1100950956,
+      "OriginalText": "超能力者",
+      "TextInfos": [
+        {
+          "Text": "超能力者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 122,
+      "LabelName": "reward_title_name_81_female",
+      "LabelHash": 263169287,
+      "OriginalText": "超能力者",
+      "TextInfos": [
+        {
+          "Text": "超能力者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 123,
+      "LabelName": "reward_title_name_82",
+      "LabelHash": -224566831,
+      "OriginalText": "靈異迷",
+      "TextInfos": [
+        {
+          "Text": "靈異迷",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 124,
+      "LabelName": "reward_title_name_83_male",
+      "LabelHash": -1578294922,
+      "OriginalText": "滑雪者",
+      "TextInfos": [
+        {
+          "Text": "滑雪者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 125,
+      "LabelName": "reward_title_name_83_female",
+      "LabelHash": 1993506045,
+      "OriginalText": "滑雪者",
+      "TextInfos": [
+        {
+          "Text": "滑雪者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 126,
+      "LabelName": "reward_title_name_84",
+      "LabelHash": -1031135885,
+      "OriginalText": "馴龍師",
+      "TextInfos": [
+        {
+          "Text": "馴龍師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 127,
+      "LabelName": "reward_title_name_85",
+      "LabelHash": 534948056,
+      "OriginalText": "怪獸狂",
+      "TextInfos": [
+        {
+          "Text": "怪獸狂",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 128,
+      "LabelName": "reward_title_name_86_00",
+      "LabelHash": -1052680090,
+      "OriginalText": "壞男孩",
+      "TextInfos": [
+        {
+          "Text": "壞男孩",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 129,
+      "LabelName": "reward_title_name_86_01",
+      "LabelHash": -1052680089,
+      "OriginalText": "壞女孩",
+      "TextInfos": [
+        {
+          "Text": "壞女孩",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 130,
+      "LabelName": "reward_title_name_87_00",
+      "LabelHash": 533606827,
+      "OriginalText": "童話大叔",
+      "TextInfos": [
+        {
+          "Text": "童話大叔",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 131,
+      "LabelName": "reward_title_name_87_01",
+      "LabelHash": 533606828,
+      "OriginalText": "童話少女",
+      "TextInfos": [
+        {
+          "Text": "童話少女",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 132,
+      "LabelName": "reward_title_name_88_male",
+      "LabelHash": -1362003799,
+      "OriginalText": "最初的王者",
+      "TextInfos": [
+        {
+          "Text": "最初的王者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 133,
+      "LabelName": "reward_title_name_88_female",
+      "LabelHash": -995280988,
+      "OriginalText": "最初的王者",
+      "TextInfos": [
+        {
+          "Text": "最初的王者",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 134,
+      "LabelName": "reward_profile_info_00",
+      "LabelHash": 1332454313,
+      "OriginalText": "選出{4}上場對戰\n並獲勝了{0}次的證明。",
+      "TextInfos": [
+        {
+          "Text": "選出",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 1,
+            "Params": [
+              4,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "上場對戰",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "並獲勝了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 135,
+      "LabelName": "reward_profile_info_01",
+      "LabelHash": -1396429042,
+      "OriginalText": "選出{4}上場對戰\n並獲勝了{0}次的厲害證明。",
+      "TextInfos": [
+        {
+          "Text": "選出",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 1,
+            "Params": [
+              4,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "上場對戰",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "並獲勝了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次的厲害證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 136,
+      "LabelName": "reward_profile_info_02",
+      "LabelHash": -1799713569,
+      "OriginalText": "選出{4}上場對戰\n並獲勝了{0}次的耀眼證明。",
+      "TextInfos": [
+        {
+          "Text": "選出",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 1,
+            "Params": [
+              4,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "上場對戰",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "並獲勝了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次的耀眼證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 137,
+      "LabelName": "reward_profile_info_03",
+      "LabelHash": -233629628,
+      "OriginalText": "選出{5}屬性的寶可夢上場對戰\n並獲勝了{0}次的證明。",
+      "TextInfos": [
+        {
+          "Text": "選出",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              5,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "屬性的寶可夢上場對戰",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "並獲勝了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 138,
+      "LabelName": "reward_profile_info_04",
+      "LabelHash": -636914155,
+      "OriginalText": "選出{5}屬性的寶可夢上場對戰\n並獲勝了{0}次的厲害證明。",
+      "TextInfos": [
+        {
+          "Text": "選出",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              5,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "屬性的寶可夢上場對戰",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "並獲勝了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次的厲害證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 139,
+      "LabelName": "reward_profile_info_05",
+      "LabelHash": 929169786,
+      "OriginalText": "選出{5}屬性的寶可夢上場對戰\n並獲勝了{0}次的耀眼證明。",
+      "TextInfos": [
+        {
+          "Text": "選出",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              5,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "屬性的寶可夢上場對戰",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "並獲勝了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次的耀眼證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 140,
+      "LabelName": "reward_profile_info_11",
+      "LabelHash": -1396429043,
+      "OriginalText": "在單打對戰或雙打對戰\n獲勝{0}次的證明。",
+      "TextInfos": [
+        {
+          "Text": "在單打對戰或雙打對戰",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "獲勝",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 141,
+      "LabelName": "reward_profile_info_16",
+      "LabelHash": 525885258,
+      "OriginalText": "使用了{0}次\n{5}屬性招式的耀眼證明。",
+      "TextInfos": [
+        {
+          "Text": "使用了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              5,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "屬性招式的耀眼證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 142,
+      "LabelName": "reward_profile_info_17",
+      "LabelHash": 2091969199,
+      "OriginalText": "使出了{0}次\n效果絕佳的招式的耀眼證明。",
+      "TextInfos": [
+        {
+          "Text": "使出了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "效果絕佳的招式的耀眼證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 143,
+      "LabelName": "reward_profile_info_18",
+      "LabelHash": 976223952,
+      "OriginalText": "使出了{0}次\n效果無比絕佳的招式的耀眼證明。",
+      "TextInfos": [
+        {
+          "Text": "使出了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "效果無比絕佳的招式的耀眼證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 144,
+      "LabelName": "reward_profile_info_19",
+      "LabelHash": -1752659403,
+      "OriginalText": "擊中了要害{0}次的\n會心證明。",
+      "TextInfos": [
+        {
+          "Text": "擊中了要害",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會心證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 145,
+      "LabelName": "reward_profile_info_20",
+      "LabelHash": 1332454311,
+      "OriginalText": "讓寶可夢超級進化了{0}次\n以展現與牠們擁有堅定牽絆的證明。",
+      "TextInfos": [
+        {
+          "Text": "讓寶可夢超級進化了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "以展現與牠們擁有堅定牽絆的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 146,
+      "LabelName": "reward_profile_info_21",
+      "LabelHash": -1396429044,
+      "OriginalText": "在級別對戰的雙打對戰讓自己的寶可夢\n都不被打倒並獲勝了{0}次的霸者證明。",
+      "TextInfos": [
+        {
+          "Text": "在級別對戰的雙打對戰讓自己的寶可夢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "都不被打倒並獲勝了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次的霸者證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 147,
+      "LabelName": "reward_profile_info_22",
+      "LabelHash": -1799713571,
+      "OriginalText": "在級別對戰的單打對戰讓自己的寶可夢\n都不被打倒並獲勝了{0}次的霸者證明。",
+      "TextInfos": [
+        {
+          "Text": "在級別對戰的單打對戰讓自己的寶可夢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "都不被打倒並獲勝了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次的霸者證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 148,
+      "LabelName": "reward_profile_info_23",
+      "LabelHash": -233629630,
+      "OriginalText": "在商店使用了{3}{6}的\n富有證明。",
+      "TextInfos": [
+        {
+          "Text": "在商店使用了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 5,
+            "Params": [
+              3,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 104,
+            "Params": [
+              6,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "富有證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 149,
+      "LabelName": "reward_profile_info_24",
+      "LabelHash": -636914157,
+      "OriginalText": "收集了{0}種{6}的\n愛好者證明。",
+      "TextInfos": [
+        {
+          "Text": "收集了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "種",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 104,
+            "Params": [
+              6,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "愛好者證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 75
+    },
+    {
+      "Index": 150,
+      "LabelName": "reward_profile_info_25",
+      "LabelHash": 929169784,
+      "OriginalText": "收集了{0}件{6}的\n時尚證明。",
+      "TextInfos": [
+        {
+          "Text": "收集了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "件",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 104,
+            "Params": [
+              6,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "時尚證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 75
+    },
+    {
+      "Index": 151,
+      "LabelName": "reward_profile_info_26",
+      "LabelHash": 525885257,
+      "OriginalText": "參加了{0}次大賽的證明。",
+      "TextInfos": [
+        {
+          "Text": "參加了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次大賽的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 152,
+      "LabelName": "reward_profile_info_27",
+      "LabelHash": 2091969198,
+      "OriginalText": "參加了{0}次大賽的厲害證明。",
+      "TextInfos": [
+        {
+          "Text": "參加了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次大賽的厲害證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 153,
+      "LabelName": "reward_profile_info_28",
+      "LabelHash": 976223951,
+      "OriginalText": "參加了{0}次大賽的耀眼證明。",
+      "TextInfos": [
+        {
+          "Text": "參加了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次大賽的耀眼證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 154,
+      "LabelName": "reward_profile_info_champions",
+      "LabelHash": 857124025,
+      "OriginalText": "以級別對戰的冠軍級\n迎來賽季結束{0}次的證明。",
+      "TextInfos": [
+        {
+          "Text": "以級別對戰的冠軍級",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "迎來賽季結束",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "次的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 155,
+      "LabelName": "reward_profile_info_33",
+      "LabelHash": -233629631,
+      "OriginalText": "在級別對戰獲得了\n第1名的證明。",
+      "TextInfos": [
+        {
+          "Text": "在級別對戰獲得了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "第1名的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 156,
+      "LabelName": "reward_profile_info_34",
+      "LabelHash": -636914158,
+      "OriginalText": "在級別對戰獲得了\n第{0}～{1}名的證明。",
+      "TextInfos": [
+        {
+          "Text": "在級別對戰獲得了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "第",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "～",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "名的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 157,
+      "LabelName": "reward_profile_info_43_country",
+      "LabelHash": 1763611353,
+      "OriginalText": "在{10}獲得了\n第{0}名的證明。",
+      "TextInfos": [
+        {
+          "Text": "在",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 32,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "獲得了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "第",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "名的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 158,
+      "LabelName": "reward_profile_info_44_country",
+      "LabelHash": 1254438432,
+      "OriginalText": "在{10}獲得了\n第{0}名的證明。",
+      "TextInfos": [
+        {
+          "Text": "在",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 32,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "獲得了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "第",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "名的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 159,
+      "LabelName": "reward_profile_info_45_country",
+      "LabelHash": -110781445,
+      "OriginalText": "在{10}獲得了\n第{0}～{1}名的證明。",
+      "TextInfos": [
+        {
+          "Text": "在",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 32,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "獲得了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "第",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "～",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "名的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 160,
+      "LabelName": "reward_profile_info_46_country",
+      "LabelHash": -950754198,
+      "OriginalText": "出場參加了\n{10}的證明。",
+      "TextInfos": [
+        {
+          "Text": "出場參加了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 32,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 161,
+      "LabelName": "reward_profile_info_51",
+      "LabelHash": -1396429039,
+      "OriginalText": "在世界錦標賽獲得了\n第{0}名的證明。",
+      "TextInfos": [
+        {
+          "Text": "在世界錦標賽獲得了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "第",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "名的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 162,
+      "LabelName": "reward_profile_info_52",
+      "LabelHash": -1799713566,
+      "OriginalText": "在世界錦標賽獲得了\n第{0}名的證明。",
+      "TextInfos": [
+        {
+          "Text": "在世界錦標賽獲得了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "第",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "名的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 163,
+      "LabelName": "reward_profile_info_53",
+      "LabelHash": -233629625,
+      "OriginalText": "在世界錦標賽獲得了\n第{0}～{1}名的證明。",
+      "TextInfos": [
+        {
+          "Text": "在世界錦標賽獲得了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "第",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "～",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "名的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 164,
+      "LabelName": "reward_profile_info_54",
+      "LabelHash": -636914152,
+      "OriginalText": "出場參加了\n世界錦標賽的證明。",
+      "TextInfos": [
+        {
+          "Text": "出場參加了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "世界錦標賽的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 166,
+      "LabelName": "reward_profile_info_65_66_67",
+      "LabelHash": -1634204061,
+      "OriginalText": "在{10}{0}{1}\n獲得了第{2}～{3}名的證明。",
+      "TextInfos": [
+        {
+          "Text": "在",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "獲得了第",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              2,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "～",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              3,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "名的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 75
+    },
+    {
+      "Index": 167,
+      "LabelName": "reward_profile_info_68",
+      "LabelHash": 976223955,
+      "OriginalText": "{10}{0}{1}的\n參賽證明。",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 107,
+            "Params": [
+              10,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "參賽證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 168,
+      "LabelName": "reward_profile_info_88",
+      "LabelHash": 976223945,
+      "OriginalText": "在最初的王者決定戰獲得了\n第1名的證明。",
+      "TextInfos": [
+        {
+          "Text": "在最初的王者決定戰獲得了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "第1名的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 169,
+      "LabelName": "reward_rank_03",
+      "LabelHash": -967665152,
+      "OriginalText": "超級球",
+      "TextInfos": [
+        {
+          "Text": "超級球",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 170,
+      "LabelName": "reward_rank_04",
+      "LabelHash": -1370949679,
+      "OriginalText": "高級球",
+      "TextInfos": [
+        {
+          "Text": "高級球",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 171,
+      "LabelName": "reward_rank_05",
+      "LabelHash": 195134262,
+      "OriginalText": "大師球",
+      "TextInfos": [
+        {
+          "Text": "大師球",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 172,
+      "LabelName": "reward_trainer_icon",
+      "LabelHash": 1465760691,
+      "OriginalText": "訓練家頭像",
+      "TextInfos": [
+        {
+          "Text": "訓練家頭像",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 173,
+      "LabelName": "reward_badge",
+      "LabelHash": -647716791,
+      "OriginalText": "徽章",
+      "TextInfos": [
+        {
+          "Text": "徽章",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 175,
+      "LabelName": "reward_TournamentAbb_01",
+      "LabelHash": 336095950,
+      "OriginalText": "NAIC",
+      "TextInfos": [
+        {
+          "Text": "NAIC",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 178,
+      "LabelName": "reward_TournamentAbb_04",
+      "LabelHash": 336095947,
+      "OriginalText": "PJCS",
+      "TextInfos": [
+        {
+          "Text": "PJCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 179,
+      "LabelName": "reward_TournamentAbb_05",
+      "LabelHash": 336095946,
+      "OriginalText": "PTC",
+      "TextInfos": [
+        {
+          "Text": "PTC",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 180,
+      "LabelName": "reward_TournamentAbb_06",
+      "LabelHash": 336095949,
+      "OriginalText": "TWMBL",
+      "TextInfos": [
+        {
+          "Text": "TWMBL",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 181,
+      "LabelName": "reward_TournamentAbb_07",
+      "LabelHash": 336095948,
+      "OriginalText": "HKMBL",
+      "TextInfos": [
+        {
+          "Text": "HKMBL",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 182,
+      "LabelName": "reward_TournamentAbb_08",
+      "LabelHash": 336095943,
+      "OriginalText": "MYMBL",
+      "TextInfos": [
+        {
+          "Text": "MYMBL",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 183,
+      "LabelName": "reward_TournamentAbb_09",
+      "LabelHash": 336095942,
+      "OriginalText": "THMBL",
+      "TextInfos": [
+        {
+          "Text": "THMBL",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 184,
+      "LabelName": "reward_TournamentAbb_10",
+      "LabelHash": 1902179892,
+      "OriginalText": "PHMBL",
+      "TextInfos": [
+        {
+          "Text": "PHMBL",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 185,
+      "LabelName": "reward_TournamentAbb_11",
+      "LabelHash": 1902179891,
+      "OriginalText": "SGMBL",
+      "TextInfos": [
+        {
+          "Text": "SGMBL",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 186,
+      "LabelName": "reward_TournamentAbb_12",
+      "LabelHash": 1902179894,
+      "OriginalText": "IDMBL",
+      "TextInfos": [
+        {
+          "Text": "IDMBL",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 187,
+      "LabelName": "reward_full_fledged_trainer_male",
+      "LabelHash": -934277825,
+      "OriginalText": "獨當一面的訓練家",
+      "TextInfos": [
+        {
+          "Text": "獨當一面的訓練家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 188,
+      "LabelName": "reward_super_male",
+      "LabelHash": -295701937,
+      "OriginalText": "超級",
+      "TextInfos": [
+        {
+          "Text": "超級",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 189,
+      "LabelName": "reward_hyper_male",
+      "LabelHash": 1566502864,
+      "OriginalText": "高級",
+      "TextInfos": [
+        {
+          "Text": "高級",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 190,
+      "LabelName": "reward_master_male",
+      "LabelHash": -1805214364,
+      "OriginalText": "大師",
+      "TextInfos": [
+        {
+          "Text": "大師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 191,
+      "LabelName": "reward_champion_male",
+      "LabelHash": -980497475,
+      "OriginalText": "冠軍",
+      "TextInfos": [
+        {
+          "Text": "冠軍",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 192,
+      "LabelName": "reward_full_fledged_trainer_female",
+      "LabelHash": 902265220,
+      "OriginalText": "獨當一面的訓練家",
+      "TextInfos": [
+        {
+          "Text": "獨當一面的訓練家",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 193,
+      "LabelName": "reward_super_female",
+      "LabelHash": -167049534,
+      "OriginalText": "超級",
+      "TextInfos": [
+        {
+          "Text": "超級",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 194,
+      "LabelName": "reward_hyper_female",
+      "LabelHash": -1602349481,
+      "OriginalText": "高級",
+      "TextInfos": [
+        {
+          "Text": "高級",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 195,
+      "LabelName": "reward_master_female",
+      "LabelHash": -2068838963,
+      "OriginalText": "大師",
+      "TextInfos": [
+        {
+          "Text": "大師",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 196,
+      "LabelName": "reward_champion_female",
+      "LabelHash": -1352361434,
+      "OriginalText": "冠軍",
+      "TextInfos": [
+        {
+          "Text": "冠軍",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 197,
+      "LabelName": "reward_full_fledged_trainer_info",
+      "LabelHash": -1518872356,
+      "OriginalText": "完成了{0}種\n對戰新手教學的證明。",
+      "TextInfos": [
+        {
+          "Text": "完成了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "種",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對戰新手教學的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 198,
+      "LabelName": "reward_super_hyper_master_info",
+      "LabelHash": -1973864144,
+      "OriginalText": "首次達到了{7}級的證明。",
+      "TextInfos": [
+        {
+          "Text": "首次達到了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 105,
+            "Params": [
+              7,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "級的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 199,
+      "LabelName": "reward_champion_info",
+      "LabelHash": -597415810,
+      "OriginalText": "首次以冠軍級獲勝的證明。",
+      "TextInfos": [
+        {
+          "Text": "首次以冠軍級獲勝的證明。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 200,
+      "LabelName": "reward_title",
+      "LabelHash": 1324234728,
+      "OriginalText": "稱號",
+      "TextInfos": [
+        {
+          "Text": "稱號",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 201,
+      "LabelName": "reward_TournamentAbb_13",
+      "LabelHash": 1902179893,
+      "OriginalText": "MCS",
+      "TextInfos": [
+        {
+          "Text": "MCS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    }
+  ]
+}

@@ -1,0 +1,746 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "btl_preparation",
+  "languageCode": 100,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "btl_preparation_00",
+      "LabelHash": 575772411,
+      "OriginalText": "Combate Individual",
+      "TextInfos": [
+        {
+          "Text": "Combate Individual",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 1,
+      "LabelName": "btl_preparation_01",
+      "LabelHash": 2141856352,
+      "OriginalText": "Combate Doble",
+      "TextInfos": [
+        {
+          "Text": "Combate Doble",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 2,
+      "LabelName": "btl_preparation_03",
+      "LabelHash": -990311530,
+      "OriginalText": "Combate Clasificatorio",
+      "TextInfos": [
+        {
+          "Text": "Combate Clasificatorio",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 3,
+      "LabelName": "btl_preparation_04",
+      "LabelHash": -1749826417,
+      "OriginalText": "Combate Amistoso",
+      "TextInfos": [
+        {
+          "Text": "Combate Amistoso",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 4,
+      "LabelName": "btl_preparation_05",
+      "LabelHash": -183742476,
+      "OriginalText": "Torneo en línea",
+      "TextInfos": [
+        {
+          "Text": "Torneo en línea",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 5,
+      "LabelName": "btl_preparation_07",
+      "LabelHash": 979056938,
+      "OriginalText": "Cambiar música",
+      "TextInfos": [
+        {
+          "Text": "Cambiar música",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 6,
+      "LabelName": "btl_preparation_09",
+      "LabelHash": -1796880584,
+      "OriginalText": "Comenzar búsqueda",
+      "TextInfos": [
+        {
+          "Text": "Comenzar búsqueda",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 7,
+      "LabelName": "btl_preparation_10",
+      "LabelHash": 575772410,
+      "OriginalText": "Buscando oponente...",
+      "TextInfos": [
+        {
+          "Text": "Buscando oponente",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 192,
+            "TagId": 3,
+            "Params": [
+              255,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 190,
+            "TagId": 2,
+            "Params": [
+              15,
+              0
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 190,
+            "TagId": 2,
+            "Params": [
+              15,
+              0
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 190,
+            "TagId": 2,
+            "Params": [
+              15,
+              0
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 190,
+            "TagId": 2,
+            "Params": [
+              15,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 192,
+            "TagId": 4,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 23
+    },
+    {
+      "Index": 8,
+      "LabelName": "btl_preparation_19",
+      "LabelHash": -1796880585,
+      "OriginalText": "¡Se completó la búsqueda!\nPrepárate para combatir contra {0}.",
+      "TextInfos": [
+        {
+          "Text": "¡Se completó la búsqueda!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Prepárate para combatir contra ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 23,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 192,
+            "TagId": 5,
+            "Params": [
+              5,
+              0
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 9,
+      "LabelName": "btl_preparation_19_01",
+      "LabelHash": -1222397243,
+      "OriginalText": "Prepárate para combatir contra {0}.",
+      "TextInfos": [
+        {
+          "Text": "Prepárate para combatir contra ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 23,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 192,
+            "TagId": 5,
+            "Params": [
+              5,
+              0
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 10,
+      "LabelName": "btl_preparation_11",
+      "LabelHash": 2141856351,
+      "OriginalText": "Error de búsqueda",
+      "TextInfos": [
+        {
+          "Text": "Error de búsqueda",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 11,
+      "LabelName": "btl_preparation_12",
+      "LabelHash": 1738571824,
+      "OriginalText": "Se canceló la búsqueda debido a un error de\ncomunicación.",
+      "TextInfos": [
+        {
+          "Text": "Se canceló la búsqueda debido a un error de",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "comunicación.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 12,
+      "LabelName": "btl_preparation_13",
+      "LabelHash": -990311531,
+      "OriginalText": "No se encontró a ningún oponente.\nEspera un rato y vuelve a intentarlo.",
+      "TextInfos": [
+        {
+          "Text": "No se encontró a ningún oponente.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Espera un rato y vuelve a intentarlo.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 13,
+      "LabelName": "btl_preparation_14",
+      "LabelHash": -1749826418,
+      "OriginalText": "Alcanzaste el límite de combates de hoy, así que no puedes\ncombatir más.",
+      "TextInfos": [
+        {
+          "Text": "Alcanzaste el límite de combates de hoy, así que no puedes",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "combatir más.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 14,
+      "LabelName": "btl_preparation_15",
+      "LabelHash": -183742477,
+      "OriginalText": "No puedes combatir en estos momentos.",
+      "TextInfos": [
+        {
+          "Text": "No puedes combatir en estos momentos.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 15,
+      "LabelName": "btl_preparation_cancel_matching",
+      "LabelHash": -459579783,
+      "OriginalText": "Cancelando la búsqueda...",
+      "TextInfos": [
+        {
+          "Text": "Cancelando la búsqueda",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 192,
+            "TagId": 3,
+            "Params": [
+              255,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 190,
+            "TagId": 2,
+            "Params": [
+              15,
+              0
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 190,
+            "TagId": 2,
+            "Params": [
+              15,
+              0
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 190,
+            "TagId": 2,
+            "Params": [
+              15,
+              0
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 190,
+            "TagId": 2,
+            "Params": [
+              15,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 192,
+            "TagId": 4,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 16,
+      "LabelName": "msg_ui_netbtl_playername_00",
+      "LabelHash": -770426176,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    }
+  ]
+}

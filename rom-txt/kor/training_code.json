@@ -1,0 +1,991 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "training_code",
+  "languageCode": 70,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "training_code_button_00",
+      "LabelHash": -612149754,
+      "OriginalText": "팀 ID로 편성",
+      "TextInfos": [
+        {
+          "Text": "팀 ID로 편성",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 1,
+      "LabelName": "training_code_button_01",
+      "LabelHash": -612149755,
+      "OriginalText": "배틀팀 공개 관리",
+      "TextInfos": [
+        {
+          "Text": "배틀팀 공개 관리",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 2,
+      "LabelName": "training_code_00",
+      "LabelHash": -616650515,
+      "OriginalText": "이 배틀팀을 재현하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "이 배틀팀을 재현하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 3,
+      "LabelName": "training_code_01",
+      "LabelHash": 949433426,
+      "OriginalText": "새로운 배틀팀을 편성하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "새로운 배틀팀을 편성하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 4,
+      "LabelName": "training_code_13",
+      "LabelHash": -213365989,
+      "OriginalText": "이 배틀팀을 공개하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "이 배틀팀을 공개하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 5,
+      "LabelName": "training_code_15",
+      "LabelHash": -1376165403,
+      "OriginalText": "이 배틀팀을 비공개로 전환하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "이 배틀팀을 비공개로 전환하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 6,
+      "LabelName": "training_code_16",
+      "LabelHash": 189918538,
+      "OriginalText": "※비공개로 전환하면 다른 트레이너가\n　팀 ID를 사용할 수 없게 됩니다.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※비공개로 전환하면 다른 트레이너가",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　팀 ID를 사용할 수 없게 됩니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 7,
+      "LabelName": "training_code_17",
+      "LabelHash": 1756002479,
+      "OriginalText": "입력한 팀 ID의 배틀팀을 찾지 못했습니다.",
+      "TextInfos": [
+        {
+          "Text": "입력한 팀 ID의 배틀팀을 찾지 못했습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 8,
+      "LabelName": "training_code_18",
+      "LabelHash": -260420156,
+      "OriginalText": "팀 ID: {0}",
+      "TextInfos": [
+        {
+          "Text": "팀 ID: ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 76,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 9,
+      "LabelName": "training_code_25",
+      "LabelHash": -1376165400,
+      "OriginalText": "배틀팀을 공개하거나 비공개할 수 있습니다.",
+      "TextInfos": [
+        {
+          "Text": "배틀팀을 공개하거나 비공개할 수 있습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 10,
+      "LabelName": "training_code_33",
+      "LabelHash": -213365987,
+      "OriginalText": "팀 ID를 입력해 주십시오.",
+      "TextInfos": [
+        {
+          "Text": "팀 ID를 입력해 주십시오.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 11,
+      "LabelName": "training_code_35",
+      "LabelHash": -1376165401,
+      "OriginalText": "{0}VP를 사용하여\n트레이닝을 진행하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "VP를 사용하여",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "트레이닝을 진행하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 12,
+      "LabelName": "training_code_41",
+      "LabelHash": 949433422,
+      "OriginalText": "{0}VP",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "VP",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 13,
+      "LabelName": "training_code_43",
+      "LabelHash": -213365992,
+      "OriginalText": "현재 능력치",
+      "TextInfos": [
+        {
+          "Text": "현재 능력치",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 14,
+      "LabelName": "training_code_44",
+      "LabelHash": 1352717949,
+      "OriginalText": "트레이닝 후 능력치",
+      "TextInfos": [
+        {
+          "Text": "트레이닝 후 능력치",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 15,
+      "LabelName": "training_code_45",
+      "LabelHash": -1376165406,
+      "OriginalText": "제외한다",
+      "TextInfos": [
+        {
+          "Text": "제외한다",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 16,
+      "LabelName": "training_code_46",
+      "LabelHash": 189918535,
+      "OriginalText": "※사용한 VP는 되돌릴 수 없습니다!",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※사용한 VP는 되돌릴 수 없습니다!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 17,
+      "LabelName": "training_code_48",
+      "LabelHash": -260420159,
+      "OriginalText": "새로 만든다",
+      "TextInfos": [
+        {
+          "Text": "새로 만든다",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 18,
+      "LabelName": "training_code_54",
+      "LabelHash": 1352717948,
+      "OriginalText": "배틀팀 공개",
+      "TextInfos": [
+        {
+          "Text": "배틀팀 공개",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 19,
+      "LabelName": "training_code_55",
+      "LabelHash": -1376165407,
+      "OriginalText": "배틀팀 비공개",
+      "TextInfos": [
+        {
+          "Text": "배틀팀 비공개",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 20,
+      "LabelName": "training_code_57",
+      "LabelHash": 1756002475,
+      "OriginalText": "배틀팀을 덮어쓰고 편성을 진행합니다.\n괜찮겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "배틀팀을 덮어쓰고 편성을 진행합니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "괜찮겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 21,
+      "LabelName": "training_code_58",
+      "LabelHash": -260420160,
+      "OriginalText": "입력된 팀 ID의 배틀팀에 포함되어 있는\n포켓몬을 한 마리도 보유하지 않아\n배틀팀을 재현할 수 없습니다.",
+      "TextInfos": [
+        {
+          "Text": "입력된 팀 ID의 배틀팀에 포함되어 있는",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "포켓몬을 한 마리도 보유하지 않아",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "배틀팀을 재현할 수 없습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 22,
+      "LabelName": "training_code_59",
+      "LabelHash": 1305663781,
+      "OriginalText": "즐겨찾기한 포켓몬이 편성되어 있습니다.\n능력이 변경되는 경우가 있습니다만\n괜찮겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "즐겨찾기한 포켓몬이 편성되어 있습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "능력이 변경되는 경우가 있습니다만",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "괜찮겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 23,
+      "LabelName": "training_code_60",
+      "LabelHash": -616650517,
+      "OriginalText": "배틀팀을 편성했습니다!",
+      "TextInfos": [
+        {
+          "Text": "배틀팀을 편성했습니다!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 24,
+      "LabelName": "training_code_62",
+      "LabelHash": -1779449931,
+      "OriginalText": "교체",
+      "TextInfos": [
+        {
+          "Text": "교체",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 25,
+      "LabelName": "training_code_select_organize",
+      "LabelHash": 1624728505,
+      "OriginalText": "편성할 배틀팀을 선택해 주십시오.",
+      "TextInfos": [
+        {
+          "Text": "편성할 배틀팀을 선택해 주십시오.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 26,
+      "LabelName": "training_code_select_publish",
+      "LabelHash": -612304297,
+      "OriginalText": "공개할 배틀팀을 선택해 주십시오.",
+      "TextInfos": [
+        {
+          "Text": "공개할 배틀팀을 선택해 주십시오.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 27,
+      "LabelName": "training_code_select_training_pokemon",
+      "LabelHash": -1684622070,
+      "OriginalText": "트레이닝할 포켓몬을 선택해 주십시오.",
+      "TextInfos": [
+        {
+          "Text": "트레이닝할 포켓몬을 선택해 주십시오.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 28,
+      "LabelName": "training_code_63",
+      "LabelHash": -213365990,
+      "OriginalText": "트레이닝 티켓을 사용하여\n포켓몬 트레이닝을 진행하겠습니까?\n※부족한 티켓만큼 VP를 사용합니다.",
+      "TextInfos": [
+        {
+          "Text": "트레이닝 티켓을 사용하여",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "포켓몬 트레이닝을 진행하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※부족한 티켓만큼 VP를 사용합니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 29,
+      "LabelName": "training_code_64",
+      "LabelHash": 1352717951,
+      "OriginalText": "결정",
+      "TextInfos": [
+        {
+          "Text": "결정",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 30,
+      "LabelName": "training_code_slot",
+      "LabelHash": -509002743,
+      "OriginalText": "슬롯 {0}",
+      "TextInfos": [
+        {
+          "Text": "슬롯 ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    }
+  ]
+}

@@ -1,0 +1,1677 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "first_start",
+  "languageCode": 90,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "first_start_00",
+      "LabelHash": -316828032,
+      "OriginalText": "要以哪種語言進行遊戲？",
+      "TextInfos": [
+        {
+          "Text": "要以哪種語言進行遊戲？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 41
+    },
+    {
+      "Index": 1,
+      "LabelName": "first_start_01",
+      "LabelHash": -1882911973,
+      "OriginalText": "要以這個語言開始遊戲嗎？\n※以後可以變更。",
+      "TextInfos": [
+        {
+          "Text": "要以這個語言開始遊戲嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※以後可以變更。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 2,
+      "LabelName": "first_start_02",
+      "LabelHash": -1479627446,
+      "OriginalText": "請選擇您居住的國家／地區。",
+      "TextInfos": [
+        {
+          "Text": "請選擇您居住的國家／地區。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 41
+    },
+    {
+      "Index": 3,
+      "LabelName": "first_start_03",
+      "LabelHash": 1249255909,
+      "OriginalText": "確定要選擇\n{1}／{0}嗎？",
+      "TextInfos": [
+        {
+          "Text": "確定要選擇",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 19,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "／",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 18,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 4,
+      "LabelName": "first_start_06",
+      "LabelHash": 489741022,
+      "OriginalText": "年齡確認",
+      "TextInfos": [
+        {
+          "Text": "年齡確認",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 5,
+      "LabelName": "first_start_07",
+      "LabelHash": -1076342919,
+      "OriginalText": "請選擇您的出生年月。",
+      "TextInfos": [
+        {
+          "Text": "請選擇您的出生年月。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 43
+    },
+    {
+      "Index": 6,
+      "LabelName": "first_start_08",
+      "LabelHash": 39402328,
+      "OriginalText": "{0}年",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "年",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 7,
+      "LabelName": "first_start_10",
+      "LabelHash": -316828033,
+      "OriginalText": "確定",
+      "TextInfos": [
+        {
+          "Text": "確定",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 17
+    },
+    {
+      "Index": 8,
+      "LabelName": "first_start_11",
+      "LabelHash": -1882911974,
+      "OriginalText": "確定是{0}年{1}嗎？\n※出生年月以後無法變更。\n※能夠參加的大賽可能會根據年齡而不同。",
+      "TextInfos": [
+        {
+          "Text": "確定是",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "年",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 109,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※出生年月以後無法變更。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※能夠參加的大賽可能會根據年齡而不同。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 9,
+      "LabelName": "first_start_12",
+      "LabelHash": -1479627447,
+      "OriginalText": "名字",
+      "TextInfos": [
+        {
+          "Text": "名字",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 17
+    },
+    {
+      "Index": 10,
+      "LabelName": "first_start_13",
+      "LabelHash": 1249255908,
+      "OriginalText": "請輸入您的名字。",
+      "TextInfos": [
+        {
+          "Text": "請輸入您的名字。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 11,
+      "LabelName": "first_start_14",
+      "LabelHash": 1652540435,
+      "OriginalText": "請輸入您的名字。\n請勿輸入足以識別個人的資訊。",
+      "TextInfos": [
+        {
+          "Text": "請輸入您的名字。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "請勿輸入足以識別個人的資訊。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 71
+    },
+    {
+      "Index": 12,
+      "LabelName": "first_start_15",
+      "LabelHash": 86456494,
+      "OriginalText": "您的名字是",
+      "TextInfos": [
+        {
+          "Text": "您的名字是",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 13,
+      "LabelName": "first_start_16",
+      "LabelHash": 489741021,
+      "OriginalText": "{0}\n確定要使用這個名字嗎？",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "確定要使用這個名字嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 14,
+      "LabelName": "first_start_18",
+      "LabelHash": 39402327,
+      "OriginalText": "已確定名字。",
+      "TextInfos": [
+        {
+          "Text": "已確定名字。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 15,
+      "LabelName": "first_start_19",
+      "LabelHash": -1526681614,
+      "OriginalText": "請選擇您的形象。",
+      "TextInfos": [
+        {
+          "Text": "請選擇您的形象。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 16,
+      "LabelName": "first_start_19_confirm",
+      "LabelHash": 1099690115,
+      "OriginalText": "確定要使用這個形象嗎？",
+      "TextInfos": [
+        {
+          "Text": "確定要使用這個形象嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 17,
+      "LabelName": "first_start_20",
+      "LabelHash": -316828034,
+      "OriginalText": "請操作操控搖桿。",
+      "TextInfos": [
+        {
+          "Text": "請操作操控搖桿。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 41
+    },
+    {
+      "Index": 18,
+      "LabelName": "first_start_21",
+      "LabelHash": -1882911975,
+      "OriginalText": "形象",
+      "TextInfos": [
+        {
+          "Text": "形象",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 17
+    },
+    {
+      "Index": 19,
+      "LabelName": "first_start_22",
+      "LabelHash": -1479627448,
+      "OriginalText": "確定",
+      "TextInfos": [
+        {
+          "Text": "確定",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 17
+    },
+    {
+      "Index": 20,
+      "LabelName": "first_start_23",
+      "LabelHash": 1249255907,
+      "OriginalText": "登入時的帳號",
+      "TextInfos": [
+        {
+          "Text": "登入時的帳號",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 21,
+      "LabelName": "first_start_24",
+      "LabelHash": 1652540434,
+      "OriginalText": "Nintendo Account",
+      "TextInfos": [
+        {
+          "Text": "Nintendo Account",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 22,
+      "LabelName": "first_start_27",
+      "LabelHash": -1076342921,
+      "OriginalText": "以訪客身分登入",
+      "TextInfos": [
+        {
+          "Text": "以訪客身分登入",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 23,
+      "LabelName": "first_start_28",
+      "LabelHash": 39402326,
+      "OriginalText": "已與Pokémon Champions連結時，\n將能接續進度繼續遊戲。\n使用與Pokémon HOME相同的帳號時，\n將能讓一部分的寶可夢遠征。",
+      "TextInfos": [
+        {
+          "Text": "已與Pokémon Champions連結時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "將能接續進度繼續遊戲。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "使用與Pokémon HOME相同的帳號時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "將能讓一部分的寶可夢遠征。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 24,
+      "LabelName": "first_start_29",
+      "LabelHash": -1526681615,
+      "OriginalText": "帳號連結成功。",
+      "TextInfos": [
+        {
+          "Text": "帳號連結成功。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 25,
+      "LabelName": "first_start_30",
+      "LabelHash": -316828035,
+      "OriginalText": "帳號連結失敗。\n請再次選擇帳號。",
+      "TextInfos": [
+        {
+          "Text": "帳號連結失敗。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "請再次選擇帳號。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 26,
+      "LabelName": "first_start_31",
+      "LabelHash": -1882911976,
+      "OriginalText": "要繼承以下資料\n並繼續遊戲嗎？\n名字：{0}",
+      "TextInfos": [
+        {
+          "Text": "要繼承以下資料",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "並繼續遊戲嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "名字：",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 27,
+      "LabelName": "first_start_32",
+      "LabelHash": -1479627449,
+      "OriginalText": "繼承資料並開始遊戲。",
+      "TextInfos": [
+        {
+          "Text": "繼承資料並開始遊戲。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 28,
+      "LabelName": "first_start_33",
+      "LabelHash": 1249255906,
+      "OriginalText": "在Pokémon Champions連結帳號，\n將能同步使用狀況。\n使用與Pokémon HOME相同的帳號連結，\n將能讓一部分的寶可夢\n遠征前來Pokémon Champions。",
+      "TextInfos": [
+        {
+          "Text": "在Pokémon Champions連結帳號，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "將能同步使用狀況。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "使用與Pokémon HOME相同的帳號連結，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "將能讓一部分的寶可夢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "遠征前來Pokémon Champions。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 30,
+      "LabelName": "first_start_35",
+      "LabelHash": 86456492,
+      "OriginalText": "※基礎形象以後無法變更。",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              200,
+              54,
+              106,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※基礎形象以後無法變更。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 31,
+      "LabelName": "first_start_jan",
+      "LabelHash": -1435511329,
+      "OriginalText": "1月",
+      "TextInfos": [
+        {
+          "Text": "1月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 32,
+      "LabelName": "first_start_jan_short",
+      "LabelHash": -841800448,
+      "OriginalText": "1月",
+      "TextInfos": [
+        {
+          "Text": "1月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 33,
+      "LabelName": "first_start_feb",
+      "LabelHash": 533857011,
+      "OriginalText": "2月",
+      "TextInfos": [
+        {
+          "Text": "2月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 34,
+      "LabelName": "first_start_feb_short",
+      "LabelHash": 1264936044,
+      "OriginalText": "2月",
+      "TextInfos": [
+        {
+          "Text": "2月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 35,
+      "LabelName": "first_start_mar",
+      "LabelHash": -1435511212,
+      "OriginalText": "3月",
+      "TextInfos": [
+        {
+          "Text": "3月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 36,
+      "LabelName": "first_start_mar_short",
+      "LabelHash": -837622843,
+      "OriginalText": "3月",
+      "TextInfos": [
+        {
+          "Text": "3月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 37,
+      "LabelName": "first_start_apr",
+      "LabelHash": 843033053,
+      "OriginalText": "4月",
+      "TextInfos": [
+        {
+          "Text": "4月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 38,
+      "LabelName": "first_start_apr_short",
+      "LabelHash": 543132084,
+      "OriginalText": "4月",
+      "TextInfos": [
+        {
+          "Text": "4月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 39,
+      "LabelName": "first_start_may",
+      "LabelHash": -1435511217,
+      "OriginalText": "5月",
+      "TextInfos": [
+        {
+          "Text": "5月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 40,
+      "LabelName": "first_start_may_short",
+      "LabelHash": -837742672,
+      "OriginalText": "5月",
+      "TextInfos": [
+        {
+          "Text": "5月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 41,
+      "LabelName": "first_start_jun",
+      "LabelHash": 1246317859,
+      "OriginalText": "6月",
+      "TextInfos": [
+        {
+          "Text": "6月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 42,
+      "LabelName": "first_start_jun_short",
+      "LabelHash": -1455920996,
+      "OriginalText": "6月",
+      "TextInfos": [
+        {
+          "Text": "6月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 43,
+      "LabelName": "first_start_jul",
+      "LabelHash": 1246317857,
+      "OriginalText": "7月",
+      "TextInfos": [
+        {
+          "Text": "7月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 44,
+      "LabelName": "first_start_jul_short",
+      "LabelHash": -1455849382,
+      "OriginalText": "7月",
+      "TextInfos": [
+        {
+          "Text": "7月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 45,
+      "LabelName": "first_start_aug",
+      "LabelHash": 1246317569,
+      "OriginalText": "8月",
+      "TextInfos": [
+        {
+          "Text": "8月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 46,
+      "LabelName": "first_start_aug_short",
+      "LabelHash": -1466410374,
+      "OriginalText": "8月",
+      "TextInfos": [
+        {
+          "Text": "8月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 47,
+      "LabelName": "first_start_sep",
+      "LabelHash": 533857164,
+      "OriginalText": "9月",
+      "TextInfos": [
+        {
+          "Text": "9月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 48,
+      "LabelName": "first_start_sep_short",
+      "LabelHash": 1270578277,
+      "OriginalText": "9月",
+      "TextInfos": [
+        {
+          "Text": "9月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 49,
+      "LabelName": "first_start_oct",
+      "LabelHash": 1696656474,
+      "OriginalText": "10月",
+      "TextInfos": [
+        {
+          "Text": "10月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 50,
+      "LabelName": "first_start_oct_short",
+      "LabelHash": 20306827,
+      "OriginalText": "10月",
+      "TextInfos": [
+        {
+          "Text": "10月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 51,
+      "LabelName": "first_start_nov",
+      "LabelHash": -272711767,
+      "OriginalText": "11月",
+      "TextInfos": [
+        {
+          "Text": "11月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 52,
+      "LabelName": "first_start_nov_short",
+      "LabelHash": -46648238,
+      "OriginalText": "11月",
+      "TextInfos": [
+        {
+          "Text": "11月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 53,
+      "LabelName": "first_start_dec",
+      "LabelHash": 533856944,
+      "OriginalText": "12月",
+      "TextInfos": [
+        {
+          "Text": "12月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 54,
+      "LabelName": "first_start_dec_short",
+      "LabelHash": 1262604233,
+      "OriginalText": "12月",
+      "TextInfos": [
+        {
+          "Text": "12月",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    }
+  ]
+}

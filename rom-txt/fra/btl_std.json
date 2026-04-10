@@ -1,0 +1,3846 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "btl_std",
+  "languageCode": 30,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "BTL_STRID_STD_PutSingle",
+      "LabelHash": 527237733,
+      "OriginalText": "{0} ! Go !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 49,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ! Go !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 1,
+      "LabelName": "BTL_STRID_STD_PutDouble",
+      "LabelHash": 1946606304,
+      "OriginalText": "{0} et\n{1} !▽\nGo !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 189,
+            "TagId": 6,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 49,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " et",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 49,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "▽",
+          "Type": 6,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Go !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 2,
+      "LabelName": "BTL_STRID_STD_PutSingle_Player",
+      "LabelHash": 425829129,
+      "OriginalText": "{0} envoie\n{1} !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 189,
+            "TagId": 6,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " envoie",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 49,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 3,
+      "LabelName": "BTL_STRID_STD_PutDouble_Player",
+      "LabelHash": -319037420,
+      "OriginalText": "{0} envoie {1}\net {2} !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 189,
+            "TagId": 6,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " envoie ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 49,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "et ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 49,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 4,
+      "LabelName": "BTL_STRID_STD_BackChange2",
+      "LabelHash": 658436821,
+      "OriginalText": "Reviens, {0} !",
+      "TextInfos": [
+        {
+          "Text": "Reviens, ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 5,
+      "LabelName": "BTL_STRID_STD_BackChange_Player",
+      "LabelHash": 1703038727,
+      "OriginalText": "{0} retire {1} !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " retire ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 2,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 6,
+      "LabelName": "BTL_STRID_STD_Hit_PluralTimes",
+      "LabelHash": 1606668950,
+      "OriginalText": "Touché {0} fois !",
+      "TextInfos": [
+        {
+          "Text": "Touché ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " fois !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 7,
+      "LabelName": "BTL_STRID_STD_WinComm",
+      "LabelHash": 2055353282,
+      "OriginalText": "{0} a perdu !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " a perdu !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 8,
+      "LabelName": "BTL_STRID_STD_WinComm_Spectator",
+      "LabelHash": -1115212976,
+      "OriginalText": "{0} a perdu !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " a perdu !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 9,
+      "LabelName": "BTL_STRID_STD_LoseComm",
+      "LabelHash": 2096184371,
+      "OriginalText": "{0} a gagné !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " a gagné !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 10,
+      "LabelName": "BTL_STRID_STD_LoseComm_Spectator",
+      "LabelHash": -1868476991,
+      "OriginalText": "{0} a gagné !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " a gagné !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 11,
+      "LabelName": "BTL_STRID_STD_DrawComm",
+      "LabelHash": -347528974,
+      "OriginalText": "Le combat se termine sur une égalité entre vous et {0} !",
+      "TextInfos": [
+        {
+          "Text": "Le combat se termine sur une égalité entre vous et ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 12,
+      "LabelName": "BTL_STRID_STD_DrawComm_Spectator",
+      "LabelHash": 526282436,
+      "OriginalText": "Le combat se termine sur une égalité !",
+      "TextInfos": [
+        {
+          "Text": "Le combat se termine sur une égalité !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 13,
+      "LabelName": "BTL_STRID_STD_WazaFail",
+      "LabelHash": -935118451,
+      "OriginalText": "Mais cela échoue !",
+      "TextInfos": [
+        {
+          "Text": "Mais cela échoue !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 14,
+      "LabelName": "BTL_STRID_STD_AffSGood_syn",
+      "LabelHash": 1954712420,
+      "OriginalText": "C’est hyper efficace !!!",
+      "TextInfos": [
+        {
+          "Text": "C’est hyper efficace !!!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 15,
+      "LabelName": "BTL_STRID_STD_AffGood",
+      "LabelHash": 1761216546,
+      "OriginalText": "C’est super efficace !",
+      "TextInfos": [
+        {
+          "Text": "C’est super efficace !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 16,
+      "LabelName": "BTL_STRID_STD_AffBad",
+      "LabelHash": 1820541890,
+      "OriginalText": "Ce n’est pas très efficace...",
+      "TextInfos": [
+        {
+          "Text": "Ce n’est pas très efficace...",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 17,
+      "LabelName": "BTL_STRID_STD_AffSBad_syn",
+      "LabelHash": 1648440750,
+      "OriginalText": "Ce n’est vraiment pas très efficace !",
+      "TextInfos": [
+        {
+          "Text": "Ce n’est vraiment pas très efficace !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 18,
+      "LabelName": "BTL_STRID_STD_KonranExe",
+      "LabelHash": 1228838137,
+      "OriginalText": "Il se blesse dans sa confusion.",
+      "TextInfos": [
+        {
+          "Text": "Il se blesse dans sa confusion.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 19,
+      "LabelName": "BTL_STRID_STD_CriticalHit",
+      "LabelHash": -1164642518,
+      "OriginalText": "Coup critique !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              255,
+              70,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Coup critique !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 20,
+      "LabelName": "BTL_STRID_STD_PP_Short",
+      "LabelHash": -1905571705,
+      "OriginalText": "Mais cette capacité n’a plus de PP !",
+      "TextInfos": [
+        {
+          "Text": "Mais cette capacité n’a plus de PP !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 21,
+      "LabelName": "BTL_STRID_STD_ShineStart",
+      "LabelHash": 1724112355,
+      "OriginalText": "Les rayons du soleil brillent !",
+      "TextInfos": [
+        {
+          "Text": "Les rayons du soleil brillent !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 22,
+      "LabelName": "BTL_STRID_STD_RainStart",
+      "LabelHash": 791835530,
+      "OriginalText": "Il commence à pleuvoir !",
+      "TextInfos": [
+        {
+          "Text": "Il commence à pleuvoir !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 23,
+      "LabelName": "BTL_STRID_STD_StormStart",
+      "LabelHash": -892486863,
+      "OriginalText": "Une tempête de sable se prépare !",
+      "TextInfos": [
+        {
+          "Text": "Une tempête de sable se prépare !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 24,
+      "LabelName": "BTL_STRID_STD_SnowStart",
+      "LabelHash": -2136777253,
+      "OriginalText": "Il commence à neiger !",
+      "TextInfos": [
+        {
+          "Text": "Il commence à neiger !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 25,
+      "LabelName": "BTL_STRID_STD_ShineEnd",
+      "LabelHash": 1547412936,
+      "OriginalText": "Les rayons du soleil s’affaiblissent !",
+      "TextInfos": [
+        {
+          "Text": "Les rayons du soleil s’affaiblissent !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 26,
+      "LabelName": "BTL_STRID_STD_RainEnd",
+      "LabelHash": -2008112799,
+      "OriginalText": "La pluie s’est arrêtée !",
+      "TextInfos": [
+        {
+          "Text": "La pluie s’est arrêtée !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 27,
+      "LabelName": "BTL_STRID_STD_StormEnd",
+      "LabelHash": 817369414,
+      "OriginalText": "La tempête de sable se calme !",
+      "TextInfos": [
+        {
+          "Text": "La tempête de sable se calme !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 28,
+      "LabelName": "BTL_STRID_STD_SnowEnd",
+      "LabelHash": 554840788,
+      "OriginalText": "La neige s’est arrêtée !",
+      "TextInfos": [
+        {
+          "Text": "La neige s’est arrêtée !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 29,
+      "LabelName": "BTL_STRID_STD_AirLock",
+      "LabelHash": 671077715,
+      "OriginalText": "Les effets de la météo se dissipent !",
+      "TextInfos": [
+        {
+          "Text": "Les effets de la météo se dissipent !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 30,
+      "LabelName": "BTL_STRID_STD_Ichigeki",
+      "LabelHash": 1011499577,
+      "OriginalText": "K.O. en un coup !",
+      "TextInfos": [
+        {
+          "Text": "K.O. en un coup !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 31,
+      "LabelName": "BTL_STRID_STD_KinomiEff_WazaWeak",
+      "LabelHash": 677101636,
+      "OriginalText": "{0} affaiblit l’effet\nde la capacité {1} !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 189,
+            "TagId": 6,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 10,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " affaibli",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              8,
+              0,
+              115,
+              0,
+              115,
+              0,
+              101,
+              0,
+              110,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "t l’effet",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de la capacité ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 32,
+      "LabelName": "BTL_STRID_STD_KodawariLock",
+      "LabelHash": -334504555,
+      "OriginalText": "{0}  que seule la capacité\n{1}▽\npeut▽\nêtre▽\nutilisée !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 189,
+            "TagId": 6,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 10,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              8,
+              0,
+              102,
+              0,
+              97,
+              0,
+              105,
+              0,
+              116,
+              0,
+              8,
+              0,
+              102,
+              0,
+              111,
+              0,
+              110,
+              0,
+              116,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " que seule la capacité",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "▽",
+          "Type": 6,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "peut",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "▽",
+          "Type": 6,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "être",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "▽",
+          "Type": 6,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "utilisée !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 33,
+      "LabelName": "BTL_STRID_STD_TotsugekiLock",
+      "LabelHash": 433273052,
+      "OriginalText": "{0} empêche l’utilisation\nde toute▽\ncapacité▽\nde statut !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 189,
+            "TagId": 6,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 10,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " empêche",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              4,
+              0,
+              110,
+              0,
+              116,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " l’utilisation",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de toute",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "▽",
+          "Type": 6,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "capacité",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "▽",
+          "Type": 6,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de statut !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 34,
+      "LabelName": "BTL_STRID_STD_WazaLock",
+      "LabelHash": 1027601866,
+      "OriginalText": "{0} ne peut utiliser que la capacité\n{1} !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 189,
+            "TagId": 6,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 12,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ne peut utiliser que la capacité",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 35,
+      "LabelName": "BTL_STRID_STD_RankReset",
+      "LabelHash": -228659599,
+      "OriginalText": "Les changements de stats ont tous été annulés !",
+      "TextInfos": [
+        {
+          "Text": "Les changements de stats ont tous été annulés !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 36,
+      "LabelName": "BTL_STRID_STD_IyasinoSuzu",
+      "LabelHash": 1797444105,
+      "OriginalText": "Un grelot sonne !",
+      "TextInfos": [
+        {
+          "Text": "Un grelot sonne !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 37,
+      "LabelName": "BTL_STRID_STD_Itamiwake",
+      "LabelHash": -1758100538,
+      "OriginalText": "Le lanceur et sa cible partagent leurs PV !",
+      "TextInfos": [
+        {
+          "Text": "Le lanceur et sa cible partagent leurs PV !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 38,
+      "LabelName": "BTL_STRID_STD_TrickRoomOff",
+      "LabelHash": -1121559947,
+      "OriginalText": "Les dimensions faussées reviennent à la normale !",
+      "TextInfos": [
+        {
+          "Text": "Les dimensions faussées reviennent à la normale !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 39,
+      "LabelName": "BTL_STRID_STD_Jyuryoku",
+      "LabelHash": -1277554910,
+      "OriginalText": "La gravité s’intensifie !",
+      "TextInfos": [
+        {
+          "Text": "La gravité s’intensifie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 40,
+      "LabelName": "BTL_STRID_STD_JyuryokuOff",
+      "LabelHash": 903334893,
+      "OriginalText": "La gravité est revenue à la normale !",
+      "TextInfos": [
+        {
+          "Text": "La gravité est revenue à la normale !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 41,
+      "LabelName": "BTL_STRID_STD_HorobiNoUta",
+      "LabelHash": -2053936892,
+      "OriginalText": "Les Pokémon au combat seront K.O. dans trois tours !",
+      "TextInfos": [
+        {
+          "Text": "Les Pokémon au combat seront K.O. dans trois tours !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 42,
+      "LabelName": "BTL_STRID_STD_MigawariFail",
+      "LabelHash": 904999563,
+      "OriginalText": "Mais il est trop faible pour créer un clone !",
+      "TextInfos": [
+        {
+          "Text": "Mais il est trop faible pour créer un clone !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 43,
+      "LabelName": "BTL_STRID_STD_Reflector",
+      "LabelHash": 1697725272,
+      "OriginalText": "Protection augmente la résistance de l’équipe aux capacités physiques !",
+      "TextInfos": [
+        {
+          "Text": "Protection augmente la résistance de l’équipe aux capacités physiques !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 44,
+      "LabelName": "BTL_STRID_STD_Reflector_E",
+      "LabelHash": -1920171780,
+      "OriginalText": "Protection augmente la résistance de l’équipe ennemie\naux capacités physiques !",
+      "TextInfos": [
+        {
+          "Text": "Protection augmente la résistance de l’équipe ennemie",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "aux capacités physiques !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 45,
+      "LabelName": "BTL_STRID_STD_ReflectorOff",
+      "LabelHash": 1264725823,
+      "OriginalText": "Protection n’a plus d’effet sur l’équipe !",
+      "TextInfos": [
+        {
+          "Text": "Protection n’a plus d’effet sur l’équipe !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 46,
+      "LabelName": "BTL_STRID_STD_ReflectorOff_E",
+      "LabelHash": 634688093,
+      "OriginalText": "Protection n’a plus d’effet sur l’équipe ennemie !",
+      "TextInfos": [
+        {
+          "Text": "Protection n’a plus d’effet sur l’équipe ennemie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 47,
+      "LabelName": "BTL_STRID_STD_HikariNoKabe",
+      "LabelHash": -711990800,
+      "OriginalText": "Mur Lumière augmente la résistance de l’équipe aux capacités spéciales !",
+      "TextInfos": [
+        {
+          "Text": "Mur Lumière augmente la résistance de l’équipe aux capacités spéciales !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 48,
+      "LabelName": "BTL_STRID_STD_HikariNoKabe_E",
+      "LabelHash": 1588497784,
+      "OriginalText": "Mur Lumière augmente la résistance de l’équipe ennemie\naux capacités spéciales !",
+      "TextInfos": [
+        {
+          "Text": "Mur Lumière augmente la résistance de l’équipe ennemie",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "aux capacités spéciales !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 49,
+      "LabelName": "BTL_STRID_STD_HikariNoKabeOff",
+      "LabelHash": 1802315549,
+      "OriginalText": "Mur Lumière n’a plus d’effet sur l’équipe !",
+      "TextInfos": [
+        {
+          "Text": "Mur Lumière n’a plus d’effet sur l’équipe !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 50,
+      "LabelName": "BTL_STRID_STD_HikariNoKabeOff_E",
+      "LabelHash": -888399801,
+      "OriginalText": "Mur Lumière n’a plus d’effet sur l’équipe ennemie !",
+      "TextInfos": [
+        {
+          "Text": "Mur Lumière n’a plus d’effet sur l’équipe ennemie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 51,
+      "LabelName": "BTL_STRID_STD_AuroraVeil",
+      "LabelHash": -469546640,
+      "OriginalText": "Voile Aurore augmente la résistance de l’équipe aux capacités physiques\net spéciales !",
+      "TextInfos": [
+        {
+          "Text": "Voile Aurore augmente la résistance de l’équipe aux capacités physiques",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "et spéciales !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 52,
+      "LabelName": "BTL_STRID_STD_AuroraVeil_E",
+      "LabelHash": 999220488,
+      "OriginalText": "Voile Aurore augmente la résistance de l’équipe ennemie aux capacités\nphysiques et spéciales !",
+      "TextInfos": [
+        {
+          "Text": "Voile Aurore augmente la résistance de l’équipe ennemie aux capacités",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "physiques et spéciales !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 53,
+      "LabelName": "BTL_STRID_STD_AuroraVeilOff",
+      "LabelHash": 482003181,
+      "OriginalText": "Voile Aurore n’a plus d’effet sur l’équipe !",
+      "TextInfos": [
+        {
+          "Text": "Voile Aurore n’a plus d’effet sur l’équipe !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 54,
+      "LabelName": "BTL_STRID_STD_AuroraVeilOff_E",
+      "LabelHash": 2093674567,
+      "OriginalText": "Voile Aurore n’a plus d’effet sur l’équipe ennemie !",
+      "TextInfos": [
+        {
+          "Text": "Voile Aurore n’a plus d’effet sur l’équipe ennemie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 55,
+      "LabelName": "BTL_STRID_STD_SinpiNoMamori",
+      "LabelHash": 380945871,
+      "OriginalText": "Un voile mystérieux recouvre votre équipe !",
+      "TextInfos": [
+        {
+          "Text": "Un voile mystérieux recouvre votre équipe !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 56,
+      "LabelName": "BTL_STRID_STD_SinpiNoMamori_E",
+      "LabelHash": 466029649,
+      "OriginalText": "Un voile mystérieux recouvre l’équipe ennemie !",
+      "TextInfos": [
+        {
+          "Text": "Un voile mystérieux recouvre l’équipe ennemie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 57,
+      "LabelName": "BTL_STRID_STD_SinpiNoMamoriOff",
+      "LabelHash": -1883286182,
+      "OriginalText": "Votre équipe n’est plus protégée par le voile mystérieux !",
+      "TextInfos": [
+        {
+          "Text": "Votre équipe n’est plus protégée par le voile mystérieux !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 58,
+      "LabelName": "BTL_STRID_STD_SinpiNoMamoriOff_E",
+      "LabelHash": 1234225634,
+      "OriginalText": "L’équipe ennemie n’est plus protégée par le voile mystérieux !",
+      "TextInfos": [
+        {
+          "Text": "L’équipe ennemie n’est plus protégée par le voile mystérieux !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 59,
+      "LabelName": "BTL_STRID_STD_Oikaze",
+      "LabelHash": 676457401,
+      "OriginalText": "Un vent arrière souffle sur votre équipe !",
+      "TextInfos": [
+        {
+          "Text": "Un vent arrière souffle sur votre équipe !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 60,
+      "LabelName": "BTL_STRID_STD_Oikaze_E",
+      "LabelHash": -1356381469,
+      "OriginalText": "Un vent arrière souffle sur l’équipe ennemie !",
+      "TextInfos": [
+        {
+          "Text": "Un vent arrière souffle sur l’équipe ennemie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 61,
+      "LabelName": "BTL_STRID_STD_OikazeOff",
+      "LabelHash": 2047318506,
+      "OriginalText": "Le vent arrière soufflant sur votre équipe s’arrête !",
+      "TextInfos": [
+        {
+          "Text": "Le vent arrière soufflant sur votre équipe s’arrête !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 62,
+      "LabelName": "BTL_STRID_STD_OikazeOff_E",
+      "LabelHash": -1635155990,
+      "OriginalText": "Le vent arrière soufflant sur l’équipe ennemie s’arrête !",
+      "TextInfos": [
+        {
+          "Text": "Le vent arrière soufflant sur l’équipe ennemie s’arrête !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 63,
+      "LabelName": "BTL_STRID_STD_Makibisi",
+      "LabelHash": 83587737,
+      "OriginalText": "Des picots s’éparpillent autour de votre équipe !",
+      "TextInfos": [
+        {
+          "Text": "Des picots s’éparpillent autour de votre équipe !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 64,
+      "LabelName": "BTL_STRID_STD_Makibisi_E",
+      "LabelHash": 668067267,
+      "OriginalText": "Des picots s’éparpillent autour de l’équipe ennemie !",
+      "TextInfos": [
+        {
+          "Text": "Des picots s’éparpillent autour de l’équipe ennemie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 65,
+      "LabelName": "BTL_STRID_STD_MakibisiOff",
+      "LabelHash": -1392322764,
+      "OriginalText": "Il n’y a plus de picots autour de votre équipe !",
+      "TextInfos": [
+        {
+          "Text": "Il n’y a plus de picots autour de votre équipe !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 66,
+      "LabelName": "BTL_STRID_STD_MakibisiOff_E",
+      "LabelHash": 1627368272,
+      "OriginalText": "Il n’y a plus de picots autour de l’équipe ennemie !",
+      "TextInfos": [
+        {
+          "Text": "Il n’y a plus de picots autour de l’équipe ennemie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 67,
+      "LabelName": "BTL_STRID_STD_Dokubisi",
+      "LabelHash": 524074168,
+      "OriginalText": "Des pics toxiques se répandent autour de votre équipe !",
+      "TextInfos": [
+        {
+          "Text": "Des pics toxiques se répandent autour de votre équipe !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 68,
+      "LabelName": "BTL_STRID_STD_Dokubisi_E",
+      "LabelHash": -1975749680,
+      "OriginalText": "Des pics toxiques se répandent autour de l’équipe ennemie !",
+      "TextInfos": [
+        {
+          "Text": "Des pics toxiques se répandent autour de l’équipe ennemie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 69,
+      "LabelName": "BTL_STRID_STD_DokubisiOff",
+      "LabelHash": -1823779851,
+      "OriginalText": "Il n’y a plus de pics toxiques autour de votre équipe !",
+      "TextInfos": [
+        {
+          "Text": "Il n’y a plus de pics toxiques autour de votre équipe !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 70,
+      "LabelName": "BTL_STRID_STD_DokubisiOff_E",
+      "LabelHash": 1134457727,
+      "OriginalText": "Il n’y a plus de pics toxiques autour de l’équipe ennemie !",
+      "TextInfos": [
+        {
+          "Text": "Il n’y a plus de pics toxiques autour de l’équipe ennemie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 71,
+      "LabelName": "BTL_STRID_STD_StealthRock",
+      "LabelHash": 143278626,
+      "OriginalText": "Des pierres pointues lévitent autour de votre équipe !",
+      "TextInfos": [
+        {
+          "Text": "Des pierres pointues lévitent autour de votre équipe !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 72,
+      "LabelName": "BTL_STRID_STD_StealthRock_E",
+      "LabelHash": -138070926,
+      "OriginalText": "Des pierres pointues lévitent autour de l’équipe ennemie !",
+      "TextInfos": [
+        {
+          "Text": "Des pierres pointues lévitent autour de l’équipe ennemie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 73,
+      "LabelName": "BTL_STRID_STD_StealthRockOff",
+      "LabelHash": -2010891873,
+      "OriginalText": "Les pierres pointues autour de votre équipe ont disparu !",
+      "TextInfos": [
+        {
+          "Text": "Les pierres pointues autour de votre équipe ont disparu !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 74,
+      "LabelName": "BTL_STRID_STD_StealthRockOff_E",
+      "LabelHash": 511635933,
+      "OriginalText": "Les pierres pointues autour de l’équipe ennemie ont disparu !",
+      "TextInfos": [
+        {
+          "Text": "Les pierres pointues autour de l’équipe ennemie ont disparu !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 75,
+      "LabelName": "BTL_STRID_STD_WideGuard",
+      "LabelHash": -1580198524,
+      "OriginalText": "Votre équipe est protégée par la capacité Garde Large !",
+      "TextInfos": [
+        {
+          "Text": "Votre équipe est protégée par la capacité Garde Large !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 76,
+      "LabelName": "BTL_STRID_STD_WideGuard_E",
+      "LabelHash": -1084133556,
+      "OriginalText": "L’équipe ennemie est protégée par la capacité Garde Large !",
+      "TextInfos": [
+        {
+          "Text": "L’équipe ennemie est protégée par la capacité Garde Large !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 77,
+      "LabelName": "BTL_STRID_STD_FastGuard",
+      "LabelHash": 125105143,
+      "OriginalText": "Votre équipe est protégée par la capacité Prévention !",
+      "TextInfos": [
+        {
+          "Text": "Votre équipe est protégée par la capacité Prévention !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 78,
+      "LabelName": "BTL_STRID_STD_FastGuard_E",
+      "LabelHash": 1231572733,
+      "OriginalText": "L’équipe ennemie est protégée par la capacité Prévention !",
+      "TextInfos": [
+        {
+          "Text": "L’équipe ennemie est protégée par la capacité Prévention !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 79,
+      "LabelName": "BTL_STRID_STD_Kinchoukan",
+      "LabelHash": -363685021,
+      "OriginalText": "Votre équipe est tendue et ne peut plus manger de Baies !",
+      "TextInfos": [
+        {
+          "Text": "Votre équipe est tendue et ne peut plus manger de Baies !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 80,
+      "LabelName": "BTL_STRID_STD_Kinchoukan_E",
+      "LabelHash": 197686633,
+      "OriginalText": "L’équipe ennemie est tendue et ne peut plus manger de Baies !",
+      "TextInfos": [
+        {
+          "Text": "L’équipe ennemie est tendue et ne peut plus manger de Baies !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 81,
+      "LabelName": "BTL_STRID_STD_WonderRoom_Start",
+      "LabelHash": 980450531,
+      "OriginalText": "La Défense et la Défense Spéciale sont interverties !",
+      "TextInfos": [
+        {
+          "Text": "La Défense et la Défense Spéciale sont interverties !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 82,
+      "LabelName": "BTL_STRID_STD_WonderRoom_End",
+      "LabelHash": 1267448250,
+      "OriginalText": "La zone étrange a disparu. La Défense et la Défense Spéciale\nsont revenues à la normale !",
+      "TextInfos": [
+        {
+          "Text": "La zone étrange a disparu. La Défense et la Défense Spéciale",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sont revenues à la normale !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 83,
+      "LabelName": "BTL_STRID_STD_MagicRoom_Start",
+      "LabelHash": 1486131339,
+      "OriginalText": "L’effet des objets tenus est neutralisé !",
+      "TextInfos": [
+        {
+          "Text": "L’effet des objets tenus est neutralisé !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 84,
+      "LabelName": "BTL_STRID_STD_MagicRoom_End",
+      "LabelHash": -2030864126,
+      "OriginalText": "La zone magique a disparu. L’effet des objets tenus est rétabli !",
+      "TextInfos": [
+        {
+          "Text": "La zone magique a disparu. L’effet des objets tenus est rétabli !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 85,
+      "LabelName": "BTL_STRID_STD_Juel",
+      "LabelHash": -1082157236,
+      "OriginalText": "{0} renforce la capacité\n{1} !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 189,
+            "TagId": 6,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 10,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " renforce",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              4,
+              0,
+              110,
+              0,
+              116,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " la capacité",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 86,
+      "LabelName": "BTL_STRID_STD_BattleTimeOver",
+      "LabelHash": 52962635,
+      "OriginalText": "La limite de temps est dépassée !\nFin du combat !",
+      "TextInfos": [
+        {
+          "Text": "La limite de temps est dépassée !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Fin du combat !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 87,
+      "LabelName": "BTL_STRID_STD_BattleTimeOver_Your",
+      "LabelHash": 620578993,
+      "OriginalText": "Votre adversaire a dépassé sa limite de temps !\nFin du combat !",
+      "TextInfos": [
+        {
+          "Text": "Votre adversaire a dépassé sa limite de temps !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Fin du combat !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 88,
+      "LabelName": "BTL_STRID_STD_BattleTimeOver_My",
+      "LabelHash": 1796516752,
+      "OriginalText": "Vous avez dépassé votre limite de temps !\nFin du combat !",
+      "TextInfos": [
+        {
+          "Text": "Vous avez dépassé votre limite de temps !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Fin du combat !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 89,
+      "LabelName": "BTL_STRID_STD_CommandTimeOver",
+      "LabelHash": -814122318,
+      "OriginalText": "Vous n’avez pas effectué d’action depuis un certain temps.\nFin du combat !",
+      "TextInfos": [
+        {
+          "Text": "Vous n’avez pas effectué d’action depuis un certain temps.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Fin du combat !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 90,
+      "LabelName": "BTL_STRID_STD_CommandTimeOver_win",
+      "LabelHash": 2027656777,
+      "OriginalText": "Votre adversaire n’a pas effectué d’action depuis un certain temps.\nFin du combat !",
+      "TextInfos": [
+        {
+          "Text": "Votre adversaire n’a pas effectué d’action depuis un certain temps.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Fin du combat !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 94,
+      "LabelName": "BTL_STRID_STD_Retired",
+      "LabelHash": 1021517871,
+      "OriginalText": "Le combat se termine par un forfait.",
+      "TextInfos": [
+        {
+          "Text": "Le combat se termine par un forfait.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 95,
+      "LabelName": "BTL_STRID_STD_GrassGround_Start",
+      "LabelHash": -872937498,
+      "OriginalText": "Un beau gazon pousse sur le terrain !",
+      "TextInfos": [
+        {
+          "Text": "Un beau gazon pousse sur le terrain !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 96,
+      "LabelName": "BTL_STRID_STD_GrassGround_End",
+      "LabelHash": -2053662781,
+      "OriginalText": "Le gazon disparaît...",
+      "TextInfos": [
+        {
+          "Text": "Le gazon disparaît...",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 97,
+      "LabelName": "BTL_STRID_STD_MistGround_Start",
+      "LabelHash": 836148467,
+      "OriginalText": "La brume recouvre le terrain !",
+      "TextInfos": [
+        {
+          "Text": "La brume recouvre le terrain !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 98,
+      "LabelName": "BTL_STRID_STD_MistGround_End",
+      "LabelHash": 440620232,
+      "OriginalText": "La brume qui recouvrait le terrain se dissipe...",
+      "TextInfos": [
+        {
+          "Text": "La brume qui recouvrait le terrain se dissipe...",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 99,
+      "LabelName": "BTL_STRID_STD_ElecField_Start",
+      "LabelHash": -1644803332,
+      "OriginalText": "De l’électricité parcourt le terrain !",
+      "TextInfos": [
+        {
+          "Text": "De l’électricité parcourt le terrain !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 100,
+      "LabelName": "BTL_STRID_STD_ElecField_End",
+      "LabelHash": -923613333,
+      "OriginalText": "L’électricité parcourant le terrain s’est dissipée...",
+      "TextInfos": [
+        {
+          "Text": "L’électricité parcourant le terrain s’est dissipée...",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 101,
+      "LabelName": "BTL_STRID_STD_NebaNebaNet",
+      "LabelHash": -264065907,
+      "OriginalText": "Le terrain est couvert d’une toile gluante du côté de votre équipe !",
+      "TextInfos": [
+        {
+          "Text": "Le terrain est couvert d’une toile gluante du côté de votre équipe !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 102,
+      "LabelName": "BTL_STRID_STD_NebaNebaNet_E",
+      "LabelHash": 655477463,
+      "OriginalText": "Le terrain est couvert d’une toile gluante du côté de l’équipe ennemie !",
+      "TextInfos": [
+        {
+          "Text": "Le terrain est couvert d’une toile gluante du côté de l’équipe ennemie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 103,
+      "LabelName": "BTL_STRID_STD_NebaNebaNetOff",
+      "LabelHash": -1299401764,
+      "OriginalText": "La toile gluante du côté de votre équipe a disparu !",
+      "TextInfos": [
+        {
+          "Text": "La toile gluante du côté de votre équipe a disparu !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 104,
+      "LabelName": "BTL_STRID_STD_NebaNebaNetOff_E",
+      "LabelHash": -972425184,
+      "OriginalText": "La toile gluante du côté de l’équipe ennemie a disparu !",
+      "TextInfos": [
+        {
+          "Text": "La toile gluante du côté de l’équipe ennemie a disparu !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 105,
+      "LabelName": "BTL_STRID_STD_GeppuWarn",
+      "LabelHash": 866913447,
+      "OriginalText": "Impossible d’utiliser cette capacité sans avoir mangé de Baie !",
+      "TextInfos": [
+        {
+          "Text": "Impossible d’utiliser cette capacité sans avoir mangé de Baie !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 106,
+      "LabelName": "BTL_STRID_STD_OmitoosiCont",
+      "LabelHash": -351562915,
+      "OriginalText": "{0} a été fouillé !\nIl tient {1} !",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " a été fouillé !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Il tient ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 5,
+            "Params": [
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 10,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 108,
+      "LabelName": "BTL_STRID_STD_FairyLock",
+      "LabelHash": 699183090,
+      "OriginalText": "Il sera impossible de fuir au tour suivant !",
+      "TextInfos": [
+        {
+          "Text": "Il sera impossible de fuir au tour suivant !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 141,
+      "LabelName": "BTL_STRID_STD_PhychoField_Start",
+      "LabelHash": 968312532,
+      "OriginalText": "Le sol se met à réagir de façon bizarre...",
+      "TextInfos": [
+        {
+          "Text": "Le sol se met à réagir de façon bizarre...",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 142,
+      "LabelName": "BTL_STRID_STD_PhychoField_End",
+      "LabelHash": 866669425,
+      "OriginalText": "Le sol redevient normal !",
+      "TextInfos": [
+        {
+          "Text": "Le sol redevient normal !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 147,
+      "LabelName": "BTL_STRID_STD_Ochakai",
+      "LabelHash": -461255728,
+      "OriginalText": "C’est l’heure du thé !\nTout le monde mange sa Baie.",
+      "TextInfos": [
+        {
+          "Text": "C’est l’heure du thé !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Tout le monde mange sa Baie.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 148,
+      "LabelName": "BTL_STRID_STD_Ochakai_Failed",
+      "LabelHash": 51656368,
+      "OriginalText": "Mais rien ne se passe !",
+      "TextInfos": [
+        {
+          "Text": "Mais rien ne se passe !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 152,
+      "LabelName": "BTL_STRID_STD_Hoobaru_Failed",
+      "LabelHash": 1629704134,
+      "OriginalText": "Il doit tenir une Baie pour utiliser cette capacité !",
+      "TextInfos": [
+        {
+          "Text": "Il doit tenir une Baie pour utiliser cette capacité !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 153,
+      "LabelName": "BTL_STRID_STD_Waza_NG",
+      "LabelHash": -1645319527,
+      "OriginalText": "Vous ne pouvez pas utiliser cette capacité !",
+      "TextInfos": [
+        {
+          "Text": "Vous ne pouvez pas utiliser cette capacité !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 154,
+      "LabelName": "BTL_STRID_STD_Okatazuke",
+      "LabelHash": -1354905101,
+      "OriginalText": "Le grand nettoyage est terminé !",
+      "TextInfos": [
+        {
+          "Text": "Le grand nettoyage est terminé !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 155,
+      "LabelName": "BTL_STRID_STD_GigaHammerWarn",
+      "LabelHash": -389125198,
+      "OriginalText": "Vous ne pouvez pas utiliser {0} deux fois d’affilée.",
+      "TextInfos": [
+        {
+          "Text": "Vous ne pouvez pas utiliser ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " deux fois d’affilée.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "friend",
+  "languageCode": 20,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "friend_00",
+      "LabelHash": -171924983,
+      "OriginalText": "Friend List",
+      "TextInfos": [
+        {
+          "Text": "Friend List",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 1,
+      "LabelName": "friend_01",
+      "LabelHash": -171924984,
+      "OriginalText": "Send a Friend Request",
+      "TextInfos": [
+        {
+          "Text": "Send a Friend Request",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 2,
+      "LabelName": "friend_02",
+      "LabelHash": -171924985,
+      "OriginalText": "Sent Requests",
+      "TextInfos": [
+        {
+          "Text": "Sent Requests",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 3,
+      "LabelName": "friend_03",
+      "LabelHash": -171924986,
+      "OriginalText": "Received Requests",
+      "TextInfos": [
+        {
+          "Text": "Received Requests",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 4,
+      "LabelName": "friend_04",
+      "LabelHash": -171924979,
+      "OriginalText": "Block List",
+      "TextInfos": [
+        {
+          "Text": "Block List",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 5,
+      "LabelName": "friend_05",
+      "LabelHash": -171924980,
+      "OriginalText": "Last Log-In: ",
+      "TextInfos": [
+        {
+          "Text": "Last Log-In: ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 6,
+      "LabelName": "friend_06",
+      "LabelHash": -171924981,
+      "OriginalText": "{0}  ago",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              8,
+              0,
+              104,
+              0,
+              111,
+              0,
+              117,
+              0,
+              114,
+              0,
+              10,
+              0,
+              104,
+              0,
+              111,
+              0,
+              117,
+              0,
+              114,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " ago",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 7,
+      "LabelName": "friend_07",
+      "LabelHash": -171924982,
+      "OriginalText": "{0}  ago",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              6,
+              0,
+              100,
+              0,
+              97,
+              0,
+              121,
+              0,
+              8,
+              0,
+              100,
+              0,
+              97,
+              0,
+              121,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " ago",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 8,
+      "LabelName": "friend_08",
+      "LabelHash": -171924991,
+      "OriginalText": "{0}  ago",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 19,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              10,
+              0,
+              109,
+              0,
+              111,
+              0,
+              110,
+              0,
+              116,
+              0,
+              104,
+              0,
+              12,
+              0,
+              109,
+              0,
+              111,
+              0,
+              110,
+              0,
+              116,
+              0,
+              104,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " ago",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 9,
+      "LabelName": "friend_14",
+      "LabelHash": 1394158962,
+      "OriginalText": "Enter a Trainer ID.",
+      "TextInfos": [
+        {
+          "Text": "Enter a Trainer ID.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 10,
+      "LabelName": "friend_24",
+      "LabelHash": 990874435,
+      "OriginalText": "You can’t add new friends right now because\nyou’ve already maxed out your friend list!",
+      "TextInfos": [
+        {
+          "Text": "You can’t add new friends right now because",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "you’ve already maxed out your friend list!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 11,
+      "LabelName": "friend_25",
+      "LabelHash": 990874434,
+      "OriginalText": "You couldn’t be added as this Trainer’s friend\nbecause they’ve maxed out their friend list!",
+      "TextInfos": [
+        {
+          "Text": "You couldn’t be added as this Trainer’s friend",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "because they’ve maxed out their friend list!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 12,
+      "LabelName": "friend_28",
+      "LabelHash": 990874423,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 13,
+      "LabelName": "friend_30",
+      "LabelHash": -1738008924,
+      "OriginalText": "You sent a friend request!",
+      "TextInfos": [
+        {
+          "Text": "You sent a friend request!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 14,
+      "LabelName": "friend_no_friends",
+      "LabelHash": 1501937002,
+      "OriginalText": "You haven’t added any friends.",
+      "TextInfos": [
+        {
+          "Text": "You haven’t added any friends.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 15,
+      "LabelName": "friend_send_no_application",
+      "LabelHash": -1994762488,
+      "OriginalText": "You have no friend requests waiting\non a response from another Trainer.",
+      "TextInfos": [
+        {
+          "Text": "You have no friend requests waiting",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "on a response from another Trainer.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 16,
+      "LabelName": "friend_accept_no_application",
+      "LabelHash": -757131890,
+      "OriginalText": "You have no friend requests\nwaiting for your response.",
+      "TextInfos": [
+        {
+          "Text": "You have no friend requests",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "waiting for your response.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 17,
+      "LabelName": "friend_no_blocked_trainers",
+      "LabelHash": 2144284730,
+      "OriginalText": "You haven’t blocked any Trainers.",
+      "TextInfos": [
+        {
+          "Text": "You haven’t blocked any Trainers.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    }
+  ]
+}

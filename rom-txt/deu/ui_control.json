@@ -1,0 +1,408 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "ui_control",
+  "languageCode": 50,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "ui_control_VPnum",
+      "LabelHash": -422535437,
+      "OriginalText": "{0} VP",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 6,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": " VP",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 1,
+      "LabelName": "ui_control_VP",
+      "LabelHash": -660332735,
+      "OriginalText": "VP",
+      "TextInfos": [
+        {
+          "Text": "VP",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 5
+    },
+    {
+      "Index": 2,
+      "LabelName": "ui_control_PP_1",
+      "LabelHash": -752927755,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 5
+    },
+    {
+      "Index": 3,
+      "LabelName": "ui_control_PP_2",
+      "LabelHash": -752927754,
+      "OriginalText": "/{0}",
+      "TextInfos": [
+        {
+          "Text": "/",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 6
+    },
+    {
+      "Index": 4,
+      "LabelName": "ui_control_doku",
+      "LabelHash": -470087346,
+      "OriginalText": "Vergiftet",
+      "TextInfos": [
+        {
+          "Text": "Vergiftet",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 5,
+      "LabelName": "ui_control_nemuri",
+      "LabelHash": 1556983683,
+      "OriginalText": "Schläft",
+      "TextInfos": [
+        {
+          "Text": "Schläft",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 6,
+      "LabelName": "ui_control_mahi",
+      "LabelHash": -604601970,
+      "OriginalText": "Paralysiert",
+      "TextInfos": [
+        {
+          "Text": "Paralysiert",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 7,
+      "LabelName": "ui_control_koori",
+      "LabelHash": 1975881075,
+      "OriginalText": "Gefroren",
+      "TextInfos": [
+        {
+          "Text": "Gefroren",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 8,
+      "LabelName": "ui_control_yakedo",
+      "LabelHash": -673538308,
+      "OriginalText": "Verbrennung",
+      "TextInfos": [
+        {
+          "Text": "Verbrennung",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 9,
+      "LabelName": "ui_control_moudoku",
+      "LabelHash": 1842588757,
+      "OriginalText": "Schwer vergiftet",
+      "TextInfos": [
+        {
+          "Text": "Schwer vergiftet",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 10
+    },
+    {
+      "Index": 10,
+      "LabelName": "WAZAINFO_SYN_null",
+      "LabelHash": 1227488398,
+      "OriginalText": "―",
+      "TextInfos": [
+        {
+          "Text": "―",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 11,
+      "LabelName": "WAZAINFO_SYN_000",
+      "LabelHash": -203723509,
+      "OriginalText": "Diese Attacke kann nicht eingesetzt werden.\nDu solltest deinem Pokémon beim Training stattdessen\neine andere Attacke beibringen.",
+      "TextInfos": [
+        {
+          "Text": "Diese Attacke kann nicht eingesetzt werden.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Du solltest deinem Pokémon beim Training stattdessen",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "eine andere Attacke beibringen.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 12,
+      "LabelName": "ui_control_notice_00",
+      "LabelHash": 1114278308,
+      "OriginalText": "Worlds-Qualifikationsturnier!",
+      "TextInfos": [
+        {
+          "Text": "Worlds-Qualifikationsturnier!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 13,
+      "LabelName": "ui_control_notice_01",
+      "LabelHash": -451805633,
+      "OriginalText": "Events im Gange!",
+      "TextInfos": [
+        {
+          "Text": "Events im Gange!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 14,
+      "LabelName": "ui_control_notice_02",
+      "LabelHash": -48521106,
+      "OriginalText": "Rekrutierung möglich!",
+      "TextInfos": [
+        {
+          "Text": "Rekrutierung möglich!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    }
+  ]
+}

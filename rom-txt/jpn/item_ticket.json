@@ -1,0 +1,785 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "item_ticket",
+  "languageCode": 10,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "item_ticket_00",
+      "LabelHash": -1414054123,
+      "OriginalText": "レギュラーチケット",
+      "TextInfos": [
+        {
+          "Text": "レギュラーチケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 1,
+      "LabelName": "item_ticket_01",
+      "LabelHash": 1314829232,
+      "OriginalText": "ファストクーポン",
+      "TextInfos": [
+        {
+          "Text": "ファストクーポン",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 2,
+      "LabelName": "item_ticket_02",
+      "LabelHash": 1718113759,
+      "OriginalText": "ノーマルタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "ノーマルタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 3,
+      "LabelName": "item_ticket_03",
+      "LabelHash": 152029818,
+      "OriginalText": "かくとうタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "かくとうタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 4,
+      "LabelName": "item_ticket_04",
+      "LabelHash": 555314345,
+      "OriginalText": "ひこうタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "ひこうタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 5,
+      "LabelName": "item_ticket_05",
+      "LabelHash": -1010769596,
+      "OriginalText": "どくタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "どくタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 6,
+      "LabelName": "item_ticket_06",
+      "LabelHash": -607485069,
+      "OriginalText": "じめんタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "じめんタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 7,
+      "LabelName": "item_ticket_07",
+      "LabelHash": 2121398286,
+      "OriginalText": "いわタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "いわタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 8,
+      "LabelName": "item_ticket_08",
+      "LabelHash": -1770284483,
+      "OriginalText": "むしタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "むしタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 9,
+      "LabelName": "item_ticket_09",
+      "LabelHash": 958598872,
+      "OriginalText": "ゴーストタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "ゴーストタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 10,
+      "LabelName": "item_ticket_10",
+      "LabelHash": -1414054122,
+      "OriginalText": "はがねタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "はがねタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 11,
+      "LabelName": "item_ticket_11",
+      "LabelHash": 1314829233,
+      "OriginalText": "ほのおタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "ほのおタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 12,
+      "LabelName": "item_ticket_12",
+      "LabelHash": 1718113760,
+      "OriginalText": "みずタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "みずタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 13,
+      "LabelName": "item_ticket_13",
+      "LabelHash": 152029819,
+      "OriginalText": "くさタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "くさタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 14,
+      "LabelName": "item_ticket_14",
+      "LabelHash": 555314346,
+      "OriginalText": "でんきタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "でんきタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 15,
+      "LabelName": "item_ticket_15",
+      "LabelHash": -1010769595,
+      "OriginalText": "エスパータイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "エスパータイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 16,
+      "LabelName": "item_ticket_16",
+      "LabelHash": -607485068,
+      "OriginalText": "こおりタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "こおりタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 17,
+      "LabelName": "item_ticket_17",
+      "LabelHash": 2121398287,
+      "OriginalText": "ドラゴンタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "ドラゴンタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 18,
+      "LabelName": "item_ticket_18",
+      "LabelHash": -1770284482,
+      "OriginalText": "あくタイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "あくタイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 19,
+      "LabelName": "item_ticket_19",
+      "LabelHash": 958598873,
+      "OriginalText": "フェアリータイプ紹介チケット",
+      "TextInfos": [
+        {
+          "Text": "フェアリータイプ紹介チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 21,
+      "LabelName": "item_ticket_21",
+      "LabelHash": 1314829234,
+      "OriginalText": "ハイパーボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "ハイパーボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 22,
+      "LabelName": "item_ticket_22",
+      "LabelHash": 1718113761,
+      "OriginalText": "スーパーボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "スーパーボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 23,
+      "LabelName": "item_ticket_23",
+      "LabelHash": 152029820,
+      "OriginalText": "モンスターボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "モンスターボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 25,
+      "LabelName": "item_ticket_25",
+      "LabelHash": -1010769594,
+      "OriginalText": "ネットボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "ネットボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 26,
+      "LabelName": "item_ticket_26",
+      "LabelHash": -607485067,
+      "OriginalText": "ダイブボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "ダイブボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 27,
+      "LabelName": "item_ticket_27",
+      "LabelHash": 2121398288,
+      "OriginalText": "ネストボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "ネストボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 28,
+      "LabelName": "item_ticket_28",
+      "LabelHash": -1770284481,
+      "OriginalText": "リピートボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "リピートボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 29,
+      "LabelName": "item_ticket_29",
+      "LabelHash": 958598874,
+      "OriginalText": "タイマーボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "タイマーボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 30,
+      "LabelName": "item_ticket_30",
+      "LabelHash": -1414054120,
+      "OriginalText": "ゴージャスボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "ゴージャスボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 31,
+      "LabelName": "item_ticket_31",
+      "LabelHash": 1314829235,
+      "OriginalText": "プレミアボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "プレミアボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 32,
+      "LabelName": "item_ticket_32",
+      "LabelHash": 1718113762,
+      "OriginalText": "ダークボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "ダークボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 33,
+      "LabelName": "item_ticket_33",
+      "LabelHash": 152029821,
+      "OriginalText": "ヒールボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "ヒールボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 34,
+      "LabelName": "item_ticket_34",
+      "LabelHash": 555314348,
+      "OriginalText": "クイックボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "クイックボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 45,
+      "LabelName": "item_ticket_48",
+      "LabelHash": -1770284479,
+      "OriginalText": "トレーニングチケット",
+      "TextInfos": [
+        {
+          "Text": "トレーニングチケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 46,
+      "LabelName": "item_ticket_49",
+      "LabelHash": 958598876,
+      "OriginalText": "レアボール確定チケット",
+      "TextInfos": [
+        {
+          "Text": "レアボール確定チケット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    }
+  ]
+}

@@ -1,0 +1,785 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "item_ticket",
+  "languageCode": 40,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "item_ticket_00",
+      "LabelHash": -1414054123,
+      "OriginalText": "Biglietto standard",
+      "TextInfos": [
+        {
+          "Text": "Biglietto standard",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 1,
+      "LabelName": "item_ticket_01",
+      "LabelHash": 1314829232,
+      "OriginalText": "Coupon rapido",
+      "TextInfos": [
+        {
+          "Text": "Coupon rapido",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 2,
+      "LabelName": "item_ticket_02",
+      "LabelHash": 1718113759,
+      "OriginalText": "Biglietto di presentazione Normale",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Normale",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 3,
+      "LabelName": "item_ticket_03",
+      "LabelHash": 152029818,
+      "OriginalText": "Biglietto di presentazione Lotta",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Lotta",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 4,
+      "LabelName": "item_ticket_04",
+      "LabelHash": 555314345,
+      "OriginalText": "Biglietto di presentazione Volante",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Volante",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 5,
+      "LabelName": "item_ticket_05",
+      "LabelHash": -1010769596,
+      "OriginalText": "Biglietto di presentazione Veleno",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Veleno",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 6,
+      "LabelName": "item_ticket_06",
+      "LabelHash": -607485069,
+      "OriginalText": "Biglietto di presentazione Terra",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Terra",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 7,
+      "LabelName": "item_ticket_07",
+      "LabelHash": 2121398286,
+      "OriginalText": "Biglietto di presentazione Roccia",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Roccia",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 8,
+      "LabelName": "item_ticket_08",
+      "LabelHash": -1770284483,
+      "OriginalText": "Biglietto di presentazione Coleottero",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Coleottero",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 9,
+      "LabelName": "item_ticket_09",
+      "LabelHash": 958598872,
+      "OriginalText": "Biglietto di presentazione Spettro",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Spettro",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 10,
+      "LabelName": "item_ticket_10",
+      "LabelHash": -1414054122,
+      "OriginalText": "Biglietto di presentazione Acciaio",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Acciaio",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 11,
+      "LabelName": "item_ticket_11",
+      "LabelHash": 1314829233,
+      "OriginalText": "Biglietto di presentazione Fuoco",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Fuoco",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 12,
+      "LabelName": "item_ticket_12",
+      "LabelHash": 1718113760,
+      "OriginalText": "Biglietto di presentazione Acqua",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Acqua",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 13,
+      "LabelName": "item_ticket_13",
+      "LabelHash": 152029819,
+      "OriginalText": "Biglietto di presentazione Erba",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Erba",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 14,
+      "LabelName": "item_ticket_14",
+      "LabelHash": 555314346,
+      "OriginalText": "Biglietto di presentazione Elettro",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Elettro",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 15,
+      "LabelName": "item_ticket_15",
+      "LabelHash": -1010769595,
+      "OriginalText": "Biglietto di presentazione Psico",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Psico",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 16,
+      "LabelName": "item_ticket_16",
+      "LabelHash": -607485068,
+      "OriginalText": "Biglietto di presentazione Ghiaccio",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Ghiaccio",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 17,
+      "LabelName": "item_ticket_17",
+      "LabelHash": 2121398287,
+      "OriginalText": "Biglietto di presentazione Drago",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Drago",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 18,
+      "LabelName": "item_ticket_18",
+      "LabelHash": -1770284482,
+      "OriginalText": "Biglietto di presentazione Buio",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Buio",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 19,
+      "LabelName": "item_ticket_19",
+      "LabelHash": 958598873,
+      "OriginalText": "Biglietto di presentazione Folletto",
+      "TextInfos": [
+        {
+          "Text": "Biglietto di presentazione Folletto",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 21,
+      "LabelName": "item_ticket_21",
+      "LabelHash": 1314829234,
+      "OriginalText": "Biglietto garanzia Ultra Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Ultra Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 22,
+      "LabelName": "item_ticket_22",
+      "LabelHash": 1718113761,
+      "OriginalText": "Biglietto garanzia Mega Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Mega Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 23,
+      "LabelName": "item_ticket_23",
+      "LabelHash": 152029820,
+      "OriginalText": "Biglietto garanzia Poké Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Poké Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 25,
+      "LabelName": "item_ticket_25",
+      "LabelHash": -1010769594,
+      "OriginalText": "Biglietto garanzia Rete Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Rete Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 26,
+      "LabelName": "item_ticket_26",
+      "LabelHash": -607485067,
+      "OriginalText": "Biglietto garanzia Sub Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Sub Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 27,
+      "LabelName": "item_ticket_27",
+      "LabelHash": 2121398288,
+      "OriginalText": "Biglietto garanzia Minor Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Minor Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 28,
+      "LabelName": "item_ticket_28",
+      "LabelHash": -1770284481,
+      "OriginalText": "Biglietto garanzia Bis Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Bis Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 29,
+      "LabelName": "item_ticket_29",
+      "LabelHash": 958598874,
+      "OriginalText": "Biglietto garanzia Timer Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Timer Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 30,
+      "LabelName": "item_ticket_30",
+      "LabelHash": -1414054120,
+      "OriginalText": "Biglietto garanzia Chic Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Chic Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 31,
+      "LabelName": "item_ticket_31",
+      "LabelHash": 1314829235,
+      "OriginalText": "Biglietto garanzia Premier Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Premier Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 32,
+      "LabelName": "item_ticket_32",
+      "LabelHash": 1718113762,
+      "OriginalText": "Biglietto garanzia Scuro Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Scuro Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 33,
+      "LabelName": "item_ticket_33",
+      "LabelHash": 152029821,
+      "OriginalText": "Biglietto garanzia Cura Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Cura Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 34,
+      "LabelName": "item_ticket_34",
+      "LabelHash": 555314348,
+      "OriginalText": "Biglietto garanzia Velox Ball",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Velox Ball",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 45,
+      "LabelName": "item_ticket_48",
+      "LabelHash": -1770284479,
+      "OriginalText": "Biglietto allenamento",
+      "TextInfos": [
+        {
+          "Text": "Biglietto allenamento",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 46,
+      "LabelName": "item_ticket_49",
+      "LabelHash": 958598876,
+      "OriginalText": "Biglietto garanzia Poké Ball rare",
+      "TextInfos": [
+        {
+          "Text": "Biglietto garanzia Poké Ball rare",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    }
+  ]
+}

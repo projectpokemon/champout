@@ -1,0 +1,1059 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "profile",
+  "languageCode": 50,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "profile_button_00",
+      "LabelHash": 1448757361,
+      "OriginalText": "Trainer-ID",
+      "TextInfos": [
+        {
+          "Text": "Trainer-ID",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 1,
+      "LabelName": "profile_button_01",
+      "LabelHash": 1448757362,
+      "OriginalText": "Spielstatistiken",
+      "TextInfos": [
+        {
+          "Text": "Spielstatistiken",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 2,
+      "LabelName": "profile_00",
+      "LabelHash": 27634208,
+      "OriginalText": "Die ID wurde kopiert!",
+      "TextInfos": [
+        {
+          "Text": "Die ID wurde kopiert!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 3,
+      "LabelName": "profile_01",
+      "LabelHash": 1593718149,
+      "OriginalText": "Wenn du deine Trainer-ID änderst, kannst du deine derzeitige\nTrainer-ID nicht mehr verwenden.\nHinweis: Dies hat keine Auswirkungen auf deine Freunde oder\nbereits verschickte Freundschaftsanfragen.",
+      "TextInfos": [
+        {
+          "Text": "Wenn du deine Trainer-ID änderst, kannst du deine derzeitige",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Trainer-ID nicht mehr verwenden.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Hinweis: Dies hat keine Auswirkungen auf deine Freunde oder",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "bereits verschickte Freundschaftsanfragen.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 4,
+      "LabelName": "profile_02",
+      "LabelHash": 1190433622,
+      "OriginalText": "Deine Trainer-ID wurde geändert.",
+      "TextInfos": [
+        {
+          "Text": "Deine Trainer-ID wurde geändert.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 5,
+      "LabelName": "profile_03",
+      "LabelHash": -1538449733,
+      "OriginalText": "Die Trainer-ID konnte nicht geändert werden.\nBitte versuche es später erneut.\nFehlercode: {0}",
+      "TextInfos": [
+        {
+          "Text": "Die Trainer-ID konnte nicht geändert werden.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Bitte versuche es später erneut.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Fehlercode: ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 6,
+      "LabelName": "profile_button_03",
+      "LabelHash": 1448757364,
+      "OriginalText": "Icons",
+      "TextInfos": [
+        {
+          "Text": "Icons",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 7,
+      "LabelName": "profile_button_04",
+      "LabelHash": 1448757365,
+      "OriginalText": "Titel",
+      "TextInfos": [
+        {
+          "Text": "Titel",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 8,
+      "LabelName": "profile_button_05",
+      "LabelHash": 1448757366,
+      "OriginalText": "Abzeichen",
+      "TextInfos": [
+        {
+          "Text": "Abzeichen",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 9,
+      "LabelName": "profile_04",
+      "LabelHash": 1997002676,
+      "OriginalText": "Erstmals gespielt am:",
+      "TextInfos": [
+        {
+          "Text": "Erstmals gespielt am:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 10,
+      "LabelName": "profile_05",
+      "LabelHash": -731880679,
+      "OriginalText": "Regulär rekrutierte Pokémon:",
+      "TextInfos": [
+        {
+          "Text": "Regulär rekrutierte Pokémon:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 11,
+      "LabelName": "profile_07",
+      "LabelHash": 430918735,
+      "OriginalText": "Erhaltene Titel:",
+      "TextInfos": [
+        {
+          "Text": "Erhaltene Titel:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 12,
+      "LabelName": "profile_08",
+      "LabelHash": -328596152,
+      "OriginalText": "Erhaltene Abzeichen:",
+      "TextInfos": [
+        {
+          "Text": "Erhaltene Abzeichen:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 13,
+      "LabelName": "profile_09",
+      "LabelHash": 1237487789,
+      "OriginalText": "Siege:",
+      "TextInfos": [
+        {
+          "Text": "Siege:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 14,
+      "LabelName": "profile_10",
+      "LabelHash": 27634209,
+      "OriginalText": "Tage angemeldet:",
+      "TextInfos": [
+        {
+          "Text": "Tage angemeldet:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 15,
+      "LabelName": "profile_11",
+      "LabelHash": 1593718150,
+      "OriginalText": "Erhaltene Kleidungsstücke:",
+      "TextInfos": [
+        {
+          "Text": "Erhaltene Kleidungsstücke:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 16,
+      "LabelName": "profile_12",
+      "LabelHash": 1190433623,
+      "OriginalText": "Erhaltene Optionen für Haare/Gesicht:",
+      "TextInfos": [
+        {
+          "Text": "Erhaltene Optionen für Haare/Gesicht:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 17,
+      "LabelName": "profile_13",
+      "LabelHash": -1538449732,
+      "OriginalText": "Erhaltene Wurfstile:",
+      "TextInfos": [
+        {
+          "Text": "Erhaltene Wurfstile:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 18,
+      "LabelName": "profile_15",
+      "LabelHash": -731880678,
+      "OriginalText": "Erhaltene Posen vor dem Kampf:",
+      "TextInfos": [
+        {
+          "Text": "Erhaltene Posen vor dem Kampf:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 19,
+      "LabelName": "profile_16",
+      "LabelHash": -1135165205,
+      "OriginalText": "Erhaltene Siegesposen:",
+      "TextInfos": [
+        {
+          "Text": "Erhaltene Siegesposen:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 20,
+      "LabelName": "profile_17",
+      "LabelHash": 430918736,
+      "OriginalText": "{2}.{1}.{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 21,
+      "LabelName": "profile_18",
+      "LabelHash": -328596151,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 9,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 22,
+      "LabelName": "profile_19",
+      "LabelHash": 1237487790,
+      "OriginalText": "Möchtest du {0} blockieren?",
+      "TextInfos": [
+        {
+          "Text": "Möchtest du ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 22,
+            "TagId": 7,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " blockieren?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 23,
+      "LabelName": "profile_20",
+      "LabelHash": 27634206,
+      "OriginalText": "{0} wurde blockiert.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 22,
+            "TagId": 4,
+            "Params": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " wurde blockiert.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 24,
+      "LabelName": "profile_22",
+      "LabelHash": 1190433620,
+      "OriginalText": "Blockieren",
+      "TextInfos": [
+        {
+          "Text": "Blockieren",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 25,
+      "LabelName": "profile_23",
+      "LabelHash": -1538449735,
+      "OriginalText": "Bearbeiten",
+      "TextInfos": [
+        {
+          "Text": "Bearbeiten",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 26,
+      "LabelName": "profile_24",
+      "LabelHash": 1997002674,
+      "OriginalText": "Gewonnene Rangkämpfe\n(Einzelkampf):",
+      "TextInfos": [
+        {
+          "Text": "Gewonnene Rangkämpfe",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "(Einzelkampf):",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 27,
+      "LabelName": "profile_25",
+      "LabelHash": -731880681,
+      "OriginalText": "Gewonnene Rangkämpfe\n(Doppelkampf):",
+      "TextInfos": [
+        {
+          "Text": "Gewonnene Rangkämpfe",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "(Doppelkampf):",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 28,
+      "LabelName": "profile_26",
+      "LabelHash": -1135165208,
+      "OriginalText": "Im Shop ausgegebene VP:",
+      "TextInfos": [
+        {
+          "Text": "Im Shop ausgegebene VP:",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 28
+    },
+    {
+      "Index": 29,
+      "LabelName": "profile_27",
+      "LabelHash": 430918733,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 93,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 30,
+      "LabelName": "profile_29",
+      "LabelHash": 1237487787,
+      "OriginalText": "Verborgen",
+      "TextInfos": [
+        {
+          "Text": "Verborgen",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 31,
+      "LabelName": "profile_30",
+      "LabelHash": 27634207,
+      "OriginalText": "Einzelkämpfe",
+      "TextInfos": [
+        {
+          "Text": "Einzelkämpfe",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 32,
+      "LabelName": "profile_31",
+      "LabelHash": 1593718148,
+      "OriginalText": "Doppelkämpfe",
+      "TextInfos": [
+        {
+          "Text": "Doppelkämpfe",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 33,
+      "LabelName": "profile_37",
+      "LabelHash": 430918734,
+      "OriginalText": "Keine Abzeichen vorhanden",
+      "TextInfos": [
+        {
+          "Text": "Keine Abzeichen vorhanden",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 34,
+      "LabelName": "profile_38",
+      "LabelHash": -328596153,
+      "OriginalText": "Keine Titel vorhanden",
+      "TextInfos": [
+        {
+          "Text": "Keine Titel vorhanden",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    }
+  ]
+}

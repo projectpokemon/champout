@@ -1,0 +1,359 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "btl_team",
+  "languageCode": 20,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "msg_ui_btlteam_option_00",
+      "LabelHash": 1284335661,
+      "OriginalText": "Select this team",
+      "TextInfos": [
+        {
+          "Text": "Select this team",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 1,
+      "LabelName": "btl_team_ui_syn_organize",
+      "LabelHash": 1127580530,
+      "OriginalText": "Edit team",
+      "TextInfos": [
+        {
+          "Text": "Edit team",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 16
+    },
+    {
+      "Index": 2,
+      "LabelName": "btl_team_ui_syn_detail",
+      "LabelHash": 996918198,
+      "OriginalText": "View details",
+      "TextInfos": [
+        {
+          "Text": "View details",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 3,
+      "LabelName": "btl_team_ui_syn_error_00",
+      "LabelHash": 2116515704,
+      "OriginalText": "Your team contains at least one Pokémon\nthat is not eligible to take part.",
+      "TextInfos": [
+        {
+          "Text": "Your team contains at least one Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "that is not eligible to take part.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 4,
+      "LabelName": "btl_team_ui_syn_error_01",
+      "LabelHash": -612367651,
+      "OriginalText": "The Pokémon in your team have at least\none held item that is not allowed.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon in your team have at least",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "one held item that is not allowed.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 5,
+      "LabelName": "btl_team_ui_syn_error_02",
+      "LabelHash": 953716290,
+      "OriginalText": "The Pokémon in your team know at least\none move that is not allowed.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon in your team know at least",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "one move that is not allowed.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 6,
+      "LabelName": "btl_team_ui_syn_error_03",
+      "LabelHash": -1775167065,
+      "OriginalText": "Your team contains at least one Pokémon\nwhose trial period has expired.",
+      "TextInfos": [
+        {
+          "Text": "Your team contains at least one Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "whose trial period has expired.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 7,
+      "LabelName": "btl_team_ui_syn_error_04",
+      "LabelHash": -209083124,
+      "OriginalText": "Would you like to edit your Battle Team?",
+      "TextInfos": [
+        {
+          "Text": "Would you like to edit your Battle Team?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 8,
+      "LabelName": "btl_team_ui_syn_error_05",
+      "LabelHash": 1357000817,
+      "OriginalText": "Team {0}",
+      "TextInfos": [
+        {
+          "Text": "Team ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 9,
+      "LabelName": "btl_team_ui_syn_error_10",
+      "LabelHash": 2116515705,
+      "OriginalText": "Your team contains too many restricted Pokémon.",
+      "TextInfos": [
+        {
+          "Text": "Your team contains too many restricted Pokémon.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 10,
+      "LabelName": "btl_team_ui_syn_error_11",
+      "LabelHash": -612367650,
+      "OriginalText": "The Pokémon in your Battle Team know at least one move that\nis not allowed. Teach your Pokémon a new move via training.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon in your Battle Team know at least one move that",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "is not allowed. Teach your Pokémon a new move via training.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    }
+  ]
+}

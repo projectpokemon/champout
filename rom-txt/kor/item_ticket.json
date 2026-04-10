@@ -1,0 +1,785 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "item_ticket",
+  "languageCode": 70,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "item_ticket_00",
+      "LabelHash": -1414054123,
+      "OriginalText": "레귤러 티켓",
+      "TextInfos": [
+        {
+          "Text": "레귤러 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 1,
+      "LabelName": "item_ticket_01",
+      "LabelHash": 1314829232,
+      "OriginalText": "패스트 쿠폰",
+      "TextInfos": [
+        {
+          "Text": "패스트 쿠폰",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 2,
+      "LabelName": "item_ticket_02",
+      "LabelHash": 1718113759,
+      "OriginalText": "노말타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "노말타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 3,
+      "LabelName": "item_ticket_03",
+      "LabelHash": 152029818,
+      "OriginalText": "격투타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "격투타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 4,
+      "LabelName": "item_ticket_04",
+      "LabelHash": 555314345,
+      "OriginalText": "비행타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "비행타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 5,
+      "LabelName": "item_ticket_05",
+      "LabelHash": -1010769596,
+      "OriginalText": "독타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "독타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 6,
+      "LabelName": "item_ticket_06",
+      "LabelHash": -607485069,
+      "OriginalText": "땅타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "땅타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 7,
+      "LabelName": "item_ticket_07",
+      "LabelHash": 2121398286,
+      "OriginalText": "바위타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "바위타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 8,
+      "LabelName": "item_ticket_08",
+      "LabelHash": -1770284483,
+      "OriginalText": "벌레타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "벌레타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 9,
+      "LabelName": "item_ticket_09",
+      "LabelHash": 958598872,
+      "OriginalText": "고스트타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "고스트타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 10,
+      "LabelName": "item_ticket_10",
+      "LabelHash": -1414054122,
+      "OriginalText": "강철타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "강철타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 11,
+      "LabelName": "item_ticket_11",
+      "LabelHash": 1314829233,
+      "OriginalText": "불꽃타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "불꽃타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 12,
+      "LabelName": "item_ticket_12",
+      "LabelHash": 1718113760,
+      "OriginalText": "물타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "물타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 13,
+      "LabelName": "item_ticket_13",
+      "LabelHash": 152029819,
+      "OriginalText": "풀타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "풀타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 14,
+      "LabelName": "item_ticket_14",
+      "LabelHash": 555314346,
+      "OriginalText": "전기타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "전기타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 15,
+      "LabelName": "item_ticket_15",
+      "LabelHash": -1010769595,
+      "OriginalText": "에스퍼타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "에스퍼타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 16,
+      "LabelName": "item_ticket_16",
+      "LabelHash": -607485068,
+      "OriginalText": "얼음타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "얼음타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 17,
+      "LabelName": "item_ticket_17",
+      "LabelHash": 2121398287,
+      "OriginalText": "드래곤타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "드래곤타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 18,
+      "LabelName": "item_ticket_18",
+      "LabelHash": -1770284482,
+      "OriginalText": "악타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "악타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 19,
+      "LabelName": "item_ticket_19",
+      "LabelHash": 958598873,
+      "OriginalText": "페어리타입 소개 티켓",
+      "TextInfos": [
+        {
+          "Text": "페어리타입 소개 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 21,
+      "LabelName": "item_ticket_21",
+      "LabelHash": 1314829234,
+      "OriginalText": "하이퍼볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "하이퍼볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 22,
+      "LabelName": "item_ticket_22",
+      "LabelHash": 1718113761,
+      "OriginalText": "슈퍼볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "슈퍼볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 23,
+      "LabelName": "item_ticket_23",
+      "LabelHash": 152029820,
+      "OriginalText": "몬스터볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "몬스터볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 25,
+      "LabelName": "item_ticket_25",
+      "LabelHash": -1010769594,
+      "OriginalText": "네트볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "네트볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 26,
+      "LabelName": "item_ticket_26",
+      "LabelHash": -607485067,
+      "OriginalText": "다이브볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "다이브볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 27,
+      "LabelName": "item_ticket_27",
+      "LabelHash": 2121398288,
+      "OriginalText": "네스트볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "네스트볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 28,
+      "LabelName": "item_ticket_28",
+      "LabelHash": -1770284481,
+      "OriginalText": "리피트볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "리피트볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 29,
+      "LabelName": "item_ticket_29",
+      "LabelHash": 958598874,
+      "OriginalText": "타이머볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "타이머볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 30,
+      "LabelName": "item_ticket_30",
+      "LabelHash": -1414054120,
+      "OriginalText": "럭셔리볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "럭셔리볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 31,
+      "LabelName": "item_ticket_31",
+      "LabelHash": 1314829235,
+      "OriginalText": "프리미어볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "프리미어볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 32,
+      "LabelName": "item_ticket_32",
+      "LabelHash": 1718113762,
+      "OriginalText": "다크볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "다크볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 33,
+      "LabelName": "item_ticket_33",
+      "LabelHash": 152029821,
+      "OriginalText": "힐볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "힐볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 34,
+      "LabelName": "item_ticket_34",
+      "LabelHash": 555314348,
+      "OriginalText": "퀵볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "퀵볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 45,
+      "LabelName": "item_ticket_48",
+      "LabelHash": -1770284479,
+      "OriginalText": "트레이닝 티켓",
+      "TextInfos": [
+        {
+          "Text": "트레이닝 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 46,
+      "LabelName": "item_ticket_49",
+      "LabelHash": 958598876,
+      "OriginalText": "레어 볼 확정 티켓",
+      "TextInfos": [
+        {
+          "Text": "레어 볼 확정 티켓",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    }
+  ]
+}

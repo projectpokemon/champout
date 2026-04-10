@@ -1,0 +1,818 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "btl_tutorial_select",
+  "languageCode": 30,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "btl_tutorial_m01",
+      "LabelHash": 1134337144,
+      "OriginalText": "Les Combats Solo",
+      "TextInfos": [
+        {
+          "Text": "Les Combats Solo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 1,
+      "LabelName": "btl_tutorial_m02",
+      "LabelHash": -1594546211,
+      "OriginalText": "Les Combats Duo",
+      "TextInfos": [
+        {
+          "Text": "Les Combats Duo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 2,
+      "LabelName": "btl_tutorial_m03",
+      "LabelHash": -28462270,
+      "OriginalText": "La Méga-Évolution",
+      "TextInfos": [
+        {
+          "Text": "La Méga-Évolution",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 3,
+      "LabelName": "btl_tutorial_m04",
+      "LabelHash": 1893852031,
+      "OriginalText": "La priorité des capacités",
+      "TextInfos": [
+        {
+          "Text": "La priorité des capacités",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 4,
+      "LabelName": "btl_tutorial_m05",
+      "LabelHash": -835031324,
+      "OriginalText": "Capacités physiques et spéciales",
+      "TextInfos": [
+        {
+          "Text": "Capacités physiques et spéciales",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 5,
+      "LabelName": "btl_tutorial_m06",
+      "LabelHash": 731052617,
+      "OriginalText": "Les altérations de statut",
+      "TextInfos": [
+        {
+          "Text": "Les altérations de statut",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 6,
+      "LabelName": "btl_tutorial_m07",
+      "LabelHash": -1997830738,
+      "OriginalText": "Capacités à contact et sans contact",
+      "TextInfos": [
+        {
+          "Text": "Capacités à contact et sans contact",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 23
+    },
+    {
+      "Index": 7,
+      "LabelName": "btl_tutorial_m08",
+      "LabelHash": -75516437,
+      "OriginalText": "La météo",
+      "TextInfos": [
+        {
+          "Text": "La météo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 8,
+      "LabelName": "btl_tutorial_m09",
+      "LabelHash": 1490567504,
+      "OriginalText": "Les champs",
+      "TextInfos": [
+        {
+          "Text": "Les champs",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 9,
+      "LabelName": "btl_tutorial_s01",
+      "LabelHash": 334157974,
+      "OriginalText": "Apprenez les règles fondamentales\ndu combat en un contre un !",
+      "TextInfos": [
+        {
+          "Text": "Apprenez les règles fondamentales",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "du combat en un contre un !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 10,
+      "LabelName": "btl_tutorial_s02",
+      "LabelHash": -69126553,
+      "OriginalText": "Les tactiques de combat en deux contre deux\ndiffèrent de celles des Combats Solo !",
+      "TextInfos": [
+        {
+          "Text": "Les tactiques de combat en deux contre deux",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "diffèrent de celles des Combats Solo !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 11,
+      "LabelName": "btl_tutorial_s03",
+      "LabelHash": 1496957388,
+      "OriginalText": "La Méga-Évolution surpasse toutes les autres\névolutions ! L’amitié fait des miracles !",
+      "TextInfos": [
+        {
+          "Text": "La Méga-Évolution surpasse toutes les autres",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "évolutions ! L’amitié fait des miracles !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 12,
+      "LabelName": "btl_tutorial_s04",
+      "LabelHash": 737442501,
+      "OriginalText": "Certaines capacités permettent à vos Pokémon\nd’attaquer en premier, peu importe leur Vitesse !",
+      "TextInfos": [
+        {
+          "Text": "Certaines capacités permettent à vos Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "d’attaquer en premier, peu importe leur Vitesse !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 13,
+      "LabelName": "btl_tutorial_s05",
+      "LabelHash": -1991440854,
+      "OriginalText": "Affinez vos tactiques en découvrant la différence\nentre les capacités physiques et spéciales !",
+      "TextInfos": [
+        {
+          "Text": "Affinez vos tactiques en découvrant la différence",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "entre les capacités physiques et spéciales !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 14,
+      "LabelName": "btl_tutorial_s06",
+      "LabelHash": 1900241915,
+      "OriginalText": "Les altérations de statut sont aussi décisives que\nles capacités pour sceller l’issue d’un combat !",
+      "TextInfos": [
+        {
+          "Text": "Les altérations de statut sont aussi décisives que",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "les capacités pour sceller l’issue d’un combat !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 15,
+      "LabelName": "btl_tutorial_s07",
+      "LabelHash": -828641440,
+      "OriginalText": "Combat rapproché ou à distance ? Découvrez\nles capacités à contact et sans contact !",
+      "TextInfos": [
+        {
+          "Text": "Combat rapproché ou à distance ? Découvrez",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "les capacités à contact et sans contact !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 16,
+      "LabelName": "btl_tutorial_s08",
+      "LabelHash": -1588156327,
+      "OriginalText": "Apprenez à tirer parti des conditions météo\net de leur impact sur le terrain !",
+      "TextInfos": [
+        {
+          "Text": "Apprenez à tirer parti des conditions météo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "et de leur impact sur le terrain !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 17,
+      "LabelName": "btl_tutorial_s09",
+      "LabelHash": -22072386,
+      "OriginalText": "Découvrez comment les différents champs\npeuvent affecter les Pokémon au sol !",
+      "TextInfos": [
+        {
+          "Text": "Découvrez comment les différents champs",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "peuvent affecter les Pokémon au sol !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 18,
+      "LabelName": "btl_tutorial_01",
+      "LabelHash": 734685595,
+      "OriginalText": "Vous avez déjà terminé ce tutoriel.\nVoulez-vous le refaire ?",
+      "TextInfos": [
+        {
+          "Text": "Vous avez déjà terminé ce tutoriel.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Voulez-vous le refaire ?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 19,
+      "LabelName": "btl_tutorial_01_add",
+      "LabelHash": 18527701,
+      "OriginalText": "Remarque : vous n’obtiendrez pas d’autres récompenses.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Remarque : vous n’obtiendrez pas d’autres récompenses.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 20,
+      "LabelName": "btl_tutorial_main",
+      "LabelHash": 337819569,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 81,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 21,
+      "LabelName": "btl_tutorial_sub",
+      "LabelHash": 2088458642,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 82,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 51
+    },
+    {
+      "Index": 22,
+      "LabelName": "btl_tutorial_02",
+      "LabelHash": 734685594,
+      "OriginalText": "Voulez-vous faire le tutoriel\n« {0} » ?",
+      "TextInfos": [
+        {
+          "Text": "Voulez-vous faire le tutoriel",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "« ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 81,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " » ?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 23,
+      "LabelName": "btl_tutorial_first_achieve_present",
+      "LabelHash": -150357382,
+      "OriginalText": "Récompense de tutoriel - 1re fois",
+      "TextInfos": [
+        {
+          "Text": "Récompense de tutoriel - 1re fois",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 24,
+      "LabelName": "btl_tutorial_clear",
+      "LabelHash": -1137476349,
+      "OriginalText": "Terminé !",
+      "TextInfos": [
+        {
+          "Text": "Terminé !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    }
+  ]
+}

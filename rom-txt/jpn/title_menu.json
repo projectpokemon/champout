@@ -1,0 +1,677 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "title_menu",
+  "languageCode": 10,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "title_menu_00",
+      "LabelHash": 895619559,
+      "OriginalText": "オプション",
+      "TextInfos": [
+        {
+          "Text": "オプション",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 1,
+      "LabelName": "title_menu_01",
+      "LabelHash": 895619560,
+      "OriginalText": "お知らせ",
+      "TextInfos": [
+        {
+          "Text": "お知らせ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 2,
+      "LabelName": "title_menu_03",
+      "LabelHash": 895619562,
+      "OriginalText": "キャッシュクリア",
+      "TextInfos": [
+        {
+          "Text": "キャッシュクリア",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 3,
+      "LabelName": "title_menu_04",
+      "LabelHash": 895619555,
+      "OriginalText": "大会モード",
+      "TextInfos": [
+        {
+          "Text": "大会モード",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 4,
+      "LabelName": "title_menu_05",
+      "LabelHash": 895619556,
+      "OriginalText": "お問い合わせ",
+      "TextInfos": [
+        {
+          "Text": "お問い合わせ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 5,
+      "LabelName": "title_menu_06",
+      "LabelHash": 895619557,
+      "OriginalText": "キャッシュデータをクリアしますか？\nキャッシュデータをクリアすると\n動作が　軽くなることがあります\n※プレイ中のデータは　削除されません",
+      "TextInfos": [
+        {
+          "Text": "キャッシュデータをクリアしますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "キャッシュデータをクリアすると",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              105,
+              48,
+              70,
+              48,
+              85,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "動作が　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              75,
+              48,
+              139,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "軽くなることがあります",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※プレイ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              6,
+              0,
+              97,
+              48,
+              133,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "中のデータは　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              85,
+              48,
+              79,
+              48,
+              88,
+              48,
+              135,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "削除されません",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 6,
+      "LabelName": "title_menu_company",
+      "LabelHash": 692173066,
+      "OriginalText": "会社情報",
+      "TextInfos": [
+        {
+          "Text": "会社情報",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 7,
+      "LabelName": "title_menu_08_00",
+      "LabelHash": -162989212,
+      "OriginalText": "サポートＩＤ照会",
+      "TextInfos": [
+        {
+          "Text": "サポートＩＤ照会",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 13
+    },
+    {
+      "Index": 8,
+      "LabelName": "title_menu_08_05",
+      "LabelHash": -922504099,
+      "OriginalText": "サポートＩＤを入力してください",
+      "TextInfos": [
+        {
+          "Text": "サポートＩＤを",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              12,
+              0,
+              107,
+              48,
+              133,
+              48,
+              70,
+              48,
+              138,
+              48,
+              135,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "入力してください",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 9,
+      "LabelName": "title_menu_08_06",
+      "LabelHash": 643579842,
+      "OriginalText": "パスワードを入力してください",
+      "TextInfos": [
+        {
+          "Text": "パスワードを",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              12,
+              0,
+              107,
+              48,
+              133,
+              48,
+              70,
+              48,
+              138,
+              48,
+              135,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "入力してください",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 10,
+      "LabelName": "title_menu_08_07",
+      "LabelHash": -2085303513,
+      "OriginalText": "サポートＩＤ",
+      "TextInfos": [
+        {
+          "Text": "サポートＩＤ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 11,
+      "LabelName": "title_menu_08_01",
+      "LabelHash": 1403094729,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 101,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 12,
+      "LabelName": "title_menu_08_02",
+      "LabelHash": -1325788626,
+      "OriginalText": "パスワード",
+      "TextInfos": [
+        {
+          "Text": "パスワード",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 13,
+      "LabelName": "title_menu_08_03",
+      "LabelHash": 240295315,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 101,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 14,
+      "LabelName": "title_menu_08_04",
+      "LabelHash": 1806379256,
+      "OriginalText": "サポートＩＤ　または\nパスワードが正しくありません",
+      "TextInfos": [
+        {
+          "Text": "サポートＩＤ　または",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "パスワードが",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              95,
+              48,
+              96,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "正しくありません",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 15,
+      "LabelName": "title_menu_staff_roll",
+      "LabelHash": -58343093,
+      "OriginalText": "スタッフクレジット",
+      "TextInfos": [
+        {
+          "Text": "スタッフクレジット",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    }
+  ]
+}

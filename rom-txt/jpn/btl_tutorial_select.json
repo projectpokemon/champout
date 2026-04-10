@@ -1,0 +1,2477 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "btl_tutorial_select",
+  "languageCode": 10,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "btl_tutorial_m01",
+      "LabelHash": 1134337144,
+      "OriginalText": "シングルバトル",
+      "TextInfos": [
+        {
+          "Text": "シングルバトル",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 1,
+      "LabelName": "btl_tutorial_m02",
+      "LabelHash": -1594546211,
+      "OriginalText": "ダブルバトル",
+      "TextInfos": [
+        {
+          "Text": "ダブルバトル",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 2,
+      "LabelName": "btl_tutorial_m03",
+      "LabelHash": -28462270,
+      "OriginalText": "メガシンカ",
+      "TextInfos": [
+        {
+          "Text": "メガシンカ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 3,
+      "LabelName": "btl_tutorial_m04",
+      "LabelHash": 1893852031,
+      "OriginalText": "技の優先度",
+      "TextInfos": [
+        {
+          "Text": "技の優先度",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 4,
+      "LabelName": "btl_tutorial_m05",
+      "LabelHash": -835031324,
+      "OriginalText": "物理と特殊",
+      "TextInfos": [
+        {
+          "Text": "物理と特殊",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 5,
+      "LabelName": "btl_tutorial_m06",
+      "LabelHash": 731052617,
+      "OriginalText": "状態異常",
+      "TextInfos": [
+        {
+          "Text": "状態異常",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 6,
+      "LabelName": "btl_tutorial_m07",
+      "LabelHash": -1997830738,
+      "OriginalText": "接触と非接触",
+      "TextInfos": [
+        {
+          "Text": "接触と非接触",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 23
+    },
+    {
+      "Index": 7,
+      "LabelName": "btl_tutorial_m08",
+      "LabelHash": -75516437,
+      "OriginalText": "天気",
+      "TextInfos": [
+        {
+          "Text": "天気",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 8,
+      "LabelName": "btl_tutorial_m09",
+      "LabelHash": 1490567504,
+      "OriginalText": "フィールド",
+      "TextInfos": [
+        {
+          "Text": "フィールド",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 9,
+      "LabelName": "btl_tutorial_s01",
+      "LabelHash": 334157974,
+      "OriginalText": "１対１の　基本的な\nバトルルールを　学ぼう！",
+      "TextInfos": [
+        {
+          "Text": "１",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              95,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "対１の　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              6,
+              0,
+              10,
+              0,
+              77,
+              48,
+              123,
+              48,
+              147,
+              48,
+              102,
+              48,
+              77,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "基本的な",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "バトルルールを　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              126,
+              48,
+              106,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "学ぼう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 10,
+      "LabelName": "btl_tutorial_s02",
+      "LabelHash": -69126553,
+      "OriginalText": "２対２の　バトルルール\nシングルバトルとは　異なる戦術が重要！",
+      "TextInfos": [
+        {
+          "Text": "２",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              95,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "対２の　バトルルール",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "シングルバトルとは　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              83,
+              48,
+              104,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "異なる",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              91,
+              48,
+              147,
+              48,
+              88,
+              48,
+              133,
+              48,
+              100,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "戦術が",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              88,
+              48,
+              133,
+              48,
+              70,
+              48,
+              136,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "重要！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 11,
+      "LabelName": "btl_tutorial_s03",
+      "LabelHash": 1496957388,
+      "OriginalText": "きみとポケモンの絆が　奇跡を呼び起こす！\n進化を超えた進化　その名も　メガシンカ！",
+      "TextInfos": [
+        {
+          "Text": "きみとポケモンの",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              6,
+              0,
+              77,
+              48,
+              90,
+              48,
+              106,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "絆が　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              77,
+              48,
+              91,
+              48,
+              77,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "奇跡を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              136,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "呼び",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              74,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "起こす！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              87,
+              48,
+              147,
+              48,
+              75,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "進化を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              83,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "超えた",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              87,
+              48,
+              147,
+              48,
+              75,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "進化　その",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              106,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "名も　メガシンカ！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 12,
+      "LabelName": "btl_tutorial_s04",
+      "LabelHash": 737442501,
+      "OriginalText": "すばやさに　関係なく\n先に攻撃できる技を学ぼう！",
+      "TextInfos": [
+        {
+          "Text": "すばやさに　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              75,
+              48,
+              147,
+              48,
+              81,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "関係なく",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              85,
+              48,
+              77,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "先に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              83,
+              48,
+              70,
+              48,
+              82,
+              48,
+              77,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "攻撃できる",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              143,
+              48,
+              86,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "技を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              126,
+              48,
+              106,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "学ぼう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 13,
+      "LabelName": "btl_tutorial_s05",
+      "LabelHash": -1991440854,
+      "OriginalText": "物理技と　特殊技の　違いを知り\n戦術に　幅をもたせよう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              118,
+              48,
+              100,
+              48,
+              138,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "物理",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              143,
+              48,
+              86,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "技と　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              104,
+              48,
+              79,
+              48,
+              87,
+              48,
+              133,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "特殊",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              143,
+              48,
+              86,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "技の　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              97,
+              48,
+              76,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "違いを",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              87,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "知り",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              91,
+              48,
+              147,
+              48,
+              88,
+              48,
+              133,
+              48,
+              100,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "戦術に　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              111,
+              48,
+              112,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "幅をもたせよう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 14,
+      "LabelName": "btl_tutorial_s06",
+      "LabelHash": 1900241915,
+      "OriginalText": "勝敗を分ける　技以外の\n大きな要素　それは状態異常！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              87,
+              48,
+              135,
+              48,
+              70,
+              48,
+              111,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "勝敗を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              143,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "分ける　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              143,
+              48,
+              86,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "技",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              68,
+              48,
+              76,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "以外の",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              74,
+              48,
+              74,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "大きな",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              136,
+              48,
+              70,
+              48,
+              93,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "要素　それは",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              88,
+              48,
+              135,
+              48,
+              70,
+              48,
+              95,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "状態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              68,
+              48,
+              88,
+              48,
+              135,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "異常！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 15,
+      "LabelName": "btl_tutorial_s07",
+      "LabelHash": -828641440,
+      "OriginalText": "相手に触れるか　触れないか？\n接触技と　非接触技の違い！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              66,
+              48,
+              68,
+              48,
+              102,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "相手に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              117,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "触れるか　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              117,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "触れないか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              91,
+              48,
+              99,
+              48,
+              87,
+              48,
+              135,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "接触",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              143,
+              48,
+              86,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "技と　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              114,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "非",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              91,
+              48,
+              99,
+              48,
+              87,
+              48,
+              135,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "接触",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              143,
+              48,
+              86,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "技の",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              97,
+              48,
+              76,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "違い！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 16,
+      "LabelName": "btl_tutorial_s08",
+      "LabelHash": -1588156327,
+      "OriginalText": "全体の場に　影響を与える\n天気を　使いこなそう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              92,
+              48,
+              147,
+              48,
+              95,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "全体の",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              112,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "場に　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              72,
+              48,
+              68,
+              48,
+              77,
+              48,
+              135,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "影響を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              66,
+              48,
+              95,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "与える",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              102,
+              48,
+              147,
+              48,
+              77,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "天気を　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              100,
+              48,
+              75,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "使いこなそう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 17,
+      "LabelName": "btl_tutorial_s09",
+      "LabelHash": -22072386,
+      "OriginalText": "地面にいる　ポケモンが受ける\nフィールドの　効果を知ろう！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              88,
+              48,
+              129,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "地面にいる　ポケモンが",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "受ける",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "フィールドの　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              83,
+              48,
+              70,
+              48,
+              75,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "効果を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              87,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "知ろう！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 18,
+      "LabelName": "btl_tutorial_01",
+      "LabelHash": 734685595,
+      "OriginalText": "１度プレイしたチュートリアルです\n再挑戦しますか？",
+      "TextInfos": [
+        {
+          "Text": "１",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              105,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "度プレイしたチュートリアルです",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              85,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "再",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              97,
+              48,
+              135,
+              48,
+              70,
+              48,
+              91,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "挑戦しますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 19,
+      "LabelName": "btl_tutorial_01_add",
+      "LabelHash": 18527701,
+      "OriginalText": "※既に獲得したプレゼントは　手に入りません",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              89,
+              48,
+              103,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "既に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              75,
+              48,
+              79,
+              48,
+              104,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "獲得したプレゼントは　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              102,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "手に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              111,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "入りません",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 20,
+      "LabelName": "btl_tutorial_main",
+      "LabelHash": 337819569,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 81,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 21,
+      "LabelName": "btl_tutorial_sub",
+      "LabelHash": 2088458642,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 82,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 51
+    },
+    {
+      "Index": 22,
+      "LabelName": "btl_tutorial_02",
+      "LabelHash": 734685594,
+      "OriginalText": "{0}に\n挑戦しますか？",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 81,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              10,
+              0,
+              97,
+              48,
+              135,
+              48,
+              70,
+              48,
+              91,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "挑戦しますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 23,
+      "LabelName": "btl_tutorial_first_achieve_present",
+      "LabelHash": -150357382,
+      "OriginalText": "初回達成プレゼント",
+      "TextInfos": [
+        {
+          "Text": "初回達成プレゼント",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 24,
+      "LabelName": "btl_tutorial_clear",
+      "LabelHash": -1137476349,
+      "OriginalText": "ＣＬＥＡＲ",
+      "TextInfos": [
+        {
+          "Text": "ＣＬＥＡＲ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    }
+  ]
+}

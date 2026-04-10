@@ -1,0 +1,785 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "item_ticket",
+  "languageCode": 50,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "item_ticket_00",
+      "LabelHash": -1414054123,
+      "OriginalText": "Reguläres Ticket",
+      "TextInfos": [
+        {
+          "Text": "Reguläres Ticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 1,
+      "LabelName": "item_ticket_01",
+      "LabelHash": 1314829232,
+      "OriginalText": "Schnellcoupon",
+      "TextInfos": [
+        {
+          "Text": "Schnellcoupon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 2,
+      "LabelName": "item_ticket_02",
+      "LabelHash": 1718113759,
+      "OriginalText": "Normal-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Normal-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 3,
+      "LabelName": "item_ticket_03",
+      "LabelHash": 152029818,
+      "OriginalText": "Kampf-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Kampf-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 4,
+      "LabelName": "item_ticket_04",
+      "LabelHash": 555314345,
+      "OriginalText": "Flug-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Flug-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 5,
+      "LabelName": "item_ticket_05",
+      "LabelHash": -1010769596,
+      "OriginalText": "Gift-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Gift-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 6,
+      "LabelName": "item_ticket_06",
+      "LabelHash": -607485069,
+      "OriginalText": "Boden-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Boden-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 7,
+      "LabelName": "item_ticket_07",
+      "LabelHash": 2121398286,
+      "OriginalText": "Gesteins-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Gesteins-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 8,
+      "LabelName": "item_ticket_08",
+      "LabelHash": -1770284483,
+      "OriginalText": "Käfer-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Käfer-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 9,
+      "LabelName": "item_ticket_09",
+      "LabelHash": 958598872,
+      "OriginalText": "Geister-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Geister-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 10,
+      "LabelName": "item_ticket_10",
+      "LabelHash": -1414054122,
+      "OriginalText": "Stahl-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Stahl-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 11,
+      "LabelName": "item_ticket_11",
+      "LabelHash": 1314829233,
+      "OriginalText": "Feuer-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Feuer-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 12,
+      "LabelName": "item_ticket_12",
+      "LabelHash": 1718113760,
+      "OriginalText": "Wasser-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Wasser-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 13,
+      "LabelName": "item_ticket_13",
+      "LabelHash": 152029819,
+      "OriginalText": "Pflanzen-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Pflanzen-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 14,
+      "LabelName": "item_ticket_14",
+      "LabelHash": 555314346,
+      "OriginalText": "Elektro-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Elektro-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 15,
+      "LabelName": "item_ticket_15",
+      "LabelHash": -1010769595,
+      "OriginalText": "Psycho-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Psycho-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 16,
+      "LabelName": "item_ticket_16",
+      "LabelHash": -607485068,
+      "OriginalText": "Eis-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Eis-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 17,
+      "LabelName": "item_ticket_17",
+      "LabelHash": 2121398287,
+      "OriginalText": "Drachen-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Drachen-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 18,
+      "LabelName": "item_ticket_18",
+      "LabelHash": -1770284482,
+      "OriginalText": "Unlicht-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Unlicht-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 19,
+      "LabelName": "item_ticket_19",
+      "LabelHash": 958598873,
+      "OriginalText": "Feen-Kennenlernticket",
+      "TextInfos": [
+        {
+          "Text": "Feen-Kennenlernticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 21,
+      "LabelName": "item_ticket_21",
+      "LabelHash": 1314829234,
+      "OriginalText": "Hyperball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Hyperball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 22,
+      "LabelName": "item_ticket_22",
+      "LabelHash": 1718113761,
+      "OriginalText": "Superball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Superball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 23,
+      "LabelName": "item_ticket_23",
+      "LabelHash": 152029820,
+      "OriginalText": "Pokéball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Pokéball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 25,
+      "LabelName": "item_ticket_25",
+      "LabelHash": -1010769594,
+      "OriginalText": "Netzball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Netzball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 26,
+      "LabelName": "item_ticket_26",
+      "LabelHash": -607485067,
+      "OriginalText": "Tauchball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Tauchball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 27,
+      "LabelName": "item_ticket_27",
+      "LabelHash": 2121398288,
+      "OriginalText": "Nestball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Nestball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 28,
+      "LabelName": "item_ticket_28",
+      "LabelHash": -1770284481,
+      "OriginalText": "Wiederball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Wiederball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 29,
+      "LabelName": "item_ticket_29",
+      "LabelHash": 958598874,
+      "OriginalText": "Timerball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Timerball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 30,
+      "LabelName": "item_ticket_30",
+      "LabelHash": -1414054120,
+      "OriginalText": "Luxusball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Luxusball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 31,
+      "LabelName": "item_ticket_31",
+      "LabelHash": 1314829235,
+      "OriginalText": "Premierball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Premierball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 32,
+      "LabelName": "item_ticket_32",
+      "LabelHash": 1718113762,
+      "OriginalText": "Finsterball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Finsterball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 33,
+      "LabelName": "item_ticket_33",
+      "LabelHash": 152029821,
+      "OriginalText": "Heilball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Heilball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 34,
+      "LabelName": "item_ticket_34",
+      "LabelHash": 555314348,
+      "OriginalText": "Flottball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Flottball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 45,
+      "LabelName": "item_ticket_48",
+      "LabelHash": -1770284479,
+      "OriginalText": "Trainingsticket",
+      "TextInfos": [
+        {
+          "Text": "Trainingsticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 50
+    },
+    {
+      "Index": 46,
+      "LabelName": "item_ticket_49",
+      "LabelHash": 958598876,
+      "OriginalText": "Seltener-Ball-Garantieticket",
+      "TextInfos": [
+        {
+          "Text": "Seltener-Ball-Garantieticket",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 3,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    }
+  ]
+}

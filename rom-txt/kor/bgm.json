@@ -1,0 +1,648 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "bgm",
+  "languageCode": 70,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "bgm",
+      "LabelHash": 1858828884,
+      "OriginalText": "{0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 103,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 1,
+      "LabelName": "play",
+      "LabelHash": 69877476,
+      "OriginalText": "재생",
+      "TextInfos": [
+        {
+          "Text": "재생",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 2,
+      "LabelName": "stop",
+      "LabelHash": -461014562,
+      "OriginalText": "정지",
+      "TextInfos": [
+        {
+          "Text": "정지",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 3,
+      "LabelName": "rg_bgm_1",
+      "LabelHash": -1160923204,
+      "OriginalText": "배틀(VS 트레이너)",
+      "TextInfos": [
+        {
+          "Text": "배틀(VS 트레이너)",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 4,
+      "LabelName": "gsc_bgm_1",
+      "LabelHash": 776832404,
+      "OriginalText": "배틀! 트레이너(성도)",
+      "TextInfos": [
+        {
+          "Text": "배틀! 트레이너(성도)",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 5,
+      "LabelName": "rse_bgm_1",
+      "LabelHash": 799286593,
+      "OriginalText": "배틀! 트레이너",
+      "TextInfos": [
+        {
+          "Text": "배틀! 트레이너",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 6,
+      "LabelName": "dppt_bgm_1",
+      "LabelHash": 529690897,
+      "OriginalText": "배틀! 트레이너",
+      "TextInfos": [
+        {
+          "Text": "배틀! 트레이너",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 7,
+      "LabelName": "bw_bgm_1",
+      "LabelHash": -1137385124,
+      "OriginalText": "배틀! 트레이너",
+      "TextInfos": [
+        {
+          "Text": "배틀! 트레이너",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 8,
+      "LabelName": "xy_bgm_1",
+      "LabelHash": 1615260292,
+      "OriginalText": "배틀! 트레이너",
+      "TextInfos": [
+        {
+          "Text": "배틀! 트레이너",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 9,
+      "LabelName": "sm_bgm_1",
+      "LabelHash": 1996854015,
+      "OriginalText": "배틀! 트레이너",
+      "TextInfos": [
+        {
+          "Text": "배틀! 트레이너",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 10,
+      "LabelName": "swsh_bgm_1",
+      "LabelHash": -1388027466,
+      "OriginalText": "배틀! 트레이너",
+      "TextInfos": [
+        {
+          "Text": "배틀! 트레이너",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 11,
+      "LabelName": "sv_bgm_1",
+      "LabelHash": 482770770,
+      "OriginalText": "배틀! 트레이너",
+      "TextInfos": [
+        {
+          "Text": "배틀! 트레이너",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 12,
+      "LabelName": "random",
+      "LabelHash": 1134965495,
+      "OriginalText": "랜덤 재생",
+      "TextInfos": [
+        {
+          "Text": "랜덤 재생",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 13,
+      "LabelName": "cmp_bgm_1",
+      "LabelHash": 1939350163,
+      "OriginalText": "배틀! 배틀 아레나",
+      "TextInfos": [
+        {
+          "Text": "배틀! 배틀 아레나",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 14,
+      "LabelName": "cmp_bgm_2",
+      "LabelHash": 1939350166,
+      "OriginalText": "배틀! 체육관 코트",
+      "TextInfos": [
+        {
+          "Text": "배틀! 체육관 코트",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 16,
+      "LabelName": "bgm_membership_confirm",
+      "LabelHash": -1957362162,
+      "OriginalText": "멤버십에 가입하면\n이 배틀 음악을 세팅할 수 있습니다.\n멤버십에 가입하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "멤버십에 가입하면",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "이 배틀 음악을 세팅할 수 있습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "멤버십에 가입하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 17,
+      "LabelName": "bgm_no_membership",
+      "LabelHash": 1890146807,
+      "OriginalText": "멤버십에 가입하지 않아 세팅할 수 없습니다.",
+      "TextInfos": [
+        {
+          "Text": "멤버십에 가입하지 않아 세팅할 수 없습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 18,
+      "LabelName": "bgm_no_series_bgm",
+      "LabelHash": 516019697,
+      "OriginalText": "해당하는 게임의 배틀 음악을 가지고 있지 않습니다.",
+      "TextInfos": [
+        {
+          "Text": "해당하는 게임의 배틀 음악을 가지고 있지 않습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 19,
+      "LabelName": "lple_bgm_1",
+      "LabelHash": -1057085400,
+      "OriginalText": "배틀(VS 트레이너)",
+      "TextInfos": [
+        {
+          "Text": "배틀(VS 트레이너)",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 20,
+      "LabelName": "frlg_bgm_1",
+      "LabelHash": -848181906,
+      "OriginalText": "배틀(VS 트레이너)",
+      "TextInfos": [
+        {
+          "Text": "배틀(VS 트레이너)",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 21,
+      "LabelName": "hgss_bgm_1",
+      "LabelHash": -1772045180,
+      "OriginalText": "배틀! 트레이너(성도)",
+      "TextInfos": [
+        {
+          "Text": "배틀! 트레이너(성도)",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 22,
+      "LabelName": "oras_bgm_1",
+      "LabelHash": -1267947634,
+      "OriginalText": "배틀! 트레이너",
+      "TextInfos": [
+        {
+          "Text": "배틀! 트레이너",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 23,
+      "LabelName": "bdsp_bgm_1",
+      "LabelHash": 764379486,
+      "OriginalText": "배틀! 트레이너",
+      "TextInfos": [
+        {
+          "Text": "배틀! 트레이너",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 24,
+      "LabelName": "bgm_membership_release",
+      "LabelHash": 2092858091,
+      "OriginalText": "멤버십 가입으로 개방",
+      "TextInfos": [
+        {
+          "Text": "멤버십 가입으로 개방",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 25,
+      "LabelName": "za_bgm_1",
+      "LabelHash": -1892040390,
+      "OriginalText": "배틀! 트레이너",
+      "TextInfos": [
+        {
+          "Text": "배틀! 트레이너",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 26,
+      "LabelName": "za_bgm_3",
+      "LabelHash": -729240976,
+      "OriginalText": "배틀! 강한 트레이너",
+      "TextInfos": [
+        {
+          "Text": "배틀! 강한 트레이너",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    },
+    {
+      "Index": 27,
+      "LabelName": "za_bgm_2",
+      "LabelHash": 836842965,
+      "OriginalText": "배틀! MZ단",
+      "TextInfos": [
+        {
+          "Text": "배틀! MZ단",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 62
+    }
+  ]
+}

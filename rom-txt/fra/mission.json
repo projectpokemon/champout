@@ -1,0 +1,2872 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "mission",
+  "languageCode": 30,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "mission_00",
+      "LabelHash": -2070629049,
+      "OriginalText": "Quotidiennes",
+      "TextInfos": [
+        {
+          "Text": "Quotidiennes",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 1,
+      "LabelName": "mission_01",
+      "LabelHash": 658254306,
+      "OriginalText": "Hebdomadaires",
+      "TextInfos": [
+        {
+          "Text": "Hebdomadaires",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 2,
+      "LabelName": "mission_02",
+      "LabelHash": -907829635,
+      "OriginalText": "Renouvellement dans 31 jours ou +",
+      "TextInfos": [
+        {
+          "Text": "Renouvellement dans 31 jours ou +",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 40
+    },
+    {
+      "Index": 3,
+      "LabelName": "mission_04",
+      "LabelHash": 254969779,
+      "OriginalText": " : {0}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              40,
+              0,
+              82,
+              0,
+              101,
+              0,
+              109,
+              0,
+              112,
+              0,
+              108,
+              0,
+              97,
+              0,
+              99,
+              0,
+              101,
+              0,
+              109,
+              0,
+              101,
+              0,
+              110,
+              0,
+              116,
+              0,
+              32,
+              0,
+              114,
+              0,
+              101,
+              0,
+              115,
+              0,
+              116,
+              0,
+              97,
+              0,
+              110,
+              0,
+              116,
+              0,
+              44,
+              0,
+              82,
+              0,
+              101,
+              0,
+              109,
+              0,
+              112,
+              0,
+              108,
+              0,
+              97,
+              0,
+              99,
+              0,
+              101,
+              0,
+              109,
+              0,
+              101,
+              0,
+              110,
+              0,
+              116,
+              0,
+              115,
+              0,
+              32,
+              0,
+              114,
+              0,
+              101,
+              0,
+              115,
+              0,
+              116,
+              0,
+              97,
+              0,
+              110,
+              0,
+              116,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " : ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 4,
+      "LabelName": "mission_06",
+      "LabelHash": 1417769193,
+      "OriginalText": "Terminée !",
+      "TextInfos": [
+        {
+          "Text": "Terminée !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 5,
+      "LabelName": "mission_condition1000_2",
+      "LabelHash": 1149844882,
+      "OriginalText": "Participez à {0}  !",
+      "TextInfos": [
+        {
+          "Text": "Participez à ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              26,
+              0,
+              99,
+              0,
+              111,
+              0,
+              109,
+              0,
+              98,
+              0,
+              97,
+              0,
+              116,
+              0,
+              32,
+              0,
+              99,
+              0,
+              108,
+              0,
+              97,
+              0,
+              115,
+              0,
+              115,
+              0,
+              233,
+              0,
+              30,
+              0,
+              99,
+              0,
+              111,
+              0,
+              109,
+              0,
+              98,
+              0,
+              97,
+              0,
+              116,
+              0,
+              115,
+              0,
+              32,
+              0,
+              99,
+              0,
+              108,
+              0,
+              97,
+              0,
+              115,
+              0,
+              115,
+              0,
+              233,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 6,
+      "LabelName": "mission_condition1001",
+      "LabelHash": -1017968940,
+      "OriginalText": "Remportez {0}  !",
+      "TextInfos": [
+        {
+          "Text": "Remportez ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              26,
+              0,
+              99,
+              0,
+              111,
+              0,
+              109,
+              0,
+              98,
+              0,
+              97,
+              0,
+              116,
+              0,
+              32,
+              0,
+              99,
+              0,
+              108,
+              0,
+              97,
+              0,
+              115,
+              0,
+              115,
+              0,
+              233,
+              0,
+              30,
+              0,
+              99,
+              0,
+              111,
+              0,
+              109,
+              0,
+              98,
+              0,
+              97,
+              0,
+              116,
+              0,
+              115,
+              0,
+              32,
+              0,
+              99,
+              0,
+              108,
+              0,
+              97,
+              0,
+              115,
+              0,
+              115,
+              0,
+              233,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 7,
+      "LabelName": "mission_condition1010",
+      "LabelHash": 548115002,
+      "OriginalText": "Utilisez {0}  !",
+      "TextInfos": [
+        {
+          "Text": "Utilisez ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              46,
+              0,
+              99,
+              0,
+              97,
+              0,
+              112,
+              0,
+              97,
+              0,
+              99,
+              0,
+              105,
+              0,
+              116,
+              0,
+              233,
+              0,
+              32,
+              0,
+              115,
+              0,
+              117,
+              0,
+              112,
+              0,
+              101,
+              0,
+              114,
+              0,
+              32,
+              0,
+              101,
+              0,
+              102,
+              0,
+              102,
+              0,
+              105,
+              0,
+              99,
+              0,
+              97,
+              0,
+              99,
+              0,
+              101,
+              0,
+              50,
+              0,
+              99,
+              0,
+              97,
+              0,
+              112,
+              0,
+              97,
+              0,
+              99,
+              0,
+              105,
+              0,
+              116,
+              0,
+              233,
+              0,
+              115,
+              0,
+              32,
+              0,
+              115,
+              0,
+              117,
+              0,
+              112,
+              0,
+              101,
+              0,
+              114,
+              0,
+              32,
+              0,
+              101,
+              0,
+              102,
+              0,
+              102,
+              0,
+              105,
+              0,
+              99,
+              0,
+              97,
+              0,
+              99,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 8,
+      "LabelName": "mission_condition1011",
+      "LabelHash": 548115001,
+      "OriginalText": "Infligez {0}  !",
+      "TextInfos": [
+        {
+          "Text": "Infligez ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              26,
+              0,
+              99,
+              0,
+              111,
+              0,
+              117,
+              0,
+              112,
+              0,
+              32,
+              0,
+              99,
+              0,
+              114,
+              0,
+              105,
+              0,
+              116,
+              0,
+              105,
+              0,
+              113,
+              0,
+              117,
+              0,
+              101,
+              0,
+              30,
+              0,
+              99,
+              0,
+              111,
+              0,
+              117,
+              0,
+              112,
+              0,
+              115,
+              0,
+              32,
+              0,
+              99,
+              0,
+              114,
+              0,
+              105,
+              0,
+              116,
+              0,
+              105,
+              0,
+              113,
+              0,
+              117,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 9,
+      "LabelName": "mission_condition1031",
+      "LabelHash": 1710914415,
+      "OriginalText": "Envoyez {0} Pokémon de type {2}\nau combat !",
+      "TextInfos": [
+        {
+          "Text": "Envoyez ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " Pokémon de type ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "au combat !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 10,
+      "LabelName": "mission_23",
+      "LabelHash": 1821053722,
+      "OriginalText": "Combats classés",
+      "TextInfos": [
+        {
+          "Text": "Combats classés",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 11,
+      "LabelName": "mission_24",
+      "LabelHash": 254969781,
+      "OriginalText": "Combats amicaux",
+      "TextInfos": [
+        {
+          "Text": "Combats amicaux",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 12,
+      "LabelName": "mission_25",
+      "LabelHash": -1311114160,
+      "OriginalText": "Combats privés",
+      "TextInfos": [
+        {
+          "Text": "Combats privés",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 13,
+      "LabelName": "mission_28",
+      "LabelHash": -1714398687,
+      "OriginalText": "Stats des combats",
+      "TextInfos": [
+        {
+          "Text": "Stats des combats",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 14,
+      "LabelName": "mission_29",
+      "LabelHash": 1014484668,
+      "OriginalText": "Boîte",
+      "TextInfos": [
+        {
+          "Text": "Boîte",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 15,
+      "LabelName": "mission_31",
+      "LabelHash": 658254309,
+      "OriginalText": "Équipes calquées",
+      "TextInfos": [
+        {
+          "Text": "Équipes calquées",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 16,
+      "LabelName": "mission_32",
+      "LabelHash": -907829632,
+      "OriginalText": "Recrutement",
+      "TextInfos": [
+        {
+          "Text": "Recrutement",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 17,
+      "LabelName": "mission_34",
+      "LabelHash": 254969782,
+      "OriginalText": "Boutique",
+      "TextInfos": [
+        {
+          "Text": "Boutique",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 18,
+      "LabelName": "mission_36",
+      "LabelHash": 1417769196,
+      "OriginalText": "Style",
+      "TextInfos": [
+        {
+          "Text": "Style",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 19,
+      "LabelName": "mission_condition1020",
+      "LabelHash": 144830475,
+      "OriginalText": "Utilisez la Méga-Évolution {0} fois !",
+      "TextInfos": [
+        {
+          "Text": "Utilisez la Méga-Évolution ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " fois !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 20,
+      "LabelName": "mission_condition1062",
+      "LabelHash": -1824537995,
+      "OriginalText": "Utilisez {0}  de type {2} !",
+      "TextInfos": [
+        {
+          "Text": "Utilisez ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              16,
+              0,
+              99,
+              0,
+              97,
+              0,
+              112,
+              0,
+              97,
+              0,
+              99,
+              0,
+              105,
+              0,
+              116,
+              0,
+              233,
+              0,
+              18,
+              0,
+              99,
+              0,
+              97,
+              0,
+              112,
+              0,
+              97,
+              0,
+              99,
+              0,
+              105,
+              0,
+              116,
+              0,
+              233,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " de type ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 3,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 21,
+      "LabelName": "mission_condition9001_1",
+      "LabelHash": 1825189596,
+      "OriginalText": "Terminez toutes vos missions quotidiennes !",
+      "TextInfos": [
+        {
+          "Text": "Terminez toutes vos missions quotidiennes !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 22,
+      "LabelName": "mission_47",
+      "LabelHash": -148314752,
+      "OriginalText": "Renouvellement dans {0} jour",
+      "TextInfos": [
+        {
+          "Text": "Renouvellement dans ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " jour",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 23,
+      "LabelName": "mission_48",
+      "LabelHash": -1714398693,
+      "OriginalText": "Renouvellement dans {0} heure",
+      "TextInfos": [
+        {
+          "Text": "Renouvellement dans ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " heure",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 24,
+      "LabelName": "mission_49",
+      "LabelHash": 1014484662,
+      "OriginalText": "Renouvellement dans {0} minute",
+      "TextInfos": [
+        {
+          "Text": "Renouvellement dans ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " minute",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              0,
+              0,
+              2,
+              0,
+              115,
+              0
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 25,
+      "LabelName": "mission_50",
+      "LabelHash": -2070629052,
+      "OriginalText": "Renouvellement imminent",
+      "TextInfos": [
+        {
+          "Text": "Renouvellement imminent",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 26,
+      "LabelName": "mission_51",
+      "LabelHash": 658254303,
+      "OriginalText": "C’est parti !",
+      "TextInfos": [
+        {
+          "Text": "C’est parti !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 27,
+      "LabelName": "mission_52",
+      "LabelHash": -907829638,
+      "OriginalText": "{0}/{1}",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": "/",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 3,
+            "Params": [
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 28,
+      "LabelName": "mission_condition1012",
+      "LabelHash": 548115000,
+      "OriginalText": "Utilisez {0}  !",
+      "TextInfos": [
+        {
+          "Text": "Utilisez ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              46,
+              0,
+              99,
+              0,
+              97,
+              0,
+              112,
+              0,
+              97,
+              0,
+              99,
+              0,
+              105,
+              0,
+              116,
+              0,
+              233,
+              0,
+              32,
+              0,
+              104,
+              0,
+              121,
+              0,
+              112,
+              0,
+              101,
+              0,
+              114,
+              0,
+              32,
+              0,
+              101,
+              0,
+              102,
+              0,
+              102,
+              0,
+              105,
+              0,
+              99,
+              0,
+              97,
+              0,
+              99,
+              0,
+              101,
+              0,
+              50,
+              0,
+              99,
+              0,
+              97,
+              0,
+              112,
+              0,
+              97,
+              0,
+              99,
+              0,
+              105,
+              0,
+              116,
+              0,
+              233,
+              0,
+              115,
+              0,
+              32,
+              0,
+              104,
+              0,
+              121,
+              0,
+              112,
+              0,
+              101,
+              0,
+              114,
+              0,
+              32,
+              0,
+              101,
+              0,
+              102,
+              0,
+              102,
+              0,
+              105,
+              0,
+              99,
+              0,
+              97,
+              0,
+              99,
+              0,
+              101,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 29,
+      "LabelName": "mission_condition1080",
+      "LabelHash": -661738579,
+      "OriginalText": "Remportez {0}  en battant l’équipe\nadverse sans qu’aucun de vos Pokémon ne tombe K.O.",
+      "TextInfos": [
+        {
+          "Text": "Remportez ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              26,
+              0,
+              99,
+              0,
+              111,
+              0,
+              109,
+              0,
+              98,
+              0,
+              97,
+              0,
+              116,
+              0,
+              32,
+              0,
+              99,
+              0,
+              108,
+              0,
+              97,
+              0,
+              115,
+              0,
+              115,
+              0,
+              233,
+              0,
+              30,
+              0,
+              99,
+              0,
+              111,
+              0,
+              109,
+              0,
+              98,
+              0,
+              97,
+              0,
+              116,
+              0,
+              115,
+              0,
+              32,
+              0,
+              99,
+              0,
+              108,
+              0,
+              97,
+              0,
+              115,
+              0,
+              115,
+              0,
+              233,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " en battant l’équipe",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "adverse sans qu’aucun de vos Pokémon ne tombe K.O.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 51
+    },
+    {
+      "Index": 30,
+      "LabelName": "mission_condition2000",
+      "LabelHash": 1690711440,
+      "OriginalText": "Connectez-vous à votre compte !",
+      "TextInfos": [
+        {
+          "Text": "Connectez-vous à votre compte !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 31,
+      "LabelName": "mission_condition3011",
+      "LabelHash": 265789999,
+      "OriginalText": "Recrutez un Pokémon à l’essai ou de façon\npermanente !",
+      "TextInfos": [
+        {
+          "Text": "Recrutez un Pokémon à l’essai ou de façon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "permanente !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 32,
+      "LabelName": "mission_condition4001",
+      "LabelHash": 1408386437,
+      "OriginalText": "Utilisez {0} PdV pour entraîner\nvos Pokémon !",
+      "TextInfos": [
+        {
+          "Text": "Utilisez ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": " PdV pour entraîner",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "vos Pokémon !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 33,
+      "LabelName": "mission_kikangentei",
+      "LabelHash": -1943543295,
+      "OriginalText": "Évènements",
+      "TextInfos": [
+        {
+          "Text": "Évènements",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 34,
+      "LabelName": "mission_condition4501st",
+      "LabelHash": -478917929,
+      "OriginalText": "Partagez une Équipe Combat en utilisant\nla fonctionnalité des équipes calquées !",
+      "TextInfos": [
+        {
+          "Text": "Partagez une Équipe Combat en utilisant",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "la fonctionnalité des équipes calquées !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 35,
+      "LabelName": "mission_condition4500st",
+      "LabelHash": -478917898,
+      "OriginalText": "Créez une Équipe Combat en utilisant\nla fonctionnalité de création auto !",
+      "TextInfos": [
+        {
+          "Text": "Créez une Équipe Combat en utilisant",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "la fonctionnalité de création auto !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 36,
+      "LabelName": "mission_condition9050st",
+      "LabelHash": 2060460459,
+      "OriginalText": "Consultez les stats des combats !",
+      "TextInfos": [
+        {
+          "Text": "Consultez les stats des combats !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 37,
+      "LabelName": "mission_condition6001st",
+      "LabelHash": 763663452,
+      "OriginalText": "Faites du shopping dans la boutique !",
+      "TextInfos": [
+        {
+          "Text": "Faites du shopping dans la boutique !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 38,
+      "LabelName": "mission_condition6500st",
+      "LabelHash": 763660096,
+      "OriginalText": "Changez de tenue !",
+      "TextInfos": [
+        {
+          "Text": "Changez de tenue !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 39,
+      "LabelName": "mission_condition9060st",
+      "LabelHash": 998417594,
+      "OriginalText": "Consultez les annonces !",
+      "TextInfos": [
+        {
+          "Text": "Consultez les annonces !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 40,
+      "LabelName": "mission_condition9040st",
+      "LabelHash": 716092592,
+      "OriginalText": "Associez votre compte à un réseau social !",
+      "TextInfos": [
+        {
+          "Text": "Associez votre compte à un réseau social !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 41,
+      "LabelName": "mission_condition9041st",
+      "LabelHash": 716092623,
+      "OriginalText": "Récupérez un Pokémon depuis Pokémon HOME !",
+      "TextInfos": [
+        {
+          "Text": "Récupérez un Pokémon depuis Pokémon HOME !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 42,
+      "LabelName": "mission_condition9030st_1",
+      "LabelHash": -2076072681,
+      "OriginalText": "Atteignez le rang Super Ball dans la catégorie\nCombat Solo des combats classés !",
+      "TextInfos": [
+        {
+          "Text": "Atteignez le rang Super Ball dans la catégorie",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Combat Solo des combats classés !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 43,
+      "LabelName": "mission_condition9030st_2",
+      "LabelHash": -2076072682,
+      "OriginalText": "Atteignez le rang Super Ball dans la catégorie\nCombat Duo des combats classés !",
+      "TextInfos": [
+        {
+          "Text": "Atteignez le rang Super Ball dans la catégorie",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Combat Duo des combats classés !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 44,
+      "LabelName": "mission_condition1001st",
+      "LabelHash": -107062773,
+      "OriginalText": "Remportez {0}  !",
+      "TextInfos": [
+        {
+          "Text": "Remportez ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              26,
+              0,
+              99,
+              0,
+              111,
+              0,
+              109,
+              0,
+              98,
+              0,
+              97,
+              0,
+              116,
+              0,
+              32,
+              0,
+              97,
+              0,
+              109,
+              0,
+              105,
+              0,
+              99,
+              0,
+              97,
+              0,
+              108,
+              0,
+              30,
+              0,
+              99,
+              0,
+              111,
+              0,
+              109,
+              0,
+              98,
+              0,
+              97,
+              0,
+              116,
+              0,
+              115,
+              0,
+              32,
+              0,
+              97,
+              0,
+              109,
+              0,
+              105,
+              0,
+              99,
+              0,
+              97,
+              0,
+              117,
+              0,
+              120,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 45,
+      "LabelName": "mission_condition1002st",
+      "LabelHash": -107062998,
+      "OriginalText": "Participez à {0}  !",
+      "TextInfos": [
+        {
+          "Text": "Participez à ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              24,
+              0,
+              99,
+              0,
+              111,
+              0,
+              109,
+              0,
+              98,
+              0,
+              97,
+              0,
+              116,
+              0,
+              32,
+              0,
+              112,
+              0,
+              114,
+              0,
+              105,
+              0,
+              118,
+              0,
+              233,
+              0,
+              28,
+              0,
+              99,
+              0,
+              111,
+              0,
+              109,
+              0,
+              98,
+              0,
+              97,
+              0,
+              116,
+              0,
+              115,
+              0,
+              32,
+              0,
+              112,
+              0,
+              114,
+              0,
+              105,
+              0,
+              118,
+              0,
+              233,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 46,
+      "LabelName": "mission_condition1002subsc",
+      "LabelHash": -561786377,
+      "OriginalText": "Participez à {0}  !",
+      "TextInfos": [
+        {
+          "Text": "Participez à ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": " ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 20,
+            "TagId": 1,
+            "Params": [
+              0,
+              205,
+              26,
+              0,
+              99,
+              0,
+              111,
+              0,
+              109,
+              0,
+              98,
+              0,
+              97,
+              0,
+              116,
+              0,
+              32,
+              0,
+              99,
+              0,
+              108,
+              0,
+              97,
+              0,
+              115,
+              0,
+              115,
+              0,
+              233,
+              0,
+              30,
+              0,
+              99,
+              0,
+              111,
+              0,
+              109,
+              0,
+              98,
+              0,
+              97,
+              0,
+              116,
+              0,
+              115,
+              0,
+              32,
+              0,
+              99,
+              0,
+              108,
+              0,
+              97,
+              0,
+              115,
+              0,
+              115,
+              0,
+              233,
+              0,
+              115,
+              0
+            ]
+          }
+        },
+        {
+          "Text": " !",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 47,
+      "LabelName": "mission_starter",
+      "LabelHash": 342278852,
+      "OriginalText": "Initiales",
+      "TextInfos": [
+        {
+          "Text": "Initiales",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 48,
+      "LabelName": "mission_reroll_confirm",
+      "LabelHash": 1386541684,
+      "OriginalText": "Voulez-vous remplacer cette mission ?\nRemarque : si vous remplacez une mission, vous perdrez toute\nprogression enregistrée pour celle-ci.",
+      "TextInfos": [
+        {
+          "Text": "Voulez-vous remplacer cette mission ?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Remarque : si vous remplacez une mission, vous perdrez toute",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "progression enregistrée pour celle-ci.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 49,
+      "LabelName": "mission_reroll_zero_notice",
+      "LabelHash": 1102429101,
+      "OriginalText": "Vous avez épuisé tous vos remplacements disponibles.\nRemarque : le nombre de remplacements disponibles\nsera réinitialisé lors du prochain renouvellement des missions.",
+      "TextInfos": [
+        {
+          "Text": "Vous avez épuisé tous vos remplacements disponibles.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Remarque : le nombre de remplacements disponibles",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sera réinitialisé lors du prochain renouvellement des missions.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 50,
+      "LabelName": "mission_no_membership",
+      "LabelHash": -1453693413,
+      "OriginalText": "Cette récompense requiert un abonnement.\nVoulez-vous souscrire un abonnement ?",
+      "TextInfos": [
+        {
+          "Text": "Cette récompense requiert un abonnement.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Voulez-vous souscrire un abonnement ?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 51,
+      "LabelName": "mission_membership_category",
+      "LabelHash": 1923647214,
+      "OriginalText": "Abonnement",
+      "TextInfos": [
+        {
+          "Text": "Abonnement",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    }
+  ]
+}

@@ -1,0 +1,982 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "training_code",
+  "languageCode": 40,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "training_code_button_00",
+      "LabelHash": -612149754,
+      "OriginalText": "Formazione tramite ID squadra",
+      "TextInfos": [
+        {
+          "Text": "Formazione tramite ID squadra",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 1,
+      "LabelName": "training_code_button_01",
+      "LabelHash": -612149755,
+      "OriginalText": "Condivisione Squadre Lotta",
+      "TextInfos": [
+        {
+          "Text": "Condivisione Squadre Lotta",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 2,
+      "LabelName": "training_code_00",
+      "LabelHash": -616650515,
+      "OriginalText": "Vuoi replicare questa Squadra Lotta?",
+      "TextInfos": [
+        {
+          "Text": "Vuoi replicare questa Squadra Lotta?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
+    },
+    {
+      "Index": 3,
+      "LabelName": "training_code_01",
+      "LabelHash": 949433426,
+      "OriginalText": "Vuoi formare una nuova Squadra Lotta?",
+      "TextInfos": [
+        {
+          "Text": "Vuoi formare una nuova Squadra Lotta?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 4,
+      "LabelName": "training_code_13",
+      "LabelHash": -213365989,
+      "OriginalText": "Vuoi condividere questa Squadra Lotta?",
+      "TextInfos": [
+        {
+          "Text": "Vuoi condividere questa Squadra Lotta?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 5,
+      "LabelName": "training_code_15",
+      "LabelHash": -1376165403,
+      "OriginalText": "Vuoi smettere di condividere questa Squadra Lotta?",
+      "TextInfos": [
+        {
+          "Text": "Vuoi smettere di condividere questa Squadra Lotta?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 6,
+      "LabelName": "training_code_16",
+      "LabelHash": 189918538,
+      "OriginalText": "Nota: se smetti di condividere una Squadra Lotta, gli altri\ngiocatori non potranno più utilizzare il relativo ID squadra.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Nota: se smetti di condividere una Squadra Lotta, gli altri",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "giocatori non potranno più utilizzare il relativo ID squadra.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 7,
+      "LabelName": "training_code_17",
+      "LabelHash": 1756002479,
+      "OriginalText": "L’ID squadra inserito non corrisponde a nessuna Squadra Lotta.",
+      "TextInfos": [
+        {
+          "Text": "L’ID squadra inserito non corrisponde a nessuna Squadra Lotta.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 8,
+      "LabelName": "training_code_18",
+      "LabelHash": -260420156,
+      "OriginalText": "ID squadra: {0}",
+      "TextInfos": [
+        {
+          "Text": "ID squadra: ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 76,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
+      "Index": 9,
+      "LabelName": "training_code_25",
+      "LabelHash": -1376165400,
+      "OriginalText": "Scegli se condividere le Squadre Lotta",
+      "TextInfos": [
+        {
+          "Text": "Scegli se condividere le Squadre Lotta",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 10,
+      "LabelName": "training_code_33",
+      "LabelHash": -213365987,
+      "OriginalText": "Inserisci l’ID squadra.",
+      "TextInfos": [
+        {
+          "Text": "Inserisci l’ID squadra.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 11,
+      "LabelName": "training_code_35",
+      "LabelHash": -1376165401,
+      "OriginalText": "Vuoi usare {0} PV per procedere con l’allenamento?",
+      "TextInfos": [
+        {
+          "Text": "Vuoi usare ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": " PV per procedere con l’allenamento?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 12,
+      "LabelName": "training_code_41",
+      "LabelHash": 949433422,
+      "OriginalText": "{0} PV",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 4,
+            "Params": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "Text": " PV",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 8
+    },
+    {
+      "Index": 13,
+      "LabelName": "training_code_43",
+      "LabelHash": -213365992,
+      "OriginalText": "Info attuali",
+      "TextInfos": [
+        {
+          "Text": "Info attuali",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 14,
+      "LabelName": "training_code_44",
+      "LabelHash": 1352717949,
+      "OriginalText": "Info dopo l’allenamento",
+      "TextInfos": [
+        {
+          "Text": "Info dopo l’allenamento",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 19
+    },
+    {
+      "Index": 15,
+      "LabelName": "training_code_45",
+      "LabelHash": -1376165406,
+      "OriginalText": "Rimuovi",
+      "TextInfos": [
+        {
+          "Text": "Rimuovi",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 16,
+      "LabelName": "training_code_46",
+      "LabelHash": 189918535,
+      "OriginalText": "Nota: i PV utilizzati non possono essere restituiti!",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Nota: i PV utilizzati non possono essere restituiti!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 17,
+      "LabelName": "training_code_48",
+      "LabelHash": -260420159,
+      "OriginalText": "Condividi nuova",
+      "TextInfos": [
+        {
+          "Text": "Condividi nuova",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 18,
+      "LabelName": "training_code_54",
+      "LabelHash": 1352717948,
+      "OriginalText": "Scegli Squadra Lotta",
+      "TextInfos": [
+        {
+          "Text": "Scegli Squadra Lotta",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 19,
+      "LabelName": "training_code_55",
+      "LabelHash": -1376165407,
+      "OriginalText": "Smetti di condividere",
+      "TextInfos": [
+        {
+          "Text": "Smetti di condividere",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 20,
+      "LabelName": "training_code_57",
+      "LabelHash": 1756002475,
+      "OriginalText": "Formando una nuova Squadra Lotta, sovrascriverai quella\nesistente. Vuoi continuare?",
+      "TextInfos": [
+        {
+          "Text": "Formando una nuova Squadra Lotta, sovrascriverai quella",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "esistente. Vuoi continuare?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 21,
+      "LabelName": "training_code_58",
+      "LabelHash": -260420160,
+      "OriginalText": "Non è stato possibile replicare la Squadra Lotta relativa\nall’ID squadra inserito, poiché non hai nessuno dei Pokémon\nche fanno parte di quella squadra.",
+      "TextInfos": [
+        {
+          "Text": "Non è stato possibile replicare la Squadra Lotta relativa",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "all’ID squadra inserito, poiché non hai nessuno dei Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "che fanno parte di quella squadra.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 22,
+      "LabelName": "training_code_59",
+      "LabelHash": 1305663781,
+      "OriginalText": "Uno o più Pokémon della squadra fanno parte dei tuoi preferiti.\nLe loro statistiche potrebbero cambiare. Vuoi procedere?",
+      "TextInfos": [
+        {
+          "Text": "Uno o più Pokémon della squadra fanno parte dei tuoi preferiti.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Le loro statistiche potrebbero cambiare. Vuoi procedere?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 23,
+      "LabelName": "training_code_60",
+      "LabelHash": -616650517,
+      "OriginalText": "La Squadra Lotta è pronta!",
+      "TextInfos": [
+        {
+          "Text": "La Squadra Lotta è pronta!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 24,
+      "LabelName": "training_code_62",
+      "LabelHash": -1779449931,
+      "OriginalText": "Sostituisci",
+      "TextInfos": [
+        {
+          "Text": "Sostituisci",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 25,
+      "LabelName": "training_code_select_organize",
+      "LabelHash": 1624728505,
+      "OriginalText": "Scegli quale Squadra Lotta formare",
+      "TextInfos": [
+        {
+          "Text": "Scegli quale Squadra Lotta formare",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 26,
+      "LabelName": "training_code_select_publish",
+      "LabelHash": -612304297,
+      "OriginalText": "Scegli quale Squadra Lotta condividere",
+      "TextInfos": [
+        {
+          "Text": "Scegli quale Squadra Lotta condividere",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 27,
+      "LabelName": "training_code_select_training_pokemon",
+      "LabelHash": -1684622070,
+      "OriginalText": "Scegli quali Pokémon allenare",
+      "TextInfos": [
+        {
+          "Text": "Scegli quali Pokémon allenare",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 28,
+      "LabelName": "training_code_63",
+      "LabelHash": -213365990,
+      "OriginalText": "Vuoi davvero usare dei biglietti allenamento per allenare\ni Pokémon?\nNota: se non hai abbastanza biglietti, verranno usati i PV\nper coprire la differenza.",
+      "TextInfos": [
+        {
+          "Text": "Vuoi davvero usare dei biglietti allenamento per allenare",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "i Pokémon?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Nota: se non hai abbastanza biglietti, verranno usati i PV",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "per coprire la differenza.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 29,
+      "LabelName": "training_code_64",
+      "LabelHash": 1352717951,
+      "OriginalText": "Seleziona",
+      "TextInfos": [
+        {
+          "Text": "Seleziona",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 30,
+      "LabelName": "training_code_slot",
+      "LabelHash": -509002743,
+      "OriginalText": "Slot {0}",
+      "TextInfos": [
+        {
+          "Text": "Slot ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    }
+  ]
+}

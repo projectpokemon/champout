@@ -1,0 +1,496 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "dressup",
+  "languageCode": 40,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "dressup_button_00",
+      "LabelHash": 453112774,
+      "OriginalText": "Armadietto",
+      "TextInfos": [
+        {
+          "Text": "Armadietto",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 1,
+      "LabelName": "dressup_button_01",
+      "LabelHash": 453112773,
+      "OriginalText": "Capigliatura e trucco",
+      "TextInfos": [
+        {
+          "Text": "Capigliatura e trucco",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 2,
+      "LabelName": "dressup_button_02",
+      "LabelHash": 453112776,
+      "OriginalText": "Stile di lancio",
+      "TextInfos": [
+        {
+          "Text": "Stile di lancio",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 3,
+      "LabelName": "dressup_button_03",
+      "LabelHash": 453112775,
+      "OriginalText": "Posa di sfida",
+      "TextInfos": [
+        {
+          "Text": "Posa di sfida",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 4,
+      "LabelName": "dressup_button_04",
+      "LabelHash": 453112778,
+      "OriginalText": "Posa di vittoria",
+      "TextInfos": [
+        {
+          "Text": "Posa di vittoria",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 5,
+      "LabelName": "dressup_button_06",
+      "LabelHash": 453112780,
+      "OriginalText": "Look personalizzati",
+      "TextInfos": [
+        {
+          "Text": "Look personalizzati",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 6,
+      "LabelName": "dressup_confirm_00",
+      "LabelHash": -1347985152,
+      "OriginalText": "Vuoi salvare le modifiche e tornare indietro?",
+      "TextInfos": [
+        {
+          "Text": "Vuoi salvare le modifiche e tornare indietro?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 7,
+      "LabelName": "dressup_button_07",
+      "LabelHash": 453112779,
+      "OriginalText": "Annulla e torna indietro",
+      "TextInfos": [
+        {
+          "Text": "Annulla e torna indietro",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 8,
+      "LabelName": "dressup_button_08",
+      "LabelHash": 453112782,
+      "OriginalText": "Salva e torna indietro",
+      "TextInfos": [
+        {
+          "Text": "Salva e torna indietro",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 9,
+      "LabelName": "dressup_button_09",
+      "LabelHash": 453112781,
+      "OriginalText": "Salva",
+      "TextInfos": [
+        {
+          "Text": "Salva",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 10,
+      "LabelName": "dressup_button_10",
+      "LabelHash": -1112971167,
+      "OriginalText": "Carica",
+      "TextInfos": [
+        {
+          "Text": "Carica",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 11,
+      "LabelName": "dressup_button_11",
+      "LabelHash": -1112971168,
+      "OriginalText": "Elimina",
+      "TextInfos": [
+        {
+          "Text": "Elimina",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 12,
+      "LabelName": "dressup_confirm_01",
+      "LabelHash": 218098789,
+      "OriginalText": "Vuoi eliminare il look personalizzato nº {0}?",
+      "TextInfos": [
+        {
+          "Text": "Vuoi eliminare il look personalizzato nº ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 13,
+      "LabelName": "dressup_confirm_02",
+      "LabelHash": -185185738,
+      "OriginalText": "Vuoi caricare il look personalizzato nº {0}?",
+      "TextInfos": [
+        {
+          "Text": "Vuoi caricare il look personalizzato nº ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 14,
+      "LabelName": "dressup_confirm_03",
+      "LabelHash": 1380898203,
+      "OriginalText": "Vuoi salvare il look attuale come look personalizzato nº {0}?",
+      "TextInfos": [
+        {
+          "Text": "Vuoi salvare il look attuale come look personalizzato nº ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 15,
+      "LabelName": "dressup_save",
+      "LabelHash": -1760704300,
+      "OriginalText": "Salva",
+      "TextInfos": [
+        {
+          "Text": "Salva",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 16,
+      "LabelName": "dressup_save_confirm",
+      "LabelHash": 812512981,
+      "OriginalText": "Vuoi salvare il look attuale?",
+      "TextInfos": [
+        {
+          "Text": "Vuoi salvare il look attuale?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 17,
+      "LabelName": "dressup_save_or_load",
+      "LabelHash": 724705207,
+      "OriginalText": "Seleziona il look da salvare o caricare",
+      "TextInfos": [
+        {
+          "Text": "Seleziona il look da salvare o caricare",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 18,
+      "LabelName": "dressup_03_08",
+      "LabelHash": 700556721,
+      "OriginalText": "Vuoto",
+      "TextInfos": [
+        {
+          "Text": "Vuoto",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    }
+  ]
+}

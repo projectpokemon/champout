@@ -1,0 +1,5821 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "btl_state_syn",
+  "languageCode": 30,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "BTR_STATE_SYN_01_02",
+      "LabelHash": 49722448,
+      "OriginalText": "Les dégâts des capacités de type Feu\nsont multipliés par 1,5.\nLes dégâts des capacités de type Eau\nsont réduits de moitié.",
+      "TextInfos": [
+        {
+          "Text": "Les dégâts des capacités de type Feu",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sont multipliés par 1,5.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Les dégâts des capacités de type Eau",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sont réduits de moitié.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 1,
+      "LabelName": "BTR_STATE_SYN_01_03",
+      "LabelHash": 49722449,
+      "OriginalText": "Soleil",
+      "TextInfos": [
+        {
+          "Text": "Soleil",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 2,
+      "LabelName": "BTR_STATE_SYN_02_02",
+      "LabelHash": 1353684363,
+      "OriginalText": "Les dégâts des capacités de type Eau\nsont multipliés par 1,5.\nLes dégâts des capacités de type Feu\nsont réduits de moitié.",
+      "TextInfos": [
+        {
+          "Text": "Les dégâts des capacités de type Eau",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sont multipliés par 1,5.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Les dégâts des capacités de type Feu",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sont réduits de moitié.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 3,
+      "LabelName": "BTR_STATE_SYN_02_03",
+      "LabelHash": 1353684364,
+      "OriginalText": "Pluie",
+      "TextInfos": [
+        {
+          "Text": "Pluie",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 4,
+      "LabelName": "BTR_STATE_SYN_03_02",
+      "LabelHash": -232602554,
+      "OriginalText": "Tous les Pokémon, sauf ceux de type Roche,\nSol ou Acier, subissent des dégâts équivalents\nà 1/16 de leurs PV max à la fin de chaque tour.\nLa Défense Spéciale des Pokémon de type\nRoche est multipliée par 1,5.",
+      "TextInfos": [
+        {
+          "Text": "Tous les Pokémon, sauf ceux de type Roche,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Sol ou Acier, subissent des dégâts équivalents",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "à 1/16 de leurs PV max à la fin de chaque tour.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "La Défense Spéciale des Pokémon de type",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Roche est multipliée par 1,5.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 5,
+      "LabelName": "BTR_STATE_SYN_03_03",
+      "LabelHash": -232602553,
+      "OriginalText": "Tempête de sable",
+      "TextInfos": [
+        {
+          "Text": "Tempête de sable",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 6,
+      "LabelName": "BTR_STATE_SYN_04_02",
+      "LabelHash": 1071359361,
+      "OriginalText": "La Défense des Pokémon de type Glace\nest multipliée par 1,5.",
+      "TextInfos": [
+        {
+          "Text": "La Défense des Pokémon de type Glace",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "est multipliée par 1,5.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 7,
+      "LabelName": "BTR_STATE_SYN_04_03",
+      "LabelHash": 1071359362,
+      "OriginalText": "Neige",
+      "TextInfos": [
+        {
+          "Text": "Neige",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 8,
+      "LabelName": "BTR_STATE_SYN_05_02",
+      "LabelHash": -514927556,
+      "OriginalText": "Ces effets s’appliquent aux Pokémon au sol :\n・ La puissance de leurs capacités de type Électrik\nest multipliée par 1,3.\n・ Ils ne peuvent pas s’endormir.",
+      "TextInfos": [
+        {
+          "Text": "Ces effets s’appliquent aux Pokémon au sol :",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "・",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": " La puissance de leurs capacités de type Électrik",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "est multipliée par 1,3.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "・",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": " Ils ne peuvent pas s’endormir.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 9,
+      "LabelName": "BTR_STATE_SYN_05_03",
+      "LabelHash": -514927555,
+      "OriginalText": "Champ Électrifié",
+      "TextInfos": [
+        {
+          "Text": "Champ Électrifié",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 10,
+      "LabelName": "BTR_STATE_SYN_06_02",
+      "LabelHash": 789034359,
+      "OriginalText": "Ces effets s’appliquent aux Pokémon au sol :\n・ La puissance de leurs capacités de type Plante\nest multipliée par 1,3.\n・ Ils récupèrent 1/16 de leurs PV max à la fin\nde chaque tour.",
+      "TextInfos": [
+        {
+          "Text": "Ces effets s’appliquent aux Pokémon au sol :",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "・",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": " La puissance de leurs capacités de type Plante",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "est multipliée par 1,3.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "・",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": " Ils récupèrent 1/16 de leurs PV max à la fin",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de chaque tour.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 11,
+      "LabelName": "BTR_STATE_SYN_06_03",
+      "LabelHash": 789034360,
+      "OriginalText": "Champ Herbu",
+      "TextInfos": [
+        {
+          "Text": "Champ Herbu",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 12,
+      "LabelName": "BTR_STATE_SYN_07_02",
+      "LabelHash": -797252558,
+      "OriginalText": "Ces effets s’appliquent aux Pokémon au sol :\n・ La puissance de leurs capacités de type Dragon\nest réduite de moitié.\n・ Ils ne peuvent ni subir d’altérations de statut,\nni devenir confus.",
+      "TextInfos": [
+        {
+          "Text": "Ces effets s’appliquent aux Pokémon au sol :",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "・",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": " La puissance de leurs capacités de type Dragon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "est réduite de moitié.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "・",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": " Ils ne peuvent ni subir d’altérations de statut,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ni devenir confus.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 13,
+      "LabelName": "BTR_STATE_SYN_07_03",
+      "LabelHash": -797252557,
+      "OriginalText": "Champ Brumeux",
+      "TextInfos": [
+        {
+          "Text": "Champ Brumeux",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 14,
+      "LabelName": "BTR_STATE_SYN_08_02",
+      "LabelHash": -1529657923,
+      "OriginalText": "Les Pokémon agissent par ordre croissant\nde Vitesse (du plus lent au plus rapide).",
+      "TextInfos": [
+        {
+          "Text": "Les Pokémon agissent par ordre croissant",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de Vitesse (du plus lent au plus rapide).",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 15,
+      "LabelName": "BTR_STATE_SYN_08_03",
+      "LabelHash": -1529657922,
+      "OriginalText": "Distorsion",
+      "TextInfos": [
+        {
+          "Text": "Distorsion",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 16,
+      "LabelName": "BTR_STATE_SYN_09_02",
+      "LabelHash": 1179022456,
+      "OriginalText": "De nombreux objets tenus ne peuvent pas\nactiver leur effet.",
+      "TextInfos": [
+        {
+          "Text": "De nombreux objets tenus ne peuvent pas",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "activer leur effet.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 17,
+      "LabelName": "BTR_STATE_SYN_09_03",
+      "LabelHash": 1179022457,
+      "OriginalText": "Zone Magique",
+      "TextInfos": [
+        {
+          "Text": "Zone Magique",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 18,
+      "LabelName": "BTR_STATE_SYN_10_02",
+      "LabelHash": 1636012566,
+      "OriginalText": "La Défense et la Défense Spéciale du Pokémon\nsont interverties.",
+      "TextInfos": [
+        {
+          "Text": "La Défense et la Défense Spéciale du Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sont interverties.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 19,
+      "LabelName": "BTR_STATE_SYN_10_03",
+      "LabelHash": 1636012565,
+      "OriginalText": "Zone Étrange",
+      "TextInfos": [
+        {
+          "Text": "Zone Étrange",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 20,
+      "LabelName": "BTR_STATE_SYN_11_02",
+      "LabelHash": 49725649,
+      "OriginalText": "Les attaques du Pokémon ont plus de chances\nd’infliger un coup critique.",
+      "TextInfos": [
+        {
+          "Text": "Les attaques du Pokémon ont plus de chances",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "d’infliger un coup critique.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 21,
+      "LabelName": "BTR_STATE_SYN_11_03",
+      "LabelHash": 49725648,
+      "OriginalText": "Taux de critiques ↑",
+      "TextInfos": [
+        {
+          "Text": "Taux de critiques ↑",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 22,
+      "LabelName": "BTR_STATE_SYN_12_02",
+      "LabelHash": 1353687564,
+      "OriginalText": "Le Pokémon a 1 chance sur 3 de s’attaquer\nlui-même pendant 1 à 4 tours.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon a 1 chance sur 3 de s’attaquer",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "lui-même pendant 1 à 4 tours.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 23,
+      "LabelName": "BTR_STATE_SYN_12_03",
+      "LabelHash": 1353687563,
+      "OriginalText": "Confusion",
+      "TextInfos": [
+        {
+          "Text": "Confusion",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 24,
+      "LabelName": "BTR_STATE_SYN_13_02",
+      "LabelHash": -232599353,
+      "OriginalText": "Le Pokémon a 50 % de chances de ne pas\npouvoir utiliser de capacité si l’adversaire\nqui lui a infligé l’état « Attraction »\nest sur le terrain.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon a 50 % de chances de ne pas",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "pouvoir utiliser de capacité si l’adversaire",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "qui lui a infligé l’état « Attraction »",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "est sur le terrain.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 25,
+      "LabelName": "BTR_STATE_SYN_13_03",
+      "LabelHash": -232599354,
+      "OriginalText": "Attraction",
+      "TextInfos": [
+        {
+          "Text": "Attraction",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 26,
+      "LabelName": "BTR_STATE_SYN_15_02",
+      "LabelHash": -514924355,
+      "OriginalText": "Le Pokémon s’endormira à la fin du tour suivant\nl’utilisation d’une capacité qui lui a infligé l’état\n« Somnolence ».",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon s’endormira à la fin du tour suivant",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "l’utilisation d’une capacité qui lui a infligé l’état",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "« Somnolence ».",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 27,
+      "LabelName": "BTR_STATE_SYN_15_03",
+      "LabelHash": -514924356,
+      "OriginalText": "Somnolence",
+      "TextInfos": [
+        {
+          "Text": "Somnolence",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 28,
+      "LabelName": "BTR_STATE_SYN_16_02",
+      "LabelHash": 789037560,
+      "OriginalText": "Le Pokémon peut uniquement utiliser la capacité\n{0}.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon peut uniquement utiliser la capacité",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 29,
+      "LabelName": "BTR_STATE_SYN_16_04",
+      "LabelHash": 789037562,
+      "OriginalText": "Le Pokémon peut uniquement utiliser la dernière\ncapacité qu’il a utilisée avant qu’on lui inflige\nl’état « Encore ».",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon peut uniquement utiliser la dernière",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "capacité qu’il a utilisée avant qu’on lui inflige",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "l’état « Encore ».",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 30,
+      "LabelName": "BTR_STATE_SYN_16_03",
+      "LabelHash": 789037559,
+      "OriginalText": "Encore",
+      "TextInfos": [
+        {
+          "Text": "Encore",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 31,
+      "LabelName": "BTR_STATE_SYN_17_02",
+      "LabelHash": -797249357,
+      "OriginalText": "Le talent du Pokémon est inactif.",
+      "TextInfos": [
+        {
+          "Text": "Le talent du Pokémon est inactif.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 32,
+      "LabelName": "BTR_STATE_SYN_17_03",
+      "LabelHash": -797249358,
+      "OriginalText": "Pas de talent",
+      "TextInfos": [
+        {
+          "Text": "Pas de talent",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 33,
+      "LabelName": "BTR_STATE_SYN_18_02",
+      "LabelHash": -1529654722,
+      "OriginalText": "Le Pokémon ne peut pas utiliser la même\ncapacité deux fois de suite.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon ne peut pas utiliser la même",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "capacité deux fois de suite.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 34,
+      "LabelName": "BTR_STATE_SYN_18_03",
+      "LabelHash": -1529654723,
+      "OriginalText": "Pas de répétition",
+      "TextInfos": [
+        {
+          "Text": "Pas de répétition",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 35,
+      "LabelName": "BTR_STATE_SYN_19_02",
+      "LabelHash": 1179025657,
+      "OriginalText": "La Vitesse du Pokémon est multipliée par 2.",
+      "TextInfos": [
+        {
+          "Text": "La Vitesse du Pokémon est multipliée par 2.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 36,
+      "LabelName": "BTR_STATE_SYN_19_03",
+      "LabelHash": 1179025656,
+      "OriginalText": "Vent Arrière",
+      "TextInfos": [
+        {
+          "Text": "Vent Arrière",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 37,
+      "LabelName": "BTR_STATE_SYN_24_02",
+      "LabelHash": 1071361535,
+      "OriginalText": "Le Pokémon ne peut pas utiliser la capacité\n{0}.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon ne peut pas utiliser la capacité",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 38,
+      "LabelName": "BTR_STATE_SYN_24_03",
+      "LabelHash": 1071361536,
+      "OriginalText": "Capacité bloquée",
+      "TextInfos": [
+        {
+          "Text": "Capacité bloquée",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 39,
+      "LabelName": "BTR_STATE_SYN_24_04",
+      "LabelHash": 1071361541,
+      "OriginalText": "Le Pokémon ne peut pas utiliser la dernière\ncapacité qu’il a utilisée avant qu’on lui inflige\nl’état « Capacité bloquée ».",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon ne peut pas utiliser la dernière",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "capacité qu’il a utilisée avant qu’on lui inflige",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "l’état « Capacité bloquée ».",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 40,
+      "LabelName": "BTR_STATE_SYN_25_02",
+      "LabelHash": -514925382,
+      "OriginalText": "Le Pokémon ne peut pas quitter le terrain.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon ne peut pas quitter le terrain.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 41,
+      "LabelName": "BTR_STATE_SYN_25_03",
+      "LabelHash": -514925381,
+      "OriginalText": "Fuite impossible",
+      "TextInfos": [
+        {
+          "Text": "Fuite impossible",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 42,
+      "LabelName": "BTR_STATE_SYN_26_02",
+      "LabelHash": 789036533,
+      "OriginalText": "La capacité que le Pokémon lancera au tour\nsuivant l’utilisation de la capacité Verrouillage\ntouchera à coup sûr la cible qu’il a verrouillée.",
+      "TextInfos": [
+        {
+          "Text": "La capacité que le Pokémon lancera au tour",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "suivant l’utilisation de la capacité Verrouillage",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "touchera à coup sûr la cible qu’il a verrouillée.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 43,
+      "LabelName": "BTR_STATE_SYN_26_03",
+      "LabelHash": 789036534,
+      "OriginalText": "Verrouillage",
+      "TextInfos": [
+        {
+          "Text": "Verrouillage",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 44,
+      "LabelName": "BTR_STATE_SYN_28_02",
+      "LabelHash": -1529655749,
+      "OriginalText": "La puissance de la prochaine capacité de type\nÉlectrik utilisée par le Pokémon sera multipliée\npar 2.",
+      "TextInfos": [
+        {
+          "Text": "La puissance de la prochaine capacité de type",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Électrik utilisée par le Pokémon sera multipliée",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "par 2.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 45,
+      "LabelName": "BTR_STATE_SYN_28_03",
+      "LabelHash": -1529655748,
+      "OriginalText": "Boost Électrik",
+      "TextInfos": [
+        {
+          "Text": "Boost Électrik",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 46,
+      "LabelName": "BTR_STATE_SYN_29_02",
+      "LabelHash": 1179024630,
+      "OriginalText": "La Précision des capacités est multipliée\npar 1,67. Les Pokémon de type Vol ou dotés\ndu talent Lévitation, entre autres, sont cloués\nau sol. Les capacités qui font décoller\nles Pokémon ne peuvent pas être utilisées.",
+      "TextInfos": [
+        {
+          "Text": "La Précision des capacités est multipliée",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "par 1,67. Les Pokémon de type Vol ou dotés",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "du talent Lévitation, entre autres, sont cloués",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "au sol. Les capacités qui font décoller",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "les Pokémon ne peuvent pas être utilisées.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 47,
+      "LabelName": "BTR_STATE_SYN_29_03",
+      "LabelHash": 1179024631,
+      "OriginalText": "Gravité",
+      "TextInfos": [
+        {
+          "Text": "Gravité",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 48,
+      "LabelName": "BTR_STATE_SYN_31_02",
+      "LabelHash": 49719375,
+      "OriginalText": "Le Pokémon est immunisé contre les altérations\nde statut et la confusion.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon est immunisé contre les altérations",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de statut et la confusion.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 49,
+      "LabelName": "BTR_STATE_SYN_31_03",
+      "LabelHash": 49719374,
+      "OriginalText": "Rune Protect",
+      "TextInfos": [
+        {
+          "Text": "Rune Protect",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 50,
+      "LabelName": "BTR_STATE_SYN_32_02",
+      "LabelHash": 1353681290,
+      "OriginalText": "Les Pokémon entrant sur le terrain subissent\ndes dégâts équivalents à 1/8 de leurs PV max.\nLes dégâts peuvent varier en fonction\nde l’affinité du Pokémon avec le type Roche.",
+      "TextInfos": [
+        {
+          "Text": "Les Pokémon entrant sur le terrain subissent",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "des dégâts équivalents à 1/8 de leurs PV max.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Les dégâts peuvent varier en fonction",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de l’affinité du Pokémon avec le type Roche.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 51,
+      "LabelName": "BTR_STATE_SYN_32_03",
+      "LabelHash": 1353681289,
+      "OriginalText": "Piège de Roc",
+      "TextInfos": [
+        {
+          "Text": "Piège de Roc",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 52,
+      "LabelName": "BTR_STATE_SYN_33_02",
+      "LabelHash": -232605627,
+      "OriginalText": "La Défense et la Défense Spéciale du Pokémon\naugmentent de 1 cran à chaque fois qu’il utilise\nStockage.",
+      "TextInfos": [
+        {
+          "Text": "La Défense et la Défense Spéciale du Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "augmentent de 1 cran à chaque fois qu’il utilise",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Stockage.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 53,
+      "LabelName": "BTR_STATE_SYN_33_03",
+      "LabelHash": -232605628,
+      "OriginalText": "Stockage",
+      "TextInfos": [
+        {
+          "Text": "Stockage",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 54,
+      "LabelName": "BTR_STATE_SYN_34_02",
+      "LabelHash": 1071356288,
+      "OriginalText": "Le Pokémon peut uniquement utiliser\ndes attaques.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon peut uniquement utiliser",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "des attaques.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 55,
+      "LabelName": "BTR_STATE_SYN_34_03",
+      "LabelHash": 1071356287,
+      "OriginalText": "Provocation",
+      "TextInfos": [
+        {
+          "Text": "Provocation",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 56,
+      "LabelName": "BTR_STATE_SYN_36_02",
+      "LabelHash": 789031286,
+      "OriginalText": "Le Pokémon flotte au-dessus du sol, ce qui\nl’immunise contre les capacités de type Sol,\nainsi que les effets de Picots, Pics Toxik\net Toile Gluante.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon flotte au-dessus du sol, ce qui",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "l’immunise contre les capacités de type Sol,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ainsi que les effets de Picots, Pics Toxik",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "et Toile Gluante.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 57,
+      "LabelName": "BTR_STATE_SYN_36_03",
+      "LabelHash": 789031285,
+      "OriginalText": "Vol Magnétik",
+      "TextInfos": [
+        {
+          "Text": "Vol Magnétik",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 58,
+      "LabelName": "BTR_STATE_SYN_37_02",
+      "LabelHash": -797255631,
+      "OriginalText": "Les Pokémon entrant sur le terrain sont\nempoisonnés. Si 2 effets de Pics Toxik sont actifs\nen même temps, ils sont gravement empoisonnés.\nCela n’affecte pas les Pokémon de type Vol\nou dotés du talent Lévitation, entre autres.",
+      "TextInfos": [
+        {
+          "Text": "Les Pokémon entrant sur le terrain sont",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "empoisonnés. Si 2 effets de Pics Toxik sont actifs",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "en même temps, ils sont gravement empoisonnés.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Cela n’affecte pas les Pokémon de type Vol",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ou dotés du talent Lévitation, entre autres.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 59,
+      "LabelName": "BTR_STATE_SYN_37_03",
+      "LabelHash": -797255632,
+      "OriginalText": "Pics Toxik",
+      "TextInfos": [
+        {
+          "Text": "Pics Toxik",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 60,
+      "LabelName": "BTR_STATE_SYN_39_02",
+      "LabelHash": 1179019383,
+      "OriginalText": "À la fin du tour suivant l’utilisation de la capacité\nVœu, le Pokémon se trouvant à cet endroit\nrécupérera des PV équivalents à la moitié des\nPV max du Pokémon qui a utilisé la capacité.",
+      "TextInfos": [
+        {
+          "Text": "À la fin du tour suivant l’utilisation de la capacité",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Vœu, le Pokémon se trouvant à cet endroit",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "récupérera des PV équivalents à la moitié des",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "PV max du Pokémon qui a utilisé la capacité.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 61,
+      "LabelName": "BTR_STATE_SYN_39_03",
+      "LabelHash": 1179019382,
+      "OriginalText": "Vœu",
+      "TextInfos": [
+        {
+          "Text": "Vœu",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 62,
+      "LabelName": "BTR_STATE_SYN_40_02",
+      "LabelHash": 1636005273,
+      "OriginalText": "La Vitesse des Pokémon entrant sur le terrain\nbaisse de 1 cran.\nCela n’affecte pas les Pokémon de type Vol\nou dotés du talent Lévitation, entre autres.",
+      "TextInfos": [
+        {
+          "Text": "La Vitesse des Pokémon entrant sur le terrain",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "baisse de 1 cran.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Cela n’affecte pas les Pokémon de type Vol",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ou dotés du talent Lévitation, entre autres.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 63,
+      "LabelName": "BTR_STATE_SYN_40_03",
+      "LabelHash": 1636005274,
+      "OriginalText": "Toile Gluante",
+      "TextInfos": [
+        {
+          "Text": "Toile Gluante",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 64,
+      "LabelName": "BTR_STATE_SYN_41_02",
+      "LabelHash": 49718356,
+      "OriginalText": "Le Pokémon récupère 1/16 de ses PV max\nà la fin de chaque tour.\nLe Pokémon est cloué au sol et il ne peut pas\nquitter le terrain.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon récupère 1/16 de ses PV max",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "à la fin de chaque tour.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Le Pokémon est cloué au sol et il ne peut pas",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "quitter le terrain.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 65,
+      "LabelName": "BTR_STATE_SYN_41_03",
+      "LabelHash": 49718357,
+      "OriginalText": "Racines",
+      "TextInfos": [
+        {
+          "Text": "Racines",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 66,
+      "LabelName": "BTR_STATE_SYN_42_02",
+      "LabelHash": 1353680271,
+      "OriginalText": "Le Pokémon perd 1/4 de ses PV max à la fin\nde chaque tour.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon perd 1/4 de ses PV max à la fin",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de chaque tour.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 67,
+      "LabelName": "BTR_STATE_SYN_42_03",
+      "LabelHash": 1353680272,
+      "OriginalText": "Malédiction",
+      "TextInfos": [
+        {
+          "Text": "Malédiction",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 68,
+      "LabelName": "BTR_STATE_SYN_43_02",
+      "LabelHash": -232606646,
+      "OriginalText": "Le Pokémon obtient le type Spectre.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon obtient le type Spectre.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 69,
+      "LabelName": "BTR_STATE_SYN_43_03",
+      "LabelHash": -232606645,
+      "OriginalText": "Halloween",
+      "TextInfos": [
+        {
+          "Text": "Halloween",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 70,
+      "LabelName": "BTR_STATE_SYN_44_02",
+      "LabelHash": 1071355269,
+      "OriginalText": "Les dégâts des capacités spéciales subis\npar le Pokémon sont réduits de moitié.\nEn Combat Duo, ces capacités infligent 2/3\nde leurs dégâts à la place.",
+      "TextInfos": [
+        {
+          "Text": "Les dégâts des capacités spéciales subis",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "par le Pokémon sont réduits de moitié.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "En Combat Duo, ces capacités infligent 2/3",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de leurs dégâts à la place.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 71,
+      "LabelName": "BTR_STATE_SYN_44_03",
+      "LabelHash": 1071355270,
+      "OriginalText": "Mur Lumière",
+      "TextInfos": [
+        {
+          "Text": "Mur Lumière",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 72,
+      "LabelName": "BTR_STATE_SYN_45_02",
+      "LabelHash": -514931648,
+      "OriginalText": "Les dégâts des capacités physiques subis\npar le Pokémon sont réduits de moitié.\nEn Combat Duo, ces capacités infligent 2/3\nde leurs dégâts à la place.",
+      "TextInfos": [
+        {
+          "Text": "Les dégâts des capacités physiques subis",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "par le Pokémon sont réduits de moitié.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "En Combat Duo, ces capacités infligent 2/3",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de leurs dégâts à la place.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 73,
+      "LabelName": "BTR_STATE_SYN_45_03",
+      "LabelHash": -514931647,
+      "OriginalText": "Protection",
+      "TextInfos": [
+        {
+          "Text": "Protection",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 74,
+      "LabelName": "BTR_STATE_SYN_46_02",
+      "LabelHash": 789030267,
+      "OriginalText": "Aucun adversaire ne peut utiliser les capacités\nque le Pokémon ayant utilisé Possessif connaît.",
+      "TextInfos": [
+        {
+          "Text": "Aucun adversaire ne peut utiliser les capacités",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "que le Pokémon ayant utilisé Possessif connaît.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 75,
+      "LabelName": "BTR_STATE_SYN_46_03",
+      "LabelHash": 789030268,
+      "OriginalText": "Possessif",
+      "TextInfos": [
+        {
+          "Text": "Possessif",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 76,
+      "LabelName": "BTR_STATE_SYN_47_02",
+      "LabelHash": -797256650,
+      "OriginalText": "Le Pokémon sera mis K.O. 3 tours après que\nl’état « Condamné » lui a été infligé.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon sera mis K.O. 3 tours après que",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "l’état « Condamné » lui a été infligé.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 77,
+      "LabelName": "BTR_STATE_SYN_47_03",
+      "LabelHash": -797256649,
+      "OriginalText": "Condamné",
+      "TextInfos": [
+        {
+          "Text": "Condamné",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 78,
+      "LabelName": "BTR_STATE_SYN_48_02",
+      "LabelHash": -1529662015,
+      "OriginalText": "Les Pokémon entrant sur le terrain subissent des\ndégâts équivalents à 1/8 de leurs PV max, et plus\nsi 2 ou 3 effets de Picots sont actifs en même\ntemps. Cela n’affecte pas les Pokémon de type\nVol ou dotés du talent Lévitation, entre autres.",
+      "TextInfos": [
+        {
+          "Text": "Les Pokémon entrant sur le terrain subissent des",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "dégâts équivalents à 1/8 de leurs PV max, et plus",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "si 2 ou 3 effets de Picots sont actifs en même",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "temps. Cela n’affecte pas les Pokémon de type",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Vol ou dotés du talent Lévitation, entre autres.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 79,
+      "LabelName": "BTR_STATE_SYN_48_03",
+      "LabelHash": -1529662014,
+      "OriginalText": "Picots",
+      "TextInfos": [
+        {
+          "Text": "Picots",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 80,
+      "LabelName": "BTR_STATE_SYN_50_02",
+      "LabelHash": 1636008474,
+      "OriginalText": "Si le Pokémon est mis K.O., le Pokémon\nresponsable est également mis K.O.",
+      "TextInfos": [
+        {
+          "Text": "Si le Pokémon est mis K.O., le Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "responsable est également mis K.O.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 81,
+      "LabelName": "BTR_STATE_SYN_50_03",
+      "LabelHash": 1636008473,
+      "OriginalText": "Lien du Destin",
+      "TextInfos": [
+        {
+          "Text": "Lien du Destin",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 82,
+      "LabelName": "BTR_STATE_SYN_51_02",
+      "LabelHash": 49721557,
+      "OriginalText": "Le Pokémon obtient le type Plante.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon obtient le type Plante.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 83,
+      "LabelName": "BTR_STATE_SYN_51_03",
+      "LabelHash": 49721556,
+      "OriginalText": "Maléfice Sylvain",
+      "TextInfos": [
+        {
+          "Text": "Maléfice Sylvain",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 84,
+      "LabelName": "BTR_STATE_SYN_52_02",
+      "LabelHash": 1353683472,
+      "OriginalText": "À la fin de chaque tour, le Pokémon subit\ndes dégâts équivalents à 1/16 de ses PV max,\net l’adversaire qui se trouve à l’endroit\nd’où la capacité Vampigraine a été lancée\nrécupère la même quantité de PV.",
+      "TextInfos": [
+        {
+          "Text": "À la fin de chaque tour, le Pokémon subit",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "des dégâts équivalents à 1/16 de ses PV max,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "et l’adversaire qui se trouve à l’endroit",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "d’où la capacité Vampigraine a été lancée",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "récupère la même quantité de PV.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 85,
+      "LabelName": "BTR_STATE_SYN_52_03",
+      "LabelHash": 1353683471,
+      "OriginalText": "Vampigraine",
+      "TextInfos": [
+        {
+          "Text": "Vampigraine",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 86,
+      "LabelName": "BTR_STATE_SYN_54_02",
+      "LabelHash": 1071358470,
+      "OriginalText": "Le Pokémon subit des dégâts équivalents à\n1/8 de ses PV max à la fin de chaque tour,\net il ne peut pas quitter le terrain pendant\n4 à 5 tours.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon subit des dégâts équivalents à",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "1/8 de ses PV max à la fin de chaque tour,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "et il ne peut pas quitter le terrain pendant",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "4 à 5 tours.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 87,
+      "LabelName": "BTR_STATE_SYN_54_03",
+      "LabelHash": 1071358469,
+      "OriginalText": "Piégé",
+      "TextInfos": [
+        {
+          "Text": "Piégé",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 88,
+      "LabelName": "BTR_STATE_SYN_57_02",
+      "LabelHash": -797253449,
+      "OriginalText": "Le Pokémon continue d’attaquer avec\nla même capacité pendant 2 à 3 tours.\nPendant ce temps, il ne peut rien faire d’autre.\nEnsuite, il devient confus.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon continue d’attaquer avec",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "la même capacité pendant 2 à 3 tours.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pendant ce temps, il ne peut rien faire d’autre.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Ensuite, il devient confus.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 89,
+      "LabelName": "BTR_STATE_SYN_57_03",
+      "LabelHash": -797253450,
+      "OriginalText": "Enragé",
+      "TextInfos": [
+        {
+          "Text": "Enragé",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 90,
+      "LabelName": "BTR_STATE_SYN_59_02",
+      "LabelHash": 1179021565,
+      "OriginalText": "À la fin de chaque tour, le Pokémon subit des\ndégâts qui augmentent au fil des tours, d’abord\néquivalents à 1/16 de ses PV max, puis à 2/16,\n3/16, etc. Si le Pokémon est remplacé et\nrevient sur le terrain, cette valeur repart de 1/16.",
+      "TextInfos": [
+        {
+          "Text": "À la fin de chaque tour, le Pokémon subit des",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "dégâts qui augmentent au fil des tours, d’abord",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "équivalents à 1/16 de ses PV max, puis à 2/16,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "3/16, etc. Si le Pokémon est remplacé et",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "revient sur le terrain, cette valeur repart de 1/16.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 91,
+      "LabelName": "BTR_STATE_SYN_59_03",
+      "LabelHash": 1179021564,
+      "OriginalText": "Poison grave",
+      "TextInfos": [
+        {
+          "Text": "Poison grave",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 92,
+      "LabelName": "BTR_STATE_SYN_60_02",
+      "LabelHash": 1636007447,
+      "OriginalText": "Le Pokémon se trouvant à l’endroit où\nune attaque future a été prévue subira\ndes dégâts 2 tours après la prévision\nde l’attaque.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon se trouvant à l’endroit où",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "une attaque future a été prévue subira",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "des dégâts 2 tours après la prévision",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de l’attaque.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 93,
+      "LabelName": "BTR_STATE_SYN_60_03",
+      "LabelHash": 1636007448,
+      "OriginalText": "Attaque future",
+      "TextInfos": [
+        {
+          "Text": "Attaque future",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 94,
+      "LabelName": "BTR_STATE_SYN_61_02",
+      "LabelHash": 49720530,
+      "OriginalText": "Le Pokémon continue d’attaquer avec\nla même capacité pendant 2 à 3 tours.\nPendant ce temps, il ne peut rien faire d’autre\net les Pokémon présents sur le terrain ne peuvent\npas s’endormir.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon continue d’attaquer avec",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "la même capacité pendant 2 à 3 tours.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pendant ce temps, il ne peut rien faire d’autre",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "et les Pokémon présents sur le terrain ne peuvent",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "pas s’endormir.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 95,
+      "LabelName": "BTR_STATE_SYN_61_03",
+      "LabelHash": 49720531,
+      "OriginalText": "Brouhaha",
+      "TextInfos": [
+        {
+          "Text": "Brouhaha",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 96,
+      "LabelName": "BTR_STATE_SYN_62_02",
+      "LabelHash": 1353682445,
+      "OriginalText": "Le Pokémon récupère 1/16 de ses PV max\nà la fin de chaque tour.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon récupère 1/16 de ses PV max",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "à la fin de chaque tour.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 97,
+      "LabelName": "BTR_STATE_SYN_62_03",
+      "LabelHash": 1353682446,
+      "OriginalText": "Anneau Hydro",
+      "TextInfos": [
+        {
+          "Text": "Anneau Hydro",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 98,
+      "LabelName": "BTR_STATE_SYN_64_02",
+      "LabelHash": 1071357443,
+      "OriginalText": "Le Pokémon est cloué au sol et devient sensible\naux capacités de type Sol.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon est cloué au sol et devient sensible",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "aux capacités de type Sol.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 99,
+      "LabelName": "BTR_STATE_SYN_64_03",
+      "LabelHash": 1071357444,
+      "OriginalText": "Cloué au sol",
+      "TextInfos": [
+        {
+          "Text": "Cloué au sol",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 100,
+      "LabelName": "BTR_STATE_SYN_65_02",
+      "LabelHash": -514929474,
+      "OriginalText": "Aucun Pokémon présent sur le terrain ne peut\nle quitter jusqu’à la fin du tour suivant\nl’utilisation de Verrou Enchanté.",
+      "TextInfos": [
+        {
+          "Text": "Aucun Pokémon présent sur le terrain ne peut",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "le quitter jusqu’à la fin du tour suivant",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "l’utilisation de Verrou Enchanté.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 101,
+      "LabelName": "BTR_STATE_SYN_65_03",
+      "LabelHash": -514929473,
+      "OriginalText": "Verrou Enchanté",
+      "TextInfos": [
+        {
+          "Text": "Verrou Enchanté",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 108,
+      "LabelName": "BTR_STATE_SYN_72_02",
+      "LabelHash": 1353677198,
+      "OriginalText": "Ces effets s’appliquent aux Pokémon au sol :\n・ La puissance de leurs capacités de type Psy\nest multipliée par 1,3.\n・ Ils sont immunisés contre les capacités\nprioritaires.",
+      "TextInfos": [
+        {
+          "Text": "Ces effets s’appliquent aux Pokémon au sol :",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "・",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": " La puissance de leurs capacités de type Psy",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "est multipliée par 1,3.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "・",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": " Ils sont immunisés contre les capacités",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "prioritaires.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 109,
+      "LabelName": "BTR_STATE_SYN_72_03",
+      "LabelHash": 1353677197,
+      "OriginalText": "Champ Psychique",
+      "TextInfos": [
+        {
+          "Text": "Champ Psychique",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 110,
+      "LabelName": "BTR_STATE_SYN_73_02",
+      "LabelHash": -232609719,
+      "OriginalText": "Le Pokémon ne peut pas utiliser de capacités\nde son pendant 2 tours.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon ne peut pas utiliser de capacités",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de son pendant 2 tours.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 111,
+      "LabelName": "BTR_STATE_SYN_73_03",
+      "LabelHash": -232609720,
+      "OriginalText": "Exécu-Son",
+      "TextInfos": [
+        {
+          "Text": "Exécu-Son",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 112,
+      "LabelName": "BTR_STATE_SYN_74_02",
+      "LabelHash": 1071352196,
+      "OriginalText": "Les dégâts des capacités physiques et spéciales\nsubis par le Pokémon sont réduits de moitié.\nEn Combat Duo, ces capacités infligent 2/3\nde leurs dégâts à la place.",
+      "TextInfos": [
+        {
+          "Text": "Les dégâts des capacités physiques et spéciales",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "subis par le Pokémon sont réduits de moitié.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "En Combat Duo, ces capacités infligent 2/3",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de leurs dégâts à la place.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 113,
+      "LabelName": "BTR_STATE_SYN_74_03",
+      "LabelHash": 1071352195,
+      "OriginalText": "Voile Aurore",
+      "TextInfos": [
+        {
+          "Text": "Voile Aurore",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 128,
+      "LabelName": "BTR_STATE_SYN_106_02",
+      "LabelHash": 54712378,
+      "OriginalText": "Le Pokémon subit des dégâts équivalents\nà 1/16 de ses PV max à la fin de chaque tour.\nS’il est de type Acier ou Eau, il subit des dégâts\néquivalents à 1/8 de ses PV max.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon subit des dégâts équivalents",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "à 1/16 de ses PV max à la fin de chaque tour.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "S’il est de type Acier ou Eau, il subit des dégâts",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "équivalents à 1/8 de ses PV max.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 129,
+      "LabelName": "BTR_STATE_SYN_106_03",
+      "LabelHash": 1620796319,
+      "OriginalText": "Salaison",
+      "TextInfos": [
+        {
+          "Text": "Salaison",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 130,
+      "LabelName": "BTR_STATE_SYN_108_02",
+      "LabelHash": 54712312,
+      "OriginalText": "La Vitesse du Pokémon baisse de 1 cran\nà la fin de chaque tour.",
+      "TextInfos": [
+        {
+          "Text": "La Vitesse du Pokémon baisse de 1 cran",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "à la fin de chaque tour.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 131,
+      "LabelName": "BTR_STATE_SYN_108_03",
+      "LabelHash": 1620796253,
+      "OriginalText": "Recouvert de sirop",
+      "TextInfos": [
+        {
+          "Text": "Recouvert de sirop",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 132,
+      "LabelName": "BTR_STATE_SYN_111_02",
+      "LabelHash": 862573254,
+      "OriginalText": "Le Pokémon ne peut pas récupérer de PV grâce\nà des capacités, talents ou objets tenus.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon ne peut pas récupérer de PV grâce",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "à des capacités, talents ou objets tenus.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 133,
+      "LabelName": "BTR_STATE_SYN_111_03",
+      "LabelHash": -703510687,
+      "OriginalText": "Soins bloqués",
+      "TextInfos": [
+        {
+          "Text": "Soins bloqués",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 136,
+      "LabelName": "BTR_STATE_SYN_113_02",
+      "LabelHash": 862573188,
+      "OriginalText": "Le Pokémon ne peut pas agir pendant 1 tour.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon ne peut pas agir pendant 1 tour.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 137,
+      "LabelName": "BTR_STATE_SYN_113_03",
+      "LabelHash": -703510753,
+      "OriginalText": "Épuisement",
+      "TextInfos": [
+        {
+          "Text": "Épuisement",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 138,
+      "LabelName": "BTR_STATE_SYN_114_02",
+      "LabelHash": 862573153,
+      "OriginalText": "Le Pokémon charge la capacité pendant 1 tour\navant de l’utiliser.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon charge la capacité pendant 1 tour",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "avant de l’utiliser.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 139,
+      "LabelName": "BTR_STATE_SYN_114_03",
+      "LabelHash": -703510788,
+      "OriginalText": "En charge",
+      "TextInfos": [
+        {
+          "Text": "En charge",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 140,
+      "LabelName": "BTR_STATE_SYN_115_02",
+      "LabelHash": 862573122,
+      "OriginalText": "De nombreuses capacités ne peuvent pas\ntoucher le Pokémon, sauf certaines comme\nFatal-Foudre, Vent Violent ou encore Anti-Air.\nLes champs n’ont pas d’effet sur le Pokémon.",
+      "TextInfos": [
+        {
+          "Text": "De nombreuses capacités ne peuvent pas",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "toucher le Pokémon, sauf certaines comme",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Fatal-Foudre, Vent Violent ou encore Anti-Air.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Les champs n’ont pas d’effet sur le Pokémon.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 141,
+      "LabelName": "BTR_STATE_SYN_115_03",
+      "LabelHash": -703510819,
+      "OriginalText": "Dans le ciel",
+      "TextInfos": [
+        {
+          "Text": "Dans le ciel",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 142,
+      "LabelName": "BTR_STATE_SYN_116_02",
+      "LabelHash": 862573087,
+      "OriginalText": "De nombreuses capacités ne peuvent pas\ntoucher le Pokémon, sauf Surf et Siphon,\ndont les dégâts sont multipliés par 2.\nLes champs n’ont pas d’effet sur le Pokémon.",
+      "TextInfos": [
+        {
+          "Text": "De nombreuses capacités ne peuvent pas",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "toucher le Pokémon, sauf Surf et Siphon,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "dont les dégâts sont multipliés par 2.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Les champs n’ont pas d’effet sur le Pokémon.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 143,
+      "LabelName": "BTR_STATE_SYN_116_03",
+      "LabelHash": -703510854,
+      "OriginalText": "Sous l’eau",
+      "TextInfos": [
+        {
+          "Text": "Sous l’eau",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 144,
+      "LabelName": "BTR_STATE_SYN_117_02",
+      "LabelHash": 862573056,
+      "OriginalText": "De nombreuses capacités ne peuvent pas toucher\nle Pokémon, mais Séisme le peut et les dégâts de\ncette capacité sont multipliés par 2.\nLes champs n’ont pas d’effet sur le Pokémon.",
+      "TextInfos": [
+        {
+          "Text": "De nombreuses capacités ne peuvent pas toucher",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "le Pokémon, mais Séisme le peut et les dégâts de",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "cette capacité sont multipliés par 2.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Les champs n’ont pas d’effet sur le Pokémon.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 145,
+      "LabelName": "BTR_STATE_SYN_117_03",
+      "LabelHash": -703510885,
+      "OriginalText": "Sous la terre",
+      "TextInfos": [
+        {
+          "Text": "Sous la terre",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 146,
+      "LabelName": "BTR_STATE_SYN_118_02",
+      "LabelHash": 862573021,
+      "OriginalText": "Les capacités ne peuvent pas toucher\nle Pokémon et les champs n’ont pas d’effet\nsur lui.",
+      "TextInfos": [
+        {
+          "Text": "Les capacités ne peuvent pas toucher",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "le Pokémon et les champs n’ont pas d’effet",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sur lui.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 147,
+      "LabelName": "BTR_STATE_SYN_118_03",
+      "LabelHash": -703510920,
+      "OriginalText": "Disparu",
+      "TextInfos": [
+        {
+          "Text": "Disparu",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 148,
+      "LabelName": "BTR_STATE_SYN_119_02",
+      "LabelHash": 862572990,
+      "OriginalText": "Quand elles sont utilisées sur le Pokémon,\nles capacités telles que Volt Assaut, Plaquage,\nDraco-Charge, Flying Press, Tacle Feu et Tacle\nLourd n’échouent jamais et leurs dégâts sont\nmultipliés par 2.",
+      "TextInfos": [
+        {
+          "Text": "Quand elles sont utilisées sur le Pokémon,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "les capacités telles que Volt Assaut, Plaquage,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Draco-Charge, Flying Press, Tacle Feu et Tacle",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Lourd n’échouent jamais et leurs dégâts sont",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "multipliés par 2.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 149,
+      "LabelName": "BTR_STATE_SYN_119_03",
+      "LabelHash": -703510951,
+      "OriginalText": "Lilliputien",
+      "TextInfos": [
+        {
+          "Text": "Lilliputien",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 150,
+      "LabelName": "BTR_STATE_SYN_120_02",
+      "LabelHash": -1187865418,
+      "OriginalText": "L’Attaque et la Défense du Pokémon sont\ninterverties.",
+      "TextInfos": [
+        {
+          "Text": "L’Attaque et la Défense du Pokémon sont",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "interverties.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 151,
+      "LabelName": "BTR_STATE_SYN_120_03",
+      "LabelHash": 378218523,
+      "OriginalText": "Atq. et Déf. interverties",
+      "TextInfos": [
+        {
+          "Text": "Atq. et Déf. interverties",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 152,
+      "LabelName": "BTR_STATE_SYN_121_02",
+      "LabelHash": -1187865449,
+      "OriginalText": "La puissance des capacités de type Feu\ndu Pokémon est multipliée par 1,5.",
+      "TextInfos": [
+        {
+          "Text": "La puissance des capacités de type Feu",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "du Pokémon est multipliée par 1,5.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 153,
+      "LabelName": "BTR_STATE_SYN_121_03",
+      "LabelHash": 378218492,
+      "OriginalText": "Torche",
+      "TextInfos": [
+        {
+          "Text": "Torche",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 160,
+      "LabelName": "BTR_STATE_SYN_125_02",
+      "LabelHash": -1187865581,
+      "OriginalText": "La Précision de la prochaine capacité utilisée\npar le Pokémon est multipliée par 1,2.",
+      "TextInfos": [
+        {
+          "Text": "La Précision de la prochaine capacité utilisée",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "par le Pokémon est multipliée par 1,2.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 161,
+      "LabelName": "BTR_STATE_SYN_125_03",
+      "LabelHash": 378218360,
+      "OriginalText": "Baie Micle",
+      "TextInfos": [
+        {
+          "Text": "Baie Micle",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    }
+  ]
+}

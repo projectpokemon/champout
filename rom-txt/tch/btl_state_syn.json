@@ -1,0 +1,4643 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "btl_state_syn",
+  "languageCode": 90,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "BTR_STATE_SYN_01_02",
+      "LabelHash": 49722448,
+      "OriginalText": "火屬性招式傷害會變為1.5倍。\n水屬性招式傷害會減半。",
+      "TextInfos": [
+        {
+          "Text": "火屬性招式傷害會變為1.5倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "水屬性招式傷害會減半。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 1,
+      "LabelName": "BTR_STATE_SYN_01_03",
+      "LabelHash": 49722449,
+      "OriginalText": "大晴天狀態",
+      "TextInfos": [
+        {
+          "Text": "大晴天狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 2,
+      "LabelName": "BTR_STATE_SYN_02_02",
+      "LabelHash": 1353684363,
+      "OriginalText": "水屬性招式傷害會變為1.5倍。\n火屬性招式傷害會減半。",
+      "TextInfos": [
+        {
+          "Text": "水屬性招式傷害會變為1.5倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "火屬性招式傷害會減半。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 3,
+      "LabelName": "BTR_STATE_SYN_02_03",
+      "LabelHash": 1353684364,
+      "OriginalText": "下雨狀態",
+      "TextInfos": [
+        {
+          "Text": "下雨狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 4,
+      "LabelName": "BTR_STATE_SYN_03_02",
+      "LabelHash": -232602554,
+      "OriginalText": "岩石、地面、鋼屬性以外的寶可夢\n會在回合結束時受到\n最大HP的1/16的傷害。\n岩石屬性寶可夢的特防會變為1.5倍。",
+      "TextInfos": [
+        {
+          "Text": "岩石、地面、鋼屬性以外的寶可夢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會在回合結束時受到",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "最大HP的1/16的傷害。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "岩石屬性寶可夢的特防會變為1.5倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 5,
+      "LabelName": "BTR_STATE_SYN_03_03",
+      "LabelHash": -232602553,
+      "OriginalText": "沙暴狀態",
+      "TextInfos": [
+        {
+          "Text": "沙暴狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 6,
+      "LabelName": "BTR_STATE_SYN_04_02",
+      "LabelHash": 1071359361,
+      "OriginalText": "冰屬性寶可夢的防禦會變為1.5倍。",
+      "TextInfos": [
+        {
+          "Text": "冰屬性寶可夢的防禦會變為1.5倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 7,
+      "LabelName": "BTR_STATE_SYN_04_03",
+      "LabelHash": 1071359362,
+      "OriginalText": "下雪狀態",
+      "TextInfos": [
+        {
+          "Text": "下雪狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 8,
+      "LabelName": "BTR_STATE_SYN_05_02",
+      "LabelHash": -514927556,
+      "OriginalText": "電屬性招式威力會變為1.3倍。\n不會變為睡眠狀態。\n只對地面上的寶可夢有效果。",
+      "TextInfos": [
+        {
+          "Text": "電屬性招式威力會變為1.3倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "不會變為睡眠狀態。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "只對地面上的寶可夢有效果。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 9,
+      "LabelName": "BTR_STATE_SYN_05_03",
+      "LabelHash": -514927555,
+      "OriginalText": "電氣場地狀態",
+      "TextInfos": [
+        {
+          "Text": "電氣場地狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 10,
+      "LabelName": "BTR_STATE_SYN_06_02",
+      "LabelHash": 789034359,
+      "OriginalText": "草屬性招式威力會變為1.3倍。\n在回合結束時回復最大HP的1/16。\n只對地面上的寶可夢有效果。",
+      "TextInfos": [
+        {
+          "Text": "草屬性招式威力會變為1.3倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "在回合結束時回復最大HP的1/16。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "只對地面上的寶可夢有效果。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 11,
+      "LabelName": "BTR_STATE_SYN_06_03",
+      "LabelHash": 789034360,
+      "OriginalText": "青草場地狀態",
+      "TextInfos": [
+        {
+          "Text": "青草場地狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 12,
+      "LabelName": "BTR_STATE_SYN_07_02",
+      "LabelHash": -797252558,
+      "OriginalText": "龍屬性招式威力會減半。\n不會變為異常狀態、混亂狀態。\n只對地面上的寶可夢有效果。",
+      "TextInfos": [
+        {
+          "Text": "龍屬性招式威力會減半。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "不會變為異常狀態、混亂狀態。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "只對地面上的寶可夢有效果。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 13,
+      "LabelName": "BTR_STATE_SYN_07_03",
+      "LabelHash": -797252557,
+      "OriginalText": "薄霧場地狀態",
+      "TextInfos": [
+        {
+          "Text": "薄霧場地狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 14,
+      "LabelName": "BTR_STATE_SYN_08_02",
+      "LabelHash": -1529657923,
+      "OriginalText": "會從速度低的寶可夢開始行動。",
+      "TextInfos": [
+        {
+          "Text": "會從速度低的寶可夢開始行動。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 15,
+      "LabelName": "BTR_STATE_SYN_08_03",
+      "LabelHash": -1529657922,
+      "OriginalText": "戲法空間狀態",
+      "TextInfos": [
+        {
+          "Text": "戲法空間狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 16,
+      "LabelName": "BTR_STATE_SYN_09_02",
+      "LabelHash": 1179022456,
+      "OriginalText": "許多攜帶的道具\n都會失效。",
+      "TextInfos": [
+        {
+          "Text": "許多攜帶的道具",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "都會失效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 17,
+      "LabelName": "BTR_STATE_SYN_09_03",
+      "LabelHash": 1179022457,
+      "OriginalText": "魔法空間狀態",
+      "TextInfos": [
+        {
+          "Text": "魔法空間狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 18,
+      "LabelName": "BTR_STATE_SYN_10_02",
+      "LabelHash": 1636012566,
+      "OriginalText": "防禦、特防會互換。",
+      "TextInfos": [
+        {
+          "Text": "防禦、特防會互換。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 19,
+      "LabelName": "BTR_STATE_SYN_10_03",
+      "LabelHash": 1636012565,
+      "OriginalText": "奇妙空間狀態",
+      "TextInfos": [
+        {
+          "Text": "奇妙空間狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 20,
+      "LabelName": "BTR_STATE_SYN_11_02",
+      "LabelHash": 49725649,
+      "OriginalText": "自己的攻擊\n擊中要害的機率會提高。",
+      "TextInfos": [
+        {
+          "Text": "自己的攻擊",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "擊中要害的機率會提高。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 21,
+      "LabelName": "BTR_STATE_SYN_11_03",
+      "LabelHash": 49725648,
+      "OriginalText": "易中要害狀態",
+      "TextInfos": [
+        {
+          "Text": "易中要害狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 22,
+      "LabelName": "BTR_STATE_SYN_12_02",
+      "LabelHash": 1353687564,
+      "OriginalText": "在1～4回合內，\n有1/3的機率會攻擊自己。",
+      "TextInfos": [
+        {
+          "Text": "在1～4回合內，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "有1/3的機率會攻擊自己。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 23,
+      "LabelName": "BTR_STATE_SYN_12_03",
+      "LabelHash": 1353687563,
+      "OriginalText": "混亂狀態",
+      "TextInfos": [
+        {
+          "Text": "混亂狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 24,
+      "LabelName": "BTR_STATE_SYN_13_02",
+      "LabelHash": -232599353,
+      "OriginalText": "讓自己變為著迷狀態的對手在場上時，\n有50%的機率無法使用招式。",
+      "TextInfos": [
+        {
+          "Text": "讓自己變為著迷狀態的對手在場上時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "有50%的機率無法使用招式。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 25,
+      "LabelName": "BTR_STATE_SYN_13_03",
+      "LabelHash": -232599354,
+      "OriginalText": "著迷狀態",
+      "TextInfos": [
+        {
+          "Text": "著迷狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 26,
+      "LabelName": "BTR_STATE_SYN_15_02",
+      "LabelHash": -514924355,
+      "OriginalText": "在受到招式的下一回合結束時，\n會變為睡眠狀態。",
+      "TextInfos": [
+        {
+          "Text": "在受到招式的下一回合結束時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會變為睡眠狀態。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 27,
+      "LabelName": "BTR_STATE_SYN_15_03",
+      "LabelHash": -514924356,
+      "OriginalText": "瞌睡狀態",
+      "TextInfos": [
+        {
+          "Text": "瞌睡狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 28,
+      "LabelName": "BTR_STATE_SYN_16_02",
+      "LabelHash": 789037560,
+      "OriginalText": "只能使用{0}。",
+      "TextInfos": [
+        {
+          "Text": "只能使用",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 29,
+      "LabelName": "BTR_STATE_SYN_16_04",
+      "LabelHash": 789037562,
+      "OriginalText": "變為再來一次狀態時，\n只能使用自己最近一次使用的招式。",
+      "TextInfos": [
+        {
+          "Text": "變為再來一次狀態時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "只能使用自己最近一次使用的招式。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 30,
+      "LabelName": "BTR_STATE_SYN_16_03",
+      "LabelHash": 789037559,
+      "OriginalText": "再來一次狀態",
+      "TextInfos": [
+        {
+          "Text": "再來一次狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 31,
+      "LabelName": "BTR_STATE_SYN_17_02",
+      "LabelHash": -797249357,
+      "OriginalText": "特性效果會消失。",
+      "TextInfos": [
+        {
+          "Text": "特性效果會消失。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 32,
+      "LabelName": "BTR_STATE_SYN_17_03",
+      "LabelHash": -797249358,
+      "OriginalText": "無特性狀態",
+      "TextInfos": [
+        {
+          "Text": "無特性狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 33,
+      "LabelName": "BTR_STATE_SYN_18_02",
+      "LabelHash": -1529654722,
+      "OriginalText": "無法連續使出同樣的招式。",
+      "TextInfos": [
+        {
+          "Text": "無法連續使出同樣的招式。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 34,
+      "LabelName": "BTR_STATE_SYN_18_03",
+      "LabelHash": -1529654723,
+      "OriginalText": "不可連續狀態",
+      "TextInfos": [
+        {
+          "Text": "不可連續狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 35,
+      "LabelName": "BTR_STATE_SYN_19_02",
+      "LabelHash": 1179025657,
+      "OriginalText": "速度會變為2倍。",
+      "TextInfos": [
+        {
+          "Text": "速度會變為2倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 36,
+      "LabelName": "BTR_STATE_SYN_19_03",
+      "LabelHash": 1179025656,
+      "OriginalText": "順風狀態",
+      "TextInfos": [
+        {
+          "Text": "順風狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 37,
+      "LabelName": "BTR_STATE_SYN_24_02",
+      "LabelHash": 1071361535,
+      "OriginalText": "無法使用{0}。",
+      "TextInfos": [
+        {
+          "Text": "無法使用",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 38,
+      "LabelName": "BTR_STATE_SYN_24_03",
+      "LabelHash": 1071361536,
+      "OriginalText": "招式封鎖狀態",
+      "TextInfos": [
+        {
+          "Text": "招式封鎖狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 39,
+      "LabelName": "BTR_STATE_SYN_24_04",
+      "LabelHash": 1071361541,
+      "OriginalText": "變為招式封鎖狀態時，\n無法使用自己最近一次使用的招式。",
+      "TextInfos": [
+        {
+          "Text": "變為招式封鎖狀態時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "無法使用自己最近一次使用的招式。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 40,
+      "LabelName": "BTR_STATE_SYN_25_02",
+      "LabelHash": -514925382,
+      "OriginalText": "無法替換。",
+      "TextInfos": [
+        {
+          "Text": "無法替換。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 41,
+      "LabelName": "BTR_STATE_SYN_25_03",
+      "LabelHash": -514925381,
+      "OriginalText": "無法逃走狀態",
+      "TextInfos": [
+        {
+          "Text": "無法逃走狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 42,
+      "LabelName": "BTR_STATE_SYN_26_02",
+      "LabelHash": 789036533,
+      "OriginalText": "在使用招式的下一回合，\n招式必定會擊中鎖定的對手。",
+      "TextInfos": [
+        {
+          "Text": "在使用招式的下一回合，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "招式必定會擊中鎖定的對手。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 43,
+      "LabelName": "BTR_STATE_SYN_26_03",
+      "LabelHash": 789036534,
+      "OriginalText": "鎖定狀態",
+      "TextInfos": [
+        {
+          "Text": "鎖定狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 44,
+      "LabelName": "BTR_STATE_SYN_28_02",
+      "LabelHash": -1529655749,
+      "OriginalText": "下次使出的電屬性招式\n威力會變為2倍。",
+      "TextInfos": [
+        {
+          "Text": "下次使出的電屬性招式",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "威力會變為2倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 45,
+      "LabelName": "BTR_STATE_SYN_28_03",
+      "LabelHash": -1529655748,
+      "OriginalText": "電屬性威力提高狀態",
+      "TextInfos": [
+        {
+          "Text": "電屬性威力提高狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 46,
+      "LabelName": "BTR_STATE_SYN_29_02",
+      "LabelHash": 1179024630,
+      "OriginalText": "招式的命中率會變為1.67倍。\n飛行屬性、飄浮特性等的寶可夢\n會變為在地面上。\n無法使用飛行類招式。",
+      "TextInfos": [
+        {
+          "Text": "招式的命中率會變為1.67倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "飛行屬性、飄浮特性等的寶可夢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會變為在地面上。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "無法使用飛行類招式。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 47,
+      "LabelName": "BTR_STATE_SYN_29_03",
+      "LabelHash": 1179024631,
+      "OriginalText": "重力狀態",
+      "TextInfos": [
+        {
+          "Text": "重力狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 48,
+      "LabelName": "BTR_STATE_SYN_31_02",
+      "LabelHash": 49719375,
+      "OriginalText": "不會變為異常狀態、混亂狀態。",
+      "TextInfos": [
+        {
+          "Text": "不會變為異常狀態、混亂狀態。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 49,
+      "LabelName": "BTR_STATE_SYN_31_03",
+      "LabelHash": 49719374,
+      "OriginalText": "神秘守護狀態",
+      "TextInfos": [
+        {
+          "Text": "神秘守護狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 50,
+      "LabelName": "BTR_STATE_SYN_32_02",
+      "LabelHash": 1353681290,
+      "OriginalText": "會給予替換出場的寶可夢\n最大HP的1/8的傷害。\n傷害會依與岩石屬性的\n相剋關係而改變。",
+      "TextInfos": [
+        {
+          "Text": "會給予替換出場的寶可夢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "最大HP的1/8的傷害。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "傷害會依與岩石屬性的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "相剋關係而改變。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 51,
+      "LabelName": "BTR_STATE_SYN_32_03",
+      "LabelHash": 1353681289,
+      "OriginalText": "隱形岩狀態",
+      "TextInfos": [
+        {
+          "Text": "隱形岩狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 52,
+      "LabelName": "BTR_STATE_SYN_33_02",
+      "LabelHash": -232605627,
+      "OriginalText": "每蓄力1次，\n防禦、特防會提高1階。",
+      "TextInfos": [
+        {
+          "Text": "每蓄力1次，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "防禦、特防會提高1階。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 53,
+      "LabelName": "BTR_STATE_SYN_33_03",
+      "LabelHash": -232605628,
+      "OriginalText": "蓄力狀態",
+      "TextInfos": [
+        {
+          "Text": "蓄力狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 54,
+      "LabelName": "BTR_STATE_SYN_34_02",
+      "LabelHash": 1071356288,
+      "OriginalText": "只能使出攻擊。",
+      "TextInfos": [
+        {
+          "Text": "只能使出攻擊。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 55,
+      "LabelName": "BTR_STATE_SYN_34_03",
+      "LabelHash": 1071356287,
+      "OriginalText": "挑釁狀態",
+      "TextInfos": [
+        {
+          "Text": "挑釁狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 56,
+      "LabelName": "BTR_STATE_SYN_36_02",
+      "LabelHash": 789031286,
+      "OriginalText": "會變為不在地面上，\n地面屬性招式、撒菱、毒菱、\n黏黏網狀態無效。",
+      "TextInfos": [
+        {
+          "Text": "會變為不在地面上，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "地面屬性招式、撒菱、毒菱、",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "黏黏網狀態無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 57,
+      "LabelName": "BTR_STATE_SYN_36_03",
+      "LabelHash": 789031285,
+      "OriginalText": "電磁飄浮狀態",
+      "TextInfos": [
+        {
+          "Text": "電磁飄浮狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 58,
+      "LabelName": "BTR_STATE_SYN_37_02",
+      "LabelHash": -797255631,
+      "OriginalText": "會讓替換出場的寶可夢變為中毒狀態。\n若使用2次，則會使其變為劇毒狀態。\n對飛行屬性、飄浮特性等的寶可夢無效。",
+      "TextInfos": [
+        {
+          "Text": "會讓替換出場的寶可夢變為中毒狀態。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若使用2次，則會使其變為劇毒狀態。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對飛行屬性、飄浮特性等的寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 59,
+      "LabelName": "BTR_STATE_SYN_37_03",
+      "LabelHash": -797255632,
+      "OriginalText": "毒菱狀態",
+      "TextInfos": [
+        {
+          "Text": "毒菱狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 60,
+      "LabelName": "BTR_STATE_SYN_39_02",
+      "LabelHash": 1179019383,
+      "OriginalText": "在使用招式的下一回合結束時，\n位在該位置的寶可夢會回復相當於\n使用了該招式的寶可夢的最大HP的1/2。",
+      "TextInfos": [
+        {
+          "Text": "在使用招式的下一回合結束時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "位在該位置的寶可夢會回復相當於",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "使用了該招式的寶可夢的最大HP的1/2。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 61,
+      "LabelName": "BTR_STATE_SYN_39_03",
+      "LabelHash": 1179019382,
+      "OriginalText": "祈願狀態",
+      "TextInfos": [
+        {
+          "Text": "祈願狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 62,
+      "LabelName": "BTR_STATE_SYN_40_02",
+      "LabelHash": 1636005273,
+      "OriginalText": "會讓替換出場的寶可夢的\n速度降低1階。\n對飛行屬性、飄浮特性等的\n寶可夢無效。",
+      "TextInfos": [
+        {
+          "Text": "會讓替換出場的寶可夢的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "速度降低1階。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對飛行屬性、飄浮特性等的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 63,
+      "LabelName": "BTR_STATE_SYN_40_03",
+      "LabelHash": 1636005274,
+      "OriginalText": "黏黏網狀態",
+      "TextInfos": [
+        {
+          "Text": "黏黏網狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 64,
+      "LabelName": "BTR_STATE_SYN_41_02",
+      "LabelHash": 49718356,
+      "OriginalText": "在回合結束時回復\n最大HP的1/16。\n無法替換。\n會變為在地面上。",
+      "TextInfos": [
+        {
+          "Text": "在回合結束時回復",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "最大HP的1/16。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "無法替換。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會變為在地面上。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 65,
+      "LabelName": "BTR_STATE_SYN_41_03",
+      "LabelHash": 49718357,
+      "OriginalText": "扎根狀態",
+      "TextInfos": [
+        {
+          "Text": "扎根狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 66,
+      "LabelName": "BTR_STATE_SYN_42_02",
+      "LabelHash": 1353680271,
+      "OriginalText": "在回合結束時，\n會減少最大HP的1/4。",
+      "TextInfos": [
+        {
+          "Text": "在回合結束時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會減少最大HP的1/4。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 67,
+      "LabelName": "BTR_STATE_SYN_42_03",
+      "LabelHash": 1353680272,
+      "OriginalText": "詛咒狀態",
+      "TextInfos": [
+        {
+          "Text": "詛咒狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 68,
+      "LabelName": "BTR_STATE_SYN_43_02",
+      "LabelHash": -232606646,
+      "OriginalText": "會被追加幽靈屬性。",
+      "TextInfos": [
+        {
+          "Text": "會被追加幽靈屬性。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 69,
+      "LabelName": "BTR_STATE_SYN_43_03",
+      "LabelHash": -232606645,
+      "OriginalText": "萬聖夜狀態",
+      "TextInfos": [
+        {
+          "Text": "萬聖夜狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 70,
+      "LabelName": "BTR_STATE_SYN_44_02",
+      "LabelHash": 1071355269,
+      "OriginalText": "會讓因特殊招式而受到的傷害減半。\n雙打對戰時會變為2/3。",
+      "TextInfos": [
+        {
+          "Text": "會讓因特殊招式而受到的傷害減半。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "雙打對戰時會變為2/3。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 71,
+      "LabelName": "BTR_STATE_SYN_44_03",
+      "LabelHash": 1071355270,
+      "OriginalText": "光牆狀態",
+      "TextInfos": [
+        {
+          "Text": "光牆狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 72,
+      "LabelName": "BTR_STATE_SYN_45_02",
+      "LabelHash": -514931648,
+      "OriginalText": "會讓因物理招式而受到的傷害減半。\n雙打對戰時會變為2/3。",
+      "TextInfos": [
+        {
+          "Text": "會讓因物理招式而受到的傷害減半。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "雙打對戰時會變為2/3。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 73,
+      "LabelName": "BTR_STATE_SYN_45_03",
+      "LabelHash": -514931647,
+      "OriginalText": "反射壁狀態",
+      "TextInfos": [
+        {
+          "Text": "反射壁狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 74,
+      "LabelName": "BTR_STATE_SYN_46_02",
+      "LabelHash": 789030267,
+      "OriginalText": "使出封印的寶可夢\n所學會的招式，\n對手的寶可夢將無法使用。",
+      "TextInfos": [
+        {
+          "Text": "使出封印的寶可夢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "所學會的招式，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對手的寶可夢將無法使用。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 75,
+      "LabelName": "BTR_STATE_SYN_46_03",
+      "LabelHash": 789030268,
+      "OriginalText": "封印狀態",
+      "TextInfos": [
+        {
+          "Text": "封印狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 76,
+      "LabelName": "BTR_STATE_SYN_47_02",
+      "LabelHash": -797256650,
+      "OriginalText": "變為滅亡狀態的\n3回合後會瀕死。",
+      "TextInfos": [
+        {
+          "Text": "變為滅亡狀態的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "3回合後會瀕死。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 77,
+      "LabelName": "BTR_STATE_SYN_47_03",
+      "LabelHash": -797256649,
+      "OriginalText": "滅亡狀態",
+      "TextInfos": [
+        {
+          "Text": "滅亡狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 78,
+      "LabelName": "BTR_STATE_SYN_48_02",
+      "LabelHash": -1529662015,
+      "OriginalText": "會給予替換出場的寶可夢\n最大HP的1/8的傷害。\n若使用2～3次，則傷害會增加。\n對飛行屬性、飄浮特性等的\n寶可夢無效。",
+      "TextInfos": [
+        {
+          "Text": "會給予替換出場的寶可夢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "最大HP的1/8的傷害。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若使用2～3次，則傷害會增加。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對飛行屬性、飄浮特性等的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 79,
+      "LabelName": "BTR_STATE_SYN_48_03",
+      "LabelHash": -1529662014,
+      "OriginalText": "撒菱狀態",
+      "TextInfos": [
+        {
+          "Text": "撒菱狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 80,
+      "LabelName": "BTR_STATE_SYN_50_02",
+      "LabelHash": 1636008474,
+      "OriginalText": "會讓造成自己瀕死的對手瀕死。",
+      "TextInfos": [
+        {
+          "Text": "會讓造成自己瀕死的對手瀕死。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 81,
+      "LabelName": "BTR_STATE_SYN_50_03",
+      "LabelHash": 1636008473,
+      "OriginalText": "同命狀態",
+      "TextInfos": [
+        {
+          "Text": "同命狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 82,
+      "LabelName": "BTR_STATE_SYN_51_02",
+      "LabelHash": 49721557,
+      "OriginalText": "會被追加草屬性。",
+      "TextInfos": [
+        {
+          "Text": "會被追加草屬性。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 83,
+      "LabelName": "BTR_STATE_SYN_51_03",
+      "LabelHash": 49721556,
+      "OriginalText": "森林詛咒狀態",
+      "TextInfos": [
+        {
+          "Text": "森林詛咒狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 84,
+      "LabelName": "BTR_STATE_SYN_52_02",
+      "LabelHash": 1353683472,
+      "OriginalText": "在回合結束時，\n會受到最大HP的1/16的傷害，\n位在使用了該招式的寶可夢所在位置的對手\n會回復相當於傷害量的HP。",
+      "TextInfos": [
+        {
+          "Text": "在回合結束時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會受到最大HP的1/16的傷害，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "位在使用了該招式的寶可夢所在位置的對手",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會回復相當於傷害量的HP。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 85,
+      "LabelName": "BTR_STATE_SYN_52_03",
+      "LabelHash": 1353683471,
+      "OriginalText": "寄生種子狀態",
+      "TextInfos": [
+        {
+          "Text": "寄生種子狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 86,
+      "LabelName": "BTR_STATE_SYN_54_02",
+      "LabelHash": 1071358470,
+      "OriginalText": "在4～5回合內，回合結束時\n會受到最大HP的1/8的傷害。\n無法替換。",
+      "TextInfos": [
+        {
+          "Text": "在4～5回合內，回合結束時",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會受到最大HP的1/8的傷害。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "無法替換。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 87,
+      "LabelName": "BTR_STATE_SYN_54_03",
+      "LabelHash": 1071358469,
+      "OriginalText": "束縛狀態",
+      "TextInfos": [
+        {
+          "Text": "束縛狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 88,
+      "LabelName": "BTR_STATE_SYN_57_02",
+      "LabelHash": -797253449,
+      "OriginalText": "在2～3回合內不斷攻擊。\n該期間，無法有其他行動。\n在那之後會變為混亂狀態。",
+      "TextInfos": [
+        {
+          "Text": "在2～3回合內不斷攻擊。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "該期間，無法有其他行動。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "在那之後會變為混亂狀態。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 89,
+      "LabelName": "BTR_STATE_SYN_57_03",
+      "LabelHash": -797253450,
+      "OriginalText": "大鬧狀態",
+      "TextInfos": [
+        {
+          "Text": "大鬧狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 90,
+      "LabelName": "BTR_STATE_SYN_59_02",
+      "LabelHash": 1179021565,
+      "OriginalText": "隨著回合的進行，\n在回合結束時受到的傷害會以最大HP的\n1/16、2/16、3/16的規律逐漸增加。\n替換後又再次上場時，\n會變為從1/16開始增加。",
+      "TextInfos": [
+        {
+          "Text": "隨著回合的進行，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "在回合結束時受到的傷害會以最大HP的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "1/16、2/16、3/16的規律逐漸增加。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "替換後又再次上場時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會變為從1/16開始增加。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 91,
+      "LabelName": "BTR_STATE_SYN_59_03",
+      "LabelHash": 1179021564,
+      "OriginalText": "劇毒狀態",
+      "TextInfos": [
+        {
+          "Text": "劇毒狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 92,
+      "LabelName": "BTR_STATE_SYN_60_02",
+      "LabelHash": 1636007447,
+      "OriginalText": "在被使用招式的2回合後，\n位在該位置的寶可夢會受到傷害。",
+      "TextInfos": [
+        {
+          "Text": "在被使用招式的2回合後，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "位在該位置的寶可夢會受到傷害。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 93,
+      "LabelName": "BTR_STATE_SYN_60_03",
+      "LabelHash": 1636007448,
+      "OriginalText": "未來攻擊狀態",
+      "TextInfos": [
+        {
+          "Text": "未來攻擊狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 94,
+      "LabelName": "BTR_STATE_SYN_61_02",
+      "LabelHash": 49720530,
+      "OriginalText": "在3回合內不斷攻擊。\n該期間，無法有其他行動。\n該期間，在場上的寶可夢\n不會變為睡眠狀態。",
+      "TextInfos": [
+        {
+          "Text": "在3回合內不斷攻擊。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "該期間，無法有其他行動。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "該期間，在場上的寶可夢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "不會變為睡眠狀態。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 95,
+      "LabelName": "BTR_STATE_SYN_61_03",
+      "LabelHash": 49720531,
+      "OriginalText": "吵鬧狀態",
+      "TextInfos": [
+        {
+          "Text": "吵鬧狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 96,
+      "LabelName": "BTR_STATE_SYN_62_02",
+      "LabelHash": 1353682445,
+      "OriginalText": "在回合結束時，\n會回復最大HP的1/16。",
+      "TextInfos": [
+        {
+          "Text": "在回合結束時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會回復最大HP的1/16。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 97,
+      "LabelName": "BTR_STATE_SYN_62_03",
+      "LabelHash": 1353682446,
+      "OriginalText": "水流環狀態",
+      "TextInfos": [
+        {
+          "Text": "水流環狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 98,
+      "LabelName": "BTR_STATE_SYN_64_02",
+      "LabelHash": 1071357443,
+      "OriginalText": "變為在地面上，\n地面屬性招式會生效。",
+      "TextInfos": [
+        {
+          "Text": "變為在地面上，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "地面屬性招式會生效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 99,
+      "LabelName": "BTR_STATE_SYN_64_03",
+      "LabelHash": 1071357444,
+      "OriginalText": "落地狀態",
+      "TextInfos": [
+        {
+          "Text": "落地狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 100,
+      "LabelName": "BTR_STATE_SYN_65_02",
+      "LabelHash": -514929474,
+      "OriginalText": "在使用招式後的下一回合結束前，\n場上的寶可夢都無法替換。",
+      "TextInfos": [
+        {
+          "Text": "在使用招式後的下一回合結束前，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "場上的寶可夢都無法替換。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 101,
+      "LabelName": "BTR_STATE_SYN_65_03",
+      "LabelHash": -514929473,
+      "OriginalText": "妖精之鎖狀態",
+      "TextInfos": [
+        {
+          "Text": "妖精之鎖狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 108,
+      "LabelName": "BTR_STATE_SYN_72_02",
+      "LabelHash": 1353677198,
+      "OriginalText": "超能力屬性招式威力會變為1.3倍。\n先制招式無效。\n只對地面上的寶可夢有效果。",
+      "TextInfos": [
+        {
+          "Text": "超能力屬性招式威力會變為1.3倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "先制招式無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "只對地面上的寶可夢有效果。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 109,
+      "LabelName": "BTR_STATE_SYN_72_03",
+      "LabelHash": 1353677197,
+      "OriginalText": "精神場地狀態",
+      "TextInfos": [
+        {
+          "Text": "精神場地狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 110,
+      "LabelName": "BTR_STATE_SYN_73_02",
+      "LabelHash": -232609719,
+      "OriginalText": "在2回合內，\n無法使出聲音類的招式。",
+      "TextInfos": [
+        {
+          "Text": "在2回合內，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "無法使出聲音類的招式。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 111,
+      "LabelName": "BTR_STATE_SYN_73_03",
+      "LabelHash": -232609720,
+      "OriginalText": "地獄突刺狀態",
+      "TextInfos": [
+        {
+          "Text": "地獄突刺狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 112,
+      "LabelName": "BTR_STATE_SYN_74_02",
+      "LabelHash": 1071352196,
+      "OriginalText": "會讓因物理招式和特殊招式\n而受到的傷害減半。\n雙打對戰時會變為2/3。",
+      "TextInfos": [
+        {
+          "Text": "會讓因物理招式和特殊招式",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "而受到的傷害減半。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "雙打對戰時會變為2/3。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 113,
+      "LabelName": "BTR_STATE_SYN_74_03",
+      "LabelHash": 1071352195,
+      "OriginalText": "極光幕狀態",
+      "TextInfos": [
+        {
+          "Text": "極光幕狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 128,
+      "LabelName": "BTR_STATE_SYN_106_02",
+      "LabelHash": 54712378,
+      "OriginalText": "在回合結束時會受到\n最大HP的1/16的傷害。\n若為鋼屬性、水屬性，\n則會受到最大HP的1/8的傷害。",
+      "TextInfos": [
+        {
+          "Text": "在回合結束時會受到",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "最大HP的1/16的傷害。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若為鋼屬性、水屬性，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "則會受到最大HP的1/8的傷害。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 129,
+      "LabelName": "BTR_STATE_SYN_106_03",
+      "LabelHash": 1620796319,
+      "OriginalText": "鹽醃狀態",
+      "TextInfos": [
+        {
+          "Text": "鹽醃狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 130,
+      "LabelName": "BTR_STATE_SYN_108_02",
+      "LabelHash": 54712312,
+      "OriginalText": "在回合結束時，\n速度會降低1階。",
+      "TextInfos": [
+        {
+          "Text": "在回合結束時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "速度會降低1階。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 131,
+      "LabelName": "BTR_STATE_SYN_108_03",
+      "LabelHash": 1620796253,
+      "OriginalText": "滿身糖狀態",
+      "TextInfos": [
+        {
+          "Text": "滿身糖狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 132,
+      "LabelName": "BTR_STATE_SYN_111_02",
+      "LabelHash": 862573254,
+      "OriginalText": "無法透過招式、特性\n或攜帶的道具回復HP。",
+      "TextInfos": [
+        {
+          "Text": "無法透過招式、特性",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "或攜帶的道具回復HP。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 133,
+      "LabelName": "BTR_STATE_SYN_111_03",
+      "LabelHash": -703510687,
+      "OriginalText": "回復封鎖狀態",
+      "TextInfos": [
+        {
+          "Text": "回復封鎖狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 136,
+      "LabelName": "BTR_STATE_SYN_113_02",
+      "LabelHash": 862573188,
+      "OriginalText": "無法行動1回合。",
+      "TextInfos": [
+        {
+          "Text": "無法行動1回合。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 137,
+      "LabelName": "BTR_STATE_SYN_113_03",
+      "LabelHash": -703510753,
+      "OriginalText": "反作用力狀態",
+      "TextInfos": [
+        {
+          "Text": "反作用力狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 138,
+      "LabelName": "BTR_STATE_SYN_114_02",
+      "LabelHash": 862573153,
+      "OriginalText": "為了使出招式，\n會蓄勢1回合。",
+      "TextInfos": [
+        {
+          "Text": "為了使出招式，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會蓄勢1回合。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 139,
+      "LabelName": "BTR_STATE_SYN_114_03",
+      "LabelHash": -703510788,
+      "OriginalText": "蓄勢狀態",
+      "TextInfos": [
+        {
+          "Text": "蓄勢狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 140,
+      "LabelName": "BTR_STATE_SYN_115_02",
+      "LabelHash": 862573122,
+      "OriginalText": "不會被許多招式擊中，\n但會被打雷、暴風、擊落等擊中。\n場地效果無效。",
+      "TextInfos": [
+        {
+          "Text": "不會被許多招式擊中，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "但會被打雷、暴風、擊落等擊中。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "場地效果無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 141,
+      "LabelName": "BTR_STATE_SYN_115_03",
+      "LabelHash": -703510819,
+      "OriginalText": "空中狀態",
+      "TextInfos": [
+        {
+          "Text": "空中狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 142,
+      "LabelName": "BTR_STATE_SYN_116_02",
+      "LabelHash": 862573087,
+      "OriginalText": "不會被許多招式擊中，\n但會被衝浪、潮旋擊中，\n且傷害會變為2倍。\n場地效果無效。",
+      "TextInfos": [
+        {
+          "Text": "不會被許多招式擊中，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "但會被衝浪、潮旋擊中，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "且傷害會變為2倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "場地效果無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 143,
+      "LabelName": "BTR_STATE_SYN_116_03",
+      "LabelHash": -703510854,
+      "OriginalText": "水中狀態",
+      "TextInfos": [
+        {
+          "Text": "水中狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 144,
+      "LabelName": "BTR_STATE_SYN_117_02",
+      "LabelHash": 862573056,
+      "OriginalText": "不會被許多招式擊中，\n但會被地震擊中，且傷害會變為2倍。\n場地效果無效。",
+      "TextInfos": [
+        {
+          "Text": "不會被許多招式擊中，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "但會被地震擊中，且傷害會變為2倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "場地效果無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 145,
+      "LabelName": "BTR_STATE_SYN_117_03",
+      "LabelHash": -703510885,
+      "OriginalText": "地下狀態",
+      "TextInfos": [
+        {
+          "Text": "地下狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 146,
+      "LabelName": "BTR_STATE_SYN_118_02",
+      "LabelHash": 862573021,
+      "OriginalText": "不會被招式擊中，\n且場地效果無效。",
+      "TextInfos": [
+        {
+          "Text": "不會被招式擊中，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "且場地效果無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 147,
+      "LabelName": "BTR_STATE_SYN_118_03",
+      "LabelHash": -703510920,
+      "OriginalText": "潛伏狀態",
+      "TextInfos": [
+        {
+          "Text": "潛伏狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 148,
+      "LabelName": "BTR_STATE_SYN_119_02",
+      "LabelHash": 862572990,
+      "OriginalText": "閃電強襲、泰山壓頂、\n龍之俯衝、飛身重壓、\n高溫重壓、重磅衝撞等\n必定會擊中，且傷害會變為2倍。",
+      "TextInfos": [
+        {
+          "Text": "閃電強襲、泰山壓頂、",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "龍之俯衝、飛身重壓、",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "高溫重壓、重磅衝撞等",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "必定會擊中，且傷害會變為2倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 149,
+      "LabelName": "BTR_STATE_SYN_119_03",
+      "LabelHash": -703510951,
+      "OriginalText": "變小狀態",
+      "TextInfos": [
+        {
+          "Text": "變小狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 150,
+      "LabelName": "BTR_STATE_SYN_120_02",
+      "LabelHash": -1187865418,
+      "OriginalText": "攻擊和防禦會互換。",
+      "TextInfos": [
+        {
+          "Text": "攻擊和防禦會互換。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 151,
+      "LabelName": "BTR_STATE_SYN_120_03",
+      "LabelHash": 378218523,
+      "OriginalText": "攻防轉換狀態",
+      "TextInfos": [
+        {
+          "Text": "攻防轉換狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 152,
+      "LabelName": "BTR_STATE_SYN_121_02",
+      "LabelHash": -1187865449,
+      "OriginalText": "火屬性招式威力\n會變為1.5倍。",
+      "TextInfos": [
+        {
+          "Text": "火屬性招式威力",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "會變為1.5倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 153,
+      "LabelName": "BTR_STATE_SYN_121_03",
+      "LabelHash": 378218492,
+      "OriginalText": "引火狀態",
+      "TextInfos": [
+        {
+          "Text": "引火狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 160,
+      "LabelName": "BTR_STATE_SYN_125_02",
+      "LabelHash": -1187865581,
+      "OriginalText": "下次使出的招式的\n命中率會變為1.2倍。",
+      "TextInfos": [
+        {
+          "Text": "下次使出的招式的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "命中率會變為1.2倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 161,
+      "LabelName": "BTR_STATE_SYN_125_03",
+      "LabelHash": 378218360,
+      "OriginalText": "奇秘果狀態",
+      "TextInfos": [
+        {
+          "Text": "奇秘果狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    }
+  ]
+}

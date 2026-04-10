@@ -1,0 +1,4122 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -760422461444689636
+  },
+  "m_Name": "btl_std",
+  "languageCode": 80,
+  "mSDataSet": [
+    {
+      "Index": 0,
+      "LabelName": "BTL_STRID_STD_PutSingle",
+      "LabelHash": 527237733,
+      "OriginalText": "上吧！{0}！",
+      "TextInfos": [
+        {
+          "Text": "上吧！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 49,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 1,
+      "LabelName": "BTL_STRID_STD_PutDouble",
+      "LabelHash": 1946606304,
+      "OriginalText": "上吧！{0}！\n{1}！",
+      "TextInfos": [
+        {
+          "Text": "上吧！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 49,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 49,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 2,
+      "LabelName": "BTL_STRID_STD_PutSingle_Player",
+      "LabelHash": 425829129,
+      "OriginalText": "{0}\n派出了{1}！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "派出了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 49,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 3,
+      "LabelName": "BTL_STRID_STD_PutDouble_Player",
+      "LabelHash": -319037420,
+      "OriginalText": "{0}派出了{1}\n和{2}！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "派出了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 49,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "和",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 49,
+            "Params": [
+              2,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 4,
+      "LabelName": "BTL_STRID_STD_BackChange2",
+      "LabelHash": 658436821,
+      "OriginalText": "{0}，\n回来！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "回来！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 5,
+      "LabelName": "BTL_STRID_STD_BackChange_Player",
+      "LabelHash": 1703038727,
+      "OriginalText": "{0}换下了\n{1}！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "换下了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 2,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 6,
+      "LabelName": "BTL_STRID_STD_Hit_PluralTimes",
+      "LabelHash": 1606668950,
+      "OriginalText": "击中了{0}次！",
+      "TextInfos": [
+        {
+          "Text": "击中了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 2,
+            "TagId": 1,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "次！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 7,
+      "LabelName": "BTL_STRID_STD_WinComm",
+      "LabelHash": 2055353282,
+      "OriginalText": "战胜了\n{0}！",
+      "TextInfos": [
+        {
+          "Text": "战胜了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 8,
+      "LabelName": "BTL_STRID_STD_WinComm_Spectator",
+      "LabelHash": -1115212976,
+      "OriginalText": "战胜了\n{0}！",
+      "TextInfos": [
+        {
+          "Text": "战胜了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 9,
+      "LabelName": "BTL_STRID_STD_LoseComm",
+      "LabelHash": 2096184371,
+      "OriginalText": "被{0}\n打败了！",
+      "TextInfos": [
+        {
+          "Text": "被",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "打败了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 10,
+      "LabelName": "BTL_STRID_STD_LoseComm_Spectator",
+      "LabelHash": -1868476991,
+      "OriginalText": "被{0}\n打败了！",
+      "TextInfos": [
+        {
+          "Text": "被",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "打败了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 11,
+      "LabelName": "BTL_STRID_STD_DrawComm",
+      "LabelHash": -347528974,
+      "OriginalText": "和{0}\n打成了平局！",
+      "TextInfos": [
+        {
+          "Text": "和",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "打成了平局！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 12,
+      "LabelName": "BTL_STRID_STD_DrawComm_Spectator",
+      "LabelHash": 526282436,
+      "OriginalText": "和{0}\n打成了平局！",
+      "TextInfos": [
+        {
+          "Text": "和",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 0,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "打成了平局！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 13,
+      "LabelName": "BTL_STRID_STD_WazaFail",
+      "LabelHash": -935118451,
+      "OriginalText": "但是，没有起到效果！！",
+      "TextInfos": [
+        {
+          "Text": "但是，没有起到效果！！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 14,
+      "LabelName": "BTL_STRID_STD_AffSGood_syn",
+      "LabelHash": 1954712420,
+      "OriginalText": "效果无比绝佳！！",
+      "TextInfos": [
+        {
+          "Text": "效果无比绝佳！！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 15,
+      "LabelName": "BTL_STRID_STD_AffGood",
+      "LabelHash": 1761216546,
+      "OriginalText": "效果绝佳！",
+      "TextInfos": [
+        {
+          "Text": "效果绝佳！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 16,
+      "LabelName": "BTL_STRID_STD_AffBad",
+      "LabelHash": 1820541890,
+      "OriginalText": "效果不好。",
+      "TextInfos": [
+        {
+          "Text": "效果不好。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 17,
+      "LabelName": "BTL_STRID_STD_AffSBad_syn",
+      "LabelHash": 1648440750,
+      "OriginalText": "效果相当不好。",
+      "TextInfos": [
+        {
+          "Text": "效果相当不好。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 18,
+      "LabelName": "BTL_STRID_STD_KonranExe",
+      "LabelHash": 1228838137,
+      "OriginalText": "不知所以地攻击了自己！",
+      "TextInfos": [
+        {
+          "Text": "不知所以地攻击了自己！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 19,
+      "LabelName": "BTL_STRID_STD_CriticalHit",
+      "LabelHash": -1164642518,
+      "OriginalText": "击中了要害！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              255,
+              70,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "击中了要害！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 20,
+      "LabelName": "BTL_STRID_STD_PP_Short",
+      "LabelHash": -1905571705,
+      "OriginalText": "但是，招式的剩余点数\n已经用完了！",
+      "TextInfos": [
+        {
+          "Text": "但是，招式的剩余点数",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "已经用完了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 21,
+      "LabelName": "BTL_STRID_STD_ShineStart",
+      "LabelHash": 1724112355,
+      "OriginalText": "日照变强了！",
+      "TextInfos": [
+        {
+          "Text": "日照变强了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 22,
+      "LabelName": "BTL_STRID_STD_RainStart",
+      "LabelHash": 791835530,
+      "OriginalText": "开始下雨了！",
+      "TextInfos": [
+        {
+          "Text": "开始下雨了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 23,
+      "LabelName": "BTL_STRID_STD_StormStart",
+      "LabelHash": -892486863,
+      "OriginalText": "开始刮沙暴了！",
+      "TextInfos": [
+        {
+          "Text": "开始刮沙暴了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 24,
+      "LabelName": "BTL_STRID_STD_SnowStart",
+      "LabelHash": -2136777253,
+      "OriginalText": "开始下雪了！",
+      "TextInfos": [
+        {
+          "Text": "开始下雪了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 25,
+      "LabelName": "BTL_STRID_STD_ShineEnd",
+      "LabelHash": 1547412936,
+      "OriginalText": "日照复原了！",
+      "TextInfos": [
+        {
+          "Text": "日照复原了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 26,
+      "LabelName": "BTL_STRID_STD_RainEnd",
+      "LabelHash": -2008112799,
+      "OriginalText": "雨停了！",
+      "TextInfos": [
+        {
+          "Text": "雨停了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 27,
+      "LabelName": "BTL_STRID_STD_StormEnd",
+      "LabelHash": 817369414,
+      "OriginalText": "沙暴停止了！",
+      "TextInfos": [
+        {
+          "Text": "沙暴停止了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 28,
+      "LabelName": "BTL_STRID_STD_SnowEnd",
+      "LabelHash": 554840788,
+      "OriginalText": "雪停了！",
+      "TextInfos": [
+        {
+          "Text": "雪停了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 29,
+      "LabelName": "BTL_STRID_STD_AirLock",
+      "LabelHash": 671077715,
+      "OriginalText": "天气的影响消失了！",
+      "TextInfos": [
+        {
+          "Text": "天气的影响消失了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 30,
+      "LabelName": "BTL_STRID_STD_Ichigeki",
+      "LabelHash": 1011499577,
+      "OriginalText": "一击必杀！",
+      "TextInfos": [
+        {
+          "Text": "一击必杀！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 31,
+      "LabelName": "BTL_STRID_STD_KinomiEff_WazaWeak",
+      "LabelHash": 677101636,
+      "OriginalText": "{0}\n减弱了{1}的威力！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 9,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "减弱了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "的威力！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 32,
+      "LabelName": "BTL_STRID_STD_KodawariLock",
+      "LabelHash": -334504555,
+      "OriginalText": "因为{0}的效果，\n只能使出{1}！",
+      "TextInfos": [
+        {
+          "Text": "因为",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 9,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "的效果，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "只能使出",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 33,
+      "LabelName": "BTL_STRID_STD_TotsugekiLock",
+      "LabelHash": 433273052,
+      "OriginalText": "因为{0}的效果，\n无法使出变化招式！",
+      "TextInfos": [
+        {
+          "Text": "因为",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 9,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "的效果，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "无法使出变化招式！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 34,
+      "LabelName": "BTL_STRID_STD_WazaLock",
+      "LabelHash": 1027601866,
+      "OriginalText": "{0}\n只能使出{1}！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 12,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "只能使出",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 35,
+      "LabelName": "BTL_STRID_STD_RankReset",
+      "LabelHash": -228659599,
+      "OriginalText": "所有能力都复原了！",
+      "TextInfos": [
+        {
+          "Text": "所有能力都复原了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 36,
+      "LabelName": "BTL_STRID_STD_IyasinoSuzu",
+      "LabelHash": 1797444105,
+      "OriginalText": "铃声响彻四周！",
+      "TextInfos": [
+        {
+          "Text": "铃声响彻四周！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 37,
+      "LabelName": "BTL_STRID_STD_Itamiwake",
+      "LabelHash": -1758100538,
+      "OriginalText": "均分了彼此的体力！",
+      "TextInfos": [
+        {
+          "Text": "均分了彼此的体力！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 38,
+      "LabelName": "BTL_STRID_STD_TrickRoomOff",
+      "LabelHash": -1121559947,
+      "OriginalText": "扭曲的时空复原了！",
+      "TextInfos": [
+        {
+          "Text": "扭曲的时空复原了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 39,
+      "LabelName": "BTL_STRID_STD_Jyuryoku",
+      "LabelHash": -1277554910,
+      "OriginalText": "重力变强了！",
+      "TextInfos": [
+        {
+          "Text": "重力变强了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 40,
+      "LabelName": "BTL_STRID_STD_JyuryokuOff",
+      "LabelHash": 903334893,
+      "OriginalText": "重力复原了！",
+      "TextInfos": [
+        {
+          "Text": "重力复原了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 41,
+      "LabelName": "BTL_STRID_STD_HorobiNoUta",
+      "LabelHash": -2053936892,
+      "OriginalText": "听过终焉之歌的宝可梦\n会在3回合后步向终焉！",
+      "TextInfos": [
+        {
+          "Text": "听过终焉之歌的宝可梦",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "会在3回合后步向终焉！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 42,
+      "LabelName": "BTL_STRID_STD_MigawariFail",
+      "LabelHash": 904999563,
+      "OriginalText": "但是，体力已经不够\n放出替身了！",
+      "TextInfos": [
+        {
+          "Text": "但是，体力已经不够",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "放出替身了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 43,
+      "LabelName": "BTL_STRID_STD_Reflector",
+      "LabelHash": 1697725272,
+      "OriginalText": "反射壁使我方的\n物理抗性提高了！",
+      "TextInfos": [
+        {
+          "Text": "反射壁使我方的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "物理抗性提高了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 44,
+      "LabelName": "BTL_STRID_STD_Reflector_E",
+      "LabelHash": -1920171780,
+      "OriginalText": "反射壁使对手的\n物理抗性提高了！",
+      "TextInfos": [
+        {
+          "Text": "反射壁使对手的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "物理抗性提高了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 45,
+      "LabelName": "BTL_STRID_STD_ReflectorOff",
+      "LabelHash": 1264725823,
+      "OriginalText": "我方的反射壁消失了！",
+      "TextInfos": [
+        {
+          "Text": "我方的反射壁消失了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 46,
+      "LabelName": "BTL_STRID_STD_ReflectorOff_E",
+      "LabelHash": 634688093,
+      "OriginalText": "对手的反射壁消失了！",
+      "TextInfos": [
+        {
+          "Text": "对手的反射壁消失了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 47,
+      "LabelName": "BTL_STRID_STD_HikariNoKabe",
+      "LabelHash": -711990800,
+      "OriginalText": "光墙使我方的\n特殊抗性提高了！",
+      "TextInfos": [
+        {
+          "Text": "光墙使我方的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "特殊抗性提高了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 48,
+      "LabelName": "BTL_STRID_STD_HikariNoKabe_E",
+      "LabelHash": 1588497784,
+      "OriginalText": "光墙使对手的\n特殊抗性提高了！",
+      "TextInfos": [
+        {
+          "Text": "光墙使对手的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "特殊抗性提高了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 49,
+      "LabelName": "BTL_STRID_STD_HikariNoKabeOff",
+      "LabelHash": 1802315549,
+      "OriginalText": "我方的光墙消失了！",
+      "TextInfos": [
+        {
+          "Text": "我方的光墙消失了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 50,
+      "LabelName": "BTL_STRID_STD_HikariNoKabeOff_E",
+      "LabelHash": -888399801,
+      "OriginalText": "对手的光墙消失了！",
+      "TextInfos": [
+        {
+          "Text": "对手的光墙消失了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 51,
+      "LabelName": "BTL_STRID_STD_AuroraVeil",
+      "LabelHash": -469546640,
+      "OriginalText": "极光幕使我方的\n物理和特殊抗性提高了！",
+      "TextInfos": [
+        {
+          "Text": "极光幕使我方的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "物理和特殊抗性提高了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 52,
+      "LabelName": "BTL_STRID_STD_AuroraVeil_E",
+      "LabelHash": 999220488,
+      "OriginalText": "极光幕使对手的\n物理和特殊抗性提高了！",
+      "TextInfos": [
+        {
+          "Text": "极光幕使对手的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "物理和特殊抗性提高了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 53,
+      "LabelName": "BTL_STRID_STD_AuroraVeilOff",
+      "LabelHash": 482003181,
+      "OriginalText": "我方的极光幕消失了！",
+      "TextInfos": [
+        {
+          "Text": "我方的极光幕消失了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 54,
+      "LabelName": "BTL_STRID_STD_AuroraVeilOff_E",
+      "LabelHash": 2093674567,
+      "OriginalText": "对手的极光幕消失了！",
+      "TextInfos": [
+        {
+          "Text": "对手的极光幕消失了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 55,
+      "LabelName": "BTL_STRID_STD_SinpiNoMamori",
+      "LabelHash": 380945871,
+      "OriginalText": "我方被\n神秘之幕包围了！",
+      "TextInfos": [
+        {
+          "Text": "我方被",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "神秘之幕包围了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 56,
+      "LabelName": "BTL_STRID_STD_SinpiNoMamori_E",
+      "LabelHash": 466029649,
+      "OriginalText": "对手被\n神秘之幕包围了！",
+      "TextInfos": [
+        {
+          "Text": "对手被",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "神秘之幕包围了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 57,
+      "LabelName": "BTL_STRID_STD_SinpiNoMamoriOff",
+      "LabelHash": -1883286182,
+      "OriginalText": "包围我方的\n神秘之幕消失了！",
+      "TextInfos": [
+        {
+          "Text": "包围我方的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "神秘之幕消失了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 58,
+      "LabelName": "BTL_STRID_STD_SinpiNoMamoriOff_E",
+      "LabelHash": 1234225634,
+      "OriginalText": "包围对手的\n神秘之幕消失了！",
+      "TextInfos": [
+        {
+          "Text": "包围对手的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "神秘之幕消失了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 59,
+      "LabelName": "BTL_STRID_STD_Oikaze",
+      "LabelHash": 676457401,
+      "OriginalText": "从我方身后\n吹起了顺风！",
+      "TextInfos": [
+        {
+          "Text": "从我方身后",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "吹起了顺风！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 60,
+      "LabelName": "BTL_STRID_STD_Oikaze_E",
+      "LabelHash": -1356381469,
+      "OriginalText": "从对手身后\n吹起了顺风！",
+      "TextInfos": [
+        {
+          "Text": "从对手身后",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "吹起了顺风！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 61,
+      "LabelName": "BTL_STRID_STD_OikazeOff",
+      "LabelHash": 2047318506,
+      "OriginalText": "我方的顺风停止了！",
+      "TextInfos": [
+        {
+          "Text": "我方的顺风停止了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 62,
+      "LabelName": "BTL_STRID_STD_OikazeOff_E",
+      "LabelHash": -1635155990,
+      "OriginalText": "对手的顺风停止了！",
+      "TextInfos": [
+        {
+          "Text": "对手的顺风停止了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 63,
+      "LabelName": "BTL_STRID_STD_Makibisi",
+      "LabelHash": 83587737,
+      "OriginalText": "我方脚下\n散落着撒菱！",
+      "TextInfos": [
+        {
+          "Text": "我方脚下",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "散落着撒菱！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 64,
+      "LabelName": "BTL_STRID_STD_Makibisi_E",
+      "LabelHash": 668067267,
+      "OriginalText": "对手脚下\n散落着撒菱！",
+      "TextInfos": [
+        {
+          "Text": "对手脚下",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "散落着撒菱！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 65,
+      "LabelName": "BTL_STRID_STD_MakibisiOff",
+      "LabelHash": -1392322764,
+      "OriginalText": "我方脚下的\n撒菱消失不见了！",
+      "TextInfos": [
+        {
+          "Text": "我方脚下的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "撒菱消失不见了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 66,
+      "LabelName": "BTL_STRID_STD_MakibisiOff_E",
+      "LabelHash": 1627368272,
+      "OriginalText": "对手脚下的\n撒菱消失不见了！",
+      "TextInfos": [
+        {
+          "Text": "对手脚下的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "撒菱消失不见了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 67,
+      "LabelName": "BTL_STRID_STD_Dokubisi",
+      "LabelHash": 524074168,
+      "OriginalText": "我方脚下\n散落着毒菱！",
+      "TextInfos": [
+        {
+          "Text": "我方脚下",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "散落着毒菱！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 68,
+      "LabelName": "BTL_STRID_STD_Dokubisi_E",
+      "LabelHash": -1975749680,
+      "OriginalText": "对手脚下\n散落着毒菱！",
+      "TextInfos": [
+        {
+          "Text": "对手脚下",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "散落着毒菱！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 69,
+      "LabelName": "BTL_STRID_STD_DokubisiOff",
+      "LabelHash": -1823779851,
+      "OriginalText": "我方脚下的\n毒菱消失不见了！",
+      "TextInfos": [
+        {
+          "Text": "我方脚下的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "毒菱消失不见了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 70,
+      "LabelName": "BTL_STRID_STD_DokubisiOff_E",
+      "LabelHash": 1134457727,
+      "OriginalText": "对手脚下的\n毒菱消失不见了！",
+      "TextInfos": [
+        {
+          "Text": "对手脚下的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "毒菱消失不见了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 71,
+      "LabelName": "BTL_STRID_STD_StealthRock",
+      "LabelHash": 143278626,
+      "OriginalText": "我方周围开始浮现出\n尖锐的岩石！",
+      "TextInfos": [
+        {
+          "Text": "我方周围开始浮现出",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "尖锐的岩石！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 72,
+      "LabelName": "BTL_STRID_STD_StealthRock_E",
+      "LabelHash": -138070926,
+      "OriginalText": "对手周围开始浮现出\n尖锐的岩石！",
+      "TextInfos": [
+        {
+          "Text": "对手周围开始浮现出",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "尖锐的岩石！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 73,
+      "LabelName": "BTL_STRID_STD_StealthRockOff",
+      "LabelHash": -2010891873,
+      "OriginalText": "我方周围的\n隐形岩消失不见了！",
+      "TextInfos": [
+        {
+          "Text": "我方周围的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "隐形岩消失不见了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 74,
+      "LabelName": "BTL_STRID_STD_StealthRockOff_E",
+      "LabelHash": 511635933,
+      "OriginalText": "对手周围的\n隐形岩消失不见了！",
+      "TextInfos": [
+        {
+          "Text": "对手周围的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "隐形岩消失不见了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 75,
+      "LabelName": "BTL_STRID_STD_WideGuard",
+      "LabelHash": -1580198524,
+      "OriginalText": "我方周围正受到\n广域防守的保护！",
+      "TextInfos": [
+        {
+          "Text": "我方周围正受到",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "广域防守的保护！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 76,
+      "LabelName": "BTL_STRID_STD_WideGuard_E",
+      "LabelHash": -1084133556,
+      "OriginalText": "对手周围正受到\n广域防守的保护！",
+      "TextInfos": [
+        {
+          "Text": "对手周围正受到",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "广域防守的保护！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 77,
+      "LabelName": "BTL_STRID_STD_FastGuard",
+      "LabelHash": 125105143,
+      "OriginalText": "我方周围正受到\n快速防守的保护！",
+      "TextInfos": [
+        {
+          "Text": "我方周围正受到",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "快速防守的保护！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 78,
+      "LabelName": "BTL_STRID_STD_FastGuard_E",
+      "LabelHash": 1231572733,
+      "OriginalText": "对手周围正受到\n快速防守的保护！",
+      "TextInfos": [
+        {
+          "Text": "对手周围正受到",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "快速防守的保护！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 79,
+      "LabelName": "BTL_STRID_STD_Kinchoukan",
+      "LabelHash": -363685021,
+      "OriginalText": "我方因太紧张\n而无法食用树果！",
+      "TextInfos": [
+        {
+          "Text": "我方因太紧张",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "而无法食用树果！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 80,
+      "LabelName": "BTL_STRID_STD_Kinchoukan_E",
+      "LabelHash": 197686633,
+      "OriginalText": "对手因太紧张\n而无法食用树果！",
+      "TextInfos": [
+        {
+          "Text": "对手因太紧张",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "而无法食用树果！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 81,
+      "LabelName": "BTL_STRID_STD_WonderRoom_Start",
+      "LabelHash": 980450531,
+      "OriginalText": "凭空制造出了互换\n防御和特防的空间！",
+      "TextInfos": [
+        {
+          "Text": "凭空制造出了互换",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "防御和特防的空间！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 82,
+      "LabelName": "BTL_STRID_STD_WonderRoom_End",
+      "LabelHash": 1267448250,
+      "OriginalText": "奇妙空间被解除，\n防御和特防复原了！",
+      "TextInfos": [
+        {
+          "Text": "奇妙空间被解除，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "防御和特防复原了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 83,
+      "LabelName": "BTL_STRID_STD_MagicRoom_Start",
+      "LabelHash": 1486131339,
+      "OriginalText": "凭空制造出了会让携带的道具的\n效果消失的空间！",
+      "TextInfos": [
+        {
+          "Text": "凭空制造出了会让携带的道具的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "效果消失的空间！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 84,
+      "LabelName": "BTL_STRID_STD_MagicRoom_End",
+      "LabelHash": -2030864126,
+      "OriginalText": "魔法空间被解除，\n道具的效果复原了！",
+      "TextInfos": [
+        {
+          "Text": "魔法空间被解除，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "道具的效果复原了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 85,
+      "LabelName": "BTL_STRID_STD_Juel",
+      "LabelHash": -1082157236,
+      "OriginalText": "{0}加强了\n{1}的威力！",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 9,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "加强了",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "的威力！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 86,
+      "LabelName": "BTL_STRID_STD_BattleTimeOver",
+      "LabelHash": 52962635,
+      "OriginalText": "限制时间到了！\n对战结束！",
+      "TextInfos": [
+        {
+          "Text": "限制时间到了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对战结束！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 87,
+      "LabelName": "BTL_STRID_STD_BattleTimeOver_Your",
+      "LabelHash": 620578993,
+      "OriginalText": "对手的限制时间到了！\n对战结束！",
+      "TextInfos": [
+        {
+          "Text": "对手的限制时间到了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对战结束！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 88,
+      "LabelName": "BTL_STRID_STD_BattleTimeOver_My",
+      "LabelHash": 1796516752,
+      "OriginalText": "你的限制时间到了！\n对战结束！",
+      "TextInfos": [
+        {
+          "Text": "你的限制时间到了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对战结束！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 89,
+      "LabelName": "BTL_STRID_STD_CommandTimeOver",
+      "LabelHash": -814122318,
+      "OriginalText": "您在一定时间内没有操作！\n对战结束！",
+      "TextInfos": [
+        {
+          "Text": "您在一定时间内没有操作！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对战结束！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 90,
+      "LabelName": "BTL_STRID_STD_CommandTimeOver_win",
+      "LabelHash": 2027656777,
+      "OriginalText": "对手在一定时间内没有操作！\n对战结束！",
+      "TextInfos": [
+        {
+          "Text": "对手在一定时间内没有操作！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对战结束！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 94,
+      "LabelName": "BTL_STRID_STD_Retired",
+      "LabelHash": 1021517871,
+      "OriginalText": "有一方选择了投降。",
+      "TextInfos": [
+        {
+          "Text": "有一方选择了投降。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 95,
+      "LabelName": "BTL_STRID_STD_GrassGround_Start",
+      "LabelHash": -872937498,
+      "OriginalText": "脚下青草如茵！",
+      "TextInfos": [
+        {
+          "Text": "脚下青草如茵！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 96,
+      "LabelName": "BTL_STRID_STD_GrassGround_End",
+      "LabelHash": -2053662781,
+      "OriginalText": "脚下的青草消失不见了！",
+      "TextInfos": [
+        {
+          "Text": "脚下的青草消失不见了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 97,
+      "LabelName": "BTL_STRID_STD_MistGround_Start",
+      "LabelHash": 836148467,
+      "OriginalText": "脚下雾气缭绕！",
+      "TextInfos": [
+        {
+          "Text": "脚下雾气缭绕！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 98,
+      "LabelName": "BTL_STRID_STD_MistGround_End",
+      "LabelHash": 440620232,
+      "OriginalText": "脚下的雾气消失不见了！",
+      "TextInfos": [
+        {
+          "Text": "脚下的雾气消失不见了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 99,
+      "LabelName": "BTL_STRID_STD_ElecField_Start",
+      "LabelHash": -1644803332,
+      "OriginalText": "脚下电光飞闪！",
+      "TextInfos": [
+        {
+          "Text": "脚下电光飞闪！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 100,
+      "LabelName": "BTL_STRID_STD_ElecField_End",
+      "LabelHash": -923613333,
+      "OriginalText": "脚下的电光消失不见了！",
+      "TextInfos": [
+        {
+          "Text": "脚下的电光消失不见了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 101,
+      "LabelName": "BTL_STRID_STD_NebaNebaNet",
+      "LabelHash": -264065907,
+      "OriginalText": "我方的脚下\n延伸出了黏黏网！",
+      "TextInfos": [
+        {
+          "Text": "我方的脚下",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "延伸出了黏黏网！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 102,
+      "LabelName": "BTL_STRID_STD_NebaNebaNet_E",
+      "LabelHash": 655477463,
+      "OriginalText": "对手的脚下\n延伸出了黏黏网！",
+      "TextInfos": [
+        {
+          "Text": "对手的脚下",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "延伸出了黏黏网！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 103,
+      "LabelName": "BTL_STRID_STD_NebaNebaNetOff",
+      "LabelHash": -1299401764,
+      "OriginalText": "我方脚下的\n黏黏网消失不见了！",
+      "TextInfos": [
+        {
+          "Text": "我方脚下的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "黏黏网消失不见了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 104,
+      "LabelName": "BTL_STRID_STD_NebaNebaNetOff_E",
+      "LabelHash": -972425184,
+      "OriginalText": "对手脚下的\n黏黏网消失不见了！",
+      "TextInfos": [
+        {
+          "Text": "对手脚下的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "黏黏网消失不见了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 105,
+      "LabelName": "BTL_STRID_STD_GeppuWarn",
+      "LabelHash": 866913447,
+      "OriginalText": "因为没有食用树果，\n所以无法使出招式！",
+      "TextInfos": [
+        {
+          "Text": "因为没有食用树果，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "所以无法使出招式！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 106,
+      "LabelName": "BTL_STRID_STD_OmitoosiCont",
+      "LabelHash": -351562915,
+      "OriginalText": "连{0}携带的\n{1}也察觉到了！",
+      "TextInfos": [
+        {
+          "Text": "连",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 2,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "携带的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 9,
+            "Params": [
+              1,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "也察觉到了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 108,
+      "LabelName": "BTL_STRID_STD_FairyLock",
+      "LabelHash": 699183090,
+      "OriginalText": "下回合无法逃走！",
+      "TextInfos": [
+        {
+          "Text": "下回合无法逃走！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 141,
+      "LabelName": "BTL_STRID_STD_PhychoField_Start",
+      "LabelHash": 968312532,
+      "OriginalText": "脚下传来了奇妙的感觉！",
+      "TextInfos": [
+        {
+          "Text": "脚下传来了奇妙的感觉！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 142,
+      "LabelName": "BTL_STRID_STD_PhychoField_End",
+      "LabelHash": 866669425,
+      "OriginalText": "脚下的奇妙感觉消失了！",
+      "TextInfos": [
+        {
+          "Text": "脚下的奇妙感觉消失了！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 147,
+      "LabelName": "BTL_STRID_STD_Ochakai",
+      "LabelHash": -461255728,
+      "OriginalText": "大家开茶会，吃了树果！",
+      "TextInfos": [
+        {
+          "Text": "大家开茶会，吃了树果！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 148,
+      "LabelName": "BTL_STRID_STD_Ochakai_Failed",
+      "LabelHash": 51656368,
+      "OriginalText": "但是什么都没有发生！",
+      "TextInfos": [
+        {
+          "Text": "但是什么都没有发生！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 152,
+      "LabelName": "BTL_STRID_STD_Hoobaru_Failed",
+      "LabelHash": 1629704134,
+      "OriginalText": "没有携带树果，无法使出招式！",
+      "TextInfos": [
+        {
+          "Text": "没有携带树果，无法使出招式！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 153,
+      "LabelName": "BTL_STRID_STD_Waza_NG",
+      "LabelHash": -1645319527,
+      "OriginalText": "无法使出这个招式！",
+      "TextInfos": [
+        {
+          "Text": "无法使出这个招式！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 154,
+      "LabelName": "BTL_STRID_STD_Okatazuke",
+      "LabelHash": -1354905101,
+      "OriginalText": "大扫除完毕！",
+      "TextInfos": [
+        {
+          "Text": "大扫除完毕！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    },
+    {
+      "Index": 155,
+      "LabelName": "BTL_STRID_STD_GigaHammerWarn",
+      "LabelHash": -389125198,
+      "OriginalText": "不能连续使出2次{0}！",
+      "TextInfos": [
+        {
+          "Text": "不能连续使出2次",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 1,
+          "TagInfo": {
+            "TagGroupId": 1,
+            "TagId": 7,
+            "Params": [
+              0,
+              205
+            ]
+          }
+        },
+        {
+          "Text": "！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 3
+    }
+  ]
+}
