@@ -37,7 +37,7 @@
       "Index": 1,
       "LabelName": "first_start_01",
       "LabelHash": -1882911973,
-      "OriginalText": "¿Quieres comenzar a jugar en este idioma?\nPodrás cambiarlo más adelante.",
+      "OriginalText": "¿Quieres comenzar a jugar en este idioma?\nEl primer idioma que selecciones determinará permanentemente\nlos idiomas disponibles para el teclado.",
       "TextInfos": [
         {
           "Text": "¿Quieres comenzar a jugar en este idioma?",
@@ -72,7 +72,25 @@
           }
         },
         {
-          "Text": "Podrás cambiarlo más adelante.",
+          "Text": "El primer idioma que selecciones determinará permanentemente",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "los idiomas disponibles para el teclado.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

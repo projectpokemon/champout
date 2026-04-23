@@ -93,7 +93,7 @@
       "Index": 1,
       "LabelName": "first_start_01",
       "LabelHash": -1882911973,
-      "OriginalText": "以下の言語で　ゲームを始めますか？\n※あとから　変更できます",
+      "OriginalText": "以下の言語で　ゲームを始めますか？\n※文字入力に使う言語は　あとから変更できません",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -202,7 +202,102 @@
           }
         },
         {
-          "Text": "※あとから　",
+          "Text": "※",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              8,
+              0,
+              16,
+              0,
+              130,
+              48,
+              88,
+              48,
+              107,
+              48,
+              133,
+              48,
+              70,
+              48,
+              138,
+              48,
+              135,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "文字入力に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              100,
+              48,
+              75,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "使う",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              82,
+              48,
+              147,
+              48,
+              84,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "言語は　あとから",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -233,7 +328,7 @@
           }
         },
         {
-          "Text": "変更できます",
+          "Text": "変更できません",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

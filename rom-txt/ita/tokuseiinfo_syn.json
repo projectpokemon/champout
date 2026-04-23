@@ -3597,10 +3597,28 @@
       "Index": 103,
       "LabelName": "TOKUSEIINFO_SYN_104",
       "LabelHash": 536862021,
-      "OriginalText": "Fa sì che le mosse del Pokémon ignorino l’abilità altrui.",
+      "OriginalText": "Fa sì che le mosse del Pokémon ignorino l’abilità altrui,\ncon l’eccezione di alcune abilità.",
       "TextInfos": [
         {
-          "Text": "Fa sì che le mosse del Pokémon ignorino l’abilità altrui.",
+          "Text": "Fa sì che le mosse del Pokémon ignorino l’abilità altrui,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "con l’eccezione di alcune abilità.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

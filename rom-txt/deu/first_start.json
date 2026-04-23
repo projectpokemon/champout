@@ -37,20 +37,11 @@
       "Index": 1,
       "LabelName": "first_start_01",
       "LabelHash": -1882911973,
-      "OriginalText": "Möchtest du das Spiel in dieser Sprache beginnen?\n\nHinweis: Du kannst die Sprache später ändern.",
+      "OriginalText": "Möchtest du das Spiel in dieser Sprache beginnen?\nHinweis: Deine anfängliche Sprachauswahl legt die\nfür dich verfügbaren Eingabeoptionen permanent fest.",
       "TextInfos": [
         {
           "Text": "Möchtest du das Spiel in dieser Sprache beginnen?",
           "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
           "TagInfo": {
             "TagGroupId": -1,
             "TagId": 0,
@@ -81,7 +72,53 @@
           }
         },
         {
-          "Text": "Hinweis: Du kannst die Sprache später ändern.",
+          "Text": "Hinweis: Deine anfängliche Sprachauswahl legt die",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "für dich verfügbaren Eingabeoptionen permanent fest.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

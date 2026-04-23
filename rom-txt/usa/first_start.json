@@ -37,7 +37,7 @@
       "Index": 1,
       "LabelName": "first_start_01",
       "LabelHash": -1882911973,
-      "OriginalText": "Would you like to begin playing in the language below?\nNote: You can change this setting later.",
+      "OriginalText": "Would you like to begin playing in the language below?\nNote: Your initial language choice permanently determines the\nset of available keyboard options.",
       "TextInfos": [
         {
           "Text": "Would you like to begin playing in the language below?",
@@ -72,7 +72,53 @@
           }
         },
         {
-          "Text": "Note: You can change this setting later.",
+          "Text": "Note: Your initial language choice permanently determines the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "set of available keyboard options.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

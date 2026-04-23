@@ -37,20 +37,11 @@
       "Index": 1,
       "LabelName": "first_start_01",
       "LabelHash": -1882911973,
-      "OriginalText": "Voulez-vous commencer le jeu dans la langue ci-dessous ?\n\nRemarque : vous pourrez changer ce paramètre plus tard.",
+      "OriginalText": "Voulez-vous commencer à jouer dans la langue ci-dessous ?\nRemarque : votre choix de langue initial détermine de façon\npermanente l’ensemble des options de clavier disponibles.",
       "TextInfos": [
         {
-          "Text": "Voulez-vous commencer le jeu dans la langue ci-dessous ?",
+          "Text": "Voulez-vous commencer à jouer dans la langue ci-dessous ?",
           "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
           "TagInfo": {
             "TagGroupId": -1,
             "TagId": 0,
@@ -81,7 +72,25 @@
           }
         },
         {
-          "Text": "Remarque : vous pourrez changer ce paramètre plus tard.",
+          "Text": "Remarque : votre choix de langue initial détermine de façon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "permanente l’ensemble des options de clavier disponibles.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

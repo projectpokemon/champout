@@ -37,20 +37,11 @@
       "Index": 1,
       "LabelName": "first_start_01",
       "LabelHash": -1882911973,
-      "OriginalText": "아래 언어로 게임을 시작하겠습니까?\n※나중에 변경할 수 있습니다.",
+      "OriginalText": "아래 언어로 게임을 시작하겠습니까?\n※문자 입력 언어는 나중에 변경할 수 없습니다.",
       "TextInfos": [
         {
           "Text": "아래 언어로 게임을 시작하겠습니까?",
           "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
           "TagInfo": {
             "TagGroupId": -1,
             "TagId": 0,
@@ -72,7 +63,16 @@
           }
         },
         {
-          "Text": "※나중에 변경할 수 있습니다.",
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "※문자 입력 언어는 나중에 변경할 수 없습니다.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
