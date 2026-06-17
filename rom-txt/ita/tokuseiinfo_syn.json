@@ -936,6 +936,64 @@
       "StyleCode": 69
     },
     {
+      "Index": 26,
+      "LabelName": "TOKUSEIINFO_SYN_027",
+      "LabelHash": -625937487,
+      "OriginalText": "Conferisce al Pokémon il 30% di probabilità di causare lo stato\nAvvelenamento, Paralisi o Sonno a chi gli infligge una mossa\nda contatto.",
+      "TextInfos": [
+        {
+          "Text": "Conferisce al Pokémon il 30% di probabilità di causare lo stato",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Avvelenamento, Paralisi o Sonno a chi gli infligge una mossa",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "da contatto.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 27,
       "LabelName": "TOKUSEIINFO_SYN_028",
       "LabelHash": -625937494,
@@ -3597,10 +3655,28 @@
       "Index": 103,
       "LabelName": "TOKUSEIINFO_SYN_104",
       "LabelHash": 536862021,
-      "OriginalText": "Fa sì che le mosse del Pokémon ignorino l’abilità altrui.",
+      "OriginalText": "Fa sì che le mosse del Pokémon ignorino l’abilità altrui,\ncon l’eccezione di alcune abilità.",
       "TextInfos": [
         {
-          "Text": "Fa sì che le mosse del Pokémon ignorino l’abilità altrui.",
+          "Text": "Fa sì che le mosse del Pokémon ignorino l’abilità altrui,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "con l’eccezione di alcune abilità.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3721,6 +3797,46 @@
         },
         {
           "Text": "KO immediato quando il Pokémon entra in campo.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 107,
+      "LabelName": "TOKUSEIINFO_SYN_108",
+      "LabelHash": 536862017,
+      "OriginalText": "Rivela una mossa con potenza alta tra quelle degli avversari\nquando il Pokémon entra in campo.",
+      "TextInfos": [
+        {
+          "Text": "Rivela una mossa con potenza alta tra quelle degli avversari",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "quando il Pokémon entra in campo.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6508,6 +6624,86 @@
       "StyleCode": 69
     },
     {
+      "Index": 217,
+      "LabelName": "TOKUSEIINFO_SYN_218",
+      "LabelHash": 2102945927,
+      "OriginalText": "Dimezza i danni subiti dalle mosse da contatto, ma raddoppia\nquelli subiti dalle mosse di tipo Fuoco.",
+      "TextInfos": [
+        {
+          "Text": "Dimezza i danni subiti dalle mosse da contatto, ma raddoppia",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "quelli subiti dalle mosse di tipo Fuoco.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 220,
+      "LabelName": "TOKUSEIINFO_SYN_221",
+      "LabelHash": -625937419,
+      "OriginalText": "Riduce di 1 grado la Velocità di chi colpisce il Pokémon\ncon una mossa da contatto.",
+      "TextInfos": [
+        {
+          "Text": "Riduce di 1 grado la Velocità di chi colpisce il Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "con una mossa da contatto.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 221,
       "LabelName": "TOKUSEIINFO_SYN_222",
       "LabelHash": -625937422,
@@ -6515,6 +6711,46 @@
       "TextInfos": [
         {
           "Text": "Cambia l’abilità del Pokémon in quella di un alleato andato KO.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 225,
+      "LabelName": "TOKUSEIINFO_SYN_226",
+      "LabelHash": -625937426,
+      "OriginalText": "Quando il Pokémon entra in campo, causa lo stato Campo\nElettrico sull’intero campo di lotta per 5 turni.",
+      "TextInfos": [
+        {
+          "Text": "Quando il Pokémon entra in campo, causa lo stato Campo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Elettrico sull’intero campo di lotta per 5 turni.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -7108,6 +7344,28 @@
       "StyleCode": 69
     },
     {
+      "Index": 282,
+      "LabelName": "TOKUSEIINFO_SYN_283",
+      "LabelHash": 893092353,
+      "OriginalText": "Rende il Pokémon immune alle mosse di stato sferrate da altri.",
+      "TextInfos": [
+        {
+          "Text": "Rende il Pokémon immune alle mosse di stato sferrate da altri.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 289,
       "LabelName": "TOKUSEIINFO_SYN_290",
       "LabelHash": -1835791001,
@@ -7602,6 +7860,82 @@
       "StyleCode": 69
     },
     {
+      "Index": 312,
+      "LabelName": "TOKUSEIINFO_SYN_313",
+      "LabelHash": 2102946029,
+      "OriginalText": "Fa sì che il Pokémon non sia più a contatto con il terreno,\nrendendolo così immune alle mosse di tipo Terra e agli stati\nPunte, Punte velenose e Rete vischiosa. Aumenta di 1 grado\nla sua statistica più alta quando causa un KO con un attacco.",
+      "TextInfos": [
+        {
+          "Text": "Fa sì che il Pokémon non sia più a contatto con il terreno,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "rendendolo così immune alle mosse di tipo Terra e agli stati",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Punte, Punte velenose e Rete vischiosa. Aumenta di 1 grado",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "la sua statistica più alta quando causa un KO con un attacco.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 314,
       "LabelName": "TOKUSEIINFO_SYN_315",
       "LabelHash": 2102946027,
@@ -7627,6 +7961,28 @@
         },
         {
           "Text": "fosse attivo.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 315,
+      "LabelName": "TOKUSEIINFO_SYN_316",
+      "LabelHash": 2102946026,
+      "OriginalText": "Aumenta del 50% la potenza delle mosse di tipo Fuoco.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta del 50% la potenza delle mosse di tipo Fuoco.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

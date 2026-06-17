@@ -1045,10 +1045,46 @@
       "Index": 37,
       "LabelName": "error_code_46091",
       "LabelHash": 1854339503,
-      "OriginalText": "구입에 실패했습니다.",
+      "OriginalText": "에러가 발생했습니다.\n구입에 실패했을 가능성이 있습니다.\n게임을 재시작해 주십시오.",
       "TextInfos": [
         {
-          "Text": "구입에 실패했습니다.",
+          "Text": "에러가 발생했습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "구입에 실패했을 가능성이 있습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "게임을 재시작해 주십시오.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1664,6 +1700,46 @@
         },
         {
           "Text": "트레이너 정보가 상한을 초과했습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 56,
+      "LabelName": "error_code_12050",
+      "LabelHash": -228823733,
+      "OriginalText": "이미 다른 어카운트에\n연동되어 있습니다.",
+      "TextInfos": [
+        {
+          "Text": "이미 다른 어카운트에",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "연동되어 있습니다.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2378,46 +2454,6 @@
     },
     {
       "Index": 83,
-      "LabelName": "error_code_30012",
-      "LabelHash": 1660766085,
-      "OriginalText": "사용할 수 없는 문자가 포함되어 있습니다.\n팀 이름을 변경해 주십시오.",
-      "TextInfos": [
-        {
-          "Text": "사용할 수 없는 문자가 포함되어 있습니다.",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "팀 이름을 변경해 주십시오.",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        }
-      ],
-      "GenderCode": 0,
-      "CountabilityCode": 0,
-      "ArticleCode": 1,
-      "InitialSoundCode": 0,
-      "StyleCode": 66
-    },
-    {
-      "Index": 84,
       "LabelName": "error_code_31502",
       "LabelHash": -207845738,
       "OriginalText": "배틀팀의 정보 취득에 실패했습니다.",
@@ -2439,7 +2475,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 85,
+      "Index": 84,
       "LabelName": "error_code_33010",
       "LabelHash": 497966832,
       "OriginalText": "멤버십의 유효 기한이 만료되어\n조작할 수 없는 포켓몬입니다.\n※스카우트 목장에 돌려보내거나\n　Pokémon HOME으로 돌려보낼 수 있습니다.",
@@ -2543,7 +2579,7 @@
       "StyleCode": 67
     },
     {
-      "Index": 86,
+      "Index": 85,
       "LabelName": "error_code_33022",
       "LabelHash": 1660766245,
       "OriginalText": "사용할 수 없는 문자가 포함되어 있습니다.\n배틀 네임을 변경해 주십시오.",
@@ -2583,7 +2619,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 87,
+      "Index": 86,
       "LabelName": "error_code_34017",
       "LabelHash": 1257481690,
       "OriginalText": "스카우트 기한이 아닙니다.",
@@ -2605,7 +2641,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 88,
+      "Index": 87,
       "LabelName": "error_code_40106",
       "LabelHash": -1654261906,
       "OriginalText": "스카우트 기한이\n지난 포켓몬이 있습니다.",
@@ -2645,7 +2681,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 89,
+      "Index": 88,
       "LabelName": "error_code_50000",
       "LabelHash": -1682404752,
       "OriginalText": "지정된 트레이너 ID가\n존재하지 않습니다.",
@@ -2685,7 +2721,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 90,
+      "Index": 89,
       "LabelName": "error_code_60020",
       "LabelHash": -147753567,
       "OriginalText": "Pokémon HOME의\n유저를 찾지 못했습니다.",
@@ -2725,7 +2761,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 91,
+      "Index": 90,
       "LabelName": "error_code_60900",
       "LabelHash": 1431626802,
       "OriginalText": "Pokémon HOME은\n현재 점검 중입니다.",
@@ -2765,7 +2801,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 92,
+      "Index": 91,
       "LabelName": "error_code_50015",
       "LabelHash": 1853047658,
       "OriginalText": "친구 신청을 보내지 못했습니다.",
@@ -2787,7 +2823,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 93,
+      "Index": 92,
       "LabelName": "error_code_50016",
       "LabelHash": -875835697,
       "OriginalText": "모든 배틀팀이 즐겨찾기에 등록되어\n공개할 수 없습니다.",
@@ -2827,7 +2863,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 94,
+      "Index": 93,
       "LabelName": "error_code_47000",
       "LabelHash": -874543748,
       "OriginalText": "존재하지 않는 메일이 지정되었습니다.",
@@ -2849,7 +2885,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 95,
+      "Index": 94,
       "LabelName": "error_code_33003",
       "LabelHash": -1068117108,
       "OriginalText": "라벨에 사용할 수 없는 문자가 포함되어 있습니다.",
@@ -2871,7 +2907,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 96,
+      "Index": 95,
       "LabelName": "error_code_200001",
       "LabelHash": 221184836,
       "OriginalText": "날짜가 변경되었습니다.\n타이틀 화면으로 돌아갑니다.",
@@ -2911,7 +2947,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 97,
+      "Index": 96,
       "LabelName": "error_code_200002",
       "LabelHash": 221184837,
       "OriginalText": "네트워크에 접속되지 않았습니다.",
@@ -2933,7 +2969,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 98,
+      "Index": 97,
       "LabelName": "error_code_60910",
       "LabelHash": 1431626803,
       "OriginalText": "Pokémon HOME과의 연동 기능은\n현재 점검 중입니다.",
@@ -2973,7 +3009,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 99,
+      "Index": 98,
       "LabelName": "error_code_20999",
       "LabelHash": -199905972,
       "OriginalText": "현재 서버가 혼잡하여\n매칭을 중단했습니다.",
@@ -3013,7 +3049,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 100,
+      "Index": 99,
       "LabelName": "error_code_200003",
       "LabelHash": 221184838,
       "OriginalText": "단말기의 시간 설정을 확인해 주십시오.",
@@ -3035,7 +3071,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 101,
+      "Index": 100,
       "LabelName": "error_code_battle_over",
       "LabelHash": -1252704450,
       "OriginalText": "이미 종료된 배틀입니다.",
@@ -3057,7 +3093,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 102,
+      "Index": 101,
       "LabelName": "error_code_41302",
       "LabelHash": -1015706447,
       "OriginalText": "엔트리 ID가 올바르지 않습니다.",
@@ -3079,7 +3115,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 103,
+      "Index": 102,
       "LabelName": "error_code_10900",
       "LabelHash": 1632881569,
       "OriginalText": "부적절한 생년월입니다.",
@@ -3101,7 +3137,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 104,
+      "Index": 103,
       "LabelName": "error_code_60011",
       "LabelHash": -1713837509,
       "OriginalText": "서로 다른 Pokémon HOME 어카운트에서\n원정 온 포켓몬을 동시에 돌려보낼 수는 없습니다.\n따로 조작해 주십시오.",

@@ -202,7 +202,7 @@
       "Index": 4,
       "LabelName": "rental_poke_appear_04",
       "LabelHash": 1121232557,
-      "OriginalText": "Del {2}/{1}/{0} ({3}:{4}) al {7}/{6}/{5} ({8}:{9})",
+      "OriginalText": "Del {2}/{1}/{0} al {7}/{6}/{5} ({8}:{9})",
       "TextInfos": [
         {
           "Text": "Del ",
@@ -268,49 +268,7 @@
           }
         },
         {
-          "Text": " (",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 1,
-          "TagInfo": {
-            "TagGroupId": 2,
-            "TagId": 1,
-            "Params": [
-              3,
-              205
-            ]
-          }
-        },
-        {
-          "Text": ":",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 1,
-          "TagInfo": {
-            "TagGroupId": 2,
-            "TagId": 1,
-            "Params": [
-              4,
-              205
-            ]
-          }
-        },
-        {
-          "Text": ") al ",
+          "Text": " al ",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1152,13 +1110,57 @@
       "StyleCode": 65
     },
     {
-      "Index": 18,
+      "Index": 17,
+      "LabelName": "rental_poke_appear_19",
+      "LabelHash": -444851379,
+      "OriginalText": "Período: ilimitado",
+      "TextInfos": [
+        {
+          "Text": "Período: ilimitado",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 19,
       "LabelName": "rental_poke_appear_reg_ma",
       "LabelHash": -841467416,
       "OriginalText": "M-A",
       "TextInfos": [
         {
           "Text": "M-A",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 20,
+      "LabelName": "rental_poke_appear_reg_mb",
+      "LabelHash": -841467415,
+      "OriginalText": "M-B",
+      "TextInfos": [
+        {
+          "Text": "M-B",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

@@ -1915,9 +1915,9 @@
     },
     {
       "Index": 30,
-      "LabelName": "help_01_03_01",
-      "LabelHash": -1496258179,
-      "OriginalText": "Trainers can join a room by entering the correct Room ID.\n\nYou can also send invitations to your friends so that those\nfriends can enter your room without needing to input the ID.",
+      "LabelName": "help_01_03_01_00",
+      "LabelHash": 661768736,
+      "OriginalText": "Trainers can join a room by entering the correct Room ID.",
       "TextInfos": [
         {
           "Text": "Trainers can join a room by ",
@@ -1973,27 +1973,22 @@
             "TagId": 0,
             "Params": []
           }
-        },
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 31,
+      "LabelName": "help_01_03_01_01",
+      "LabelHash": -904315205,
+      "OriginalText": "You can send invitations to friends, which will allow them\nto join your room directly without needing to know the ID.",
+      "TextInfos": [
         {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "You can also ",
+          "Text": "You can ",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2016,7 +2011,7 @@
           }
         },
         {
-          "Text": "send invitations to your friends",
+          "Text": "send invitations to friends",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2039,7 +2034,7 @@
           }
         },
         {
-          "Text": " so that those",
+          "Text": ", which will allow them",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2057,7 +2052,7 @@
           }
         },
         {
-          "Text": "friends can enter your room without needing to input the ID.",
+          "Text": "to join your room directly without needing to know the ID.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2073,7 +2068,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 31,
+      "Index": 32,
       "LabelName": "help_01_03_02",
       "LabelHash": -1496258178,
       "OriginalText": "Once you’re in the room, you can choose to battle or to\nspectate if you’d rather just watch the battles taking place.",
@@ -2150,7 +2145,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 32,
+      "Index": 33,
       "LabelName": "help_01_02",
       "LabelHash": 320787072,
       "OriginalText": "Single Battles",
@@ -2172,7 +2167,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 33,
+      "Index": 34,
       "LabelName": "help_01_02_00",
       "LabelHash": 1494747201,
       "OriginalText": "In Single Battles, you and an opponent will each send out\none Pokémon at a time to do battle. Victory will go to the\nTrainer who first defeats all of their opponent’s Pokémon.",
@@ -2313,7 +2308,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 34,
+      "Index": 35,
       "LabelName": "help_01_02_01",
       "LabelHash": 1494747202,
       "OriginalText": "Check out the battle tutorial on Single Battles to learn\nmore about them through a hands-on demonstration.",
@@ -2399,7 +2394,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 35,
+      "Index": 36,
       "LabelName": "help_01_04",
       "LabelHash": 1483586486,
       "OriginalText": "Double Battles",
@@ -2421,7 +2416,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 36,
+      "Index": 37,
       "LabelName": "help_01_04_00",
       "LabelHash": 1212422199,
       "OriginalText": "In Double Battles, you and an opponent will each send out\ntwo Pokémon at a time to do battle. Victory will go to the\nTrainer who first defeats all of their opponent’s Pokémon.",
@@ -2562,7 +2557,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 37,
+      "Index": 38,
       "LabelName": "help_01_04_01",
       "LabelHash": 1212422200,
       "OriginalText": "The same basic elements that are at play in a Single Battle\nstill apply, but in a Double Battle, you will need to\nselect actions for two Pokémon each turn.\n\nThere are also certain moves better suited to Double Battles,\nsuch as moves that can hit multiple Pokémon at once, so you’ll\nwant to learn how to tailor your strategy to this format.",
@@ -2720,7 +2715,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 38,
+      "Index": 39,
       "LabelName": "help_01_04_02",
       "LabelHash": 1212422201,
       "OriginalText": "Check out the battle tutorial on Double Battles to learn\nmore about them through a hands-on demonstration.",
@@ -2806,7 +2801,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 39,
+      "Index": 40,
       "LabelName": "help_01_05",
       "LabelHash": -82497455,
       "OriginalText": "Ranks",
@@ -2828,7 +2823,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 40,
+      "Index": 41,
       "LabelName": "help_01_05_00",
       "LabelHash": -1778583182,
       "OriginalText": "Your wins and losses in Ranked Battles will\ncause you to move up and down the ranks.",
@@ -2960,7 +2955,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 41,
+      "Index": 42,
       "LabelName": "help_01_05_01",
       "LabelHash": -1778583181,
       "OriginalText": "Ranks are grouped into different tiers, as below.\n ・ The Beginner Tier (only a single rank)\n ・ The Poké Ball Tier (from rank 4 to 1)\n ・ The Great Ball Tier (from rank 4 to 1)\n ・ The Ultra Ball Tier (from rank 4 to 1)\n ・ The Master Ball Tier (from rank 4 to 1)\nIf you reach the Master Ball Tier, you’ll compete with other\nTrainers for your final placement, which is based on your rating.",
@@ -3182,7 +3177,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 42,
+      "Index": 43,
       "LabelName": "help_01_05_02",
       "LabelHash": -1778583180,
       "OriginalText": "Finally, if you exceed a certain placement in the\nMaster Ball Tier, you’ll enter the Champion Tier.",
@@ -3268,7 +3263,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 43,
+      "Index": 44,
       "LabelName": "help_01_05_03",
       "LabelHash": -1778583179,
       "OriginalText": "Depending on how well you did in the previous season,\nyou may even receive a performance bonus that will\nmake it easier to climb the ranks in the new season.",
@@ -3372,7 +3367,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 44,
+      "Index": 45,
       "LabelName": "help_01_06",
       "LabelHash": -1648581396,
       "OriginalText": "Seasons",
@@ -3394,7 +3389,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 45,
+      "Index": 46,
       "LabelName": "help_01_06_00",
       "LabelHash": 930097197,
       "OriginalText": "Ranked Battles take place during set periods known as seasons.",
@@ -3462,7 +3457,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 46,
+      "Index": 47,
       "LabelName": "help_01_06_01",
       "LabelHash": 930097198,
       "OriginalText": "When a season ends, you can receive rewards based on\nthe rank you reached or the placement you achieved.",
@@ -3576,10 +3571,10 @@
       "StyleCode": 69
     },
     {
-      "Index": 47,
+      "Index": 48,
       "LabelName": "help_01_06_02",
       "LabelHash": 930097199,
-      "OriginalText": "When a new season begins, your results will be reset\nand you will start again from the Poké Ball Tier.\n\nThe regulations also change each season, so you’ll\nwant to check all the details in the News.",
+      "OriginalText": "When a new season begins, your results will be reset\nand you will start again from the Poké Ball Tier.\n\nCheck the News for more information about the regulations\nfor each season.",
       "TextInfos": [
         {
           "Text": "When a new season begins, your results will be reset",
@@ -3627,25 +3622,7 @@
           }
         },
         {
-          "Text": "The regulations also change each season, so you’ll",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "want to check all the details in the ",
+          "Text": "Check the ",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3691,7 +3668,25 @@
           }
         },
         {
-          "Text": ".",
+          "Text": " for more information about the regulations",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "for each season.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3707,7 +3702,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 48,
+      "Index": 49,
       "LabelName": "help_01_07",
       "LabelHash": 1080301959,
       "OriginalText": "Regulations",
@@ -3729,7 +3724,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 49,
+      "Index": 50,
       "LabelName": "help_01_07_00",
       "LabelHash": -2060908184,
       "OriginalText": "Regulations are the rules that govern things like which\nPokémon species and held items are allowed in battle.",
@@ -3843,7 +3838,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 50,
+      "Index": 51,
       "LabelName": "help_01_08",
       "LabelHash": -485781982,
       "OriginalText": "Online Competitions",
@@ -3865,7 +3860,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 51,
+      "Index": 52,
       "LabelName": "help_01_08_00",
       "LabelHash": 647772195,
       "OriginalText": "With Online Competitions, you can take part in all kinds of\nopportunities to battle others.\n\nSome competitions offer special rewards too!",
@@ -3978,7 +3973,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 52,
+      "Index": 53,
       "LabelName": "help_01_08_01",
       "LabelHash": 647772196,
       "OriginalText": "To take part in Online Competitions, you’ll need to\nenter the competition in advance.\n\nOnce you’ve entered a competition, you’ll be able to\nbattle your fellow entrants for the length of the event\nperiod.",
@@ -4155,7 +4150,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 53,
+      "Index": 54,
       "LabelName": "help_01_08_02",
       "LabelHash": 647772197,
       "OriginalText": "Use the Check Rules button when viewing a competition to\nlearn more about the rules governing that competition.",
@@ -4241,7 +4236,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 54,
+      "Index": 55,
       "LabelName": "help_01_09",
       "LabelHash": -2051865923,
       "OriginalText": "Battle Data",
@@ -4263,7 +4258,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 55,
+      "Index": 56,
       "LabelName": "help_01_09_00",
       "LabelHash": 1951734110,
       "OriginalText": "With the Battle Data feature, you can check the results\nof competitions and Ranked Battles seasons.",
@@ -4349,7 +4344,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 56,
+      "Index": 57,
       "LabelName": "help_01_09_01",
       "LabelHash": 1951734111,
       "OriginalText": "For each season or competition, you’ll be able to view:\n ・ Rankings of all the Trainers who took part\n ・ Rankings of your friends who took part\n ・ Rankings of the Pokémon that were used the most",
@@ -4536,7 +4531,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 57,
+      "Index": 58,
       "LabelName": "help_01_09_02",
       "LabelHash": 1951734112,
       "OriginalText": "You can also check the results of past competitions\nand Ranked Battles seasons there.",
@@ -4576,7 +4571,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 58,
+      "Index": 59,
       "LabelName": "help_02",
       "LabelHash": 487112844,
       "OriginalText": "Mechanics",
@@ -4598,7 +4593,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 59,
+      "Index": 60,
       "LabelName": "help_02_00",
       "LabelHash": -842012377,
       "OriginalText": "Mega Evolution",
@@ -4620,7 +4615,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 60,
+      "Index": 61,
       "LabelName": "help_02_00_00",
       "LabelHash": 1777034350,
       "OriginalText": "Certain Pokémon are able to Mega Evolve during battles.\n\nMega-Evolved Pokémon have their stats greatly increased\nand their types or Abilities may also change.",
@@ -4733,7 +4728,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 61,
+      "Index": 62,
       "LabelName": "help_02_00_01",
       "LabelHash": 1777034349,
       "OriginalText": "In order to Mega Evolve, a Pokémon must be holding\na Mega Stone that’s specific to its species.\n\nIt is only possible to trigger Mega Evolution once per battle.",
@@ -4846,7 +4841,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 62,
+      "Index": 63,
       "LabelName": "help_02_00_02",
       "LabelHash": 1777034348,
       "OriginalText": "Check out the battle tutorial on Mega Evolution to learn\nmore about it through a hands-on demonstration.",
@@ -4932,7 +4927,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 63,
+      "Index": 64,
       "LabelName": "help_03",
       "LabelHash": 487112845,
       "OriginalText": "Your Box",
@@ -4954,7 +4949,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 64,
+      "Index": 65,
       "LabelName": "help_03_00",
       "LabelHash": -842012408,
       "OriginalText": "Building Battle Teams",
@@ -4976,7 +4971,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 65,
+      "Index": 66,
       "LabelName": "help_03_00_00",
       "LabelHash": 1777000461,
       "OriginalText": "Within your Box, you can build Battle Teams.",
@@ -5044,7 +5039,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 66,
+      "Index": 67,
       "LabelName": "help_03_00_01",
       "LabelHash": 1777000462,
       "OriginalText": "You cannot put two of the same species of Pokémon in\na Battle Team.\n\nAnd you must have six Pokémon total on a Battle Team\nin order to take part in battles.",
@@ -5129,7 +5124,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 67,
+      "Index": 68,
       "LabelName": "help_03_01",
       "LabelHash": 1886870947,
       "OriginalText": "Auto Team Build",
@@ -5151,7 +5146,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 68,
+      "Index": 69,
       "LabelName": "help_03_01_00",
       "LabelHash": -1214004920,
       "OriginalText": "If you use Auto Team Build, a balanced team will be\ncreated for you automatically, using the Pokémon and\nheld items that you have available.",
@@ -5255,7 +5250,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 69,
+      "Index": 70,
       "LabelName": "help_03_01_01",
       "LabelHash": -1214004919,
       "OriginalText": "The team will not include any Pokémon or held items\nthat are not allowed in the current Ranked Battles season.",
@@ -5341,7 +5336,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 70,
+      "Index": 71,
       "LabelName": "help_03_02",
       "LabelHash": 320787006,
       "OriginalText": "Limits on Your Box & Battle Teams",
@@ -5363,7 +5358,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 71,
+      "Index": 72,
       "LabelName": "help_03_02_00",
       "LabelHash": 1494675459,
       "OriginalText": "When you first begin playing the game, your Box will only\nbe able to hold a maximum of 30 Pokémon. This limit can be\nexpanded by either reaching a higher rank in Ranked Battles or\npurchasing a membership.",
@@ -5559,7 +5554,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 72,
+      "Index": 73,
       "LabelName": "help_03_02_01",
       "LabelHash": 1494675460,
       "OriginalText": "You can have up to three Battle Teams at one time.\nIf you purchase a membership, you’ll instead be able\nto have a maximum of 18 Battle Teams.",
@@ -5709,7 +5704,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 73,
+      "Index": 74,
       "LabelName": "help_03_02_02",
       "LabelHash": 1494675457,
       "OriginalText": "For more details, check out the section titled Other,\nand within it, find the subsection on Membership.",
@@ -5841,7 +5836,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 74,
+      "Index": 75,
       "LabelName": "help_03_03",
       "LabelHash": -1245296935,
       "OriginalText": "Held Items",
@@ -5863,7 +5858,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 75,
+      "Index": 76,
       "LabelName": "help_03_03_00",
       "LabelHash": -1496329922,
       "OriginalText": "Giving held items to your Pokémon can cause a variety\nof effects to occur during battle.\n\nWhile building your Battle Teams, you’ll be able to\ngive each Pokémon a single item to hold.",
@@ -6040,7 +6035,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 76,
+      "Index": 77,
       "LabelName": "help_03_03_01",
       "LabelHash": -1496329921,
       "OriginalText": "Note that you cannot give the same held item to more than\none Pokémon on the same Battle Team.",
@@ -6080,7 +6075,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 77,
+      "Index": 78,
       "LabelName": "help_03_04",
       "LabelHash": 1483586420,
       "OriginalText": "Favorites",
@@ -6102,7 +6097,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 78,
+      "Index": 79,
       "LabelName": "help_03_04_00",
       "LabelHash": 1212350457,
       "OriginalText": "Pokémon can be favorited.",
@@ -6170,7 +6165,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 79,
+      "Index": 80,
       "LabelName": "help_03_04_01",
       "LabelHash": 1212350458,
       "OriginalText": "Favoriting a Pokémon will help you prevent it from\nbeing accidentally returned to Roster Ranch.",
@@ -6210,7 +6205,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 80,
+      "Index": 81,
       "LabelName": "help_03_05",
       "LabelHash": -82497521,
       "OriginalText": "Labels",
@@ -6232,7 +6227,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 81,
+      "Index": 82,
       "LabelName": "help_03_05_00",
       "LabelHash": -1778654924,
       "OriginalText": "Pokémon can be given labels.",
@@ -6300,7 +6295,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 82,
+      "Index": 83,
       "LabelName": "help_03_05_01",
       "LabelHash": -1778654923,
       "OriginalText": "The following elements of a label are customizable.\n ・ Name\n ・ Icon\n ・ Color",
@@ -6460,7 +6455,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 83,
+      "Index": 84,
       "LabelName": "help_03_06",
       "LabelHash": -1648581462,
       "OriginalText": "Sorting",
@@ -6482,7 +6477,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 84,
+      "Index": 85,
       "LabelName": "help_03_06_00",
       "LabelHash": 930025455,
       "OriginalText": "The Sort function makes it possible to reorder your Pokémon\nby the date you acquired them, their Pokédex number, their\nspecies name, or how recently you’ve used them.",
@@ -6586,7 +6581,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 85,
+      "Index": 86,
       "LabelName": "help_03_07",
       "LabelHash": 1080301893,
       "OriginalText": "Filtering",
@@ -6608,7 +6603,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 86,
+      "Index": 87,
       "LabelName": "help_03_07_00",
       "LabelHash": -2060979926,
       "OriginalText": "The Filter function lets you narrow down your Pokémon\nby parameters such as their species name, type,\nor whether they’ve been favorited or labeled.",
@@ -6712,7 +6707,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 87,
+      "Index": 88,
       "LabelName": "help_04",
       "LabelHash": 487112842,
       "OriginalText": "Training",
@@ -6734,7 +6729,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 88,
+      "Index": 89,
       "LabelName": "help_04_00",
       "LabelHash": -842012443,
       "OriginalText": "Training Overview",
@@ -6756,7 +6751,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 89,
+      "Index": 90,
       "LabelName": "help_04_00_00",
       "LabelHash": 1776962608,
       "OriginalText": "With the Training feature, you can change your Pokémon’s\nstat points, stat alignments, moves, Abilities, and more.",
@@ -7017,7 +7012,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 90,
+      "Index": 91,
       "LabelName": "help_04_01",
       "LabelHash": 1886870912,
       "OriginalText": "Stat Points",
@@ -7039,7 +7034,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 91,
+      "Index": 92,
       "LabelName": "help_04_01_00",
       "LabelHash": -1214042773,
       "OriginalText": "You can change your Pokémon’s stats by\ndistributing what are known as stat points.",
@@ -7125,7 +7120,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 92,
+      "Index": 93,
       "LabelName": "help_04_01_01",
       "LabelHash": -1214042774,
       "OriginalText": "Each stat can be given 32 stat points at most.\n\nIn total, 66 stat points are available to be distributed\nacross all the stats of a single Pokémon.",
@@ -7284,7 +7279,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 93,
+      "Index": 94,
       "LabelName": "help_04_02",
       "LabelHash": 320786971,
       "OriginalText": "Stat Alignment",
@@ -7306,7 +7301,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 94,
+      "Index": 95,
       "LabelName": "help_04_02_00",
       "LabelHash": 1494637606,
       "OriginalText": "Stat alignments typically raise one stat and lower another.",
@@ -7365,7 +7360,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 95,
+      "Index": 96,
       "LabelName": "help_04_02_01",
       "LabelHash": 1494637605,
       "OriginalText": "The raised stat will be increased by 10%, while the\nlowered stat will be decreased by 10%.",
@@ -7497,7 +7492,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 96,
+      "Index": 97,
       "LabelName": "help_04_03",
       "LabelHash": -1245296970,
       "OriginalText": "Moves",
@@ -7519,7 +7514,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 97,
+      "Index": 98,
       "LabelName": "help_04_03_00",
       "LabelHash": -1496367775,
       "OriginalText": "Each Pokémon can learn up to four moves.",
@@ -7587,7 +7582,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 98,
+      "Index": 99,
       "LabelName": "help_04_03_01",
       "LabelHash": -1496367776,
       "OriginalText": "Select an empty move slot or a move that you want to replace,\nand then select the move you want your Pokémon to learn.\n\nYou can also have your Pokémon forget moves.",
@@ -7700,7 +7695,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 99,
+      "Index": 100,
       "LabelName": "help_04_04",
       "LabelHash": 1483586385,
       "OriginalText": "Abilities",
@@ -7722,7 +7717,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 100,
+      "Index": 101,
       "LabelName": "help_04_04_00",
       "LabelHash": 1212312604,
       "OriginalText": "Pokémon have Abilities, which can cause a variety\nof effects to occur during battle.\n\nOnly one Ability can be selected for each Pokémon.",
@@ -7835,7 +7830,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 101,
+      "Index": 102,
       "LabelName": "help_04_05",
       "LabelHash": -82497556,
       "OriginalText": "Replica Teams",
@@ -7857,7 +7852,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 102,
+      "Index": 103,
       "LabelName": "help_04_05_00",
       "LabelHash": -1778692777,
       "OriginalText": "With the Replica Team feature, you can input the Team ID\nof a team that has been shared, and a Battle Team based\non that team will be automatically created for you.",
@@ -7961,7 +7956,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 103,
+      "Index": 104,
       "LabelName": "help_04_05_01",
       "LabelHash": -1778692778,
       "OriginalText": "Your Pokémon can be trained up all at once in order to\ngive them the same stat points, stat alignments, moves,\nand Abilities as the Pokémon in the shared team.",
@@ -8065,7 +8060,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 104,
+      "Index": 105,
       "LabelName": "help_04_05_02",
       "LabelHash": -1778692775,
       "OriginalText": "Even if you don’t have all the Pokémon needed to replicate\na particular team, training can still be carried out on the\nPokémon that you do have.",
@@ -8169,7 +8164,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 105,
+      "Index": 106,
       "LabelName": "help_04_05_03",
       "LabelHash": -1778692776,
       "OriginalText": "You can also share Battle Teams that you’ve created.",
@@ -8191,7 +8186,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 106,
+      "Index": 107,
       "LabelName": "help_04_06",
       "LabelHash": -1648581497,
       "OriginalText": "Battle Tutorials",
@@ -8213,7 +8208,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 107,
+      "Index": 108,
       "LabelName": "help_04_06_00",
       "LabelHash": 929987602,
       "OriginalText": "In the battle tutorials, you’ll learn the basics of Pokémon\nbattling as you’re led step-by-step through hands-on\ndemonstrations of a variety of topics.",
@@ -8391,7 +8386,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 108,
+      "Index": 109,
       "LabelName": "help_04_06_01",
       "LabelHash": 929987601,
       "OriginalText": "You’ll receive a reward the first time you complete each\ntutorial, so definitely consider checking them out!",
@@ -8505,7 +8500,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 109,
+      "Index": 110,
       "LabelName": "help_05",
       "LabelHash": 487112843,
       "OriginalText": "Recruiting",
@@ -8527,7 +8522,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 110,
+      "Index": 111,
       "LabelName": "help_05_00",
       "LabelHash": -842012474,
       "OriginalText": "Recruiting Pokémon",
@@ -8549,7 +8544,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 111,
+      "Index": 112,
       "LabelName": "help_05_00_00",
       "LabelHash": 1776928719,
       "OriginalText": "You can gain new Pokémon for your teams\nby recruiting them from available lineups.",
@@ -8635,7 +8630,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 112,
+      "Index": 113,
       "LabelName": "help_05_00_01",
       "LabelHash": 1776928720,
       "OriginalText": "You’ll be able to meet a new lineup of Pokémon\nfor 0 VP every 22 hours. Then you can pick one\nPokémon from that lineup to recruit.",
@@ -8730,7 +8725,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 113,
+      "Index": 114,
       "LabelName": "help_05_00_02",
       "LabelHash": 1776928721,
       "OriginalText": "You can also use VP or Quick Coupons to reduce the time\nyou have to wait before you can recruit another Pokémon.",
@@ -8844,7 +8839,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 114,
+      "Index": 115,
       "LabelName": "help_05_00_03",
       "LabelHash": 1776928722,
       "OriginalText": "There are some Pokémon that can only be recruited once.\nYou won’t be able to meet these Pokémon again in a future\nlineup even if you return them to Roster Ranch, so make sure\nyou’re absolutely certain about returning them before doing so.",
@@ -8920,7 +8915,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 115,
+      "Index": 116,
       "LabelName": "help_05_01",
       "LabelHash": 1886870881,
       "OriginalText": "Pokémon Rosters",
@@ -8942,7 +8937,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 116,
+      "Index": 117,
       "LabelName": "help_05_01_00",
       "LabelHash": -1214076662,
       "OriginalText": "Each roster contains a different variety of Pokémon.\nYou can meet these Pokémon via lineups, which are\nsmaller groups selected at random from the roster.",
@@ -9046,7 +9041,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 117,
+      "Index": 118,
       "LabelName": "help_05_01_01",
       "LabelHash": -1214076661,
       "OriginalText": "Note that some rosters will allow you to recruit\nPokémon using tickets instead of VP.",
@@ -9132,7 +9127,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 118,
+      "Index": 119,
       "LabelName": "help_05_02",
       "LabelHash": 320786940,
       "OriginalText": "Different Ways to Recruit",
@@ -9154,7 +9149,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 119,
+      "Index": 120,
       "LabelName": "help_05_02_00",
       "LabelHash": 1494603717,
       "OriginalText": "There are two ways to recruit a Pokémon:\ntrial recruitment and permanent recruitment.",
@@ -9277,7 +9272,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 120,
+      "Index": 121,
       "LabelName": "help_05_02_01",
       "LabelHash": 1494603718,
       "OriginalText": "You can recruit Pokémon on a trial basis for 0 VP, but this\ncomes with certain restrictions. For example, you won’t be\nable to train Pokémon recruited this way, and you can only\nadd them to your Battle Teams for a limited time.",
@@ -9445,7 +9440,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 121,
+      "Index": 122,
       "LabelName": "help_05_02_02",
       "LabelHash": 1494603719,
       "OriginalText": "Recruiting Pokémon permanently means spending VP, but\nthese Pokémon will be free from any restrictions. You’ll be\nable to train permanently recruited Pokémon, and you can\nadd them to Battle Teams for as long as you like.",
@@ -9613,7 +9608,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 122,
+      "Index": 123,
       "LabelName": "help_05_03",
       "LabelHash": -1245297001,
       "OriginalText": "Returning Pokémon",
@@ -9635,7 +9630,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 123,
+      "Index": 124,
       "LabelName": "help_05_03_00",
       "LabelHash": -1496401664,
       "OriginalText": "The Pokémon you recruit can be returned to Roster Ranch.\n\nOnce a Pokémon has been returned, you cannot get it back!",
@@ -9758,7 +9753,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 124,
+      "Index": 125,
       "LabelName": "help_05_03_01",
       "LabelHash": -1496401663,
       "OriginalText": "You can return up to 30 Pokémon at one time.\n\nAny items held by Pokémon will be removed\nwhen you return them to Roster Ranch.",
@@ -9871,7 +9866,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 125,
+      "Index": 126,
       "LabelName": "help_05_04",
       "LabelHash": 1483586354,
       "OriginalText": "Linking to Pokémon HOME",
@@ -9893,7 +9888,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 126,
+      "Index": 127,
       "LabelName": "help_05_04_00",
       "LabelHash": 1212278715,
       "OriginalText": "The Pokémon you have in Pokémon HOME can be sent to\nPokémon Champions as visitors.",
@@ -9979,7 +9974,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 127,
+      "Index": 128,
       "LabelName": "help_05_04_01",
       "LabelHash": 1212278716,
       "OriginalText": "When you collect a Pokémon that is visiting this game from\nPokémon HOME for the first time, that Pokémon’s current\nstrength will be used to determine its strength in Pokémon\nChampions.\nNote: ”Strength” in Pokémon Champions refers to a Pokémon’s\nstat points, stat alignment, moves, Ability, and other such things.",
@@ -10147,7 +10142,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 128,
+      "Index": 129,
       "LabelName": "help_05_04_02",
       "LabelHash": 1212278717,
       "OriginalText": "If a Pokémon knows moves that cannot be used in Pokémon\nChampions, you’ll need to change those moves via training.",
@@ -10187,7 +10182,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 129,
+      "Index": 130,
       "LabelName": "help_05_04_03",
       "LabelHash": 1212278718,
       "OriginalText": "Pokémon you’ve brought over to visit from Pokémon HOME\ncan be sent back to Pokémon HOME.",
@@ -10264,7 +10259,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 130,
+      "Index": 131,
       "LabelName": "help_05_04_04",
       "LabelHash": 1212278711,
       "OriginalText": "Training done here won’t carry over to Pokémon HOME, but\nif the same Pokémon visit Pokémon Champions again, their\nstrength from the last time they visited will be retained, and\nany titles they received in Pokémon Champions will be saved.",
@@ -10442,7 +10437,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 131,
+      "Index": 132,
       "LabelName": "help_05_04_05",
       "LabelHash": 1212278712,
       "OriginalText": "If a Pokémon is sent back to Pokémon HOME and its strength\nis changed in a different game, this new strength will not carry\nover into Pokémon Champions even if the Pokémon visits this\ngame again. However, any titles that a Pokémon newly receives\nin other games will carry over into Pokémon Champions.",
@@ -10638,7 +10633,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 132,
+      "Index": 133,
       "LabelName": "help_05_04_06",
       "LabelHash": 1212278713,
       "OriginalText": "Note that if a Pokémon is sent back to Pokémon HOME and\nthen returns to visit Pokémon Champions in a different form,\nthe results of any training that Pokémon had undergone in\nPokémon Champions will be lost.\nNote: Any titles received in Pokémon Champions will be saved.",
@@ -10898,7 +10893,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 133,
+      "Index": 134,
       "LabelName": "help_05_05",
       "LabelHash": -82497587,
       "OriginalText": "Sending Pokémon Back to Pokémon HOME",
@@ -10920,7 +10915,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 134,
+      "Index": 135,
       "LabelName": "help_05_05_00",
       "LabelHash": -1778726666,
       "OriginalText": "Pokémon you’ve brought over to visit from Pokémon HOME\ncan be sent back to Pokémon HOME at any time.",
@@ -10997,7 +10992,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 135,
+      "Index": 136,
       "LabelName": "help_05_05_01",
       "LabelHash": -1778726665,
       "OriginalText": "Training done here won’t carry over to Pokémon HOME, but if\nthe same Pokémon visit Pokémon Champions again, any training\nthey received here will be saved.",
@@ -11147,7 +11142,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 136,
+      "Index": 137,
       "LabelName": "help_05_05_02",
       "LabelHash": -1778726664,
       "OriginalText": "Note that if a Pokémon leaves Pokémon Champions and then\nreturns in a different form, the results of any training that\nPokémon had undergone in Pokémon Champions will be lost.",
@@ -11279,7 +11274,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 137,
+      "Index": 138,
       "LabelName": "help_06",
       "LabelHash": 487112840,
       "OriginalText": "The Shop and Style Screens",
@@ -11301,7 +11296,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 138,
+      "Index": 139,
       "LabelName": "help_06_00",
       "LabelHash": -842012509,
       "OriginalText": "The Shop Screen",
@@ -11323,7 +11318,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 139,
+      "Index": 140,
       "LabelName": "help_06_00_00",
       "LabelHash": 1776890866,
       "OriginalText": "The Shop screen is divided into two sections:\nthe Premium Shop and the Frontier Shop.",
@@ -11455,7 +11450,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 140,
+      "Index": 141,
       "LabelName": "help_06_00_01",
       "LabelHash": 1776890865,
       "OriginalText": "In the Premium Shop, you can purchase memberships\nand Premium Battle Passes.\n\nIn the Frontier Shop, you can exchange your VP for\nheld items, new clothes, poses, and more.",
@@ -11752,7 +11747,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 141,
+      "Index": 142,
       "LabelName": "help_06_01",
       "LabelHash": 1886870846,
       "OriginalText": "The Style Screen",
@@ -11774,7 +11769,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 142,
+      "Index": 143,
       "LabelName": "help_06_01_00",
       "LabelHash": -1214114515,
       "OriginalText": "On the Style screen, you can change your clothing,\nyour hair and cosmetics, the pose you strike when\nentering battle, and more.",
@@ -11878,7 +11873,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 143,
+      "Index": 144,
       "LabelName": "help_06_01_01",
       "LabelHash": -1214114516,
       "OriginalText": "Put together a combination that’s all your own,\nthen save it as a preset style.",
@@ -11964,7 +11959,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 144,
+      "Index": 145,
       "LabelName": "help_06_02",
       "LabelHash": 320786905,
       "OriginalText": "Wardrobe and Hair & Cosmetics",
@@ -11986,7 +11981,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 145,
+      "Index": 146,
       "LabelName": "help_06_02_00",
       "LabelHash": 1494565864,
       "OriginalText": "On the Style screen, you’ll find a wardrobe where you can\nchange up your clothes and accessories, and you’ll find hair\nand cosmetics options such as hairstyles and color contacts.",
@@ -12164,7 +12159,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 146,
+      "Index": 147,
       "LabelName": "help_06_03",
       "LabelHash": -1245297036,
       "OriginalText": "Throwing Styles, Pre-Battle Poses, and Victory Poses",
@@ -12186,7 +12181,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 147,
+      "Index": 148,
       "LabelName": "help_06_03_00",
       "LabelHash": -1496439517,
       "OriginalText": "These options let you choose how you throw your\nPoké Balls in battles, as well as the poses you strike\nwhen entering or winning battles.",
@@ -12410,7 +12405,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 148,
+      "Index": 149,
       "LabelName": "help_06_04",
       "LabelHash": 1483586319,
       "OriginalText": "Your Profile",
@@ -12432,7 +12427,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 149,
+      "Index": 150,
       "LabelName": "help_06_04_00",
       "LabelHash": 1212240862,
       "OriginalText": "On your Profile screen, you can view information such as\nyour Trainer ID and gameplay stats. You can also change up\nyour badges, your Trainer icon, and your title.",
@@ -12766,7 +12761,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 150,
+      "Index": 151,
       "LabelName": "help_06_04_01",
       "LabelHash": 1212240861,
       "OriginalText": "Each Trainer’s profile can be viewed by other Trainers.\n\nYou can choose how much information to make public\nfrom the game’s Settings screen.",
@@ -12916,7 +12911,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 151,
+      "Index": 152,
       "LabelName": "help_06_05",
       "LabelHash": -82497622,
       "OriginalText": "Badges, Titles, and Trainer Icons",
@@ -12938,7 +12933,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 152,
+      "Index": 153,
       "LabelName": "help_06_05_00",
       "LabelHash": -1778764519,
       "OriginalText": "Badges, titles, and Trainer icons can be earned by\nfulfilling certain conditions.",
@@ -13107,7 +13102,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 153,
+      "Index": 154,
       "LabelName": "help_06_05_01",
       "LabelHash": -1778764520,
       "OriginalText": "You can select up to three badges to display at a time.\n\nAs for titles and Trainer icons, you can select just one.",
@@ -13248,7 +13243,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 154,
+      "Index": 155,
       "LabelName": "help_06_06",
       "LabelHash": -1648581563,
       "OriginalText": "Blocking Others",
@@ -13270,7 +13265,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 155,
+      "Index": 156,
       "LabelName": "help_06_06_00",
       "LabelHash": 929915860,
       "OriginalText": "You can block other Trainers when viewing their profile.",
@@ -13292,7 +13287,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 156,
+      "Index": 157,
       "LabelName": "help_06_06_01",
       "LabelHash": 929915859,
       "OriginalText": "When you block a Trainer, they’ll no longer be able to join\nany rooms you create for Private Battles.",
@@ -13332,7 +13327,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 157,
+      "Index": 158,
       "LabelName": "help_06_06_02",
       "LabelHash": 929915858,
       "OriginalText": "The other Trainer will not be notified that you have blocked\nthem, nor will they be able to see that you have done so.",
@@ -13372,7 +13367,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 158,
+      "Index": 159,
       "LabelName": "help_06_07",
       "LabelHash": 1080301792,
       "OriginalText": "Achievements",
@@ -13394,7 +13389,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 159,
+      "Index": 160,
       "LabelName": "help_06_07_00",
       "LabelHash": -2061089521,
       "OriginalText": "There are two different kinds of achievements:\nTrainer achievements and Pokémon achievements.",
@@ -13517,7 +13512,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 160,
+      "Index": 161,
       "LabelName": "help_06_07_01",
       "LabelHash": -2061089522,
       "OriginalText": "Fulfilling the conditions of these achievements\nwill earn you a variety of rewards.",
@@ -13603,7 +13598,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 161,
+      "Index": 162,
       "LabelName": "help_06_07_02",
       "LabelHash": -2061089523,
       "OriginalText": "Trainer achievements are unlocked by your progress\nin areas such as battling and training.",
@@ -13717,7 +13712,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 162,
+      "Index": 163,
       "LabelName": "help_06_07_03",
       "LabelHash": -2061089524,
       "OriginalText": "Pokémon achievements are unlocked by winning battles\nwhen using certain Pokémon.",
@@ -13803,7 +13798,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 163,
+      "Index": 164,
       "LabelName": "help_07",
       "LabelHash": 487112841,
       "OriginalText": "Battle Passes and Cordy’s Missions",
@@ -13825,7 +13820,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 164,
+      "Index": 165,
       "LabelName": "help_07_00",
       "LabelHash": -842012540,
       "OriginalText": "Battle Passes",
@@ -13847,7 +13842,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 165,
+      "Index": 166,
       "LabelName": "help_07_00_00",
       "LabelHash": 1776856977,
       "OriginalText": "A Battle Pass allows you to obtain rewards as you\naccumulate Season Points (SP).\n\nYou can earn SP by taking part in Ranked Battles,\namong other things.",
@@ -14070,7 +14065,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 166,
+      "Index": 167,
       "LabelName": "help_07_00_01",
       "LabelHash": 1776856978,
       "OriginalText": "Each Battle Pass is valid for a certain period of time. New Battle\nPasses become available with each new Ranked Battles season.",
@@ -14110,7 +14105,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 167,
+      "Index": 168,
       "LabelName": "help_07_01",
       "LabelHash": 1886870815,
       "OriginalText": "Premium Battle Passes",
@@ -14132,7 +14127,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 168,
+      "Index": 169,
       "LabelName": "help_07_01_00",
       "LabelHash": -1214148404,
       "OriginalText": "There are two varieties of Battle Pass: a regular\nBattle Pass and a Premium Battle Pass.\n\nWith a Premium Battle Pass, you can obtain rewards\nthat you cannot get with a regular Battle Pass.",
@@ -14337,7 +14332,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 169,
+      "Index": 170,
       "LabelName": "help_07_01_01",
       "LabelHash": -1214148403,
       "OriginalText": "Premium Battle Passes can be purchased in the\nPremium Shop.\n\nIf you purchase a Premium Battle Pass, you’ll receive\nthe Premium Battle Pass rewards for all the Battle Pass\nlevels you’ve already attained.",
@@ -14514,7 +14509,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 170,
+      "Index": 171,
       "LabelName": "help_07_01_02",
       "LabelHash": -1214148406,
       "OriginalText": "Battle Passes and Premium Battle Passes are both valid for the\nsame period of time between fixed dates.\n\nIf you purchase a Premium Battle Pass, it will expire at the end\nof the Battle Pass period in which it was purchased. To receive\nPremium Battle Pass exclusive rewards for a new period, you can\npurchase the Premium Battle Pass for the new period.",
@@ -14635,7 +14630,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 171,
+      "Index": 172,
       "LabelName": "help_07_02",
       "LabelHash": 320786874,
       "OriginalText": "Cordy’s Missions",
@@ -14657,7 +14652,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 172,
+      "Index": 173,
       "LabelName": "help_07_02_00",
       "LabelHash": 1494531975,
       "OriginalText": "With Cordy’s missions, you can earn rewards by fulfilling\ncertain conditions.",
@@ -14697,7 +14692,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 173,
+      "Index": 174,
       "LabelName": "help_07_02_01",
       "LabelHash": 1494531976,
       "OriginalText": "There are three categories of missions: daily, weekly, and\nstarter missions.",
@@ -14866,7 +14861,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 174,
+      "Index": 175,
       "LabelName": "help_07_02_02",
       "LabelHash": 1494531973,
       "OriginalText": "Daily missions are updated each day, while weekly missions\nare updated once a week, giving you plenty of chances to\nfulfill different tasks to earn new rewards.",
@@ -15090,7 +15085,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 175,
+      "Index": 176,
       "LabelName": "help_07_02_03",
       "LabelHash": 1494531974,
       "OriginalText": "The starter missions can only be completed once—they\nwon’t be updated or offer new rewards after that.",
@@ -15176,7 +15171,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 176,
+      "Index": 177,
       "LabelName": "help_07_02_04",
       "LabelHash": 1494531971,
       "OriginalText": "Some of Cordy’s missions offer the option to reroll,\nmeaning you can replace a mission with a new one.\n\nIf you do choose to reroll, you’ll lose whatever progress\nyou had made on that mission, but you’ll be able to change\nto a mission with different fulfillment conditions.",
@@ -15371,7 +15366,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 177,
+      "Index": 178,
       "LabelName": "help_08",
       "LabelHash": 487112838,
       "OriginalText": "The Submenu",
@@ -15393,7 +15388,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 178,
+      "Index": 179,
       "LabelName": "help_08_00",
       "LabelHash": -842012575,
       "OriginalText": "Your Mailbox",
@@ -15415,7 +15410,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 179,
+      "Index": 180,
       "LabelName": "help_08_00_00",
       "LabelHash": 1776819124,
       "OriginalText": "Your mailbox is where you’ll find unclaimed rewards from\nyour Battle Pass or Cordy’s missions, gifts and messages\nfrom the organization that runs Frontier’s battles, and more.",
@@ -15519,7 +15514,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 180,
+      "Index": 181,
       "LabelName": "help_08_00_01",
       "LabelHash": 1776819123,
       "OriginalText": "Messages, gifts, and rewards have an expiration date.\n\nThey’ll be deleted after this date passes, so be sure\nto read your messages and claim your gifts and rewards\nfrequently to prevent this from happening.",
@@ -15604,7 +15599,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 181,
+      "Index": 182,
       "LabelName": "help_08_00_02",
       "LabelHash": 1776819126,
       "OriginalText": "All of the battles and events that take place here in the\ncity of Frontier are managed and operated by the\nBattle Stadium Organization, also known as the BSO.",
@@ -15745,7 +15740,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 182,
+      "Index": 183,
       "LabelName": "help_08_01",
       "LabelHash": 1886870780,
       "OriginalText": "Friends",
@@ -15767,7 +15762,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 183,
+      "Index": 184,
       "LabelName": "help_08_01_00",
       "LabelHash": -1214186257,
       "OriginalText": "If you become friends with another Trainer, you and that Trainer\nwill be able to view each other’s profiles.",
@@ -15853,7 +15848,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 184,
+      "Index": 185,
       "LabelName": "help_08_01_01",
       "LabelHash": -1214186258,
       "OriginalText": "Trainers you befriend can be invited to the rooms you\ncreate for Private Battles.\n\nInvited Trainers will be able to join your room without\nhaving to input the Room ID.",
@@ -16012,7 +16007,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 185,
+      "Index": 186,
       "LabelName": "help_08_02",
       "LabelHash": 320786839,
       "OriginalText": "Your Block List",
@@ -16034,7 +16029,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 186,
+      "Index": 187,
       "LabelName": "help_08_02_00",
       "LabelHash": 1494494122,
       "OriginalText": "Your block list shows the names of Trainers you have blocked.\n\nTo block a Trainer, use the option you can find when viewing\ntheir profile.",
@@ -16101,7 +16096,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 187,
+      "Index": 188,
       "LabelName": "help_08_02_01",
       "LabelHash": 1494494121,
       "OriginalText": "If you block another Trainer, they will not appear on your friend\nlist even if they send you a friend request.",
@@ -16215,7 +16210,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 188,
+      "Index": 189,
       "LabelName": "help_08_02_02",
       "LabelHash": 1494494124,
       "OriginalText": "Blocked Trainers are unable to join any Private Battle rooms\ncreated by the Trainer who blocked them.",
@@ -16292,7 +16287,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 189,
+      "Index": 190,
       "LabelName": "help_08_03",
       "LabelHash": -1245297102,
       "OriginalText": "News",
@@ -16314,7 +16309,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 190,
+      "Index": 191,
       "LabelName": "help_08_03_00",
       "LabelHash": -1496511259,
       "OriginalText": "Check the News to view the latest information about Pokémon\nChampions, upcoming events, and more.",
@@ -16400,7 +16395,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 191,
+      "Index": 192,
       "LabelName": "help_08_03_01",
       "LabelHash": -1496511260,
       "OriginalText": "You’ll see news that’s relevant for the region and location\nyou have set as your current residence.",
@@ -16477,7 +16472,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 192,
+      "Index": 193,
       "LabelName": "help_08_04",
       "LabelHash": 1483586253,
       "OriginalText": "Settings",
@@ -16499,7 +16494,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 193,
+      "Index": 194,
       "LabelName": "help_08_04_00",
       "LabelHash": 1212169120,
       "OriginalText": "In the Settings, you can tailor or change a variety of\noptions to suit your preferences.\n\nLet’s take a look at a couple of those options here.",
@@ -16612,7 +16607,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 194,
+      "Index": 195,
       "LabelName": "help_08_04_01",
       "LabelHash": 1212169119,
       "OriginalText": "Battle:\n ・ Display Battle Names\nThis option lets you choose whether Pokémon’s battle\nnames are displayed, or only their species names.\n\n ・ Display Battle Info\nThis option lets you choose whether statuses currently\naffecting the field are displayed during battles.",
@@ -16825,7 +16820,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 195,
+      "Index": 196,
       "LabelName": "help_08_05",
       "LabelHash": -82497688,
       "OriginalText": "Mystery Gifts",
@@ -16847,7 +16842,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 196,
+      "Index": 197,
       "LabelName": "help_08_05_00",
       "LabelHash": -1778836261,
       "OriginalText": "The Mystery Gifts feature allows you to claim gifts\nby inputting a code or password.",
@@ -16933,7 +16928,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 197,
+      "Index": 198,
       "LabelName": "help_09",
       "LabelHash": 487112839,
       "OriginalText": "Pokémon",
@@ -16955,7 +16950,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 198,
+      "Index": 199,
       "LabelName": "help_09_00",
       "LabelHash": -842012606,
       "OriginalText": "Stats",
@@ -16977,7 +16972,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 199,
+      "Index": 200,
       "LabelName": "help_09_00_00",
       "LabelHash": 1776785235,
       "OriginalText": "Pokémon have six stats: HP, Attack, Defense, Sp. Atk,\nSp. Def, and Speed.",
@@ -17284,7 +17279,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 200,
+      "Index": 201,
       "LabelName": "help_09_01",
       "LabelHash": 1886870749,
       "OriginalText": "HP, Attack, and Defense",
@@ -17306,7 +17301,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 201,
+      "Index": 202,
       "LabelName": "help_09_01_00",
       "LabelHash": -1214220146,
       "OriginalText": "HP\n\nThis number tells you how much damage your Pokémon\ncan withstand.\n\nA Pokémon’s HP will go down when it takes damage.\nOnce its HP reaches zero, the Pokémon will faint.",
@@ -17446,7 +17441,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 202,
+      "Index": 203,
       "LabelName": "help_09_01_01",
       "LabelHash": -1214220145,
       "OriginalText": "Attack\n\nThis number gives you an idea of how much damage\nyour Pokémon can deal when it uses a physical move.\n\nThe higher the number, the more damage your Pokémon’s\nphysical moves will deal to targets.",
@@ -17586,7 +17581,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 203,
+      "Index": 204,
       "LabelName": "help_09_01_02",
       "LabelHash": -1214220144,
       "OriginalText": "Defense\n\nThis number gives you an idea of how much damage\nyour Pokémon can mitigate when hit by a physical move.\n\nThe higher the number, the less damage your Pokémon will\ntake from physical moves.",
@@ -17726,7 +17721,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 204,
+      "Index": 205,
       "LabelName": "help_09_02",
       "LabelHash": 320786808,
       "OriginalText": "Sp. Atk, Sp. Def, and Speed",
@@ -17748,7 +17743,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 205,
+      "Index": 206,
       "LabelName": "help_09_02_00",
       "LabelHash": 1494460233,
       "OriginalText": "Sp. Atk\n\nThis number gives you an idea of how much damage\nyour Pokémon can deal when it uses a special move.\n\nThe higher the number, the more damage your Pokémon’s\nspecial moves will deal to targets.",
@@ -17888,7 +17883,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 206,
+      "Index": 207,
       "LabelName": "help_09_02_01",
       "LabelHash": 1494460234,
       "OriginalText": "Sp. Def\n\nThis number gives you an idea of how much damage\nyour Pokémon can mitigate when hit by a special move.\n\nThe higher the number, the less damage your Pokémon will\ntake from special moves.",
@@ -18028,7 +18023,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 207,
+      "Index": 208,
       "LabelName": "help_09_02_02",
       "LabelHash": 1494460235,
       "OriginalText": "Speed\n\nThis number gives you an idea of the order in which\nPokémon will move in battle.\n\nThe Pokémon with the highest Speed stat will usually get to\nmove first. If two Pokémon have the same Speed stat, then\nthe order in which those Pokémon move will be random.",
@@ -18186,7 +18181,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 208,
+      "Index": 209,
       "LabelName": "help_09_03",
       "LabelHash": -1245297133,
       "OriginalText": "Stat Points",
@@ -18208,7 +18203,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 209,
+      "Index": 210,
       "LabelName": "help_09_03_00",
       "LabelHash": -1496545148,
       "OriginalText": "You can change your Pokémon’s stats by redistributing\ntheir stat points via training.",
@@ -18294,7 +18289,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 210,
+      "Index": 211,
       "LabelName": "help_09_03_01",
       "LabelHash": -1496545147,
       "OriginalText": "Each stat can be given 32 stat points at most.\n\nIn total, 66 stat points are available to be distributed\nacross all the stats of a single Pokémon.",
@@ -18453,7 +18448,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 211,
+      "Index": 212,
       "LabelName": "help_09_03_02",
       "LabelHash": -1496545146,
       "OriginalText": "If you aren’t sure how to best distribute these stat points,\ntry giving the max 32 points to two stats that are naturally\nhigh for your Pokémon.",
@@ -18576,7 +18571,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 212,
+      "Index": 213,
       "LabelName": "help_09_04",
       "LabelHash": 1483586222,
       "OriginalText": "Stat Alignment",
@@ -18598,7 +18593,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 213,
+      "Index": 214,
       "LabelName": "help_09_04_00",
       "LabelHash": 1212135231,
       "OriginalText": "Stat alignments typically raise one stat and lower another.",
@@ -18657,7 +18652,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 214,
+      "Index": 215,
       "LabelName": "help_09_04_01",
       "LabelHash": 1212135232,
       "OriginalText": "The raised stat will be increased by 10%, while the\nlowered stat will be decreased by 10%.",
@@ -18789,7 +18784,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 215,
+      "Index": 216,
       "LabelName": "help_09_04_02",
       "LabelHash": 1212135233,
       "OriginalText": "The stats that can be impacted by stat alignment are\nAttack, Defense, Sp. Atk, Sp. Def, and Speed.\n\nMost alignments raise one stat and lower another, but not\nevery alignment will have such an effect.",
@@ -18966,7 +18961,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 216,
+      "Index": 217,
       "LabelName": "help_09_04_03",
       "LabelHash": 1212135234,
       "OriginalText": "If you aren’t sure which alignment would be best, choose one\nthat will raise your Pokémon’s highest stat, then consider what\nmoves they use. If they don’t use physical moves, lower their\nAttack. If they don’t use special moves, lower their Sp. Atk.",
@@ -19208,7 +19203,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 217,
+      "Index": 218,
       "LabelName": "help_09_05",
       "LabelHash": -82497719,
       "OriginalText": "Abilities",
@@ -19230,7 +19225,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 218,
+      "Index": 219,
       "LabelName": "help_09_05_00",
       "LabelHash": -1778870150,
       "OriginalText": "Pokémon have Abilities, which can cause a variety of\neffects to occur during battle.",
@@ -19316,7 +19311,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 219,
+      "Index": 220,
       "LabelName": "help_09_06",
       "LabelHash": -1648581660,
       "OriginalText": "Held Items",
@@ -19338,7 +19333,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 220,
+      "Index": 221,
       "LabelName": "help_09_06_00",
       "LabelHash": 929810229,
       "OriginalText": "Giving held items to your Pokémon can cause a variety\nof effects to occur during battle.",
@@ -19424,7 +19419,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 221,
+      "Index": 222,
       "LabelName": "help_09_06_01",
       "LabelHash": 929810230,
       "OriginalText": "While building your Battle Teams, you’ll be able to\ngive each Pokémon a single item to hold.",
@@ -19510,7 +19505,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 222,
+      "Index": 223,
       "LabelName": "help_09_07",
       "LabelHash": 1080301695,
       "OriginalText": "Moves",
@@ -19532,7 +19527,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 223,
+      "Index": 224,
       "LabelName": "help_09_07_00",
       "LabelHash": -2061195152,
       "OriginalText": "Pokémon can learn up to four moves.\n\nImportant factors to consider about moves are their\npower, accuracy, PP, and additional effects.",
@@ -19645,7 +19640,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 224,
+      "Index": 225,
       "LabelName": "help_09_07_01",
       "LabelHash": -2061195151,
       "OriginalText": "Power\n\nThis number gives you an idea of how much damage a\nmove will deal to a target.",
@@ -19740,7 +19735,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 225,
+      "Index": 226,
       "LabelName": "help_09_07_02",
       "LabelHash": -2061195150,
       "OriginalText": "Accuracy\n\nThis number helps you understand the likelihood that a\nmove will successfully hit its target.",
@@ -19835,7 +19830,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 226,
+      "Index": 227,
       "LabelName": "help_09_07_03_00",
       "LabelHash": 1058067838,
       "OriginalText": "PP\n\nThis number indicates how many times a move can be used\nin a single battle.",
@@ -19930,7 +19925,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 227,
+      "Index": 228,
       "LabelName": "help_09_07_03_01",
       "LabelHash": -508016103,
       "OriginalText": "When a move’s PP drops to zero, you will be unable to\nuse that move for the remainder of the battle.\n\nIf you become unable to use any of your Pokémon’s\nmoves, it will automatically use a move called Struggle.",
@@ -20015,7 +20010,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 228,
+      "Index": 229,
       "LabelName": "help_09_07_04",
       "LabelHash": -2061195148,
       "OriginalText": "Additional Effects\n\nSome moves can have a variety of additional effects\non top of dealing damage to a target.",
@@ -20110,7 +20105,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 229,
+      "Index": 230,
       "LabelName": "help_09_08",
       "LabelHash": -485782246,
       "OriginalText": "Pokémon Titles",
@@ -20132,7 +20127,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 230,
+      "Index": 231,
       "LabelName": "help_09_08_00",
       "LabelHash": 647485227,
       "OriginalText": "Titles are additional names—a sort of nickname that\nPokémon can have.\n\nIf a Pokémon has a title, it will be displayed when that\nPokémon enters a battle.",
@@ -20254,7 +20249,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 231,
+      "Index": 232,
       "LabelName": "help_09_08_01",
       "LabelHash": 647485228,
       "OriginalText": "You can select a title for your Pokémon from its summary page.",
@@ -20322,7 +20317,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 232,
+      "Index": 233,
       "LabelName": "help_09_08_02",
       "LabelHash": 647485229,
       "OriginalText": "When recruiting, you may find Pokémon that\nhave titles already.",
@@ -20408,7 +20403,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 233,
+      "Index": 234,
       "LabelName": "help_09_09",
       "LabelHash": -2051866187,
       "OriginalText": "Forms",
@@ -20430,7 +20425,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 234,
+      "Index": 235,
       "LabelName": "help_09_09_00",
       "LabelHash": 1951447142,
       "OriginalText": "Pokémon of the same species can sometimes come\nin different forms.",
@@ -20516,7 +20511,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 235,
+      "Index": 236,
       "LabelName": "help_09_09_01",
       "LabelHash": 1951447143,
       "OriginalText": "When building a Battle Team, you are allowed to add only\na single Pokémon of each species.\n\nEven if they have different forms, you cannot put multiple\nPokémon of the same species on the same Battle Team.",
@@ -20694,7 +20689,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 236,
+      "Index": 237,
       "LabelName": "help_10",
       "LabelHash": 2053196787,
       "OriginalText": "Basic Battling Know-How",
@@ -20716,7 +20711,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 237,
+      "Index": 238,
       "LabelName": "help_10_00",
       "LabelHash": -760942076,
       "OriginalText": "Type Matchups",
@@ -20738,7 +20733,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 238,
+      "Index": 239,
       "LabelName": "help_10_00_00",
       "LabelHash": 1602580967,
       "OriginalText": "There are 18 types in total. The damage that is dealt by any\ngiven move will be affected by how the move’s type matches up\nwith the type or types of the target Pokémon.",
@@ -20796,7 +20791,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 239,
+      "Index": 240,
       "LabelName": "help_10_00_01",
       "LabelHash": 1602580966,
       "OriginalText": "How types interact with each other is referred to as a\ntype matchup.\n\nWe’ll start by introducing three possible type matchups:\nsuper effective, not very effective, and has no effect.",
@@ -21047,7 +21042,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 240,
+      "Index": 241,
       "LabelName": "help_10_00_02",
       "LabelHash": 1602580969,
       "OriginalText": "Super Effective\n\nAn attack that is super effective will deal double damage.\n\nExample:\nWhen the Grass-type Pokémon Venusaur is attacked with\nthe Fire-type move Flamethrower.",
@@ -21233,7 +21228,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 241,
+      "Index": 242,
       "LabelName": "help_10_00_04",
       "LabelHash": 1602580971,
       "OriginalText": "Not Very Effective \n\nAn attack that is not very effective will deal half as much\ndamage.\n\nExample:\nWhen the Grass-type Pokémon Venusaur is attacked with\nthe Water-type move Hydro Pump.",
@@ -21465,7 +21460,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 242,
+      "Index": 243,
       "LabelName": "help_10_00_06",
       "LabelHash": 1602580973,
       "OriginalText": "Has No Effect\n\nAn attack that has no effect will deal no damage.\n\nExample:\nWhen the Ghost-type Pokémon Gengar is attacked with\nthe Normal-type move Hyper Voice.",
@@ -21651,7 +21646,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 243,
+      "Index": 244,
       "LabelName": "help_10_01",
       "LabelHash": 805141865,
       "OriginalText": "Pokémon with Two Types",
@@ -21673,7 +21668,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 244,
+      "Index": 245,
       "LabelName": "help_10_01_00",
       "LabelHash": 298619052,
       "OriginalText": "Some Pokémon have two types instead of one.\n\nWhen a Pokémon with two types is hit by a move, the type\nmatchup for each of the Pokémon’s types will be combined\nto determine the final matchup between that Pokémon and\nthe move used on it. This can lead to the following two\nmatchups: extremely effective and mostly ineffective.",
@@ -21886,7 +21881,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 245,
+      "Index": 246,
       "LabelName": "help_10_01_01",
       "LabelHash": 298619051,
       "OriginalText": "Extremely Effective\n\nAn attack that is extremely effective will deal four times\nas much damage.\n\nExample:\nWhen the Bug- and Steel-type Pokémon Scizor is attacked\nwith the Fire-type move Flamethrower.",
@@ -22118,7 +22113,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 246,
+      "Index": 247,
       "LabelName": "help_10_01_02",
       "LabelHash": 298619054,
       "OriginalText": "Mostly Ineffective\n\nAn attack that is mostly ineffective will only deal a quarter as\nmuch damage.\n\nExample:\nWhen the Bug- and Steel-type Pokémon Scizor is attacked\nwith the Grass-type move Solar Beam.",
@@ -22350,7 +22345,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 247,
+      "Index": 248,
       "LabelName": "help_10_02",
       "LabelHash": 401857338,
       "OriginalText": "Using Moves of the Same Type as Your Pokémon",
@@ -22372,7 +22367,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 248,
+      "Index": 249,
       "LabelName": "help_10_02_00",
       "LabelHash": 1320255965,
       "OriginalText": "When a Pokémon uses a move of the same type as one of the\nPokémon’s types, the move’s damage will be increased by 50%.\n\nExample:\nWhen the Electric-type Pokémon Pikachu attacks with the\nElectric-type move Thunderbolt.",
@@ -22521,7 +22516,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 249,
+      "Index": 250,
       "LabelName": "help_10_03",
       "LabelHash": 1967941279,
       "OriginalText": "Notable Traits of Grass, Fire, Electric, and Flying Types",
@@ -22543,7 +22538,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 250,
+      "Index": 251,
       "LabelName": "help_10_03_00",
       "LabelHash": 16294050,
       "OriginalText": "Grass Types\n\n ・ Are immune to Leech Seed\n ・ Are immune to moves and Abilities involving powder",
@@ -22638,7 +22633,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 251,
+      "Index": 252,
       "LabelName": "help_10_03_01",
       "LabelHash": 16294049,
       "OriginalText": "Fire Types\n\n ・ Cannot be burned",
@@ -22715,7 +22710,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 252,
+      "Index": 253,
       "LabelName": "help_10_03_02",
       "LabelHash": 16294052,
       "OriginalText": "Electric Types\n\n ・ Cannot be paralyzed",
@@ -22792,7 +22787,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 253,
+      "Index": 254,
       "LabelName": "help_10_03_03",
       "LabelHash": 16294051,
       "OriginalText": "Flying Types\n\n ・ Are immune to the Spikes, Toxic Spikes, and Sticky Web\n     statuses",
@@ -22887,7 +22882,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 254,
+      "Index": 255,
       "LabelName": "help_10_04",
       "LabelHash": 1564656752,
       "OriginalText": "Notable Traits of Rock, Poison, Ground, and Ice Types",
@@ -22909,7 +22904,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 255,
+      "Index": 256,
       "LabelName": "help_10_04_00",
       "LabelHash": 1037930963,
       "OriginalText": "Rock Types\n\n ・ Have their Sp. Def stats boosted by 50% in sandstorms\n ・ Do not take damage from sandstorms",
@@ -23004,7 +22999,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 256,
+      "Index": 257,
       "LabelName": "help_10_04_01",
       "LabelHash": 1037930962,
       "OriginalText": "Poison Types\n\n ・ Cannot be poisoned or badly poisoned\n ・ Remove the Toxic Spikes status when switched into battle",
@@ -23099,7 +23094,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 257,
+      "Index": 258,
       "LabelName": "help_10_04_02",
       "LabelHash": 1037930965,
       "OriginalText": "Ground Types\n\n ・ Are immune to Thunder Wave\n ・ Do not take damage from sandstorms",
@@ -23194,7 +23189,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 258,
+      "Index": 259,
       "LabelName": "help_10_04_03",
       "LabelHash": 1037930964,
       "OriginalText": "Ice Types\n\n ・ Cannot be frozen\n ・ Have their Defense stats boosted by 50% in snow\n ・ Are immune to Sheer Cold",
@@ -23307,7 +23302,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 259,
+      "Index": 260,
       "LabelName": "help_10_05",
       "LabelHash": -1164226603,
       "OriginalText": "Notable Traits of Ghost, Dark, and Steel Types",
@@ -23329,7 +23324,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 260,
+      "Index": 261,
       "LabelName": "help_10_05_00",
       "LabelHash": -266030952,
       "OriginalText": "Ghost Types\n\n ・ Are immune to the Can’t Escape status",
@@ -23406,7 +23401,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 261,
+      "Index": 262,
       "LabelName": "help_10_05_01",
       "LabelHash": -266030953,
       "OriginalText": "Dark Types\n\n ・ Are immune to status moves that have their priority increased\n    by Prankster",
@@ -23501,7 +23496,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 262,
+      "Index": 263,
       "LabelName": "help_10_05_02",
       "LabelHash": -266030950,
       "OriginalText": "Steel Types\n\n ・ Cannot be poisoned or badly poisoned\n ・ Do not take damage from sandstorms",
@@ -23596,7 +23591,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 263,
+      "Index": 264,
       "LabelName": "help_10_06",
       "LabelHash": -1567511130,
       "OriginalText": "Time Limits",
@@ -23618,7 +23613,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 264,
+      "Index": 265,
       "LabelName": "help_10_06_00",
       "LabelHash": 755605961,
       "OriginalText": "There are a variety of different time limits that come into play\nwhen battling. If you don’t make a decision in time, an action\nwill automatically be decided for you to keep the battle moving.",
@@ -23722,7 +23717,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 265,
+      "Index": 266,
       "LabelName": "help_10_06_01",
       "LabelHash": 755605960,
       "OriginalText": "Total Time\n\nThis is the total time available for the entire battle.\n\nIf this time runs out, the battle will end, and the result will be a\ndraw if you’re having a Casual Battle or Ranked Battle.\nA draw doesn’t award Victory Points (VP) or Season Points (SP),\nand your rank does not change.",
@@ -23880,7 +23875,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 266,
+      "Index": 267,
       "LabelName": "help_10_06_02",
       "LabelHash": 755605963,
       "OriginalText": "Your Time\n\nThis is the total time that you, as an individual, are given to\ndecide all your actions in a battle.\n\nIf you run out of this time, the battle will end, and it will be\nconsidered a loss for you.",
@@ -24066,7 +24061,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 267,
+      "Index": 268,
       "LabelName": "help_10_06_03",
       "LabelHash": 755605962,
       "OriginalText": "Move Time (Per Turn)\n\nThis is the time that you’re given each turn to decide\nwhat action you want to take on that particular turn.\n\nIf you don’t decide an action before this time runs out,\nyour Pokémon will automatically use whichever move is\nat the top of their list of moves.",
@@ -24289,7 +24284,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 268,
+      "Index": 269,
       "LabelName": "help_11",
       "LabelHash": 2053196788,
       "OriginalText": "Advanced Battling Know-How",
@@ -24311,7 +24306,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 269,
+      "Index": 270,
       "LabelName": "help_11_00",
       "LabelHash": -760942107,
       "OriginalText": "Stat Changes",
@@ -24333,7 +24328,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 270,
+      "Index": 271,
       "LabelName": "help_11_00_00",
       "LabelHash": 1602547078,
       "OriginalText": "A Pokémon’s stats can be boosted or lowered during a battle\nby effects from sources such as moves, Abilities, and held items.\nThis is called a stat change.",
@@ -24437,7 +24432,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 271,
+      "Index": 272,
       "LabelName": "help_11_00_01",
       "LabelHash": 1602547079,
       "OriginalText": "Stat changes are measured in stages ranging from −6 to +6.\nThe negative numbers indicate that a stat has been lowered,\nwhile the positive numbers indicate that it has been boosted.\n\nWhen a Pokémon is switched out of battle, these numbers\nwill be reset to zero.",
@@ -24632,7 +24627,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 272,
+      "Index": 273,
       "LabelName": "help_11_00_02",
       "LabelHash": 1602547080,
       "OriginalText": "Stat changes can affect more than just a Pokémon’s stats,\nsuch as Attack and Defense. They can also affect a\nPokémon’s evasiveness and accuracy.",
@@ -24782,7 +24777,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 273,
+      "Index": 274,
       "LabelName": "help_11_00_03",
       "LabelHash": 1602547081,
       "OriginalText": "When your Pokémon’s evasiveness is lowered, it will have a\nharder time evading moves. When its evasiveness is boosted,\nit becomes more likely that your opponents’ moves will miss.\n\nWhen your Pokémon’s accuracy is lowered, it will have a harder\ntime hitting targets with its moves. When its accuracy is boosted,\nit is more likely to be able to hit targets with its moves.",
@@ -24903,7 +24898,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 274,
+      "Index": 275,
       "LabelName": "help_11_01",
       "LabelHash": 805141834,
       "OriginalText": "Critical Hits",
@@ -24925,7 +24920,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 275,
+      "Index": 276,
       "LabelName": "help_11_01_00",
       "LabelHash": 298585163,
       "OriginalText": "A Pokémon’s moves have a 1-in-24 chance of landing\nas a critical hit.\n\nA critical hit will boost a move’s damage by 50%.",
@@ -25130,7 +25125,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 276,
+      "Index": 277,
       "LabelName": "help_11_01_01",
       "LabelHash": 298585164,
       "OriginalText": "In addition, a critical hit will ignore certain stat changes and\nstatus changes.",
@@ -25244,7 +25239,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 277,
+      "Index": 278,
       "LabelName": "help_11_01_02",
       "LabelHash": 298585165,
       "OriginalText": "When a Pokémon gains a Critical-Hit Ratio Boost, its odds of\nlanding a critical hit will be increased.\n\nThe Critical-Hit Ratio Boost status has stages that range from\n0 to +3. The larger the number, the more likely the Pokémon\nwill be to land a critical hit.",
@@ -25430,7 +25425,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 278,
+      "Index": 279,
       "LabelName": "help_11_02",
       "LabelHash": 401857307,
       "OriginalText": "Status Conditions",
@@ -25452,7 +25447,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 279,
+      "Index": 280,
       "LabelName": "help_11_02_00",
       "LabelHash": 1320222076,
       "OriginalText": "A Pokémon can be afflicted with a status condition during a\nbattle by the effect of a move, Ability, or held item.\n\nThese status conditions can have a variety of effects.",
@@ -25565,7 +25560,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 280,
+      "Index": 281,
       "LabelName": "help_11_02_01",
       "LabelHash": 1320222077,
       "OriginalText": "Check out the battle tutorial on status conditions to learn\nmore about them through a hands-on demonstration.",
@@ -25651,7 +25646,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 281,
+      "Index": 282,
       "LabelName": "help_11_03",
       "LabelHash": 1967941248,
       "OriginalText": "The Poisoned, Badly Poisoned, and Burned Status Conditions",
@@ -25673,7 +25668,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 282,
+      "Index": 283,
       "LabelName": "help_11_03_00",
       "LabelHash": 16260161,
       "OriginalText": "Poisoned Status Condition\n\nThe Pokémon takes damage equal to 1/8 of its max HP\nat the end of every turn.",
@@ -25768,7 +25763,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 283,
+      "Index": 284,
       "LabelName": "help_11_03_01",
       "LabelHash": 16260162,
       "OriginalText": "Badly Poisoned Status Condition\n\nThe Pokémon takes increasing poison damage at the end of\nevery turn, starting at 1/16 of the Pokémon’s max HP, then\n2/16, then 3/16, and so on. If the Pokémon switches out and\nreenters battle, the damage restarts at 1/16 of its max HP.",
@@ -25899,7 +25894,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 284,
+      "Index": 285,
       "LabelName": "help_11_03_02",
       "LabelHash": 16260163,
       "OriginalText": "Burned Status Condition\n\nThe Pokémon takes damage equal to 1/16 of its max HP\nat the end of every turn. The damage dealt by its physical\nmoves is also halved.",
@@ -26012,7 +26007,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 285,
+      "Index": 286,
       "LabelName": "help_11_04",
       "LabelHash": 1564656721,
       "OriginalText": "The Paralyzed, Frozen, and Asleep Status Conditions",
@@ -26034,7 +26029,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 286,
+      "Index": 287,
       "LabelName": "help_11_04_00",
       "LabelHash": 1037897074,
       "OriginalText": "Paralyzed Status Condition\n\nThe Pokémon has a 12.5% chance of being unable to use\nmoves. Its Speed stat is also halved.",
@@ -26129,7 +26124,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 287,
+      "Index": 288,
       "LabelName": "help_11_04_01",
       "LabelHash": 1037897075,
       "OriginalText": "Frozen Status Condition\n\nThe Pokémon can’t use almost any moves but has a 25%\nchance of being cured each time it tries to do so. The\nPokémon will be cured on its third turn after becoming\nfrozen or if it takes damage from a Fire-type move or\ncertain other moves.",
@@ -26278,7 +26273,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 288,
+      "Index": 289,
       "LabelName": "help_11_04_02",
       "LabelHash": 1037897076,
       "OriginalText": "Asleep Status Condition\n\nThe Pokémon can’t use moves other than Snore or\nSleep Talk. After a Pokémon is put to sleep, it will\nremain asleep on its first turn, it will have a 1-in-3\nchance of being cured on its second turn, and it will be\ncured on its third turn. A Pokémon that used the move\nRest has no chance of being cured until its third turn.",
@@ -26445,7 +26440,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 289,
+      "Index": 290,
       "LabelName": "help_11_05",
       "LabelHash": -1164226634,
       "OriginalText": "Battle Statuses and Effects",
@@ -26467,7 +26462,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 290,
+      "Index": 291,
       "LabelName": "help_11_05_00",
       "LabelHash": -266064841,
       "OriginalText": "During battles, various statuses and effects can be\ncaused by moves, Abilities, and held items.\n\nLet’s look at a few examples.",
@@ -26580,7 +26575,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 291,
+      "Index": 292,
       "LabelName": "help_11_05_01",
       "LabelHash": -266064840,
       "OriginalText": "Trick Room Status\n\nPokémon with lower Speed stats move first.",
@@ -26657,7 +26652,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 292,
+      "Index": 293,
       "LabelName": "help_11_05_02",
       "LabelHash": -266064839,
       "OriginalText": "Tailwind Status\n\nDoubles the Pokémon’s Speed stat.",
@@ -26734,7 +26729,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 293,
+      "Index": 294,
       "LabelName": "help_11_05_03",
       "LabelHash": -266064838,
       "OriginalText": "Reflect Status\n\nHalves the damage taken from physical moves.\nIn Double Battles, this damage is reduced by\n1/3 instead.",
@@ -26847,7 +26842,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 294,
+      "Index": 295,
       "LabelName": "help_11_05_04",
       "LabelHash": -266064837,
       "OriginalText": "Light Screen Status\n\nHalves the damage taken from special moves.\nIn Double Battles, this damage is reduced by\n1/3 instead.",
@@ -26960,7 +26955,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 295,
+      "Index": 296,
       "LabelName": "help_11_05_05",
       "LabelHash": -266064836,
       "OriginalText": "Aurora Veil Status\n\nHalves the damage taken from physical and\nspecial moves. In Double Battles, this damage\nis reduced by 1/3 instead.",
@@ -27073,7 +27068,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 296,
+      "Index": 297,
       "LabelName": "help_11_05_06",
       "LabelHash": -266064835,
       "OriginalText": "Stealth Rock Status\n\nPokémon that switch into battle will take damage\nequal to 1/8 of their max HP. This damage differs\ndepending on the Pokémon’s type matchup with\nthe Rock type.",
@@ -27204,7 +27199,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 297,
+      "Index": 298,
       "LabelName": "help_11_05_07",
       "LabelHash": -266064834,
       "OriginalText": "Spikes Status\n\nPokémon that switch into battle will take damage\nequal to 1/8 of their max HP. This damage will\nincrease if 2 layers of Spikes are set, and again if\n3 layers are set. Pokémon such as Flying types or\nones with the Levitate Ability are unaffected.",
@@ -27353,7 +27348,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 298,
+      "Index": 299,
       "LabelName": "help_11_05_08",
       "LabelHash": -266064833,
       "OriginalText": "Toxic Spikes Status\n\nPokémon that switch into battle will be poisoned\nor, if 2 layers of Toxic Spikes are set, badly\npoisoned. Pokémon such as Flying types or ones\nwith the Levitate Ability are unaffected.",
@@ -27484,7 +27479,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 299,
+      "Index": 300,
       "LabelName": "help_11_06",
       "LabelHash": -1567511161,
       "OriginalText": "Weather Conditions",
@@ -27506,7 +27501,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 300,
+      "Index": 301,
       "LabelName": "help_11_06_00",
       "LabelHash": 755572072,
       "OriginalText": "The effects of some moves and Abilities can change the\nweather during battle.\n\nWeather impacts all Pokémon on the field and can cause\na variety of effects.",
@@ -27674,7 +27669,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 301,
+      "Index": 302,
       "LabelName": "help_11_06_02",
       "LabelHash": 755572074,
       "OriginalText": "Harsh Sunlight\n\nBoosts the damage dealt by Fire-type moves by 50%\nand halves the damage dealt by Water-type moves.",
@@ -27769,7 +27764,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 302,
+      "Index": 303,
       "LabelName": "help_11_06_01",
       "LabelHash": 755572073,
       "OriginalText": "Rain\n\nBoosts the damage dealt by Water-type moves by 50%\nand halves the damage dealt by Fire-type moves.",
@@ -27864,7 +27859,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 303,
+      "Index": 304,
       "LabelName": "help_11_06_03",
       "LabelHash": 755572075,
       "OriginalText": "Sandstorm\n\nPokémon that are not Rock, Ground, or Steel types take\ndamage equal to 1/16 of their max HP at the end of every\nturn. Boosts the Sp. Def stats of Rock-type Pokémon by 50%.",
@@ -27977,7 +27972,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 304,
+      "Index": 305,
       "LabelName": "help_11_06_04",
       "LabelHash": 755572076,
       "OriginalText": "Snow\n\nBoosts the Defense stats of Ice-type Pokémon by 50%.",
@@ -28054,7 +28049,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 305,
+      "Index": 306,
       "LabelName": "help_11_06_05",
       "LabelHash": 755572077,
       "OriginalText": "Check out the battle tutorial on weather conditions to learn\nmore about them through a hands-on demonstration.",
@@ -28140,7 +28135,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 306,
+      "Index": 307,
       "LabelName": "help_11_07",
       "LabelHash": -1427220,
       "OriginalText": "Terrains",
@@ -28162,7 +28157,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 307,
+      "Index": 308,
       "LabelName": "help_11_07_00",
       "LabelHash": -548389843,
       "OriginalText": "The effects of some moves and Abilities can create a terrain.\n\nTerrains impact all Pokémon on the ground and can cause\na variety of effects.",
@@ -28321,7 +28316,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 308,
+      "Index": 309,
       "LabelName": "help_11_07_01",
       "LabelHash": -548389842,
       "OriginalText": "Electric Terrain\n\nPokémon on the ground have the power of their Electric-type\nmoves boosted by 30% and they cannot fall asleep.",
@@ -28416,7 +28411,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 309,
+      "Index": 310,
       "LabelName": "help_11_07_02",
       "LabelHash": -548389841,
       "OriginalText": "Psychic Terrain\n\nPokémon on the ground have the power of their Psychic-type\nmoves boosted by 30% and they are immune to priority moves.",
@@ -28511,7 +28506,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 310,
+      "Index": 311,
       "LabelName": "help_11_07_03",
       "LabelHash": -548389840,
       "OriginalText": "Grassy Terrain\n\nPokémon on the ground have the power of their Grass-type\nmoves boosted by 30% and they have 1/16 of their max HP\nrestored at the end of every turn.",
@@ -28624,10 +28619,10 @@
       "StyleCode": 69
     },
     {
-      "Index": 311,
+      "Index": 312,
       "LabelName": "help_11_07_04",
       "LabelHash": -548389839,
-      "OriginalText": "Misty Terrain\n\nPokémon on the ground have the power of their Dragon-type\nmoves halved, they are immune to status conditions, and they\ncannot become confused.",
+      "OriginalText": "Misty Terrain\n\nHalves the damage dealt by Dragon-type moves used against\nPokémon on the ground. Pokémon on the ground are also\nimmune to status conditions and cannot become confused.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -28685,7 +28680,7 @@
           }
         },
         {
-          "Text": "Pokémon on the ground have the power of their Dragon-type",
+          "Text": "Halves the damage dealt by Dragon-type moves used against",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -28703,7 +28698,7 @@
           }
         },
         {
-          "Text": "moves halved, they are immune to status conditions, and they",
+          "Text": "Pokémon on the ground. Pokémon on the ground are also",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -28721,7 +28716,7 @@
           }
         },
         {
-          "Text": "cannot become confused.",
+          "Text": "immune to status conditions and cannot become confused.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -28737,7 +28732,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 312,
+      "Index": 313,
       "LabelName": "help_11_07_05",
       "LabelHash": -548389838,
       "OriginalText": "Check out the battle tutorial on terrains to learn more\nabout them through a hands-on demonstration.",
@@ -28823,7 +28818,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 313,
+      "Index": 314,
       "LabelName": "help_11_08",
       "LabelHash": -404711747,
       "OriginalText": "Move Categories",
@@ -28845,7 +28840,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 314,
+      "Index": 315,
       "LabelName": "help_11_08_00",
       "LabelHash": 473247070,
       "OriginalText": "Moves can be divided into three groups: physical moves,\nspecial moves, and status moves.\n\nCollectively, these are called move categories.",
@@ -29087,7 +29082,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 315,
+      "Index": 316,
       "LabelName": "help_11_08_01",
       "LabelHash": 473247071,
       "OriginalText": "The damage dealt by physical moves is calculated using the\nAttack stat of the Pokémon using the move as well as the\nDefense stat of the Pokémon hit by the move.",
@@ -29265,7 +29260,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 316,
+      "Index": 317,
       "LabelName": "help_11_08_02",
       "LabelHash": 473247072,
       "OriginalText": "The damage dealt by special moves is calculated using the\nSp. Atk stat of the Pokémon using the move as well as the\nSp. Def stat of the Pokémon hit by the move.",
@@ -29443,7 +29438,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 317,
+      "Index": 318,
       "LabelName": "help_11_08_03",
       "LabelHash": 473247073,
       "OriginalText": "Status moves don’t deal damage and don’t have an associated\nmove power, but they can cause a variety of other effects.",
@@ -29566,7 +29561,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 318,
+      "Index": 319,
       "LabelName": "help_11_08_04",
       "LabelHash": 473247074,
       "OriginalText": "Check out the battle tutorial on physical vs. special moves\nto learn more about them through a hands-on demonstration.",
@@ -29643,7 +29638,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 319,
+      "Index": 320,
       "LabelName": "help_11_09",
       "LabelHash": 1161372194,
       "OriginalText": "Priority",
@@ -29665,7 +29660,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 320,
+      "Index": 321,
       "LabelName": "help_11_09_00",
       "LabelHash": -830714845,
       "OriginalText": "All moves have a numerical value that represents their priority.\n\nMove priorities range from −7 to +5. Pokémon using a move\nwith higher priority will act first, regardless of their Speed stat.",
@@ -29824,7 +29819,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 321,
+      "Index": 322,
       "LabelName": "help_11_09_01",
       "LabelHash": -830714844,
       "OriginalText": "If your Pokémon and the opponent’s Pokémon both use moves\nwith the same priority, the order in which they use their moves\nwill be determined by which of them has the higher Speed stat.",
@@ -29928,7 +29923,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 322,
+      "Index": 323,
       "LabelName": "help_11_09_02",
       "LabelHash": -830714843,
       "OriginalText": "Check out the battle tutorial on move priority to learn more\nabout it through a hands-on demonstration.",
@@ -30014,7 +30009,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 323,
+      "Index": 324,
       "LabelName": "help_11_10",
       "LabelHash": -760942108,
       "OriginalText": "Range",
@@ -30036,7 +30031,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 324,
+      "Index": 325,
       "LabelName": "help_11_10_00",
       "LabelHash": 1602546055,
       "OriginalText": "Each move has a set range in which its effects take place.",
@@ -30104,7 +30099,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 325,
+      "Index": 326,
       "LabelName": "help_11_10_01",
       "LabelHash": 1602546054,
       "OriginalText": "A move can have one of eleven ranges: single target, self,\nsingle ally, all Pokémon, all allies, all opponents, random\nopponent, entire field, opponent’s side, user’s side, and varies.",
@@ -30687,7 +30682,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 326,
+      "Index": 327,
       "LabelName": "help_11_11",
       "LabelHash": 805141833,
       "OriginalText": "Single Target, Self, Single Ally, All Pokémon",
@@ -30709,7 +30704,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 327,
+      "Index": 328,
       "LabelName": "help_11_11_00",
       "LabelHash": 298584140,
       "OriginalText": "Single Target\n\nMoves with this range will affect one Pokémon other than\nthe user.",
@@ -30804,7 +30799,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 328,
+      "Index": 329,
       "LabelName": "help_11_11_01",
       "LabelHash": 298584139,
       "OriginalText": "Self\n\nMoves with this range will affect only the user.",
@@ -30881,7 +30876,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 329,
+      "Index": 330,
       "LabelName": "help_11_11_02",
       "LabelHash": 298584142,
       "OriginalText": "Single Ally\n\nMoves with this range will affect an ally other than the user.",
@@ -30958,7 +30953,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 330,
+      "Index": 331,
       "LabelName": "help_11_11_03",
       "LabelHash": 298584141,
       "OriginalText": "All Pokémon\n\nMoves with this range will usually affect every Pokémon except\nthe user. Some moves, however, will also affect the user.",
@@ -31053,7 +31048,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 331,
+      "Index": 332,
       "LabelName": "help_11_12",
       "LabelHash": 401857306,
       "OriginalText": "All Allies, All Opponents, Random Opponent, Entire Field",
@@ -31075,7 +31070,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 332,
+      "Index": 333,
       "LabelName": "help_11_12_00",
       "LabelHash": 1320221053,
       "OriginalText": "All Allies\n\nMoves with this range will affect all allies including the user.",
@@ -31152,7 +31147,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 333,
+      "Index": 334,
       "LabelName": "help_11_12_01",
       "LabelHash": 1320221052,
       "OriginalText": "All Opponents\n\nMoves with this range will affect all opponents.",
@@ -31229,7 +31224,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 334,
+      "Index": 335,
       "LabelName": "help_11_12_02",
       "LabelHash": 1320221055,
       "OriginalText": "Random Opponent\n\nMoves with this range will affect one opponent at random.",
@@ -31306,7 +31301,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 335,
+      "Index": 336,
       "LabelName": "help_11_12_03",
       "LabelHash": 1320221054,
       "OriginalText": "Entire Field\n\nMoves with this range will affect all Pokémon on the field.",
@@ -31383,7 +31378,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 336,
+      "Index": 337,
       "LabelName": "help_11_13",
       "LabelHash": 1967941247,
       "OriginalText": "Opponent’s Side, User’s Side, Varies",
@@ -31405,7 +31400,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 337,
+      "Index": 338,
       "LabelName": "help_11_13_00",
       "LabelHash": 16259138,
       "OriginalText": "Opponent’s Side\n\nMoves with this range will affect the side of the field\nbelonging to all opponents.",
@@ -31500,7 +31495,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 338,
+      "Index": 339,
       "LabelName": "help_11_13_01",
       "LabelHash": 16259137,
       "OriginalText": "User’s Side\n\nMoves with this range will affect the side of the field\nbelonging to the user and its allies.",
@@ -31595,7 +31590,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 339,
+      "Index": 340,
       "LabelName": "help_11_13_02",
       "LabelHash": 16259140,
       "OriginalText": "Varies\n\nMoves with this range will affect Pokémon in ways that are\ndifferent from the other ranges.",
@@ -31690,7 +31685,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 340,
+      "Index": 341,
       "LabelName": "help_11_13_03",
       "LabelHash": 16259139,
       "OriginalText": "Check out the battle tutorial on Double Battles to learn\nmore about them through a hands-on demonstration.",
@@ -31776,7 +31771,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 341,
+      "Index": 342,
       "LabelName": "help_11_14",
       "LabelHash": 1564656720,
       "OriginalText": "Contact",
@@ -31798,7 +31793,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 342,
+      "Index": 343,
       "LabelName": "help_11_14_00",
       "LabelHash": 1037896051,
       "OriginalText": "Moves can be broadly divided into two groups:\ncontact moves, which make contact with the target, and\nnoncontact moves, which don’t make contact with the target.\n\nThere are a variety of moves, held items, and Abilities that can\neither affect contact moves or are triggered by contact moves.\n\nLet’s look at some examples.",
@@ -32002,7 +31997,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 343,
+      "Index": 344,
       "LabelName": "help_11_14_01",
       "LabelHash": 1037896050,
       "OriginalText": "King’s Shield\n\nThe user protects itself from incoming attacks for the turn and\nchanges into its Shield Forme. Any attackers that use contact\nmoves against the user during this turn will have their Attack\nstats lowered by 1 stage. With each consecutive use, this\nmove’s chance of success becomes 1/3 of what it was before.",
@@ -32151,7 +32146,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 344,
+      "Index": 345,
       "LabelName": "help_11_14_02",
       "LabelHash": 1037896053,
       "OriginalText": "Rough Skin\n\nWhen the Pokémon is hit by a contact move, the attacker takes\ndamage equal to 1/8 of its max HP.",
@@ -32246,7 +32241,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 345,
+      "Index": 346,
       "LabelName": "help_11_14_03",
       "LabelHash": 1037896052,
       "OriginalText": "Tough Claws\n\nBoosts the power of the Pokémon’s contact moves by 30%.",
@@ -32323,7 +32318,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 346,
+      "Index": 347,
       "LabelName": "help_11_14_04",
       "LabelHash": 1037896055,
       "OriginalText": "Check out the battle tutorial on contact vs. noncontact moves\nto learn more about them through a hands-on demonstration.",
@@ -32400,7 +32395,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 347,
+      "Index": 348,
       "LabelName": "help_11_15",
       "LabelHash": -1164226635,
       "OriginalText": "Move Classifications",
@@ -32422,7 +32417,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 348,
+      "Index": 349,
       "LabelName": "help_11_15_00",
       "LabelHash": -266065864,
       "OriginalText": "There are many moves that can be given a particular\nclassification, with each of those classifications containing\nmoves that share similar characteristics.\n\nLet’s look at powder and sound-based moves as examples.",
@@ -32636,7 +32631,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 349,
+      "Index": 350,
       "LabelName": "help_11_15_01",
       "LabelHash": -266065865,
       "OriginalText": "Powder Moves\n\n ・ Have no effect against Pokémon with the Overcoat Ability\n ・ Have no effect against Grass-type Pokémon",
@@ -32731,7 +32726,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 350,
+      "Index": 351,
       "LabelName": "help_11_15_02",
       "LabelHash": -266065862,
       "OriginalText": "Sound-Based Moves\n\n ・ Have no effect against Pokémon with the Soundproof Ability\n ・ Can ignore the effects of substitutes",
@@ -32826,7 +32821,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 351,
+      "Index": 352,
       "LabelName": "help_12",
       "LabelHash": 2053196785,
       "OriginalText": "Other",
@@ -32848,7 +32843,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 352,
+      "Index": 353,
       "LabelName": "help_12_00",
       "LabelHash": -760942142,
       "OriginalText": "VP",
@@ -32870,7 +32865,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 353,
+      "Index": 354,
       "LabelName": "help_12_00_00",
       "LabelHash": 1602509225,
       "OriginalText": "VP (Victory Points) can be used to recruit and train Pokémon,\nobtain things in the Frontier Shop, and more.",
@@ -32947,7 +32942,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 354,
+      "Index": 355,
       "LabelName": "help_12_00_01",
       "LabelHash": 1602509224,
       "OriginalText": "You can obtain VP through taking part in Ranked Battles.\n\nWinning Ranked Battles will reward you with more VP than\nlosing will.",
@@ -33051,7 +33046,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 355,
+      "Index": 356,
       "LabelName": "help_12_00_02",
       "LabelHash": 1602509223,
       "OriginalText": "You can also obtain VP via Cordy’s missions, Battle Passes, and\nthrough other means.",
@@ -33091,7 +33086,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 356,
+      "Index": 357,
       "LabelName": "help_12_01",
       "LabelHash": 805141799,
       "OriginalText": "Tickets",
@@ -33113,7 +33108,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 357,
+      "Index": 358,
       "LabelName": "help_12_01_00",
       "LabelHash": 298547310,
       "OriginalText": "Tickets are used for recruiting Pokémon, training Pokémon, and\nmore. There are various types of tickets you can obtain.\n\nLet’s look at some examples.",
@@ -33217,7 +33212,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 358,
+      "Index": 359,
       "LabelName": "help_12_01_01",
       "LabelHash": 298547309,
       "OriginalText": "Quick Coupons\n\nQuick Coupons shorten how long you must wait to recruit a\nPokémon by one hour per ticket.",
@@ -33404,7 +33399,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 359,
+      "Index": 360,
       "LabelName": "help_12_01_02",
       "LabelHash": 298547308,
       "OriginalText": "Teammate Tickets\n\nA Teammate Ticket can be used to reduce the cost of\npermanently recruiting a Pokémon to 0 VP.",
@@ -33545,7 +33540,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 360,
+      "Index": 361,
       "LabelName": "help_12_01_03",
       "LabelHash": 298547307,
       "OriginalText": "Training Tickets\n\nA Training Ticket can be used to reduce the cost of\ntraining a Pokémon to 0 VP.",
@@ -33686,7 +33681,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 361,
+      "Index": 362,
       "LabelName": "help_12_02",
       "LabelHash": 401857272,
       "OriginalText": "Membership",
@@ -33708,7 +33703,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 362,
+      "Index": 363,
       "LabelName": "help_12_02_00",
       "LabelHash": 1320184223,
       "OriginalText": "If you purchase a membership, you’ll be able\nto do the following:\n\n ・ Store more Pokémon in your Box\n ・ Have more Battle Teams usable at one time\n ・ Unlock membership-exclusive missions\n ・ Unlock membership-exclusive battle songs",
@@ -33987,7 +33982,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 363,
+      "Index": 364,
       "LabelName": "help_12_03",
       "LabelHash": 1967941213,
       "OriginalText": "Your Region and Location",
@@ -34009,7 +34004,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 364,
+      "Index": 365,
       "LabelName": "help_12_03_00",
       "LabelHash": 16222308,
       "OriginalText": "Your region and location affect which Online Competitions\nyou’re able to participate in.",
@@ -34095,7 +34090,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 365,
+      "Index": 366,
       "LabelName": "help_12_03_01",
       "LabelHash": 16222307,
       "OriginalText": "Please adjust your region and location as necessary whenever\nyou change your place of residence.",
@@ -34135,7 +34130,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 366,
+      "Index": 367,
       "LabelName": "help_12_04",
       "LabelHash": 1564656686,
       "OriginalText": "Linking Accounts",
@@ -34157,7 +34152,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 367,
+      "Index": 368,
       "LabelName": "help_12_04_00",
       "LabelHash": 1037859221,
       "OriginalText": "You can use the same game data on both the Nintendo Switch\nversion and mobile version of Pokémon Champions by linking\nthe same Nintendo Account to both.",
@@ -34280,7 +34275,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 368,
+      "Index": 369,
       "LabelName": "help_12_04_00_00",
       "LabelHash": -743730100,
       "OriginalText": "Data Carryover",
@@ -34302,7 +34297,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 369,
+      "Index": 370,
       "LabelName": "help_12_04_00_01",
       "LabelHash": 1985153255,
       "OriginalText": "Linking accounts will allow you to carry over your\nPokémon Champions data even if you uninstall the\napplication or change to a new mobile device or console.",
@@ -34434,7 +34429,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 370,
+      "Index": 371,
       "LabelName": "help_12_04_00_02",
       "LabelHash": -1906529514,
       "OriginalText": "If you want to carry over your data to a new device,\nsuch as when you’re changing mobile devices, make\nsure to use your current device to link accounts\nbefore you do so.",
@@ -34612,7 +34607,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 371,
+      "Index": 372,
       "LabelName": "help_12_04_00_03",
       "LabelHash": 822353841,
       "OriginalText": "You can carry over your Pokémon Champions data by\nopening up the Pokémon Champions app in your new\ndevice or console and then logging in to the linked account.",
@@ -34716,7 +34711,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 372,
+      "Index": 373,
       "LabelName": "help_12_04_01",
       "LabelHash": 1037859220,
       "OriginalText": "Linking accounts will allow you to carry over your\nPokémon Champions data even if you uninstall the\napplication or change to a new mobile device or console.",
@@ -34848,7 +34843,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 373,
+      "Index": 374,
       "LabelName": "help_12_05",
       "LabelHash": -1164226669,
       "OriginalText": "Competition Mode",
@@ -34870,7 +34865,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 374,
+      "Index": 375,
       "LabelName": "help_12_05_00",
       "LabelHash": -266102694,
       "OriginalText": "Competition Mode is a special mode used during events\nsuch as Offline Competitions.\n\nYou can enter Competition Mode from the menu on the\ntitle screen.",

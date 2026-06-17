@@ -254,7 +254,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 11,
+      "Index": 12,
       "LabelName": "option_item4_01",
       "LabelHash": -574919685,
       "OriginalText": "Trainer Name",
@@ -276,7 +276,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 12,
+      "Index": 13,
       "LabelName": "option_item4_02",
       "LabelHash": -574919684,
       "OriginalText": "Language",
@@ -298,7 +298,51 @@
       "StyleCode": 27
     },
     {
+      "Index": 14,
+      "LabelName": "option_item4_03",
+      "LabelHash": -574919683,
+      "OriginalText": "Apple Account",
+      "TextInfos": [
+        {
+          "Text": "Apple Account",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
       "Index": 15,
+      "LabelName": "option_item4_04",
+      "LabelHash": -574919682,
+      "OriginalText": "Google Account",
+      "TextInfos": [
+        {
+          "Text": "Google Account",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 16,
       "LabelName": "option_item4_06",
       "LabelHash": -574919680,
       "OriginalText": "Nintendo Account",
@@ -321,6 +365,28 @@
     },
     {
       "Index": 17,
+      "LabelName": "option_item4_07",
+      "LabelHash": -574919679,
+      "OriginalText": "Delete Account",
+      "TextInfos": [
+        {
+          "Text": "Delete Account",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 18,
       "LabelName": "option_item5_01",
       "LabelHash": 1011367232,
       "OriginalText": "Allow Friend Requests",
@@ -342,7 +408,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 18,
+      "Index": 19,
       "LabelName": "option_item5_02",
       "LabelHash": 1011367233,
       "OriginalText": "Make Profile Public",
@@ -364,7 +430,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 19,
+      "Index": 20,
       "LabelName": "option_setting06",
       "LabelHash": 263586626,
       "OriginalText": "{0}",
@@ -389,35 +455,13 @@
       "StyleCode": 9
     },
     {
-      "Index": 20,
+      "Index": 21,
       "LabelName": "option_setting07",
       "LabelHash": -1302497315,
       "OriginalText": "Linked",
       "TextInfos": [
         {
           "Text": "Linked",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        }
-      ],
-      "GenderCode": 0,
-      "CountabilityCode": 1,
-      "ArticleCode": 0,
-      "InitialSoundCode": 0,
-      "StyleCode": 8
-    },
-    {
-      "Index": 21,
-      "LabelName": "option_setting08",
-      "LabelHash": 1782616400,
-      "OriginalText": "Not Linked",
-      "TextInfos": [
-        {
-          "Text": "Not Linked",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -456,6 +500,308 @@
       "ArticleCode": 0,
       "InitialSoundCode": 0,
       "StyleCode": 5
+    },
+    {
+      "Index": 23,
+      "LabelName": "option_delete01",
+      "LabelHash": 19114416,
+      "OriginalText": "Your data cannot be recovered once it is deleted!\nAre you sure you want to delete this data forever?\n\nNote: If you’ve linked a Nintendo Account to your game,\nthen your link to Pokémon HOME will be removed and any\nvisiting Pokémon will be sent back to Pokémon HOME.",
+      "TextInfos": [
+        {
+          "Text": "Your data cannot be recovered once it is deleted!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Are you sure you want to delete this data forever?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Note: If you’ve linked a Nintendo Account to your game,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "then your link to Pokémon HOME will be removed and any",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "visiting Pokémon will be sent back to Pokémon HOME.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 24,
+      "LabelName": "option_delete02",
+      "LabelHash": 19114415,
+      "OriginalText": "Your data cannot be recovered once it is deleted!\nAre you sure you want to delete this data forever?\n\nNote: If you have a paid membership, it will not automatically\nbe canceled upon the deletion of your data. Please cancel\nyour membership through the relevant software or app store.",
+      "TextInfos": [
+        {
+          "Text": "Your data cannot be recovered once it is deleted!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Are you sure you want to delete this data forever?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Note: If you have a paid membership, it will not automatically",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "be canceled upon the deletion of your data. Please cancel",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "your membership through the relevant software or app store.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 25,
+      "LabelName": "option_delete03",
+      "LabelHash": 19114414,
+      "OriginalText": "Your data cannot be recovered once it is deleted!\nAre you sure you want to delete this data forever?",
+      "TextInfos": [
+        {
+          "Text": "Your data cannot be recovered once it is deleted!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Are you sure you want to delete this data forever?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
     },
     {
       "Index": 26,
@@ -579,6 +925,72 @@
       "StyleCode": 27
     },
     {
+      "Index": 29,
+      "LabelName": "option_pokemon_intro_notice",
+      "LabelHash": 287901017,
+      "OriginalText": "Enable for Recruiting",
+      "TextInfos": [
+        {
+          "Text": "Enable for Recruiting",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 30,
+      "LabelName": "option_notice",
+      "LabelHash": 1416960708,
+      "OriginalText": "Enable for Important News",
+      "TextInfos": [
+        {
+          "Text": "Enable for Important News",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 31,
+      "LabelName": "option_push_notification",
+      "LabelHash": -2143793670,
+      "OriginalText": "Push Notifications",
+      "TextInfos": [
+        {
+          "Text": "Push Notifications",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
       "Index": 32,
       "LabelName": "change_name",
       "LabelHash": -823054380,
@@ -586,6 +998,28 @@
       "TextInfos": [
         {
           "Text": "Enter a new name below.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 33,
+      "LabelName": "option_account_access_complete",
+      "LabelHash": 731059120,
+      "OriginalText": "Your account is now linked!",
+      "TextInfos": [
+        {
+          "Text": "Your account is now linked!",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -756,6 +1190,141 @@
       "ArticleCode": 0,
       "InitialSoundCode": 0,
       "StyleCode": 69
+    },
+    {
+      "Index": 37,
+      "LabelName": "option_data_delete",
+      "LabelHash": 422911466,
+      "OriginalText": "Save data deleted.\nNote: It may take time for some data to be fully deleted.\n\nYou will now be returned to the title screen.",
+      "TextInfos": [
+        {
+          "Text": "Save data deleted.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Note: It may take time for some data to be fully deleted.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "You will now be returned to the title screen.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 38,
+      "LabelName": "option_account_access_confirm",
+      "LabelHash": -1973620381,
+      "OriginalText": "The account you link to cannot be changed later.\nAre you sure you want to link to this account?",
+      "TextInfos": [
+        {
+          "Text": "The account you link to cannot be changed later.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Are you sure you want to link to this account?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
     },
     {
       "Index": 39,
@@ -996,6 +1565,50 @@
       "StyleCode": 66
     },
     {
+      "Index": 49,
+      "LabelName": "option_info4_03",
+      "LabelHash": -1383559488,
+      "OriginalText": "Link to an Apple Account (optional).",
+      "TextInfos": [
+        {
+          "Text": "Link to an Apple Account (optional).",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 50,
+      "LabelName": "option_info4_04",
+      "LabelHash": -1383559487,
+      "OriginalText": "Link to a Google Account (optional).",
+      "TextInfos": [
+        {
+          "Text": "Link to a Google Account (optional).",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
       "Index": 51,
       "LabelName": "option_info4_06",
       "LabelHash": -1383559485,
@@ -1038,6 +1651,86 @@
       "ArticleCode": 0,
       "InitialSoundCode": 0,
       "StyleCode": 19
+    },
+    {
+      "Index": 53,
+      "LabelName": "option_info_pokemon_intro_notice",
+      "LabelHash": -1722113612,
+      "OriginalText": "Choose whether to receive notifications when the\nwait time to recruit a Pokémon reaches zero.",
+      "TextInfos": [
+        {
+          "Text": "Choose whether to receive notifications when the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "wait time to recruit a Pokémon reaches zero.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 54,
+      "LabelName": "option_info_notice",
+      "LabelHash": 1608274491,
+      "OriginalText": "Choose whether to receive notifications about\nmaintenance and other important news.",
+      "TextInfos": [
+        {
+          "Text": "Choose whether to receive notifications about",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "maintenance and other important news.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
     },
     {
       "Index": 55,
@@ -1100,6 +1793,152 @@
       "ArticleCode": 0,
       "InitialSoundCode": 0,
       "StyleCode": 66
+    },
+    {
+      "Index": 57,
+      "LabelName": "option_info_tracking",
+      "LabelHash": -1796100464,
+      "OriginalText": "Choose whether your data can be collected for\nservice improvement purposes.",
+      "TextInfos": [
+        {
+          "Text": "Choose whether your data can be collected for",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "service improvement purposes.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 58,
+      "LabelName": "option_info4_07",
+      "LabelHash": -1383559484,
+      "OriginalText": "Delete your Pokémon Champions account.",
+      "TextInfos": [
+        {
+          "Text": "Delete your Pokémon Champions account.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 59,
+      "LabelName": "option_notice_champions",
+      "LabelHash": 706366993,
+      "OriginalText": "Notifications from Pokémon Champions",
+      "TextInfos": [
+        {
+          "Text": "Notifications from Pokémon Champions",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 60,
+      "LabelName": "option_all_notice_champions",
+      "LabelHash": 135448599,
+      "OriginalText": "Receive all notifications from Pokémon Champions",
+      "TextInfos": [
+        {
+          "Text": "Receive all notifications from Pokémon Champions",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 61,
+      "LabelName": "option_notice_OS_setting",
+      "LabelHash": -1754251224,
+      "OriginalText": "To receive notifications, you must change your notification\nsettings on your device. Would you like to open your settings?",
+      "TextInfos": [
+        {
+          "Text": "To receive notifications, you must change your notification",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "settings on your device. Would you like to open your settings?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
     }
   ]
 }

@@ -3444,28 +3444,6 @@
       "StyleCode": 68
     },
     {
-      "Index": 107,
-      "LabelName": "WAZAINFO_SYN_208",
-      "LabelHash": 434831853,
-      "OriginalText": "自分のＨＰを最大ＨＰの１／２回復する。",
-      "TextInfos": [
-        {
-          "Text": "自分のＨＰを最大ＨＰの１／２回復する。",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        }
-      ],
-      "GenderCode": 0,
-      "CountabilityCode": 0,
-      "ArticleCode": 1,
-      "InitialSoundCode": 0,
-      "StyleCode": 68
-    },
-    {
       "Index": 108,
       "LabelName": "WAZAINFO_SYN_211",
       "LabelHash": -1487482447,
@@ -11710,6 +11688,28 @@
       "StyleCode": 68
     },
     {
+      "Index": 377,
+      "LabelName": "WAZAINFO_SYN_576",
+      "LabelHash": -1467279477,
+      "OriginalText": "相手の能力変化を全て逆にする。",
+      "TextInfos": [
+        {
+          "Text": "相手の能力変化を全て逆にする。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 378,
       "LabelName": "WAZAINFO_SYN_577",
       "LabelHash": 98804464,
@@ -13518,6 +13518,82 @@
       "StyleCode": 68
     },
     {
+      "Index": 513,
+      "LabelName": "WAZAINFO_SYN_748",
+      "LabelHash": -1991523528,
+      "OriginalText": "自分の攻撃　防御　特攻　特防　素早さを\n１段階上げる。自分は　にげられない状態になる。\n登場するたび　１回だけ使える。\n２回目以降は失敗する。",
+      "TextInfos": [
+        {
+          "Text": "自分の攻撃　防御　特攻　特防　素早さを",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "１段階上げる。自分は　にげられない状態になる。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "登場するたび　１回だけ使える。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "２回目以降は失敗する。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 515,
       "LabelName": "WAZAINFO_SYN_750",
       "LabelHash": 1947213409,
@@ -13925,6 +14001,28 @@
         },
         {
           "Text": "威力が１．５倍になる。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 553,
+      "LabelName": "WAZAINFO_SYN_789",
+      "LabelHash": -425439591,
+      "OriginalText": "相手の特攻を１段階下げる。",
+      "TextInfos": [
+        {
+          "Text": "相手の特攻を１段階下げる。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -15176,6 +15274,64 @@
       "StyleCode": 68
     },
     {
+      "Index": 602,
+      "LabelName": "WAZAINFO_SYN_839",
+      "LabelHash": 1039629477,
+      "OriginalText": "５０％の確率で相手をどく状態にする。\n相手がどく　もうどく状態の場合\n威力が２倍になる。",
+      "TextInfos": [
+        {
+          "Text": "５０％の確率で相手をどく状態にする。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "相手がどく　もうどく状態の場合",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "威力が２倍になる。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 604,
       "LabelName": "WAZAINFO_SYN_841",
       "LabelHash": 1395859834,
@@ -15882,6 +16038,28 @@
       "StyleCode": 68
     },
     {
+      "Index": 637,
+      "LabelName": "WAZAINFO_SYN_874",
+      "LabelHash": 636344946,
+      "OriginalText": "自分の特攻を２段階下げる。",
+      "TextInfos": [
+        {
+          "Text": "自分の特攻を２段階下げる。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 643,
       "LabelName": "WAZAINFO_SYN_880",
       "LabelHash": -1333023525,
@@ -16169,6 +16347,64 @@
       "TextInfos": [
         {
           "Text": "２回連続で攻撃する。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 652,
+      "LabelName": "WAZAINFO_SYN_889",
+      "LabelHash": 1039629470,
+      "OriginalText": "技のダメージを受けるたび\n威力が５０上がる。最大威力３５０。\n手持ちに戻ると　威力は元に戻る。",
+      "TextInfos": [
+        {
+          "Text": "技のダメージを受けるたび",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "威力が５０上がる。最大威力３５０。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "手持ちに戻ると　威力は元に戻る。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

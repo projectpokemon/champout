@@ -1045,10 +1045,28 @@
       "Index": 37,
       "LabelName": "error_code_46091",
       "LabelHash": 1854339503,
-      "OriginalText": "L’achat a échoué.",
+      "OriginalText": "Une erreur est survenue. Votre achat a peut-être échoué.\nVeuillez essayer de redémarrer le jeu.",
       "TextInfos": [
         {
-          "Text": "L’achat a échoué.",
+          "Text": "Une erreur est survenue. Votre achat a peut-être échoué.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Veuillez essayer de redémarrer le jeu.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1556,6 +1574,28 @@
         },
         {
           "Text": "à vos infos de Dresseur ou de Dresseuse aujourd’hui.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 56,
+      "LabelName": "error_code_12050",
+      "LabelHash": -228823733,
+      "OriginalText": "Une association à un autre compte est déjà active.",
+      "TextInfos": [
+        {
+          "Text": "Une association à un autre compte est déjà active.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2306,46 +2346,6 @@
     },
     {
       "Index": 83,
-      "LabelName": "error_code_30012",
-      "LabelHash": 1660766085,
-      "OriginalText": "Ce nom d’équipe contient des mots interdits.\nVeuillez le modifier.",
-      "TextInfos": [
-        {
-          "Text": "Ce nom d’équipe contient des mots interdits.",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "Veuillez le modifier.",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        }
-      ],
-      "GenderCode": 1,
-      "CountabilityCode": 1,
-      "ArticleCode": 0,
-      "InitialSoundCode": 0,
-      "StyleCode": 66
-    },
-    {
-      "Index": 84,
       "LabelName": "error_code_31502",
       "LabelHash": -207845738,
       "OriginalText": "L’obtention des informations de l’Équipe Combat a échoué.",
@@ -2367,7 +2367,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 85,
+      "Index": 84,
       "LabelName": "error_code_33010",
       "LabelHash": 497966832,
       "OriginalText": "Vous ne pouvez pas effectuer cette action,\ncar votre abonnement a expiré.\nRemarque : vous pouvez tout de même rendre le Pokémon\nau Ranch de Recrutement ou le renvoyer vers Pokémon HOME.",
@@ -2471,13 +2471,13 @@
       "StyleCode": 67
     },
     {
-      "Index": 86,
+      "Index": 85,
       "LabelName": "error_code_33022",
       "LabelHash": 1660766245,
-      "OriginalText": "Ce nom de combat contient des mots interdits.\nVeuillez le modifier.",
+      "OriginalText": "Un ou plusieurs noms de combat contiennent une séquence\nde caractères interdite.\nVeuillez modifier le ou les noms concernés.",
       "TextInfos": [
         {
-          "Text": "Ce nom de combat contient des mots interdits.",
+          "Text": "Un ou plusieurs noms de combat contiennent une séquence",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2495,7 +2495,25 @@
           }
         },
         {
-          "Text": "Veuillez le modifier.",
+          "Text": "de caractères interdite.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Veuillez modifier le ou les noms concernés.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2511,7 +2529,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 87,
+      "Index": 86,
       "LabelName": "error_code_34017",
       "LabelHash": 1257481690,
       "OriginalText": "La période de recrutement est terminée.",
@@ -2533,7 +2551,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 88,
+      "Index": 87,
       "LabelName": "error_code_40106",
       "LabelHash": -1654261906,
       "OriginalText": "La période de recrutement d’un ou plusieurs Pokémon\nest arrivée à son terme.",
@@ -2573,7 +2591,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 89,
+      "Index": 88,
       "LabelName": "error_code_50000",
       "LabelHash": -1682404752,
       "OriginalText": "L’ID de Dresseur spécifié n’existe pas.",
@@ -2595,7 +2613,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 90,
+      "Index": 89,
       "LabelName": "error_code_60020",
       "LabelHash": -147753567,
       "OriginalText": "Le compte Pokémon HOME est introuvable.",
@@ -2617,7 +2635,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 91,
+      "Index": 90,
       "LabelName": "error_code_60900",
       "LabelHash": 1431626802,
       "OriginalText": "Pokémon HOME est actuellement indisponible en raison\nd’une opération de maintenance.",
@@ -2657,7 +2675,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 92,
+      "Index": 91,
       "LabelName": "error_code_50015",
       "LabelHash": 1853047658,
       "OriginalText": "La demande de contact a échoué.",
@@ -2679,7 +2697,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 93,
+      "Index": 92,
       "LabelName": "error_code_50016",
       "LabelHash": -875835697,
       "OriginalText": "Vous ne pouvez pas partager cette équipe, car toutes\nvos Équipes Combat font partie de vos favorites.",
@@ -2719,7 +2737,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 94,
+      "Index": 93,
       "LabelName": "error_code_47000",
       "LabelHash": -874543748,
       "OriginalText": "Ce message est introuvable.",
@@ -2741,7 +2759,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 95,
+      "Index": 94,
       "LabelName": "error_code_33003",
       "LabelHash": -1068117108,
       "OriginalText": "Cette étiquette contient au moins un mot interdit.",
@@ -2763,7 +2781,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 96,
+      "Index": 95,
       "LabelName": "error_code_200001",
       "LabelHash": 221184836,
       "OriginalText": "La date a changé.\nRetour à l’écran titre.",
@@ -2803,7 +2821,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 97,
+      "Index": 96,
       "LabelName": "error_code_200002",
       "LabelHash": 221184837,
       "OriginalText": "Votre appareil n’est connecté à aucun réseau.",
@@ -2825,7 +2843,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 98,
+      "Index": 97,
       "LabelName": "error_code_60910",
       "LabelHash": 1431626803,
       "OriginalText": "La connexion à Pokémon HOME est actuellement impossible\nen raison d’une opération de maintenance.",
@@ -2865,7 +2883,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 99,
+      "Index": 98,
       "LabelName": "error_code_20999",
       "LabelHash": -199905972,
       "OriginalText": "La recherche a été interrompue, car les serveurs\nsont actuellement surchargés.",
@@ -2905,7 +2923,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 100,
+      "Index": 99,
       "LabelName": "error_code_200003",
       "LabelHash": 221184838,
       "OriginalText": "Veuillez vérifier les paramètres horaires de votre appareil.",
@@ -2927,7 +2945,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 101,
+      "Index": 100,
       "LabelName": "error_code_battle_over",
       "LabelHash": -1252704450,
       "OriginalText": "Ce combat est déjà terminé.",
@@ -2949,7 +2967,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 102,
+      "Index": 101,
       "LabelName": "error_code_41302",
       "LabelHash": -1015706447,
       "OriginalText": "L’ID d’inscription est incorrect.",
@@ -2971,7 +2989,7 @@
       "StyleCode": 66
     },
     {
-      "Index": 103,
+      "Index": 102,
       "LabelName": "error_code_10900",
       "LabelHash": 1632881569,
       "OriginalText": "Cette date de naissance est invalide.",
@@ -2993,7 +3011,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 104,
+      "Index": 103,
       "LabelName": "error_code_60011",
       "LabelHash": -1713837509,
       "OriginalText": "Vous ne pouvez pas renvoyer plusieurs Pokémon transférés\ndepuis des comptes Pokémon HOME différents en même temps.\nVeuillez les renvoyer séparément.",

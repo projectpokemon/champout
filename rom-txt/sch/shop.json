@@ -1491,6 +1491,28 @@
       "StyleCode": 111
     },
     {
+      "Index": 56,
+      "LabelName": "shop_restore_00",
+      "LabelHash": 624168200,
+      "OriginalText": "恢复购买",
+      "TextInfos": [
+        {
+          "Text": "恢复购买",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 34
+    },
+    {
       "Index": 57,
       "LabelName": "shop_restore_01",
       "LabelHash": 624168201,
@@ -1513,7 +1535,29 @@
       "StyleCode": 16
     },
     {
-      "Index": 60,
+      "Index": 58,
+      "LabelName": "shop_restore_03",
+      "LabelHash": 624168199,
+      "OriginalText": "在过去的购买信息中没有找到错误。",
+      "TextInfos": [
+        {
+          "Text": "在过去的购买信息中没有找到错误。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 59,
       "LabelName": "shop_restore_04",
       "LabelHash": 624168204,
       "OriginalText": "已恢复购买状态。",
@@ -4095,7 +4139,47 @@
       "StyleCode": 62
     },
     {
-      "Index": 83,
+      "Index": 81,
+      "LabelName": "shop_california_state_law",
+      "LabelHash": -660416344,
+      "OriginalText": "购买本内容后，将根据本公司的用户协议\n获得使用本内容的授权。详情请确认上方的用户协议。",
+      "TextInfos": [
+        {
+          "Text": "购买本内容后，将根据本公司的用户协议",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "获得使用本内容的授权。详情请确认上方的用户协议。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 105
+    },
+    {
+      "Index": 82,
       "LabelName": "shop_california_terms",
       "LabelHash": -855457869,
       "OriginalText": "用户协议",
@@ -4117,7 +4201,51 @@
       "StyleCode": 13
     },
     {
-      "Index": 87,
+      "Index": 83,
+      "LabelName": "shop_55",
+      "LabelHash": 1231880411,
+      "OriginalText": "一并购买",
+      "TextInfos": [
+        {
+          "Text": "一并购买",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 84,
+      "LabelName": "shop_56",
+      "LabelHash": 1231880408,
+      "OriginalText": "单独购买",
+      "TextInfos": [
+        {
+          "Text": "单独购买",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 85,
       "LabelName": "shop_58",
       "LabelHash": 1231880422,
       "OriginalText": "关于自动更新",
@@ -4139,7 +4267,7 @@
       "StyleCode": 14
     },
     {
-      "Index": 88,
+      "Index": 86,
       "LabelName": "shop_59",
       "LabelHash": 1231880423,
       "OriginalText": "{0}",
@@ -4164,7 +4292,7 @@
       "StyleCode": 70
     },
     {
-      "Index": 89,
+      "Index": 87,
       "LabelName": "shop_60",
       "LabelHash": 1635164941,
       "OriginalText": "{0}",
@@ -4187,6 +4315,68 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 58
+    },
+    {
+      "Index": 88,
+      "LabelName": "shop_61",
+      "LabelHash": 1635164942,
+      "OriginalText": "保留中",
+      "TextInfos": [
+        {
+          "Text": "保留中",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 7
+    },
+    {
+      "Index": 89,
+      "LabelName": "shop_62",
+      "LabelHash": 1635164939,
+      "OriginalText": "请完成支付手续。\n确认支付成功后，购买内容会立即生效。",
+      "TextInfos": [
+        {
+          "Text": "请完成支付手续。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "确认支付成功后，购买内容会立即生效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 46
     }
   ]
 }

@@ -3336,28 +3336,6 @@
       "StyleCode": 68
     },
     {
-      "Index": 107,
-      "LabelName": "WAZAINFO_SYN_208",
-      "LabelHash": 434831853,
-      "OriginalText": "會回復自己最大HP的1/2。",
-      "TextInfos": [
-        {
-          "Text": "會回復自己最大HP的1/2。",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        }
-      ],
-      "GenderCode": 0,
-      "CountabilityCode": 0,
-      "ArticleCode": 1,
-      "InitialSoundCode": 0,
-      "StyleCode": 68
-    },
-    {
       "Index": 108,
       "LabelName": "WAZAINFO_SYN_211",
       "LabelHash": -1487482447,
@@ -11458,6 +11436,28 @@
       "StyleCode": 68
     },
     {
+      "Index": 377,
+      "LabelName": "WAZAINFO_SYN_576",
+      "LabelHash": -1467279477,
+      "OriginalText": "會讓對手的能力變化全部顛倒。",
+      "TextInfos": [
+        {
+          "Text": "會讓對手的能力變化全部顛倒。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 378,
       "LabelName": "WAZAINFO_SYN_577",
       "LabelHash": 98804464,
@@ -13194,6 +13194,82 @@
       "StyleCode": 68
     },
     {
+      "Index": 513,
+      "LabelName": "WAZAINFO_SYN_748",
+      "LabelHash": -1991523528,
+      "OriginalText": "會讓自己的攻擊、防禦、特攻、特防、速度提高1階。\n自己會變為無法逃走狀態。\n每次出場時能使用1次。\n第2次以後會失敗。",
+      "TextInfos": [
+        {
+          "Text": "會讓自己的攻擊、防禦、特攻、特防、速度提高1階。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "自己會變為無法逃走狀態。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "每次出場時能使用1次。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "第2次以後會失敗。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 515,
       "LabelName": "WAZAINFO_SYN_750",
       "LabelHash": 1947213409,
@@ -13601,6 +13677,28 @@
         },
         {
           "Text": "威力會變為1.5倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 553,
+      "LabelName": "WAZAINFO_SYN_789",
+      "LabelHash": -425439591,
+      "OriginalText": "會讓對手的特攻降低1階。",
+      "TextInfos": [
+        {
+          "Text": "會讓對手的特攻降低1階。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -14780,6 +14878,64 @@
       "StyleCode": 68
     },
     {
+      "Index": 602,
+      "LabelName": "WAZAINFO_SYN_839",
+      "LabelHash": 1039629477,
+      "OriginalText": "有50%的機率會讓對手變為中毒狀態。\n對手為中毒、劇毒狀態時，\n威力會變為2倍。",
+      "TextInfos": [
+        {
+          "Text": "有50%的機率會讓對手變為中毒狀態。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對手為中毒、劇毒狀態時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "威力會變為2倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 604,
       "LabelName": "WAZAINFO_SYN_841",
       "LabelHash": 1395859834,
@@ -15486,6 +15642,28 @@
       "StyleCode": 68
     },
     {
+      "Index": 637,
+      "LabelName": "WAZAINFO_SYN_874",
+      "LabelHash": 636344946,
+      "OriginalText": "會讓自己的特攻降低2階。",
+      "TextInfos": [
+        {
+          "Text": "會讓自己的特攻降低2階。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 643,
       "LabelName": "WAZAINFO_SYN_880",
       "LabelHash": -1333023525,
@@ -15755,6 +15933,64 @@
       "TextInfos": [
         {
           "Text": "連續攻擊2次。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 652,
+      "LabelName": "WAZAINFO_SYN_889",
+      "LabelHash": 1039629470,
+      "OriginalText": "每當受到招式傷害時，\n威力會提高50。最大威力為350。\n退回同行隊伍後，威力就會復原。",
+      "TextInfos": [
+        {
+          "Text": "每當受到招式傷害時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "威力會提高50。最大威力為350。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "退回同行隊伍後，威力就會復原。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

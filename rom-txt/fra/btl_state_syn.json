@@ -751,7 +751,7 @@
       "Index": 12,
       "LabelName": "BTR_STATE_SYN_07_02",
       "LabelHash": -797252558,
-      "OriginalText": "Ces effets s’appliquent aux Pokémon au sol :\n・ La puissance de leurs capacités de type Dragon\nest réduite de moitié.\n・ Ils ne peuvent ni subir d’altérations de statut,\nni devenir confus.",
+      "OriginalText": "Ces effets s’appliquent aux Pokémon au sol :\n・ Les dégâts des capacités de type Dragon\nqu’ils subissent sont réduits de moitié.\n・ Ils ne peuvent ni subir d’altérations de statut,\nni devenir confus.",
       "TextInfos": [
         {
           "Text": "Ces effets s’appliquent aux Pokémon au sol :",
@@ -772,44 +772,7 @@
           }
         },
         {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": "・",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": " La puissance de leurs capacités de type Dragon",
+          "Text": "・ Les dégâts des capacités de type Dragon",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -827,7 +790,7 @@
           }
         },
         {
-          "Text": "est réduite de moitié.",
+          "Text": "qu’ils subissent sont réduits de moitié.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -845,44 +808,7 @@
           }
         },
         {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": "・",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": " Ils ne peuvent ni subir d’altérations de statut,",
+          "Text": "・ Ils ne peuvent ni subir d’altérations de statut,",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3621,7 +3547,7 @@
       "Index": 84,
       "LabelName": "BTR_STATE_SYN_52_02",
       "LabelHash": 1353683472,
-      "OriginalText": "À la fin de chaque tour, le Pokémon subit\ndes dégâts équivalents à 1/16 de ses PV max,\net l’adversaire qui se trouve à l’endroit\nd’où la capacité Vampigraine a été lancée\nrécupère la même quantité de PV.",
+      "OriginalText": "À la fin de chaque tour, le Pokémon subit\ndes dégâts équivalents à 1/8 de ses PV max,\net l’adversaire qui se trouve à l’endroit depuis\nlequel la capacité Vampigraine a été lancée\nrécupère la même quantité de PV.",
       "TextInfos": [
         {
           "Text": "À la fin de chaque tour, le Pokémon subit",
@@ -3642,7 +3568,7 @@
           }
         },
         {
-          "Text": "des dégâts équivalents à 1/16 de ses PV max,",
+          "Text": "des dégâts équivalents à 1/8 de ses PV max,",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3660,7 +3586,7 @@
           }
         },
         {
-          "Text": "et l’adversaire qui se trouve à l’endroit",
+          "Text": "et l’adversaire qui se trouve à l’endroit depuis",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3678,7 +3604,7 @@
           }
         },
         {
-          "Text": "d’où la capacité Vampigraine a été lancée",
+          "Text": "lequel la capacité Vampigraine a été lancée",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

@@ -254,7 +254,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 11,
+      "Index": 12,
       "LabelName": "option_item4_01",
       "LabelHash": -574919685,
       "OriginalText": "트레이너 이름 변경",
@@ -276,7 +276,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 12,
+      "Index": 13,
       "LabelName": "option_item4_02",
       "LabelHash": -574919684,
       "OriginalText": "표시 언어",
@@ -298,7 +298,51 @@
       "StyleCode": 27
     },
     {
+      "Index": 14,
+      "LabelName": "option_item4_03",
+      "LabelHash": -574919683,
+      "OriginalText": "Apple 계정 연동",
+      "TextInfos": [
+        {
+          "Text": "Apple 계정 연동",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
       "Index": 15,
+      "LabelName": "option_item4_04",
+      "LabelHash": -574919682,
+      "OriginalText": "Google 계정 연동",
+      "TextInfos": [
+        {
+          "Text": "Google 계정 연동",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 16,
       "LabelName": "option_item4_06",
       "LabelHash": -574919680,
       "OriginalText": "닌텐도 어카운트 연동",
@@ -321,6 +365,28 @@
     },
     {
       "Index": 17,
+      "LabelName": "option_item4_07",
+      "LabelHash": -574919679,
+      "OriginalText": "어카운트 삭제",
+      "TextInfos": [
+        {
+          "Text": "어카운트 삭제",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 18,
       "LabelName": "option_item5_01",
       "LabelHash": 1011367232,
       "OriginalText": "친구 신청 받기",
@@ -342,7 +408,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 18,
+      "Index": 19,
       "LabelName": "option_item5_02",
       "LabelHash": 1011367233,
       "OriginalText": "프로필 공개",
@@ -364,7 +430,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 19,
+      "Index": 20,
       "LabelName": "option_setting06",
       "LabelHash": 263586626,
       "OriginalText": "{0}",
@@ -389,35 +455,13 @@
       "StyleCode": 9
     },
     {
-      "Index": 20,
+      "Index": 21,
       "LabelName": "option_setting07",
       "LabelHash": -1302497315,
       "OriginalText": "연동 완료",
       "TextInfos": [
         {
           "Text": "연동 완료",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        }
-      ],
-      "GenderCode": 0,
-      "CountabilityCode": 0,
-      "ArticleCode": 1,
-      "InitialSoundCode": 0,
-      "StyleCode": 8
-    },
-    {
-      "Index": 21,
-      "LabelName": "option_setting08",
-      "LabelHash": 1782616400,
-      "OriginalText": "미연동",
-      "TextInfos": [
-        {
-          "Text": "미연동",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -456,6 +500,326 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 5
+    },
+    {
+      "Index": 23,
+      "LabelName": "option_delete01",
+      "LabelHash": 19114416,
+      "OriginalText": "삭제한 데이터는 복구할 수 없습니다!\n데이터를 완전히 삭제하겠습니까?\n※닌텐도 어카운트와 연동한 경우\n　Pokémon HOME과의 연동이 해제되며\n　Pokémon Champions로 원정 보낸 포켓몬은\n　Pokémon HOME으로 돌아갑니다.",
+      "TextInfos": [
+        {
+          "Text": "삭제한 데이터는 복구할 수 없습니다!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "데이터를 완전히 삭제하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※닌텐도 어카운트와 연동한 경우",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　Pokémon HOME과의 연동이 해제되며",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　Pokémon Champions로 원정 보낸 포켓몬은",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　Pokémon HOME으로 돌아갑니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 24,
+      "LabelName": "option_delete02",
+      "LabelHash": 19114415,
+      "OriginalText": "삭제한 데이터는 복구할 수 없습니다!\n데이터를 완전히 삭제하겠습니까?\n※멤버십에 가입한 경우\n　어카운트를 삭제해도\n　멤버십은 자동 해지되지 않습니다.\n　각 스토어에서 해지 절차를 진행해 주십시오.",
+      "TextInfos": [
+        {
+          "Text": "삭제한 데이터는 복구할 수 없습니다!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "데이터를 완전히 삭제하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※멤버십에 가입한 경우",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　어카운트를 삭제해도",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　멤버십은 자동 해지되지 않습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　각 스토어에서 해지 절차를 진행해 주십시오.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 25,
+      "LabelName": "option_delete03",
+      "LabelHash": 19114414,
+      "OriginalText": "삭제한 데이터는 복구할 수 없습니다!\n데이터를 완전히 삭제하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "삭제한 데이터는 복구할 수 없습니다!",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "데이터를 완전히 삭제하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
     },
     {
       "Index": 26,
@@ -570,6 +934,72 @@
       "StyleCode": 27
     },
     {
+      "Index": 29,
+      "LabelName": "option_pokemon_intro_notice",
+      "LabelHash": 287901017,
+      "OriginalText": "스카우트 가능",
+      "TextInfos": [
+        {
+          "Text": "스카우트 가능",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 30,
+      "LabelName": "option_notice",
+      "LabelHash": 1416960708,
+      "OriginalText": "중요한 소식",
+      "TextInfos": [
+        {
+          "Text": "중요한 소식",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 31,
+      "LabelName": "option_push_notification",
+      "LabelHash": -2143793670,
+      "OriginalText": "푸시 알림",
+      "TextInfos": [
+        {
+          "Text": "푸시 알림",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
       "Index": 32,
       "LabelName": "change_name",
       "LabelHash": -823054380,
@@ -577,6 +1007,28 @@
       "TextInfos": [
         {
           "Text": "새로운 이름을 입력해 주십시오.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 33,
+      "LabelName": "option_account_access_complete",
+      "LabelHash": 731059120,
+      "OriginalText": "어카운트 연동을 완료했습니다.",
+      "TextInfos": [
+        {
+          "Text": "어카운트 연동을 완료했습니다.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -738,6 +1190,150 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 69
+    },
+    {
+      "Index": 37,
+      "LabelName": "option_data_delete",
+      "LabelHash": 422911466,
+      "OriginalText": "데이터를 삭제했습니다.\n※일부 데이터는 삭제가 완료되기까지\n　시간이 걸리는 경우가 있습니다.\n타이틀 화면으로 돌아갑니다.",
+      "TextInfos": [
+        {
+          "Text": "데이터를 삭제했습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※일부 데이터는 삭제가 완료되기까지",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　시간이 걸리는 경우가 있습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "타이틀 화면으로 돌아갑니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 38,
+      "LabelName": "option_account_access_confirm",
+      "LabelHash": -1973620381,
+      "OriginalText": "한 번 어카운트와 연동하면 변경할 수 없습니다.\n이 어카운트와 연동하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "한 번 어카운트와 연동하면 변경할 수 없습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "이 어카운트와 연동하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
     },
     {
       "Index": 39,
@@ -1032,6 +1628,50 @@
       "StyleCode": 66
     },
     {
+      "Index": 49,
+      "LabelName": "option_info4_03",
+      "LabelHash": -1383559488,
+      "OriginalText": "Apple 계정과 연동할 수 있습니다.",
+      "TextInfos": [
+        {
+          "Text": "Apple 계정과 연동할 수 있습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 50,
+      "LabelName": "option_info4_04",
+      "LabelHash": -1383559487,
+      "OriginalText": "Google 계정과 연동할 수 있습니다.",
+      "TextInfos": [
+        {
+          "Text": "Google 계정과 연동할 수 있습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
       "Index": 51,
       "LabelName": "option_info4_06",
       "LabelHash": -1383559485,
@@ -1074,6 +1714,86 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 19
+    },
+    {
+      "Index": 53,
+      "LabelName": "option_info_pokemon_intro_notice",
+      "LabelHash": -1722113612,
+      "OriginalText": "스카우트 대기 시간이 0이 되었을 때의\n알림을 설정할 수 있습니다.",
+      "TextInfos": [
+        {
+          "Text": "스카우트 대기 시간이 0이 되었을 때의",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "알림을 설정할 수 있습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 54,
+      "LabelName": "option_info_notice",
+      "LabelHash": 1608274491,
+      "OriginalText": "점검 등의 중요한 소식이 있을 때의\n알림을 설정할 수 있습니다.",
+      "TextInfos": [
+        {
+          "Text": "점검 등의 중요한 소식이 있을 때의",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "알림을 설정할 수 있습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
     },
     {
       "Index": 55,
@@ -1154,6 +1874,170 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 66
+    },
+    {
+      "Index": 57,
+      "LabelName": "option_info_tracking",
+      "LabelHash": -1796100464,
+      "OriginalText": "서비스 향상을 위한 정보 수집에 대하여\n허가 여부를 설정할 수 있습니다.",
+      "TextInfos": [
+        {
+          "Text": "서비스 향상을 위한 정보 수집에 대하여",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "허가 여부를 설정할 수 있습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 58,
+      "LabelName": "option_info4_07",
+      "LabelHash": -1383559484,
+      "OriginalText": "Pokémon Champions의 어카운트를 삭제합니다.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon Champions의 어카운트를 삭제합니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 59,
+      "LabelName": "option_notice_champions",
+      "LabelHash": 706366993,
+      "OriginalText": "Pokémon Champions 알림",
+      "TextInfos": [
+        {
+          "Text": "Pokémon Champions 알림",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 60,
+      "LabelName": "option_all_notice_champions",
+      "LabelHash": 135448599,
+      "OriginalText": "Pokémon Champions의\n모든 알림을 받습니다.",
+      "TextInfos": [
+        {
+          "Text": "Pokémon Champions의",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "모든 알림을 받습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 61,
+      "LabelName": "option_notice_OS_setting",
+      "LabelHash": -1754251224,
+      "OriginalText": "알림을 받기 위해서는 본체 설정을 변경해 주십시오.\n본체 설정으로 이동하겠습니까?",
+      "TextInfos": [
+        {
+          "Text": "알림을 받기 위해서는 본체 설정을 변경해 주십시오.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "본체 설정으로 이동하겠습니까?",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
     }
   ]
 }

@@ -1015,7 +1015,7 @@
       "Index": 25,
       "LabelName": "app_tutorial_1_2",
       "LabelHash": -1989215627,
-      "OriginalText": "만들어진 룸의 룸 ID를 입력하면\n룸에 들어갈 수 있습니다.\n그리고 친구에게 초대를 보내면 그 친구는\nID를 입력하지 않고 룸에 들어올 수 있습니다.",
+      "OriginalText": "만들어진 룸의 룸 ID를 입력하면\n룸에 들어갈 수 있습니다.",
       "TextInfos": [
         {
           "Text": "만들어진 룸의 룸 ID를 입력하면",
@@ -1037,42 +1037,6 @@
         },
         {
           "Text": "룸에 들어갈 수 있습니다.",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "그리고 친구에게 초대를 보내면 그 친구는",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "ID를 입력하지 않고 룸에 들어올 수 있습니다.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2735,10 +2699,10 @@
       "Index": 59,
       "LabelName": "app_tutorial_17_5",
       "LabelHash": -999456959,
-      "OriginalText": "시즌마다 레귤레이션이 변경됩니다.\n자세한 내용은 소식에서 확인해 주십시오.",
+      "OriginalText": "각 시즌의 레귤레이션은\n소식에서 확인해 주십시오.",
       "TextInfos": [
         {
-          "Text": "시즌마다 레귤레이션이 변경됩니다.",
+          "Text": "각 시즌의 레귤레이션은",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2756,7 +2720,7 @@
           }
         },
         {
-          "Text": "자세한 내용은 소식에서 확인해 주십시오.",
+          "Text": "소식에서 확인해 주십시오.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3383,6 +3347,184 @@
         },
         {
           "Text": "상대를 공격합시다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 66,
+      "LabelName": "btl_tut_00_win_context_01_p3_SP",
+      "LabelHash": 578568438,
+      "OriginalText": "기술을 선택하는 화면까지 진행했다면\n기술 중에서 누르기를 터치합시다.\n추가로 다시 한번 터치하면 사용할 기술을 결정합니다.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "기술",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "을 선택하는 화면까지 진행했다면",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "기술",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": " 중에서 ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "누르기",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "를 터치합시다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "추가로 다시 한번 터치하면 사용할 기술을 결정합니다.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

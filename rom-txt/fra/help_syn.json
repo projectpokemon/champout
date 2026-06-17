@@ -1993,9 +1993,9 @@
     },
     {
       "Index": 30,
-      "LabelName": "help_01_03_01",
-      "LabelHash": -1496258179,
-      "OriginalText": "N’importe qui peut rejoindre votre salon en saisissant\nl’ID du salon.\n\nSi vous invitez des contacts, ces derniers n’auront pas besoin\nde saisir cet ID pour rejoindre votre salon.",
+      "LabelName": "help_01_03_01_00",
+      "LabelHash": 661768736,
+      "OriginalText": "N’importe qui peut rejoindre votre salon en saisissant\nl’ID du salon.",
       "TextInfos": [
         {
           "Text": "N’importe qui peut rejoindre votre salon en saisissant",
@@ -2069,25 +2069,20 @@
             "TagId": 0,
             "Params": []
           }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 31,
+      "LabelName": "help_01_03_01_01",
+      "LabelHash": -904315205,
+      "OriginalText": "Si vous invitez des contacts, ces derniers n’auront pas besoin\nde saisir d’ID pour rejoindre votre salon.",
+      "TextInfos": [
         {
           "Text": "{0}",
           "Type": 2,
@@ -2144,7 +2139,7 @@
           }
         },
         {
-          "Text": "de saisir cet ID pour rejoindre votre salon.",
+          "Text": "de saisir d’ID pour rejoindre votre salon.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2160,7 +2155,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 31,
+      "Index": 32,
       "LabelName": "help_01_03_02",
       "LabelHash": -1496258178,
       "OriginalText": "Dans un salon, il est également possible de regarder\nles combats des autres.",
@@ -2246,7 +2241,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 32,
+      "Index": 33,
       "LabelName": "help_01_02",
       "LabelHash": 320787072,
       "OriginalText": "Les Combats Solo",
@@ -2268,7 +2263,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 33,
+      "Index": 34,
       "LabelName": "help_01_02_00",
       "LabelHash": 1494747201,
       "OriginalText": "Les Combats Solo consistent à envoyer vos Pokémon\nse battre en un contre un.\nLa victoire vous revient si tous les Pokémon adverses sont K.O.\navant les vôtres.",
@@ -2436,7 +2431,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 34,
+      "Index": 35,
       "LabelName": "help_01_02_01",
       "LabelHash": 1494747202,
       "OriginalText": "Effectuez le tutoriel de combat appelé « Les Combats Solo »\nafin d’étudier tout cela par la pratique.",
@@ -2522,7 +2517,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 35,
+      "Index": 36,
       "LabelName": "help_01_04",
       "LabelHash": 1483586486,
       "OriginalText": "Les Combats Duo",
@@ -2544,7 +2539,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 36,
+      "Index": 37,
       "LabelName": "help_01_04_00",
       "LabelHash": 1212422199,
       "OriginalText": "Les Combats Duo consistent à envoyer vos Pokémon\nse battre en deux contre deux.\nLa victoire vous revient si tous les Pokémon adverses sont K.O.\navant les vôtres.",
@@ -2712,7 +2707,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 37,
+      "Index": 38,
       "LabelName": "help_01_04_01",
       "LabelHash": 1212422200,
       "OriginalText": "Les bases des Combats Duo sont les mêmes que celles\ndes Combats Solo, mais vous devrez sélectionner les actions\nde deux Pokémon à chaque tour.\n\nCertaines capacités peuvent toucher plusieurs Pokémon\nà la fois et d’autres ont été pensées pour les Combats Duo.\nÀ vous de les utiliser efficacement pour prendre l’avantage !",
@@ -2907,7 +2902,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 38,
+      "Index": 39,
       "LabelName": "help_01_04_02",
       "LabelHash": 1212422201,
       "OriginalText": "Effectuez le tutoriel de combat appelé « Les Combats Duo »\nafin d’étudier tout cela par la pratique.",
@@ -2993,7 +2988,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 39,
+      "Index": 40,
       "LabelName": "help_01_05",
       "LabelHash": -82497455,
       "OriginalText": "Les rangs et les niveaux",
@@ -3015,7 +3010,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 40,
+      "Index": 41,
       "LabelName": "help_01_05_00",
       "LabelHash": -1778583182,
       "OriginalText": "Vous monterez et descendrez dans les rangs en fonction\nde l’issue des combats classés menés.",
@@ -3120,7 +3115,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 41,
+      "Index": 42,
       "LabelName": "help_01_05_01",
       "LabelHash": -1778583181,
       "OriginalText": "Voici la liste des différents rangs et niveaux :\n- Rang Novice ;\n- Rang Poké Ball (niveaux 4 à 1) ;\n- Rang Super Ball (niveaux 4 à 1) ;\n- Rang Hyper Ball (niveaux 4 à 1) ;\n- Rang Master Ball (niveaux 4 à 1).\nAu rang Master Ball, les résultats des combats détermineront\nvotre place dans le classement en fonction de votre cote.",
@@ -3314,7 +3309,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 42,
+      "Index": 43,
       "LabelName": "help_01_05_02",
       "LabelHash": -1778583180,
       "OriginalText": "Enfin, les Dresseurs et les Dresseuses qui se hissent au-dessus\nd’une certaine place dans le classement au rang Master Ball\nobtiendront le rang Champion.",
@@ -3418,7 +3413,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 43,
+      "Index": 44,
       "LabelName": "help_01_05_03",
       "LabelHash": -1778583179,
       "OriginalText": "En fonction des résultats que vous avez obtenus lors de\nla saison précédente, vous pourrez obtenir des bonus\nde performance, qui faciliteront votre ascension dans\nles rangs et les niveaux.",
@@ -3540,7 +3535,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 44,
+      "Index": 45,
       "LabelName": "help_01_06",
       "LabelHash": -1648581396,
       "OriginalText": "Les saisons",
@@ -3562,7 +3557,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 45,
+      "Index": 46,
       "LabelName": "help_01_06_00",
       "LabelHash": 930097197,
       "OriginalText": "Les combats classés ont lieu lors de périodes précises,\nappelées des saisons.",
@@ -3648,7 +3643,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 46,
+      "Index": 47,
       "LabelName": "help_01_06_01",
       "LabelHash": 930097198,
       "OriginalText": "À la fin de chaque saison, vous pourrez recevoir\ndes récompenses selon plusieurs critères, comme le rang\net le niveau que vous aurez atteints ou votre place dans\nle classement.",
@@ -3770,10 +3765,10 @@
       "StyleCode": 69
     },
     {
-      "Index": 47,
+      "Index": 48,
       "LabelName": "help_01_06_02",
       "LabelHash": 930097199,
-      "OriginalText": "Au début de chaque nouvelle saison, vos résultats seront\nréinitialisés et vous repartirez du rang Poké Ball.\n\nLes règlements changent chaque saison.\nVeuillez consulter les annonces pour en savoir plus.",
+      "OriginalText": "Au début de chaque nouvelle saison, vos résultats seront\nréinitialisés et vous repartirez du rang Poké Ball.\n\nVeuillez consulter les annonces pour en savoir plus\nsur les règlements de chaque saison.",
       "TextInfos": [
         {
           "Text": "Au début de chaque nouvelle saison, vos résultats seront",
@@ -3805,24 +3800,6 @@
         {
           "Text": "{0}",
           "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "Les règlements changent chaque saison.",
-          "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
             "TagId": 0,
@@ -3885,7 +3862,25 @@
           }
         },
         {
-          "Text": " pour en savoir plus.",
+          "Text": " pour en savoir plus",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sur les règlements de chaque saison.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3901,7 +3896,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 48,
+      "Index": 49,
       "LabelName": "help_01_07",
       "LabelHash": 1080301959,
       "OriginalText": "Les règlements",
@@ -3923,7 +3918,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 49,
+      "Index": 50,
       "LabelName": "help_01_07_00",
       "LabelHash": -2060908184,
       "OriginalText": "Un règlement est l’ensemble des règles encadrant notamment\nles espèces de Pokémon qui peuvent participer ou les objets\ntenus qu’il est possible d’utiliser lors d’un combat.",
@@ -4083,7 +4078,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 50,
+      "Index": 51,
       "LabelName": "help_01_08",
       "LabelHash": -485781982,
       "OriginalText": "Les compétitions en ligne",
@@ -4105,7 +4100,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 51,
+      "Index": 52,
       "LabelName": "help_01_08_00",
       "LabelHash": 647772195,
       "OriginalText": "Les compétitions en ligne sont autant d’opportunités\nd’affronter d’autres Dresseurs et Dresseuses.\n\nCertaines d’entre elles permettent d’ailleurs d’obtenir\ndes récompenses spéciales.",
@@ -4236,7 +4231,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 52,
+      "Index": 53,
       "LabelName": "help_01_08_01",
       "LabelHash": 647772196,
       "OriginalText": "Une inscription est requise pour participer à une compétition\nen ligne et mener des combats.\n\nUne fois votre inscription à une compétition enregistrée,\nvous pourrez combattre pendant toute la durée de la\ncompétition.",
@@ -4376,7 +4371,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 53,
+      "Index": 54,
       "LabelName": "help_01_08_02",
       "LabelHash": 647772197,
       "OriginalText": "Appuyez sur le bouton « Règles » dans le menu\nd’une compétition pour découvrir ses règles en détail.",
@@ -4462,7 +4457,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 54,
+      "Index": 55,
       "LabelName": "help_01_09",
       "LabelHash": -2051865923,
       "OriginalText": "Les stats des combats",
@@ -4484,7 +4479,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 55,
+      "Index": 56,
       "LabelName": "help_01_09_00",
       "LabelHash": 1951734110,
       "OriginalText": "Dans le menu « Stats des combats », vous pouvez consulter\ncertains résultats obtenus lors des combats classés ou\ndes compétitions.",
@@ -4588,7 +4583,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 56,
+      "Index": 57,
       "LabelName": "help_01_09_01",
       "LabelHash": 1951734111,
       "OriginalText": "Pour chaque saison ou compétition, vous pouvez consulter :\n・ le classement des Dresseuses et Dresseuses qui ont participé ;\n・ le classement de vos contacts ;\n・ le classement des Pokémon par taux d’utilisation.",
@@ -4692,7 +4687,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 57,
+      "Index": 58,
       "LabelName": "help_01_09_02",
       "LabelHash": 1951734112,
       "OriginalText": "Il est également possible de consulter les résultats\ndes compétitions et des saisons de combats classés\nqui se sont déroulées antérieurement.",
@@ -4750,7 +4745,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 58,
+      "Index": 59,
       "LabelName": "help_02",
       "LabelHash": 487112844,
       "OriginalText": "Les mécaniques",
@@ -4772,7 +4767,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 59,
+      "Index": 60,
       "LabelName": "help_02_00",
       "LabelHash": -842012377,
       "OriginalText": "La Méga-Évolution",
@@ -4794,7 +4789,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 60,
+      "Index": 61,
       "LabelName": "help_02_00_00",
       "LabelHash": 1777034350,
       "OriginalText": "Certains Pokémon peuvent méga-évoluer pendant\nles combats.\n\nLes stats d’un Pokémon ayant méga-évolué augmentent\ndrastiquement, et son ou ses types ainsi que son talent\npeuvent également changer.",
@@ -4943,7 +4938,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 61,
+      "Index": 62,
       "LabelName": "help_02_00_01",
       "LabelHash": 1777034349,
       "OriginalText": "Pour méga-évoluer, un Pokémon doit tenir la Méga-Gemme\nspécifique à son espèce.\n\nDe plus, vous ne pouvez déclencher la Méga-Évolution\nqu’une seule fois par combat.",
@@ -5065,7 +5060,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 62,
+      "Index": 63,
       "LabelName": "help_02_00_02",
       "LabelHash": 1777034348,
       "OriginalText": "Effectuez le tutoriel de combat appelé « La Méga-Évolution »\nafin d’étudier tout cela par la pratique.",
@@ -5151,7 +5146,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 63,
+      "Index": 64,
       "LabelName": "help_03",
       "LabelHash": 487112845,
       "OriginalText": "La Boîte",
@@ -5173,7 +5168,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 64,
+      "Index": 65,
       "LabelName": "help_03_00",
       "LabelHash": -842012408,
       "OriginalText": "Créer ou modifier une Équipe Combat",
@@ -5195,7 +5190,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 65,
+      "Index": 66,
       "LabelName": "help_03_00_00",
       "LabelHash": 1777000461,
       "OriginalText": "En interagissant avec votre Boîte, vous pouvez créer\nou modifier des Équipes Combat.",
@@ -5281,7 +5276,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 66,
+      "Index": 67,
       "LabelName": "help_03_00_01",
       "LabelHash": 1777000462,
       "OriginalText": "Une même espèce de Pokémon ne peut pas apparaître\nplus d’une fois dans une Équipe Combat.\n\nDe plus, une Équipe Combat doit contenir six Pokémon\npour pouvoir participer à des combats.",
@@ -5366,7 +5361,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 67,
+      "Index": 68,
       "LabelName": "help_03_01",
       "LabelHash": 1886870947,
       "OriginalText": "La création auto",
@@ -5388,7 +5383,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 68,
+      "Index": 69,
       "LabelName": "help_03_01_00",
       "LabelHash": -1214004920,
       "OriginalText": "La création auto permet de former automatiquement\nune équipe équilibrée, en fonction de vos Pokémon\net de vos objets tenus.",
@@ -5492,7 +5487,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 69,
+      "Index": 70,
       "LabelName": "help_03_01_01",
       "LabelHash": -1214004919,
       "OriginalText": "L’équipe est formée en écartant les Pokémon et les objets\ntenus interdits pour la saison de combats classés en cours.",
@@ -5578,7 +5573,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 70,
+      "Index": 71,
       "LabelName": "help_03_02",
       "LabelHash": 320787006,
       "OriginalText": "Les limites de la Boîte et du nombre d’Équipes Combat",
@@ -5600,7 +5595,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 71,
+      "Index": 72,
       "LabelName": "help_03_02_00",
       "LabelHash": 1494675459,
       "OriginalText": "Au tout début du jeu, votre Boîte ne pourra contenir que\n30 Pokémon au maximum. Vous pouvez faire augmenter\nce chiffre en atteignant un rang plus élevé dans les combats\nclassés ou en souscrivant un abonnement.",
@@ -5787,7 +5782,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 72,
+      "Index": 73,
       "LabelName": "help_03_02_01",
       "LabelHash": 1494675460,
       "OriginalText": "Vous pouvez avoir jusqu’à 3 Équipes Combat en même temps.\nSi vous souscrivez un abonnement, vous pourrez avoir jusqu’à\n18 Équipes Combat à la fois.",
@@ -5928,7 +5923,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 73,
+      "Index": 74,
       "LabelName": "help_03_02_02",
       "LabelHash": 1494675457,
       "OriginalText": "Pour en savoir plus, veuillez consulter les différentes sections\nde la rubrique « L’abonnement ».",
@@ -6014,7 +6009,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 74,
+      "Index": 75,
       "LabelName": "help_03_03",
       "LabelHash": -1245296935,
       "OriginalText": "Les objets tenus",
@@ -6036,7 +6031,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 75,
+      "Index": 76,
       "LabelName": "help_03_03_00",
       "LabelHash": -1496329922,
       "OriginalText": "Faire tenir des objets à vos Pokémon permet de déclencher\ntoutes sortes d’effets durant les combats.\n\nLorsque vous créez ou modifiez une Équipe Combat,\nvous pouvez faire tenir un objet à chaque Pokémon.",
@@ -6204,7 +6199,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 76,
+      "Index": 77,
       "LabelName": "help_03_03_01",
       "LabelHash": -1496329921,
       "OriginalText": "En revanche, une Équipe Combat ne peut pas contenir\ndeux exemplaires du même objet tenu.",
@@ -6244,7 +6239,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 77,
+      "Index": 78,
       "LabelName": "help_03_04",
       "LabelHash": 1483586420,
       "OriginalText": "Les favoris",
@@ -6266,7 +6261,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 78,
+      "Index": 79,
       "LabelName": "help_03_04_00",
       "LabelHash": 1212350457,
       "OriginalText": "Les Pokémon peuvent être enregistrés en tant que favoris.",
@@ -6334,7 +6329,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 79,
+      "Index": 80,
       "LabelName": "help_03_04_01",
       "LabelHash": 1212350458,
       "OriginalText": "Enregistrer des Pokémon en tant que favoris permet d’éviter,\npar exemple, de les rendre par erreur au Ranch de Recrutement.",
@@ -6374,7 +6369,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 80,
+      "Index": 81,
       "LabelName": "help_03_05",
       "LabelHash": -82497521,
       "OriginalText": "Les étiquettes",
@@ -6396,7 +6391,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 81,
+      "Index": 82,
       "LabelName": "help_03_05_00",
       "LabelHash": -1778654924,
       "OriginalText": "Il est possible d’attribuer des étiquettes aux Pokémon.",
@@ -6464,7 +6459,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 82,
+      "Index": 83,
       "LabelName": "help_03_05_01",
       "LabelHash": -1778654923,
       "OriginalText": "Vous pouvez personnaliser les éléments suivants\nd’une étiquette :\n・ son nom ;\n・ son icône ;\n・ sa couleur.",
@@ -6642,7 +6637,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 83,
+      "Index": 84,
       "LabelName": "help_03_06",
       "LabelHash": -1648581462,
       "OriginalText": "Le tri",
@@ -6664,7 +6659,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 84,
+      "Index": 85,
       "LabelName": "help_03_06_00",
       "LabelHash": 930025455,
       "OriginalText": "Vous pouvez trier vos Pokémon en fonction de leur date\nd’obtention, de leur numéro, de leur nom ou de si vous\nles avez utilisés récemment.",
@@ -6768,7 +6763,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 85,
+      "Index": 86,
       "LabelName": "help_03_07",
       "LabelHash": 1080301893,
       "OriginalText": "Les filtres",
@@ -6790,7 +6785,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 86,
+      "Index": 87,
       "LabelName": "help_03_07_00",
       "LabelHash": -2060979926,
       "OriginalText": "Vous pouvez filtrer vos Pokémon en fonction de leur nom,\nde leur type, de leur statut de favori, ou encore des étiquettes\nque vous leur avez attribuées.",
@@ -6894,7 +6889,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 87,
+      "Index": 88,
       "LabelName": "help_04",
       "LabelHash": 487112842,
       "OriginalText": "L’entraînement",
@@ -6916,7 +6911,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 88,
+      "Index": 89,
       "LabelName": "help_04_00",
       "LabelHash": -842012443,
       "OriginalText": "L’entraînement",
@@ -6938,7 +6933,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 89,
+      "Index": 90,
       "LabelName": "help_04_00_00",
       "LabelHash": 1776962608,
       "OriginalText": "L’entraînement permet de modifier des éléments comme\nla répartition des points de stats et l’ajustement de stats\ndes Pokémon, ainsi que leurs capacités ou leur talent.",
@@ -7217,7 +7212,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 90,
+      "Index": 91,
       "LabelName": "help_04_01",
       "LabelHash": 1886870912,
       "OriginalText": "Les points de stats",
@@ -7239,7 +7234,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 91,
+      "Index": 92,
       "LabelName": "help_04_01_00",
       "LabelHash": -1214042773,
       "OriginalText": "Vous pouvez attribuer des points de stats à vos Pokémon afin\nde modifier leurs stats.",
@@ -7325,7 +7320,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 92,
+      "Index": 93,
       "LabelName": "help_04_01_01",
       "LabelHash": -1214042774,
       "OriginalText": "Il est possible d’attribuer jusqu’à 32 points à une même stat.\n\nToutes stats confondues, vous pouvez répartir jusqu’à 66 points.",
@@ -7466,7 +7461,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 93,
+      "Index": 94,
       "LabelName": "help_04_02",
       "LabelHash": 320786971,
       "OriginalText": "Les ajustements de stats",
@@ -7488,7 +7483,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 94,
+      "Index": 95,
       "LabelName": "help_04_02_00",
       "LabelHash": 1494637606,
       "OriginalText": "Un ajustement de stats est une modification des stats\nqui consiste à faire augmenter une stat spécifique et\nà en faire baisser une autre.",
@@ -7592,7 +7587,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 95,
+      "Index": 96,
       "LabelName": "help_04_02_01",
       "LabelHash": 1494637605,
       "OriginalText": "La stat qui augmente est multipliée par 1,1.\nLa stat qui baisse est multipliée par 0,9.",
@@ -7724,7 +7719,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 96,
+      "Index": 97,
       "LabelName": "help_04_03",
       "LabelHash": -1245296970,
       "OriginalText": "Les capacités",
@@ -7746,7 +7741,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 97,
+      "Index": 98,
       "LabelName": "help_04_03_00",
       "LabelHash": -1496367775,
       "OriginalText": "Un Pokémon peut apprendre jusqu’à 4 capacités.",
@@ -7814,7 +7809,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 98,
+      "Index": 99,
       "LabelName": "help_04_03_01",
       "LabelHash": -1496367776,
       "OriginalText": "Sélectionnez un emplacement de capacité vide ou une capacité\nque vous souhaitez remplacer, puis sélectionnez une capacité\nà enseigner à votre Pokémon.\n\nIl est également possible de faire oublier une capacité\nà un Pokémon.",
@@ -7954,7 +7949,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 99,
+      "Index": 100,
       "LabelName": "help_04_04",
       "LabelHash": 1483586385,
       "OriginalText": "Les talents",
@@ -7976,7 +7971,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 100,
+      "Index": 101,
       "LabelName": "help_04_04_00",
       "LabelHash": 1212312604,
       "OriginalText": "Les Pokémon sont dotés de talents qui déclenchent\ndifférents effets pendant les combats.\n\nVous ne pouvez choisir qu’un seul talent par Pokémon.",
@@ -8089,7 +8084,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 101,
+      "Index": 102,
       "LabelName": "help_04_05",
       "LabelHash": -82497556,
       "OriginalText": "Les équipes calquées",
@@ -8111,7 +8106,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 102,
+      "Index": 103,
       "LabelName": "help_04_05_00",
       "LabelHash": -1778692777,
       "OriginalText": "Une équipe calquée est une Équipe Combat créée\nen suivant le modèle d’une autre équipe qui a été\npréalablement partagée.\nVous pouvez créer une équipe calquée automatiquement\nen saisissant l’ID de l’équipe que vous voulez choisir\ncomme modèle.",
@@ -8269,7 +8264,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 103,
+      "Index": 104,
       "LabelName": "help_04_05_01",
       "LabelHash": -1778692778,
       "OriginalText": "Il est possible d’entraîner d’un coup vos Pokémon afin\nd’attribuer leurs points de stats de la même façon et de leur\noctroyer les mêmes ajustements de stats, capacités et talents\nque les Pokémon de l’équipe choisie comme modèle.",
@@ -8391,7 +8386,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 104,
+      "Index": 105,
       "LabelName": "help_04_05_02",
       "LabelHash": -1778692775,
       "OriginalText": "Si vous ne disposez pas de tous les Pokémon de\nl’Équipe Combat choisie comme modèle, vous pourrez\ntout de même entraîner ceux que vous avez.",
@@ -8486,7 +8481,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 105,
+      "Index": 106,
       "LabelName": "help_04_05_03",
       "LabelHash": -1778692776,
       "OriginalText": "Vous pouvez également partager les Équipes Combat\ncomposées par vos soins.",
@@ -8526,7 +8521,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 106,
+      "Index": 107,
       "LabelName": "help_04_06",
       "LabelHash": -1648581497,
       "OriginalText": "Les tutoriels de combat",
@@ -8548,7 +8543,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 107,
+      "Index": 108,
       "LabelName": "help_04_06_00",
       "LabelHash": 929987602,
       "OriginalText": "Les tutoriels de combat sont des tutoriels sous forme\nd’affrontements qui permettent d’étudier étape par étape\nles règles des combats en y mêlant la pratique.",
@@ -8698,7 +8693,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 108,
+      "Index": 109,
       "LabelName": "help_04_06_01",
       "LabelHash": 929987601,
       "OriginalText": "N’hésitez pas à y jeter un œil, car vous recevrez une\nrécompense la première fois que vous les terminerez.",
@@ -8784,7 +8779,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 109,
+      "Index": 110,
       "LabelName": "help_05",
       "LabelHash": 487112843,
       "OriginalText": "Le recrutement",
@@ -8806,7 +8801,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 110,
+      "Index": 111,
       "LabelName": "help_05_00",
       "LabelHash": -842012474,
       "OriginalText": "Recruter des Pokémon",
@@ -8828,7 +8823,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 111,
+      "Index": 112,
       "LabelName": "help_05_00_00",
       "LabelHash": 1776928719,
       "OriginalText": "Recruter permet d’obtenir de nouveaux Pokémon\nà intégrer dans vos équipes parmi ceux qui vous\nsont présentés dans les différentes sélections.",
@@ -8923,7 +8918,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 112,
+      "Index": 113,
       "LabelName": "help_05_00_01",
       "LabelHash": 1776928720,
       "OriginalText": "Toutes les 22 heures, vous pourrez rencontrer des Pokémon\nsans avoir à utiliser de PdV, et recruter l’un d’entre eux.",
@@ -9037,7 +9032,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 113,
+      "Index": 114,
       "LabelName": "help_05_00_02",
       "LabelHash": 1776928721,
       "OriginalText": "Vous pouvez raccourcir le temps d’attente jusqu’au prochain\nrecrutement en utilisant des PdV ou des Coupons de Vitesse.",
@@ -9123,7 +9118,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 114,
+      "Index": 115,
       "LabelName": "help_05_00_03",
       "LabelHash": 1776928722,
       "OriginalText": "Certains Pokémon ne peuvent être recrutés qu’une seule fois,\nce qui signifie que si vous les rendez au Ranch de Recrutement,\nvous ne pourrez plus les rencontrer de nouveau.\nNe l’oubliez pas lorsque vous rendez un Pokémon\nau Ranch de Recrutement.",
@@ -9217,7 +9212,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 115,
+      "Index": 116,
       "LabelName": "help_05_01",
       "LabelHash": 1886870881,
       "OriginalText": "Les sélections",
@@ -9239,7 +9234,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 116,
+      "Index": 117,
       "LabelName": "help_05_01_00",
       "LabelHash": -1214076662,
       "OriginalText": "Chaque sélection contient différents Pokémon\net chaque rencontre vous permet de rencontrer\nun petit groupe de Pokémon choisis au hasard\nau sein de cette sélection.",
@@ -9361,7 +9356,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 117,
+      "Index": 118,
       "LabelName": "help_05_01_01",
       "LabelHash": -1214076661,
       "OriginalText": "Pour certaines sélections, vous pourrez utiliser des tickets\nplutôt que des PdV pour recruter un Pokémon.",
@@ -9447,7 +9442,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 118,
+      "Index": 119,
       "LabelName": "help_05_02",
       "LabelHash": 320786940,
       "OriginalText": "Les différents types de recrutements",
@@ -9469,7 +9464,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 119,
+      "Index": 120,
       "LabelName": "help_05_02_00",
       "LabelHash": 1494603717,
       "OriginalText": "Il existe deux types de recrutements : les recrutements à l’essai\net les recrutements permanents.",
@@ -9592,7 +9587,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 120,
+      "Index": 121,
       "LabelName": "help_05_02_01",
       "LabelHash": 1494603718,
       "OriginalText": "Les recrutements à l’essai ne nécessitent aucun PdV, mais\nles Pokémon ainsi obtenus font l’objet de restrictions.\nPar exemple, vous ne pouvez pas les utiliser indéfiniment dans\nvos Équipes Combat et vous ne pouvez pas les entraîner.",
@@ -9760,7 +9755,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 121,
+      "Index": 122,
       "LabelName": "help_05_02_02",
       "LabelHash": 1494603719,
       "OriginalText": "Les recrutements permanents nécessitent des PdV, mais\nles Pokémon ainsi obtenus ne font l’objet d’aucune restriction.\nAinsi, vous pouvez les conserver dans vos Équipes Combat\naussi longtemps que vous le souhaitez\net vous pouvez les entraîner.",
@@ -9946,7 +9941,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 122,
+      "Index": 123,
       "LabelName": "help_05_03",
       "LabelHash": -1245297001,
       "OriginalText": "Rendre des Pokémon",
@@ -9968,7 +9963,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 123,
+      "Index": 124,
       "LabelName": "help_05_03_00",
       "LabelHash": -1496401664,
       "OriginalText": "Il est possible de rendre au Ranch de Recrutement\nles Pokémon que vous avez recrutés.\n\nAttention : une fois que vous avez rendu un Pokémon,\nvous ne pourrez plus le récupérer.",
@@ -10118,7 +10113,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 124,
+      "Index": 125,
       "LabelName": "help_05_03_01",
       "LabelHash": -1496401663,
       "OriginalText": "Vous pouvez rendre jusqu’à 30 Pokémon d’un coup.\n\nSi vous rendez un Pokémon qui tient un objet, il le lâchera.",
@@ -10213,7 +10208,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 125,
+      "Index": 126,
       "LabelName": "help_05_04",
       "LabelHash": 1483586354,
       "OriginalText": "La connexion avec Pokémon HOME",
@@ -10235,7 +10230,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 126,
+      "Index": 127,
       "LabelName": "help_05_04_00",
       "LabelHash": 1212278715,
       "OriginalText": "Vous pouvez transférer les Pokémon que vous avez\ndans Pokémon HOME vers Pokémon Champions.",
@@ -10321,7 +10316,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 127,
+      "Index": 128,
       "LabelName": "help_05_04_01",
       "LabelHash": 1212278716,
       "OriginalText": "Quand vous récupérez des Pokémon transférés dans Pokémon\nChampions depuis Pokémon HOME pour la première fois, ils\narrivent dans le jeu dotés de leurs caractéristiques actuelles.\nRemarque : dans Pokémon Champions, les « caractéristiques »\nfont référence aux points de stats, ajustements de stats,\ncapacités, talents et autres éléments de ce genre des Pokémon.",
@@ -10489,7 +10484,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 128,
+      "Index": 129,
       "LabelName": "help_05_04_02",
       "LabelHash": 1212278717,
       "OriginalText": "Si certains Pokémon connaissent des capacités que vous ne\npouvez pas utiliser dans Pokémon Champions, vous devrez\nleur en apprendre d’autres en les entraînant.",
@@ -10547,7 +10542,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 129,
+      "Index": 130,
       "LabelName": "help_05_04_03",
       "LabelHash": 1212278718,
       "OriginalText": "Les Pokémon transférés depuis Pokémon HOME peuvent\nêtre renvoyés vers Pokémon HOME.",
@@ -10624,7 +10619,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 130,
+      "Index": 131,
       "LabelName": "help_05_04_04",
       "LabelHash": 1212278711,
       "OriginalText": "Tout entraînement effectué ici ne se répercutera pas\ndans Pokémon HOME, mais si vous transférez à nouveau\nle même Pokémon dans Pokémon Champions, il conservera\nles caractéristiques qu’il possédait la dernière fois qu’il était là,\nainsi que les insignes éventuels qu’il aura reçus dans Pokémon\nChampions.",
@@ -10773,7 +10768,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 131,
+      "Index": 132,
       "LabelName": "help_05_04_05",
       "LabelHash": 1212278712,
       "OriginalText": "Si vous renvoyez un Pokémon vers Pokémon HOME, tout\nchangement de caractéristiques effectué dans un autre jeu\nne se répercutera pas dans Pokémon Champions, même si\nle Pokémon est à nouveau transféré dans ce jeu. Cependant,\nles nouveaux insignes éventuels qu’il aura reçus dans d’autres\njeux seront conservés dans Pokémon Champions.",
@@ -10931,7 +10926,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 132,
+      "Index": 133,
       "LabelName": "help_05_04_06",
       "LabelHash": 1212278713,
       "OriginalText": "Notez que si vous transférez à nouveau un Pokémon dans\nPokémon Champions après l’avoir renvoyé vers Pokémon\nHOME, et que ce Pokémon a changé de forme entre-temps,\nles résultats de tout entraînement reçu précédemment\npar ce Pokémon dans Pokémon Champions seront annulés.\nRemarque : les insignes éventuels qu’il aura reçus dans Pokémon\nChampions seront conservés.",
@@ -11218,7 +11213,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 133,
+      "Index": 134,
       "LabelName": "help_05_05",
       "LabelHash": -82497587,
       "OriginalText": "Renvoyer des Pokémon vers Pokémon HOME",
@@ -11240,7 +11235,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 134,
+      "Index": 135,
       "LabelName": "help_05_05_00",
       "LabelHash": -1778726666,
       "OriginalText": "Les Pokémon transférés depuis Pokémon HOME peuvent\nêtre renvoyés à tout moment vers Pokémon HOME.",
@@ -11317,7 +11312,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 135,
+      "Index": 136,
       "LabelName": "help_05_05_01",
       "LabelHash": -1778726665,
       "OriginalText": "L’entraînement reçu ici ne se répercutera pas dans Pokémon\nHOME, mais si vous transférez à nouveau le même Pokémon\ndans Pokémon Champions, tout entraînement qu’il aura reçu\nici sera conservé.",
@@ -11485,7 +11480,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 136,
+      "Index": 137,
       "LabelName": "help_05_05_02",
       "LabelHash": -1778726664,
       "OriginalText": "Remarque : si un Pokémon quitte Pokémon Champions\net revient ensuite sous une forme différente, les résultats\nde tout entraînement reçu précédemment par ce Pokémon\ndans Pokémon Champions seront perdus.",
@@ -11598,7 +11593,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 137,
+      "Index": 138,
       "LabelName": "help_06",
       "LabelHash": 487112840,
       "OriginalText": "La boutique et votre style",
@@ -11620,7 +11615,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 138,
+      "Index": 139,
       "LabelName": "help_06_00",
       "LabelHash": -842012509,
       "OriginalText": "La boutique",
@@ -11642,7 +11637,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 139,
+      "Index": 140,
       "LabelName": "help_06_00_00",
       "LabelHash": 1776890866,
       "OriginalText": "La boutique est divisée en deux sections :\nla boutique premium et la boutique de Frontalis.",
@@ -11774,7 +11769,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 140,
+      "Index": 141,
       "LabelName": "help_06_00_01",
       "LabelHash": 1776890865,
       "OriginalText": "Dans la boutique premium, vous pouvez souscrire\nun abonnement et acheter un pass de combat premium.\n\nDans la boutique de Frontalis, vous pouvez échanger vos PdV\ncontre des objets tenus, de nouveaux vêtements, des poses\net plus encore.",
@@ -12098,7 +12093,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 141,
+      "Index": 142,
       "LabelName": "help_06_01",
       "LabelHash": 1886870846,
       "OriginalText": "Votre style",
@@ -12120,7 +12115,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 142,
+      "Index": 143,
       "LabelName": "help_06_01_00",
       "LabelHash": -1214114515,
       "OriginalText": "Le menu « Style » vous permet de personnaliser votre tenue,\nvotre coiffure, l’apparence de votre visage, ou bien vos poses\nde combat.",
@@ -12224,7 +12219,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 143,
+      "Index": 144,
       "LabelName": "help_06_01_01",
       "LabelHash": -1214114516,
       "OriginalText": "Une fois que vous avez trouvé un style qui vous plaît,\nvous pouvez le sauvegarder.",
@@ -12310,7 +12305,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 144,
+      "Index": 145,
       "LabelName": "help_06_02",
       "LabelHash": 320786905,
       "OriginalText": "Votre garde-robe, vos cheveux et votre visage",
@@ -12332,7 +12327,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 145,
+      "Index": 146,
       "LabelName": "help_06_02_00",
       "LabelHash": 1494565864,
       "OriginalText": "Dans le menu « Style », la section « Garde-robe » vous permet\nde changer de tenue et d’accessoires, tandis que la section\n« Cheveux et visage » vous permet de changer votre coiffure\nou encore la couleur de vos lentilles.",
@@ -12500,7 +12495,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 146,
+      "Index": 147,
       "LabelName": "help_06_03",
       "LabelHash": -1245297036,
       "OriginalText": "Les styles de lancer et les poses de combat",
@@ -12522,7 +12517,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 147,
+      "Index": 148,
       "LabelName": "help_06_03_00",
       "LabelHash": -1496439517,
       "OriginalText": "Vous pouvez choisir parmi une sélection de styles de lancer\nde Poké Balls et de poses à prendre avant le combat ou\nen cas de victoire afin d’imposer votre style sur le terrain.",
@@ -12700,7 +12695,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 148,
+      "Index": 149,
       "LabelName": "help_06_04",
       "LabelHash": 1483586319,
       "OriginalText": "Votre profil",
@@ -12722,7 +12717,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 149,
+      "Index": 150,
       "LabelName": "help_06_04_00",
       "LabelHash": 1212240862,
       "OriginalText": "Le menu « Profil » vous permet de consulter diverses\ninformations, comme votre ID de Dresseur ou votre rapport\nde jeu, mais également de modifier différents éléments comme\nvos badges, votre titre ou encore votre icône de profil.",
@@ -13102,7 +13097,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 150,
+      "Index": 151,
       "LabelName": "help_06_04_01",
       "LabelHash": 1212240861,
       "OriginalText": "Les autres Dresseurs et Dresseuses peuvent consulter\nvotre profil, mais les options vous permettent de définir\nles informations que vous souhaitez rendre publiques.",
@@ -13225,7 +13220,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 151,
+      "Index": 152,
       "LabelName": "help_06_05",
       "LabelHash": -82497622,
       "OriginalText": "Les badges, les titres et les icônes de profil",
@@ -13247,7 +13242,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 152,
+      "Index": 153,
       "LabelName": "help_06_05_00",
       "LabelHash": -1778764519,
       "OriginalText": "Vous pouvez obtenir des badges, des titres, et des icônes\nde profil en remplissant certaines conditions.",
@@ -13453,7 +13448,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 153,
+      "Index": 154,
       "LabelName": "help_06_05_01",
       "LabelHash": -1778764520,
       "OriginalText": "Vous pouvez afficher jusqu’à trois badges,\nmais uniquement un titre et une icône de profil.",
@@ -13631,7 +13626,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 154,
+      "Index": 155,
       "LabelName": "help_06_06",
       "LabelHash": -1648581563,
       "OriginalText": "Bloquer une personne",
@@ -13653,7 +13648,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 155,
+      "Index": 156,
       "LabelName": "help_06_06_00",
       "LabelHash": 929915860,
       "OriginalText": "Vous pouvez bloquer un Dresseur ou une Dresseuse depuis\nson profil.",
@@ -13693,7 +13688,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 156,
+      "Index": 157,
       "LabelName": "help_06_06_01",
       "LabelHash": 929915859,
       "OriginalText": "Les personnes bloquées n’ont plus accès aux salons de combats\nprivés créés par la personne qui les a bloquées.",
@@ -13733,7 +13728,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 157,
+      "Index": 158,
       "LabelName": "help_06_06_02",
       "LabelHash": 929915858,
       "OriginalText": "Les personnes bloquées ne sont pas informées qu’elles ont\nété bloquées.",
@@ -13773,7 +13768,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 158,
+      "Index": 159,
       "LabelName": "help_06_07",
       "LabelHash": 1080301792,
       "OriginalText": "Les hauts faits",
@@ -13795,7 +13790,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 159,
+      "Index": 160,
       "LabelName": "help_06_07_00",
       "LabelHash": -2061089521,
       "OriginalText": "Il existe deux types de hauts faits : les hauts faits personnels\net les hauts faits de Pokémon.",
@@ -13918,7 +13913,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 160,
+      "Index": 161,
       "LabelName": "help_06_07_01",
       "LabelHash": -2061089522,
       "OriginalText": "En remplissant certaines conditions, vous accomplirez\ndes hauts faits, et vous obtiendrez des récompenses.",
@@ -14004,7 +13999,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 161,
+      "Index": 162,
       "LabelName": "help_06_07_02",
       "LabelHash": -2061089523,
       "OriginalText": "Les hauts faits personnels consistent la plupart du temps\nà participer à des combats ou à entraîner ses Pokémon\nun certain nombre de fois.",
@@ -14127,7 +14122,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 162,
+      "Index": 163,
       "LabelName": "help_06_07_03",
       "LabelHash": -2061089524,
       "OriginalText": "Les hauts faits de Pokémon consistent la plupart du temps\nà remporter un certain nombre de victoires en combat\navec des Pokémon spécifiques.",
@@ -14222,7 +14217,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 163,
+      "Index": 164,
       "LabelName": "help_07",
       "LabelHash": 487112841,
       "OriginalText": "Les pass de combat et les missions de Cordy",
@@ -14244,7 +14239,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 164,
+      "Index": 165,
       "LabelName": "help_07_00",
       "LabelHash": -842012540,
       "OriginalText": "Le pass de combat",
@@ -14266,7 +14261,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 165,
+      "Index": 166,
       "LabelName": "help_07_00_00",
       "LabelHash": 1776856977,
       "OriginalText": "Un pass de combat vous permet d’obtenir des récompenses\nau fur et à mesure que vous accumulez des points de Score\nde Combat Saisonnier (SCS).\n\nVous pouvez gagner des points de SCS en participant\nà des combats classés, entre autres.",
@@ -14535,7 +14530,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 166,
+      "Index": 167,
       "LabelName": "help_07_00_01",
       "LabelHash": 1776856978,
       "OriginalText": "Chaque pass de combat est valide pendant une certaine\npériode. De nouveaux pass de combat sont disponibles\nà chaque nouvelle saison des combats classés.",
@@ -14593,7 +14588,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 167,
+      "Index": 168,
       "LabelName": "help_07_01",
       "LabelHash": 1886870815,
       "OriginalText": "Le pass de combat premium",
@@ -14615,7 +14610,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 168,
+      "Index": 169,
       "LabelName": "help_07_01_00",
       "LabelHash": -1214148404,
       "OriginalText": "Il existe deux types de pass de combat : le pass de combat\nordinaire et le pass de combat premium.\n\nLe pass de combat premium vous permet d’obtenir\ndes récompenses auxquelles vous n’avez pas accès\navec le pass de combat ordinaire.",
@@ -14810,7 +14805,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 169,
+      "Index": 170,
       "LabelName": "help_07_01_01",
       "LabelHash": -1214148403,
       "OriginalText": "Vous pouvez acheter le pass de combat premium\ndans la boutique premium.\n\nSi vous en achetez un, vous recevrez toutes les récompenses\ndu pass de combat premium qui correspondent aux niveaux que\nvous aviez déjà atteints avec votre pass de combat ordinaire.",
@@ -14950,7 +14945,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 170,
+      "Index": 171,
       "LabelName": "help_07_01_02",
       "LabelHash": -1214148406,
       "OriginalText": "La période de validité des pass de combat premium\nest la même que celle des pass de combat ordinaires.\nSi vous achetez un pass de combat premium, il expirera\nà la fin de la période de validité de pass de combat durant\nlaquelle vous l’avez acheté. Pour recevoir les récompenses\nexclusives du pass de combat premium lors d’une nouvelle\npériode de validité, vous pouvez acheter le pass de combat\npremium pour cette nouvelle période.",
@@ -15098,7 +15093,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 171,
+      "Index": 172,
       "LabelName": "help_07_02",
       "LabelHash": 320786874,
       "OriginalText": "Les missions de Cordy",
@@ -15120,7 +15115,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 172,
+      "Index": 173,
       "LabelName": "help_07_02_00",
       "LabelHash": 1494531975,
       "OriginalText": "Les missions de Cordy permettent d’obtenir des récompenses\nen remplissant certaines conditions.",
@@ -15160,7 +15155,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 173,
+      "Index": 174,
       "LabelName": "help_07_02_01",
       "LabelHash": 1494531976,
       "OriginalText": "Il existe trois catégories de missions : quotidiennes,\nhebdomadaires et initiales.",
@@ -15329,7 +15324,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 174,
+      "Index": 175,
       "LabelName": "help_07_02_02",
       "LabelHash": 1494531973,
       "OriginalText": "Les conditions d’accomplissement et les récompenses liées\naux missions quotidiennes sont renouvelées tous les jours,\ntandis que celles des missions hebdomadaires sont mises à jour\ntoutes les semaines.",
@@ -15589,7 +15584,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 175,
+      "Index": 176,
       "LabelName": "help_07_02_03",
       "LabelHash": 1494531974,
       "OriginalText": "Vous ne pouvez accomplir les missions initiales et récupérer\nles récompenses correspondantes qu’une seule fois.\nUne fois accomplies, ces missions initiales ne seront plus\nrenouvelées.",
@@ -15711,7 +15706,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 176,
+      "Index": 177,
       "LabelName": "help_07_02_04",
       "LabelHash": 1494531971,
       "OriginalText": "Il est possible de remplacer certaines missions de Cordy\npar d’autres missions.\n\nSi vous choisissez de remplacer une mission, votre progression\npour celle-ci sera perdue et les critères d’accomplissement\nseront modifiés.",
@@ -15906,7 +15901,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 177,
+      "Index": 178,
       "LabelName": "help_08",
       "LabelHash": 487112838,
       "OriginalText": "Le menu secondaire",
@@ -15928,7 +15923,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 178,
+      "Index": 179,
       "LabelName": "help_08_00",
       "LabelHash": -842012575,
       "OriginalText": "La boîte aux lettres",
@@ -15950,7 +15945,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 179,
+      "Index": 180,
       "LabelName": "help_08_00_00",
       "LabelHash": 1776819124,
       "OriginalText": "Vous trouverez dans votre boîte aux lettres les cadeaux\nque vous n’avez pas encore récupérés, qu’il s’agisse\ndes récompenses de vos pass de combat ou des missions\nde Cordy, ainsi que les cadeaux ou les messages envoyés\npar le conseil.",
@@ -16090,7 +16085,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 180,
+      "Index": 181,
       "LabelName": "help_08_00_01",
       "LabelHash": 1776819123,
       "OriginalText": "Les messages et les cadeaux peuvent cependant expirer.\nIls sont alors supprimés. Veuillez donc lire vos messages\net récupérer vos cadeaux dès que possible.",
@@ -16148,7 +16143,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 181,
+      "Index": 182,
       "LabelName": "help_08_00_02",
       "LabelHash": 1776819126,
       "OriginalText": "Le Conseil du Stade de Combat (aussi appelé le CSC\nou le conseil) est l’institution qui organise et gère les\ncombats et les évènements qui ont lieu ici, à Frontalis.",
@@ -16252,7 +16247,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 182,
+      "Index": 183,
       "LabelName": "help_08_01",
       "LabelHash": 1886870780,
       "OriginalText": "Les contacts",
@@ -16274,7 +16269,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 183,
+      "Index": 184,
       "LabelName": "help_08_01_00",
       "LabelHash": -1214186257,
       "OriginalText": "Vos contacts peuvent consulter votre profil, et vous pouvez\nconsulter le leur.",
@@ -16360,7 +16355,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 184,
+      "Index": 185,
       "LabelName": "help_08_01_01",
       "LabelHash": -1214186258,
       "OriginalText": "Vous pouvez inviter directement vos contacts dans\ndes salons de combats privés.\n\nLes personnes recevant une invitation peuvent rejoindre\nun salon sans avoir à saisir l’ID dudit salon.",
@@ -16519,7 +16514,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 185,
+      "Index": 186,
       "LabelName": "help_08_02",
       "LabelHash": 320786839,
       "OriginalText": "La liste noire",
@@ -16541,7 +16536,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 186,
+      "Index": 187,
       "LabelName": "help_08_02_00",
       "LabelHash": 1494494122,
       "OriginalText": "Les Dresseurs et les Dresseuses que vous bloquez apparaîtront\ndans votre liste noire.\n\nIl est possible de bloquer quelqu’un depuis le profil\nde cette personne.",
@@ -16626,7 +16621,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 187,
+      "Index": 188,
       "LabelName": "help_08_02_01",
       "LabelHash": 1494494121,
       "OriginalText": "Lorsque vous bloquez quelqu’un, cette personne n’apparaîtra\nplus parmi vos contacts, et vous ne recevrez plus ses\ndemandes de contact.",
@@ -16758,7 +16753,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 188,
+      "Index": 189,
       "LabelName": "help_08_02_02",
       "LabelHash": 1494494124,
       "OriginalText": "Les personnes bloquées n’ont plus accès aux salons de combats\nprivés créés par la personne qui les a bloquées.",
@@ -16872,7 +16867,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 189,
+      "Index": 190,
       "LabelName": "help_08_03",
       "LabelHash": -1245297102,
       "OriginalText": "Les annonces",
@@ -16894,7 +16889,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 190,
+      "Index": 191,
       "LabelName": "help_08_03_00",
       "LabelHash": -1496511259,
       "OriginalText": "Dans les annonces, vous trouverez des informations liées à\nPokémon Champions et aux évènements en cours, entre autres.",
@@ -16980,7 +16975,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 191,
+      "Index": 192,
       "LabelName": "help_08_03_01",
       "LabelHash": -1496511260,
       "OriginalText": "Les annonces varient en fonction de votre région ou lieu\nde résidence.",
@@ -17094,7 +17089,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 192,
+      "Index": 193,
       "LabelName": "help_08_04",
       "LabelHash": 1483586253,
       "OriginalText": "Les options",
@@ -17116,7 +17111,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 193,
+      "Index": 194,
       "LabelName": "help_08_04_00",
       "LabelHash": 1212169120,
       "OriginalText": "Dans le menu « Options », vous pouvez régler et modifier\ndifférents paramètres.\n\nVous trouverez ci-dessous des exemples d’éléments que\nvous pouvez régler dans les options.",
@@ -17247,7 +17242,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 194,
+      "Index": 195,
       "LabelName": "help_08_04_01",
       "LabelHash": 1212169119,
       "OriginalText": "Concernant les combats :\n・ Afficher les noms de combat\nPermet d’afficher ou non le nom de combat\ndes Pokémon.\n\n・ Afficher les infos détaillées sur les combats\nPermet d’afficher ou non les effets qui affectent\nle terrain durant les combats.",
@@ -17442,7 +17437,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 195,
+      "Index": 196,
       "LabelName": "help_08_05",
       "LabelHash": -82497688,
       "OriginalText": "Les Cadeaux Mystère",
@@ -17464,7 +17459,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 196,
+      "Index": 197,
       "LabelName": "help_08_05_00",
       "LabelHash": -1778836261,
       "OriginalText": "Dans le menu « Cadeaux Mystère », vous pouvez obtenir\ndes cadeaux en saisissant un code ou un mot de passe.",
@@ -17550,7 +17545,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 197,
+      "Index": 198,
       "LabelName": "help_09",
       "LabelHash": 487112839,
       "OriginalText": "Les Pokémon",
@@ -17572,7 +17567,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 198,
+      "Index": 199,
       "LabelName": "help_09_00",
       "LabelHash": -842012606,
       "OriginalText": "Les stats",
@@ -17594,7 +17589,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 199,
+      "Index": 200,
       "LabelName": "help_09_00_00",
       "LabelHash": 1776785235,
       "OriginalText": "Les Pokémon disposent de six stats différentes : PV, Attaque,\nDéfense, Attaque Spéciale, Défense Spéciale et Vitesse.",
@@ -17901,7 +17896,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 200,
+      "Index": 201,
       "LabelName": "help_09_01",
       "LabelHash": 1886870749,
       "OriginalText": "Les PV, l’Attaque et la Défense",
@@ -17923,7 +17918,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 201,
+      "Index": 202,
       "LabelName": "help_09_01_00",
       "LabelHash": -1214220146,
       "OriginalText": "Les PV\n\nLe nombre de PV d’un Pokémon correspond au nombre\nde dégâts qu’il peut encaisser.\n\nCe nombre baisse à mesure que le Pokémon subit des dégâts.\nQuand le Pokémon n’a plus de PV, il tombe K.O.",
@@ -18063,7 +18058,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 202,
+      "Index": 203,
       "LabelName": "help_09_01_01",
       "LabelHash": -1214220145,
       "OriginalText": "L’Attaque\n\nCette stat détermine la quantité de dégâts qu’un Pokémon\ninflige lorsqu’il utilise des capacités physiques.\n\nPlus cette stat est élevée, plus les dégâts infligés à l’adversaire\nen utilisant des capacités physiques sont élevés.",
@@ -18203,7 +18198,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 203,
+      "Index": 204,
       "LabelName": "help_09_01_02",
       "LabelHash": -1214220144,
       "OriginalText": "La Défense\n\nCette stat détermine la quantité de dégâts qu’un Pokémon\nencaisse lorsqu’il subit des capacités physiques.\n\nPlus cette stat est élevée, plus les dégâts subis provenant\nde capacités physiques sont faibles.",
@@ -18343,7 +18338,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 204,
+      "Index": 205,
       "LabelName": "help_09_02",
       "LabelHash": 320786808,
       "OriginalText": "L’Attaque Spéciale, la Défense Spéciale et la Vitesse",
@@ -18365,7 +18360,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 205,
+      "Index": 206,
       "LabelName": "help_09_02_00",
       "LabelHash": 1494460233,
       "OriginalText": "L’Attaque Spéciale\n\nCette stat détermine la quantité de dégâts qu’un Pokémon\ninflige lorsqu’il utilise des capacités spéciales.\n\nPlus cette stat est élevée, plus les dégâts infligés à l’adversaire\nen utilisant des capacités spéciales sont élevés.",
@@ -18505,7 +18500,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 206,
+      "Index": 207,
       "LabelName": "help_09_02_01",
       "LabelHash": 1494460234,
       "OriginalText": "La Défense Spéciale\n\nCette stat détermine la quantité de dégâts qu’un Pokémon\nencaisse lorsqu’il subit des capacités spéciales.\n\nPlus cette stat est élevée, plus les dégâts subis provenant\nde capacités spéciales sont faibles.",
@@ -18645,7 +18640,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 207,
+      "Index": 208,
       "LabelName": "help_09_02_02",
       "LabelHash": 1494460235,
       "OriginalText": "La Vitesse\n\nCette stat détermine l’ordre dans lequel les Pokémon\nagissent durant les combats.\n\nLes Pokémon dont la Vitesse est élevée agissent avant ceux\ndont la Vitesse est basse. Lorsque deux Pokémon ont la même\nVitesse, l’ordre dans lequel ils agissent est défini aléatoirement.",
@@ -18803,7 +18798,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 208,
+      "Index": 209,
       "LabelName": "help_09_03",
       "LabelHash": -1245297133,
       "OriginalText": "Les points de stats",
@@ -18825,7 +18820,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 209,
+      "Index": 210,
       "LabelName": "help_09_03_00",
       "LabelHash": -1496545148,
       "OriginalText": "Vous pouvez modifier les stats des Pokémon en leur\nattribuant des points de stats grâce à l’entraînement.",
@@ -18911,7 +18906,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 210,
+      "Index": 211,
       "LabelName": "help_09_03_01",
       "LabelHash": -1496545147,
       "OriginalText": "Il est possible d’attribuer jusqu’à 32 points à une même stat.\n\nToutes stats confondues, vous pouvez répartir jusqu’à 66 points.",
@@ -19052,7 +19047,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 211,
+      "Index": 212,
       "LabelName": "help_09_03_02",
       "LabelHash": -1496545146,
       "OriginalText": "Si vous ne savez pas comment répartir les points de stats,\nvous pouvez attribuer 32 points à chacune des 2 stats\nles plus élevées naturellement chez votre Pokémon.",
@@ -19138,7 +19133,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 212,
+      "Index": 213,
       "LabelName": "help_09_04",
       "LabelHash": 1483586222,
       "OriginalText": "Les ajustements de stats",
@@ -19160,7 +19155,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 213,
+      "Index": 214,
       "LabelName": "help_09_04_00",
       "LabelHash": 1212135231,
       "OriginalText": "Un ajustement de stats est une modification des stats\nqui consiste à faire augmenter une stat spécifique et\nà en faire baisser une autre.",
@@ -19264,7 +19259,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 214,
+      "Index": 215,
       "LabelName": "help_09_04_01",
       "LabelHash": 1212135232,
       "OriginalText": "La stat qui augmente est multipliée par 1,1.\nLa stat qui baisse est multipliée par 0,9.",
@@ -19396,7 +19391,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 215,
+      "Index": 216,
       "LabelName": "help_09_04_02",
       "LabelHash": 1212135233,
       "OriginalText": "La plupart des ajustements augmentent une stat et en baissent\nune autre parmi l’Attaque, la Défense, l’Attaque Spéciale,\nla Défense Spéciale et la Vitesse.\n\nCependant, il est aussi possible de ne pas ajuster les stats\nde vos Pokémon.",
@@ -19573,7 +19568,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 216,
+      "Index": 217,
       "LabelName": "help_09_04_03",
       "LabelHash": 1212135234,
       "OriginalText": "Si vous ne savez pas quelle stat augmenter ou diminuer,\nvous pouvez essayer d’augmenter la stat la plus élevée\ndu Pokémon et de baisser son Attaque s’il n’utilise pas\nde capacités physiques, ou son Attaque Spéciale\ns’il n’utilise pas de capacités spéciales.",
@@ -19759,7 +19754,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 217,
+      "Index": 218,
       "LabelName": "help_09_05",
       "LabelHash": -82497719,
       "OriginalText": "Les talents",
@@ -19781,7 +19776,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 218,
+      "Index": 219,
       "LabelName": "help_09_05_00",
       "LabelHash": -1778870150,
       "OriginalText": "Les Pokémon sont dotés de talents qui déclenchent différents\neffets pendant les combats.",
@@ -19867,7 +19862,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 219,
+      "Index": 220,
       "LabelName": "help_09_06",
       "LabelHash": -1648581660,
       "OriginalText": "Les objets tenus",
@@ -19889,7 +19884,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 220,
+      "Index": 221,
       "LabelName": "help_09_06_00",
       "LabelHash": 929810229,
       "OriginalText": "Faire tenir des objets à vos Pokémon permet de déclencher\ntoutes sortes d’effets durant les combats.",
@@ -19966,7 +19961,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 221,
+      "Index": 222,
       "LabelName": "help_09_06_01",
       "LabelHash": 929810230,
       "OriginalText": "Lorsque vous créez ou modifiez une Équipe Combat,\nvous pouvez faire tenir un objet à chaque Pokémon.",
@@ -20052,7 +20047,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 222,
+      "Index": 223,
       "LabelName": "help_09_07",
       "LabelHash": 1080301695,
       "OriginalText": "Les capacités",
@@ -20074,7 +20069,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 223,
+      "Index": 224,
       "LabelName": "help_09_07_00",
       "LabelHash": -2061195152,
       "OriginalText": "Un Pokémon peut apprendre jusqu’à 4 capacités.\n\nLes capacités ont différentes variables : la puissance,\nla Précision, les PP et les effets additionnels.",
@@ -20187,7 +20182,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 224,
+      "Index": 225,
       "LabelName": "help_09_07_01",
       "LabelHash": -2061195151,
       "OriginalText": "La puissance\n\nLa puissance détermine la quantité de dégâts qu’une capacité\ninflige à l’adversaire.",
@@ -20282,7 +20277,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 225,
+      "Index": 226,
       "LabelName": "help_09_07_02",
       "LabelHash": -2061195150,
       "OriginalText": "La Précision\n\nLa Précision détermine si une capacité a de grandes chances\nde toucher sa cible ou non.",
@@ -20377,7 +20372,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 226,
+      "Index": 227,
       "LabelName": "help_09_07_03_00",
       "LabelHash": 1058067838,
       "OriginalText": "Les PP\n\nLes PP indiquent le nombre de fois qu’une capacité\npeut être utilisée pendant un combat.",
@@ -20472,7 +20467,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 227,
+      "Index": 228,
       "LabelName": "help_09_07_03_01",
       "LabelHash": -508016103,
       "OriginalText": "Lorsque les PP d’une capacité tombent à zéro,\nelle ne peut plus être utilisée pendant le combat.\n\nSi un Pokémon ne peut plus utiliser aucune de ses capacités,\nil se mettra à utiliser la capacité Lutte automatiquement.",
@@ -20557,7 +20552,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 228,
+      "Index": 229,
       "LabelName": "help_09_07_04",
       "LabelHash": -2061195148,
       "OriginalText": "Les effets additionnels\n\nCertaines capacités peuvent infliger une grande variété d’effets\nadditionnels à l’adversaire, en plus d’infliger des dégâts.",
@@ -20652,7 +20647,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 229,
+      "Index": 230,
       "LabelName": "help_09_08",
       "LabelHash": -485782246,
       "OriginalText": "Les insignes",
@@ -20674,7 +20669,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 230,
+      "Index": 231,
       "LabelName": "help_09_08_00",
       "LabelHash": 647485227,
       "OriginalText": "Les insignes sont des sobriquets qu’un Pokémon peut recevoir.\n\nSi un Pokémon a un insigne, ce dernier sera également affiché\npendant les combats.",
@@ -20787,7 +20782,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 231,
+      "Index": 232,
       "LabelName": "help_09_08_01",
       "LabelHash": 647485228,
       "OriginalText": "Vous pouvez choisir l’insigne à donner à un Pokémon\ndepuis le résumé de ce dernier.",
@@ -20873,7 +20868,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 232,
+      "Index": 233,
       "LabelName": "help_09_08_02",
       "LabelHash": 647485229,
       "OriginalText": "Vous rencontrerez parfois des Pokémon déjà\ndotés d’un insigne lors de vos recrutements.",
@@ -20959,7 +20954,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 233,
+      "Index": 234,
       "LabelName": "help_09_09",
       "LabelHash": -2051866187,
       "OriginalText": "Les formes des Pokémon",
@@ -20981,7 +20976,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 234,
+      "Index": 235,
       "LabelName": "help_09_09_00",
       "LabelHash": 1951447142,
       "OriginalText": "Même si deux Pokémon appartiennent à la même espèce,\nils peuvent prendre des formes différentes.",
@@ -21058,7 +21053,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 235,
+      "Index": 236,
       "LabelName": "help_09_09_01",
       "LabelHash": 1951447143,
       "OriginalText": "Une Équipe Combat ne peut pas contenir plus d’un Pokémon\nde chaque espèce.\n\nAinsi, une Équipe Combat ne peut pas contenir deux Pokémon\nd’une même espèce, même si leurs formes sont différentes.",
@@ -21217,7 +21212,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 236,
+      "Index": 237,
       "LabelName": "help_10",
       "LabelHash": 2053196787,
       "OriginalText": "Les bases du combat",
@@ -21239,7 +21234,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 237,
+      "Index": 238,
       "LabelName": "help_10_00",
       "LabelHash": -760942076,
       "OriginalText": "Les affinités de types",
@@ -21261,7 +21256,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 238,
+      "Index": 239,
       "LabelName": "help_10_00_00",
       "LabelHash": 1602580967,
       "OriginalText": "Il existe 18 types au total.\nLes dégâts infligés varient en fonction du type du Pokémon\nqui subit une capacité et de son affinité avec le type de cette\ncapacité.",
@@ -21337,7 +21332,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 239,
+      "Index": 240,
       "LabelName": "help_10_00_01",
       "LabelHash": 1602580966,
       "OriginalText": "C’est ce que l’on appelle l’affinité de type.\n\nCi-après, vous allez découvrir trois des affinités de type :\nsuper efficace, pas très efficace et aucun effet.",
@@ -21579,7 +21574,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 240,
+      "Index": 241,
       "LabelName": "help_10_00_02",
       "LabelHash": 1602580969,
       "OriginalText": "Super efficace\n\nSi un Pokémon attaque à l’aide d’une capacité super efficace,\nles dégâts infligés sont multipliés par 2.\n\nExemple : quand un Pokémon attaque Florizarre, un Pokémon\nde type Plante, avec Lance-Flammes, une capacité de type Feu.",
@@ -21784,7 +21779,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 241,
+      "Index": 242,
       "LabelName": "help_10_00_04",
       "LabelHash": 1602580971,
       "OriginalText": "Pas très efficace\n\nSi un Pokémon attaque à l’aide d’une capacité qui n’est pas\ntrès efficace, les dégâts infligés sont réduits de moitié.\n\nExemple : quand un Pokémon attaque Florizarre, un Pokémon\nde type Plante, avec Hydrocanon, une capacité de type Eau.",
@@ -21970,7 +21965,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 242,
+      "Index": 243,
       "LabelName": "help_10_00_06",
       "LabelHash": 1602580973,
       "OriginalText": "Aucun effet\n\nSi un Pokémon attaque à l’aide d’une capacité qui n’a aucun\neffet, il n’infligera aucun dégât.\n\nExemple : quand un Pokémon attaque Ectoplasma,\nun Pokémon de type Spectre, avec Mégaphone,\nune capacité de type Normal.",
@@ -22202,7 +22197,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 243,
+      "Index": 244,
       "LabelName": "help_10_01",
       "LabelHash": 805141865,
       "OriginalText": "Les Pokémon dotés de deux types",
@@ -22224,7 +22219,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 244,
+      "Index": 245,
       "LabelName": "help_10_01_00",
       "LabelHash": 298619052,
       "OriginalText": "Certains Pokémon sont dotés de deux types.\n\nLorsqu’un Pokémon ayant deux types subit une capacité,\nles affinités de chacun des types sont combinées afin de\ndéfinir l’affinité finale.\n\nVoici les deux affinités qui en découlent :\nhyper efficace et vraiment pas très efficace.",
@@ -22437,7 +22432,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 245,
+      "Index": 246,
       "LabelName": "help_10_01_01",
       "LabelHash": 298619051,
       "OriginalText": "Hyper efficace\n\nSi un Pokémon attaque à l’aide d’une capacité hyper efficace,\nles dégâts infligés sont multipliés par 4.\n\nExemple : quand un Pokémon attaque Cizayox, un Pokémon\nde types Insecte et Acier, avec Lance-Flammes, une capacité\nde type Feu.",
@@ -22632,7 +22627,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 246,
+      "Index": 247,
       "LabelName": "help_10_01_02",
       "LabelHash": 298619054,
       "OriginalText": "Vraiment pas très efficace\n\nSi un Pokémon attaque à l’aide d’une capacité qui n’est\nvraiment pas très efficace, il n’infligera que 1/4 des dégâts.\n\nExemple : quand un Pokémon attaque Cizayox, un Pokémon\nde types Insecte et Acier, avec Lance-Soleil, une capacité\nde type Plante.",
@@ -22836,7 +22831,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 247,
+      "Index": 248,
       "LabelName": "help_10_02",
       "LabelHash": 401857338,
       "OriginalText": "Le lien entre type de Pokémon et type de capacité",
@@ -22858,7 +22853,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 248,
+      "Index": 249,
       "LabelName": "help_10_02_00",
       "LabelHash": 1320255965,
       "OriginalText": "Lorsqu’un Pokémon utilise une capacité du même type\nque lui, les dégâts de cette capacité sont multipliés par 1,5.\n\nExemple : faire utiliser Tonnerre, une capacité de type Électrik\nà Pikachu, un Pokémon de type Électrik.",
@@ -22989,7 +22984,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 249,
+      "Index": 250,
       "LabelName": "help_10_03",
       "LabelHash": 1967941279,
       "OriginalText": "Les spécificités des types Plante, Feu, Électrik et Vol",
@@ -23011,7 +23006,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 250,
+      "Index": 251,
       "LabelName": "help_10_03_00",
       "LabelHash": 16294050,
       "OriginalText": "Les Pokémon de type Plante :\n\n・ sont immunisés contre la capacité Vampigraine ;\n・ sont immunisés contre les capacités et les talents\nqui libèrent de la poudre.",
@@ -23124,7 +23119,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 251,
+      "Index": 252,
       "LabelName": "help_10_03_01",
       "LabelHash": 16294049,
       "OriginalText": "Les Pokémon de type Feu :\n\n・ sont immunisés contre la brûlure.",
@@ -23201,7 +23196,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 252,
+      "Index": 253,
       "LabelName": "help_10_03_02",
       "LabelHash": 16294052,
       "OriginalText": "Les Pokémon de type Électrik :\n\n・ sont immunisés contre la paralysie.",
@@ -23278,7 +23273,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 253,
+      "Index": 254,
       "LabelName": "help_10_03_03",
       "LabelHash": 16294051,
       "OriginalText": "Les Pokémon de type Vol :\n\n・ sont immunisés contre les effets de Picots, Pics Toxik\net Toile Gluante.",
@@ -23373,7 +23368,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 254,
+      "Index": 255,
       "LabelName": "help_10_04",
       "LabelHash": 1564656752,
       "OriginalText": "Les spécificités des types Roche, Poison, Sol et Glace",
@@ -23395,7 +23390,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 255,
+      "Index": 256,
       "LabelName": "help_10_04_00",
       "LabelHash": 1037930963,
       "OriginalText": "Les Pokémon de type Roche :\n\n・ voient leur Défense Spéciale multipliée par 1,5\nlors des tempêtes de sable ;\n・ sont immunisés contre les dégâts des tempêtes de sable.",
@@ -23508,7 +23503,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 256,
+      "Index": 257,
       "LabelName": "help_10_04_01",
       "LabelHash": 1037930962,
       "OriginalText": "Les Pokémon de type Poison :\n\n・ sont immunisés contre le poison et le poison grave ;\n・ annulent l’effet de Pics Toxik en entrant sur le terrain.",
@@ -23603,7 +23598,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 257,
+      "Index": 258,
       "LabelName": "help_10_04_02",
       "LabelHash": 1037930965,
       "OriginalText": "Les Pokémon de type Sol :\n\n・ sont immunisés contre la capacité Cage Éclair ;\n・ sont immunisés contre les dégâts des tempêtes de sable.",
@@ -23698,7 +23693,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 258,
+      "Index": 259,
       "LabelName": "help_10_04_03",
       "LabelHash": 1037930964,
       "OriginalText": "Les Pokémon de type Glace :\n\n・ sont immunisés contre le gel ;\n・ voient leur Défense multipliée par 1,5 quand il neige ;\n・ sont immunisés contre la capacité Glaciation.",
@@ -23811,7 +23806,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 259,
+      "Index": 260,
       "LabelName": "help_10_05",
       "LabelHash": -1164226603,
       "OriginalText": "Les spécificités des types Spectre, Ténèbres et Acier",
@@ -23833,7 +23828,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 260,
+      "Index": 261,
       "LabelName": "help_10_05_00",
       "LabelHash": -266030952,
       "OriginalText": "Les Pokémon de type Spectre :\n\n・ sont immunisés contre l’état « Fuite impossible ».",
@@ -23910,7 +23905,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 261,
+      "Index": 262,
       "LabelName": "help_10_05_01",
       "LabelHash": -266030953,
       "OriginalText": "Les Pokémon de type Ténèbres :\n\n・ sont immunisés contre les capacités de statut dont le niveau\nde priorité a été augmenté grâce à l’effet du talent Farceur.",
@@ -24005,7 +24000,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 262,
+      "Index": 263,
       "LabelName": "help_10_05_02",
       "LabelHash": -266030950,
       "OriginalText": "Les Pokémon de type Acier :\n\n・ sont immunisés contre le poison et le poison grave ;\n・ sont immunisés contre les dégâts des tempêtes de sable.",
@@ -24100,7 +24095,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 263,
+      "Index": 264,
       "LabelName": "help_10_06",
       "LabelHash": -1567511130,
       "OriginalText": "Les limites de temps",
@@ -24122,7 +24117,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 264,
+      "Index": 265,
       "LabelName": "help_10_06_00",
       "LabelHash": 755605961,
       "OriginalText": "Le déroulement des combats est régi par diverses limites\nde temps. Si vous ne parvenez pas à prendre une décision\ndans le temps imparti, le jeu choisira pour vous afin que\nle combat puisse suivre son cours.",
@@ -24272,7 +24267,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 265,
+      "Index": 266,
       "LabelName": "help_10_06_01",
       "LabelHash": 755605960,
       "OriginalText": "Le temps total\n\nIl s’agit du temps total disponible pendant les combats.\n\nUne fois ce temps écoulé, le combat s’achève. Lors des combats\nclassés ou amicaux, le résultat obtenu est une égalité.\nDans ce cas, personne n’obtient de PdV ou de points de SCS.\nDe même, les rangs et les niveaux ne sont pas affectés.",
@@ -24430,7 +24425,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 266,
+      "Index": 267,
       "LabelName": "help_10_06_02",
       "LabelHash": 755605963,
       "OriginalText": "Le temps individuel\n\nIl s’agit du temps dont vous disposez pendant les combats.\n\nUne fois ce temps écoulé, le combat s’achève et vous perdez\nla rencontre.",
@@ -24589,7 +24584,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 267,
+      "Index": 268,
       "LabelName": "help_10_06_03",
       "LabelHash": 755605962,
       "OriginalText": "Temps de choix d’action par tour\n\nIl s’agit du temps dont vous disposez pour choisir une action\nchaque tour.\n\nUne fois ce temps écoulé, si vous n’avez pas choisi d’action,\nles Pokémon actifs lanceront automatiquement la première\ncapacité de leur liste de capacités.",
@@ -24793,7 +24788,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 268,
+      "Index": 269,
       "LabelName": "help_11",
       "LabelHash": 2053196788,
       "OriginalText": "Les combats : stratégies avancées",
@@ -24815,7 +24810,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 269,
+      "Index": 270,
       "LabelName": "help_11_00",
       "LabelHash": -760942107,
       "OriginalText": "Les changements de stats",
@@ -24837,7 +24832,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 270,
+      "Index": 271,
       "LabelName": "help_11_00_00",
       "LabelHash": 1602547078,
       "OriginalText": "Une partie des capacités, talents et objets tenus ont\npour effet de provoquer des changements de stats\n(des hausses ou des baisses) chez les Pokémon.",
@@ -24932,7 +24927,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 271,
+      "Index": 272,
       "LabelName": "help_11_00_01",
       "LabelHash": 1602547079,
       "OriginalText": "Les changements de stats s’échelonnent sur des crans allant\nde -6 à +6. Une valeur négative indique une baisse de stat,\ntandis qu’une valeur positive indique une augmentation de stat.\n\nLorsqu’un Pokémon est remplacé, les changements de stats\nsont réinitialisés au cran 0.",
@@ -25127,7 +25122,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 272,
+      "Index": 273,
       "LabelName": "help_11_00_02",
       "LabelHash": 1602547080,
       "OriginalText": "En plus des stats principales, comme l’Attaque ou la Défense,\nles changements de stats peuvent également concerner\nl’Esquive et la Précision.",
@@ -25277,7 +25272,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 273,
+      "Index": 274,
       "LabelName": "help_11_00_03",
       "LabelHash": 1602547081,
       "OriginalText": "Lorsque l’Esquive d’un Pokémon baisse, il a plus de mal\nà éviter les capacités, tandis qu’il y parvient mieux\nsi cette stat augmente.\n\nLorsque la Précision d’un Pokémon baisse, il a plus de mal\nà atteindre sa cible avec ses capacités, tandis qu’il y parvient\nmieux si cette stat augmente.",
@@ -25398,7 +25393,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 274,
+      "Index": 275,
       "LabelName": "help_11_01",
       "LabelHash": 805141834,
       "OriginalText": "Les coups critiques",
@@ -25420,7 +25415,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 275,
+      "Index": 276,
       "LabelName": "help_11_01_00",
       "LabelHash": 298585163,
       "OriginalText": "Les capacités des Pokémon ont 1 chance sur 24 d’infliger\nun coup critique aux adversaires.\n\nSi cela se produit, les dégâts infligés par la capacité concernée\nsont multipliés par 1,5.",
@@ -25643,7 +25638,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 276,
+      "Index": 277,
       "LabelName": "help_11_01_01",
       "LabelHash": 298585164,
       "OriginalText": "De plus, les coups critiques ignorent certains changements\nde stats ou d’état.",
@@ -25757,7 +25752,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 277,
+      "Index": 278,
       "LabelName": "help_11_01_02",
       "LabelHash": 298585165,
       "OriginalText": "Si un Pokémon est dans l’état « Taux de critiques ↑ »,\nses chances d’infliger des coups critiques augmentent.\n\nCet état a plusieurs crans, allant de 0 à +3.\nPlus le cran est élevé, plus les chances d’infliger\nun coup critique augmentent.",
@@ -25952,7 +25947,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 278,
+      "Index": 279,
       "LabelName": "help_11_02",
       "LabelHash": 401857307,
       "OriginalText": "Les altérations de statut",
@@ -25974,7 +25969,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 279,
+      "Index": 280,
       "LabelName": "help_11_02_00",
       "LabelHash": 1320222076,
       "OriginalText": "Une partie des capacités, talents et objets tenus ont pour effet\nde provoquer des altérations de statut chez les Pokémon.\n\nCes altérations peuvent affecter un Pokémon de\ndifférentes façons.",
@@ -26105,7 +26100,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 280,
+      "Index": 281,
       "LabelName": "help_11_02_01",
       "LabelHash": 1320222077,
       "OriginalText": "Effectuez le tutoriel de combat appelé « Les altérations\nde statut » afin d’étudier tout cela par la pratique.",
@@ -26237,7 +26232,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 281,
+      "Index": 282,
       "LabelName": "help_11_03",
       "LabelHash": 1967941248,
       "OriginalText": "Le poison, le poison grave et la brûlure",
@@ -26259,7 +26254,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 282,
+      "Index": 283,
       "LabelName": "help_11_03_00",
       "LabelHash": 16260161,
       "OriginalText": "Le poison\n\nLes Pokémon empoisonnés subissent des dégâts équivalents\nà 1/8 de leurs PV max à la fin de chaque tour.",
@@ -26354,7 +26349,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 283,
+      "Index": 284,
       "LabelName": "help_11_03_01",
       "LabelHash": 16260162,
       "OriginalText": "Le poison grave\n\nÀ la fin de chaque tour, les Pokémon gravement empoisonnés\nsubissent des dégâts qui augmentent au fil des tours, d’abord\néquivalents à 1/16 de leurs PV max, puis à 2/16, 3/16, etc.\nSi un Pokémon gravement empoisonné est remplacé et revient\nsur le terrain, cette valeur repart de 1/16.",
@@ -26503,7 +26498,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 284,
+      "Index": 285,
       "LabelName": "help_11_03_02",
       "LabelHash": 16260163,
       "OriginalText": "La brûlure\n\nLes Pokémon brûlés subissent des dégâts équivalents à 1/16\nde leurs PV max à la fin de chaque tour et les dégâts infligés\npar leurs capacités physiques sont réduits de moitié.",
@@ -26616,7 +26611,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 285,
+      "Index": 286,
       "LabelName": "help_11_04",
       "LabelHash": 1564656721,
       "OriginalText": "La paralysie, le gel et le sommeil",
@@ -26638,7 +26633,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 286,
+      "Index": 287,
       "LabelName": "help_11_04_00",
       "LabelHash": 1037897074,
       "OriginalText": "La paralysie\n\nLes Pokémon paralysés ont 12,5 % de chances\nde ne pas réussir à utiliser de capacité.\nDe plus, leur Vitesse est réduite de moitié.",
@@ -26751,7 +26746,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 287,
+      "Index": 288,
       "LabelName": "help_11_04_01",
       "LabelHash": 1037897075,
       "OriginalText": "Le gel\n\nLes Pokémon gelés ne peuvent pas utiliser la majorité des\ncapacités, mais ils ont 25 % de chances de dégeler chaque\nfois qu’ils essaient.\nIls dégèlent à coup sûr à la troisième tentative ou s’ils subissent\ndes dégâts d’une capacité de type Feu, entre autres.",
@@ -26900,7 +26895,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 288,
+      "Index": 289,
       "LabelName": "help_11_04_02",
       "LabelHash": 1037897076,
       "OriginalText": "Sommeil\n\nLes Pokémon endormis peuvent seulement utiliser les capacités\nRonflement et Blabla Dodo. Ils resteront endormis au premier\ntour de leur sommeil. Ils ont ensuite 1 chance sur 3 de se\nréveiller au deuxième tour et ils se réveillent à coup sûr au\ntroisième tour. Si les Pokémon utilisent la capacité Repos, ils ne\npeuvent pas se réveiller avant le troisième tour de leur sommeil.",
@@ -27067,7 +27062,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 289,
+      "Index": 290,
       "LabelName": "help_11_05",
       "LabelHash": -1164226634,
       "OriginalText": "Les effets sur les Pokémon et le terrain",
@@ -27089,7 +27084,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 290,
+      "Index": 291,
       "LabelName": "help_11_05_00",
       "LabelHash": -266064841,
       "OriginalText": "Une partie des capacités, talents et objets tenus provoquent\ndifférents effets et créent différents états qui impactent\nle terrain et les Pokémon.\n\nEn voici quelques exemples...",
@@ -27239,7 +27234,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 291,
+      "Index": 292,
       "LabelName": "help_11_05_01",
       "LabelHash": -266064840,
       "OriginalText": "Distorsion\n\nLes Pokémon agissent par ordre croissant\nde Vitesse (du plus lent au plus rapide).",
@@ -27334,7 +27329,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 292,
+      "Index": 293,
       "LabelName": "help_11_05_02",
       "LabelHash": -266064839,
       "OriginalText": "Vent Arrière\n\nLa Vitesse des Pokémon affectés par cet état est\nmultipliée par 2.",
@@ -27429,7 +27424,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 293,
+      "Index": 294,
       "LabelName": "help_11_05_03",
       "LabelHash": -266064838,
       "OriginalText": "Protection\n\nLes dégâts des capacités physiques subis par les Pokémon\naffectés par cet état sont réduits de moitié.\nEn Combat Duo, ces capacités infligent 2/3 de leurs dégâts\nà la place.",
@@ -27560,7 +27555,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 294,
+      "Index": 295,
       "LabelName": "help_11_05_04",
       "LabelHash": -266064837,
       "OriginalText": "Mur Lumière\n\nLes dégâts des capacités spéciales subis par les Pokémon\naffectés par cet état sont réduits de moitié.\nEn Combat Duo, ces capacités infligent 2/3 de leurs dégâts\nà la place.",
@@ -27691,7 +27686,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 295,
+      "Index": 296,
       "LabelName": "help_11_05_05",
       "LabelHash": -266064836,
       "OriginalText": "Voile Aurore\n\nLes dégâts des capacités physiques et spéciales subis par\nles Pokémon affectés par cet état sont réduits de moitié.\nEn Combat Duo, ces capacités infligent 2/3 de leurs dégâts\nà la place.",
@@ -27822,7 +27817,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 296,
+      "Index": 297,
       "LabelName": "help_11_05_06",
       "LabelHash": -266064835,
       "OriginalText": "Piège de Roc\n\nQuand cet état est actif, les Pokémon entrant sur le terrain\nsubissent des dégâts équivalents à 1/8 de leurs PV max.\nLes dégâts peuvent varier en fonction de l’affinité\ndes Pokémon avec le type Roche.",
@@ -27953,7 +27948,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 297,
+      "Index": 298,
       "LabelName": "help_11_05_07",
       "LabelHash": -266064834,
       "OriginalText": "Picots\n\nQuand cet état est actif, les Pokémon entrant sur le terrain\nsubissent des dégâts équivalents à 1/8 de leurs PV max,\net plus si 2 ou 3 effets de Picots sont actifs en même temps.\nCela n’affecte pas les Pokémon de type Vol ou dotés du talent\nLévitation, entre autres.",
@@ -28102,7 +28097,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 298,
+      "Index": 299,
       "LabelName": "help_11_05_08",
       "LabelHash": -266064833,
       "OriginalText": "Pics Toxik\n\nQuand cet état est actif, les Pokémon entrant sur le terrain\nsont empoisonnés. Si 2 effets de Pics Toxik sont actifs\nen même temps, ils sont gravement empoisonnés.\nCela n’affecte pas les Pokémon de type Vol ou dotés\ndu talent Lévitation, entre autres.",
@@ -28251,7 +28246,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 299,
+      "Index": 300,
       "LabelName": "help_11_06",
       "LabelHash": -1567511161,
       "OriginalText": "La météo",
@@ -28273,7 +28268,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 300,
+      "Index": 301,
       "LabelName": "help_11_06_00",
       "LabelHash": 755572072,
       "OriginalText": "Une partie des capacités, talents et objets tenus permettent\nde changer la météo.\n\nCette dernière a un impact sur tous les Pokémon sur le terrain\net produit différents effets.",
@@ -28441,7 +28436,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 301,
+      "Index": 302,
       "LabelName": "help_11_06_02",
       "LabelHash": 755572074,
       "OriginalText": "Soleil\n\nQuand cet état est actif, les dégâts des capacités de type Feu\nsont multipliés par 1,5 et les dégâts des capacités de type Eau\nsont réduits de moitié.",
@@ -28554,7 +28549,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 302,
+      "Index": 303,
       "LabelName": "help_11_06_01",
       "LabelHash": 755572073,
       "OriginalText": "Pluie\n\nQuand cet état est actif, les dégâts des capacités de type Eau\nsont multipliés par 1,5 et les dégâts des capacités de type Feu\nsont réduits de moitié.",
@@ -28667,7 +28662,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 303,
+      "Index": 304,
       "LabelName": "help_11_06_03",
       "LabelHash": 755572075,
       "OriginalText": "Tempête de Sable\n\nQuand cet état est actif, tous les Pokémon, sauf ceux\nde type Roche, Sol ou Acier, subissent des dégâts équivalents\nà 1/16 de leurs PV max à la fin de chaque tour.\nDe plus, la Défense Spéciale des Pokémon de type Roche\nest multipliée par 1,5.",
@@ -28816,7 +28811,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 304,
+      "Index": 305,
       "LabelName": "help_11_06_04",
       "LabelHash": 755572076,
       "OriginalText": "Neige\n\nQuand cet état est actif, la Défense des Pokémon\nde type Glace est multipliée par 1,5.",
@@ -28911,7 +28906,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 305,
+      "Index": 306,
       "LabelName": "help_11_06_05",
       "LabelHash": 755572077,
       "OriginalText": "Effectuez le tutoriel de combat appelé « La météo »\nafin d’étudier tout cela par la pratique.",
@@ -29043,7 +29038,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 306,
+      "Index": 307,
       "LabelName": "help_11_07",
       "LabelHash": -1427220,
       "OriginalText": "Les champs",
@@ -29065,7 +29060,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 307,
+      "Index": 308,
       "LabelName": "help_11_07_00",
       "LabelHash": -548389843,
       "OriginalText": "Une partie des capacités, talents et objets tenus permettent\nde créer des champs.\n\nCes derniers ont un impact sur tous les Pokémon au sol\net produisent différents effets.",
@@ -29233,7 +29228,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 308,
+      "Index": 309,
       "LabelName": "help_11_07_01",
       "LabelHash": -548389842,
       "OriginalText": "Les champs électrifiés\n\nQuand un champ électrifié est actif, les effets suivants\ns’appliquent aux Pokémon au sol :\n・ la puissance de leurs capacités de type Électrik est\nmultipliée par 1,3 ;\n・ ils ne peuvent pas s’endormir.",
@@ -29382,7 +29377,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 309,
+      "Index": 310,
       "LabelName": "help_11_07_02",
       "LabelHash": -548389841,
       "OriginalText": "Les champs psychiques\n\nQuand un champ psychique est actif, les effets suivants\ns’appliquent aux Pokémon au sol :\n・ la puissance de leurs capacités de type Psy est multipliée\npar 1,3 ;\n・ ils sont immunisés contre les capacités prioritaires.",
@@ -29531,7 +29526,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 310,
+      "Index": 311,
       "LabelName": "help_11_07_03",
       "LabelHash": -548389840,
       "OriginalText": "Les champs herbus\n\nQuand un champ herbu est actif, les effets suivants\ns’appliquent aux Pokémon au sol :\n・ la puissance de leurs capacités de type Plante est multipliée\npar 1,3 ;\n・ ils récupèrent 1/16 de leurs PV max à la fin de chaque tour.",
@@ -29680,10 +29675,10 @@
       "StyleCode": 69
     },
     {
-      "Index": 311,
+      "Index": 312,
       "LabelName": "help_11_07_04",
       "LabelHash": -548389839,
-      "OriginalText": "Les champs brumeux\n\nQuand un champ brumeux est actif, les effets suivants\ns’appliquent aux Pokémon au sol :\n・ la puissance de leurs capacités de type Dragon est\nréduite de moitié ;\n・ ils ne peuvent ni subir d’altérations de statut,\nni devenir confus.",
+      "OriginalText": "Les champs brumeux\n\nQuand un champ brumeux est actif, les effets suivants\ns’appliquent aux Pokémon au sol :\n・ les dégâts des capacités de type Dragon qu’ils subissent sont\nréduits de moitié ;\n・ ils ne peuvent ni subir d’altérations de statut,\nni devenir confus.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -29777,7 +29772,7 @@
           }
         },
         {
-          "Text": "・ la puissance de leurs capacités de type Dragon est",
+          "Text": "・ les dégâts des capacités de type Dragon qu’ils subissent sont",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -29795,7 +29790,7 @@
           }
         },
         {
-          "Text": "réduite de moitié ;",
+          "Text": "réduits de moitié ;",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -29847,7 +29842,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 312,
+      "Index": 313,
       "LabelName": "help_11_07_05",
       "LabelHash": -548389838,
       "OriginalText": "Effectuez le tutoriel de combat appelé « Les champs » afin\nd’étudier tout cela par la pratique.",
@@ -29979,7 +29974,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 313,
+      "Index": 314,
       "LabelName": "help_11_08",
       "LabelHash": -404711747,
       "OriginalText": "Les catégories de capacités",
@@ -30001,7 +29996,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 314,
+      "Index": 315,
       "LabelName": "help_11_08_00",
       "LabelHash": 473247070,
       "OriginalText": "Les capacités appartiennent toutes à une des trois catégories\nsuivantes : capacités physiques, capacités spéciales\nou capacités de statut.\n\nC’est ce que l’on appelle les catégories de capacités.",
@@ -30261,7 +30256,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 315,
+      "Index": 316,
       "LabelName": "help_11_08_01",
       "LabelHash": 473247071,
       "OriginalText": "Les dégâts d’une capacité physique infligés à un adversaire\nsont calculés en fonction de l’Attaque du Pokémon utilisant\nla capacité et de la Défense du Pokémon subissant la capacité.",
@@ -30457,7 +30452,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 316,
+      "Index": 317,
       "LabelName": "help_11_08_02",
       "LabelHash": 473247072,
       "OriginalText": "Les dégâts d’une capacité spéciale infligés à un adversaire\nsont calculés en fonction de l’Attaque Spéciale du Pokémon\nutilisant la capacité et de la Défense Spéciale du Pokémon\nsubissant la capacité.",
@@ -30671,7 +30666,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 317,
+      "Index": 318,
       "LabelName": "help_11_08_03",
       "LabelHash": 473247073,
       "OriginalText": "Les capacités de statut n’infligent pas de dégâts.\nEn revanche, elles déclenchent toutes sortes d’effets.",
@@ -30803,7 +30798,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 318,
+      "Index": 319,
       "LabelName": "help_11_08_04",
       "LabelHash": 473247074,
       "OriginalText": "Effectuez le tutoriel de combat appelé « Capacités physiques\net spéciales » afin d’étudier tout cela par la pratique.",
@@ -30935,7 +30930,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 319,
+      "Index": 320,
       "LabelName": "help_11_09",
       "LabelHash": 1161372194,
       "OriginalText": "La priorité",
@@ -30957,7 +30952,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 320,
+      "Index": 321,
       "LabelName": "help_11_09_00",
       "LabelHash": -830714845,
       "OriginalText": "Les capacités ont différents niveaux de priorité, qui vont\nde -7 à +5.\n\nLorsqu’un Pokémon utilise une capacité avec un niveau\nde priorité élevé, il peut agir en premier, quelle que soit\nsa Vitesse.",
@@ -31152,7 +31147,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 321,
+      "Index": 322,
       "LabelName": "help_11_09_01",
       "LabelHash": -830714844,
       "OriginalText": "Lorsqu’un Pokémon et son adversaire utilisent des capacités\nqui ont le même niveau de priorité, le Pokémon qui a\nla Vitesse la plus élevée lance sa capacité en premier.",
@@ -31256,7 +31251,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 322,
+      "Index": 323,
       "LabelName": "help_11_09_02",
       "LabelHash": -830714843,
       "OriginalText": "Effectuez le tutoriel de combat appelé « La priorité\ndes capacités » afin d’étudier tout cela par la pratique.",
@@ -31388,7 +31383,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 323,
+      "Index": 324,
       "LabelName": "help_11_10",
       "LabelHash": -760942108,
       "OriginalText": "Les cibles des capacités",
@@ -31410,7 +31405,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 324,
+      "Index": 325,
       "LabelName": "help_11_10_00",
       "LabelHash": 1602546055,
       "OriginalText": "Chaque capacité a une cible prédéfinie.",
@@ -31478,7 +31473,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 325,
+      "Index": 326,
       "LabelName": "help_11_10_01",
       "LabelHash": 1602546054,
       "OriginalText": "Il existe 11 cibles différentes : « cible unique », « lanceur »,\n« allié », « tous les Pokémon », « tous les alliés »,\n« tous les adversaires », « adversaire au hasard »,\n« tout le terrain », « côté adverse », « côté allié »\net « spécifique ».",
@@ -32078,7 +32073,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 326,
+      "Index": 327,
       "LabelName": "help_11_11",
       "LabelHash": 805141833,
       "OriginalText": "Cible unique, lanceur, allié et tous les Pokémon",
@@ -32100,7 +32095,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 327,
+      "Index": 328,
       "LabelName": "help_11_11_00",
       "LabelHash": 298584140,
       "OriginalText": "Cible unique\n\nLes capacités avec cette cible définie touchent un Pokémon\nqui n’est pas le lanceur.",
@@ -32195,7 +32190,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 328,
+      "Index": 329,
       "LabelName": "help_11_11_01",
       "LabelHash": 298584139,
       "OriginalText": "Lanceur\n\nLes capacités avec cette cible définie touchent le lanceur.",
@@ -32272,7 +32267,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 329,
+      "Index": 330,
       "LabelName": "help_11_11_02",
       "LabelHash": 298584142,
       "OriginalText": "Allié\n\nLes capacités avec cette cible définie touchent un allié\ndu lanceur.",
@@ -32367,7 +32362,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 330,
+      "Index": 331,
       "LabelName": "help_11_11_03",
       "LabelHash": 298584141,
       "OriginalText": "Tous les Pokémon\n\nLa plupart des capacités avec cette cible définie touchent\ntous les Pokémon, sauf le lanceur, mais certaines d’entre elles\ntouchent aussi le lanceur.",
@@ -32480,7 +32475,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 331,
+      "Index": 332,
       "LabelName": "help_11_12",
       "LabelHash": 401857306,
       "OriginalText": "Tous les alliés/adversaires, adversaire au hasard et tout le terrain",
@@ -32502,7 +32497,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 332,
+      "Index": 333,
       "LabelName": "help_11_12_00",
       "LabelHash": 1320221053,
       "OriginalText": "Tous les alliés\n\nLes capacités avec cette cible définie touchent\nle lanceur et tous ses alliés.",
@@ -32597,7 +32592,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 333,
+      "Index": 334,
       "LabelName": "help_11_12_01",
       "LabelHash": 1320221052,
       "OriginalText": "Tous les adversaires\n\nLes capacités avec cette cible définie touchent\ntous les adversaires.",
@@ -32692,7 +32687,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 334,
+      "Index": 335,
       "LabelName": "help_11_12_02",
       "LabelHash": 1320221055,
       "OriginalText": "Adversaire au hasard\n\nLes capacités avec cette cible définie touchent\nun adversaire au hasard.",
@@ -32787,7 +32782,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 335,
+      "Index": 336,
       "LabelName": "help_11_12_03",
       "LabelHash": 1320221054,
       "OriginalText": "Tout le terrain\n\nLes capacités avec cette cible définie touchent\ntous les Pokémon sur le terrain.",
@@ -32882,7 +32877,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 336,
+      "Index": 337,
       "LabelName": "help_11_13",
       "LabelHash": 1967941247,
       "OriginalText": "Côté adverse, côté allié et spécifique",
@@ -32904,7 +32899,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 337,
+      "Index": 338,
       "LabelName": "help_11_13_00",
       "LabelHash": 16259138,
       "OriginalText": "Côté adverse\n\nLes capacités avec cette cible définie touchent le côté\noù se trouvent tous les adversaires.",
@@ -32999,7 +32994,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 338,
+      "Index": 339,
       "LabelName": "help_11_13_01",
       "LabelHash": 16259137,
       "OriginalText": "Côté allié\n\nLes capacités avec cette cible définie touchent le côté\noù se trouvent le lanceur et tous ses alliés.",
@@ -33094,7 +33089,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 339,
+      "Index": 340,
       "LabelName": "help_11_13_02",
       "LabelHash": 16259140,
       "OriginalText": "Spécifique\n\nLes capacités avec cette cible définie ont des façons\nparticulières de toucher leur cible par rapport\naux autres capacités.",
@@ -33207,7 +33202,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 340,
+      "Index": 341,
       "LabelName": "help_11_13_03",
       "LabelHash": 16259139,
       "OriginalText": "Effectuez le tutoriel de combat appelé « Les Combats Duo »\nafin d’étudier tout cela par la pratique.",
@@ -33339,7 +33334,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 341,
+      "Index": 342,
       "LabelName": "help_11_14",
       "LabelHash": 1564656720,
       "OriginalText": "Le contact",
@@ -33361,7 +33356,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 342,
+      "Index": 343,
       "LabelName": "help_11_14_00",
       "LabelHash": 1037896051,
       "OriginalText": "Il arrive qu’un Pokémon doive entrer en contact avec\nson adversaire pour attaquer avec certaines capacités.\nOn les appelle les capacités à contact. D’autres capacités\nne nécessitent pas que le Pokémon entre en contact avec\nson adversaire. On les appelle les capacités sans contact.\nIl existe des capacités, des objets tenus et des talents qui\nréagissent aux capacités à contact ou qui les affectent.\nEn voici quelques exemples...",
@@ -33601,7 +33596,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 343,
+      "Index": 344,
       "LabelName": "help_11_14_01",
       "LabelHash": 1037896050,
       "OriginalText": "Bouclier Royal\n\nLe lanceur se protège de toutes les attaques adverses lors du\ntour d’utilisation de cette capacité et prend la Forme Parade.\nBaisse l’Attaque de l’adversaire de 1 cran si celui-ci utilise\nune capacité à contact sur le lanceur.\nÀ chaque utilisation consécutive, les chances de réussite\ntombent à 1/3 de ce qu’elles étaient à l’utilisation précédente.",
@@ -33768,7 +33763,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 344,
+      "Index": 345,
       "LabelName": "help_11_14_02",
       "LabelHash": 1037896053,
       "OriginalText": "Peau Dure\n\nQuand le Pokémon subit une capacité à contact, il inflige à\nl’adversaire des dégâts équivalents à 1/8 des PV max\nde celui-ci.",
@@ -33881,7 +33876,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 345,
+      "Index": 346,
       "LabelName": "help_11_14_03",
       "LabelHash": 1037896052,
       "OriginalText": "Griffe Dure\n\nLa puissance des capacités à contact du Pokémon est multipliée\npar 1,3.",
@@ -33976,7 +33971,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 346,
+      "Index": 347,
       "LabelName": "help_11_14_04",
       "LabelHash": 1037896055,
       "OriginalText": "Effectuez le tutoriel de combat appelé « Capacités à contact\net sans contact » afin d’étudier tout cela par la pratique.",
@@ -34108,7 +34103,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 347,
+      "Index": 348,
       "LabelName": "help_11_15",
       "LabelHash": -1164226635,
       "OriginalText": "La classification des capacités",
@@ -34130,7 +34125,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 348,
+      "Index": 349,
       "LabelName": "help_11_15_00",
       "LabelHash": -266065864,
       "OriginalText": "Certaines capacités qui ont des caractéristiques similaires\nsont regroupées au sein de différentes classifications.\n\nExaminons le cas des capacités de poudre ou de son,\npar exemple.",
@@ -34353,7 +34348,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 349,
+      "Index": 350,
       "LabelName": "help_11_15_01",
       "LabelHash": -266065865,
       "OriginalText": "Les capacités de poudre :\n\n・ n’ont aucun effet sur les Pokémon dotés\ndu talent Envelocape ;\n・ n’ont aucun effet sur les Pokémon de type Plante.",
@@ -34466,7 +34461,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 350,
+      "Index": 351,
       "LabelName": "help_11_15_02",
       "LabelHash": -266065862,
       "OriginalText": "Les capacités de son :\n\n・ n’ont aucun effet sur les Pokémon dotés du talent Anti-Bruit ;\n・ peuvent toucher les adversaires en ignorant les clones.",
@@ -34561,7 +34556,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 351,
+      "Index": 352,
       "LabelName": "help_12",
       "LabelHash": 2053196785,
       "OriginalText": "Divers",
@@ -34583,7 +34578,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 352,
+      "Index": 353,
       "LabelName": "help_12_00",
       "LabelHash": -760942142,
       "OriginalText": "Les PdV",
@@ -34605,7 +34600,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 353,
+      "Index": 354,
       "LabelName": "help_12_00_00",
       "LabelHash": 1602509225,
       "OriginalText": "Les PdV (Points de Victoire) peuvent être utilisés pour faire\ndes achats dans la boutique de Frontalis, ou encore pour\nrecruter ou entraîner des Pokémon.",
@@ -34709,7 +34704,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 354,
+      "Index": 355,
       "LabelName": "help_12_00_01",
       "LabelHash": 1602509224,
       "OriginalText": "Vous pouvez obtenir des PdV en participant à\ndes combats classés.\n\nVous en recevrez davantage en remportant la victoire.",
@@ -34822,7 +34817,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 355,
+      "Index": 356,
       "LabelName": "help_12_00_02",
       "LabelHash": 1602509223,
       "OriginalText": "Vous pouvez également obtenir des PdV grâce aux missions\nde Cordy, aux pass de combat, et par d’autres moyens.",
@@ -34862,7 +34857,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 356,
+      "Index": 357,
       "LabelName": "help_12_01",
       "LabelHash": 805141799,
       "OriginalText": "Les tickets",
@@ -34884,7 +34879,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 357,
+      "Index": 358,
       "LabelName": "help_12_01_00",
       "LabelHash": 298547310,
       "OriginalText": "Les tickets permettent de recruter ou encore d’entraîner\ndes Pokémon. Il en existe différents types.\n\nEn voici quelques exemples...",
@@ -34997,7 +34992,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 358,
+      "Index": 359,
       "LabelName": "help_12_01_01",
       "LabelHash": 298547309,
       "OriginalText": "Les Coupons de Vitesse\n\nUtiliser un Coupon de Vitesse permet de raccourcir d’une heure\nle temps d’attente entre deux rencontres de Pokémon.",
@@ -35129,7 +35124,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 359,
+      "Index": 360,
       "LabelName": "help_12_01_02",
       "LabelHash": 298547308,
       "OriginalText": "Les Tickets de Recrutement Permanent\n\nUtiliser un Ticket de Recrutement Permanent permet\nde recruter un Pokémon sans avoir à utiliser de PdV.",
@@ -35270,7 +35265,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 360,
+      "Index": 361,
       "LabelName": "help_12_01_03",
       "LabelHash": 298547307,
       "OriginalText": "Les Tickets d’Entraînement\n\nUtiliser un Ticket d’Entraînement permet d’entraîner\nun Pokémon sans avoir à utiliser de PdV.",
@@ -35411,7 +35406,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 361,
+      "Index": 362,
       "LabelName": "help_12_02",
       "LabelHash": 401857272,
       "OriginalText": "L’abonnement",
@@ -35433,7 +35428,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 362,
+      "Index": 363,
       "LabelName": "help_12_02_00",
       "LabelHash": 1320184223,
       "OriginalText": "Si vous souscrivez un abonnement, vous pourrez :\n\n・ stocker plus de Pokémon dans votre Boîte ;\n・ avoir plus d’Équipes Combat disponibles en même temps ;\n・ débloquer des missions réservées aux personnes abonnées ;\n・ débloquer des musiques de combat réservées aux personnes\nabonnées.",
@@ -35740,7 +35735,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 363,
+      "Index": 364,
       "LabelName": "help_12_03",
       "LabelHash": 1967941213,
       "OriginalText": "Votre région et lieu de résidence",
@@ -35762,7 +35757,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 364,
+      "Index": 365,
       "LabelName": "help_12_03_00",
       "LabelHash": 16222308,
       "OriginalText": "Les compétitions auxquelles vous pouvez participer varient\nen fonction de votre région et de votre lieu de résidence.",
@@ -35894,7 +35889,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 365,
+      "Index": 366,
       "LabelName": "help_12_03_01",
       "LabelHash": 16222307,
       "OriginalText": "Si vous déménagez, veuillez modifier votre région et votre lieu\nde résidence en conséquence.",
@@ -35934,7 +35929,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 366,
+      "Index": 367,
       "LabelName": "help_12_04",
       "LabelHash": 1564656686,
       "OriginalText": "L’association de comptes",
@@ -35956,7 +35951,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 367,
+      "Index": 368,
       "LabelName": "help_12_04_00",
       "LabelHash": 1037859221,
       "OriginalText": "Vous pouvez utiliser les mêmes données de jeu à la fois\nsur la version Nintendo Switch et la version mobile\nde Pokémon Champions en associant le même compte\nNintendo aux deux versions.",
@@ -36069,7 +36064,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 368,
+      "Index": 369,
       "LabelName": "help_12_04_00_00",
       "LabelHash": -743730100,
       "OriginalText": "Les transferts de données",
@@ -36091,7 +36086,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 369,
+      "Index": 370,
       "LabelName": "help_12_04_00_01",
       "LabelHash": 1985153255,
       "OriginalText": "Associer vos comptes vous permettra de transférer vos données\nPokémon Champions, même si vous désinstallez l’application\nou si vous changez d’appareil mobile ou de console.",
@@ -36223,7 +36218,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 370,
+      "Index": 371,
       "LabelName": "help_12_04_00_02",
       "LabelHash": -1906529514,
       "OriginalText": "Si vous souhaitez transférer vos données sur un nouvel appareil,\npar exemple lorsque vous changez d’appareil mobile, veillez à\nd’abord utiliser votre appareil actuel pour associer vos comptes.",
@@ -36327,7 +36322,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 371,
+      "Index": 372,
       "LabelName": "help_12_04_00_03",
       "LabelHash": 822353841,
       "OriginalText": "Vous pouvez transférer vos données Pokémon Champions\nen lançant l’application Pokémon Champions sur votre nouvel\nappareil ou console puis en vous connectant au compte associé.",
@@ -36431,7 +36426,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 372,
+      "Index": 373,
       "LabelName": "help_12_04_01",
       "LabelHash": 1037859220,
       "OriginalText": "Associer vos comptes vous permettra de transférer vos données\nPokémon Champions, même si vous désinstallez l’application\nou si vous changez d’appareil mobile ou de console.",
@@ -36563,7 +36558,7 @@
       "StyleCode": 69
     },
     {
-      "Index": 373,
+      "Index": 374,
       "LabelName": "help_12_05",
       "LabelHash": -1164226669,
       "OriginalText": "Le mode compétition",
@@ -36585,7 +36580,7 @@
       "StyleCode": 64
     },
     {
-      "Index": 374,
+      "Index": 375,
       "LabelName": "help_12_05_00",
       "LabelHash": -266102694,
       "OriginalText": "Le mode compétition est un mode spécial utilisé\nentre autres dans les compétitions hors ligne.\n\nVous pouvez y accéder depuis le menu de l’écran titre.",

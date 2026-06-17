@@ -254,7 +254,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 11,
+      "Index": 12,
       "LabelName": "option_item4_01",
       "LabelHash": -574919685,
       "OriginalText": "變更訓練家名稱",
@@ -276,7 +276,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 12,
+      "Index": 13,
       "LabelName": "option_item4_02",
       "LabelHash": -574919684,
       "OriginalText": "顯示語言",
@@ -298,7 +298,51 @@
       "StyleCode": 27
     },
     {
+      "Index": 14,
+      "LabelName": "option_item4_03",
+      "LabelHash": -574919683,
+      "OriginalText": "連結Apple帳號",
+      "TextInfos": [
+        {
+          "Text": "連結Apple帳號",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
       "Index": 15,
+      "LabelName": "option_item4_04",
+      "LabelHash": -574919682,
+      "OriginalText": "連結Google帳號",
+      "TextInfos": [
+        {
+          "Text": "連結Google帳號",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 16,
       "LabelName": "option_item4_06",
       "LabelHash": -574919680,
       "OriginalText": "連結Nintendo Account",
@@ -321,6 +365,28 @@
     },
     {
       "Index": 17,
+      "LabelName": "option_item4_07",
+      "LabelHash": -574919679,
+      "OriginalText": "刪除帳號",
+      "TextInfos": [
+        {
+          "Text": "刪除帳號",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 18,
       "LabelName": "option_item5_01",
       "LabelHash": 1011367232,
       "OriginalText": "接收交友邀請",
@@ -342,7 +408,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 18,
+      "Index": 19,
       "LabelName": "option_item5_02",
       "LabelHash": 1011367233,
       "OriginalText": "公開個人資訊",
@@ -364,7 +430,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 19,
+      "Index": 20,
       "LabelName": "option_setting06",
       "LabelHash": 263586626,
       "OriginalText": "{0}",
@@ -389,35 +455,13 @@
       "StyleCode": 9
     },
     {
-      "Index": 20,
+      "Index": 21,
       "LabelName": "option_setting07",
       "LabelHash": -1302497315,
       "OriginalText": "已連結",
       "TextInfos": [
         {
           "Text": "已連結",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        }
-      ],
-      "GenderCode": 0,
-      "CountabilityCode": 0,
-      "ArticleCode": 1,
-      "InitialSoundCode": 0,
-      "StyleCode": 8
-    },
-    {
-      "Index": 21,
-      "LabelName": "option_setting08",
-      "LabelHash": 1782616400,
-      "OriginalText": "未連結",
-      "TextInfos": [
-        {
-          "Text": "未連結",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -456,6 +500,326 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 5
+    },
+    {
+      "Index": 23,
+      "LabelName": "option_delete01",
+      "LabelHash": 19114416,
+      "OriginalText": "資料一經刪除，將從此無法復原！\n確定要完全刪除資料嗎？\n※若已與Nintendo Account連結，\n　則會解除與Pokémon HOME的連結，\n　遠征前來Pokémon Champions的寶可夢\n　則會回到Pokémon HOME。",
+      "TextInfos": [
+        {
+          "Text": "資料一經刪除，將從此無法復原！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "確定要完全刪除資料嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※若已與Nintendo Account連結，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　則會解除與Pokémon HOME的連結，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　遠征前來Pokémon Champions的寶可夢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　則會回到Pokémon HOME。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 24,
+      "LabelName": "option_delete02",
+      "LabelHash": 19114415,
+      "OriginalText": "資料一經刪除，將從此無法復原！\n確定要完全刪除資料嗎？\n※若已加入會員，\n　即使刪除了帳號，\n　會員也不會自動解約。\n　請從各商店執行解約手續。",
+      "TextInfos": [
+        {
+          "Text": "資料一經刪除，將從此無法復原！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "確定要完全刪除資料嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※若已加入會員，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　即使刪除了帳號，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　會員也不會自動解約。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　請從各商店執行解約手續。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 25,
+      "LabelName": "option_delete03",
+      "LabelHash": 19114414,
+      "OriginalText": "資料一經刪除，將從此無法復原！\n確定要完全刪除資料嗎？",
+      "TextInfos": [
+        {
+          "Text": "資料一經刪除，將從此無法復原！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "確定要完全刪除資料嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
     },
     {
       "Index": 26,
@@ -570,6 +934,72 @@
       "StyleCode": 27
     },
     {
+      "Index": 29,
+      "LabelName": "option_pokemon_intro_notice",
+      "LabelHash": 287901017,
+      "OriginalText": "可錄用",
+      "TextInfos": [
+        {
+          "Text": "可錄用",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 30,
+      "LabelName": "option_notice",
+      "LabelHash": 1416960708,
+      "OriginalText": "重要通知",
+      "TextInfos": [
+        {
+          "Text": "重要通知",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 31,
+      "LabelName": "option_push_notification",
+      "LabelHash": -2143793670,
+      "OriginalText": "推播通知",
+      "TextInfos": [
+        {
+          "Text": "推播通知",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
       "Index": 32,
       "LabelName": "change_name",
       "LabelHash": -823054380,
@@ -577,6 +1007,28 @@
       "TextInfos": [
         {
           "Text": "請輸入新的名字。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 33,
+      "LabelName": "option_account_access_complete",
+      "LabelHash": 731059120,
+      "OriginalText": "帳號連結成功。",
+      "TextInfos": [
+        {
+          "Text": "帳號連結成功。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -738,6 +1190,150 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 69
+    },
+    {
+      "Index": 37,
+      "LabelName": "option_data_delete",
+      "LabelHash": 422911466,
+      "OriginalText": "已刪除資料。\n※部分資料可能\n　需經一段時間才會刪除。\n將回到標題畫面。",
+      "TextInfos": [
+        {
+          "Text": "已刪除資料。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※部分資料可能",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　需經一段時間才會刪除。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "將回到標題畫面。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 38,
+      "LabelName": "option_account_access_confirm",
+      "LabelHash": -1973620381,
+      "OriginalText": "帳號一旦連結，將無法變更。\n確定要與這個帳號連結嗎？",
+      "TextInfos": [
+        {
+          "Text": "帳號一旦連結，將無法變更。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "確定要與這個帳號連結嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
     },
     {
       "Index": 39,
@@ -1014,6 +1610,50 @@
       "StyleCode": 66
     },
     {
+      "Index": 49,
+      "LabelName": "option_info4_03",
+      "LabelHash": -1383559488,
+      "OriginalText": "可與Apple帳號連結。",
+      "TextInfos": [
+        {
+          "Text": "可與Apple帳號連結。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 50,
+      "LabelName": "option_info4_04",
+      "LabelHash": -1383559487,
+      "OriginalText": "可與Google帳號連結。",
+      "TextInfos": [
+        {
+          "Text": "可與Google帳號連結。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
       "Index": 51,
       "LabelName": "option_info4_06",
       "LabelHash": -1383559485,
@@ -1056,6 +1696,86 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 19
+    },
+    {
+      "Index": 53,
+      "LabelName": "option_info_pokemon_intro_notice",
+      "LabelHash": -1722113612,
+      "OriginalText": "可設定是否要接收\n錄用等待時間歸零時的通知。",
+      "TextInfos": [
+        {
+          "Text": "可設定是否要接收",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "錄用等待時間歸零時的通知。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 54,
+      "LabelName": "option_info_notice",
+      "LabelHash": 1608274491,
+      "OriginalText": "可設定是否要接收\n有系統維護等重要通知時的通知。",
+      "TextInfos": [
+        {
+          "Text": "可設定是否要接收",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "有系統維護等重要通知時的通知。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
     },
     {
       "Index": 55,
@@ -1136,6 +1856,170 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 66
+    },
+    {
+      "Index": 57,
+      "LabelName": "option_info_tracking",
+      "LabelHash": -1796100464,
+      "OriginalText": "可設定是否允許\n遊戲收集資訊以提升服務品質。",
+      "TextInfos": [
+        {
+          "Text": "可設定是否允許",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "遊戲收集資訊以提升服務品質。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 58,
+      "LabelName": "option_info4_07",
+      "LabelHash": -1383559484,
+      "OriginalText": "刪除Pokémon Champions的帳號。",
+      "TextInfos": [
+        {
+          "Text": "刪除Pokémon Champions的帳號。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 59,
+      "LabelName": "option_notice_champions",
+      "LabelHash": 706366993,
+      "OriginalText": "來自Pokémon Champions的通知",
+      "TextInfos": [
+        {
+          "Text": "來自Pokémon Champions的通知",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 60,
+      "LabelName": "option_all_notice_champions",
+      "LabelHash": 135448599,
+      "OriginalText": "會發送來自Pokémon Champions的\n所有通知。",
+      "TextInfos": [
+        {
+          "Text": "會發送來自Pokémon Champions的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "所有通知。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 61,
+      "LabelName": "option_notice_OS_setting",
+      "LabelHash": -1754251224,
+      "OriginalText": "若要接收通知，請變更裝置設定。\n要移動到裝置的設定畫面嗎？",
+      "TextInfos": [
+        {
+          "Text": "若要接收通知，請變更裝置設定。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "要移動到裝置的設定畫面嗎？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
     }
   ]
 }

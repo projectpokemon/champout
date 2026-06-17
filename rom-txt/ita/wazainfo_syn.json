@@ -1803,10 +1803,10 @@
       "Index": 51,
       "LabelName": "WAZAINFO_SYN_113",
       "LabelHash": 1503522934,
-      "OriginalText": "Il Pokémon causa lo stato Schermoluce sul proprio campo\ndi lotta per 5 turni.",
+      "OriginalText": "Il Pokémon causa lo stato Schermo di luce sul proprio campo\ndi lotta per 5 turni.",
       "TextInfos": [
         {
-          "Text": "Il Pokémon causa lo stato Schermoluce sul proprio campo",
+          "Text": "Il Pokémon causa lo stato Schermo di luce sul proprio campo",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3659,10 +3659,10 @@
       "Index": 106,
       "LabelName": "WAZAINFO_SYN_207",
       "LabelHash": 1644685434,
-      "OriginalText": "Il Pokémon riduce di 2 gradi l’Attacco del bersaglio e gli causa\nlo stato Confusione.",
+      "OriginalText": "Il Pokémon aumenta di 2 gradi l’Attacco del bersaglio e\ngli causa lo stato Confusione.",
       "TextInfos": [
         {
-          "Text": "Il Pokémon riduce di 2 gradi l’Attacco del bersaglio e gli causa",
+          "Text": "Il Pokémon aumenta di 2 gradi l’Attacco del bersaglio e",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3680,29 +3680,7 @@
           }
         },
         {
-          "Text": "lo stato Confusione.",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        }
-      ],
-      "GenderCode": 1,
-      "CountabilityCode": 1,
-      "ArticleCode": 0,
-      "InitialSoundCode": 0,
-      "StyleCode": 68
-    },
-    {
-      "Index": 107,
-      "LabelName": "WAZAINFO_SYN_208",
-      "LabelHash": 434831853,
-      "OriginalText": "Il Pokémon recupera metà dei suoi PS massimi.",
-      "TextInfos": [
-        {
-          "Text": "Il Pokémon recupera metà dei suoi PS massimi.",
+          "Text": "gli causa lo stato Confusione.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -10779,7 +10757,7 @@
       "Index": 312,
       "LabelName": "WAZAINFO_SYN_492",
       "LabelHash": -801872926,
-      "OriginalText": "I danni di questa mossa non vengono calcolati in base\nall’Attacco del Pokémon che la usa ma in base alla Difesa\ndel bersaglio.",
+      "OriginalText": "I danni di questa mossa non vengono calcolati in base\nall’Attacco del Pokémon che la usa ma in base all’Attacco\ndel bersaglio.",
       "TextInfos": [
         {
           "Text": "I danni di questa mossa non vengono calcolati in base",
@@ -10800,7 +10778,7 @@
           }
         },
         {
-          "Text": "all’Attacco del Pokémon che la usa ma in base alla Difesa",
+          "Text": "all’Attacco del Pokémon che la usa ma in base all’Attacco",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -12640,6 +12618,46 @@
         },
         {
           "Text": "del bersaglio e si fa sostituire da un compagno di squadra.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 377,
+      "LabelName": "WAZAINFO_SYN_576",
+      "LabelHash": -1467279477,
+      "OriginalText": "Il Pokémon inverte tutte le modifiche alle statistiche\ndel bersaglio.",
+      "TextInfos": [
+        {
+          "Text": "Il Pokémon inverte tutte le modifiche alle statistiche",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "del bersaglio.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -14517,6 +14535,100 @@
       "StyleCode": 68
     },
     {
+      "Index": 513,
+      "LabelName": "WAZAINFO_SYN_748",
+      "LabelHash": -1991523528,
+      "OriginalText": "Il Pokémon aumenta di 1 grado l’Attacco, la Difesa, l’Attacco\nSpeciale, la Difesa Speciale e la Velocità, ma entra nello stato\nAntifuga. Ogni volta che il Pokémon entra in campo, può usare\nquesta mossa una volta sola. Se usata più volte di seguito,\nfallisce.",
+      "TextInfos": [
+        {
+          "Text": "Il Pokémon aumenta di 1 grado l’Attacco, la Difesa, l’Attacco",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Speciale, la Difesa Speciale e la Velocità, ma entra nello stato",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Antifuga. Ogni volta che il Pokémon entra in campo, può usare",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "questa mossa una volta sola. Se usata più volte di seguito,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "fallisce.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 515,
       "LabelName": "WAZAINFO_SYN_750",
       "LabelHash": 1947213409,
@@ -14924,6 +15036,28 @@
         },
         {
           "Text": "aumenta del 50%.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 553,
+      "LabelName": "WAZAINFO_SYN_789",
+      "LabelHash": -425439591,
+      "OriginalText": "Il Pokémon riduce di 1 grado l’Attacco Speciale del bersaglio.",
+      "TextInfos": [
+        {
+          "Text": "Il Pokémon riduce di 1 grado l’Attacco Speciale del bersaglio.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -16139,6 +16273,82 @@
       "StyleCode": 68
     },
     {
+      "Index": 602,
+      "LabelName": "WAZAINFO_SYN_839",
+      "LabelHash": 1039629477,
+      "OriginalText": "Il Pokémon ha il 50% di probabilità di causare lo stato\nAvvelenamento al bersaglio. Se il bersaglio è già affetto\ndallo stato Avvelenamento o Iperavvelenamento, la potenza\ndella mossa raddoppia.",
+      "TextInfos": [
+        {
+          "Text": "Il Pokémon ha il 50% di probabilità di causare lo stato",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Avvelenamento al bersaglio. Se il bersaglio è già affetto",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "dallo stato Avvelenamento o Iperavvelenamento, la potenza",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "della mossa raddoppia.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 604,
       "LabelName": "WAZAINFO_SYN_841",
       "LabelHash": 1395859834,
@@ -16881,6 +17091,28 @@
       "StyleCode": 68
     },
     {
+      "Index": 637,
+      "LabelName": "WAZAINFO_SYN_874",
+      "LabelHash": 636344946,
+      "OriginalText": "Il Pokémon riduce di 2 gradi il suo Attacco Speciale.",
+      "TextInfos": [
+        {
+          "Text": "Il Pokémon riduce di 2 gradi il suo Attacco Speciale.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 643,
       "LabelName": "WAZAINFO_SYN_880",
       "LabelHash": -1333023525,
@@ -17168,6 +17400,82 @@
       "TextInfos": [
         {
           "Text": "Il Pokémon colpisce 2 volte di fila.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 652,
+      "LabelName": "WAZAINFO_SYN_889",
+      "LabelHash": 1039629470,
+      "OriginalText": "La potenza di questa mossa aumenta di 50 ogni volta che\nil Pokémon subisce danni da una mossa, fino a un massimo\ndi 350. Quando il Pokémon lascia il campo, l’aumento\nviene azzerato.",
+      "TextInfos": [
+        {
+          "Text": "La potenza di questa mossa aumenta di 50 ogni volta che",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "il Pokémon subisce danni da una mossa, fino a un massimo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "di 350. Quando il Pokémon lascia il campo, l’aumento",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "viene azzerato.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
