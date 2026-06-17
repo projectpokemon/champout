@@ -1925,6 +1925,83 @@
       "StyleCode": 69
     },
     {
+      "Index": 31,
+      "LabelName": "help_01_03_01_01",
+      "LabelHash": -904315205,
+      "OriginalText": "フレンドに招待を送ると　そのフレンドは\nＩＤを入力せずにルームに入ることができます",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "フレンドに招待",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "を送ると　そのフレンドは",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ＩＤを入力せずにルームに入ることができます",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 32,
       "LabelName": "help_01_03_02",
       "LabelHash": -1496258178,
@@ -3275,7 +3352,7 @@
       "Index": 48,
       "LabelName": "help_01_06_02",
       "LabelHash": 930097199,
-      "OriginalText": "新しいシーズンになると　成績がリセットされて\nモンスターボール級からの　スタートになります\n\nシーズン毎に　レギュレーションも変わりますので\n詳しい内容は　お知らせから　ご確認ください",
+      "OriginalText": "新しいシーズンになると　成績がリセットされて\nモンスターボール級からの　スタートになります\n\n各シーズンのレギュレーションは　お知らせをご確認ください",
       "TextInfos": [
         {
           "Text": "新しいシーズンになると　成績がリセットされて",
@@ -3323,25 +3400,7 @@
           }
         },
         {
-          "Text": "シーズン毎に　レギュレーションも変わりますので",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "詳しい内容は　",
+          "Text": "各シーズンのレギュレーションは　",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3387,7 +3446,7 @@
           }
         },
         {
-          "Text": "から　ご確認ください",
+          "Text": "をご確認ください",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -26222,7 +26281,7 @@
       "Index": 312,
       "LabelName": "help_11_07_04",
       "LabelHash": -548389839,
-      "OriginalText": "ミストフィールド状態\n\nドラゴンタイプの技の威力が\n半減する。状態異常\nこんらん状態にならない。\n地面にいるポケモンのみが\n効果を受ける。",
+      "OriginalText": "ミストフィールド状態\n\nドラゴンタイプの技のダメージが\n半減する。状態異常\nこんらん状態にならない。\n地面にいるポケモンのみが\n効果を受ける。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -26280,7 +26339,7 @@
           }
         },
         {
-          "Text": "ドラゴンタイプの技の威力が",
+          "Text": "ドラゴンタイプの技のダメージが",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

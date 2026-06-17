@@ -3300,28 +3300,6 @@
       "StyleCode": 68
     },
     {
-      "Index": 107,
-      "LabelName": "WAZAINFO_SYN_208",
-      "LabelHash": 434831853,
-      "OriginalText": "会让自己的HP回复最大HP的1/2。",
-      "TextInfos": [
-        {
-          "Text": "会让自己的HP回复最大HP的1/2。",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        }
-      ],
-      "GenderCode": 0,
-      "CountabilityCode": 0,
-      "ArticleCode": 1,
-      "InitialSoundCode": 0,
-      "StyleCode": 68
-    },
-    {
       "Index": 108,
       "LabelName": "WAZAINFO_SYN_211",
       "LabelHash": -1487482447,
@@ -11368,6 +11346,28 @@
       "StyleCode": 68
     },
     {
+      "Index": 377,
+      "LabelName": "WAZAINFO_SYN_576",
+      "LabelHash": -1467279477,
+      "OriginalText": "会让对手的能力变化全部变为相反。",
+      "TextInfos": [
+        {
+          "Text": "会让对手的能力变化全部变为相反。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 378,
       "LabelName": "WAZAINFO_SYN_577",
       "LabelHash": 98804464,
@@ -13104,6 +13104,82 @@
       "StyleCode": 68
     },
     {
+      "Index": 513,
+      "LabelName": "WAZAINFO_SYN_748",
+      "LabelHash": -1991523528,
+      "OriginalText": "会让自己的攻击、防御、特攻、特防、速度\n提高1阶。自己会变为无法逃走状态。\n每次出场只能使用1次。\n第2次及以后则会失败。",
+      "TextInfos": [
+        {
+          "Text": "会让自己的攻击、防御、特攻、特防、速度",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "提高1阶。自己会变为无法逃走状态。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "每次出场只能使用1次。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "第2次及以后则会失败。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 515,
       "LabelName": "WAZAINFO_SYN_750",
       "LabelHash": 1947213409,
@@ -13493,6 +13569,28 @@
         },
         {
           "Text": "若为重力状态，则威力会变为1.5倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 553,
+      "LabelName": "WAZAINFO_SYN_789",
+      "LabelHash": -425439591,
+      "OriginalText": "会让对手的特攻降低1阶。",
+      "TextInfos": [
+        {
+          "Text": "会让对手的特攻降低1阶。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -14636,6 +14734,64 @@
       "StyleCode": 68
     },
     {
+      "Index": 602,
+      "LabelName": "WAZAINFO_SYN_839",
+      "LabelHash": 1039629477,
+      "OriginalText": "有50%的机率会让对手陷入中毒状态。\n若对手为中毒、剧毒状态，\n则威力会变为2倍。",
+      "TextInfos": [
+        {
+          "Text": "有50%的机率会让对手陷入中毒状态。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "若对手为中毒、剧毒状态，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "则威力会变为2倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 604,
       "LabelName": "WAZAINFO_SYN_841",
       "LabelHash": 1395859834,
@@ -15324,6 +15480,28 @@
       "StyleCode": 68
     },
     {
+      "Index": 637,
+      "LabelName": "WAZAINFO_SYN_874",
+      "LabelHash": 636344946,
+      "OriginalText": "会让自己的特攻降低2阶。",
+      "TextInfos": [
+        {
+          "Text": "会让自己的特攻降低2阶。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 643,
       "LabelName": "WAZAINFO_SYN_880",
       "LabelHash": -1333023525,
@@ -15611,6 +15789,64 @@
       "TextInfos": [
         {
           "Text": "会连续攻击2次。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 652,
+      "LabelName": "WAZAINFO_SYN_889",
+      "LabelHash": 1039629470,
+      "OriginalText": "每当受到招式的伤害，\n威力都会提高50。最大威力为350。\n回到同行队伍后，威力会复原。",
+      "TextInfos": [
+        {
+          "Text": "每当受到招式的伤害，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "威力都会提高50。最大威力为350。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "回到同行队伍后，威力会复原。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

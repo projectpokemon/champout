@@ -408,10 +408,10 @@
       "Index": 15,
       "LabelName": "dressup_save",
       "LabelHash": -1760704300,
-      "OriginalText": "Terminar",
+      "OriginalText": "Guardar cambios",
       "TextInfos": [
         {
-          "Text": "Terminar",
+          "Text": "Guardar cambios",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -430,10 +430,10 @@
       "Index": 16,
       "LabelName": "dressup_save_confirm",
       "LabelHash": 812512981,
-      "OriginalText": "¿Quieres salir con este estilo?",
+      "OriginalText": "¿Quieres quedarte con este estilo?",
       "TextInfos": [
         {
-          "Text": "¿Quieres salir con este estilo?",
+          "Text": "¿Quieres quedarte con este estilo?",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -491,6 +491,46 @@
       "ArticleCode": 0,
       "InitialSoundCode": 0,
       "StyleCode": 11
+    },
+    {
+      "Index": 43,
+      "LabelName": "dressup_no_changes",
+      "LabelHash": -216957528,
+      "OriginalText": "No puedes cambiar el color de pelo con\neste peinado.",
+      "TextInfos": [
+        {
+          "Text": "No puedes cambiar el color de pelo con",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "este peinado.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
     }
   ]
 }

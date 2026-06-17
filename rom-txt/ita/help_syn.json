@@ -2080,6 +2080,92 @@
       "StyleCode": 69
     },
     {
+      "Index": 31,
+      "LabelName": "help_01_03_01_01",
+      "LabelHash": -904315205,
+      "OriginalText": "Puoi anche inviare un invito ai tuoi amici, che potranno\naccedere alla stanza senza doverne digitare l’ID.",
+      "TextInfos": [
+        {
+          "Text": "Puoi anche ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "inviare un invito ai tuoi amici",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": ", che potranno",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "accedere alla stanza senza doverne digitare l’ID.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 32,
       "LabelName": "help_01_03_02",
       "LabelHash": -1496258178,
@@ -3604,7 +3690,7 @@
       "Index": 48,
       "LabelName": "help_01_06_02",
       "LabelHash": 930097199,
-      "OriginalText": "All’inizio di ogni stagione, i risultati saranno azzerati\ne ricomincerai dalla Classe Poké Ball.\n\nLe regole cambieranno a ogni stagione.\nConsulta gli avvisi per saperne di più.",
+      "OriginalText": "All’inizio di ogni stagione, i risultati saranno azzerati\ne ricomincerai dalla Classe Poké Ball.\n\nConsulta le notizie per scoprire ulteriori dettagli sulle regole\ndi ciascuna stagione.",
       "TextInfos": [
         {
           "Text": "All’inizio di ogni stagione, i risultati saranno azzerati",
@@ -3652,25 +3738,7 @@
           }
         },
         {
-          "Text": "Le regole cambieranno a ogni stagione.",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "Consulta gli ",
+          "Text": "Consulta le ",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3693,7 +3761,7 @@
           }
         },
         {
-          "Text": "avvisi",
+          "Text": "notizie",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3716,7 +3784,25 @@
           }
         },
         {
-          "Text": " per saperne di più.",
+          "Text": " per scoprire ulteriori dettagli sulle regole",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "di ciascuna stagione.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -28578,7 +28664,7 @@
       "Index": 312,
       "LabelName": "help_11_07_04",
       "LabelHash": -548389839,
-      "OriginalText": "Lo stato Campo nebbioso\n\nDimezza la potenza delle mosse di tipo Drago e rende immuni\nai problemi di stato e allo stato Confusione. Ha effetto solo\nsui Pokémon a contatto con il terreno.",
+      "OriginalText": "Lo stato Campo nebbioso\n\nDimezza i danni subiti dalle mosse di tipo Drago e rende\nimmuni ai problemi di stato e allo stato Confusione.\nHa effetto solo sui Pokémon a contatto con il terreno.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -28636,7 +28722,7 @@
           }
         },
         {
-          "Text": "Dimezza la potenza delle mosse di tipo Drago e rende immuni",
+          "Text": "Dimezza i danni subiti dalle mosse di tipo Drago e rende",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -28654,7 +28740,7 @@
           }
         },
         {
-          "Text": "ai problemi di stato e allo stato Confusione. Ha effetto solo",
+          "Text": "immuni ai problemi di stato e allo stato Confusione.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -28672,7 +28758,7 @@
           }
         },
         {
-          "Text": "sui Pokémon a contatto con il terreno.",
+          "Text": "Ha effetto solo sui Pokémon a contatto con il terreno.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

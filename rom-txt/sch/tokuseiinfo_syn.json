@@ -828,6 +828,64 @@
       "StyleCode": 69
     },
     {
+      "Index": 26,
+      "LabelName": "TOKUSEIINFO_SYN_027",
+      "LabelHash": -625937487,
+      "OriginalText": "受到接触类招式影响时，\n有30%的机率会让对手陷入\n中毒、麻痹、睡眠之中的一种状态。",
+      "TextInfos": [
+        {
+          "Text": "受到接触类招式影响时，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "有30%的机率会让对手陷入",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "中毒、麻痹、睡眠之中的一种状态。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 27,
       "LabelName": "TOKUSEIINFO_SYN_028",
       "LabelHash": -625937494,
@@ -3358,6 +3416,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 107,
+      "LabelName": "TOKUSEIINFO_SYN_108",
+      "LabelHash": 536862017,
+      "OriginalText": "出场时，会从对手的招式中\n读取1种威力高的招式。",
+      "TextInfos": [
+        {
+          "Text": "出场时，会从对手的招式中",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "读取1种威力高的招式。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 108,
       "LabelName": "TOKUSEIINFO_SYN_109",
       "LabelHash": 536862016,
@@ -5005,10 +5103,10 @@
       "Index": 167,
       "LabelName": "TOKUSEIINFO_SYN_168",
       "LabelHash": 1699661431,
-      "OriginalText": "变为和自己使出的招式相同的属性。\n每次登场仅生效1次。",
+      "OriginalText": "每次出场时，\n会变为和自己使出的招式\n相同的属性仅1次。",
       "TextInfos": [
         {
-          "Text": "变为和自己使出的招式相同的属性。",
+          "Text": "每次出场时，",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5026,7 +5124,25 @@
           }
         },
         {
-          "Text": "每次登场仅生效1次。",
+          "Text": "会变为和自己使出的招式",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "相同的属性仅1次。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6076,6 +6192,86 @@
       "StyleCode": 69
     },
     {
+      "Index": 217,
+      "LabelName": "TOKUSEIINFO_SYN_218",
+      "LabelHash": 2102945927,
+      "OriginalText": "因接触类招式而受到的伤害会减半。\n因火属性招式而受到的伤害会变为2倍。",
+      "TextInfos": [
+        {
+          "Text": "因接触类招式而受到的伤害会减半。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "因火属性招式而受到的伤害会变为2倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 220,
+      "LabelName": "TOKUSEIINFO_SYN_221",
+      "LabelHash": -625937419,
+      "OriginalText": "受到接触类招式影响时，\n会让对手的速度降低1阶。",
+      "TextInfos": [
+        {
+          "Text": "受到接触类招式影响时，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "会让对手的速度降低1阶。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 221,
       "LabelName": "TOKUSEIINFO_SYN_222",
       "LabelHash": -625937422,
@@ -6083,6 +6279,46 @@
       "TextInfos": [
         {
           "Text": "会变为和被打倒的同伴相同的特性。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 225,
+      "LabelName": "TOKUSEIINFO_SYN_226",
+      "LabelHash": -625937426,
+      "OriginalText": "自出场时起，在5回合内\n会让整个场地变为电气场地状态。",
+      "TextInfos": [
+        {
+          "Text": "自出场时起，在5回合内",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "会让整个场地变为电气场地状态。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6640,6 +6876,28 @@
       "StyleCode": 69
     },
     {
+      "Index": 282,
+      "LabelName": "TOKUSEIINFO_SYN_283",
+      "LabelHash": 893092353,
+      "OriginalText": "来自对手的变化招式将无效。",
+      "TextInfos": [
+        {
+          "Text": "来自对手的变化招式将无效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 289,
       "LabelName": "TOKUSEIINFO_SYN_290",
       "LabelHash": -1835791001,
@@ -7098,6 +7356,100 @@
       "StyleCode": 69
     },
     {
+      "Index": 312,
+      "LabelName": "TOKUSEIINFO_SYN_313",
+      "LabelHash": 2102946029,
+      "OriginalText": "会变为不在地面上，\n地面属性的招式、撒菱、毒菱、\n黏黏网状态将无效。\n用攻击打倒对手时，\n自己最高的那项能力会提高1阶。",
+      "TextInfos": [
+        {
+          "Text": "会变为不在地面上，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "地面属性的招式、撒菱、毒菱、",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "黏黏网状态将无效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "用攻击打倒对手时，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "自己最高的那项能力会提高1阶。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 314,
       "LabelName": "TOKUSEIINFO_SYN_315",
       "LabelHash": 2102946027,
@@ -7123,6 +7475,28 @@
         },
         {
           "Text": "也能以大晴天状态使用招式。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 315,
+      "LabelName": "TOKUSEIINFO_SYN_316",
+      "LabelHash": 2102946026,
+      "OriginalText": "火属性招式的威力会变为1.5倍。",
+      "TextInfos": [
+        {
+          "Text": "火属性招式的威力会变为1.5倍。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

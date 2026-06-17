@@ -3318,28 +3318,6 @@
       "StyleCode": 68
     },
     {
-      "Index": 107,
-      "LabelName": "WAZAINFO_SYN_208",
-      "LabelHash": 434831853,
-      "OriginalText": "자신의 최대 HP의 1/2만큼 회복한다.",
-      "TextInfos": [
-        {
-          "Text": "자신의 최대 HP의 1/2만큼 회복한다.",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        }
-      ],
-      "GenderCode": 0,
-      "CountabilityCode": 0,
-      "ArticleCode": 1,
-      "InitialSoundCode": 0,
-      "StyleCode": 68
-    },
-    {
       "Index": 108,
       "LabelName": "WAZAINFO_SYN_211",
       "LabelHash": -1487482447,
@@ -11449,6 +11427,28 @@
       "StyleCode": 68
     },
     {
+      "Index": 377,
+      "LabelName": "WAZAINFO_SYN_576",
+      "LabelHash": -1467279477,
+      "OriginalText": "상대의 능력 변화를 모두 반대로 만든다.",
+      "TextInfos": [
+        {
+          "Text": "상대의 능력 변화를 모두 반대로 만든다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 378,
       "LabelName": "WAZAINFO_SYN_577",
       "LabelHash": 98804464,
@@ -13185,6 +13185,82 @@
       "StyleCode": 68
     },
     {
+      "Index": 513,
+      "LabelName": "WAZAINFO_SYN_748",
+      "LabelHash": -1991523528,
+      "OriginalText": "자신의 공격, 방어, 특수공격, 특수방어, 스피드를\n1단계 올린다. 자신은 교체 불가 상태가 된다.\n등장할 때마다 단 한 번 사용할 수 있다.\n두 번째 이후에는 실패한다.",
+      "TextInfos": [
+        {
+          "Text": "자신의 공격, 방어, 특수공격, 특수방어, 스피드를",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "1단계 올린다. 자신은 교체 불가 상태가 된다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "등장할 때마다 단 한 번 사용할 수 있다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "두 번째 이후에는 실패한다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 515,
       "LabelName": "WAZAINFO_SYN_750",
       "LabelHash": 1947213409,
@@ -13574,6 +13650,28 @@
         },
         {
           "Text": "중력 상태인 경우 위력이 1.5배가 된다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 553,
+      "LabelName": "WAZAINFO_SYN_789",
+      "LabelHash": -425439591,
+      "OriginalText": "상대의 특수공격을 1단계 떨어뜨린다.",
+      "TextInfos": [
+        {
+          "Text": "상대의 특수공격을 1단계 떨어뜨린다.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -14681,6 +14779,64 @@
       "StyleCode": 68
     },
     {
+      "Index": 602,
+      "LabelName": "WAZAINFO_SYN_839",
+      "LabelHash": 1039629477,
+      "OriginalText": "50% 확률로 상대를 독 상태로 만든다.\n상대가 독, 맹독 상태인 경우\n위력이 2배가 된다.",
+      "TextInfos": [
+        {
+          "Text": "50% 확률로 상대를 독 상태로 만든다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "상대가 독, 맹독 상태인 경우",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "위력이 2배가 된다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 604,
       "LabelName": "WAZAINFO_SYN_841",
       "LabelHash": 1395859834,
@@ -15405,6 +15561,28 @@
       "StyleCode": 68
     },
     {
+      "Index": 637,
+      "LabelName": "WAZAINFO_SYN_874",
+      "LabelHash": 636344946,
+      "OriginalText": "자신의 특수공격을 2단계 떨어뜨린다.",
+      "TextInfos": [
+        {
+          "Text": "자신의 특수공격을 2단계 떨어뜨린다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 643,
       "LabelName": "WAZAINFO_SYN_880",
       "LabelHash": -1333023525,
@@ -15692,6 +15870,64 @@
       "TextInfos": [
         {
           "Text": "2회 연속으로 공격한다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 652,
+      "LabelName": "WAZAINFO_SYN_889",
+      "LabelHash": 1039629470,
+      "OriginalText": "기술로 데미지를 입을 때마다\n위력이 50 올라간다. (최대 위력은 350)\n지닌 포켓몬으로 돌아오면 위력이 원래대로 돌아온다.",
+      "TextInfos": [
+        {
+          "Text": "기술로 데미지를 입을 때마다",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "위력이 50 올라간다. (최대 위력은 350)",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "지닌 포켓몬으로 돌아오면 위력이 원래대로 돌아온다.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

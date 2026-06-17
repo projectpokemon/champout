@@ -2036,6 +2036,92 @@
       "StyleCode": 69
     },
     {
+      "Index": 31,
+      "LabelName": "help_01_03_01_01",
+      "LabelHash": -904315205,
+      "OriginalText": "Wenn du Freunden eine Einladung schickst, können sie deine\nLobby auch ohne Eingabe der ID betreten.",
+      "TextInfos": [
+        {
+          "Text": "Wenn du ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Freunden eine Einladung schickst",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": ", können sie deine",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Lobby auch ohne Eingabe der ID betreten.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 32,
       "LabelName": "help_01_03_02",
       "LabelHash": -1496258178,
@@ -3559,7 +3645,7 @@
       "Index": 48,
       "LabelName": "help_01_06_02",
       "LabelHash": 930097199,
-      "OriginalText": "Zu Beginn einer neuen Saison werden sämtliche Ergebnisse\nzurückgesetzt und alle fangen wieder in der Pokéball-Klasse an.\n\nDie Kampfregeln ändern sich jede Saison, also informiere dich\nbei den Neuigkeiten über alle Einzelheiten.",
+      "OriginalText": "Zu Beginn einer neuen Saison werden sämtliche Ergebnisse\nzurückgesetzt und alle fangen wieder in der Pokéball-Klasse an.\n\nInformiere dich bei den Neuigkeiten über die gültigen\nKampfregeln der jeweiligen Saison.",
       "TextInfos": [
         {
           "Text": "Zu Beginn einer neuen Saison werden sämtliche Ergebnisse",
@@ -3607,25 +3693,7 @@
           }
         },
         {
-          "Text": "Die Kampfregeln ändern sich jede Saison, also informiere dich",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "bei den ",
+          "Text": "Informiere dich bei den ",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3671,7 +3739,25 @@
           }
         },
         {
-          "Text": " über alle Einzelheiten.",
+          "Text": " über die gültigen",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Kampfregeln der jeweiligen Saison.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -28437,7 +28523,7 @@
       "Index": 312,
       "LabelName": "help_11_07_04",
       "LabelHash": -548389839,
-      "OriginalText": "Nebelfeld\n\nDie Stärke von Drachen-Attacken wird halbiert.\nPokémon können weder Statusprobleme erleiden noch verwirrt\nwerden.\nDiese Effekte wirken nur auf Pokémon, die sich auf dem Boden\nbefinden.",
+      "OriginalText": "Nebelfeld\n\nDer erlittene Schaden durch Drachen-Attacken wird halbiert.\nPokémon können weder Statusprobleme erleiden noch verwirrt\nwerden.\nDiese Effekte wirken nur auf Pokémon, die sich auf dem Boden\nbefinden.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -28495,7 +28581,7 @@
           }
         },
         {
-          "Text": "Die Stärke von Drachen-Attacken wird halbiert.",
+          "Text": "Der erlittene Schaden durch Drachen-Attacken wird halbiert.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

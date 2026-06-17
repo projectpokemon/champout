@@ -254,7 +254,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 11,
+      "Index": 12,
       "LabelName": "option_item4_01",
       "LabelHash": -574919685,
       "OriginalText": "トレーナー名変更",
@@ -276,7 +276,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 12,
+      "Index": 13,
       "LabelName": "option_item4_02",
       "LabelHash": -574919684,
       "OriginalText": "表示言語",
@@ -298,7 +298,51 @@
       "StyleCode": 27
     },
     {
+      "Index": 14,
+      "LabelName": "option_item4_03",
+      "LabelHash": -574919683,
+      "OriginalText": "Ａｐｐｌｅアカウント連携",
+      "TextInfos": [
+        {
+          "Text": "Ａｐｐｌｅアカウント連携",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
       "Index": 15,
+      "LabelName": "option_item4_04",
+      "LabelHash": -574919682,
+      "OriginalText": "Ｇｏｏｇｌｅアカウント連携",
+      "TextInfos": [
+        {
+          "Text": "Ｇｏｏｇｌｅアカウント連携",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 16,
       "LabelName": "option_item4_06",
       "LabelHash": -574919680,
       "OriginalText": "ニンテンドーアカウント連携",
@@ -321,6 +365,28 @@
     },
     {
       "Index": 17,
+      "LabelName": "option_item4_07",
+      "LabelHash": -574919679,
+      "OriginalText": "アカウント削除",
+      "TextInfos": [
+        {
+          "Text": "アカウント削除",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 18,
       "LabelName": "option_item5_01",
       "LabelHash": 1011367232,
       "OriginalText": "フレンド申請受付",
@@ -342,7 +408,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 18,
+      "Index": 19,
       "LabelName": "option_item5_02",
       "LabelHash": 1011367233,
       "OriginalText": "プロフィール公開",
@@ -364,7 +430,7 @@
       "StyleCode": 27
     },
     {
-      "Index": 19,
+      "Index": 20,
       "LabelName": "option_setting06",
       "LabelHash": 263586626,
       "OriginalText": "{0}",
@@ -389,35 +455,13 @@
       "StyleCode": 9
     },
     {
-      "Index": 20,
+      "Index": 21,
       "LabelName": "option_setting07",
       "LabelHash": -1302497315,
       "OriginalText": "連携済",
       "TextInfos": [
         {
           "Text": "連携済",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        }
-      ],
-      "GenderCode": 0,
-      "CountabilityCode": 0,
-      "ArticleCode": 1,
-      "InitialSoundCode": 0,
-      "StyleCode": 8
-    },
-    {
-      "Index": 21,
-      "LabelName": "option_setting08",
-      "LabelHash": 1782616400,
-      "OriginalText": "未連携",
-      "TextInfos": [
-        {
-          "Text": "未連携",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -456,6 +500,1187 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 5
+    },
+    {
+      "Index": 23,
+      "LabelName": "option_delete01",
+      "LabelHash": 19114416,
+      "OriginalText": "削除したデータは　元に戻せません！\nデータを　完全に削除しますか？\n※ニンテンドーアカウントと　連携している場合\n　Pokémon HOMEとの連携は　解除され\n　Pokémon Championsへ　遠征していた\n　ポケモンは　Pokémon HOMEに帰ります",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              85,
+              48,
+              79,
+              48,
+              88,
+              48,
+              135,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "削除したデータは　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              130,
+              48,
+              104,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "元に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              130,
+              48,
+              105,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "戻せません！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "データを　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              75,
+              48,
+              147,
+              48,
+              92,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "完全に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              85,
+              48,
+              79,
+              48,
+              88,
+              48,
+              135,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "削除しますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※ニンテンドーアカウントと　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              140,
+              48,
+              147,
+              48,
+              81,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "連携している",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              112,
+              48,
+              66,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "場合",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　Pokémon HOMEとの",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              140,
+              48,
+              147,
+              48,
+              81,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "連携は　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              75,
+              48,
+              68,
+              48,
+              88,
+              48,
+              135,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "解除され",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　Pokémon Championsへ　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              72,
+              48,
+              147,
+              48,
+              91,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "遠征していた",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　ポケモンは　Pokémon HOMEに",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              75,
+              48,
+              72,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "帰ります",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 24,
+      "LabelName": "option_delete02",
+      "LabelHash": 19114415,
+      "OriginalText": "削除したデータは　元に戻せません！\nデータを　完全に削除しますか？\n※メンバーシップに　加入している場合\n　アカウント削除しても　メンバーシップは\n　自動解約されません　各ストアから\n　解約手続きを　行ってください",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              85,
+              48,
+              79,
+              48,
+              88,
+              48,
+              135,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "削除したデータは　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              130,
+              48,
+              104,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "元に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              130,
+              48,
+              105,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "戻せません！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "データを　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              75,
+              48,
+              147,
+              48,
+              92,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "完全に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              85,
+              48,
+              79,
+              48,
+              88,
+              48,
+              135,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "削除しますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※メンバーシップに　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              75,
+              48,
+              107,
+              48,
+              133,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "加入している",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              112,
+              48,
+              66,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "場合",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　アカウント",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              85,
+              48,
+              79,
+              48,
+              88,
+              48,
+              135,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "削除しても　メンバーシップは",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              88,
+              48,
+              105,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "自動",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              75,
+              48,
+              68,
+              48,
+              132,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "解約されません　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              75,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "各ストアから",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              75,
+              48,
+              68,
+              48,
+              132,
+              48,
+              79,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "解約",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              102,
+              48,
+              100,
+              48,
+              101,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "手続きを　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              6,
+              0,
+              74,
+              48,
+              83,
+              48,
+              106,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "行ってください",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 25,
+      "LabelName": "option_delete03",
+      "LabelHash": 19114414,
+      "OriginalText": "削除したデータは　元に戻せません！\nデータを　完全に削除しますか？",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              85,
+              48,
+              79,
+              48,
+              88,
+              48,
+              135,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "削除したデータは　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              130,
+              48,
+              104,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "元に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              4,
+              0,
+              130,
+              48,
+              105,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "戻せません！",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "データを　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              75,
+              48,
+              147,
+              48,
+              92,
+              48,
+              147,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "完全に",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              85,
+              48,
+              79,
+              48,
+              88,
+              48,
+              135,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "削除しますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
     },
     {
       "Index": 26,
@@ -719,6 +1944,72 @@
       "StyleCode": 27
     },
     {
+      "Index": 29,
+      "LabelName": "option_pokemon_intro_notice",
+      "LabelHash": 287901017,
+      "OriginalText": "スカウト可能",
+      "TextInfos": [
+        {
+          "Text": "スカウト可能",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 30,
+      "LabelName": "option_notice",
+      "LabelHash": 1416960708,
+      "OriginalText": "大切なお知らせ",
+      "TextInfos": [
+        {
+          "Text": "大切なお知らせ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 27
+    },
+    {
+      "Index": 31,
+      "LabelName": "option_push_notification",
+      "LabelHash": -2143793670,
+      "OriginalText": "プッシュ通知",
+      "TextInfos": [
+        {
+          "Text": "プッシュ通知",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
       "Index": 32,
       "LabelName": "change_name",
       "LabelHash": -823054380,
@@ -810,6 +2101,28 @@
         },
         {
           "Text": "入力してください",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 33,
+      "LabelName": "option_account_access_complete",
+      "LabelHash": 731059120,
+      "OriginalText": "アカウントの連携が　完了しました",
+      "TextInfos": [
+        {
+          "Text": "アカウントの連携が　完了しました",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -971,6 +2284,150 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 69
+    },
+    {
+      "Index": 37,
+      "LabelName": "option_data_delete",
+      "LabelHash": 422911466,
+      "OriginalText": "データを削除しました\n※一部のデータは　削除が完了するまでに\n　時間がかかる場合があります\nタイトル画面に戻ります",
+      "TextInfos": [
+        {
+          "Text": "データを削除しました",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "※一部のデータは　削除が完了するまでに",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "　時間がかかる場合があります",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "タイトル画面に戻ります",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 38,
+      "LabelName": "option_account_access_confirm",
+      "LabelHash": -1973620381,
+      "OriginalText": "１度　アカウント連携を行うと　変更できません\nこのアカウントと　連携しますか？",
+      "TextInfos": [
+        {
+          "Text": "１度　アカウント連携を行うと　変更できません",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "このアカウントと　連携しますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
     },
     {
       "Index": 39,
@@ -1265,6 +2722,50 @@
       "StyleCode": 66
     },
     {
+      "Index": 49,
+      "LabelName": "option_info4_03",
+      "LabelHash": -1383559488,
+      "OriginalText": "Ａｐｐｌｅアカウントと　連携することができます",
+      "TextInfos": [
+        {
+          "Text": "Ａｐｐｌｅアカウントと　連携することができます",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 50,
+      "LabelName": "option_info4_04",
+      "LabelHash": -1383559487,
+      "OriginalText": "Ｇｏｏｇｌｅアカウントと　連携することができます",
+      "TextInfos": [
+        {
+          "Text": "Ｇｏｏｇｌｅアカウントと　連携することができます",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
       "Index": 51,
       "LabelName": "option_info4_06",
       "LabelHash": -1383559485,
@@ -1307,6 +2808,86 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 19
+    },
+    {
+      "Index": 53,
+      "LabelName": "option_info_pokemon_intro_notice",
+      "LabelHash": -1722113612,
+      "OriginalText": "スカウト待ち時間が０になった時の\n通知を　設定できます",
+      "TextInfos": [
+        {
+          "Text": "スカウト待ち時間が０になった時の",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "通知を　設定できます",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 54,
+      "LabelName": "option_info_notice",
+      "LabelHash": 1608274491,
+      "OriginalText": "メンテナンス等の　大切なお知らせがあった時の\n通知を　設定できます",
+      "TextInfos": [
+        {
+          "Text": "メンテナンス等の　大切なお知らせがあった時の",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "通知を　設定できます",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
     },
     {
       "Index": 55,
@@ -1387,6 +2968,415 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 66
+    },
+    {
+      "Index": 57,
+      "LabelName": "option_info_tracking",
+      "LabelHash": -1796100464,
+      "OriginalText": "サービス向上のために　情報収集を\n許可するか　設定できます",
+      "TextInfos": [
+        {
+          "Text": "サービス向上のために　情報収集を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "許可するか　設定できます",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 58,
+      "LabelName": "option_info4_07",
+      "LabelHash": -1383559484,
+      "OriginalText": "Pokémon Championsのアカウントを　削除します",
+      "TextInfos": [
+        {
+          "Text": "Pokémon Championsのアカウントを　削除します",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 66
+    },
+    {
+      "Index": 59,
+      "LabelName": "option_notice_champions",
+      "LabelHash": 706366993,
+      "OriginalText": "Pokémon Championsからの通知",
+      "TextInfos": [
+        {
+          "Text": "Pokémon Championsからの通知",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 60,
+      "LabelName": "option_all_notice_champions",
+      "LabelHash": 135448599,
+      "OriginalText": "Pokémon Championsからの\n全ての通知を行います",
+      "TextInfos": [
+        {
+          "Text": "Pokémon Championsからの",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "全ての通知を行います",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 61,
+      "LabelName": "option_notice_OS_setting",
+      "LabelHash": -1754251224,
+      "OriginalText": "通知を受け取るには　本体の設定を変更してください\n本体の設定に　移動しますか？",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              100,
+              48,
+              70,
+              48,
+              97,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "通知を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "受け",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              2,
+              0,
+              2,
+              0,
+              104,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "取るには　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              123,
+              48,
+              147,
+              48,
+              95,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "本体の",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              91,
+              48,
+              99,
+              48,
+              102,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "設定を",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              120,
+              48,
+              147,
+              48,
+              83,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "変更してください",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              123,
+              48,
+              147,
+              48,
+              95,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "本体の",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              8,
+              0,
+              91,
+              48,
+              99,
+              48,
+              102,
+              48,
+              68,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "設定に　",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 0,
+            "Params": [
+              4,
+              0,
+              6,
+              0,
+              68,
+              48,
+              105,
+              48,
+              70,
+              48
+            ]
+          }
+        },
+        {
+          "Text": "移動しますか？",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
     }
   ]
 }

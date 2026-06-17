@@ -3390,28 +3390,6 @@
       "StyleCode": 68
     },
     {
-      "Index": 107,
-      "LabelName": "WAZAINFO_SYN_208",
-      "LabelHash": 434831853,
-      "OriginalText": "Restaura la mitad de los PS máximos del usuario.",
-      "TextInfos": [
-        {
-          "Text": "Restaura la mitad de los PS máximos del usuario.",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        }
-      ],
-      "GenderCode": 1,
-      "CountabilityCode": 1,
-      "ArticleCode": 0,
-      "InitialSoundCode": 0,
-      "StyleCode": 68
-    },
-    {
       "Index": 108,
       "LabelName": "WAZAINFO_SYN_211",
       "LabelHash": -1487482447,
@@ -11872,6 +11850,28 @@
       "StyleCode": 68
     },
     {
+      "Index": 377,
+      "LabelName": "WAZAINFO_SYN_576",
+      "LabelHash": -1467279477,
+      "OriginalText": "Invierte todos los cambios en las características del objetivo.",
+      "TextInfos": [
+        {
+          "Text": "Invierte todos los cambios en las características del objetivo.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 378,
       "LabelName": "WAZAINFO_SYN_577",
       "LabelHash": 98804464,
@@ -13716,6 +13716,82 @@
       "StyleCode": 68
     },
     {
+      "Index": 513,
+      "LabelName": "WAZAINFO_SYN_748",
+      "LabelHash": -1991523528,
+      "OriginalText": "Aumenta un nivel el Ataque, la Defensa, el Ataque Especial,\nla Defensa Especial y la Velocidad del usuario, pero le provoca\nel estado Huida imposible. Puede usarse una vez tras entrar en\ncombate y fallará si se usa una segunda vez.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta un nivel el Ataque, la Defensa, el Ataque Especial,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "la Defensa Especial y la Velocidad del usuario, pero le provoca",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "el estado Huida imposible. Puede usarse una vez tras entrar en",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "combate y fallará si se usa una segunda vez.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 515,
       "LabelName": "WAZAINFO_SYN_750",
       "LabelHash": 1947213409,
@@ -14087,6 +14163,28 @@
         },
         {
           "Text": "su potencia si el estado Gravedad está activo.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 553,
+      "LabelName": "WAZAINFO_SYN_789",
+      "LabelHash": -425439591,
+      "OriginalText": "Reduce un nivel el Ataque Especial del objetivo.",
+      "TextInfos": [
+        {
+          "Text": "Reduce un nivel el Ataque Especial del objetivo.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -15104,6 +15202,64 @@
       "StyleCode": 68
     },
     {
+      "Index": 602,
+      "LabelName": "WAZAINFO_SYN_839",
+      "LabelHash": 1039629477,
+      "OriginalText": "Tiene una probabilidad del 50 % de envenenar al objetivo.\nSu potencia se duplica si el objetivo está envenenado\no gravemente envenenado.",
+      "TextInfos": [
+        {
+          "Text": "Tiene una probabilidad del 50 % de envenenar al objetivo.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Su potencia se duplica si el objetivo está envenenado",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "o gravemente envenenado.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 604,
       "LabelName": "WAZAINFO_SYN_841",
       "LabelHash": 1395859834,
@@ -15756,6 +15912,28 @@
       "StyleCode": 68
     },
     {
+      "Index": 637,
+      "LabelName": "WAZAINFO_SYN_874",
+      "LabelHash": 636344946,
+      "OriginalText": "Reduce dos niveles el Ataque Especial del usuario.",
+      "TextInfos": [
+        {
+          "Text": "Reduce dos niveles el Ataque Especial del usuario.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
       "Index": 643,
       "LabelName": "WAZAINFO_SYN_880",
       "LabelHash": -1333023525,
@@ -16043,6 +16221,82 @@
       "TextInfos": [
         {
           "Text": "Ataca dos veces seguidas.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 652,
+      "LabelName": "WAZAINFO_SYN_889",
+      "LabelHash": 1039629470,
+      "OriginalText": "Aumenta en 50 su potencia cada vez que el usuario recibe\ndaño de un movimiento, hasta un máximo de 350.\nLa potencia vuelve a su valor original cuando el usuario se\nretira del combate.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta en 50 su potencia cada vez que el usuario recibe",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "daño de un movimiento, hasta un máximo de 350.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "La potencia vuelve a su valor original cuando el usuario se",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "retira del combate.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

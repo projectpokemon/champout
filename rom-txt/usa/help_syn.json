@@ -1982,6 +1982,92 @@
       "StyleCode": 69
     },
     {
+      "Index": 31,
+      "LabelName": "help_01_03_01_01",
+      "LabelHash": -904315205,
+      "OriginalText": "You can send invitations to friends, which will allow them\nto join your room directly without needing to know the ID.",
+      "TextInfos": [
+        {
+          "Text": "You can ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "send invitations to friends",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": ", which will allow them",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "to join your room directly without needing to know the ID.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 32,
       "LabelName": "help_01_03_02",
       "LabelHash": -1496258178,
@@ -3488,7 +3574,7 @@
       "Index": 48,
       "LabelName": "help_01_06_02",
       "LabelHash": 930097199,
-      "OriginalText": "When a new season begins, your results will be reset\nand you will start again from the Poké Ball Tier.\n\nThe regulations also change each season, so you’ll\nwant to check all the details in the News.",
+      "OriginalText": "When a new season begins, your results will be reset\nand you will start again from the Poké Ball Tier.\n\nCheck the News for more information about the regulations\nfor each season.",
       "TextInfos": [
         {
           "Text": "When a new season begins, your results will be reset",
@@ -3536,25 +3622,7 @@
           }
         },
         {
-          "Text": "The regulations also change each season, so you’ll",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "want to check all the details in the ",
+          "Text": "Check the ",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3600,7 +3668,25 @@
           }
         },
         {
-          "Text": ".",
+          "Text": " for more information about the regulations",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "for each season.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -28536,7 +28622,7 @@
       "Index": 312,
       "LabelName": "help_11_07_04",
       "LabelHash": -548389839,
-      "OriginalText": "Misty Terrain\n\nPokémon on the ground have the power of their Dragon-type\nmoves halved, they are immune to status conditions, and they\ncannot become confused.",
+      "OriginalText": "Misty Terrain\n\nHalves the damage dealt by Dragon-type moves used against\nPokémon on the ground. Pokémon on the ground are also\nimmune to status conditions and cannot become confused.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -28594,7 +28680,7 @@
           }
         },
         {
-          "Text": "Pokémon on the ground have the power of their Dragon-type",
+          "Text": "Halves the damage dealt by Dragon-type moves used against",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -28612,7 +28698,7 @@
           }
         },
         {
-          "Text": "moves halved, they are immune to status conditions, and they",
+          "Text": "Pokémon on the ground. Pokémon on the ground are also",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -28630,7 +28716,7 @@
           }
         },
         {
-          "Text": "cannot become confused.",
+          "Text": "immune to status conditions and cannot become confused.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

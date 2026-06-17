@@ -193,7 +193,7 @@
       "Index": 4,
       "LabelName": "rental_poke_appear_04",
       "LabelHash": 1121232557,
-      "OriginalText": "{0}/{1}/{2} {3}:{4}~{5}/{6}/{7} {8}:{9}",
+      "OriginalText": "{0}/{1}/{2}~{5}/{6}/{7} {8}:{9}",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -245,48 +245,6 @@
             "TagId": 1,
             "Params": [
               2,
-              205
-            ]
-          }
-        },
-        {
-          "Text": " ",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 1,
-          "TagInfo": {
-            "TagGroupId": 2,
-            "TagId": 1,
-            "Params": [
-              3,
-              205
-            ]
-          }
-        },
-        {
-          "Text": ":",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 1,
-          "TagInfo": {
-            "TagGroupId": 2,
-            "TagId": 1,
-            "Params": [
-              4,
               205
             ]
           }
@@ -808,7 +766,7 @@
       "Index": 11,
       "LabelName": "rental_poke_appear_13",
       "LabelHash": -444851389,
-      "OriginalText": "1번 소개받을 때 {0}마리 중에서\n{0}마리를 소개받을 수 있습니다.\n그중에서 1마리를 0VP로\n레귤러 스카우트할 수 있습니다.",
+      "OriginalText": "1번 소개받을 때 {0}마리 중에서\n{1}마리를 소개받을 수 있습니다.\n그중에서 1마리를 0VP로\n레귤러 스카우트할 수 있습니다.",
       "TextInfos": [
         {
           "Text": "1번 소개받을 때 ",
@@ -824,10 +782,10 @@
           "Type": 1,
           "TagInfo": {
             "TagGroupId": 2,
-            "TagId": 2,
+            "TagId": 3,
             "Params": [
               0,
-              205
+              0
             ]
           }
         },
@@ -856,7 +814,7 @@
             "TagGroupId": 2,
             "TagId": 1,
             "Params": [
-              0,
+              1,
               205
             ]
           }
@@ -1116,13 +1074,57 @@
       "StyleCode": 65
     },
     {
-      "Index": 18,
+      "Index": 17,
+      "LabelName": "rental_poke_appear_19",
+      "LabelHash": -444851379,
+      "OriginalText": "기한: 없음",
+      "TextInfos": [
+        {
+          "Text": "기한: 없음",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 65
+    },
+    {
+      "Index": 19,
       "LabelName": "rental_poke_appear_reg_ma",
       "LabelHash": -841467416,
       "OriginalText": "M-A",
       "TextInfos": [
         {
           "Text": "M-A",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 20,
+      "LabelName": "rental_poke_appear_reg_mb",
+      "LabelHash": -841467415,
+      "OriginalText": "M-B",
+      "TextInfos": [
+        {
+          "Text": "M-B",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

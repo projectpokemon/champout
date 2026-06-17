@@ -430,10 +430,10 @@
       "Index": 16,
       "LabelName": "dressup_save_confirm",
       "LabelHash": 812512981,
-      "OriginalText": "Voulez-vous sauvegarder le style porté et quitter ?",
+      "OriginalText": "Voulez-vous sauvegarder le style porté ?",
       "TextInfos": [
         {
-          "Text": "Voulez-vous sauvegarder le style porté et quitter ?",
+          "Text": "Voulez-vous sauvegarder le style porté ?",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -491,6 +491,46 @@
       "ArticleCode": 0,
       "InitialSoundCode": 0,
       "StyleCode": 11
+    },
+    {
+      "Index": 43,
+      "LabelName": "dressup_no_changes",
+      "LabelHash": -216957528,
+      "OriginalText": "Vous ne pouvez pas changer la couleur\nde cette coupe de cheveux.",
+      "TextInfos": [
+        {
+          "Text": "Vous ne pouvez pas changer la couleur",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de cette coupe de cheveux.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 42
     }
   ]
 }

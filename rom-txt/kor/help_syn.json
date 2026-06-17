@@ -1879,6 +1879,83 @@
       "StyleCode": 69
     },
     {
+      "Index": 31,
+      "LabelName": "help_01_03_01_01",
+      "LabelHash": -904315205,
+      "OriginalText": "친구에게 초대를 보내면 그 친구는 ID를 입력하지 않아도\n룸에 참가할 수 있습니다.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "친구에게 초대",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "를 보내면 그 친구는 ID를 입력하지 않아도",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "룸에 참가할 수 있습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 32,
       "LabelName": "help_01_03_02",
       "LabelHash": -1496258178,
@@ -3229,7 +3306,7 @@
       "Index": 48,
       "LabelName": "help_01_06_02",
       "LabelHash": 930097199,
-      "OriginalText": "새로운 시즌이 되면 성적이 초기화되며\n몬스터볼급에서부터 시작하게 됩니다.\n\n시즌마다 레귤레이션도 변경되니\n자세한 내용은 소식에서 확인해 주십시오.",
+      "OriginalText": "새로운 시즌이 되면 성적이 초기화되며\n몬스터볼급에서부터 시작하게 됩니다.\n\n각 시즌의 레귤레이션은 소식에서 확인해 주십시오.",
       "TextInfos": [
         {
           "Text": "새로운 시즌이 되면 성적이 초기화되며",
@@ -3277,25 +3354,7 @@
           }
         },
         {
-          "Text": "시즌마다 레귤레이션도 변경되니",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "자세한 내용은 ",
+          "Text": "각 시즌의 레귤레이션은 ",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -25526,7 +25585,7 @@
       "Index": 312,
       "LabelName": "help_11_07_04",
       "LabelHash": -548389839,
-      "OriginalText": "미스트필드 상태\n\n드래곤타입 기술의 위력이 반감된다.\n상태 이상과 혼란 상태가 되지 않는다.\n땅 위에 있는 포켓몬만 효과를 받는다.",
+      "OriginalText": "미스트필드 상태\n\n드래곤타입 기술의 데미지가 반감된다.\n상태 이상과 혼란 상태가 되지 않는다.\n땅 위에 있는 포켓몬만 효과를 받는다.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -25584,7 +25643,7 @@
           }
         },
         {
-          "Text": "드래곤타입 기술의 위력이 반감된다.",
+          "Text": "드래곤타입 기술의 데미지가 반감된다.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

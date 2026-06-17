@@ -1952,10 +1952,10 @@
       "Index": 30,
       "LabelName": "help_01_03_01_00",
       "LabelHash": 661768736,
-      "OriginalText": "Para acceder a una sala, basta con introducir el ID de la sala.",
+      "OriginalText": "Para acceder a una sala, basta con ingresar el ID de la sala.",
       "TextInfos": [
         {
-          "Text": "Para acceder a una sala, basta con introducir el ",
+          "Text": "Para acceder a una sala, basta con ingresar el ",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2002,6 +2002,92 @@
         },
         {
           "Text": ".",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 31,
+      "LabelName": "help_01_03_01_01",
+      "LabelHash": -904315205,
+      "OriginalText": "Puedes invitar a tus amistades a una sala directamente para que\nse unan sin necesidad de ingresar el ID.",
+      "TextInfos": [
+        {
+          "Text": "Puedes ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "invitar a tus amistades ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "a una sala directamente para que",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "se unan sin necesidad de ingresar el ID.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3585,10 +3671,10 @@
       "Index": 48,
       "LabelName": "help_01_06_02",
       "LabelHash": 930097199,
-      "OriginalText": "Al inicio de una nueva temporada, se reiniciarán tus resultados y\nempezarás de nuevo desde el Nivel Pokébola.\n\nTen en cuenta que el reglamento cambia con cada temporada.\nEn Noticias podrás encontrar toda la información necesaria.",
+      "OriginalText": "Al inicio de una nueva temporada, se reiniciarán tus resultados\ny empezarás de nuevo desde el Nivel Pokébola.\n\nConsulta la sección Noticias para obtener más información\nsobre el reglamento de cada temporada.",
       "TextInfos": [
         {
-          "Text": "Al inicio de una nueva temporada, se reiniciarán tus resultados y",
+          "Text": "Al inicio de una nueva temporada, se reiniciarán tus resultados",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3606,7 +3692,7 @@
           }
         },
         {
-          "Text": "empezarás de nuevo desde el Nivel Pokébola.",
+          "Text": "y empezarás de nuevo desde el Nivel Pokébola.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3633,25 +3719,7 @@
           }
         },
         {
-          "Text": "Ten en cuenta que el reglamento cambia con cada temporada.",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "En ",
+          "Text": "Consulta la sección ",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3674,7 +3742,7 @@
           }
         },
         {
-          "Text": "Noticias ",
+          "Text": "Noticias",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3697,7 +3765,25 @@
           }
         },
         {
-          "Text": "podrás encontrar toda la información necesaria.",
+          "Text": " para obtener más información",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sobre el reglamento de cada temporada.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -28711,7 +28797,7 @@
       "Index": 312,
       "LabelName": "help_11_07_04",
       "LabelHash": -548389839,
-      "OriginalText": "Campo de niebla\n\nReduce un 50 % la potencia de los movimientos de tipo\nDragón de los Pokémon que están en contacto con el suelo\ne impide que sufran problemas de estado o confusión.",
+      "OriginalText": "Campo de niebla\n\nReduce un 50 % el daño que los Pokémon que están en\ncontacto con el suelo reciben de movimientos de tipo Dragón\ne impide que sufran problemas de estado o confusión.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -28769,7 +28855,7 @@
           }
         },
         {
-          "Text": "Reduce un 50 % la potencia de los movimientos de tipo",
+          "Text": "Reduce un 50 % el daño que los Pokémon que están en",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -28787,7 +28873,7 @@
           }
         },
         {
-          "Text": "Dragón de los Pokémon que están en contacto con el suelo",
+          "Text": "contacto con el suelo reciben de movimientos de tipo Dragón",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

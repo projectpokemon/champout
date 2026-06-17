@@ -2078,6 +2078,83 @@
       "StyleCode": 69
     },
     {
+      "Index": 31,
+      "LabelName": "help_01_03_01_01",
+      "LabelHash": -904315205,
+      "OriginalText": "Si vous invitez des contacts, ces derniers n’auront pas besoin\nde saisir d’ID pour rejoindre votre salon.",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "Si vous invitez des contacts",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": ", ces derniers n’auront pas besoin",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de saisir d’ID pour rejoindre votre salon.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 32,
       "LabelName": "help_01_03_02",
       "LabelHash": -1496258178,
@@ -3691,7 +3768,7 @@
       "Index": 48,
       "LabelName": "help_01_06_02",
       "LabelHash": 930097199,
-      "OriginalText": "Au début de chaque nouvelle saison, vos résultats seront\nréinitialisés et vous repartirez du rang Poké Ball.\n\nLes règlements changent chaque saison.\nVeuillez consulter les annonces pour en savoir plus.",
+      "OriginalText": "Au début de chaque nouvelle saison, vos résultats seront\nréinitialisés et vous repartirez du rang Poké Ball.\n\nVeuillez consulter les annonces pour en savoir plus\nsur les règlements de chaque saison.",
       "TextInfos": [
         {
           "Text": "Au début de chaque nouvelle saison, vos résultats seront",
@@ -3723,24 +3800,6 @@
         {
           "Text": "{0}",
           "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "Les règlements changent chaque saison.",
-          "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
             "TagId": 0,
@@ -3803,7 +3862,25 @@
           }
         },
         {
-          "Text": " pour en savoir plus.",
+          "Text": " pour en savoir plus",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sur les règlements de chaque saison.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -29601,7 +29678,7 @@
       "Index": 312,
       "LabelName": "help_11_07_04",
       "LabelHash": -548389839,
-      "OriginalText": "Les champs brumeux\n\nQuand un champ brumeux est actif, les effets suivants\ns’appliquent aux Pokémon au sol :\n・ la puissance de leurs capacités de type Dragon est\nréduite de moitié ;\n・ ils ne peuvent ni subir d’altérations de statut,\nni devenir confus.",
+      "OriginalText": "Les champs brumeux\n\nQuand un champ brumeux est actif, les effets suivants\ns’appliquent aux Pokémon au sol :\n・ les dégâts des capacités de type Dragon qu’ils subissent sont\nréduits de moitié ;\n・ ils ne peuvent ni subir d’altérations de statut,\nni devenir confus.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -29695,7 +29772,7 @@
           }
         },
         {
-          "Text": "・ la puissance de leurs capacités de type Dragon est",
+          "Text": "・ les dégâts des capacités de type Dragon qu’ils subissent sont",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -29713,7 +29790,7 @@
           }
         },
         {
-          "Text": "réduite de moitié ;",
+          "Text": "réduits de moitié ;",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

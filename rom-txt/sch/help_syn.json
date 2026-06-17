@@ -2035,6 +2035,83 @@
       "StyleCode": 69
     },
     {
+      "Index": 31,
+      "LabelName": "help_01_03_01_01",
+      "LabelHash": -904315205,
+      "OriginalText": "向好友发送邀请后，\n该好友无需输入ID即可进入房间。",
+      "TextInfos": [
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              255,
+              128,
+              128,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "向好友发送邀请",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 2,
+          "TagInfo": {
+            "TagGroupId": 0,
+            "TagId": 3,
+            "Params": [
+              0,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "Text": "后，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "该好友无需输入ID即可进入房间。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 32,
       "LabelName": "help_01_03_02",
       "LabelHash": -1496258178,
@@ -3613,7 +3690,7 @@
       "Index": 48,
       "LabelName": "help_01_06_02",
       "LabelHash": 930097199,
-      "OriginalText": "进入新赛季时，成绩会被重置\n并从精灵球级开始。\n\n每个赛季的赛制都会改变，\n因此请从通知查看详细内容。",
+      "OriginalText": "进入新赛季时，成绩会被重置\n并从精灵球级开始。\n\n各赛季的赛制请查看通知。",
       "TextInfos": [
         {
           "Text": "进入新赛季时，成绩会被重置",
@@ -3661,25 +3738,7 @@
           }
         },
         {
-          "Text": "每个赛季的赛制都会改变，",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "因此请从",
+          "Text": "各赛季的赛制请查看",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3725,7 +3784,7 @@
           }
         },
         {
-          "Text": "查看详细内容。",
+          "Text": "。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -19557,7 +19616,7 @@
       "Index": 231,
       "LabelName": "help_09_08_00",
       "LabelHash": 647485227,
-      "OriginalText": "称号是该宝可梦拥有的\n外号或别名。\n\n宝可梦在对战中登场时，\n会显示称号。",
+      "OriginalText": "称号是该宝可梦拥有的\n外号或别名。\n\n宝可梦在对战中出场时，\n会显示称号。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -19642,7 +19701,7 @@
           }
         },
         {
-          "Text": "宝可梦在对战中登场时，",
+          "Text": "宝可梦在对战中出场时，",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -27803,7 +27862,7 @@
       "Index": 312,
       "LabelName": "help_11_07_04",
       "LabelHash": -548389839,
-      "OriginalText": "薄雾场地状态\n\n龙属性招式的威力会减半。\n不会陷入异常状态、混乱状态。\n仅地面上的宝可梦\n会受到此效果影响。",
+      "OriginalText": "薄雾场地状态\n\n龙属性招式的伤害会减半。\n不会陷入异常状态、混乱状态。\n仅地面上的宝可梦\n会受到此效果影响。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -27861,7 +27920,7 @@
           }
         },
         {
-          "Text": "龙属性招式的威力会减半。",
+          "Text": "龙属性招式的伤害会减半。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
