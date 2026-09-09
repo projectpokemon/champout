@@ -413,10 +413,64 @@
       "Index": 11,
       "LabelName": "btl_pass_09",
       "LabelHash": -1710991702,
-      "OriginalText": "Les pass de combat ne sont pas disponibles actuellement.",
+      "OriginalText": "Les pass de combat ne sont pas disponibles actuellement.\nSi vous avez des récompenses de la saison précédente\nà récupérer, celles-ci seront envoyées dans votre boîte\naux lettres après le début de la prochaine saison.",
       "TextInfos": [
         {
           "Text": "Les pass de combat ne sont pas disponibles actuellement.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Si vous avez des récompenses de la saison précédente",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "à récupérer, celles-ci seront envoyées dans votre boîte",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "aux lettres après le début de la prochaine saison.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -429,7 +483,73 @@
       "CountabilityCode": 1,
       "ArticleCode": 0,
       "InitialSoundCode": 0,
-      "StyleCode": 66
+      "StyleCode": 67
+    },
+    {
+      "Index": 12,
+      "LabelName": "btl_pass_11",
+      "LabelHash": -144907769,
+      "OriginalText": "Annuler",
+      "TextInfos": [
+        {
+          "Text": "Annuler",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 13,
+      "LabelName": "btl_pass_12",
+      "LabelHash": -144907770,
+      "OriginalText": "Voir le vêtement",
+      "TextInfos": [
+        {
+          "Text": "Voir le vêtement",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 14,
+      "LabelName": "btl_pass_13",
+      "LabelHash": -144907771,
+      "OriginalText": "Voir la coiffure",
+      "TextInfos": [
+        {
+          "Text": "Voir la coiffure",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
     }
   ]
 }

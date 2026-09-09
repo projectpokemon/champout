@@ -472,7 +472,7 @@
       "Index": 16,
       "LabelName": "present_box_45",
       "LabelHash": -1056543265,
-      "OriginalText": "Remarque : les messages contenant des cadeaux\nnon récupérés ne seront pas supprimés.",
+      "OriginalText": "Remarque : les messages importants et\nles messages contenant des cadeaux non\nrécupérés ne seront pas supprimés.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -489,7 +489,7 @@
           }
         },
         {
-          "Text": "Remarque : les messages contenant des cadeaux",
+          "Text": "Remarque : les messages importants et",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -507,7 +507,25 @@
           }
         },
         {
-          "Text": "non récupérés ne seront pas supprimés.",
+          "Text": "les messages contenant des cadeaux non",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "récupérés ne seront pas supprimés.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -534,7 +552,7 @@
       "CountabilityCode": 1,
       "ArticleCode": 0,
       "InitialSoundCode": 0,
-      "StyleCode": 42
+      "StyleCode": 44
     },
     {
       "Index": 17,

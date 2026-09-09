@@ -15,7 +15,7 @@
       "Index": 0,
       "LabelName": "btl_condition_paralysis_info",
       "LabelHash": -59026412,
-      "OriginalText": "Le Pokémon a 12,5 % de chances de ne pas\nréussir à utiliser de capacité.\nSa Vitesse est réduite de moitié.",
+      "OriginalText": "Le Pokémon a 12,5 % de chances de ne pas\nréussir à utiliser de capacité.\nSa Vitesse est réduite de moitié.\nN’affecte pas les Pokémon de type Électrik.",
       "TextInfos": [
         {
           "Text": "Le Pokémon a 12,5 % de chances de ne pas",
@@ -61,6 +61,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "N’affecte pas les Pokémon de type Électrik.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 1,
@@ -73,7 +91,7 @@
       "Index": 1,
       "LabelName": "btl_condition_freezing_info",
       "LabelHash": -206355500,
-      "OriginalText": "Le Pokémon ne peut pas utiliser la majorité des\ncapacités, mais il a 25 % de chances de dégeler\nà chaque fois qu’il essaie. Il dégèle à coup sûr\nà la 3 tentative ou s’il subit des dégâts\nd’une capacité de type Feu, entre autres.",
+      "OriginalText": "Le Pokémon ne peut pas utiliser la majorité des\ncapacités, mais il a 25 % de chances de dégeler\nchaque fois qu’il essaie d’en utiliser une.\nIl dégèle à coup sûr à la 3 tentative ou s’il subit\ndes dégâts d’une capacité de type Feu, entre\nautres. N’affecte pas les Pokémon de type Glace.",
       "TextInfos": [
         {
           "Text": "Le Pokémon ne peut pas utiliser la majorité des",
@@ -112,7 +130,7 @@
           }
         },
         {
-          "Text": "à chaque fois qu’il essaie. Il dégèle à coup sûr",
+          "Text": "chaque fois qu’il essaie d’en utiliser une.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -130,7 +148,7 @@
           }
         },
         {
-          "Text": "à la 3",
+          "Text": "Il dégèle à coup sûr à la 3",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -148,7 +166,7 @@
           }
         },
         {
-          "Text": " tentative ou s’il subit des dégâts",
+          "Text": " tentative ou s’il subit",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -166,7 +184,25 @@
           }
         },
         {
-          "Text": "d’une capacité de type Feu, entre autres.",
+          "Text": "des dégâts d’une capacité de type Feu, entre",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "autres. N’affecte pas les Pokémon de type Glace.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -185,7 +221,7 @@
       "Index": 2,
       "LabelName": "btl_condition_burning_info",
       "LabelHash": -2104732437,
-      "OriginalText": "Le Pokémon subit des dégâts équivalents à 1/16\nde ses PV max à la fin de chaque tour.\nLes dégâts infligés par ses capacités physiques\nsont réduits de moitié.",
+      "OriginalText": "Le Pokémon subit des dégâts équivalents à 1/16\nde ses PV max à la fin de chaque tour.\nLes dégâts infligés par ses capacités physiques\nsont réduits de moitié.\nN’affecte pas les Pokémon de type Feu.",
       "TextInfos": [
         {
           "Text": "Le Pokémon subit des dégâts équivalents à 1/16",
@@ -249,6 +285,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "N’affecte pas les Pokémon de type Feu.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 1,
@@ -261,7 +315,7 @@
       "Index": 3,
       "LabelName": "btl_condition_poison_info",
       "LabelHash": -1028631508,
-      "OriginalText": "Le Pokémon subit des dégâts équivalents à 1/8\nde ses PV max à la fin de chaque tour.",
+      "OriginalText": "Le Pokémon subit des dégâts équivalents à 1/8\nde ses PV max à la fin de chaque tour.\nN’affecte pas les Pokémon de type Poison\nou Acier.",
       "TextInfos": [
         {
           "Text": "Le Pokémon subit des dégâts équivalents à 1/8",
@@ -289,6 +343,42 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "N’affecte pas les Pokémon de type Poison",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ou Acier.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 1,
@@ -301,7 +391,7 @@
       "Index": 4,
       "LabelName": "btl_condition_bad_poison_info",
       "LabelHash": 1314343280,
-      "OriginalText": "À la fin de chaque tour, le Pokémon subit des\ndégâts qui augmentent au fil des tours, d’abord\néquivalents à 1/16 de ses PV max, puis à 2/16,\n3/16, etc. Si le Pokémon est remplacé et revient\nsur le terrain, cette valeur repart de 1/16.",
+      "OriginalText": "À la fin de chaque tour, le Pokémon subit des\ndégâts qui augmentent au fil des tours, d’abord\néquivalents à 1/16 de ses PV max, puis à 2/16,\n3/16, etc. Si le Pokémon est remplacé et revient\nsur le terrain, cette valeur repart de 1/16.\nN’affecte pas les Pokémon de type Poison\nou Acier.",
       "TextInfos": [
         {
           "Text": "À la fin de chaque tour, le Pokémon subit des",
@@ -377,6 +467,42 @@
         },
         {
           "Text": "sur le terrain, cette valeur repart de 1/16.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "N’affecte pas les Pokémon de type Poison",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ou Acier.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

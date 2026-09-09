@@ -410,44 +410,7 @@
           }
         },
         {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": "・",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": " La puissance de leurs capacités de type Électrik",
+          "Text": "・ La puissance de leurs capacités de type Électrik",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -483,44 +446,7 @@
           }
         },
         {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": "・",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": " Ils ne peuvent pas s’endormir.",
+          "Text": "・ Ils ne peuvent pas s’endormir.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -582,44 +508,7 @@
           }
         },
         {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": "・",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": " La puissance de leurs capacités de type Plante",
+          "Text": "・ La puissance de leurs capacités de type Plante",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -655,44 +544,7 @@
           }
         },
         {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": "・",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": " Ils récupèrent 1/16 de leurs PV max à la fin",
+          "Text": "・ Ils récupèrent 1/16 de leurs PV max à la fin",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1769,10 +1621,28 @@
       "Index": 40,
       "LabelName": "BTR_STATE_SYN_25_02",
       "LabelHash": -514925382,
-      "OriginalText": "Le Pokémon ne peut pas quitter le terrain.",
+      "OriginalText": "Le Pokémon ne peut pas quitter le terrain.\nN’affecte pas les Pokémon de type Spectre.",
       "TextInfos": [
         {
           "Text": "Le Pokémon ne peut pas quitter le terrain.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "N’affecte pas les Pokémon de type Spectre.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2489,10 +2359,10 @@
       "Index": 58,
       "LabelName": "BTR_STATE_SYN_37_02",
       "LabelHash": -797255631,
-      "OriginalText": "Les Pokémon entrant sur le terrain sont\nempoisonnés. Si 2 effets de Pics Toxik sont actifs\nen même temps, ils sont gravement empoisonnés.\nCela n’affecte pas les Pokémon de type Vol\nou dotés du talent Lévitation, entre autres.",
+      "OriginalText": "Empoisonne les Pokémon entrant sur le terrain.\nEmpoisonne gravement si 2 effets de Pics Toxik\nsont actifs. N’affecte pas les Pokémon Vol ou\ndotés du talent Lévitation, entre autres. Disparaît\nquand un Pokémon Poison entre sur le terrain.",
       "TextInfos": [
         {
-          "Text": "Les Pokémon entrant sur le terrain sont",
+          "Text": "Empoisonne les Pokémon entrant sur le terrain.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2510,7 +2380,7 @@
           }
         },
         {
-          "Text": "empoisonnés. Si 2 effets de Pics Toxik sont actifs",
+          "Text": "Empoisonne gravement si 2 effets de Pics Toxik",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2528,7 +2398,7 @@
           }
         },
         {
-          "Text": "en même temps, ils sont gravement empoisonnés.",
+          "Text": "sont actifs. N’affecte pas les Pokémon Vol ou",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2546,7 +2416,7 @@
           }
         },
         {
-          "Text": "Cela n’affecte pas les Pokémon de type Vol",
+          "Text": "dotés du talent Lévitation, entre autres. Disparaît",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2564,7 +2434,7 @@
           }
         },
         {
-          "Text": "ou dotés du talent Lévitation, entre autres.",
+          "Text": "quand un Pokémon Poison entre sur le terrain.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3547,10 +3417,10 @@
       "Index": 84,
       "LabelName": "BTR_STATE_SYN_52_02",
       "LabelHash": 1353683472,
-      "OriginalText": "À la fin de chaque tour, le Pokémon subit\ndes dégâts équivalents à 1/8 de ses PV max,\net l’adversaire qui se trouve à l’endroit depuis\nlequel la capacité Vampigraine a été lancée\nrécupère la même quantité de PV.",
+      "OriginalText": "À la fin de chaque tour, le Pokémon subit des\ndégâts équivalents à 1/8 de ses PV max, et\nl’adversaire qui se trouve là d’où Vampigraine\na été lancée récupère la même quantité de PV.\nN’affecte pas les Pokémon de type Plante.",
       "TextInfos": [
         {
-          "Text": "À la fin de chaque tour, le Pokémon subit",
+          "Text": "À la fin de chaque tour, le Pokémon subit des",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3568,7 +3438,7 @@
           }
         },
         {
-          "Text": "des dégâts équivalents à 1/8 de ses PV max,",
+          "Text": "dégâts équivalents à 1/8 de ses PV max, et",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3586,7 +3456,7 @@
           }
         },
         {
-          "Text": "et l’adversaire qui se trouve à l’endroit depuis",
+          "Text": "l’adversaire qui se trouve là d’où Vampigraine",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3604,7 +3474,7 @@
           }
         },
         {
-          "Text": "lequel la capacité Vampigraine a été lancée",
+          "Text": "a été lancée récupère la même quantité de PV.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3622,7 +3492,7 @@
           }
         },
         {
-          "Text": "récupère la même quantité de PV.",
+          "Text": "N’affecte pas les Pokémon de type Plante.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4414,44 +4284,7 @@
           }
         },
         {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": "・",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": " La puissance de leurs capacités de type Psy",
+          "Text": "・ La puissance de leurs capacités de type Psy",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4487,44 +4320,7 @@
           }
         },
         {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": "・",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 2,
-          "TagInfo": {
-            "TagGroupId": 0,
-            "TagId": 3,
-            "Params": [
-              0,
-              0,
-              0,
-              255
-            ]
-          }
-        },
-        {
-          "Text": " Ils sont immunisés contre les capacités",
+          "Text": "・ Ils sont immunisés contre les capacités",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4725,6 +4521,68 @@
       "TextInfos": [
         {
           "Text": "Voile Aurore",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 116,
+      "LabelName": "BTR_STATE_SYN_77_02",
+      "LabelHash": -797259723,
+      "OriginalText": "La Défense et la Défense Spéciale du Pokémon\nbaissent de 1 cran à la fin de chaque tour.",
+      "TextInfos": [
+        {
+          "Text": "La Défense et la Défense Spéciale du Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "baissent de 1 cran à la fin de chaque tour.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 117,
+      "LabelName": "BTR_STATE_SYN_77_03",
+      "LabelHash": -797259724,
+      "OriginalText": "Octoprise",
+      "TextInfos": [
+        {
+          "Text": "Octoprise",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4947,6 +4805,86 @@
       "TextInfos": [
         {
           "Text": "Soins bloqués",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 134,
+      "LabelName": "BTR_STATE_SYN_112_02",
+      "LabelHash": 862573219,
+      "OriginalText": "Les capacités des adversaires n’échouent jamais\nsur le Pokémon et les dégâts subis par ce dernier\nsont multipliés par 2.",
+      "TextInfos": [
+        {
+          "Text": "Les capacités des adversaires n’échouent jamais",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sur le Pokémon et les dégâts subis par ce dernier",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sont multipliés par 2.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 135,
+      "LabelName": "BTR_STATE_SYN_112_03",
+      "LabelHash": -703510722,
+      "OriginalText": "Vulnérable",
+      "TextInfos": [
+        {
+          "Text": "Vulnérable",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5667,6 +5605,86 @@
       "TextInfos": [
         {
           "Text": "Torche",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 158,
+      "LabelName": "BTR_STATE_SYN_124_02",
+      "LabelHash": -1187865550,
+      "OriginalText": "Le Pokémon ayant utilisé la capacité Croque Fort\net celui l’ayant subie ne peuvent pas quitter\nle terrain.",
+      "TextInfos": [
+        {
+          "Text": "Le Pokémon ayant utilisé la capacité Croque Fort",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "et celui l’ayant subie ne peuvent pas quitter",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "le terrain.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 159,
+      "LabelName": "BTR_STATE_SYN_124_03",
+      "LabelHash": 378218391,
+      "OriginalText": "Croque Fort",
+      "TextInfos": [
+        {
+          "Text": "Croque Fort",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
