@@ -15,7 +15,7 @@
       "Index": 0,
       "LabelName": "btl_condition_paralysis_info",
       "LabelHash": -59026412,
-      "OriginalText": "１２．５％の確率で技が使えない。\n素早さが１／２になる。",
+      "OriginalText": "１２．５％の確率で技が使えない。\n素早さが１／２になる。\nでんきタイプの　ポケモンには効かない。",
       "TextInfos": [
         {
           "Text": "１２．５％の確率で技が使えない。",
@@ -43,6 +43,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "でんきタイプの　ポケモンには効かない。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -55,7 +73,7 @@
       "Index": 1,
       "LabelName": "btl_condition_freezing_info",
       "LabelHash": -206355500,
-      "OriginalText": "一部の例外を除いて技が使えない。\n技を使う時に２５％の確率で回復する。\nこおり状態になって３度目は回復する。\nほのおタイプ等の技の\nダメージを受けると回復する。",
+      "OriginalText": "一部の例外を除いて技が使えない。\n技を使う時に２５％の確率で回復する。\nこおり状態になって３度目は回復する。\nほのおタイプ等の技の\nダメージを受けると回復する。\nこおりタイプの　ポケモンには効かない。",
       "TextInfos": [
         {
           "Text": "一部の例外を除いて技が使えない。",
@@ -137,6 +155,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "こおりタイプの　ポケモンには効かない。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -149,7 +185,7 @@
       "Index": 2,
       "LabelName": "btl_condition_burning_info",
       "LabelHash": -2104732437,
-      "OriginalText": "ターン終わりに　最大ＨＰの\n１／１６のダメージを受ける。\n与える物理技のダメージが\n１／２になる。",
+      "OriginalText": "ターン終わりに　最大ＨＰの\n１／１６のダメージを受ける。\n与える物理技のダメージが\n１／２になる。\nほのおタイプの　ポケモンには効かない。",
       "TextInfos": [
         {
           "Text": "ターン終わりに　最大ＨＰの",
@@ -213,6 +249,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ほのおタイプの　ポケモンには効かない。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -225,7 +279,7 @@
       "Index": 3,
       "LabelName": "btl_condition_poison_info",
       "LabelHash": -1028631508,
-      "OriginalText": "ターン終わりに　最大ＨＰの\n１／８のダメージを受ける。",
+      "OriginalText": "ターン終わりに　最大ＨＰの\n１／８のダメージを受ける。\nどく　はがねタイプの\nポケモンには効かない。",
       "TextInfos": [
         {
           "Text": "ターン終わりに　最大ＨＰの",
@@ -253,6 +307,42 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "どく　はがねタイプの",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ポケモンには効かない。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -265,7 +355,7 @@
       "Index": 4,
       "LabelName": "btl_condition_bad_poison_info",
       "LabelHash": 1314343280,
-      "OriginalText": "ターンが進むほど　最大ＨＰの１／１６\n２／１６　３／１６と　ターン終わりに\n受けるダメージが増えていく。\n交代した後に　また登場すると\n１／１６からになる。",
+      "OriginalText": "ターンが進むほど　最大ＨＰの１／１６\n２／１６　３／１６と　ターン終わりに\n受けるダメージが増えていく。\n交代した後に　また登場すると\n１／１６からになる。\nどく　はがねタイプの\nポケモンには効かない。",
       "TextInfos": [
         {
           "Text": "ターンが進むほど　最大ＨＰの１／１６",
@@ -341,6 +431,42 @@
         },
         {
           "Text": "１／１６からになる。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "どく　はがねタイプの",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ポケモンには効かない。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

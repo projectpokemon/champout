@@ -867,7 +867,7 @@
       "Index": 16,
       "LabelName": "present_box_45",
       "LabelHash": -1056543265,
-      "OriginalText": "※まだ受け取っていないプレゼントがある\n　メールは削除されません",
+      "OriginalText": "※まだ受け取っていないプレゼントがある\n　メールは削除されません\n※重要なメールは削除されません",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -993,6 +993,24 @@
         },
         {
           "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "※重要なメールは削除されません",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
           "Type": 2,
           "TagInfo": {
             "TagGroupId": 0,
@@ -1010,7 +1028,7 @@
       "CountabilityCode": 0,
       "ArticleCode": 1,
       "InitialSoundCode": 0,
-      "StyleCode": 42
+      "StyleCode": 44
     },
     {
       "Index": 17,

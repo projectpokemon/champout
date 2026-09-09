@@ -1405,10 +1405,46 @@
       "Index": 40,
       "LabelName": "BTR_STATE_SYN_25_02",
       "LabelHash": -514925382,
-      "OriginalText": "交代ができない。",
+      "OriginalText": "交代ができない。\nゴーストタイプの\nポケモンには効かない。",
       "TextInfos": [
         {
           "Text": "交代ができない。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ゴーストタイプの",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ポケモンには効かない。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2017,28 +2053,10 @@
       "Index": 58,
       "LabelName": "BTR_STATE_SYN_37_02",
       "LabelHash": -797255631,
-      "OriginalText": "入れ替わったポケモンを\nどく状態にする。\n２回使うと　もうどく状態にする。\nひこうタイプ　特性ふゆう等の\nポケモンには効かない。",
+      "OriginalText": "入れ替わったポケモンをどく状態にする。\n２回使うと　もうどく状態にする。\nひこうタイプ　特性ふゆう等の\nポケモンには効かない。どくタイプの\nポケモンが登場すると解除される。",
       "TextInfos": [
         {
-          "Text": "入れ替わったポケモンを",
-          "Type": 3,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
-          }
-        },
-        {
-          "Text": "どく状態にする。",
+          "Text": "入れ替わったポケモンをどく状態にする。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2092,7 +2110,25 @@
           }
         },
         {
-          "Text": "ポケモンには効かない。",
+          "Text": "ポケモンには効かない。どくタイプの",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ポケモンが登場すると解除される。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3021,7 +3057,7 @@
       "Index": 84,
       "LabelName": "BTR_STATE_SYN_52_02",
       "LabelHash": 1353683472,
-      "OriginalText": "ターン終わりに\n最大ＨＰの１／８のダメージを受けて\nその分　技を使ったポケモンがいた\n場所にいる相手が回復する。",
+      "OriginalText": "ターン終わりに\n最大ＨＰの１／８のダメージを受けて\nその分　技を使ったポケモンがいた\n場所にいる相手が回復する。\nくさタイプの　ポケモンには効かない。",
       "TextInfos": [
         {
           "Text": "ターン終わりに",
@@ -3079,6 +3115,24 @@
         },
         {
           "Text": "場所にいる相手が回復する。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "くさタイプの　ポケモンには効かない。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4032,6 +4086,68 @@
       "StyleCode": 14
     },
     {
+      "Index": 116,
+      "LabelName": "BTR_STATE_SYN_77_02",
+      "LabelHash": -797259723,
+      "OriginalText": "ターン終わりに\n防御　特防が１段階下がる。",
+      "TextInfos": [
+        {
+          "Text": "ターン終わりに",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "防御　特防が１段階下がる。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 117,
+      "LabelName": "BTR_STATE_SYN_77_03",
+      "LabelHash": -797259724,
+      "OriginalText": "たこがため状態",
+      "TextInfos": [
+        {
+          "Text": "たこがため状態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
       "Index": 128,
       "LabelName": "BTR_STATE_SYN_106_02",
       "LabelHash": 54712378,
@@ -4239,6 +4355,68 @@
       "TextInfos": [
         {
           "Text": "かいふくふうじ状態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 134,
+      "LabelName": "BTR_STATE_SYN_112_02",
+      "LabelHash": 862573219,
+      "OriginalText": "相手の技が必ず当たり\n２倍のダメージになる。",
+      "TextInfos": [
+        {
+          "Text": "相手の技が必ず当たり",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "２倍のダメージになる。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 135,
+      "LabelName": "BTR_STATE_SYN_112_03",
+      "LabelHash": -703510722,
+      "OriginalText": "無防備状態",
+      "TextInfos": [
+        {
+          "Text": "無防備状態",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4887,6 +5065,68 @@
       "TextInfos": [
         {
           "Text": "もらいび状態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 158,
+      "LabelName": "BTR_STATE_SYN_124_02",
+      "LabelHash": -1187865550,
+      "OriginalText": "技を使った側と受けた側\n両方とも交代ができない。",
+      "TextInfos": [
+        {
+          "Text": "技を使った側と受けた側",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "両方とも交代ができない。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 159,
+      "LabelName": "BTR_STATE_SYN_124_03",
+      "LabelHash": 378218391,
+      "OriginalText": "くらいつく状態",
+      "TextInfos": [
+        {
+          "Text": "くらいつく状態",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
