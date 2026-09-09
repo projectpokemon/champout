@@ -15,7 +15,7 @@
       "Index": 0,
       "LabelName": "rental_poke_appear_00",
       "LabelHash": 1121232553,
-      "OriginalText": "레귤레이션 {0}의 랭크배틀에\n참가할 수 있는 포켓몬을 소개받을 수 있습니다.",
+      "OriginalText": "레귤레이션 {0}의 랭크배틀에\n참가할 수 있는 포켓몬을 소개받을 수 있습니다.\n상세 정보는 소식에서 확인해 주십시오.",
       "TextInfos": [
         {
           "Text": "레귤레이션 ",
@@ -64,13 +64,31 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "상세 정보는 소식에서 확인해 주십시오.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
       "CountabilityCode": 0,
       "ArticleCode": 1,
       "InitialSoundCode": 0,
-      "StyleCode": 65
+      "StyleCode": 66
     },
     {
       "Index": 1,
@@ -1096,7 +1114,7 @@
       "StyleCode": 65
     },
     {
-      "Index": 19,
+      "Index": 23,
       "LabelName": "rental_poke_appear_reg_ma",
       "LabelHash": -841467416,
       "OriginalText": "M-A",
@@ -1118,13 +1136,35 @@
       "StyleCode": 9
     },
     {
-      "Index": 20,
+      "Index": 24,
       "LabelName": "rental_poke_appear_reg_mb",
       "LabelHash": -841467415,
       "OriginalText": "M-B",
       "TextInfos": [
         {
           "Text": "M-B",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 25,
+      "LabelName": "rental_poke_appear_reg_mc",
+      "LabelHash": -841467414,
+      "OriginalText": "M-C",
+      "TextInfos": [
+        {
+          "Text": "M-C",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

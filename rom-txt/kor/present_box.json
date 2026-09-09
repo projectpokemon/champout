@@ -490,7 +490,7 @@
       "Index": 16,
       "LabelName": "present_box_45",
       "LabelHash": -1056543265,
-      "OriginalText": "※아직 받지 않은 선물이 있는 메일은\n　삭제할 수 없습니다.",
+      "OriginalText": "※아직 받지 않은 선물이 있는 메일은\n　삭제할 수 없습니다.\n※중요한 메일은 삭제할 수 없습니다.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -535,6 +535,24 @@
         },
         {
           "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "※중요한 메일은 삭제할 수 없습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
           "Type": 2,
           "TagInfo": {
             "TagGroupId": 0,
@@ -552,7 +570,7 @@
       "CountabilityCode": 0,
       "ArticleCode": 1,
       "InitialSoundCode": 0,
-      "StyleCode": 42
+      "StyleCode": 44
     },
     {
       "Index": 17,

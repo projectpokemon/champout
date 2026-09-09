@@ -332,10 +332,64 @@
       "Index": 11,
       "LabelName": "btl_pass_09",
       "LabelHash": -1710991702,
-      "OriginalText": "배틀 패스의 개최 기간이 아닙니다.",
+      "OriginalText": "배틀 패스의 개최 기간이 아닙니다.\n아직 받지 않은 선물이 있는 경우에는\n다음 시즌이 개최한 뒤에\n메일 박스로 전달됩니다.",
       "TextInfos": [
         {
           "Text": "배틀 패스의 개최 기간이 아닙니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "아직 받지 않은 선물이 있는 경우에는",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "다음 시즌이 개최한 뒤에",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "메일 박스로 전달됩니다.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -348,7 +402,73 @@
       "CountabilityCode": 0,
       "ArticleCode": 1,
       "InitialSoundCode": 0,
-      "StyleCode": 66
+      "StyleCode": 67
+    },
+    {
+      "Index": 12,
+      "LabelName": "btl_pass_11",
+      "LabelHash": -144907769,
+      "OriginalText": "되돌린다",
+      "TextInfos": [
+        {
+          "Text": "되돌린다",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 13,
+      "LabelName": "btl_pass_12",
+      "LabelHash": -144907770,
+      "OriginalText": "의상 확인",
+      "TextInfos": [
+        {
+          "Text": "의상 확인",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 14,
+      "LabelName": "btl_pass_13",
+      "LabelHash": -144907771,
+      "OriginalText": "헤어스타일 확인",
+      "TextInfos": [
+        {
+          "Text": "헤어스타일 확인",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
     }
   ]
 }

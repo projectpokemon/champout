@@ -1522,7 +1522,7 @@
       "Index": 34,
       "LabelName": "rental_tutorial_npc_01",
       "LabelHash": -1644782089,
-      "OriginalText": "마음에 든 포켓몬을 1마리 선택해 줘.\n레귤러 스카우트하려면 VP가 필요하지만▼\n이번엔 서비스해 줄 테니까\n사양 말고 스카우트해 봐!",
+      "OriginalText": "마음에 든 포켓몬을 1마리 선택해 줘.\n레귤러로 스카우트하려면 VP가 필요하지만▼\n이번엔 서비스니까\n사양 말고 스카우트해 봐!",
       "TextInfos": [
         {
           "Text": "마음에 든 포켓몬을 1마리 선택해 줘.",
@@ -1543,7 +1543,7 @@
           }
         },
         {
-          "Text": "레귤러 스카우트하려면 VP가 필요하지만",
+          "Text": "레귤러로 스카우트하려면 VP가 필요하지만",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1570,7 +1570,7 @@
           }
         },
         {
-          "Text": "이번엔 서비스해 줄 테니까",
+          "Text": "이번엔 서비스니까",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -13224,6 +13224,224 @@
       "ArticleCode": 1,
       "InitialSoundCode": 0,
       "StyleCode": 70
+    },
+    {
+      "Index": 134,
+      "LabelName": "app_tutorial_19_0",
+      "LabelHash": -999457416,
+      "OriginalText": "선택 서포트",
+      "TextInfos": [
+        {
+          "Text": "선택 서포트",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 64
+    },
+    {
+      "Index": 135,
+      "LabelName": "app_tutorial_19_1",
+      "LabelHash": -999457417,
+      "OriginalText": "랭크배틀의 집계 데이터를 기반으로\n자신의 포켓몬이 상대의 포켓몬에게\n유리한지 혹은 불리한지를 표시합니다.",
+      "TextInfos": [
+        {
+          "Text": "랭크배틀의 집계 데이터를 기반으로",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "자신의 포켓몬이 상대의 포켓몬에게",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "유리한지 혹은 불리한지를 표시합니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 136,
+      "LabelName": "app_tutorial_19_2",
+      "LabelHash": -999457414,
+      "OriginalText": "유리한 상대의 포켓몬에게는 위를 향하는 삼각형이\n불리한 포켓몬에게는 아래를 향하는 삼각형이 표시됩니다.",
+      "TextInfos": [
+        {
+          "Text": "유리한 상대의 포켓몬에게는 위를 향하는 삼각형이",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "불리한 포켓몬에게는 아래를 향하는 삼각형이 표시됩니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 137,
+      "LabelName": "app_tutorial_19_3",
+      "LabelHash": -999457415,
+      "OriginalText": "싸울 포켓몬을 선택했을 때\n불리한 조합만 존재하는 상대의 포켓몬에게는\n전용 주의 마크가 붙습니다.",
+      "TextInfos": [
+        {
+          "Text": "싸울 포켓몬을 선택했을 때",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "불리한 조합만 존재하는 상대의 포켓몬에게는",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "전용 주의 마크가 붙습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
+    },
+    {
+      "Index": 138,
+      "LabelName": "app_tutorial_19_4",
+      "LabelHash": -999457412,
+      "OriginalText": "옵션에서 선택 서포트 정보를\n표시할지 비표시할지 설정할 수 있습니다.",
+      "TextInfos": [
+        {
+          "Text": "옵션에서 선택 서포트 정보를",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "표시할지 비표시할지 설정할 수 있습니다.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 67
     }
   ]
 }
