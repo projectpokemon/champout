@@ -413,10 +413,64 @@
       "Index": 11,
       "LabelName": "btl_pass_09",
       "LabelHash": -1710991702,
-      "OriginalText": "No hay ningún pase de combate disponible en estos momentos.",
+      "OriginalText": "No hay ningún pase de combate disponible en estos momentos.\nSi te quedaba por aceptar alguna recompensa de la temporada\nanterior, esta se enviará a tu bandeja de entrada cuando\ncomience la próxima temporada.",
       "TextInfos": [
         {
           "Text": "No hay ningún pase de combate disponible en estos momentos.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Si te quedaba por aceptar alguna recompensa de la temporada",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "anterior, esta se enviará a tu bandeja de entrada cuando",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "comience la próxima temporada.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -429,7 +483,73 @@
       "CountabilityCode": 1,
       "ArticleCode": 0,
       "InitialSoundCode": 0,
-      "StyleCode": 66
+      "StyleCode": 67
+    },
+    {
+      "Index": 12,
+      "LabelName": "btl_pass_11",
+      "LabelHash": -144907769,
+      "OriginalText": "Revertir",
+      "TextInfos": [
+        {
+          "Text": "Revertir",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 13,
+      "LabelName": "btl_pass_12",
+      "LabelHash": -144907770,
+      "OriginalText": "Ver artículo",
+      "TextInfos": [
+        {
+          "Text": "Ver artículo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 14,
+      "LabelName": "btl_pass_13",
+      "LabelHash": -144907771,
+      "OriginalText": "Ver peinado",
+      "TextInfos": [
+        {
+          "Text": "Ver peinado",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
     }
   ]
 }

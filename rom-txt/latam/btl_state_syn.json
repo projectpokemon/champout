@@ -1555,10 +1555,28 @@
       "Index": 40,
       "LabelName": "BTR_STATE_SYN_25_02",
       "LabelHash": -514925382,
-      "OriginalText": "El Pokémon no puede ser cambiado por otro.",
+      "OriginalText": "El Pokémon no puede ser cambiado por otro.\nNo afecta a los Pokémon de tipo Fantasma.",
       "TextInfos": [
         {
           "Text": "El Pokémon no puede ser cambiado por otro.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "No afecta a los Pokémon de tipo Fantasma.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2221,10 +2239,10 @@
       "Index": 58,
       "LabelName": "BTR_STATE_SYN_37_02",
       "LabelHash": -797255631,
-      "OriginalText": "Envenena a los Pokémon que entran en combate,\no los envenena gravemente si el estado vuelve\na provocarse una vez activo. No afecta a algunos\nPokémon, como los de tipo Volador o a los que\ntienen la habilidad Levitación, entre otros.",
+      "OriginalText": "Envenena a quien entra en combate, gravemente\nsi el estado vuelve a provocarse una vez activo.\nNo afecta a los Pokémon de tipo Volador o con\nla habilidad Levitación, entre otros. Se elimina si\nun Pokémon de tipo Veneno entra en combate.",
       "TextInfos": [
         {
-          "Text": "Envenena a los Pokémon que entran en combate,",
+          "Text": "Envenena a quien entra en combate, gravemente",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2242,7 +2260,7 @@
           }
         },
         {
-          "Text": "o los envenena gravemente si el estado vuelve",
+          "Text": "si el estado vuelve a provocarse una vez activo.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2260,7 +2278,7 @@
           }
         },
         {
-          "Text": "a provocarse una vez activo. No afecta a algunos",
+          "Text": "No afecta a los Pokémon de tipo Volador o con",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2278,7 +2296,7 @@
           }
         },
         {
-          "Text": "Pokémon, como los de tipo Volador o a los que",
+          "Text": "la habilidad Levitación, entre otros. Se elimina si",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2296,7 +2314,7 @@
           }
         },
         {
-          "Text": "tienen la habilidad Levitación, entre otros.",
+          "Text": "un Pokémon de tipo Veneno entra en combate.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3527,7 +3545,7 @@
       "Index": 84,
       "LabelName": "BTR_STATE_SYN_52_02",
       "LabelHash": 1353683472,
-      "OriginalText": "El Pokémon pierde 12.5 % de sus PS máximos\nal final de cada turno. Cualquier Pokémon que\nocupe la posición del usuario de Drenadoras\nrecupera esa misma cantidad de PS.",
+      "OriginalText": "El Pokémon pierde 12.5 % de sus PS máximos\nal final de cada turno. Cualquier Pokémon que\nocupe la posición del usuario de Drenadoras\nrecupera esa misma cantidad de PS.\nNo afecta a los Pokémon de tipo Planta.",
       "TextInfos": [
         {
           "Text": "El Pokémon pierde 12.5",
@@ -3631,6 +3649,24 @@
         },
         {
           "Text": "recupera esa misma cantidad de PS.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "No afecta a los Pokémon de tipo Planta.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4870,6 +4906,68 @@
       "StyleCode": 14
     },
     {
+      "Index": 116,
+      "LabelName": "BTR_STATE_SYN_77_02",
+      "LabelHash": -797259723,
+      "OriginalText": "Reduce un nivel la Defensa y la Defensa Especial\ndel Pokémon al final de cada turno.",
+      "TextInfos": [
+        {
+          "Text": "Reduce un nivel la Defensa y la Defensa Especial",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "del Pokémon al final de cada turno.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 117,
+      "LabelName": "BTR_STATE_SYN_77_03",
+      "LabelHash": -797259724,
+      "OriginalText": "Octopresa",
+      "TextInfos": [
+        {
+          "Text": "Octopresa",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
       "Index": 128,
       "LabelName": "BTR_STATE_SYN_106_02",
       "LabelHash": 54712378,
@@ -5077,6 +5175,86 @@
       "TextInfos": [
         {
           "Text": "Curación anulada",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 134,
+      "LabelName": "BTR_STATE_SYN_112_02",
+      "LabelHash": 862573219,
+      "OriginalText": "Los movimientos que los rivales usen contra el\nPokémon acertarán seguro y causarán el doble\nde daño.",
+      "TextInfos": [
+        {
+          "Text": "Los movimientos que los rivales usen contra el",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pokémon acertarán seguro y causarán el doble",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de daño.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 135,
+      "LabelName": "BTR_STATE_SYN_112_03",
+      "LabelHash": -703510722,
+      "OriginalText": "Vulnerable",
+      "TextInfos": [
+        {
+          "Text": "Vulnerable",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5779,6 +5957,86 @@
       "TextInfos": [
         {
           "Text": "Absorbefuego",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 158,
+      "LabelName": "BTR_STATE_SYN_124_02",
+      "LabelHash": -1187865550,
+      "OriginalText": "Ni el usuario de Presa Maxilar ni el Pokémon que\nrecibió el movimiento pueden ser cambiados por\notros.",
+      "TextInfos": [
+        {
+          "Text": "Ni el usuario de Presa Maxilar ni el Pokémon que",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "recibió el movimiento pueden ser cambiados por",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "otros.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 159,
+      "LabelName": "BTR_STATE_SYN_124_03",
+      "LabelHash": 378218391,
+      "OriginalText": "Presa Maxilar",
+      "TextInfos": [
+        {
+          "Text": "Presa Maxilar",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

@@ -15,7 +15,7 @@
       "Index": 0,
       "LabelName": "btl_condition_paralysis_info",
       "LabelHash": -59026412,
-      "OriginalText": "El Pokémon tiene una probabilidad del 12.5 %\nde no poder usar movimientos y su Velocidad se\nreduce un 50 %.",
+      "OriginalText": "El Pokémon tiene una probabilidad del 12.5 %\nde no poder usar movimientos y su Velocidad se\nreduce un 50 %. No afecta a los Pokémon de\ntipo Eléctrico.",
       "TextInfos": [
         {
           "Text": "El Pokémon tiene una probabilidad del 12.5 %",
@@ -54,7 +54,25 @@
           }
         },
         {
-          "Text": "reduce un 50 %.",
+          "Text": "reduce un 50 %. No afecta a los Pokémon de",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "tipo Eléctrico.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -73,7 +91,7 @@
       "Index": 1,
       "LabelName": "btl_condition_freezing_info",
       "LabelHash": -206355500,
-      "OriginalText": "El Pokémon no puede usar la mayoría de los\nmovimientos, pero tiene una probabilidad del\n25 % de descongelarse al intentarlo. Se librará\nde la congelación al tercer turno o si recibe daño\nde ciertos movimientos, como los de tipo Fuego.",
+      "OriginalText": "El Pokémon no puede usar la mayoría de los\nmovimientos, pero tiene una probabilidad del\n25 % de descongelarse al intentarlo. Se librará\nde la congelación al tercer turno o si recibe daño\nde ciertos movimientos, como los de tipo Fuego.\nNo afecta a los Pokémon de tipo Hielo.",
       "TextInfos": [
         {
           "Text": "El Pokémon no puede usar la mayoría de los",
@@ -155,6 +173,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "No afecta a los Pokémon de tipo Hielo.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 1,
@@ -167,7 +203,7 @@
       "Index": 2,
       "LabelName": "btl_condition_burning_info",
       "LabelHash": -2104732437,
-      "OriginalText": "El Pokémon pierde un 6.25 % de sus PS máximos\nal final de cada turno y el daño que causan sus\nataques físicos se reduce en un 50 %.",
+      "OriginalText": "El Pokémon pierde un 6.25 % de sus PS máximos\nal final de cada turno y el daño que causan\nsus ataques físicos se reduce en un 50 %.\nNo afecta a los Pokémon de tipo Fuego.",
       "TextInfos": [
         {
           "Text": "El Pokémon pierde un 6.25 % de sus PS máximos",
@@ -188,7 +224,7 @@
           }
         },
         {
-          "Text": "al final de cada turno y el daño que causan sus",
+          "Text": "al final de cada turno y el daño que causan",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -206,7 +242,25 @@
           }
         },
         {
-          "Text": "ataques físicos se reduce en un 50 %.",
+          "Text": "sus ataques físicos se reduce en un 50 %.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "No afecta a los Pokémon de tipo Fuego.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -225,7 +279,7 @@
       "Index": 3,
       "LabelName": "btl_condition_poison_info",
       "LabelHash": -1028631508,
-      "OriginalText": "El Pokémon pierde un 12.5 % de sus PS máximos\nal final de cada turno.",
+      "OriginalText": "El Pokémon pierde un 12.5 % de sus PS máximos\nal final de cada turno. No afecta a los Pokémon\nde tipo Veneno o Acero.",
       "TextInfos": [
         {
           "Text": "El Pokémon pierde un 12.5 % de sus PS máximos",
@@ -246,7 +300,25 @@
           }
         },
         {
-          "Text": "al final de cada turno.",
+          "Text": "al final de cada turno. No afecta a los Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de tipo Veneno o Acero.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -265,7 +337,7 @@
       "Index": 4,
       "LabelName": "btl_condition_bad_poison_info",
       "LabelHash": 1314343280,
-      "OriginalText": "El Pokémon pierde PS al final de cada turno.\nEl daño parte en 6.25 % de sus PS máximos y\naumenta un 6.25 % cada turno (12.5 % en el\nsegundo, 18.75 % en el tercero, etc.). Si\nse cambia por otro y vuelve al combate, se \nreinicia desde 6.25 %.",
+      "OriginalText": "El Pokémon pierde PS al final de cada turno.\nEl daño parte en 6.25 % de sus PS máximos y\naumenta un 6.25 % cada turno (12.5 % en el\nsegundo, 18.75 % en el tercero, etc.). Si\nse cambia por otro y vuelve al combate, se\nreinicia desde 6.25 %. No afecta a los Pokémon\nde tipo Veneno o Acero.",
       "TextInfos": [
         {
           "Text": "El Pokémon pierde PS al final de cada turno.",
@@ -340,7 +412,7 @@
           }
         },
         {
-          "Text": "se cambia por otro y vuelve al combate, se ",
+          "Text": "se cambia por otro y vuelve al combate, se",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -358,7 +430,25 @@
           }
         },
         {
-          "Text": "reinicia desde 6.25 %.",
+          "Text": "reinicia desde 6.25 %. No afecta a los Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de tipo Veneno o Acero.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
