@@ -2586,6 +2586,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 76,
+      "LabelName": "ITEMINFO_SYN_259",
+      "LabelHash": -1725503007,
+      "OriginalText": "Si lo lleva Farfetch’d o Sirfetch’d, le aumenta dos niveles\nla probabilidad de asestar golpes críticos.",
+      "TextInfos": [
+        {
+          "Text": "Si lo lleva Farfetch’d o Sirfetch’d, le aumenta dos niveles",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "la probabilidad de asestar golpes críticos.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 77,
       "LabelName": "ITEMINFO_SYN_265",
       "LabelHash": 600095820,
@@ -2923,7 +2963,7 @@
       "Index": 87,
       "LabelName": "ITEMINFO_SYN_276",
       "LabelHash": 196811292,
-      "OriginalText": "Aumenta un 20 % la precisión de los movimientos\ndel portador si actúa después que el rival.",
+      "OriginalText": "Aumenta un 20 % la precisión de los movimientos\ndel portador si actúa después que el objetivo.",
       "TextInfos": [
         {
           "Text": "Aumenta un 20 % la precisión de los movimientos",
@@ -2944,7 +2984,7 @@
           }
         },
         {
-          "Text": "del portador si actúa después que el rival.",
+          "Text": "del portador si actúa después que el objetivo.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3521,6 +3561,354 @@
         },
         {
           "Text": "Absorbefuerza o Arraigo.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 119,
+      "LabelName": "ITEMINFO_SYN_540",
+      "LabelHash": 337973796,
+      "OriginalText": "Hace que el atacante pierda 1/6 de sus PS máximos\nsi el portador es alcanzado por un movimiento de\ncontacto.",
+      "TextInfos": [
+        {
+          "Text": "Hace que el atacante pierda 1/6 de sus PS máximos",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "si el portador es alcanzado por un movimiento de",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "contacto.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 120,
+      "LabelName": "ITEMINFO_SYN_541",
+      "LabelHash": -1228110145,
+      "OriginalText": "Hace que el portador flote y deje de estar en\ncontacto con el suelo, lo que impide que le afecten\nlos movimientos de tipo Tierra y los estados Púas,\nPúas tóxicas y Red Viscosa. Si el portador recibe daño\nde un movimiento, el objeto se pierde durante ese\ncombate.",
+      "TextInfos": [
+        {
+          "Text": "Hace que el portador flote y deje de estar en",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "contacto con el suelo, lo que impide que le afecten",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "los movimientos de tipo Tierra y los estados Púas,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Púas tóxicas y Red Viscosa. Si el portador recibe daño",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de un movimiento, el objeto se pierde durante ese",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 121,
+      "LabelName": "ITEMINFO_SYN_542",
+      "LabelHash": -824825618,
+      "OriginalText": "Obliga al Pokémon que inflija daño al portador con un\nmovimiento a cambiarse por otro. Puede usarse una vez\npor combate.",
+      "TextInfos": [
+        {
+          "Text": "Obliga al Pokémon que inflija daño al portador con un",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "movimiento a cambiarse por otro. Puede usarse una vez",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "por combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 122,
+      "LabelName": "ITEMINFO_SYN_544",
+      "LabelHash": -1631394672,
+      "OriginalText": "Aumenta el daño que el portador inflige al objetivo con\nel estado Apresado, que pasa de 1/8 a 1/6 de sus PS máximos.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta el daño que el portador inflige al objetivo con",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "el estado Apresado, que pasa de 1/8 a 1/6 de sus PS máximos.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 125,
+      "LabelName": "ITEMINFO_SYN_547",
+      "LabelHash": -65310731,
+      "OriginalText": "Si el portador recibe daño de un movimiento, se retirará\ndel combate. Puede usarse una vez por combate.",
+      "TextInfos": [
+        {
+          "Text": "Si el portador recibe daño de un movimiento, se retirará",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "del combate. Puede usarse una vez por combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 126,
+      "LabelName": "ITEMINFO_SYN_564",
+      "LabelHash": -1631394674,
+      "OriginalText": "Aumenta un 30 % la potencia de un movimiento de tipo\nNormal del portador. Puede usarse una vez por combate.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta un 30 % la potencia de un movimiento de tipo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Normal del portador. Puede usarse una vez por combate.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4528,6 +4916,28 @@
       "StyleCode": 69
     },
     {
+      "Index": 182,
+      "LabelName": "ITEMINFO_SYN_769",
+      "LabelHash": -1302015505,
+      "OriginalText": "Si la lleva Salamence, le permite megaevolucionar.",
+      "TextInfos": [
+        {
+          "Text": "Si la lleva Salamence, le permite megaevolucionar.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 183,
       "LabelName": "ITEMINFO_SYN_770",
       "LabelHash": 620298795,
@@ -4535,6 +4945,314 @@
       "TextInfos": [
         {
           "Text": "Si la lleva Beedrill, le permite megaevolucionar.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 214,
+      "LabelName": "ITEMINFO_SYN_879",
+      "LabelHash": -166067283,
+      "OriginalText": "Prolonga tres turnos la duración de los campos creados\nen el terreno de combate con los movimientos o la\nhabilidad del portador, haciendo que duren ocho turnos\nen total.",
+      "TextInfos": [
+        {
+          "Text": "Prolonga tres turnos la duración de los campos creados",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "en el terreno de combate con los movimientos o la",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "habilidad del portador, haciendo que duren ocho turnos",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "en total.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 215,
+      "LabelName": "ITEMINFO_SYN_881",
+      "LabelHash": -522297644,
+      "OriginalText": "Aumenta un nivel la Defensa del portador cuando hay\nun campo eléctrico activo en el terreno de combate.\nPuede usarse una vez por combate.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta un nivel la Defensa del portador cuando hay",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "un campo eléctrico activo en el terreno de combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Puede usarse una vez por combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 216,
+      "LabelName": "ITEMINFO_SYN_882",
+      "LabelHash": 1043786297,
+      "OriginalText": "Aumenta un nivel la Defensa Especial del portador\ncuando hay un campo psíquico activo en el terreno\nde combate. Puede usarse una vez por combate.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta un nivel la Defensa Especial del portador",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "cuando hay un campo psíquico activo en el terreno",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de combate. Puede usarse una vez por combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 217,
+      "LabelName": "ITEMINFO_SYN_883",
+      "LabelHash": -1685097058,
+      "OriginalText": "Aumenta un nivel la Defensa Especial del portador\ncuando hay un campo de niebla activo en el terreno\nde combate. Puede usarse una vez por combate.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta un nivel la Defensa Especial del portador",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "cuando hay un campo de niebla activo en el terreno",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de combate. Puede usarse una vez por combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 218,
+      "LabelName": "ITEMINFO_SYN_884",
+      "LabelHash": -119013117,
+      "OriginalText": "Aumenta un nivel la Defensa del portador cuando hay\nun campo de hierba activo en el terreno de combate.\nPuede usarse una vez por combate.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta un nivel la Defensa del portador cuando hay",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "un campo de hierba activo en el terreno de combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Puede usarse una vez por combate.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5260,6 +5978,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 295,
+      "LabelName": "ITEMINFO_SYN_2638",
+      "LabelHash": -580549322,
+      "OriginalText": "Si la lleva Absol, le permite megaevolucionar\na Mega-Absol Z.",
+      "TextInfos": [
+        {
+          "Text": "Si la lleva Absol, le permite megaevolucionar",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "a Mega-Absol Z.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 296,
       "LabelName": "ITEMINFO_SYN_2639",
       "LabelHash": -580549323,
@@ -5267,6 +6025,86 @@
       "TextInfos": [
         {
           "Text": "Si la lleva Staraptor, le permite megaevolucionar.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 297,
+      "LabelName": "ITEMINFO_SYN_2640",
+      "LabelHash": -1340064201,
+      "OriginalText": "Si la lleva Garchomp, le permite megaevolucionar a\nMega-Garchomp Z.",
+      "TextInfos": [
+        {
+          "Text": "Si la lleva Garchomp, le permite megaevolucionar a",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Mega-Garchomp Z.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 298,
+      "LabelName": "ITEMINFO_SYN_2641",
+      "LabelHash": -1340064202,
+      "OriginalText": "Si la lleva Lucario, le permite megaevolucionar a\nMega-Lucario Z.",
+      "TextInfos": [
+        {
+          "Text": "Si la lleva Lucario, le permite megaevolucionar a",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Mega-Lucario Z.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5348,6 +6186,28 @@
       "StyleCode": 69
     },
     {
+      "Index": 302,
+      "LabelName": "ITEMINFO_SYN_2645",
+      "LabelHash": -1340064198,
+      "OriginalText": "Si la lleva Golisopod, le permite megaevolucionar.",
+      "TextInfos": [
+        {
+          "Text": "Si la lleva Golisopod, le permite megaevolucionar.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 304,
       "LabelName": "ITEMINFO_SYN_2647",
       "LabelHash": -1340064196,
@@ -5355,6 +6215,28 @@
       "TextInfos": [
         {
           "Text": "Si la lleva Scovillain, le permite megaevolucionar.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 305,
+      "LabelName": "ITEMINFO_SYN_2648",
+      "LabelHash": -1340064209,
+      "OriginalText": "Si la lleva Baxcalibur, le permite megaevolucionar.",
+      "TextInfos": [
+        {
+          "Text": "Si la lleva Baxcalibur, le permite megaevolucionar.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

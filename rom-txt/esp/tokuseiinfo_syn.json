@@ -95,7 +95,7 @@
       "Index": 2,
       "LabelName": "TOKUSEIINFO_SYN_003",
       "LabelHash": 536861931,
-      "OriginalText": "Aumenta un nivel la Velocidad del Pokémon al final de cada\nturno.",
+      "OriginalText": "Aumenta un nivel la Velocidad del Pokémon al final de cada\nturno, exceptuando el turno en el que entra en combate para\nsustituir a otro.",
       "TextInfos": [
         {
           "Text": "Aumenta un nivel la Velocidad del Pokémon al final de cada",
@@ -116,7 +116,25 @@
           }
         },
         {
-          "Text": "turno.",
+          "Text": "turno, exceptuando el turno en el que entra en combate para",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sustituir a otro.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -295,7 +313,7 @@
       "Index": 7,
       "LabelName": "TOKUSEIINFO_SYN_008",
       "LabelHash": 536861920,
-      "OriginalText": "Aumenta un 25 % la Evasión del Pokémon durante las tormentas\nde arena.",
+      "OriginalText": "Aumenta un 25 % la Evasión del Pokémon durante las tormentas\nde arena y lo hace inmune al daño causado por estas.",
       "TextInfos": [
         {
           "Text": "Aumenta un 25 % la Evasión del Pokémon durante las tormentas",
@@ -316,7 +334,7 @@
           }
         },
         {
-          "Text": "de arena.",
+          "Text": "de arena y lo hace inmune al daño causado por estas.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -921,7 +939,7 @@
       "Index": 26,
       "LabelName": "TOKUSEIINFO_SYN_027",
       "LabelHash": -625937487,
-      "OriginalText": "Tiene una probabilidad del 30 % de envenenar, paralizar\no dormir al atacante si el Pokémon es alcanzado por un\nmovimiento de contacto.",
+      "OriginalText": "Tiene una probabilidad del 30 % de envenenar, paralizar\no dormir al atacante si el Pokémon es alcanzado por un\nmovimiento de contacto. No afecta a los Pokémon de tipo\nPlanta.",
       "TextInfos": [
         {
           "Text": "Tiene una probabilidad del 30 % de envenenar, paralizar",
@@ -960,7 +978,25 @@
           }
         },
         {
-          "Text": "movimiento de contacto.",
+          "Text": "movimiento de contacto. No afecta a los Pokémon de tipo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Planta.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1682,6 +1718,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 49,
+      "LabelName": "TOKUSEIINFO_SYN_050",
+      "LabelHash": 133577401,
+      "OriginalText": "Permite que el Pokémon pueda cambiarse por otro\naunque haya efectos que lo impidan.",
+      "TextInfos": [
+        {
+          "Text": "Permite que el Pokémon pueda cambiarse por otro",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "aunque haya efectos que lo impidan.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 50,
       "LabelName": "TOKUSEIINFO_SYN_051",
       "LabelHash": 133577402,
@@ -2237,6 +2313,64 @@
         },
         {
           "Text": "de estado.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 63,
+      "LabelName": "TOKUSEIINFO_SYN_064",
+      "LabelHash": 1699661338,
+      "OriginalText": "Si el Pokémon recibe un movimiento que drena PS, el atacante\nrecibe una cantidad de daño equivalente a los PS que habría\nrecuperado.",
+      "TextInfos": [
+        {
+          "Text": "Si el Pokémon recibe un movimiento que drena PS, el atacante",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "recibe una cantidad de daño equivalente a los PS que habría",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "recuperado.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5396,6 +5530,64 @@
       "StyleCode": 69
     },
     {
+      "Index": 154,
+      "LabelName": "TOKUSEIINFO_SYN_155",
+      "LabelHash": 133577493,
+      "OriginalText": "Aumenta un nivel la Velocidad del Pokémon si se siente\nintimidado o si recibe daño de un movimiento de tipo\nSiniestro, Fantasma o Bicho.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta un nivel la Velocidad del Pokémon si se siente",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "intimidado o si recibe daño de un movimiento de tipo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Siniestro, Fantasma o Bicho.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 155,
       "LabelName": "TOKUSEIINFO_SYN_156",
       "LabelHash": 133577496,
@@ -5479,7 +5671,7 @@
       "Index": 157,
       "LabelName": "TOKUSEIINFO_SYN_158",
       "LabelHash": 133577490,
-      "OriginalText": "Aumenta un nivel la prioridad de los movimientos de estado\ndel Pokémon.",
+      "OriginalText": "Aumenta un nivel la prioridad de los movimientos de estado\ndel Pokémon, pero los Pokémon de tipo Siniestro se vuelven\ninmunes a ellos.",
       "TextInfos": [
         {
           "Text": "Aumenta un nivel la prioridad de los movimientos de estado",
@@ -5500,7 +5692,25 @@
           }
         },
         {
-          "Text": "del Pokémon.",
+          "Text": "del Pokémon, pero los Pokémon de tipo Siniestro se vuelven",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "inmunes a ellos.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6134,6 +6344,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 178,
+      "LabelName": "TOKUSEIINFO_SYN_179",
+      "LabelHash": -1029221925,
+      "OriginalText": "Aumenta un 50 % la Defensa del Pokémon cuando hay un\ncampo de hierba activo en el terreno de combate.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta un 50 % la Defensa del Pokémon cuando hay un",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "campo de hierba activo en el terreno de combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 179,
       "LabelName": "TOKUSEIINFO_SYN_180",
       "LabelHash": 893092385,
@@ -6472,6 +6722,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 193,
+      "LabelName": "TOKUSEIINFO_SYN_194",
+      "LabelHash": -1835790974,
+      "OriginalText": "Hace que el Pokémon se retire del combate cuando sus PS\nmáximos se ven reducidos a la mitad o menos.",
+      "TextInfos": [
+        {
+          "Text": "Hace que el Pokémon se retire del combate cuando sus PS",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "máximos se ven reducidos a la mitad o menos.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 195,
       "LabelName": "TOKUSEIINFO_SYN_196",
       "LabelHash": -1835790972,
@@ -6497,6 +6787,46 @@
         },
         {
           "Text": "si el objetivo está envenenado o gravemente envenenado.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 197,
+      "LabelName": "TOKUSEIINFO_SYN_198",
+      "LabelHash": -1835790978,
+      "OriginalText": "Duplica la potencia de los movimientos del Pokémon si\nel objetivo acaba de entrar en combate para sustituir a otro.",
+      "TextInfos": [
+        {
+          "Text": "Duplica la potencia de los movimientos del Pokémon si",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "el objetivo acaba de entrar en combate para sustituir a otro.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6969,10 +7299,10 @@
       "Index": 217,
       "LabelName": "TOKUSEIINFO_SYN_218",
       "LabelHash": 2102945927,
-      "OriginalText": "Reduce a la mitad el daño recibido por los movimientos\nde contacto, pero duplica el que le infligen los de tipo\nFuego.",
+      "OriginalText": "Reduce a la mitad el daño que el Pokémon recibe de\nmovimientos de contacto, pero duplica el que le infligen\nlos de tipo Fuego.",
       "TextInfos": [
         {
-          "Text": "Reduce a la mitad el daño recibido por los movimientos",
+          "Text": "Reduce a la mitad el daño que el Pokémon recibe de",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6990,7 +7320,7 @@
           }
         },
         {
-          "Text": "de contacto, pero duplica el que le infligen los de tipo",
+          "Text": "movimientos de contacto, pero duplica el que le infligen",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -7008,7 +7338,7 @@
           }
         },
         {
-          "Text": "Fuego.",
+          "Text": "los de tipo Fuego.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -7144,6 +7474,126 @@
       "StyleCode": 69
     },
     {
+      "Index": 226,
+      "LabelName": "TOKUSEIINFO_SYN_227",
+      "LabelHash": -625937425,
+      "OriginalText": "Crea un campo psíquico en el terreno de combate durante\ncinco turnos cuando el Pokémon entra en combate.",
+      "TextInfos": [
+        {
+          "Text": "Crea un campo psíquico en el terreno de combate durante",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "cinco turnos cuando el Pokémon entra en combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 228,
+      "LabelName": "TOKUSEIINFO_SYN_229",
+      "LabelHash": -625937427,
+      "OriginalText": "Crea un campo de hierba en el terreno de combate durante\ncinco turnos cuando el Pokémon entra en combate.",
+      "TextInfos": [
+        {
+          "Text": "Crea un campo de hierba en el terreno de combate durante",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "cinco turnos cuando el Pokémon entra en combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 235,
+      "LabelName": "TOKUSEIINFO_SYN_236",
+      "LabelHash": 940146515,
+      "OriginalText": "Cambia el tipo del Pokémon al del primer movimiento que va\na usar tras entrar en combate.",
+      "TextInfos": [
+        {
+          "Text": "Cambia el tipo del Pokémon al del primer movimiento que va",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "a usar tras entrar en combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 239,
       "LabelName": "TOKUSEIINFO_SYN_240",
       "LabelHash": -1432506474,
@@ -7209,6 +7659,64 @@
         },
         {
           "Text": "permiten a un Pokémon centrar la atención sobre sí.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 243,
+      "LabelName": "TOKUSEIINFO_SYN_244",
+      "LabelHash": -1432506478,
+      "OriginalText": "Aumenta un 30 % la potencia de los movimientos que usan\nsonido del Pokémon y reduce a la mitad el daño que recibe\nde dichos movimientos.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta un 30 % la potencia de los movimientos que usan",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sonido del Pokémon y reduce a la mitad el daño que recibe",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "de dichos movimientos.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -7351,6 +7859,46 @@
         },
         {
           "Text": "cuando el Pokémon entra en combate.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 251,
+      "LabelName": "TOKUSEIINFO_SYN_252",
+      "LabelHash": 133577465,
+      "OriginalText": "Aumenta un 50 % la potencia de los movimientos de tipo Acero\ndel Pokémon y sus aliados.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta un 50 % la potencia de los movimientos de tipo Acero",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "del Pokémon y sus aliados.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -7638,6 +8186,104 @@
       "StyleCode": 69
     },
     {
+      "Index": 268,
+      "LabelName": "TOKUSEIINFO_SYN_269",
+      "LabelHash": 1699661401,
+      "OriginalText": "Crea un campo de hierba en el terreno de combate durante\ncinco turnos cuando el Pokémon recibe daño de un movimiento.",
+      "TextInfos": [
+        {
+          "Text": "Crea un campo de hierba en el terreno de combate durante",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "cinco turnos cuando el Pokémon recibe daño de un movimiento.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 269,
+      "LabelName": "TOKUSEIINFO_SYN_270",
+      "LabelHash": -1029221947,
+      "OriginalText": "Aumenta un nivel el Ataque del Pokémon si recibe daño de\nun movimiento de tipo Fuego. Además, evita que pueda ser\nquemado.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta un nivel el Ataque del Pokémon si recibe daño de",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "un movimiento de tipo Fuego. Además, evita que pueda ser",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "quemado.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 271,
       "LabelName": "TOKUSEIINFO_SYN_272",
       "LabelHash": -1029221949,
@@ -7663,6 +8309,82 @@
         },
         {
           "Text": "la mitad el daño que recibe de movimientos de tipo Fantasma.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 274,
+      "LabelName": "TOKUSEIINFO_SYN_275",
+      "LabelHash": -1029221950,
+      "OriginalText": "Aumenta un nivel el Ataque del Pokémon en vez de\nsentirse intimidado. Además, hace al Pokémon inmune\na los movimientos y objetos de otros Pokémon que fuerzan\nel cambio.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta un nivel el Ataque del Pokémon en vez de",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sentirse intimidado. Además, hace al Pokémon inmune",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "a los movimientos y objetos de otros Pokémon que fuerzan",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "el cambio.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -8509,6 +9231,46 @@
         },
         {
           "Text": "atacante.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 318,
+      "LabelName": "TOKUSEIINFO_SYN_319",
+      "LabelHash": 2102946023,
+      "OriginalText": "Reduce a la mitad el daño que el Pokémon recibe de\nmovimientos de contacto.",
+      "TextInfos": [
+        {
+          "Text": "Reduce a la mitad el daño que el Pokémon recibe de",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "movimientos de contacto.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
