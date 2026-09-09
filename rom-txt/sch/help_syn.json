@@ -24720,7 +24720,7 @@
       "Index": 283,
       "LabelName": "help_11_03_00",
       "LabelHash": 16260161,
-      "OriginalText": "中毒状态\n\n回合结束时，\n会受到最大HP的1/8的伤害。",
+      "OriginalText": "中毒状态\n\n回合结束时，\n会受到最大HP的1/8的伤害。\n对毒、钢属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -24803,6 +24803,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对毒、钢属性的宝可梦将无效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -24815,7 +24833,7 @@
       "Index": 284,
       "LabelName": "help_11_03_01",
       "LabelHash": 16260162,
-      "OriginalText": "剧毒状态\n\n随着回合的进行，\n在回合结束时受到的伤害会按照最大HP的\n1/16、2/16、3/16的规律逐渐增加。\n进行替换后再次出场时，\n会变为从1/16开始增加。",
+      "OriginalText": "剧毒状态\n\n随着回合的进行，\n在回合结束时受到的伤害会按照最大HP的\n1/16、2/16、3/16的规律逐渐增加。\n进行替换后再次出场时，\n会变为从1/16开始增加。\n对毒、钢属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -24952,6 +24970,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对毒、钢属性的宝可梦将无效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -24964,7 +25000,7 @@
       "Index": 285,
       "LabelName": "help_11_03_02",
       "LabelHash": 16260163,
-      "OriginalText": "灼伤状态\n\n回合结束时，\n会受到最大HP的1/16的伤害。\n给予的物理招式的伤害会变为1/2。",
+      "OriginalText": "灼伤状态\n\n回合结束时，\n会受到最大HP的1/16的伤害。\n给予的物理招式的伤害会变为1/2。\n对火属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -25065,6 +25101,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对火属性的宝可梦将无效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -25099,7 +25153,7 @@
       "Index": 287,
       "LabelName": "help_11_04_00",
       "LabelHash": 1037897074,
-      "OriginalText": "麻痹状态\n\n有12.5%的机率无法使用招式。\n速度会变为1/2。",
+      "OriginalText": "麻痹状态\n\n有12.5%的机率无法使用招式。\n速度会变为1/2。\n对电属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -25182,6 +25236,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对电属性的宝可梦将无效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -25194,7 +25266,7 @@
       "Index": 288,
       "LabelName": "help_11_04_01",
       "LabelHash": 1037897075,
-      "OriginalText": "冰冻状态\n\n除了部分例外之外，无法使用招式。\n使用招式时，有25%的机率会回复。\n陷入冰冻状态后，第3次行动时会回复。\n受到火属性等招式的伤害时会回复。",
+      "OriginalText": "冰冻状态\n\n除了部分例外之外，无法使用招式。\n使用招式时，有25%的机率会回复。\n陷入冰冻状态后，第3次行动时会回复。\n受到火属性等招式的伤害时会回复。\n对冰属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -25307,6 +25379,24 @@
         },
         {
           "Text": "受到火属性等招式的伤害时会回复。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对冰属性的宝可梦将无效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -26474,7 +26564,7 @@
       "Index": 299,
       "LabelName": "help_11_05_08",
       "LabelHash": -266064833,
-      "OriginalText": "毒菱状态\n\n会让替换出场的宝可梦陷入中毒状态。\n使用2次后会让其陷入剧毒状态。\n对飞行属性、飘浮特性等的\n宝可梦将无效。",
+      "OriginalText": "毒菱状态\n\n会让替换出场的宝可梦陷入中毒状态。\n使用2次后会让其陷入剧毒状态。\n对飞行属性、飘浮特性等的宝可梦将无效。\n毒属性的宝可梦出场时会解除此状态。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -26501,6 +26591,15 @@
         },
         {
           "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
           "Type": 2,
           "TagInfo": {
             "TagGroupId": 0,
@@ -26511,15 +26610,6 @@
               0,
               255
             ]
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
           }
         },
         {
@@ -26568,7 +26658,7 @@
           }
         },
         {
-          "Text": "对飞行属性、飘浮特性等的",
+          "Text": "对飞行属性、飘浮特性等的宝可梦将无效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -26586,7 +26676,7 @@
           }
         },
         {
-          "Text": "宝可梦将无效。",
+          "Text": "毒属性的宝可梦出场时会解除此状态。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

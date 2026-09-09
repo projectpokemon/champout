@@ -472,7 +472,7 @@
       "Index": 16,
       "LabelName": "present_box_45",
       "LabelHash": -1056543265,
-      "OriginalText": "※有尚未领取的礼物的\n　邮件不会被删除。",
+      "OriginalText": "※有尚未领取的礼物的\n　邮件不会被删除。\n※重要的邮件不会被删除。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -517,6 +517,24 @@
         },
         {
           "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "※重要的邮件不会被删除。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
           "Type": 2,
           "TagInfo": {
             "TagGroupId": 0,
@@ -534,7 +552,7 @@
       "CountabilityCode": 0,
       "ArticleCode": 1,
       "InitialSoundCode": 0,
-      "StyleCode": 42
+      "StyleCode": 44
     },
     {
       "Index": 17,

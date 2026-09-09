@@ -95,10 +95,28 @@
       "Index": 2,
       "LabelName": "TOKUSEIINFO_SYN_003",
       "LabelHash": 536861931,
-      "OriginalText": "回合结束时，速度会提高1阶。",
+      "OriginalText": "回合结束时，速度会提高1阶。\n在替换出场的回合，速度不会提高。",
       "TextInfos": [
         {
           "Text": "回合结束时，速度会提高1阶。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "在替换出场的回合，速度不会提高。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -277,7 +295,7 @@
       "Index": 7,
       "LabelName": "TOKUSEIINFO_SYN_008",
       "LabelHash": 536861920,
-      "OriginalText": "沙暴状态时，\n闪避率会变为1.25倍。",
+      "OriginalText": "沙暴状态时，\n闪避率会变为1.25倍。\n因沙暴状态而受到的伤害将无效。",
       "TextInfos": [
         {
           "Text": "沙暴状态时，",
@@ -299,6 +317,24 @@
         },
         {
           "Text": "闪避率会变为1.25倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "因沙暴状态而受到的伤害将无效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -831,7 +867,7 @@
       "Index": 26,
       "LabelName": "TOKUSEIINFO_SYN_027",
       "LabelHash": -625937487,
-      "OriginalText": "受到接触类招式影响时，\n有30%的机率会让对手陷入\n中毒、麻痹、睡眠之中的一种状态。",
+      "OriginalText": "受到接触类招式影响时，\n有30%的机率会让对手陷入\n中毒、麻痹、睡眠之中的一种状态。\n对草属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "受到接触类招式影响时，",
@@ -871,6 +907,24 @@
         },
         {
           "Text": "中毒、麻痹、睡眠之中的一种状态。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对草属性的宝可梦将无效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1520,6 +1574,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 49,
+      "LabelName": "TOKUSEIINFO_SYN_050",
+      "LabelHash": 133577401,
+      "OriginalText": "能无视妨碍替换的效果，\n和同行队伍中的其他宝可梦进行替换。",
+      "TextInfos": [
+        {
+          "Text": "能无视妨碍替换的效果，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "和同行队伍中的其他宝可梦进行替换。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 50,
       "LabelName": "TOKUSEIINFO_SYN_051",
       "LabelHash": 133577402,
@@ -1985,6 +2079,46 @@
       "TextInfos": [
         {
           "Text": "陷入异常状态时，防御会变为1.5倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 63,
+      "LabelName": "TOKUSEIINFO_SYN_064",
+      "LabelHash": 1699661338,
+      "OriginalText": "受到吸取HP的招式影响时，\n不会让对手回复，而是会给予相当于回复量的伤害。",
+      "TextInfos": [
+        {
+          "Text": "受到吸取HP的招式影响时，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "不会让对手回复，而是会给予相当于回复量的伤害。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4802,6 +4936,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 154,
+      "LabelName": "TOKUSEIINFO_SYN_155",
+      "LabelHash": 133577493,
+      "OriginalText": "受到恶、幽灵、虫属性招式的伤害\n或受到威吓影响时，速度会提高1阶。",
+      "TextInfos": [
+        {
+          "Text": "受到恶、幽灵、虫属性招式的伤害",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "或受到威吓影响时，速度会提高1阶。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 155,
       "LabelName": "TOKUSEIINFO_SYN_156",
       "LabelHash": 133577496,
@@ -4885,10 +5059,28 @@
       "Index": 157,
       "LabelName": "TOKUSEIINFO_SYN_158",
       "LabelHash": 133577490,
-      "OriginalText": "变化招式的优先度会提高1阶。",
+      "OriginalText": "变化招式的优先度会提高1阶。\n但变化招式对恶属性的宝可梦将变为无效。",
       "TextInfos": [
         {
           "Text": "变化招式的优先度会提高1阶。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "但变化招式对恶属性的宝可梦将变为无效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5504,6 +5696,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 178,
+      "LabelName": "TOKUSEIINFO_SYN_179",
+      "LabelHash": -1029221925,
+      "OriginalText": "青草场地状态时，\n防御会变为1.5倍。",
+      "TextInfos": [
+        {
+          "Text": "青草场地状态时，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "防御会变为1.5倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 179,
       "LabelName": "TOKUSEIINFO_SYN_180",
       "LabelHash": 893092385,
@@ -5806,6 +6038,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 193,
+      "LabelName": "TOKUSEIINFO_SYN_194",
+      "LabelHash": -1835790974,
+      "OriginalText": "HP变为1/2以下时，\n会回到同行队伍。",
+      "TextInfos": [
+        {
+          "Text": "HP变为1/2以下时，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "会回到同行队伍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 195,
       "LabelName": "TOKUSEIINFO_SYN_196",
       "LabelHash": -1835790972,
@@ -5831,6 +6103,46 @@
         },
         {
           "Text": "必定会击中要害。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 197,
+      "LabelName": "TOKUSEIINFO_SYN_198",
+      "LabelHash": -1835790978,
+      "OriginalText": "攻击替换出场的对手时，\n招式的威力会变为2倍。",
+      "TextInfos": [
+        {
+          "Text": "攻击替换出场的对手时，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "招式的威力会变为2倍。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6334,6 +6646,144 @@
       "StyleCode": 69
     },
     {
+      "Index": 226,
+      "LabelName": "TOKUSEIINFO_SYN_227",
+      "LabelHash": -625937425,
+      "OriginalText": "自出场时起，在5回合内\n会将整个场地变为精神场地状态。",
+      "TextInfos": [
+        {
+          "Text": "自出场时起，在5回合内",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "会将整个场地变为精神场地状态。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 228,
+      "LabelName": "TOKUSEIINFO_SYN_229",
+      "LabelHash": -625937427,
+      "OriginalText": "自出场时起，在5回合内\n会将整个场地变为青草场地状态。",
+      "TextInfos": [
+        {
+          "Text": "自出场时起，在5回合内",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "会将整个场地变为青草场地状态。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 235,
+      "LabelName": "TOKUSEIINFO_SYN_236",
+      "LabelHash": 940146515,
+      "OriginalText": "每次出场时，\n会变为和自己使出的招式\n相同的属性仅1次。",
+      "TextInfos": [
+        {
+          "Text": "每次出场时，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "会变为和自己使出的招式",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "相同的属性仅1次。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 239,
       "LabelName": "TOKUSEIINFO_SYN_240",
       "LabelHash": -1432506474,
@@ -6399,6 +6849,46 @@
         },
         {
           "Text": "特性或招式的影响。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 243,
+      "LabelName": "TOKUSEIINFO_SYN_244",
+      "LabelHash": -1432506478,
+      "OriginalText": "声音类招式的威力会变为1.3倍。\n因声音类招式而受到的伤害会减半。",
+      "TextInfos": [
+        {
+          "Text": "声音类招式的威力会变为1.3倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "因声音类招式而受到的伤害会减半。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6523,6 +7013,46 @@
         },
         {
           "Text": "极光幕状态。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 251,
+      "LabelName": "TOKUSEIINFO_SYN_252",
+      "LabelHash": 133577465,
+      "OriginalText": "自己和同伴的钢属性招式的\n威力会变为1.5倍。",
+      "TextInfos": [
+        {
+          "Text": "自己和同伴的钢属性招式的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "威力会变为1.5倍。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6756,6 +7286,86 @@
       "StyleCode": 69
     },
     {
+      "Index": 268,
+      "LabelName": "TOKUSEIINFO_SYN_269",
+      "LabelHash": 1699661401,
+      "OriginalText": "自受到招式的伤害时起，在5回合内\n会将整个场地变为青草场地状态。",
+      "TextInfos": [
+        {
+          "Text": "自受到招式的伤害时起，在5回合内",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "会将整个场地变为青草场地状态。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 269,
+      "LabelName": "TOKUSEIINFO_SYN_270",
+      "LabelHash": -1029221947,
+      "OriginalText": "受到火属性招式的伤害时，\n攻击会提高1阶，且不会陷入灼伤状态。",
+      "TextInfos": [
+        {
+          "Text": "受到火属性招式的伤害时，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "攻击会提高1阶，且不会陷入灼伤状态。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 271,
       "LabelName": "TOKUSEIINFO_SYN_272",
       "LabelHash": -1029221949,
@@ -6799,6 +7409,46 @@
         },
         {
           "Text": "而受到的伤害会减半。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 274,
+      "LabelName": "TOKUSEIINFO_SYN_275",
+      "LabelHash": -1029221950,
+      "OriginalText": "威吓将无效，且攻击会提高1阶。\n对手的迫使自己进行替换的招式和道具将无效。",
+      "TextInfos": [
+        {
+          "Text": "威吓将无效，且攻击会提高1阶。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对手的迫使自己进行替换的招式和道具将无效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -7537,6 +8187,28 @@
         },
         {
           "Text": "会让对手陷入灼伤状态。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 318,
+      "LabelName": "TOKUSEIINFO_SYN_319",
+      "LabelHash": 2102946023,
+      "OriginalText": "因接触类招式而受到的伤害会减半。",
+      "TextInfos": [
+        {
+          "Text": "因接触类招式而受到的伤害会减半。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

@@ -15,7 +15,7 @@
       "Index": 0,
       "LabelName": "btl_condition_paralysis_info",
       "LabelHash": -59026412,
-      "OriginalText": "有12.5%的机率无法使用招式。\n速度会变为1/2。",
+      "OriginalText": "有12.5%的机率无法使用招式。\n速度会变为1/2。\n对电属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "有12.5%的机率无法使用招式。",
@@ -43,6 +43,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对电属性的宝可梦将无效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -55,7 +73,7 @@
       "Index": 1,
       "LabelName": "btl_condition_freezing_info",
       "LabelHash": -206355500,
-      "OriginalText": "除了部分例外之外，无法使用招式。\n使用招式时，有25%的机率会回复。\n陷入冰冻状态后，第3次行动时会回复。\n受到火属性等招式的伤害时会回复。",
+      "OriginalText": "除了部分例外之外，无法使用招式。\n使用招式时，有25%的机率会回复。\n陷入冰冻状态后，第3次行动时会回复。\n受到火属性等招式的伤害时会回复。\n对冰属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "除了部分例外之外，无法使用招式。",
@@ -119,6 +137,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对冰属性的宝可梦将无效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -131,7 +167,7 @@
       "Index": 2,
       "LabelName": "btl_condition_burning_info",
       "LabelHash": -2104732437,
-      "OriginalText": "回合结束时，\n会受到最大HP的1/16的伤害。\n给予的物理招式的伤害会变为1/2。",
+      "OriginalText": "回合结束时，\n会受到最大HP的1/16的伤害。\n给予的物理招式的伤害会变为1/2。\n对火属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "回合结束时，",
@@ -177,6 +213,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对火属性的宝可梦将无效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -189,7 +243,7 @@
       "Index": 3,
       "LabelName": "btl_condition_poison_info",
       "LabelHash": -1028631508,
-      "OriginalText": "回合结束时，\n会受到最大HP的1/8的伤害。",
+      "OriginalText": "回合结束时，\n会受到最大HP的1/8的伤害。\n对毒、钢属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "回合结束时，",
@@ -217,6 +271,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对毒、钢属性的宝可梦将无效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -229,7 +301,7 @@
       "Index": 4,
       "LabelName": "btl_condition_bad_poison_info",
       "LabelHash": 1314343280,
-      "OriginalText": "随着回合的进行，\n在回合结束时受到的伤害会按照最大HP的\n1/16、2/16、3/16的规律逐渐增加。\n进行替换后再次出场时，\n会变为从1/16开始增加。",
+      "OriginalText": "随着回合的进行，\n在回合结束时受到的伤害会按照最大HP的\n1/16、2/16、3/16的规律逐渐增加。\n进行替换后再次出场时，\n会变为从1/16开始增加。\n对毒、钢属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "随着回合的进行，",
@@ -305,6 +377,24 @@
         },
         {
           "Text": "会变为从1/16开始增加。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对毒、钢属性的宝可梦将无效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

@@ -1297,10 +1297,28 @@
       "Index": 40,
       "LabelName": "BTR_STATE_SYN_25_02",
       "LabelHash": -514925382,
-      "OriginalText": "无法进行替换。",
+      "OriginalText": "无法进行替换。\n对幽灵属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "无法进行替换。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对幽灵属性的宝可梦将无效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1891,7 +1909,7 @@
       "Index": 58,
       "LabelName": "BTR_STATE_SYN_37_02",
       "LabelHash": -797255631,
-      "OriginalText": "会让替换出场的宝可梦陷入中毒状态。\n使用2次后会让其陷入剧毒状态。\n对飞行属性、飘浮特性等的\n宝可梦将无效。",
+      "OriginalText": "会让替换出场的宝可梦陷入中毒状态。\n使用2次后会让其陷入剧毒状态。\n对飞行属性、飘浮特性等的宝可梦将无效。\n毒属性的宝可梦出场时会解除此状态。",
       "TextInfos": [
         {
           "Text": "会让替换出场的宝可梦陷入中毒状态。",
@@ -1930,7 +1948,7 @@
           }
         },
         {
-          "Text": "对飞行属性、飘浮特性等的",
+          "Text": "对飞行属性、飘浮特性等的宝可梦将无效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1948,7 +1966,7 @@
           }
         },
         {
-          "Text": "宝可梦将无效。",
+          "Text": "毒属性的宝可梦出场时会解除此状态。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2859,7 +2877,7 @@
       "Index": 84,
       "LabelName": "BTR_STATE_SYN_52_02",
       "LabelHash": 1353683472,
-      "OriginalText": "回合结束时，会受到最大HP1/8的伤害。\n在使用了该招式的宝可梦所在位置的对手\n会回复相当于伤害量的HP。",
+      "OriginalText": "回合结束时，会受到最大HP1/8的伤害。\n在使用了该招式的宝可梦所在位置的对手\n会回复相当于伤害量的HP。\n对草属性的宝可梦将无效。",
       "TextInfos": [
         {
           "Text": "回合结束时，会受到最大HP1/8的伤害。",
@@ -2899,6 +2917,24 @@
         },
         {
           "Text": "会回复相当于伤害量的HP。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "对草属性的宝可梦将无效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3798,6 +3834,68 @@
       "StyleCode": 14
     },
     {
+      "Index": 116,
+      "LabelName": "BTR_STATE_SYN_77_02",
+      "LabelHash": -797259723,
+      "OriginalText": "回合结束时，\n防御、特防会降低1阶。",
+      "TextInfos": [
+        {
+          "Text": "回合结束时，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "防御、特防会降低1阶。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 117,
+      "LabelName": "BTR_STATE_SYN_77_03",
+      "LabelHash": -797259724,
+      "OriginalText": "蛸固状态",
+      "TextInfos": [
+        {
+          "Text": "蛸固状态",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
       "Index": 128,
       "LabelName": "BTR_STATE_SYN_106_02",
       "LabelHash": 54712378,
@@ -4005,6 +4103,68 @@
       "TextInfos": [
         {
           "Text": "回复封锁状态",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 134,
+      "LabelName": "BTR_STATE_SYN_112_02",
+      "LabelHash": 862573219,
+      "OriginalText": "对手的招式必定会击中，\n且伤害会变为2倍。",
+      "TextInfos": [
+        {
+          "Text": "对手的招式必定会击中，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "且伤害会变为2倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 135,
+      "LabelName": "BTR_STATE_SYN_112_03",
+      "LabelHash": -703510722,
+      "OriginalText": "无防备状态",
+      "TextInfos": [
+        {
+          "Text": "无防备状态",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4635,6 +4795,68 @@
       "TextInfos": [
         {
           "Text": "引火状态",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 158,
+      "LabelName": "BTR_STATE_SYN_124_02",
+      "LabelHash": -1187865550,
+      "OriginalText": "使用招式和受到招式影响的\n宝可梦双方都无法进行替换。",
+      "TextInfos": [
+        {
+          "Text": "使用招式和受到招式影响的",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "宝可梦双方都无法进行替换。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 159,
+      "LabelName": "BTR_STATE_SYN_124_03",
+      "LabelHash": 378218391,
+      "OriginalText": "紧咬不放状态",
+      "TextInfos": [
+        {
+          "Text": "紧咬不放状态",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
