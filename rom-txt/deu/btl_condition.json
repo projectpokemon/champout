@@ -15,7 +15,7 @@
       "Index": 0,
       "LabelName": "btl_condition_paralysis_info",
       "LabelHash": -59026412,
-      "OriginalText": "Das Pokémon kann mit 12,5%iger\nWahrscheinlichkeit keine Attacken einsetzen.\nAußerdem wird seine Initiative halbiert.",
+      "OriginalText": "Das Pokémon kann mit 12,5%iger\nWahrscheinlichkeit keine Attacken einsetzen.\nAußerdem wird seine Initiative halbiert.\nPokémon vom Typ Elektro können nicht\nparalysiert werden.",
       "TextInfos": [
         {
           "Text": "Das Pokémon kann mit 12,5%iger",
@@ -61,6 +61,42 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pokémon vom Typ Elektro können nicht",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "paralysiert werden.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 1,
@@ -73,7 +109,7 @@
       "Index": 1,
       "LabelName": "btl_condition_freezing_info",
       "LabelHash": -206355500,
-      "OriginalText": "Das Pokémon kann bis auf wenige Ausnahmen\nkeine Attacken einsetzen. Beim Versuch, dies zu\ntun, taut es mit 25%iger Wahrscheinlichkeit auf.\nIn Runde 3 des Gefrorenseins oder wenn es\nSchaden durch eine Feuer-Attacke oder Ähnliches\nerleidet, taut es garantiert auf.",
+      "OriginalText": "Das Pokémon kann bis auf wenige Ausnahmen\nkeine Attacken einsetzen. Beim Versuch, dies zu\ntun, taut es mit 25%iger Wahrscheinlichkeit auf.\nIn Runde 3 des Gefrorenseins oder wenn es\nSchaden durch eine Feuer-Attacke oder Ähnliches\nerleidet, taut es garantiert auf. Pokémon vom Typ\nEis können nicht eingefroren werden.",
       "TextInfos": [
         {
           "Text": "Das Pokémon kann bis auf wenige Ausnahmen",
@@ -166,7 +202,25 @@
           }
         },
         {
-          "Text": "erleidet, taut es garantiert auf.",
+          "Text": "erleidet, taut es garantiert auf. Pokémon vom Typ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Eis können nicht eingefroren werden.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -185,7 +239,7 @@
       "Index": 2,
       "LabelName": "btl_condition_burning_info",
       "LabelHash": -2104732437,
-      "OriginalText": "Das Pokémon erleidet am Ende jeder Runde\nSchaden in Höhe von 1/16 seiner maximalen KP.\nAußerdem wird der Schaden, den es mit\nphysischen Attacken verursacht, halbiert.",
+      "OriginalText": "Das Pokémon erleidet am Ende jeder Runde\nSchaden in Höhe von 1/16 seiner maximalen KP.\nAußerdem wird der Schaden, den es mit\nphysischen Attacken verursacht, halbiert.\nPokémon vom Typ Feuer können keine\nVerbrennungen erleiden.",
       "TextInfos": [
         {
           "Text": "Das Pokémon erleidet am Ende jeder Runde",
@@ -249,6 +303,42 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pokémon vom Typ Feuer können keine",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Verbrennungen erleiden.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 1,
@@ -261,7 +351,7 @@
       "Index": 3,
       "LabelName": "btl_condition_poison_info",
       "LabelHash": -1028631508,
-      "OriginalText": "Das Pokémon erleidet am Ende jeder Runde\nSchaden in Höhe von 1/8 seiner maximalen KP.",
+      "OriginalText": "Das Pokémon erleidet am Ende jeder Runde\nSchaden in Höhe von 1/8 seiner maximalen KP.\nPokémon vom Typ Gift oder Stahl können nicht\nvergiftet werden.",
       "TextInfos": [
         {
           "Text": "Das Pokémon erleidet am Ende jeder Runde",
@@ -289,6 +379,42 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pokémon vom Typ Gift oder Stahl können nicht",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "vergiftet werden.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 1,
@@ -301,7 +427,7 @@
       "Index": 4,
       "LabelName": "btl_condition_bad_poison_info",
       "LabelHash": 1314343280,
-      "OriginalText": "Das Pokémon erleidet am Ende jeder Runde\nSchaden, der mit jedem Mal zunimmt: Erst 1/16\nseiner maximalen KP, dann 2/16, 3/16 usw.\nWenn es aus- und wieder eingewechselt wird,\nbeginnt der erlittene Schaden wieder bei 1/16.",
+      "OriginalText": "Das Pokémon erleidet am Ende jeder Runde\nSchaden, der mit jedem Mal zunimmt: Erst 1/16\nseiner maximalen KP, dann 2/16, 3/16 usw.\nWenn es aus- und wieder eingewechselt wird,\nbeginnt der erlittene Schaden wieder bei 1/16.\nPokémon vom Typ Gift oder Stahl können nicht\nschwer vergiftet werden.",
       "TextInfos": [
         {
           "Text": "Das Pokémon erleidet am Ende jeder Runde",
@@ -377,6 +503,42 @@
         },
         {
           "Text": "beginnt der erlittene Schaden wieder bei 1/16.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pokémon vom Typ Gift oder Stahl können nicht",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "schwer vergiftet werden.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

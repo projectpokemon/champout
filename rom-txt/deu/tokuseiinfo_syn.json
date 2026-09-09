@@ -95,7 +95,7 @@
       "Index": 2,
       "LabelName": "TOKUSEIINFO_SYN_003",
       "LabelHash": 536861931,
-      "OriginalText": "Die Initiative des Pokémon wird am Ende jeder Runde um\n1 Stufe erhöht.",
+      "OriginalText": "Die Initiative des Pokémon wird am Ende jeder Runde um\n1 Stufe erhöht.\nDie Initiative wird nicht erhöht, wenn das Pokémon in\ndieser Runde eingewechselt wurde.",
       "TextInfos": [
         {
           "Text": "Die Initiative des Pokémon wird am Ende jeder Runde um",
@@ -117,6 +117,42 @@
         },
         {
           "Text": "1 Stufe erhöht.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Die Initiative wird nicht erhöht, wenn das Pokémon in",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "dieser Runde eingewechselt wurde.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -313,7 +349,7 @@
       "Index": 7,
       "LabelName": "TOKUSEIINFO_SYN_008",
       "LabelHash": 536861920,
-      "OriginalText": "Bei einem Sandsturm wird der Ausweichwert des Pokémon\num 25 % erhöht.",
+      "OriginalText": "Bei einem Sandsturm wird der Ausweichwert des Pokémon\num 25 % erhöht.\nAußerdem erleidet das Pokémon keinen Schaden durch\nSandstürme.",
       "TextInfos": [
         {
           "Text": "Bei einem Sandsturm wird der Ausweichwert des Pokémon",
@@ -335,6 +371,42 @@
         },
         {
           "Text": "um 25 % erhöht.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Außerdem erleidet das Pokémon keinen Schaden durch",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Sandstürme.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -975,7 +1047,7 @@
       "Index": 26,
       "LabelName": "TOKUSEIINFO_SYN_027",
       "LabelHash": -625937487,
-      "OriginalText": "Wird das Pokémon von einer Kontaktattacke getroffen,\nwird der Angreifer mit 30%iger Wahrscheinlichkeit\nvergiftet, paralysiert oder in Schlaf versetzt.",
+      "OriginalText": "Wird das Pokémon von einer Kontaktattacke getroffen,\nwird der Angreifer mit 30%iger Wahrscheinlichkeit\nvergiftet, paralysiert oder in Schlaf versetzt.\nDiese Fähigkeit hat keine Wirkung auf Pokémon vom\nTyp Pflanze.",
       "TextInfos": [
         {
           "Text": "Wird das Pokémon von einer Kontaktattacke getroffen,",
@@ -1015,6 +1087,42 @@
         },
         {
           "Text": "vergiftet, paralysiert oder in Schlaf versetzt.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Diese Fähigkeit hat keine Wirkung auf Pokémon vom",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Typ Pflanze.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1790,6 +1898,64 @@
       "StyleCode": 69
     },
     {
+      "Index": 49,
+      "LabelName": "TOKUSEIINFO_SYN_050",
+      "LabelHash": 133577401,
+      "OriginalText": "Das Pokémon ignoriert sämtliche Effekte, die verhindern\nwürden, dass es gegen ein anderes Pokémon seines Teams\nausgewechselt wird.",
+      "TextInfos": [
+        {
+          "Text": "Das Pokémon ignoriert sämtliche Effekte, die verhindern",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "würden, dass es gegen ein anderes Pokémon seines Teams",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ausgewechselt wird.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 50,
       "LabelName": "TOKUSEIINFO_SYN_051",
       "LabelHash": 133577402,
@@ -2381,6 +2547,64 @@
         },
         {
           "Text": "wenn es von einem Statusproblem betroffen ist.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 63,
+      "LabelName": "TOKUSEIINFO_SYN_064",
+      "LabelHash": 1699661338,
+      "OriginalText": "Wird das Pokémon von einer KP-stehlenden Attacke getroffen,\nregeneriert der Angreifer dadurch keine KP. Stattdessen erleidet\ner Schaden in Höhe der KP, die er regeneriert hätte.",
+      "TextInfos": [
+        {
+          "Text": "Wird das Pokémon von einer KP-stehlenden Attacke getroffen,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "regeneriert der Angreifer dadurch keine KP. Stattdessen erleidet",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "er Schaden in Höhe der KP, die er regeneriert hätte.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5846,6 +6070,64 @@
       "StyleCode": 69
     },
     {
+      "Index": 154,
+      "LabelName": "TOKUSEIINFO_SYN_155",
+      "LabelHash": 133577493,
+      "OriginalText": "Erleidet das Pokémon Schaden durch eine Attacke vom Typ\nUnlicht, Geist oder Käfer oder wirkt Bedroher auf es,\nwird seine Initiative um 1 Stufe erhöht.",
+      "TextInfos": [
+        {
+          "Text": "Erleidet das Pokémon Schaden durch eine Attacke vom Typ",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Unlicht, Geist oder Käfer oder wirkt Bedroher auf es,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "wird seine Initiative um 1 Stufe erhöht.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 155,
       "LabelName": "TOKUSEIINFO_SYN_156",
       "LabelHash": 133577496,
@@ -5929,7 +6211,7 @@
       "Index": 157,
       "LabelName": "TOKUSEIINFO_SYN_158",
       "LabelHash": 133577490,
-      "OriginalText": "Die Priorität von Status-Attacken des Pokémon wird\num 1 Stufe erhöht.",
+      "OriginalText": "Die Priorität von Status-Attacken des Pokémon wird\num 1 Stufe erhöht.\nIm Gegenzug haben seine Status-Attacken keine Wirkung\nmehr auf Pokémon vom Typ Unlicht.",
       "TextInfos": [
         {
           "Text": "Die Priorität von Status-Attacken des Pokémon wird",
@@ -5951,6 +6233,42 @@
         },
         {
           "Text": "um 1 Stufe erhöht.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Im Gegenzug haben seine Status-Attacken keine Wirkung",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "mehr auf Pokémon vom Typ Unlicht.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6620,6 +6938,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 178,
+      "LabelName": "TOKUSEIINFO_SYN_179",
+      "LabelHash": -1029221925,
+      "OriginalText": "Die Verteidigung des Pokémon wird um 50 % erhöht,\nwenn ein Grasfeld aktiv ist.",
+      "TextInfos": [
+        {
+          "Text": "Die Verteidigung des Pokémon wird um 50 % erhöht,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "wenn ein Grasfeld aktiv ist.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 179,
       "LabelName": "TOKUSEIINFO_SYN_180",
       "LabelHash": 893092385,
@@ -6958,6 +7316,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 193,
+      "LabelName": "TOKUSEIINFO_SYN_194",
+      "LabelHash": -1835790974,
+      "OriginalText": "Fallen die KP des Pokémon auf die Hälfte des Maximalwerts\noder weniger, wird es ausgewechselt.",
+      "TextInfos": [
+        {
+          "Text": "Fallen die KP des Pokémon auf die Hälfte des Maximalwerts",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "oder weniger, wird es ausgewechselt.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 195,
       "LabelName": "TOKUSEIINFO_SYN_196",
       "LabelHash": -1835790972,
@@ -6983,6 +7381,46 @@
         },
         {
           "Text": "Pokémon Volltreffergarantie.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 197,
+      "LabelName": "TOKUSEIINFO_SYN_198",
+      "LabelHash": -1835790978,
+      "OriginalText": "Beim Angriff auf neu eingewechselte Ziele wird die\nStärke der Attacken des Pokémon verdoppelt.",
+      "TextInfos": [
+        {
+          "Text": "Beim Angriff auf neu eingewechselte Ziele wird die",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Stärke der Attacken des Pokémon verdoppelt.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -7612,6 +8050,126 @@
       "StyleCode": 69
     },
     {
+      "Index": 226,
+      "LabelName": "TOKUSEIINFO_SYN_227",
+      "LabelHash": -625937425,
+      "OriginalText": "Das Pokémon erzeugt bei Kampfantritt auf dem gesamten\nKampffeld ein Psychofeld, das 5 Runden lang anhält.",
+      "TextInfos": [
+        {
+          "Text": "Das Pokémon erzeugt bei Kampfantritt auf dem gesamten",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Kampffeld ein Psychofeld, das 5 Runden lang anhält.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 228,
+      "LabelName": "TOKUSEIINFO_SYN_229",
+      "LabelHash": -625937427,
+      "OriginalText": "Das Pokémon erzeugt bei Kampfantritt auf dem gesamten\nKampffeld ein Grasfeld, das 5 Runden lang anhält.",
+      "TextInfos": [
+        {
+          "Text": "Das Pokémon erzeugt bei Kampfantritt auf dem gesamten",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Kampffeld ein Grasfeld, das 5 Runden lang anhält.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 235,
+      "LabelName": "TOKUSEIINFO_SYN_236",
+      "LabelHash": 940146515,
+      "OriginalText": "Einmal pro Kampfantritt nimmt das Pokémon beim Einsatz einer\nAttacke deren Typ an.",
+      "TextInfos": [
+        {
+          "Text": "Einmal pro Kampfantritt nimmt das Pokémon beim Einsatz einer",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Attacke deren Typ an.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 239,
       "LabelName": "TOKUSEIINFO_SYN_240",
       "LabelHash": -1432506474,
@@ -7677,6 +8235,82 @@
         },
         {
           "Text": "Attacken, die Attacken umleiten.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 243,
+      "LabelName": "TOKUSEIINFO_SYN_244",
+      "LabelHash": -1432506478,
+      "OriginalText": "Die Stärke der Geräuschattacken des Pokémon wird\num 30 % erhöht.\nDer Schaden, den es selbst durch Geräuschattacken erleidet,\nwird halbiert.",
+      "TextInfos": [
+        {
+          "Text": "Die Stärke der Geräuschattacken des Pokémon wird",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "um 30 % erhöht.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Der Schaden, den es selbst durch Geräuschattacken erleidet,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "wird halbiert.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -7819,6 +8453,46 @@
         },
         {
           "Text": "Reflektor und Auroraschleier auf.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 251,
+      "LabelName": "TOKUSEIINFO_SYN_252",
+      "LabelHash": 133577465,
+      "OriginalText": "Die Stärke von Stahl-Attacken des Pokémon und seiner\nMitstreiter wird um 50 % erhöht.",
+      "TextInfos": [
+        {
+          "Text": "Die Stärke von Stahl-Attacken des Pokémon und seiner",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Mitstreiter wird um 50 % erhöht.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -8088,6 +8762,122 @@
       "StyleCode": 69
     },
     {
+      "Index": 268,
+      "LabelName": "TOKUSEIINFO_SYN_269",
+      "LabelHash": 1699661401,
+      "OriginalText": "Erleidet das Pokémon Schaden durch eine Attacke,\nerzeugt es auf dem gesamten Kampffeld ein Grasfeld,\ndas 5 Runden lang anhält.",
+      "TextInfos": [
+        {
+          "Text": "Erleidet das Pokémon Schaden durch eine Attacke,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "erzeugt es auf dem gesamten Kampffeld ein Grasfeld,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "das 5 Runden lang anhält.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 269,
+      "LabelName": "TOKUSEIINFO_SYN_270",
+      "LabelHash": -1029221947,
+      "OriginalText": "Erleidet das Pokémon Schaden durch eine Feuer-Attacke,\nwird sein Angriff um 1 Stufe erhöht.\nAußerdem kann es keine Verbrennungen erleiden.",
+      "TextInfos": [
+        {
+          "Text": "Erleidet das Pokémon Schaden durch eine Feuer-Attacke,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "wird sein Angriff um 1 Stufe erhöht.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Außerdem kann es keine Verbrennungen erleiden.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 271,
       "LabelName": "TOKUSEIINFO_SYN_272",
       "LabelHash": -1029221949,
@@ -8113,6 +8903,100 @@
         },
         {
           "Text": "Schaden, den es durch Geister-Attacken erleidet, wird halbiert.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 274,
+      "LabelName": "TOKUSEIINFO_SYN_275",
+      "LabelHash": -1029221950,
+      "OriginalText": "Bedroher hat keine Wirkung auf das Pokémon.\nStattdessen wird sein Angriff um 1 Stufe erhöht.\nAttacken und Items anderer Pokémon, durch die das Pokémon\nausgewechselt werden würde, haben ebenfalls keine Wirkung\nauf es.",
+      "TextInfos": [
+        {
+          "Text": "Bedroher hat keine Wirkung auf das Pokémon.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Stattdessen wird sein Angriff um 1 Stufe erhöht.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Attacken und Items anderer Pokémon, durch die das Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ausgewechselt werden würde, haben ebenfalls keine Wirkung",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "auf es.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -8941,6 +9825,46 @@
         },
         {
           "Text": "erleidet der Angreifer Verbrennungen.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 318,
+      "LabelName": "TOKUSEIINFO_SYN_319",
+      "LabelHash": 2102946023,
+      "OriginalText": "Der Schaden, den das Pokémon durch Kontaktattacken\nerleidet, wird halbiert.",
+      "TextInfos": [
+        {
+          "Text": "Der Schaden, den das Pokémon durch Kontaktattacken",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "erleidet, wird halbiert.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

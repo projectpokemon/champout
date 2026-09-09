@@ -1639,10 +1639,46 @@
       "Index": 40,
       "LabelName": "BTR_STATE_SYN_25_02",
       "LabelHash": -514925382,
-      "OriginalText": "Das Pokémon kann nicht ausgewechselt werden.",
+      "OriginalText": "Das Pokémon kann nicht ausgewechselt werden.\nPokémon vom Typ Geist können nicht von diesem\nZustand betroffen sein.",
       "TextInfos": [
         {
           "Text": "Das Pokémon kann nicht ausgewechselt werden.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pokémon vom Typ Geist können nicht von diesem",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Zustand betroffen sein.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2359,10 +2395,10 @@
       "Index": 58,
       "LabelName": "BTR_STATE_SYN_37_02",
       "LabelHash": -797255631,
-      "OriginalText": "Eingewechselte Pokémon werden vergiftet.\nWenn der Zustand 2-mal erzeugt wird, werden\nsie schwer vergiftet. Pokémon vom Typ Flug,\nPokémon mit der Fähigkeit Schwebe etc. sind\nnicht davon betroffen.",
+      "OriginalText": "Eingewechselte Pokémon werden vergiftet. Wird\nder Zustand 2-mal erzeugt, werden sie schwer\nvergiftet. Flug-Pokémon oder Pokémon mit der\nFähigkeit Schwebe etc. sind nicht betroffen. Wird\nbei Kampfantritt eines Gift-Pokémon aufgehoben.",
       "TextInfos": [
         {
-          "Text": "Eingewechselte Pokémon werden vergiftet.",
+          "Text": "Eingewechselte Pokémon werden vergiftet. Wird",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2380,7 +2416,7 @@
           }
         },
         {
-          "Text": "Wenn der Zustand 2-mal erzeugt wird, werden",
+          "Text": "der Zustand 2-mal erzeugt, werden sie schwer",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2398,7 +2434,7 @@
           }
         },
         {
-          "Text": "sie schwer vergiftet. Pokémon vom Typ Flug,",
+          "Text": "vergiftet. Flug-Pokémon oder Pokémon mit der",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2416,7 +2452,7 @@
           }
         },
         {
-          "Text": "Pokémon mit der Fähigkeit Schwebe etc. sind",
+          "Text": "Fähigkeit Schwebe etc. sind nicht betroffen. Wird",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2434,7 +2470,7 @@
           }
         },
         {
-          "Text": "nicht davon betroffen.",
+          "Text": "bei Kampfantritt eines Gift-Pokémon aufgehoben.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3435,7 +3471,7 @@
       "Index": 84,
       "LabelName": "BTR_STATE_SYN_52_02",
       "LabelHash": 1353683472,
-      "OriginalText": "Das Pokémon erleidet am Ende jeder Runde\nSchaden in Höhe von 1/8 seiner maximalen KP.\nAnschließend werden die KP des Pokémon,\ndas sich an der Stelle des Anwenders der Attacke\nbefindet, in dieser Höhe aufgefüllt.",
+      "OriginalText": "Das Pokémon erleidet am Ende jeder Runde\nSchaden in Höhe von 1/8 seiner maximalen KP.\nDie KP des Pokémon an der Stelle des Anwenders\nder Attacke werden in dieser Höhe aufgefüllt.\nPflanzen-Pokémon können nicht betroffen sein.",
       "TextInfos": [
         {
           "Text": "Das Pokémon erleidet am Ende jeder Runde",
@@ -3474,7 +3510,7 @@
           }
         },
         {
-          "Text": "Anschließend werden die KP des Pokémon,",
+          "Text": "Die KP des Pokémon an der Stelle des Anwenders",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3492,7 +3528,7 @@
           }
         },
         {
-          "Text": "das sich an der Stelle des Anwenders der Attacke",
+          "Text": "der Attacke werden in dieser Höhe aufgefüllt.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3510,7 +3546,7 @@
           }
         },
         {
-          "Text": "befindet, in dieser Höhe aufgefüllt.",
+          "Text": "Pflanzen-Pokémon können nicht betroffen sein.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4518,6 +4554,86 @@
       "StyleCode": 14
     },
     {
+      "Index": 116,
+      "LabelName": "BTR_STATE_SYN_77_02",
+      "LabelHash": -797259723,
+      "OriginalText": "Am Ende jeder Runde werden Verteidigung und\nSpezial-Verteidigung des Pokémon um 1 Stufe\ngesenkt.",
+      "TextInfos": [
+        {
+          "Text": "Am Ende jeder Runde werden Verteidigung und",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Spezial-Verteidigung des Pokémon um 1 Stufe",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "gesenkt.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 117,
+      "LabelName": "BTR_STATE_SYN_77_03",
+      "LabelHash": -797259724,
+      "OriginalText": "Octoklammer",
+      "TextInfos": [
+        {
+          "Text": "Octoklammer",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
       "Index": 128,
       "LabelName": "BTR_STATE_SYN_106_02",
       "LabelHash": 54712378,
@@ -4725,6 +4841,68 @@
       "TextInfos": [
         {
           "Text": "Heilblockade",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 134,
+      "LabelName": "BTR_STATE_SYN_112_02",
+      "LabelHash": 862573219,
+      "OriginalText": "Gegnerische Attacken treffen das Pokémon\ngarantiert und verursachen doppelten Schaden.",
+      "TextInfos": [
+        {
+          "Text": "Gegnerische Attacken treffen das Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "garantiert und verursachen doppelten Schaden.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 135,
+      "LabelName": "BTR_STATE_SYN_112_03",
+      "LabelHash": -703510722,
+      "OriginalText": "Schutzlos",
+      "TextInfos": [
+        {
+          "Text": "Schutzlos",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5409,6 +5587,68 @@
       "TextInfos": [
         {
           "Text": "Feuerfänger",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 158,
+      "LabelName": "BTR_STATE_SYN_124_02",
+      "LabelHash": -1187865550,
+      "OriginalText": "Weder der Anwender noch das Ziel der Attacke\nkönnen ausgewechselt werden.",
+      "TextInfos": [
+        {
+          "Text": "Weder der Anwender noch das Ziel der Attacke",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "können ausgewechselt werden.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 159,
+      "LabelName": "BTR_STATE_SYN_124_03",
+      "LabelHash": 378218391,
+      "OriginalText": "Fesselbiss",
+      "TextInfos": [
+        {
+          "Text": "Fesselbiss",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

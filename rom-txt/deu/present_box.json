@@ -499,7 +499,7 @@
       "Index": 16,
       "LabelName": "present_box_45",
       "LabelHash": -1056543265,
-      "OriginalText": "Hinweis: Nachrichten mit nicht angenommenen\nGeschenken werden nicht gelöscht.",
+      "OriginalText": "Hinweis: Wichtige Nachrichten und Nachrichten\nmit nicht angenommenen Geschenken werden\nnicht gelöscht.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -516,7 +516,7 @@
           }
         },
         {
-          "Text": "Hinweis: Nachrichten mit nicht angenommenen",
+          "Text": "Hinweis: Wichtige Nachrichten und Nachrichten",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -534,7 +534,25 @@
           }
         },
         {
-          "Text": "Geschenken werden nicht gelöscht.",
+          "Text": "mit nicht angenommenen Geschenken werden",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "nicht gelöscht.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -561,7 +579,7 @@
       "CountabilityCode": 1,
       "ArticleCode": 0,
       "InitialSoundCode": 0,
-      "StyleCode": 42
+      "StyleCode": 44
     },
     {
       "Index": 17,
