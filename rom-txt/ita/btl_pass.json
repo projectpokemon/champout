@@ -480,10 +480,46 @@
       "Index": 11,
       "LabelName": "btl_pass_09",
       "LabelHash": -1710991702,
-      "OriginalText": "Non ci sono pass lotta disponibili in questo momento.",
+      "OriginalText": "Non ci sono pass lotta attivi in questo momento.\nI regali della stagione precedente non ancora ricevuti verranno\ninviati alla cassetta della posta all’inizio della prossima stagione.",
       "TextInfos": [
         {
-          "Text": "Non ci sono pass lotta disponibili in questo momento.",
+          "Text": "Non ci sono pass lotta attivi in questo momento.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "I regali della stagione precedente non ancora ricevuti verranno",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "inviati alla cassetta della posta all’inizio della prossima stagione.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -496,7 +532,73 @@
       "CountabilityCode": 1,
       "ArticleCode": 0,
       "InitialSoundCode": 0,
-      "StyleCode": 66
+      "StyleCode": 67
+    },
+    {
+      "Index": 12,
+      "LabelName": "btl_pass_11",
+      "LabelHash": -144907769,
+      "OriginalText": "Ripristina look",
+      "TextInfos": [
+        {
+          "Text": "Ripristina look",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 13,
+      "LabelName": "btl_pass_12",
+      "LabelHash": -144907770,
+      "OriginalText": "Vedi meglio articolo",
+      "TextInfos": [
+        {
+          "Text": "Vedi meglio articolo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
+    },
+    {
+      "Index": 14,
+      "LabelName": "btl_pass_13",
+      "LabelHash": -144907771,
+      "OriginalText": "Vedi meglio capigliatura",
+      "TextInfos": [
+        {
+          "Text": "Vedi meglio capigliatura",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 11
     }
   ]
 }

@@ -1534,10 +1534,28 @@
       "Index": 40,
       "LabelName": "BTR_STATE_SYN_25_02",
       "LabelHash": -514925382,
-      "OriginalText": "Impedisce la sostituzione.",
+      "OriginalText": "Impedisce la sostituzione. Non ha effetto\nsui Pokémon di tipo Spettro.",
       "TextInfos": [
         {
-          "Text": "Impedisce la sostituzione.",
+          "Text": "Impedisce la sostituzione. Non ha effetto",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sui Pokémon di tipo Spettro.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2236,10 +2254,10 @@
       "Index": 58,
       "LabelName": "BTR_STATE_SYN_37_02",
       "LabelHash": -797255631,
-      "OriginalText": "Causa lo stato Avvelenamento ai Pokémon che\nentrano in campo, o Iperavvelenamento se\nlo stato Punte velenose viene applicato ancora.\nNon ha effetto su alcuni Pokémon, come quelli\ndi tipo Volante o che hanno l’abilità Levitazione.",
+      "OriginalText": "Causa lo stato Avvelenamento a chi entra in campo,\no Iperavvelenamento se applicato di nuovo quando\ngià attivo. Non ha effetto sui Pokémon di tipo\nVolante, con l’abilità Levitazione o simili. Termina\nse un Pokémon di tipo Veleno entra in campo.",
       "TextInfos": [
         {
-          "Text": "Causa lo stato Avvelenamento ai Pokémon che",
+          "Text": "Causa lo stato Avvelenamento a chi entra in campo,",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2257,7 +2275,7 @@
           }
         },
         {
-          "Text": "entrano in campo, o Iperavvelenamento se",
+          "Text": "o Iperavvelenamento se applicato di nuovo quando",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2275,7 +2293,7 @@
           }
         },
         {
-          "Text": "lo stato Punte velenose viene applicato ancora.",
+          "Text": "già attivo. Non ha effetto sui Pokémon di tipo",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2293,7 +2311,7 @@
           }
         },
         {
-          "Text": "Non ha effetto su alcuni Pokémon, come quelli",
+          "Text": "Volante, con l’abilità Levitazione o simili. Termina",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2311,7 +2329,7 @@
           }
         },
         {
-          "Text": "di tipo Volante o che hanno l’abilità Levitazione.",
+          "Text": "se un Pokémon di tipo Veleno entra in campo.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3276,7 +3294,7 @@
       "Index": 84,
       "LabelName": "BTR_STATE_SYN_52_02",
       "LabelHash": 1353683472,
-      "OriginalText": "Alla fine di ogni turno, infligge al Pokémon danni\npari a 1/8 dei suoi PS massimi e fa recuperare\nPS in quantità uguale a chi si trova nella\nposizione di chi ha causato lo stato.",
+      "OriginalText": "Alla fine di ogni turno, infligge al Pokémon danni\npari a 1/8 dei suoi PS massimi e fa recuperare\nPS in quantità uguale a chi si trova nella\nposizione di chi ha causato lo stato.\nNon ha effetto sui Pokémon di tipo Erba.",
       "TextInfos": [
         {
           "Text": "Alla fine di ogni turno, infligge al Pokémon danni",
@@ -3334,6 +3352,24 @@
         },
         {
           "Text": "posizione di chi ha causato lo stato.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Non ha effetto sui Pokémon di tipo Erba.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4305,6 +4341,68 @@
       "StyleCode": 14
     },
     {
+      "Index": 116,
+      "LabelName": "BTR_STATE_SYN_77_02",
+      "LabelHash": -797259723,
+      "OriginalText": "Alla fine di ogni turno, riduce la Difesa\ne la Difesa Speciale di 1 grado.",
+      "TextInfos": [
+        {
+          "Text": "Alla fine di ogni turno, riduce la Difesa",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "e la Difesa Speciale di 1 grado.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 117,
+      "LabelName": "BTR_STATE_SYN_77_03",
+      "LabelHash": -797259724,
+      "OriginalText": "Blocco tentacolare",
+      "TextInfos": [
+        {
+          "Text": "Blocco tentacolare",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
       "Index": 128,
       "LabelName": "BTR_STATE_SYN_106_02",
       "LabelHash": 54712378,
@@ -4512,6 +4610,86 @@
       "TextInfos": [
         {
           "Text": "Cura disabilitata",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 134,
+      "LabelName": "BTR_STATE_SYN_112_02",
+      "LabelHash": 862573219,
+      "OriginalText": "Raddoppia i danni subiti a causa delle mosse\navversarie e fa sì che queste vadano sempre\na segno.",
+      "TextInfos": [
+        {
+          "Text": "Raddoppia i danni subiti a causa delle mosse",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "avversarie e fa sì che queste vadano sempre",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "a segno.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 135,
+      "LabelName": "BTR_STATE_SYN_112_03",
+      "LabelHash": -703510722,
+      "OriginalText": "Indifeso",
+      "TextInfos": [
+        {
+          "Text": "Indifeso",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5214,6 +5392,68 @@
       "TextInfos": [
         {
           "Text": "Fuocardore",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 158,
+      "LabelName": "BTR_STATE_SYN_124_02",
+      "LabelHash": -1187865550,
+      "OriginalText": "Impedisce la sostituzione sia del Pokémon che ha\ncausato lo stato che del bersaglio.",
+      "TextInfos": [
+        {
+          "Text": "Impedisce la sostituzione sia del Pokémon che ha",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "causato lo stato che del bersaglio.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 159,
+      "LabelName": "BTR_STATE_SYN_124_03",
+      "LabelHash": 378218391,
+      "OriginalText": "Morsostretto",
+      "TextInfos": [
+        {
+          "Text": "Morsostretto",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

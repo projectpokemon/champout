@@ -95,7 +95,7 @@
       "Index": 2,
       "LabelName": "TOKUSEIINFO_SYN_003",
       "LabelHash": 536861931,
-      "OriginalText": "Aumenta di 1 grado la Velocità del Pokémon alla fine\ndi ogni turno.",
+      "OriginalText": "Aumenta di 1 grado la Velocità del Pokémon alla fine\ndi ogni turno. Non ha effetto nel turno in cui il Pokémon\nentra in campo con una sostituzione.",
       "TextInfos": [
         {
           "Text": "Aumenta di 1 grado la Velocità del Pokémon alla fine",
@@ -116,7 +116,25 @@
           }
         },
         {
-          "Text": "di ogni turno.",
+          "Text": "di ogni turno. Non ha effetto nel turno in cui il Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "entra in campo con una sostituzione.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -295,7 +313,7 @@
       "Index": 7,
       "LabelName": "TOKUSEIINFO_SYN_008",
       "LabelHash": 536861920,
-      "OriginalText": "Aumenta l’elusione del 25% se lo stato Tempesta di sabbia\nè attivo.",
+      "OriginalText": "Aumenta l’elusione del 25% se lo stato Tempesta di sabbia\nè attivo, e rende il Pokémon immune ai danni causati\nda questo stato.",
       "TextInfos": [
         {
           "Text": "Aumenta l’elusione del 25% se lo stato Tempesta di sabbia",
@@ -316,7 +334,25 @@
           }
         },
         {
-          "Text": "è attivo.",
+          "Text": "è attivo, e rende il Pokémon immune ai danni causati",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "da questo stato.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -335,7 +371,7 @@
       "Index": 8,
       "LabelName": "TOKUSEIINFO_SYN_009",
       "LabelHash": 536861921,
-      "OriginalText": "Conferisce al Pokémon il 30% di probabilità di causare lo stato\nParalisi a chi gli infligge una mossa da contatto.",
+      "OriginalText": "Conferisce al Pokémon il 30% di probabilità di causare lo stato\nParalisi a chi lo colpisce con una mossa da contatto.",
       "TextInfos": [
         {
           "Text": "Conferisce al Pokémon il 30% di probabilità di causare lo stato",
@@ -356,7 +392,7 @@
           }
         },
         {
-          "Text": "Paralisi a chi gli infligge una mossa da contatto.",
+          "Text": "Paralisi a chi lo colpisce con una mossa da contatto.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -739,10 +775,10 @@
       "Index": 20,
       "LabelName": "TOKUSEIINFO_SYN_021",
       "LabelHash": -625937485,
-      "OriginalText": "Rende il Pokémon immune a strumenti e mosse dell’avversario\nche causano la sostituzione.",
+      "OriginalText": "Rende il Pokémon immune a strumenti e mosse altrui\nche causano la sostituzione.",
       "TextInfos": [
         {
-          "Text": "Rende il Pokémon immune a strumenti e mosse dell’avversario",
+          "Text": "Rende il Pokémon immune a strumenti e mosse altrui",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -841,10 +877,10 @@
       "Index": 23,
       "LabelName": "TOKUSEIINFO_SYN_024",
       "LabelHash": -625937490,
-      "OriginalText": "Permette al Pokémon di causare a chi gli infligge una mossa\nda contatto danni pari a 1/8 dei PS massimi di quest’ultimo.",
+      "OriginalText": "Permette al Pokémon di causare a chi lo colpisce con una mossa\nda contatto danni pari a 1/8 dei PS massimi di quest’ultimo.",
       "TextInfos": [
         {
-          "Text": "Permette al Pokémon di causare a chi gli infligge una mossa",
+          "Text": "Permette al Pokémon di causare a chi lo colpisce con una mossa",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -939,7 +975,7 @@
       "Index": 26,
       "LabelName": "TOKUSEIINFO_SYN_027",
       "LabelHash": -625937487,
-      "OriginalText": "Conferisce al Pokémon il 30% di probabilità di causare lo stato\nAvvelenamento, Paralisi o Sonno a chi gli infligge una mossa\nda contatto.",
+      "OriginalText": "Conferisce al Pokémon il 30% di probabilità di causare lo stato\nAvvelenamento, Paralisi o Sonno a chi lo colpisce con una mossa\nda contatto. Non ha effetto sui Pokémon di tipo Erba.",
       "TextInfos": [
         {
           "Text": "Conferisce al Pokémon il 30% di probabilità di causare lo stato",
@@ -960,7 +996,7 @@
           }
         },
         {
-          "Text": "Avvelenamento, Paralisi o Sonno a chi gli infligge una mossa",
+          "Text": "Avvelenamento, Paralisi o Sonno a chi lo colpisce con una mossa",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -978,7 +1014,7 @@
           }
         },
         {
-          "Text": "da contatto.",
+          "Text": "da contatto. Non ha effetto sui Pokémon di tipo Erba.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -997,7 +1033,7 @@
       "Index": 27,
       "LabelName": "TOKUSEIINFO_SYN_028",
       "LabelHash": -625937494,
-      "OriginalText": "Fa sì che il Pokémon che subisce lo stato Avvelenamento,\nIperavvelenamento, Paralisi o Scottatura per effetto di\nuna mossa o di un’abilità di un avversario, infligga a\nquell’avversario lo stesso stato.",
+      "OriginalText": "Fa sì che il Pokémon che subisce lo stato Avvelenamento,\nIperavvelenamento, Paralisi o Scottatura per effetto di\nuna mossa o di un’abilità di un altro Pokémon, causi a\nquel Pokémon lo stesso stato.",
       "TextInfos": [
         {
           "Text": "Fa sì che il Pokémon che subisce lo stato Avvelenamento,",
@@ -1036,7 +1072,7 @@
           }
         },
         {
-          "Text": "una mossa o di un’abilità di un avversario, infligga a",
+          "Text": "una mossa o di un’abilità di un altro Pokémon, causi a",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1054,7 +1090,7 @@
           }
         },
         {
-          "Text": "quell’avversario lo stesso stato.",
+          "Text": "quel Pokémon lo stesso stato.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1237,7 +1273,7 @@
       "Index": 34,
       "LabelName": "TOKUSEIINFO_SYN_035",
       "LabelHash": 940146452,
-      "OriginalText": "Impedisce la diminuzione della precisione del Pokémon\ne fa sì che le sue mosse ignorino le modifiche all’elusione\ndell’avversario.",
+      "OriginalText": "Impedisce la diminuzione della precisione del Pokémon\ne fa sì che le sue mosse ignorino le modifiche all’elusione\ndel bersaglio.",
       "TextInfos": [
         {
           "Text": "Impedisce la diminuzione della precisione del Pokémon",
@@ -1276,7 +1312,7 @@
           }
         },
         {
-          "Text": "dell’avversario.",
+          "Text": "del bersaglio.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1357,7 +1393,7 @@
       "Index": 37,
       "LabelName": "TOKUSEIINFO_SYN_038",
       "LabelHash": 940146447,
-      "OriginalText": "Conferisce al Pokémon il 30% di probabilità di causare lo stato\nAvvelenamento a chi gli infligge una mossa da contatto.",
+      "OriginalText": "Conferisce al Pokémon il 30% di probabilità di causare lo stato\nAvvelenamento a chi lo colpisce con una mossa da contatto.",
       "TextInfos": [
         {
           "Text": "Conferisce al Pokémon il 30% di probabilità di causare lo stato",
@@ -1378,7 +1414,7 @@
           }
         },
         {
-          "Text": "Avvelenamento a chi gli infligge una mossa da contatto.",
+          "Text": "Avvelenamento a chi lo colpisce con una mossa da contatto.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1663,7 +1699,7 @@
       "Index": 48,
       "LabelName": "TOKUSEIINFO_SYN_049",
       "LabelHash": -1432506547,
-      "OriginalText": "Conferisce al Pokémon il 30% di probabilità di causare lo stato\nScottatura a chi gli infligge una mossa da contatto.",
+      "OriginalText": "Conferisce al Pokémon il 30% di probabilità di causare lo stato\nScottatura a chi lo colpisce con una mossa da contatto.",
       "TextInfos": [
         {
           "Text": "Conferisce al Pokémon il 30% di probabilità di causare lo stato",
@@ -1684,7 +1720,47 @@
           }
         },
         {
-          "Text": "Scottatura a chi gli infligge una mossa da contatto.",
+          "Text": "Scottatura a chi lo colpisce con una mossa da contatto.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 49,
+      "LabelName": "TOKUSEIINFO_SYN_050",
+      "LabelHash": 133577401,
+      "OriginalText": "Permette al Pokémon di ignorare gli effetti che ne\nimpediscono la sostituzione.",
+      "TextInfos": [
+        {
+          "Text": "Permette al Pokémon di ignorare gli effetti che ne",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "impediscono la sostituzione.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1703,7 +1779,7 @@
       "Index": 50,
       "LabelName": "TOKUSEIINFO_SYN_051",
       "LabelHash": 133577402,
-      "OriginalText": "Impedisce la diminuzione della precisione del Pokémon\ne fa sì che le sue mosse ignorino le modifiche all’elusione\ndell’avversario.",
+      "OriginalText": "Impedisce la diminuzione della precisione del Pokémon\ne fa sì che le sue mosse ignorino le modifiche all’elusione\ndel bersaglio.",
       "TextInfos": [
         {
           "Text": "Impedisce la diminuzione della precisione del Pokémon",
@@ -1742,7 +1818,7 @@
           }
         },
         {
-          "Text": "dell’avversario.",
+          "Text": "del bersaglio.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1881,7 +1957,7 @@
       "Index": 55,
       "LabelName": "TOKUSEIINFO_SYN_056",
       "LabelHash": 133577399,
-      "OriginalText": "Conferisce al Pokémon il 30% di probabilità di causare lo stato\nInfatuazione a chi gli infligge una mossa da contatto, se è\ndel sesso opposto.",
+      "OriginalText": "Conferisce al Pokémon il 30% di probabilità di causare lo stato\nInfatuazione a chi lo colpisce con una mossa da contatto, se è\ndel sesso opposto.",
       "TextInfos": [
         {
           "Text": "Conferisce al Pokémon il 30% di probabilità di causare lo stato",
@@ -1902,7 +1978,7 @@
           }
         },
         {
-          "Text": "Infatuazione a chi gli infligge una mossa da contatto, se è",
+          "Text": "Infatuazione a chi lo colpisce con una mossa da contatto, se è",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2219,6 +2295,64 @@
         },
         {
           "Text": "da un problema di stato.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 63,
+      "LabelName": "TOKUSEIINFO_SYN_064",
+      "LabelHash": 1699661338,
+      "OriginalText": "Fa sì che, quando il Pokémon subisce una mossa che assorbe PS,\nchi l’ha sferrata non recuperi PS, ma subisca invece danni pari\nai PS che avrebbe recuperato.",
+      "TextInfos": [
+        {
+          "Text": "Fa sì che, quando il Pokémon subisce una mossa che assorbe PS,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "chi l’ha sferrata non recuperi PS, ma subisca invece danni pari",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "ai PS che avrebbe recuperato.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3509,10 +3643,10 @@
       "Index": 98,
       "LabelName": "TOKUSEIINFO_SYN_099",
       "LabelHash": -1835791074,
-      "OriginalText": "Fa sì che la precisione di tutte le mosse sferrate sia dal Pokémon\nche dagli avversari diventi pari al 100%.",
+      "OriginalText": "Fa sì che la precisione di tutte le mosse sferrate da e contro\nquesto Pokémon diventi pari al 100%.",
       "TextInfos": [
         {
-          "Text": "Fa sì che la precisione di tutte le mosse sferrate sia dal Pokémon",
+          "Text": "Fa sì che la precisione di tutte le mosse sferrate da e contro",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3530,7 +3664,7 @@
           }
         },
         {
-          "Text": "che dagli avversari diventi pari al 100%.",
+          "Text": "questo Pokémon diventi pari al 100%.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5180,6 +5314,64 @@
       "StyleCode": 69
     },
     {
+      "Index": 154,
+      "LabelName": "TOKUSEIINFO_SYN_155",
+      "LabelHash": 133577493,
+      "OriginalText": "Aumenta di 1 grado la Velocità del Pokémon quando subisce\ndanni da una mossa di tipo Buio, Spettro o Coleottero,\ne quando subisce l’effetto di Prepotenza.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta di 1 grado la Velocità del Pokémon quando subisce",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "danni da una mossa di tipo Buio, Spettro o Coleottero,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "e quando subisce l’effetto di Prepotenza.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 155,
       "LabelName": "TOKUSEIINFO_SYN_156",
       "LabelHash": 133577496,
@@ -5263,7 +5455,7 @@
       "Index": 157,
       "LabelName": "TOKUSEIINFO_SYN_158",
       "LabelHash": 133577490,
-      "OriginalText": "Aumenta di 1 grado la priorità delle mosse di stato\ndel Pokémon.",
+      "OriginalText": "Aumenta di 1 grado la priorità delle mosse di stato\ndel Pokémon, ma queste non avranno più effetto sui\nPokémon di tipo Buio.",
       "TextInfos": [
         {
           "Text": "Aumenta di 1 grado la priorità delle mosse di stato",
@@ -5284,7 +5476,25 @@
           }
         },
         {
-          "Text": "del Pokémon.",
+          "Text": "del Pokémon, ma queste non avranno più effetto sui",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pokémon di tipo Buio.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5846,6 +6056,28 @@
       "StyleCode": 69
     },
     {
+      "Index": 178,
+      "LabelName": "TOKUSEIINFO_SYN_179",
+      "LabelHash": -1029221925,
+      "OriginalText": "Aumenta la Difesa del 50% se lo stato Campo erboso è attivo.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta la Difesa del 50% se lo stato Campo erboso è attivo.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 179,
       "LabelName": "TOKUSEIINFO_SYN_180",
       "LabelHash": 893092385,
@@ -6166,6 +6398,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 193,
+      "LabelName": "TOKUSEIINFO_SYN_194",
+      "LabelHash": -1835790974,
+      "OriginalText": "Fa sì che il Pokémon lasci subito il campo quando\ni suoi PS scendono a metà o meno.",
+      "TextInfos": [
+        {
+          "Text": "Fa sì che il Pokémon lasci subito il campo quando",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "i suoi PS scendono a metà o meno.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 195,
       "LabelName": "TOKUSEIINFO_SYN_196",
       "LabelHash": -1835790972,
@@ -6209,6 +6481,46 @@
         },
         {
           "Text": "in brutti colpi.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 197,
+      "LabelName": "TOKUSEIINFO_SYN_198",
+      "LabelHash": -1835790978,
+      "OriginalText": "Raddoppia la potenza delle mosse usate dal Pokémon contro\ni bersagli appena entrati in campo con una sostituzione.",
+      "TextInfos": [
+        {
+          "Text": "Raddoppia la potenza delle mosse usate dal Pokémon contro",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "i bersagli appena entrati in campo con una sostituzione.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6729,7 +7041,7 @@
       "Index": 225,
       "LabelName": "TOKUSEIINFO_SYN_226",
       "LabelHash": -625937426,
-      "OriginalText": "Quando il Pokémon entra in campo, causa lo stato Campo\nElettrico sull’intero campo di lotta per 5 turni.",
+      "OriginalText": "Quando il Pokémon entra in campo, causa lo stato Campo\nelettrico sull’intero campo di lotta per 5 turni.",
       "TextInfos": [
         {
           "Text": "Quando il Pokémon entra in campo, causa lo stato Campo",
@@ -6750,7 +7062,127 @@
           }
         },
         {
-          "Text": "Elettrico sull’intero campo di lotta per 5 turni.",
+          "Text": "elettrico sull’intero campo di lotta per 5 turni.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 226,
+      "LabelName": "TOKUSEIINFO_SYN_227",
+      "LabelHash": -625937425,
+      "OriginalText": "Quando il Pokémon entra in campo, causa lo stato Campo\npsichico sull’intero campo di lotta per 5 turni.",
+      "TextInfos": [
+        {
+          "Text": "Quando il Pokémon entra in campo, causa lo stato Campo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "psichico sull’intero campo di lotta per 5 turni.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 228,
+      "LabelName": "TOKUSEIINFO_SYN_229",
+      "LabelHash": -625937427,
+      "OriginalText": "Quando il Pokémon entra in campo, causa lo stato Campo\nerboso sull’intero campo di lotta per 5 turni.",
+      "TextInfos": [
+        {
+          "Text": "Quando il Pokémon entra in campo, causa lo stato Campo",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "erboso sull’intero campo di lotta per 5 turni.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 235,
+      "LabelName": "TOKUSEIINFO_SYN_236",
+      "LabelHash": 940146515,
+      "OriginalText": "Cambia il tipo del Pokémon in quello della prima mossa che\nusa ogni volta che entra in campo.",
+      "TextInfos": [
+        {
+          "Text": "Cambia il tipo del Pokémon in quello della prima mossa che",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "usa ogni volta che entra in campo.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6846,10 +7278,50 @@
       "StyleCode": 69
     },
     {
+      "Index": 243,
+      "LabelName": "TOKUSEIINFO_SYN_244",
+      "LabelHash": -1432506478,
+      "OriginalText": "Aumenta del 30% la potenza delle mosse della classe Suono\ne dimezza i danni subiti dalle stesse.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta del 30% la potenza delle mosse della classe Suono",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "e dimezza i danni subiti dalle stesse.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 244,
       "LabelName": "TOKUSEIINFO_SYN_245",
       "LabelHash": -1432506477,
-      "OriginalText": "Causa lo stato Tempesta di sabbia per 5 turni quando\nil Pokémon subisce un attacco.",
+      "OriginalText": "Causa lo stato Tempesta di sabbia per 5 turni quando\nil Pokémon subisce danni da una mossa.",
       "TextInfos": [
         {
           "Text": "Causa lo stato Tempesta di sabbia per 5 turni quando",
@@ -6870,7 +7342,7 @@
           }
         },
         {
-          "Text": "il Pokémon subisce un attacco.",
+          "Text": "il Pokémon subisce danni da una mossa.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6973,6 +7445,46 @@
         },
         {
           "Text": "quando il Pokémon entra in campo.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 251,
+      "LabelName": "TOKUSEIINFO_SYN_252",
+      "LabelHash": 133577465,
+      "OriginalText": "Aumenta del 50% la potenza delle mosse di tipo Acciaio\nsferrate dal Pokémon e dai suoi alleati.",
+      "TextInfos": [
+        {
+          "Text": "Aumenta del 50% la potenza delle mosse di tipo Acciaio",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sferrate dal Pokémon e dai suoi alleati.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -7224,6 +7736,104 @@
       "StyleCode": 69
     },
     {
+      "Index": 268,
+      "LabelName": "TOKUSEIINFO_SYN_269",
+      "LabelHash": 1699661401,
+      "OriginalText": "Causa lo stato Campo erboso sull’intero campo di lotta\nper 5 turni quando il Pokémon subisce danni da una mossa.",
+      "TextInfos": [
+        {
+          "Text": "Causa lo stato Campo erboso sull’intero campo di lotta",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "per 5 turni quando il Pokémon subisce danni da una mossa.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 269,
+      "LabelName": "TOKUSEIINFO_SYN_270",
+      "LabelHash": -1029221947,
+      "OriginalText": "Rende il Pokémon immune allo stato Scottatura. Se subisce\ndanni da una mossa di tipo Fuoco, aumenta il suo Attacco\ndi 1 grado.",
+      "TextInfos": [
+        {
+          "Text": "Rende il Pokémon immune allo stato Scottatura. Se subisce",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "danni da una mossa di tipo Fuoco, aumenta il suo Attacco",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "di 1 grado.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 271,
       "LabelName": "TOKUSEIINFO_SYN_272",
       "LabelHash": -1029221949,
@@ -7249,6 +7859,82 @@
         },
         {
           "Text": "i danni subiti dalle mosse di tipo Spettro.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 274,
+      "LabelName": "TOKUSEIINFO_SYN_275",
+      "LabelHash": -1029221950,
+      "OriginalText": "Rende il Pokémon immune al normale effetto di Prepotenza,\nfacendo sì che il suo Attacco aumenti invece di 1 grado.\nRende inoltre il Pokémon immune a strumenti e mosse altrui\nche ne causano la sostituzione.",
+      "TextInfos": [
+        {
+          "Text": "Rende il Pokémon immune al normale effetto di Prepotenza,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "facendo sì che il suo Attacco aumenti invece di 1 grado.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Rende inoltre il Pokémon immune a strumenti e mosse altrui",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "che ne causano la sostituzione.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -8023,6 +8709,28 @@
         },
         {
           "Text": "danni contro il Pokémon.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 318,
+      "LabelName": "TOKUSEIINFO_SYN_319",
+      "LabelHash": 2102946023,
+      "OriginalText": "Dimezza i danni subiti dalle mosse da contatto.",
+      "TextInfos": [
+        {
+          "Text": "Dimezza i danni subiti dalle mosse da contatto.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

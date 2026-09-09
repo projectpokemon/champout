@@ -15,7 +15,7 @@
       "Index": 0,
       "LabelName": "rental_poke_appear_00",
       "LabelHash": 1121232553,
-      "OriginalText": "La selezione include Pokémon che possono partecipare alle\nLotte Competitive secondo il regolamento {0}.",
+      "OriginalText": "La selezione include Pokémon che possono partecipare alle\nLotte Competitive secondo il regolamento {0}.\nPer ulteriori informazioni, consulta le notizie.",
       "TextInfos": [
         {
           "Text": "La selezione include Pokémon che possono partecipare alle",
@@ -64,13 +64,31 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Per ulteriori informazioni, consulta le notizie.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 1,
       "CountabilityCode": 1,
       "ArticleCode": 0,
       "InitialSoundCode": 0,
-      "StyleCode": 65
+      "StyleCode": 66
     },
     {
       "Index": 1,
@@ -1200,7 +1218,7 @@
       "StyleCode": 65
     },
     {
-      "Index": 19,
+      "Index": 23,
       "LabelName": "rental_poke_appear_reg_ma",
       "LabelHash": -841467416,
       "OriginalText": "M-A",
@@ -1222,13 +1240,35 @@
       "StyleCode": 9
     },
     {
-      "Index": 20,
+      "Index": 24,
       "LabelName": "rental_poke_appear_reg_mb",
       "LabelHash": -841467415,
       "OriginalText": "M-B",
       "TextInfos": [
         {
           "Text": "M-B",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 1,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 9
+    },
+    {
+      "Index": 25,
+      "LabelName": "rental_poke_appear_reg_mc",
+      "LabelHash": -841467414,
+      "OriginalText": "M-C",
+      "TextInfos": [
+        {
+          "Text": "M-C",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
