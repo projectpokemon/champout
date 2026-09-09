@@ -1261,10 +1261,28 @@
       "Index": 40,
       "LabelName": "BTR_STATE_SYN_25_02",
       "LabelHash": -514925382,
-      "OriginalText": "無法替換。",
+      "OriginalText": "無法替換。\n對幽靈屬性的寶可夢無效。",
       "TextInfos": [
         {
           "Text": "無法替換。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對幽靈屬性的寶可夢無效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1855,7 +1873,7 @@
       "Index": 58,
       "LabelName": "BTR_STATE_SYN_37_02",
       "LabelHash": -797255631,
-      "OriginalText": "會讓替換出場的寶可夢變為中毒狀態。\n若使用2次，則會使其變為劇毒狀態。\n對飛行屬性、飄浮特性等的寶可夢無效。",
+      "OriginalText": "會讓替換出場的寶可夢變為中毒狀態。\n若使用2次，則會使其變為劇毒狀態。\n對飛行屬性、飄浮特性等的寶可夢無效。\n在毒屬性的寶可夢上場時會解除此狀態。",
       "TextInfos": [
         {
           "Text": "會讓替換出場的寶可夢變為中毒狀態。",
@@ -1895,6 +1913,24 @@
         },
         {
           "Text": "對飛行屬性、飄浮特性等的寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "在毒屬性的寶可夢上場時會解除此狀態。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2787,7 +2823,7 @@
       "Index": 84,
       "LabelName": "BTR_STATE_SYN_52_02",
       "LabelHash": 1353683472,
-      "OriginalText": "在回合結束時，\n會受到最大HP的1/8的傷害，\n位在使用了該招式的寶可夢所在位置的對手\n會回復相當於傷害量的HP。",
+      "OriginalText": "在回合結束時，\n會受到最大HP的1/8的傷害，\n位在使用了該招式的寶可夢所在位置的對手\n會回復相當於傷害量的HP。\n對草屬性的寶可夢無效。",
       "TextInfos": [
         {
           "Text": "在回合結束時，",
@@ -2845,6 +2881,24 @@
         },
         {
           "Text": "會回復相當於傷害量的HP。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對草屬性的寶可夢無效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3726,6 +3780,68 @@
       "StyleCode": 14
     },
     {
+      "Index": 116,
+      "LabelName": "BTR_STATE_SYN_77_02",
+      "LabelHash": -797259723,
+      "OriginalText": "在回合結束時，\n防禦、特防會降低1階。",
+      "TextInfos": [
+        {
+          "Text": "在回合結束時，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "防禦、特防會降低1階。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 117,
+      "LabelName": "BTR_STATE_SYN_77_03",
+      "LabelHash": -797259724,
+      "OriginalText": "蛸固狀態",
+      "TextInfos": [
+        {
+          "Text": "蛸固狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
       "Index": 128,
       "LabelName": "BTR_STATE_SYN_106_02",
       "LabelHash": 54712378,
@@ -3933,6 +4049,68 @@
       "TextInfos": [
         {
           "Text": "回復封鎖狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 134,
+      "LabelName": "BTR_STATE_SYN_112_02",
+      "LabelHash": 862573219,
+      "OriginalText": "對手的招式必定會擊中，\n且傷害會變為2倍。",
+      "TextInfos": [
+        {
+          "Text": "對手的招式必定會擊中，",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "且傷害會變為2倍。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 135,
+      "LabelName": "BTR_STATE_SYN_112_03",
+      "LabelHash": -703510722,
+      "OriginalText": "無防備狀態",
+      "TextInfos": [
+        {
+          "Text": "無防備狀態",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4563,6 +4741,68 @@
       "TextInfos": [
         {
           "Text": "引火狀態",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 158,
+      "LabelName": "BTR_STATE_SYN_124_02",
+      "LabelHash": -1187865550,
+      "OriginalText": "使用招式與受到招式的寶可夢\n雙方都無法替換。",
+      "TextInfos": [
+        {
+          "Text": "使用招式與受到招式的寶可夢",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "雙方都無法替換。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 0,
+      "ArticleCode": 1,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 159,
+      "LabelName": "BTR_STATE_SYN_124_03",
+      "LabelHash": 378218391,
+      "OriginalText": "緊咬不放狀態",
+      "TextInfos": [
+        {
+          "Text": "緊咬不放狀態",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

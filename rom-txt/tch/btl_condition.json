@@ -15,7 +15,7 @@
       "Index": 0,
       "LabelName": "btl_condition_paralysis_info",
       "LabelHash": -59026412,
-      "OriginalText": "有12.5%的機率無法使用招式。\n速度會變為1/2。",
+      "OriginalText": "有12.5%的機率無法使用招式。\n速度會變為1/2。\n對電屬性的寶可夢無效。",
       "TextInfos": [
         {
           "Text": "有12.5%的機率無法使用招式。",
@@ -43,6 +43,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對電屬性的寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -55,7 +73,7 @@
       "Index": 1,
       "LabelName": "btl_condition_freezing_info",
       "LabelHash": -206355500,
-      "OriginalText": "除了部分例外之外，無法使用招式。\n使用招式時有25%的機率會回復。\n變為冰凍狀態後，第3次行動時會回復。\n受到火屬性等招式傷害時會回復。",
+      "OriginalText": "除了部分例外之外，無法使用招式。\n使用招式時有25%的機率會回復。\n變為冰凍狀態後，第3次行動時會回復。\n受到火屬性等招式傷害時會回復。\n對冰屬性的寶可夢無效。",
       "TextInfos": [
         {
           "Text": "除了部分例外之外，無法使用招式。",
@@ -119,6 +137,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對冰屬性的寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -131,7 +167,7 @@
       "Index": 2,
       "LabelName": "btl_condition_burning_info",
       "LabelHash": -2104732437,
-      "OriginalText": "在回合結束時，\n會受到最大HP的1/16的傷害。\n給予的物理招式傷害\n會變為1/2。",
+      "OriginalText": "在回合結束時，\n會受到最大HP的1/16的傷害。\n給予的物理招式傷害\n會變為1/2。\n對火屬性的寶可夢無效。",
       "TextInfos": [
         {
           "Text": "在回合結束時，",
@@ -195,6 +231,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對火屬性的寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -207,7 +261,7 @@
       "Index": 3,
       "LabelName": "btl_condition_poison_info",
       "LabelHash": -1028631508,
-      "OriginalText": "在回合結束時，\n會受到最大HP的1/8的傷害。",
+      "OriginalText": "在回合結束時，\n會受到最大HP的1/8的傷害。\n對毒、鋼屬性的寶可夢無效。",
       "TextInfos": [
         {
           "Text": "在回合結束時，",
@@ -235,6 +289,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對毒、鋼屬性的寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -247,7 +319,7 @@
       "Index": 4,
       "LabelName": "btl_condition_bad_poison_info",
       "LabelHash": 1314343280,
-      "OriginalText": "隨著回合的進行，\n在回合結束時受到的傷害會以最大HP的\n1/16、2/16、3/16的規律逐漸增加。\n替換後又再次上場時，\n會變為從1/16開始增加。",
+      "OriginalText": "隨著回合的進行，\n在回合結束時受到的傷害會以最大HP的\n1/16、2/16、3/16的規律逐漸增加。\n替換後又再次上場時，\n會變為從1/16開始增加。\n對毒、鋼屬性的寶可夢無效。",
       "TextInfos": [
         {
           "Text": "隨著回合的進行，",
@@ -323,6 +395,24 @@
         },
         {
           "Text": "會變為從1/16開始增加。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對毒、鋼屬性的寶可夢無效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

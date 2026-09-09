@@ -472,7 +472,7 @@
       "Index": 16,
       "LabelName": "present_box_45",
       "LabelHash": -1056543265,
-      "OriginalText": "※若信件中有尚未領取的禮物，\n　則該信件不會被刪除。",
+      "OriginalText": "※若信件中有尚未領取的禮物，\n　則該信件不會被刪除。\n※重要的信件不會被刪除。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -517,6 +517,24 @@
         },
         {
           "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "※重要的信件不會被刪除。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
           "Type": 2,
           "TagInfo": {
             "TagGroupId": 0,
@@ -534,7 +552,7 @@
       "CountabilityCode": 0,
       "ArticleCode": 1,
       "InitialSoundCode": 0,
-      "StyleCode": 42
+      "StyleCode": 44
     },
     {
       "Index": 17,

@@ -24837,7 +24837,7 @@
       "Index": 283,
       "LabelName": "help_11_03_00",
       "LabelHash": 16260161,
-      "OriginalText": "中毒狀態\n\n在回合結束時，\n會受到最大HP的1/8的傷害。",
+      "OriginalText": "中毒狀態\n\n在回合結束時，\n會受到最大HP的1/8的傷害。\n對毒、鋼屬性的寶可夢無效。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -24920,6 +24920,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對毒、鋼屬性的寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -24932,7 +24950,7 @@
       "Index": 284,
       "LabelName": "help_11_03_01",
       "LabelHash": 16260162,
-      "OriginalText": "劇毒狀態\n\n隨著回合的進行，\n在回合結束時受到的傷害會以最大HP的\n1/16、2/16、3/16的規律逐漸增加。\n替換後又再次上場時，\n會變為從1/16開始增加。",
+      "OriginalText": "劇毒狀態\n\n隨著回合的進行，\n在回合結束時受到的傷害會以最大HP的\n1/16、2/16、3/16的規律逐漸增加。\n替換後又再次上場時，\n會變為從1/16開始增加。\n對毒、鋼屬性的寶可夢無效。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -24968,6 +24986,15 @@
         },
         {
           "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
           "Type": 2,
           "TagInfo": {
             "TagGroupId": 0,
@@ -24978,15 +25005,6 @@
               0,
               255
             ]
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
           }
         },
         {
@@ -25069,6 +25087,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對毒、鋼屬性的寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -25081,7 +25117,7 @@
       "Index": 285,
       "LabelName": "help_11_03_02",
       "LabelHash": 16260163,
-      "OriginalText": "灼傷狀態\n\n在回合結束時，\n會受到最大HP的1/16的傷害。\n給予的物理招式傷害\n會變為1/2。",
+      "OriginalText": "灼傷狀態\n\n在回合結束時，\n會受到最大HP的1/16的傷害。\n給予的物理招式傷害\n會變為1/2。\n對火屬性的寶可夢無效。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -25200,6 +25236,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對火屬性的寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -25234,7 +25288,7 @@
       "Index": 287,
       "LabelName": "help_11_04_00",
       "LabelHash": 1037897074,
-      "OriginalText": "麻痺狀態\n\n有12.5%的機率無法使用招式。\n速度會變為1/2。",
+      "OriginalText": "麻痺狀態\n\n有12.5%的機率無法使用招式。\n速度會變為1/2。\n對電屬性的寶可夢無效。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -25317,6 +25371,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對電屬性的寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -25329,7 +25401,7 @@
       "Index": 288,
       "LabelName": "help_11_04_01",
       "LabelHash": 1037897075,
-      "OriginalText": "冰凍狀態\n\n除了部分例外之外，無法使用招式。\n使用招式時有25%的機率會回復。\n變為冰凍狀態後，第3次行動時會回復。\n受到火屬性等招式傷害時會回復。",
+      "OriginalText": "冰凍狀態\n\n除了部分例外之外，無法使用招式。\n使用招式時有25%的機率會回復。\n變為冰凍狀態後，第3次行動時會回復。\n受到火屬性等招式傷害時會回復。\n對冰屬性的寶可夢無效。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -25442,6 +25514,24 @@
         },
         {
           "Text": "受到火屬性等招式傷害時會回復。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "對冰屬性的寶可夢無效。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -26591,7 +26681,7 @@
       "Index": 299,
       "LabelName": "help_11_05_08",
       "LabelHash": -266064833,
-      "OriginalText": "毒菱狀態\n\n會讓替換出場的寶可夢變為中毒狀態。\n若使用2次，則會使其變為劇毒狀態。\n對飛行屬性、飄浮特性等的寶可夢無效。",
+      "OriginalText": "毒菱狀態\n\n會讓替換出場的寶可夢變為中毒狀態。\n若使用2次，則會使其變為劇毒狀態。\n對飛行屬性、飄浮特性等的寶可夢無效。\n在毒屬性的寶可夢上場時會解除此狀態。",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -26627,6 +26717,15 @@
         },
         {
           "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
           "Type": 2,
           "TagInfo": {
             "TagGroupId": 0,
@@ -26637,15 +26736,6 @@
               0,
               255
             ]
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
           }
         },
         {
@@ -26686,6 +26776,24 @@
         },
         {
           "Text": "對飛行屬性、飄浮特性等的寶可夢無效。",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "在毒屬性的寶可夢上場時會解除此狀態。",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
