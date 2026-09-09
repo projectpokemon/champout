@@ -15,10 +15,10 @@
       "Index": 0,
       "LabelName": "btl_condition_paralysis_info",
       "LabelHash": -59026412,
-      "OriginalText": "The Pokémon has a 12.5% chance of\nbeing unable to use moves. Its Speed\nstat is also halved.",
+      "OriginalText": "The Pokémon has a 12.5% chance of being\nunable to use moves. Its Speed stat is also\nhalved. Electric-type Pokémon are unaffected.",
       "TextInfos": [
         {
-          "Text": "The Pokémon has a 12.5% chance of",
+          "Text": "The Pokémon has a 12.5% chance of being",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -36,7 +36,7 @@
           }
         },
         {
-          "Text": "being unable to use moves. Its Speed",
+          "Text": "unable to use moves. Its Speed stat is also",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -54,7 +54,7 @@
           }
         },
         {
-          "Text": "stat is also halved.",
+          "Text": "halved. Electric-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -73,7 +73,7 @@
       "Index": 1,
       "LabelName": "btl_condition_freezing_info",
       "LabelHash": -206355500,
-      "OriginalText": "The Pokémon can’t use almost any moves but has\na 25% chance of being cured each time it tries\nto do so. The Pokémon will be cured on its third\nturn after becoming frozen or if it takes damage\nfrom a Fire-type move or certain other moves.",
+      "OriginalText": "The Pokémon can’t use almost any moves but has\na 25% chance of being cured each time it tries\nto do so. The Pokémon will be cured on its third\nturn after becoming frozen or if it takes damage\nfrom a Fire-type move or certain other moves.\nIce-type Pokémon are unaffected.",
       "TextInfos": [
         {
           "Text": "The Pokémon can’t use almost any moves but has",
@@ -155,6 +155,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Ice-type Pokémon are unaffected.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -167,10 +185,10 @@
       "Index": 2,
       "LabelName": "btl_condition_burning_info",
       "LabelHash": -2104732437,
-      "OriginalText": "The Pokémon takes damage equal to 1/16\nof its max HP at the end of every turn.\nThe damage dealt by its physical moves\nis also halved.",
+      "OriginalText": "The Pokémon takes damage equal to 1/16 of its\nmax HP at the end of every turn. The damage\ndealt by its physical moves is also halved.\nFire-type Pokémon are unaffected.",
       "TextInfos": [
         {
-          "Text": "The Pokémon takes damage equal to 1/16",
+          "Text": "The Pokémon takes damage equal to 1/16 of its",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -188,7 +206,7 @@
           }
         },
         {
-          "Text": "of its max HP at the end of every turn.",
+          "Text": "max HP at the end of every turn. The damage",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -206,7 +224,7 @@
           }
         },
         {
-          "Text": "The damage dealt by its physical moves",
+          "Text": "dealt by its physical moves is also halved.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -224,7 +242,7 @@
           }
         },
         {
-          "Text": "is also halved.",
+          "Text": "Fire-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -243,7 +261,7 @@
       "Index": 3,
       "LabelName": "btl_condition_poison_info",
       "LabelHash": -1028631508,
-      "OriginalText": "The Pokémon takes damage equal to 1/8 of its\nmax HP at the end of every turn.",
+      "OriginalText": "The Pokémon takes damage equal to 1/8 of its\nmax HP at the end of every turn. Poison- and\nSteel-type Pokémon are unaffected.",
       "TextInfos": [
         {
           "Text": "The Pokémon takes damage equal to 1/8 of its",
@@ -264,7 +282,25 @@
           }
         },
         {
-          "Text": "max HP at the end of every turn.",
+          "Text": "max HP at the end of every turn. Poison- and",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Steel-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -283,7 +319,7 @@
       "Index": 4,
       "LabelName": "btl_condition_bad_poison_info",
       "LabelHash": 1314343280,
-      "OriginalText": "The Pokémon takes increasing poison damage\nat the end of every turn, starting at 1/16 of the\nPokémon’s max HP, then 2/16, then 3/16, and\nso on. If the Pokémon switches out and reenters\nbattle, the damage restarts at 1/16 of its max HP.",
+      "OriginalText": "The Pokémon takes increasing poison damage\nat the end of every turn, starting at 1/16 of the\nPokémon’s max HP, then 2/16, then 3/16, and\nso on. If the Pokémon switches out and reenters\nbattle, the damage restarts at 1/16 of its max HP.\nPoison- and Steel-type Pokémon are unaffected.",
       "TextInfos": [
         {
           "Text": "The Pokémon takes increasing poison damage",
@@ -359,6 +395,24 @@
         },
         {
           "Text": "battle, the damage restarts at 1/16 of its max HP.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Poison- and Steel-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

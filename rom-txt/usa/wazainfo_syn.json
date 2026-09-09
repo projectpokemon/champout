@@ -977,10 +977,10 @@
       "Index": 29,
       "LabelName": "WAZAINFO_SYN_077",
       "LabelHash": -963238401,
-      "OriginalText": "Poisons the target.",
+      "OriginalText": "Poisons the target. Grass-type Pokémon are unaffected.",
       "TextInfos": [
         {
-          "Text": "Poisons the target.",
+          "Text": "Poisons the target. Grass-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -999,10 +999,10 @@
       "Index": 30,
       "LabelName": "WAZAINFO_SYN_078",
       "LabelHash": 152506846,
-      "OriginalText": "Paralyzes the target.",
+      "OriginalText": "Paralyzes the target. Grass-type Pokémon are unaffected.",
       "TextInfos": [
         {
-          "Text": "Paralyzes the target.",
+          "Text": "Paralyzes the target. Grass-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1021,10 +1021,10 @@
       "Index": 31,
       "LabelName": "WAZAINFO_SYN_079",
       "LabelHash": -1413577095,
-      "OriginalText": "Puts the target to sleep.",
+      "OriginalText": "Puts the target to sleep. Grass-type Pokémon are unaffected.",
       "TextInfos": [
         {
-          "Text": "Puts the target to sleep.",
+          "Text": "Puts the target to sleep. Grass-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1131,10 +1131,10 @@
       "Index": 36,
       "LabelName": "WAZAINFO_SYN_086",
       "LabelHash": 602845537,
-      "OriginalText": "Paralyzes the target.",
+      "OriginalText": "Paralyzes the target. Ground-type Pokémon are unaffected.",
       "TextInfos": [
         {
-          "Text": "Paralyzes the target.",
+          "Text": "Paralyzes the target. Ground-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1153,10 +1153,10 @@
       "Index": 37,
       "LabelName": "WAZAINFO_SYN_087",
       "LabelHash": -963238404,
-      "OriginalText": "Has a 30% chance of paralyzing the target. This move never\nmisses in rain and can hit a target that has the Sky-High status.",
+      "OriginalText": "Has a 30% chance of paralyzing the target. In rain, this move\nnever misses. In harsh sunlight, this move’s accuracy is 50%.\nThis move can hit a target that has the Sky-High status.",
       "TextInfos": [
         {
-          "Text": "Has a 30% chance of paralyzing the target. This move never",
+          "Text": "Has a 30% chance of paralyzing the target. In rain, this move",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1174,7 +1174,25 @@
           }
         },
         {
-          "Text": "misses in rain and can hit a target that has the Sky-High status.",
+          "Text": "never misses. In harsh sunlight, this move’s accuracy is 50%.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "This move can hit a target that has the Sky-High status.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2021,10 +2039,10 @@
       "Index": 65,
       "LabelName": "WAZAINFO_SYN_147",
       "LabelHash": -822075899,
-      "OriginalText": "Puts the target to sleep.",
+      "OriginalText": "Puts the target to sleep. Grass-type Pokémon are unaffected.",
       "TextInfos": [
         {
-          "Text": "Puts the target to sleep.",
+          "Text": "Puts the target to sleep. Grass-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2267,9 +2285,31 @@
     },
     {
       "Index": 75,
+      "LabelName": "WAZAINFO_SYN_163",
+      "LabelHash": 1503522927,
+      "OriginalText": "This move has a 1-stage Critical-Hit Ratio Boost.",
+      "TextInfos": [
+        {
+          "Text": "This move has a 1-stage Critical-Hit Ratio Boost.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 76,
       "LabelName": "WAZAINFO_SYN_164",
       "LabelHash": -1225360428,
-      "OriginalText": "The user loses 1/4 of its max HP to create a substitute. The\nsubstitute will be hit by moves instead of the user, and it will\nvanish when it takes damage equal to 1/4 of the user’s max HP.",
+      "OriginalText": "The user loses 1/4 of its max HP to create a substitute. The\nsubstitute will be hit by moves instead of the user, and it will\nvanish when it takes damage equal to 1/4 of the user’s max HP.\nSound-based moves will hit the user through the substitute.",
       "TextInfos": [
         {
           "Text": "The user loses 1/4 of its max HP to create a substitute. The",
@@ -2315,6 +2355,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Sound-based moves will hit the user through the substitute.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -2324,7 +2382,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 76,
+      "Index": 77,
       "LabelName": "WAZAINFO_SYN_168",
       "LabelHash": 1456468760,
       "OriginalText": "If the user is not already holding an item, it steals the target’s\nheld item.",
@@ -2364,7 +2422,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 77,
+      "Index": 78,
       "LabelName": "WAZAINFO_SYN_173",
       "LabelHash": 1503522928,
       "OriginalText": "Can be used only if the user is asleep. Has a 30% chance of\nmaking the target flinch.",
@@ -2404,7 +2462,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 78,
+      "Index": 79,
       "LabelName": "WAZAINFO_SYN_174_00",
       "LabelHash": -985065950,
       "OriginalText": "The user loses 1/2 of its max HP to give the target the\nCursed status.",
@@ -2444,7 +2502,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 79,
+      "Index": 80,
       "LabelName": "WAZAINFO_SYN_174_01",
       "LabelHash": -985065949,
       "OriginalText": "Lowers the user’s Speed stat by 1 stage and boosts its Attack\nand Defense stats by 1 stage.",
@@ -2484,7 +2542,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 80,
+      "Index": 81,
       "LabelName": "WAZAINFO_SYN_175",
       "LabelHash": 340723514,
       "OriginalText": "The less HP the user has left, the greater this move’s power\n(ranging between 20 and 200).",
@@ -2524,13 +2582,31 @@
       "StyleCode": 68
     },
     {
-      "Index": 83,
+      "Index": 84,
       "LabelName": "WAZAINFO_SYN_178",
       "LabelHash": 1456468761,
-      "OriginalText": "Lowers targets’ Speed stats by 2 stages.",
+      "OriginalText": "Lowers targets’ Speed stats by 2 stages. Grass-type Pokémon\nare unaffected.",
       "TextInfos": [
         {
-          "Text": "Lowers targets’ Speed stats by 2 stages.",
+          "Text": "Lowers targets’ Speed stats by 2 stages. Grass-type Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2546,7 +2622,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 84,
+      "Index": 85,
       "LabelName": "WAZAINFO_SYN_179",
       "LabelHash": -1272414594,
       "OriginalText": "The less HP the user has left, the greater this move’s power\n(ranging between 20 and 200).",
@@ -2586,7 +2662,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 85,
+      "Index": 86,
       "LabelName": "WAZAINFO_SYN_180",
       "LabelHash": 1100238398,
       "OriginalText": "Removes 4 PP from the move last used by the target.",
@@ -2608,7 +2684,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 86,
+      "Index": 87,
       "LabelName": "WAZAINFO_SYN_182",
       "LabelHash": -62561016,
       "OriginalText": "The user protects itself from incoming moves for the turn. With\neach consecutive use, this move’s chance of success becomes\n1/3 of what it was before.",
@@ -2666,7 +2742,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 87,
+      "Index": 88,
       "LabelName": "WAZAINFO_SYN_184",
       "LabelHash": -1225360430,
       "OriginalText": "Lowers the target’s Speed stat by 2 stages.",
@@ -2688,7 +2764,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 88,
+      "Index": 89,
       "LabelName": "WAZAINFO_SYN_186",
       "LabelHash": 1906807452,
       "OriginalText": "Confuses the target.",
@@ -2710,7 +2786,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 89,
+      "Index": 90,
       "LabelName": "WAZAINFO_SYN_187",
       "LabelHash": -822075903,
       "OriginalText": "The user loses 1/2 of its max HP to boost its Attack stat to its\nsixth stage. This move fails if the user doesn’t have enough\nremaining HP.",
@@ -2768,7 +2844,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 90,
+      "Index": 91,
       "LabelName": "WAZAINFO_SYN_188",
       "LabelHash": 1456468758,
       "OriginalText": "Has a 30% chance of poisoning the target.",
@@ -2790,7 +2866,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 91,
+      "Index": 92,
       "LabelName": "WAZAINFO_SYN_189",
       "LabelHash": -1272414597,
       "OriginalText": "Lowers the target’s accuracy by 1 stage.",
@@ -2813,6 +2889,28 @@
     },
     {
       "Index": 93,
+      "LabelName": "WAZAINFO_SYN_190",
+      "LabelHash": 1100238399,
+      "OriginalText": "Has a 50% chance of lowering the target’s accuracy by 1 stage.",
+      "TextInfos": [
+        {
+          "Text": "Has a 50% chance of lowering the target’s accuracy by 1 stage.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 94,
       "LabelName": "WAZAINFO_SYN_191",
       "LabelHash": -1628644956,
       "OriginalText": "Gives the opponent’s side the Spikes status.",
@@ -2834,7 +2932,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 94,
+      "Index": 95,
       "LabelName": "WAZAINFO_SYN_192",
       "LabelHash": -62561015,
       "OriginalText": "Paralyzes the target.",
@@ -2856,7 +2954,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 95,
+      "Index": 96,
       "LabelName": "WAZAINFO_SYN_194",
       "LabelHash": -1225360429,
       "OriginalText": "The user gains the Destiny Bound status. This move fails if used\nin succession.",
@@ -2896,7 +2994,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 96,
+      "Index": 97,
       "LabelName": "WAZAINFO_SYN_195",
       "LabelHash": 340723512,
       "OriginalText": "Gives all Pokémon on the field the Perishing status.",
@@ -2918,7 +3016,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 97,
+      "Index": 98,
       "LabelName": "WAZAINFO_SYN_196",
       "LabelHash": 1906807453,
       "OriginalText": "Lowers targets’ Speed stats by 1 stage.",
@@ -2940,7 +3038,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 98,
+      "Index": 99,
       "LabelName": "WAZAINFO_SYN_197",
       "LabelHash": -822075902,
       "OriginalText": "The user protects itself from incoming moves for the turn. With\neach consecutive use, this move’s chance of success becomes\n1/3 of what it was before.",
@@ -2998,7 +3096,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 99,
+      "Index": 100,
       "LabelName": "WAZAINFO_SYN_198",
       "LabelHash": 1456468759,
       "OriginalText": "The user attacks 2 to 5 times in a row.",
@@ -3020,7 +3118,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 100,
+      "Index": 101,
       "LabelName": "WAZAINFO_SYN_199",
       "LabelHash": -1272414596,
       "OriginalText": "The user gains the Locked On status.",
@@ -3042,7 +3140,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 101,
+      "Index": 102,
       "LabelName": "WAZAINFO_SYN_200",
       "LabelHash": 78601493,
       "OriginalText": "The user gains the Rampaging status.",
@@ -3064,7 +3162,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 102,
+      "Index": 103,
       "LabelName": "WAZAINFO_SYN_201",
       "LabelHash": -1487482448,
       "OriginalText": "Summons a sandstorm for 5 turns.",
@@ -3086,7 +3184,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 103,
+      "Index": 104,
       "LabelName": "WAZAINFO_SYN_202",
       "LabelHash": 1241400907,
       "OriginalText": "The user’s HP is restored by 1/2 of the damage dealt by\nthis move.",
@@ -3126,7 +3224,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 104,
+      "Index": 105,
       "LabelName": "WAZAINFO_SYN_203",
       "LabelHash": -324683034,
       "OriginalText": "During the turn this move is used, if the user takes damage from\na move that would knock it out, it will endure the hit with 1 HP.\nWith each consecutive use, this move’s chance of success\nbecomes 1/3 of what it was before.",
@@ -3202,7 +3300,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 105,
+      "Index": 106,
       "LabelName": "WAZAINFO_SYN_204",
       "LabelHash": 2047969961,
       "OriginalText": "Lowers the target’s Attack stat by 2 stages.",
@@ -3224,7 +3322,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 106,
+      "Index": 107,
       "LabelName": "WAZAINFO_SYN_207",
       "LabelHash": 1644685434,
       "OriginalText": "Boosts the target’s Attack stat by 2 stages and confuses it.",
@@ -3247,6 +3345,28 @@
     },
     {
       "Index": 108,
+      "LabelName": "WAZAINFO_SYN_208",
+      "LabelHash": 434831853,
+      "OriginalText": "Restores 1/2 of the max HP of the user or an ally.",
+      "TextInfos": [
+        {
+          "Text": "Restores 1/2 of the max HP of the user or an ally.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 109,
       "LabelName": "WAZAINFO_SYN_211",
       "LabelHash": -1487482447,
       "OriginalText": "Has a 10% chance of boosting the user’s Defense stat by\n1 stage.",
@@ -3286,7 +3406,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 109,
+      "Index": 110,
       "LabelName": "WAZAINFO_SYN_212",
       "LabelHash": 1241400908,
       "OriginalText": "Gives the target the Can’t Escape status.",
@@ -3308,7 +3428,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 110,
+      "Index": 111,
       "LabelName": "WAZAINFO_SYN_213",
       "LabelHash": -324683033,
       "OriginalText": "Gives the target the Infatuated status. This move will fail against\na target that is the same gender as the user or whose gender\nis unknown.",
@@ -3366,7 +3486,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 111,
+      "Index": 112,
       "LabelName": "WAZAINFO_SYN_214",
       "LabelHash": 2047969962,
       "OriginalText": "Can be used only if the user is asleep. The user uses one of the\nother moves it knows at random.",
@@ -3406,7 +3526,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 112,
+      "Index": 113,
       "LabelName": "WAZAINFO_SYN_215",
       "LabelHash": 481886021,
       "OriginalText": "The user cures the status conditions of all the Pokémon in\nits party, including itself, as well as its allies.",
@@ -3446,7 +3566,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 114,
+      "Index": 115,
       "LabelName": "WAZAINFO_SYN_219",
       "LabelHash": -1131252087,
       "OriginalText": "Gives the user’s side the Safeguard status for 5 turns.",
@@ -3468,7 +3588,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 115,
+      "Index": 116,
       "LabelName": "WAZAINFO_SYN_220",
       "LabelHash": 78601491,
       "OriginalText": "The user adds its remaining HP to the target’s remaining HP,\nthen splits the total in half for them to share.",
@@ -3508,7 +3628,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 116,
+      "Index": 117,
       "LabelName": "WAZAINFO_SYN_223",
       "LabelHash": -324683036,
       "OriginalText": "Confuses the target.",
@@ -3530,7 +3650,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 117,
+      "Index": 118,
       "LabelName": "WAZAINFO_SYN_226",
       "LabelHash": -1084197923,
       "OriginalText": "The user switches out of battle to be replaced by another party\nPokémon. If the user had any stat changes, a substitute, or other\nsuch effects, they will be passed on to the Pokémon switching in.",
@@ -3588,7 +3708,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 118,
+      "Index": 119,
       "LabelName": "WAZAINFO_SYN_227",
       "LabelHash": 1644685432,
       "OriginalText": "Gives the target the Encore status.",
@@ -3610,7 +3730,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 119,
+      "Index": 120,
       "LabelName": "WAZAINFO_SYN_229",
       "LabelHash": -1131252090,
       "OriginalText": "Removes the Bound and Leech Seeded statuses from the user\nand removes the Sticky Web, Stealth Rock, Spikes, and Toxic\nSpikes statuses from the user’s side. Boosts the user’s Speed stat\nby 1 stage.",
@@ -3686,7 +3806,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 120,
+      "Index": 121,
       "LabelName": "WAZAINFO_SYN_230",
       "LabelHash": 78601492,
       "OriginalText": "Lowers targets’ evasiveness by 2 stages.",
@@ -3708,7 +3828,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 121,
+      "Index": 122,
       "LabelName": "WAZAINFO_SYN_231",
       "LabelHash": -1487482449,
       "OriginalText": "Has a 30% chance of lowering the target’s Defense stat by\n1 stage.",
@@ -3748,7 +3868,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 122,
+      "Index": 123,
       "LabelName": "WAZAINFO_SYN_234",
       "LabelHash": 2047969960,
       "OriginalText": "Restores 1/2 of the user’s max HP. In harsh sunlight, 2/3 of its\nmax HP will be restored instead. In all other weather conditions,\n1/4 of its max HP will be restored instead.",
@@ -3806,7 +3926,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 123,
+      "Index": 124,
       "LabelName": "WAZAINFO_SYN_235",
       "LabelHash": 481886019,
       "OriginalText": "Restores 1/2 of the user’s max HP. In harsh sunlight, 2/3 of its\nmax HP will be restored instead. In all other weather conditions,\n1/4 of its max HP will be restored instead.",
@@ -3864,7 +3984,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 124,
+      "Index": 125,
       "LabelName": "WAZAINFO_SYN_236",
       "LabelHash": -1084197922,
       "OriginalText": "Restores 1/2 of the user’s max HP. In harsh sunlight, 2/3 of its\nmax HP will be restored instead. In all other weather conditions,\n1/4 of its max HP will be restored instead.",
@@ -3922,7 +4042,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 125,
+      "Index": 126,
       "LabelName": "WAZAINFO_SYN_238",
       "LabelHash": 434831852,
       "OriginalText": "This move has a 1-stage Critical-Hit Ratio Boost.",
@@ -3944,7 +4064,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 126,
+      "Index": 127,
       "LabelName": "WAZAINFO_SYN_240",
       "LabelHash": 78601489,
       "OriginalText": "Summons rain for 5 turns.",
@@ -3966,7 +4086,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 127,
+      "Index": 128,
       "LabelName": "WAZAINFO_SYN_241",
       "LabelHash": -1487482452,
       "OriginalText": "Summons harsh sunlight for 5 turns.",
@@ -3988,7 +4108,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 128,
+      "Index": 129,
       "LabelName": "WAZAINFO_SYN_242",
       "LabelHash": 1241400903,
       "OriginalText": "Has a 20% chance of lowering the target’s Defense stat by\n1 stage.",
@@ -4028,7 +4148,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 129,
+      "Index": 130,
       "LabelName": "WAZAINFO_SYN_243",
       "LabelHash": -324683038,
       "OriginalText": "The user retaliates to deal double the damage it took from an\nopponent’s special move during the turn this move is used.",
@@ -4068,7 +4188,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 130,
+      "Index": 131,
       "LabelName": "WAZAINFO_SYN_244",
       "LabelHash": 2047969957,
       "OriginalText": "The user copies the target’s stat changes.",
@@ -4090,7 +4210,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 131,
+      "Index": 132,
       "LabelName": "WAZAINFO_SYN_246",
       "LabelHash": -1084197925,
       "OriginalText": "Has a 10% chance of boosting the user’s Attack, Defense,\nSp. Atk, Sp. Def, and Speed stats by 1 stage.",
@@ -4130,7 +4250,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 132,
+      "Index": 133,
       "LabelName": "WAZAINFO_SYN_247",
       "LabelHash": 1644685430,
       "OriginalText": "Has a 20% chance of lowering the target’s Sp. Def stat by\n1 stage.",
@@ -4170,7 +4290,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 133,
+      "Index": 134,
       "LabelName": "WAZAINFO_SYN_248",
       "LabelHash": 434831849,
       "OriginalText": "Gives the target’s spot the Future Attack status.",
@@ -4192,7 +4312,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 134,
+      "Index": 135,
       "LabelName": "WAZAINFO_SYN_250",
       "LabelHash": 78601490,
       "OriginalText": "Gives the target the Bound status. This move’s power is\ndoubled if the target has the Submerged status.",
@@ -4232,7 +4352,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 135,
+      "Index": 136,
       "LabelName": "WAZAINFO_SYN_251",
       "LabelHash": -1487482451,
       "OriginalText": "The target is attacked as many times as the number of Pokémon\nin the user’s party. Pokémon that have fainted or have a status\ncondition are not counted. This move’s power is calculated\nbased on the Attack stats of the party Pokémon.",
@@ -4308,7 +4428,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 136,
+      "Index": 137,
       "LabelName": "WAZAINFO_SYN_252",
       "LabelHash": 1241400904,
       "OriginalText": "Makes the target flinch. This move fails unless it is the first move\nused by the user after it enters a battle.",
@@ -4348,7 +4468,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 137,
+      "Index": 138,
       "LabelName": "WAZAINFO_SYN_253",
       "LabelHash": -324683037,
       "OriginalText": "The user gains the Uproar status.",
@@ -4370,7 +4490,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 138,
+      "Index": 139,
       "LabelName": "WAZAINFO_SYN_254",
       "LabelHash": 2047969958,
       "OriginalText": "Boosts the user’s Defense and Sp. Def stats by 1 stage. Raises\nthe user’s Stockpiling level by 1. Can be used up to 3 times.",
@@ -4410,7 +4530,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 139,
+      "Index": 140,
       "LabelName": "WAZAINFO_SYN_255",
       "LabelHash": 481886017,
       "OriginalText": "The higher the user’s Stockpiling level, the greater this move’s\npower (ranging between 100 and 300). This move fails unless\nthe user has the Stockpiling status.",
@@ -4468,7 +4588,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 140,
+      "Index": 141,
       "LabelName": "WAZAINFO_SYN_256",
       "LabelHash": -1084197924,
       "OriginalText": "The higher the user’s Stockpiling level, the more HP the\nuser restores. Level 1: 1/4 of the user’s max HP is restored.\nLevel 2: 1/2 of the user’s max HP is restored. Level 3: The\nuser’s HP is fully restored. This move fails unless the user\nhas the Stockpiling status.",
@@ -4562,7 +4682,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 141,
+      "Index": 142,
       "LabelName": "WAZAINFO_SYN_257",
       "LabelHash": 1644685431,
       "OriginalText": "Has a 10% chance of burning targets.",
@@ -4584,7 +4704,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 142,
+      "Index": 143,
       "LabelName": "WAZAINFO_SYN_259",
       "LabelHash": -1131252091,
       "OriginalText": "Gives the target the Unable to Repeat status.",
@@ -4606,7 +4726,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 143,
+      "Index": 144,
       "LabelName": "WAZAINFO_SYN_260",
       "LabelHash": 78601487,
       "OriginalText": "Boosts the target’s Sp. Atk stat by 1 stage and confuses it.",
@@ -4628,7 +4748,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 144,
+      "Index": 145,
       "LabelName": "WAZAINFO_SYN_261",
       "LabelHash": -1487482454,
       "OriginalText": "Burns the target.",
@@ -4650,7 +4770,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 145,
+      "Index": 146,
       "LabelName": "WAZAINFO_SYN_262",
       "LabelHash": 1241400901,
       "OriginalText": "Lowers the target’s Attack and Sp. Atk stats by 2 stages.\nThe user faints upon using this move.",
@@ -4690,7 +4810,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 146,
+      "Index": 147,
       "LabelName": "WAZAINFO_SYN_263",
       "LabelHash": -324683040,
       "OriginalText": "This move’s power is doubled if the user is poisoned, badly\npoisoned, burned, or paralyzed. Although this move is a\nphysical move, the damage it deals is not halved when the\nuser is burned.",
@@ -4766,7 +4886,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 147,
+      "Index": 148,
       "LabelName": "WAZAINFO_SYN_264",
       "LabelHash": 2047969955,
       "OriginalText": "This move fails if the user has already taken damage from a\nmove in the same turn.",
@@ -4806,7 +4926,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 148,
+      "Index": 149,
       "LabelName": "WAZAINFO_SYN_266",
       "LabelHash": -1084197927,
       "OriginalText": "The user redirects opponents’ moves toward itself. This effect\nworks only on single-target moves.",
@@ -4846,7 +4966,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 149,
+      "Index": 150,
       "LabelName": "WAZAINFO_SYN_268",
       "LabelHash": 434831847,
       "OriginalText": "Boosts the user’s Sp. Def stat by 1 stage. The user gains the\nElectric Boost status.",
@@ -4886,7 +5006,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 150,
+      "Index": 151,
       "LabelName": "WAZAINFO_SYN_269",
       "LabelHash": -1131252094,
       "OriginalText": "Gives the target the Taunted status.",
@@ -4908,7 +5028,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 151,
+      "Index": 152,
       "LabelName": "WAZAINFO_SYN_270",
       "LabelHash": 78601488,
       "OriginalText": "Boosts the power of an ally’s move by 50% during the turn this\nmove is used.",
@@ -4948,7 +5068,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 152,
+      "Index": 153,
       "LabelName": "WAZAINFO_SYN_271",
       "LabelHash": -1487482453,
       "OriginalText": "The user and the target swap their held items.",
@@ -4970,7 +5090,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 153,
+      "Index": 154,
       "LabelName": "WAZAINFO_SYN_272",
       "LabelHash": 1241400902,
       "OriginalText": "Changes the user’s Ability to be the same as the target’s.",
@@ -4992,7 +5112,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 154,
+      "Index": 155,
       "LabelName": "WAZAINFO_SYN_273",
       "LabelHash": -324683039,
       "OriginalText": "Gives the user’s spot the Wish status.",
@@ -5014,7 +5134,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 155,
+      "Index": 156,
       "LabelName": "WAZAINFO_SYN_275",
       "LabelHash": 481886015,
       "OriginalText": "The user gains the Ingrained status.",
@@ -5036,7 +5156,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 156,
+      "Index": 157,
       "LabelName": "WAZAINFO_SYN_276",
       "LabelHash": -1084197926,
       "OriginalText": "Lowers the user’s Attack and Defense stats by 1 stage.",
@@ -5058,7 +5178,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 157,
+      "Index": 158,
       "LabelName": "WAZAINFO_SYN_278",
       "LabelHash": 434831848,
       "OriginalText": "Regenerates the last held item that the user consumed. The user\nthen holds this item once more.",
@@ -5098,7 +5218,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 158,
+      "Index": 159,
       "LabelName": "WAZAINFO_SYN_280",
       "LabelHash": 78601485,
       "OriginalText": "Removes the Light Screen, Reflect, and Aurora Veil statuses on\nthe target’s side.",
@@ -5138,7 +5258,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 159,
+      "Index": 160,
       "LabelName": "WAZAINFO_SYN_281",
       "LabelHash": -1487482456,
       "OriginalText": "Makes the target drowsy. This move never misses.",
@@ -5160,7 +5280,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 160,
+      "Index": 161,
       "LabelName": "WAZAINFO_SYN_282",
       "LabelHash": 1241400899,
       "OriginalText": "This move’s power is boosted by 50% if the target is holding an\nitem. Causes the target to lose its held item.",
@@ -5200,7 +5320,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 161,
+      "Index": 162,
       "LabelName": "WAZAINFO_SYN_283",
       "LabelHash": -324683042,
       "OriginalText": "Deals damage to the target equal to its remaining HP minus the\nuser’s remaining HP. This move fails if the target’s HP is the same\nas or lower than the user’s.",
@@ -5258,7 +5378,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 162,
+      "Index": 163,
       "LabelName": "WAZAINFO_SYN_284",
       "LabelHash": 2047969953,
       "OriginalText": "The less HP the user has left, the lower this move’s power\n(ranging between 1 and 150).",
@@ -5298,7 +5418,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 163,
+      "Index": 164,
       "LabelName": "WAZAINFO_SYN_285",
       "LabelHash": 481886012,
       "OriginalText": "The user and the target swap their Abilities.",
@@ -5320,7 +5440,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 164,
+      "Index": 165,
       "LabelName": "WAZAINFO_SYN_286",
       "LabelHash": -1084197929,
       "OriginalText": "The user gains the Sealing Off status.",
@@ -5342,7 +5462,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 165,
+      "Index": 166,
       "LabelName": "WAZAINFO_SYN_291",
       "LabelHash": -1487482455,
       "OriginalText": "The user gains the Submerged status on the turn this move is\nused, then attacks on the following turn.",
@@ -5382,7 +5502,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 169,
+      "Index": 170,
       "LabelName": "WAZAINFO_SYN_297",
       "LabelHash": 1644685427,
       "OriginalText": "Lowers the target’s Attack stat by 2 stages.",
@@ -5404,7 +5524,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 170,
+      "Index": 171,
       "LabelName": "WAZAINFO_SYN_298",
       "LabelHash": 434831846,
       "OriginalText": "Confuses all other Pokémon on the field.",
@@ -5426,7 +5546,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 171,
+      "Index": 172,
       "LabelName": "WAZAINFO_SYN_299",
       "LabelHash": -1131252095,
       "OriginalText": "Has a 10% chance of burning the target. This move has a\n1-stage Critical-Hit Ratio Boost.",
@@ -5466,7 +5586,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 172,
+      "Index": 173,
       "LabelName": "WAZAINFO_SYN_303",
       "LabelHash": -183520533,
       "OriginalText": "Restores 1/2 of the user’s max HP.",
@@ -5488,7 +5608,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 173,
+      "Index": 174,
       "LabelName": "WAZAINFO_SYN_305",
       "LabelHash": 623048521,
       "OriginalText": "Has a 50% chance of badly poisoning the target.",
@@ -5510,7 +5630,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 174,
+      "Index": 175,
       "LabelName": "WAZAINFO_SYN_306",
       "LabelHash": 219763994,
       "OriginalText": "Has a 50% chance of lowering the target’s Defense stat by\n1 stage.",
@@ -5550,7 +5670,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 175,
+      "Index": 176,
       "LabelName": "WAZAINFO_SYN_307",
       "LabelHash": 1785847935,
       "OriginalText": "The user gains the Recharging status on the turn after this move\nis used.",
@@ -5590,7 +5710,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 176,
+      "Index": 177,
       "LabelName": "WAZAINFO_SYN_308",
       "LabelHash": 1738793768,
       "OriginalText": "The user gains the Recharging status on the turn after this move\nis used.",
@@ -5630,7 +5750,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 177,
+      "Index": 178,
       "LabelName": "WAZAINFO_SYN_309",
       "LabelHash": -990089587,
       "OriginalText": "Has a 20% chance of boosting the user’s Attack stat by 1 stage.",
@@ -5652,7 +5772,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 178,
+      "Index": 179,
       "LabelName": "WAZAINFO_SYN_311",
       "LabelHash": -1346319946,
       "OriginalText": "When a weather condition is present, this move’s power is\ndoubled and its type changes. Harsh sunlight: Fire type.\nRain: Water type. Snow: Ice type. Sandstorm: Rock type.",
@@ -5710,7 +5830,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 179,
+      "Index": 180,
       "LabelName": "WAZAINFO_SYN_313",
       "LabelHash": -183520532,
       "OriginalText": "Lowers the target’s Sp. Def stat by 2 stages.",
@@ -5732,7 +5852,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 180,
+      "Index": 181,
       "LabelName": "WAZAINFO_SYN_314",
       "LabelHash": -943035419,
       "OriginalText": "This move has a 1-stage Critical-Hit Ratio Boost.",
@@ -5754,7 +5874,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 181,
+      "Index": 182,
       "LabelName": "WAZAINFO_SYN_315",
       "LabelHash": 623048522,
       "OriginalText": "Lowers the user’s Sp. Atk stat by 2 stages.",
@@ -5776,7 +5896,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 182,
+      "Index": 183,
       "LabelName": "WAZAINFO_SYN_317",
       "LabelHash": 1785847936,
       "OriginalText": "Lowers the target’s Speed stat by 1 stage.",
@@ -5798,7 +5918,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 183,
+      "Index": 184,
       "LabelName": "WAZAINFO_SYN_319",
       "LabelHash": -990089586,
       "OriginalText": "Lowers the target’s Sp. Def stat by 2 stages.",
@@ -5820,7 +5940,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 184,
+      "Index": 185,
       "LabelName": "WAZAINFO_SYN_321",
       "LabelHash": -1346319949,
       "OriginalText": "Lowers the target’s Attack and Defense stats by 1 stage.",
@@ -5842,7 +5962,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 185,
+      "Index": 186,
       "LabelName": "WAZAINFO_SYN_322",
       "LabelHash": -1749604476,
       "OriginalText": "Boosts the user’s Defense and Sp. Def stats by 1 stage.",
@@ -5864,7 +5984,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 186,
+      "Index": 187,
       "LabelName": "WAZAINFO_SYN_323",
       "LabelHash": -183520535,
       "OriginalText": "The less HP the user has left, the lower this move’s power\n(ranging between 1 and 150).",
@@ -5904,7 +6024,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 187,
+      "Index": 188,
       "LabelName": "WAZAINFO_SYN_325",
       "LabelHash": 623048519,
       "OriginalText": "This move never misses.",
@@ -5926,7 +6046,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 188,
+      "Index": 189,
       "LabelName": "WAZAINFO_SYN_326",
       "LabelHash": 219763992,
       "OriginalText": "Has a 10% chance of making the target flinch.",
@@ -5948,7 +6068,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 189,
+      "Index": 190,
       "LabelName": "WAZAINFO_SYN_328",
       "LabelHash": 1738793766,
       "OriginalText": "Gives the target the Bound status.",
@@ -5970,7 +6090,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 190,
+      "Index": 191,
       "LabelName": "WAZAINFO_SYN_329",
       "LabelHash": -990089589,
       "OriginalText": "Knocks out the target. This move does not affect Ice types. The\naccuracy of this move is fixed at 30%. If used by Pokémon other\nthan Ice types, the accuracy of this move is 20%.",
@@ -6028,7 +6148,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 191,
+      "Index": 192,
       "LabelName": "WAZAINFO_SYN_330",
       "LabelHash": 1382563407,
       "OriginalText": "Has a 30% chance of lowering targets’ accuracy by 1 stage.",
@@ -6050,7 +6170,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 192,
+      "Index": 193,
       "LabelName": "WAZAINFO_SYN_331",
       "LabelHash": -1346319948,
       "OriginalText": "The user attacks 2 to 5 times in a row.",
@@ -6072,7 +6192,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 193,
+      "Index": 194,
       "LabelName": "WAZAINFO_SYN_332",
       "LabelHash": -1749604475,
       "OriginalText": "This move never misses.",
@@ -6094,7 +6214,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 194,
+      "Index": 195,
       "LabelName": "WAZAINFO_SYN_333",
       "LabelHash": -183520534,
       "OriginalText": "The user attacks 2 to 5 times in a row.",
@@ -6116,7 +6236,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 195,
+      "Index": 196,
       "LabelName": "WAZAINFO_SYN_334",
       "LabelHash": -943035421,
       "OriginalText": "Boosts the user’s Defense stat by 2 stages.",
@@ -6138,7 +6258,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 196,
+      "Index": 197,
       "LabelName": "WAZAINFO_SYN_335",
       "LabelHash": 623048520,
       "OriginalText": "Gives the target the Can’t Escape status.",
@@ -6160,7 +6280,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 197,
+      "Index": 198,
       "LabelName": "WAZAINFO_SYN_336",
       "LabelHash": 219763993,
       "OriginalText": "Boosts the Attack stats of the user and its allies by 1 stage.",
@@ -6182,7 +6302,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 198,
+      "Index": 199,
       "LabelName": "WAZAINFO_SYN_338",
       "LabelHash": 1738793767,
       "OriginalText": "The user gains the Recharging status on the turn after this move\nis used.",
@@ -6222,7 +6342,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 199,
+      "Index": 200,
       "LabelName": "WAZAINFO_SYN_339",
       "LabelHash": -990089588,
       "OriginalText": "Boosts the user’s Attack and Defense stats by 1 stage.",
@@ -6244,7 +6364,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 200,
+      "Index": 201,
       "LabelName": "WAZAINFO_SYN_340",
       "LabelHash": 1382563404,
       "OriginalText": "The user gains the Sky-High status on the turn this move is used,\nthen attacks on the following turn. This move has a 30% chance\nof paralyzing the target.",
@@ -6302,7 +6422,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 201,
+      "Index": 202,
       "LabelName": "WAZAINFO_SYN_341",
       "LabelHash": -1346319951,
       "OriginalText": "Lowers the target’s Speed stat by 1 stage.",
@@ -6324,7 +6444,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 202,
+      "Index": 203,
       "LabelName": "WAZAINFO_SYN_343",
       "LabelHash": -183520537,
       "OriginalText": "If the user is not already holding an item, it steals the target’s\nheld item.",
@@ -6364,7 +6484,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 203,
+      "Index": 204,
       "LabelName": "WAZAINFO_SYN_344",
       "LabelHash": -943035424,
       "OriginalText": "Has a 10% chance of paralyzing the target. The user also takes\n1/3 of the damage dealt by this move.",
@@ -6404,7 +6524,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 204,
+      "Index": 205,
       "LabelName": "WAZAINFO_SYN_347",
       "LabelHash": 1785847931,
       "OriginalText": "Boosts the user’s Sp. Atk and Sp. Def stats by 1 stage.",
@@ -6426,7 +6546,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 205,
+      "Index": 206,
       "LabelName": "WAZAINFO_SYN_348",
       "LabelHash": 1738793764,
       "OriginalText": "This move has a 1-stage Critical-Hit Ratio Boost.",
@@ -6448,7 +6568,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 206,
+      "Index": 207,
       "LabelName": "WAZAINFO_SYN_349",
       "LabelHash": -990089591,
       "OriginalText": "Boosts the user’s Attack and Speed stats by 1 stage.",
@@ -6470,7 +6590,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 207,
+      "Index": 208,
       "LabelName": "WAZAINFO_SYN_350",
       "LabelHash": 1382563405,
       "OriginalText": "The user attacks 2 to 5 times in a row.",
@@ -6492,7 +6612,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 208,
+      "Index": 209,
       "LabelName": "WAZAINFO_SYN_352",
       "LabelHash": -1749604477,
       "OriginalText": "Has a 20% chance of confusing the target.",
@@ -6514,7 +6634,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 211,
+      "Index": 212,
       "LabelName": "WAZAINFO_SYN_355",
       "LabelHash": 623048518,
       "OriginalText": "Restores 1/2 of the user’s max HP. If the user is a Flying type,\nit will lose the Flying type for the turn.",
@@ -6554,7 +6674,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 212,
+      "Index": 213,
       "LabelName": "WAZAINFO_SYN_356",
       "LabelHash": 219763991,
       "OriginalText": "Gives the entire field the Gravity status for 5 turns.",
@@ -6576,7 +6696,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 213,
+      "Index": 214,
       "LabelName": "WAZAINFO_SYN_359",
       "LabelHash": -990089590,
       "OriginalText": "Lowers the user’s Speed stat by 1 stage.",
@@ -6598,7 +6718,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 214,
+      "Index": 215,
       "LabelName": "WAZAINFO_SYN_360",
       "LabelHash": 1382563402,
       "OriginalText": "The lower the user’s Speed stat compared to the target’s, the\ngreater this move’s power (ranging between 1 and 150).",
@@ -6638,7 +6758,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 215,
+      "Index": 216,
       "LabelName": "WAZAINFO_SYN_361",
       "LabelHash": -1346319953,
       "OriginalText": "The user faints. The Pokémon taking its place will have its HP\nfully restored and its status conditions cured.",
@@ -6678,7 +6798,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 216,
+      "Index": 217,
       "LabelName": "WAZAINFO_SYN_364",
       "LabelHash": -943035426,
       "OriginalText": "This move can hit a target using a move such as Protect or\nDetect and removes the effects of those moves.",
@@ -6718,7 +6838,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 217,
+      "Index": 218,
       "LabelName": "WAZAINFO_SYN_365",
       "LabelHash": 623048515,
       "OriginalText": "If the target is holding a Berry, the user eats that Berry and\ngains its effect.",
@@ -6758,7 +6878,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 218,
+      "Index": 219,
       "LabelName": "WAZAINFO_SYN_366",
       "LabelHash": 219763988,
       "OriginalText": "Gives the user’s side the Tailwind status for 4 turns.",
@@ -6780,7 +6900,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 219,
+      "Index": 220,
       "LabelName": "WAZAINFO_SYN_367",
       "LabelHash": 1785847929,
       "OriginalText": "Boosts the Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy,\nor evasiveness of the user or an ally by 2 stages.",
@@ -6820,7 +6940,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 220,
+      "Index": 221,
       "LabelName": "WAZAINFO_SYN_368",
       "LabelHash": 1738793762,
       "OriginalText": "The user retaliates to deal 150% of the damage it took from an\nopponent’s move during the turn this move is used.",
@@ -6860,7 +6980,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 221,
+      "Index": 222,
       "LabelName": "WAZAINFO_SYN_369",
       "LabelHash": -990089593,
       "OriginalText": "After attacking, the user switches out of battle to be replaced\nby another party Pokémon.",
@@ -6900,7 +7020,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 222,
+      "Index": 223,
       "LabelName": "WAZAINFO_SYN_370",
       "LabelHash": 1382563403,
       "OriginalText": "Lowers the user’s Defense and Sp. Def stats by 1 stage.",
@@ -6922,7 +7042,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 223,
+      "Index": 224,
       "LabelName": "WAZAINFO_SYN_371",
       "LabelHash": -1346319952,
       "OriginalText": "This move’s power is doubled if the user attacks after the target.",
@@ -6944,7 +7064,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 224,
+      "Index": 225,
       "LabelName": "WAZAINFO_SYN_372",
       "LabelHash": -1749604479,
       "OriginalText": "This move’s power is doubled if the target has already taken\ndamage during the turn this move is used.",
@@ -6984,7 +7104,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 225,
+      "Index": 226,
       "LabelName": "WAZAINFO_SYN_374",
       "LabelHash": -943035425,
       "OriginalText": "This move’s power and effects depend on the user’s held item.\nThe held item is lost after this move is used.",
@@ -7024,7 +7144,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 226,
+      "Index": 227,
       "LabelName": "WAZAINFO_SYN_379",
       "LabelHash": -990089592,
       "OriginalText": "The user gains the Atk/Def Swapped status.",
@@ -7046,7 +7166,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 227,
+      "Index": 228,
       "LabelName": "WAZAINFO_SYN_380",
       "LabelHash": 1382563400,
       "OriginalText": "Gives the target the No Ability status.",
@@ -7068,7 +7188,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 228,
+      "Index": 229,
       "LabelName": "WAZAINFO_SYN_383",
       "LabelHash": -183520541,
       "OriginalText": "The user mimics the move that was last used. This move fails if\nno other move has been used yet.",
@@ -7108,7 +7228,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 229,
+      "Index": 230,
       "LabelName": "WAZAINFO_SYN_384",
       "LabelHash": -943035428,
       "OriginalText": "The user swaps the changes to its Attack and Sp. Atk stats with\nthe changes to the target’s Attack and Sp. Atk stats.",
@@ -7148,7 +7268,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 230,
+      "Index": 231,
       "LabelName": "WAZAINFO_SYN_385",
       "LabelHash": 623048513,
       "OriginalText": "The user swaps the changes to its Defense and Sp. Def stats with\nthe changes to the target’s Defense and Sp. Def stats.",
@@ -7188,7 +7308,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 231,
+      "Index": 232,
       "LabelName": "WAZAINFO_SYN_387",
       "LabelHash": 1785847927,
       "OriginalText": "This move fails unless the user has already used all the other\nmoves it knows.",
@@ -7228,7 +7348,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 232,
+      "Index": 233,
       "LabelName": "WAZAINFO_SYN_388",
       "LabelHash": 1738793760,
       "OriginalText": "Changes the target’s Ability to Insomnia.",
@@ -7250,7 +7370,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 233,
+      "Index": 234,
       "LabelName": "WAZAINFO_SYN_389",
       "LabelHash": -990089595,
       "OriginalText": "This move fails unless the target has chosen an attack and has\nnot yet attacked during the turn this move is used.",
@@ -7290,7 +7410,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 234,
+      "Index": 235,
       "LabelName": "WAZAINFO_SYN_390",
       "LabelHash": 1382563401,
       "OriginalText": "Gives the opponent’s side the Toxic Spikes status.",
@@ -7312,7 +7432,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 236,
+      "Index": 237,
       "LabelName": "WAZAINFO_SYN_392",
       "LabelHash": -1749604481,
       "OriginalText": "The user gains the Aqua Ring status.",
@@ -7334,7 +7454,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 237,
+      "Index": 238,
       "LabelName": "WAZAINFO_SYN_393",
       "LabelHash": -183520540,
       "OriginalText": "The user gains the Magnet Rise status.",
@@ -7356,7 +7476,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 238,
+      "Index": 239,
       "LabelName": "WAZAINFO_SYN_394",
       "LabelHash": -943035427,
       "OriginalText": "Has a 10% chance of burning the target. Cures the user of\nbeing frozen. The user also takes 1/3 of the damage dealt by\nthis move.",
@@ -7414,7 +7534,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 239,
+      "Index": 240,
       "LabelName": "WAZAINFO_SYN_396",
       "LabelHash": 219763987,
       "OriginalText": "This move never misses.",
@@ -7436,7 +7556,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 240,
+      "Index": 241,
       "LabelName": "WAZAINFO_SYN_397",
       "LabelHash": 1785847928,
       "OriginalText": "Boosts the user’s Speed stat by 2 stages.",
@@ -7458,7 +7578,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 241,
+      "Index": 242,
       "LabelName": "WAZAINFO_SYN_398",
       "LabelHash": 1738793761,
       "OriginalText": "Has a 30% chance of poisoning the target.",
@@ -7480,7 +7600,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 242,
+      "Index": 243,
       "LabelName": "WAZAINFO_SYN_399",
       "LabelHash": -990089594,
       "OriginalText": "Has a 20% chance of making the target flinch.",
@@ -7502,7 +7622,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 243,
+      "Index": 244,
       "LabelName": "WAZAINFO_SYN_400",
       "LabelHash": 360926495,
       "OriginalText": "This move has a 1-stage Critical-Hit Ratio Boost.",
@@ -7524,7 +7644,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 244,
+      "Index": 245,
       "LabelName": "WAZAINFO_SYN_403",
       "LabelHash": 1927010436,
       "OriginalText": "Has a 30% chance of making the target flinch.",
@@ -7546,7 +7666,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 245,
+      "Index": 246,
       "LabelName": "WAZAINFO_SYN_405",
       "LabelHash": 1120441382,
       "OriginalText": "Has a 10% chance of lowering the target’s Sp. Def stat by\n1 stage.",
@@ -7586,7 +7706,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 246,
+      "Index": 247,
       "LabelName": "WAZAINFO_SYN_407",
       "LabelHash": -42358032,
       "OriginalText": "Has a 20% chance of making the target flinch. If the target has\nthe Minimized status, this move’s power is doubled and it will\nbe sure to hit.",
@@ -7644,7 +7764,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 247,
+      "Index": 248,
       "LabelName": "WAZAINFO_SYN_409",
       "LabelHash": -848927086,
       "OriginalText": "The user’s HP is restored by 1/2 of the damage dealt by\nthis move.",
@@ -7684,7 +7804,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 248,
+      "Index": 249,
       "LabelName": "WAZAINFO_SYN_411",
       "LabelHash": -1205157445,
       "OriginalText": "Has a 10% chance of lowering the target’s Sp. Def stat by\n1 stage.",
@@ -7724,7 +7844,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 249,
+      "Index": 250,
       "LabelName": "WAZAINFO_SYN_412",
       "LabelHash": -801872918,
       "OriginalText": "Has a 10% chance of lowering the target’s Sp. Def stat by\n1 stage.",
@@ -7764,7 +7884,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 250,
+      "Index": 251,
       "LabelName": "WAZAINFO_SYN_413",
       "LabelHash": 1927010437,
       "OriginalText": "The user takes 1/3 of the damage dealt by this move.",
@@ -7786,7 +7906,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 251,
+      "Index": 252,
       "LabelName": "WAZAINFO_SYN_414",
       "LabelHash": -1608441972,
       "OriginalText": "Has a 10% chance of lowering the target’s Sp. Def stat by\n1 stage.",
@@ -7826,7 +7946,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 252,
+      "Index": 253,
       "LabelName": "WAZAINFO_SYN_415",
       "LabelHash": 1120441383,
       "OriginalText": "The user and the target swap their held items.",
@@ -7848,7 +7968,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 253,
+      "Index": 254,
       "LabelName": "WAZAINFO_SYN_416",
       "LabelHash": 1523725910,
       "OriginalText": "The user gains the Recharging status on the turn after this move\nis used.",
@@ -7888,7 +8008,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 254,
+      "Index": 255,
       "LabelName": "WAZAINFO_SYN_417",
       "LabelHash": -42358031,
       "OriginalText": "Boosts the user’s Sp. Atk stat by 2 stages.",
@@ -7910,7 +8030,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 255,
+      "Index": 256,
       "LabelName": "WAZAINFO_SYN_419",
       "LabelHash": -848927085,
       "OriginalText": "This move’s power is doubled if the target has already dealt\ndamage to the user with a move in the same turn.",
@@ -7950,7 +8070,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 256,
+      "Index": 257,
       "LabelName": "WAZAINFO_SYN_421",
       "LabelHash": -1205157448,
       "OriginalText": "This move has a 1-stage Critical-Hit Ratio Boost.",
@@ -7972,7 +8092,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 257,
+      "Index": 258,
       "LabelName": "WAZAINFO_SYN_422",
       "LabelHash": -801872921,
       "OriginalText": "Has a 10% chance of paralyzing the target and a 10% chance\nof making the target flinch.",
@@ -8012,7 +8132,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 258,
+      "Index": 259,
       "LabelName": "WAZAINFO_SYN_423",
       "LabelHash": 1927010434,
       "OriginalText": "Has a 10% chance of freezing the target and a 10% chance of\nmaking the target flinch.",
@@ -8052,7 +8172,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 259,
+      "Index": 260,
       "LabelName": "WAZAINFO_SYN_424",
       "LabelHash": -1608441975,
       "OriginalText": "Has a 10% chance of burning the target and a 10% chance of\nmaking the target flinch.",
@@ -8092,7 +8212,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 260,
+      "Index": 261,
       "LabelName": "WAZAINFO_SYN_427",
       "LabelHash": -42358034,
       "OriginalText": "This move has a 1-stage Critical-Hit Ratio Boost.",
@@ -8114,7 +8234,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 261,
+      "Index": 262,
       "LabelName": "WAZAINFO_SYN_428",
       "LabelHash": 717156853,
       "OriginalText": "Has a 20% chance of making the target flinch.",
@@ -8136,7 +8256,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 262,
+      "Index": 263,
       "LabelName": "WAZAINFO_SYN_430",
       "LabelHash": 360926494,
       "OriginalText": "Has a 10% chance of lowering the target’s Sp. Def stat by\n1 stage.",
@@ -8176,7 +8296,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 263,
+      "Index": 264,
       "LabelName": "WAZAINFO_SYN_432",
       "LabelHash": -801872920,
       "OriginalText": "Lowers the target’s evasiveness by 1 stage. Removes statuses\nsuch as Reflect, Spikes, and Safeguard, as well as any terrain.",
@@ -8216,7 +8336,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 264,
+      "Index": 265,
       "LabelName": "WAZAINFO_SYN_433",
       "LabelHash": 1927010435,
       "OriginalText": "Gives the entire field the Trick Room status for 5 turns.",
@@ -8238,7 +8358,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 265,
+      "Index": 266,
       "LabelName": "WAZAINFO_SYN_434",
       "LabelHash": -1608441974,
       "OriginalText": "Lowers the user’s Sp. Atk stat by 2 stages.",
@@ -8260,7 +8380,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 266,
+      "Index": 267,
       "LabelName": "WAZAINFO_SYN_435",
       "LabelHash": 1120441381,
       "OriginalText": "Has a 30% chance of paralyzing targets.",
@@ -8282,7 +8402,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 267,
+      "Index": 268,
       "LabelName": "WAZAINFO_SYN_436",
       "LabelHash": 1523725908,
       "OriginalText": "Has a 30% chance of burning targets.",
@@ -8304,7 +8424,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 268,
+      "Index": 269,
       "LabelName": "WAZAINFO_SYN_437",
       "LabelHash": -42358033,
       "OriginalText": "Lowers the user’s Sp. Atk stat by 2 stages.",
@@ -8326,7 +8446,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 269,
+      "Index": 270,
       "LabelName": "WAZAINFO_SYN_439",
       "LabelHash": -848927087,
       "OriginalText": "The user gains the Recharging status on the turn after this move\nis used.",
@@ -8366,7 +8486,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 270,
+      "Index": 271,
       "LabelName": "WAZAINFO_SYN_440",
       "LabelHash": 360926491,
       "OriginalText": "Has a 10% chance of poisoning the target. This move has a\n1-stage Critical-Hit Ratio Boost.",
@@ -8406,7 +8526,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 271,
+      "Index": 272,
       "LabelName": "WAZAINFO_SYN_441",
       "LabelHash": -1205157450,
       "OriginalText": "Has a 30% chance of poisoning the target.",
@@ -8428,7 +8548,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 272,
+      "Index": 273,
       "LabelName": "WAZAINFO_SYN_442",
       "LabelHash": -801872923,
       "OriginalText": "Has a 20% chance of making the target flinch.",
@@ -8450,7 +8570,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 273,
+      "Index": 274,
       "LabelName": "WAZAINFO_SYN_444",
       "LabelHash": -1608441977,
       "OriginalText": "This move has a 1-stage Critical-Hit Ratio Boost.",
@@ -8472,7 +8592,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 274,
+      "Index": 275,
       "LabelName": "WAZAINFO_SYN_446",
       "LabelHash": 1523725905,
       "OriginalText": "Gives the opponent’s side the Stealth Rock status.",
@@ -8494,7 +8614,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 275,
+      "Index": 276,
       "LabelName": "WAZAINFO_SYN_447",
       "LabelHash": -42358036,
       "OriginalText": "The heavier the target, the greater this move’s power (ranging\nbetween 20 and 120).",
@@ -8534,7 +8654,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 278,
+      "Index": 279,
       "LabelName": "WAZAINFO_SYN_450",
       "LabelHash": 360926492,
       "OriginalText": "If the target is holding a Berry, the user eats that Berry and gains\nits effect.",
@@ -8574,7 +8694,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 279,
+      "Index": 280,
       "LabelName": "WAZAINFO_SYN_451",
       "LabelHash": -1205157449,
       "OriginalText": "Has a 70% chance of boosting the user’s Sp. Atk stat by 1 stage.",
@@ -8596,7 +8716,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 280,
+      "Index": 281,
       "LabelName": "WAZAINFO_SYN_452",
       "LabelHash": -801872922,
       "OriginalText": "The user takes 1/3 of the damage dealt by this move.",
@@ -8618,7 +8738,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 283,
+      "Index": 284,
       "LabelName": "WAZAINFO_SYN_457",
       "LabelHash": -42358035,
       "OriginalText": "The user takes 1/2 of the damage dealt by this move.",
@@ -8640,7 +8760,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 284,
+      "Index": 285,
       "LabelName": "WAZAINFO_SYN_458",
       "LabelHash": 717156852,
       "OriginalText": "The user attacks twice in a row.",
@@ -8662,7 +8782,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 293,
+      "Index": 294,
       "LabelName": "WAZAINFO_SYN_469",
       "LabelHash": -848927092,
       "OriginalText": "During the turn this move is used, the user protects its side from\nmoves that target all allies.",
@@ -8702,7 +8822,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 294,
+      "Index": 295,
       "LabelName": "WAZAINFO_SYN_470",
       "LabelHash": 360926490,
       "OriginalText": "The user adds its Defense stat to the target’s Defense stat, then\nsplits the total in half for them to share. It does the same with\neach of their Sp. Def stats.",
@@ -8760,7 +8880,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 295,
+      "Index": 296,
       "LabelName": "WAZAINFO_SYN_471",
       "LabelHash": -1205157451,
       "OriginalText": "The user adds its Attack stat to the target’s Attack stat, then\nsplits the total in half for them to share. It does the same with\neach of their Sp. Atk stats.",
@@ -8818,7 +8938,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 296,
+      "Index": 297,
       "LabelName": "WAZAINFO_SYN_472",
       "LabelHash": -801872924,
       "OriginalText": "Gives the entire field the Wonder Room status for 5 turns.",
@@ -8840,7 +8960,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 297,
+      "Index": 298,
       "LabelName": "WAZAINFO_SYN_473",
       "LabelHash": 1927010431,
       "OriginalText": "This is a special move, but the damage it deals is calculated\nusing the target’s Defense stat.",
@@ -8880,7 +9000,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 298,
+      "Index": 299,
       "LabelName": "WAZAINFO_SYN_474",
       "LabelHash": -1608441978,
       "OriginalText": "This move’s power is doubled if the target is poisoned or\nbadly poisoned.",
@@ -8920,10 +9040,10 @@
       "StyleCode": 68
     },
     {
-      "Index": 299,
+      "Index": 300,
       "LabelName": "WAZAINFO_SYN_476",
       "LabelHash": 1523725904,
-      "OriginalText": "The user redirects opponents’ moves toward itself. This effect\nworks only on single-target moves.",
+      "OriginalText": "The user redirects opponents’ moves toward itself. This effect\nworks only on single-target moves. Grass-type Pokémon are\nunaffected.",
       "TextInfos": [
         {
           "Text": "The user redirects opponents’ moves toward itself. This effect",
@@ -8944,7 +9064,25 @@
           }
         },
         {
-          "Text": "works only on single-target moves.",
+          "Text": "works only on single-target moves. Grass-type Pokémon are",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -8960,7 +9098,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 300,
+      "Index": 301,
       "LabelName": "WAZAINFO_SYN_478",
       "LabelHash": 717156850,
       "OriginalText": "Gives the entire field the Magic Room status for 5 turns.",
@@ -8982,7 +9120,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 301,
+      "Index": 302,
       "LabelName": "WAZAINFO_SYN_479",
       "LabelHash": -848927091,
       "OriginalText": "If the target is off the ground, it gains the Landed status. This\nmove can hit a target that has the Sky-High status.",
@@ -9022,7 +9160,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 302,
+      "Index": 303,
       "LabelName": "WAZAINFO_SYN_480",
       "LabelHash": 360926487,
       "OriginalText": "Always a critical hit.",
@@ -9044,7 +9182,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 303,
+      "Index": 304,
       "LabelName": "WAZAINFO_SYN_482",
       "LabelHash": -801872927,
       "OriginalText": "Has a 10% chance of poisoning targets.",
@@ -9066,7 +9204,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 304,
+      "Index": 305,
       "LabelName": "WAZAINFO_SYN_483",
       "LabelHash": 1927010428,
       "OriginalText": "Boosts the user’s Sp. Atk, Sp. Def, and Speed stats by 1 stage.",
@@ -9088,7 +9226,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 305,
+      "Index": 306,
       "LabelName": "WAZAINFO_SYN_484",
       "LabelHash": -1608441981,
       "OriginalText": "The more the user outweighs the target, the greater this move’s\npower (ranging between 40 and 120). If the target has the\nMinimized status, this move’s power is doubled and it will be\nsure to hit.",
@@ -9164,7 +9302,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 306,
+      "Index": 307,
       "LabelName": "WAZAINFO_SYN_486",
       "LabelHash": 1523725901,
       "OriginalText": "The higher the user’s Speed stat compared to the target’s, the\ngreater this move’s power (ranging between 40 and 150).",
@@ -9204,7 +9342,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 307,
+      "Index": 308,
       "LabelName": "WAZAINFO_SYN_487",
       "LabelHash": -42358040,
       "OriginalText": "Changes the target’s type to Water.",
@@ -9226,7 +9364,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 308,
+      "Index": 309,
       "LabelName": "WAZAINFO_SYN_488",
       "LabelHash": 717156847,
       "OriginalText": "Boosts the user’s Speed stat by 1 stage.",
@@ -9248,7 +9386,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 309,
+      "Index": 310,
       "LabelName": "WAZAINFO_SYN_489",
       "LabelHash": -848927094,
       "OriginalText": "Boosts the user’s Attack and Defense stats as well as its\naccuracy by 1 stage.",
@@ -9288,7 +9426,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 310,
+      "Index": 311,
       "LabelName": "WAZAINFO_SYN_490",
       "LabelHash": 360926488,
       "OriginalText": "Lowers the target’s Speed stat by 1 stage.",
@@ -9310,7 +9448,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 311,
+      "Index": 312,
       "LabelName": "WAZAINFO_SYN_491",
       "LabelHash": -1205157453,
       "OriginalText": "Lowers the target’s Sp. Def stat by 2 stages.",
@@ -9332,7 +9470,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 312,
+      "Index": 313,
       "LabelName": "WAZAINFO_SYN_492",
       "LabelHash": -801872926,
       "OriginalText": "The damage dealt by this move is calculated using the target’s\nAttack stat instead of the user’s Attack stat.",
@@ -9372,7 +9510,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 313,
+      "Index": 314,
       "LabelName": "WAZAINFO_SYN_493",
       "LabelHash": 1927010429,
       "OriginalText": "Changes the target’s Ability to Simple.",
@@ -9394,7 +9532,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 314,
+      "Index": 315,
       "LabelName": "WAZAINFO_SYN_494",
       "LabelHash": -1608441980,
       "OriginalText": "Changes the target’s Ability to be the same as the user’s.",
@@ -9416,7 +9554,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 315,
+      "Index": 316,
       "LabelName": "WAZAINFO_SYN_495",
       "LabelHash": 1120441375,
       "OriginalText": "Makes the target move immediately after the user.",
@@ -9438,7 +9576,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 316,
+      "Index": 317,
       "LabelName": "WAZAINFO_SYN_496",
       "LabelHash": 1523725902,
       "OriginalText": "If multiple Pokémon use this move in the same turn, the second\nuser onward will act immediately after the first, and the power\nof the second Round onward will be doubled.",
@@ -9496,7 +9634,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 317,
+      "Index": 318,
       "LabelName": "WAZAINFO_SYN_499",
       "LabelHash": -848927093,
       "OriginalText": "Removes all stat changes from the target. This move never\nmisses.",
@@ -9536,7 +9674,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 318,
+      "Index": 319,
       "LabelName": "WAZAINFO_SYN_500",
       "LabelHash": 1664888410,
       "OriginalText": "This move’s power is increased by 20 for each stage that the\nuser’s stats have been boosted.",
@@ -9576,7 +9714,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 319,
+      "Index": 320,
       "LabelName": "WAZAINFO_SYN_501",
       "LabelHash": -1063994945,
       "OriginalText": "The user protects itself and its allies from priority moves for\nthe turn.",
@@ -9616,7 +9754,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 320,
+      "Index": 321,
       "LabelName": "WAZAINFO_SYN_502",
       "LabelHash": 502088996,
       "OriginalText": "The user switches spots with one of its allies. With each\nconsecutive use, this move’s chance of success becomes 1/3 of\nwhat it was before.",
@@ -9674,7 +9812,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 321,
+      "Index": 322,
       "LabelName": "WAZAINFO_SYN_503",
       "LabelHash": 2068172937,
       "OriginalText": "Has a 30% chance of burning the target. Cures the user and\ntarget of being frozen.",
@@ -9714,7 +9852,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 322,
+      "Index": 323,
       "LabelName": "WAZAINFO_SYN_504",
       "LabelHash": -304480058,
       "OriginalText": "Lowers the user’s Defense and Sp. Def stats by 1 stage and\nboosts its Attack, Sp. Atk, and Speed stats by 2 stages.",
@@ -9754,7 +9892,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 323,
+      "Index": 324,
       "LabelName": "WAZAINFO_SYN_505",
       "LabelHash": 1261603883,
       "OriginalText": "Restores 1/2 of the target’s max HP.",
@@ -9776,7 +9914,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 324,
+      "Index": 325,
       "LabelName": "WAZAINFO_SYN_506",
       "LabelHash": -1467279472,
       "OriginalText": "This move’s power is doubled if the target has a\nstatus condition.",
@@ -9817,6 +9955,46 @@
     },
     {
       "Index": 326,
+      "LabelName": "WAZAINFO_SYN_508",
+      "LabelHash": 2021118770,
+      "OriginalText": "Boosts the user’s Attack stat by 1 stage and Speed stat by\n2 stages.",
+      "TextInfos": [
+        {
+          "Text": "Boosts the user’s Attack stat by 1 stage and Speed stat by",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "2 stages.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 327,
       "LabelName": "WAZAINFO_SYN_509",
       "LabelHash": -707764585,
       "OriginalText": "If there are other Pokémon in the target’s party that can switch\ninto battle, the target is forced to switch out of battle and is\nreplaced by one of those Pokémon at random.",
@@ -9874,7 +10052,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 327,
+      "Index": 328,
       "LabelName": "WAZAINFO_SYN_511",
       "LabelHash": -1063994944,
       "OriginalText": "Causes the target to move last in the turn.",
@@ -9896,7 +10074,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 328,
+      "Index": 329,
       "LabelName": "WAZAINFO_SYN_512",
       "LabelHash": 502088997,
       "OriginalText": "This move’s power is doubled if the user isn’t holding an item.",
@@ -9918,7 +10096,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 329,
+      "Index": 330,
       "LabelName": "WAZAINFO_SYN_513",
       "LabelHash": 2068172938,
       "OriginalText": "The user becomes the same type or types as the target.",
@@ -9940,7 +10118,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 330,
+      "Index": 331,
       "LabelName": "WAZAINFO_SYN_515",
       "LabelHash": 1261603884,
       "OriginalText": "The user faints. This move deals damage to the target equal to\nthe user’s remaining HP at the time this move was used.",
@@ -9980,7 +10158,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 331,
+      "Index": 332,
       "LabelName": "WAZAINFO_SYN_517",
       "LabelHash": 98804470,
       "OriginalText": "Burns the target.",
@@ -10002,7 +10180,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 332,
+      "Index": 333,
       "LabelName": "WAZAINFO_SYN_521",
       "LabelHash": -1063994947,
       "OriginalText": "After attacking, the user switches out of battle to be replaced\nby another party Pokémon.",
@@ -10042,7 +10220,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 333,
+      "Index": 334,
       "LabelName": "WAZAINFO_SYN_522",
       "LabelHash": 502088994,
       "OriginalText": "Lowers targets’ Sp. Atk stats by 1 stage.",
@@ -10064,7 +10242,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 334,
+      "Index": 335,
       "LabelName": "WAZAINFO_SYN_523",
       "LabelHash": 2068172935,
       "OriginalText": "Lowers targets’ Speed stats by 1 stage. When Grassy Terrain\nis active, this move’s power is halved.",
@@ -10104,7 +10282,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 335,
+      "Index": 336,
       "LabelName": "WAZAINFO_SYN_524",
       "LabelHash": -304480060,
       "OriginalText": "Always a critical hit.",
@@ -10126,7 +10304,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 336,
+      "Index": 337,
       "LabelName": "WAZAINFO_SYN_525",
       "LabelHash": 1261603881,
       "OriginalText": "If there are other Pokémon in the target’s party that can switch\ninto battle, the target is forced to switch out of battle and is\nreplaced by one of those Pokémon at random.",
@@ -10184,7 +10362,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 337,
+      "Index": 338,
       "LabelName": "WAZAINFO_SYN_527",
       "LabelHash": 98804467,
       "OriginalText": "Lowers targets’ Speed stats by 1 stage.",
@@ -10206,7 +10384,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 338,
+      "Index": 339,
       "LabelName": "WAZAINFO_SYN_528",
       "LabelHash": 2021118768,
       "OriginalText": "The user takes 1/4 of the damage dealt by this move.",
@@ -10228,7 +10406,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 339,
+      "Index": 340,
       "LabelName": "WAZAINFO_SYN_529",
       "LabelHash": -707764587,
       "OriginalText": "This move has a 1-stage Critical-Hit Ratio Boost.",
@@ -10250,7 +10428,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 340,
+      "Index": 341,
       "LabelName": "WAZAINFO_SYN_532",
       "LabelHash": 502088995,
       "OriginalText": "The user’s HP is restored by 1/2 of the damage dealt by\nthis move.",
@@ -10290,7 +10468,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 341,
+      "Index": 342,
       "LabelName": "WAZAINFO_SYN_533",
       "LabelHash": 2068172936,
       "OriginalText": "This move ignores the target’s stat changes when dealing\ndamage.",
@@ -10330,7 +10508,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 342,
+      "Index": 343,
       "LabelName": "WAZAINFO_SYN_534",
       "LabelHash": -304480059,
       "OriginalText": "Has a 50% chance of lowering the target’s Defense stat by\n1 stage.",
@@ -10370,7 +10548,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 343,
+      "Index": 344,
       "LabelName": "WAZAINFO_SYN_535",
       "LabelHash": 1261603882,
       "OriginalText": "The more the user outweighs the target, the greater this move’s\npower (ranging between 40 and 120). If the target has the\nMinimized status, this move’s power is doubled and it will be\nsure to hit.",
@@ -10446,7 +10624,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 344,
+      "Index": 345,
       "LabelName": "WAZAINFO_SYN_538",
       "LabelHash": 2021118769,
       "OriginalText": "Boosts the user’s Defense stat by 3 stages.",
@@ -10468,7 +10646,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 345,
+      "Index": 346,
       "LabelName": "WAZAINFO_SYN_539",
       "LabelHash": -707764586,
       "OriginalText": "Has a 40% chance of lowering the target’s accuracy by 1 stage.",
@@ -10490,7 +10668,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 347,
+      "Index": 348,
       "LabelName": "WAZAINFO_SYN_541",
       "LabelHash": -1063994949,
       "OriginalText": "The user attacks 2 to 5 times in a row.",
@@ -10512,13 +10690,13 @@
       "StyleCode": 68
     },
     {
-      "Index": 348,
+      "Index": 349,
       "LabelName": "WAZAINFO_SYN_542",
       "LabelHash": 502088992,
-      "OriginalText": "Has a 30% chance of confusing the target. This move never\nmisses in rain and can hit a target that has the Sky-High status.",
+      "OriginalText": "Has a 30% chance of confusing the target. In rain, this move\nnever misses. In harsh sunlight, this move’s accuracy is 50%.\nThis move can hit a target that has the Sky-High status.",
       "TextInfos": [
         {
-          "Text": "Has a 30% chance of confusing the target. This move never",
+          "Text": "Has a 30% chance of confusing the target. In rain, this move",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -10536,7 +10714,25 @@
           }
         },
         {
-          "Text": "misses in rain and can hit a target that has the Sky-High status.",
+          "Text": "never misses. In harsh sunlight, this move’s accuracy is 50%.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "This move can hit a target that has the Sky-High status.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -10552,7 +10748,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 358,
+      "Index": 359,
       "LabelName": "WAZAINFO_SYN_552",
       "LabelHash": 502088993,
       "OriginalText": "Has a 50% chance of boosting the user’s Sp. Atk stat by 1 stage.",
@@ -10574,7 +10770,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 361,
+      "Index": 362,
       "LabelName": "WAZAINFO_SYN_555",
       "LabelHash": 1261603880,
       "OriginalText": "Lowers targets’ Sp. Atk stats by 1 stage.",
@@ -10596,7 +10792,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 362,
+      "Index": 363,
       "LabelName": "WAZAINFO_SYN_556",
       "LabelHash": -1467279475,
       "OriginalText": "Has a 30% chance of making the target flinch.",
@@ -10618,7 +10814,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 366,
+      "Index": 367,
       "LabelName": "WAZAINFO_SYN_560",
       "LabelHash": 1664888404,
       "OriginalText": "The damage dealt by this move is calculated by combining the\neffectiveness of the move’s own type with that of the Flying\ntype. If the target has the Minimized status, this move’s power\nis doubled and it will be sure to hit.",
@@ -10694,7 +10890,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 367,
+      "Index": 368,
       "LabelName": "WAZAINFO_SYN_562",
       "LabelHash": 502088990,
       "OriginalText": "This move fails unless the user has eaten a Berry during\nthe battle.",
@@ -10734,7 +10930,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 368,
+      "Index": 369,
       "LabelName": "WAZAINFO_SYN_564",
       "LabelHash": -304480064,
       "OriginalText": "Gives the opponent’s side the Sticky Web status.",
@@ -10756,7 +10952,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 369,
+      "Index": 370,
       "LabelName": "WAZAINFO_SYN_565",
       "LabelHash": 1261603877,
       "OriginalText": "Boosts the user’s Attack stat by 3 stages if this move knocks\nout the target.",
@@ -10796,7 +10992,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 370,
+      "Index": 371,
       "LabelName": "WAZAINFO_SYN_566",
       "LabelHash": -1467279478,
       "OriginalText": "The user gains the Concealed status on the turn this move is\nused, then attacks on the following turn. This move can hit a\ntarget using a move such as Protect or Detect and removes\nthe effects of those moves.",
@@ -10872,7 +11068,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 371,
+      "Index": 372,
       "LabelName": "WAZAINFO_SYN_567",
       "LabelHash": 98804463,
       "OriginalText": "Gives the target the Trick-or-Treating status.",
@@ -10894,7 +11090,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 372,
+      "Index": 373,
       "LabelName": "WAZAINFO_SYN_568",
       "LabelHash": 2021118764,
       "OriginalText": "Lowers the target’s Attack and Sp. Atk stats by 1 stage.",
@@ -10916,7 +11112,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 373,
+      "Index": 374,
       "LabelName": "WAZAINFO_SYN_570",
       "LabelHash": 1664888405,
       "OriginalText": "The user’s HP is restored by 1/2 of the damage dealt by\nthis move.",
@@ -10956,7 +11152,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 374,
+      "Index": 375,
       "LabelName": "WAZAINFO_SYN_571",
       "LabelHash": -1063994950,
       "OriginalText": "Gives the target the Forest Cursed status.",
@@ -10978,7 +11174,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 375,
+      "Index": 376,
       "LabelName": "WAZAINFO_SYN_573",
       "LabelHash": 2068172932,
       "OriginalText": "This move is also super effective against Water-type Pokémon.",
@@ -11000,7 +11196,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 376,
+      "Index": 377,
       "LabelName": "WAZAINFO_SYN_575",
       "LabelHash": 1261603878,
       "OriginalText": "Lowers the target’s Attack and Sp. Atk stats by 1 stage. The\nuser then switches out of battle to be replaced by another\nparty Pokémon.",
@@ -11058,7 +11254,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 377,
+      "Index": 378,
       "LabelName": "WAZAINFO_SYN_576",
       "LabelHash": -1467279477,
       "OriginalText": "Inverts all stat changes affecting the target.",
@@ -11080,7 +11276,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 378,
+      "Index": 379,
       "LabelName": "WAZAINFO_SYN_577",
       "LabelHash": 98804464,
       "OriginalText": "The user’s HP is restored by 3/4 of the damage dealt by\nthis move.",
@@ -11120,7 +11316,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 379,
+      "Index": 380,
       "LabelName": "WAZAINFO_SYN_580",
       "LabelHash": 1664888402,
       "OriginalText": "Turns the entire field into Grassy Terrain for 5 turns.",
@@ -11142,7 +11338,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 380,
+      "Index": 381,
       "LabelName": "WAZAINFO_SYN_581",
       "LabelHash": -1063994953,
       "OriginalText": "Turns the entire field into Misty Terrain for 5 turns.",
@@ -11164,7 +11360,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 381,
+      "Index": 382,
       "LabelName": "WAZAINFO_SYN_582",
       "LabelHash": 502088988,
       "OriginalText": "If this move hits the target before it uses a move, its move\nbecomes Electric type for that turn.",
@@ -11204,7 +11400,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 382,
+      "Index": 383,
       "LabelName": "WAZAINFO_SYN_583",
       "LabelHash": 2068172929,
       "OriginalText": "Has a 10% chance of lowering the target’s Attack stat by\n1 stage.",
@@ -11244,7 +11440,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 383,
+      "Index": 384,
       "LabelName": "WAZAINFO_SYN_585",
       "LabelHash": 1261603875,
       "OriginalText": "Has a 10% chance of lowering the target’s Sp. Atk stat by\n1 stage.",
@@ -11284,7 +11480,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 384,
+      "Index": 385,
       "LabelName": "WAZAINFO_SYN_587",
       "LabelHash": 98804461,
       "OriginalText": "Gives all Pokémon on the field the Fairy Locked status.",
@@ -11306,7 +11502,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 385,
+      "Index": 386,
       "LabelName": "WAZAINFO_SYN_588",
       "LabelHash": 2021118762,
       "OriginalText": "The user protects itself from incoming attacks for the turn and\nchanges into its Shield Forme. Any attackers that use contact\nmoves against the user during this turn will have their Attack\nstats lowered by 1 stage. With each consecutive use, this move’s\nchance of success becomes 1/3 of what it was before.",
@@ -11400,7 +11596,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 389,
+      "Index": 390,
       "LabelName": "WAZAINFO_SYN_594",
       "LabelHash": -304480065,
       "OriginalText": "The user attacks 2 to 5 times in a row.",
@@ -11422,7 +11618,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 390,
+      "Index": 391,
       "LabelName": "WAZAINFO_SYN_595",
       "LabelHash": 1261603876,
       "OriginalText": "Lowers the target’s Sp. Atk stat by 1 stage.",
@@ -11444,7 +11640,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 391,
+      "Index": 392,
       "LabelName": "WAZAINFO_SYN_596",
       "LabelHash": -1467279479,
       "OriginalText": "The user protects itself from incoming moves for the turn. Any\nattackers that use contact moves against the user during this\nturn take damage equal to 1/8 of their max HP. With each\nconsecutive use, this move’s chance of success becomes 1/3\nof what it was before.",
@@ -11538,7 +11734,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 392,
+      "Index": 393,
       "LabelName": "WAZAINFO_SYN_597",
       "LabelHash": 98804462,
       "OriginalText": "Boosts an ally’s Sp. Def stat by 1 stage.",
@@ -11560,7 +11756,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 393,
+      "Index": 394,
       "LabelName": "WAZAINFO_SYN_598",
       "LabelHash": 2021118763,
       "OriginalText": "Lowers the target’s Sp. Atk stat by 2 stages.",
@@ -11582,7 +11778,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 395,
+      "Index": 396,
       "LabelName": "WAZAINFO_SYN_602",
       "LabelHash": 1806050911,
       "OriginalText": "If the user or its allies have the Plus Ability or the Minus Ability,\ntheir Defense and Sp. Def stats are boosted by 1 stage.",
@@ -11622,7 +11818,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 396,
+      "Index": 397,
       "LabelName": "WAZAINFO_SYN_604",
       "LabelHash": -1326116971,
       "OriginalText": "Turns the entire field into Electric Terrain for 5 turns.",
@@ -11644,7 +11840,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 397,
+      "Index": 398,
       "LabelName": "WAZAINFO_SYN_608",
       "LabelHash": 999481857,
       "OriginalText": "Lowers the target’s Attack stat by 1 stage.",
@@ -11666,7 +11862,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 398,
+      "Index": 399,
       "LabelName": "WAZAINFO_SYN_609",
       "LabelHash": -566602084,
       "OriginalText": "Paralyzes the target.",
@@ -11688,7 +11884,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 399,
+      "Index": 400,
       "LabelName": "WAZAINFO_SYN_611",
       "LabelHash": -922832443,
       "OriginalText": "Gives the target the Bound status.",
@@ -11732,7 +11928,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 446,
+      "Index": 444,
       "LabelName": "WAZAINFO_SYN_660",
       "LabelHash": 643251491,
       "OriginalText": "This move fails unless it is the first move used by the user after\nit enters a battle.",
@@ -11772,7 +11968,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 447,
+      "Index": 445,
       "LabelName": "WAZAINFO_SYN_661",
       "LabelHash": -922832450,
       "OriginalText": "The user protects itself from incoming moves for the turn. Any\nattackers that use contact moves against the user during this\nturn become poisoned. With each consecutive use, this move’s\nchance of success becomes 1/3 of what it was before.",
@@ -11848,7 +12044,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 448,
+      "Index": 446,
       "LabelName": "WAZAINFO_SYN_662",
       "LabelHash": 1806050905,
       "OriginalText": "Gives the target the Can’t Escape status.",
@@ -11870,7 +12066,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 449,
+      "Index": 447,
       "LabelName": "WAZAINFO_SYN_663",
       "LabelHash": 239966964,
       "OriginalText": "This move ignores the target’s stat changes when dealing\ndamage.",
@@ -11910,7 +12106,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 450,
+      "Index": 448,
       "LabelName": "WAZAINFO_SYN_664",
       "LabelHash": -1326116977,
       "OriginalText": "Cures targets of their burns.",
@@ -11932,7 +12128,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 451,
+      "Index": 449,
       "LabelName": "WAZAINFO_SYN_665",
       "LabelHash": 1402766378,
       "OriginalText": "Lowers the user’s Speed stat by 1 stage.",
@@ -11954,7 +12150,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 453,
+      "Index": 451,
       "LabelName": "WAZAINFO_SYN_668",
       "LabelHash": 999481851,
       "OriginalText": "Restores the user’s HP by an amount equal to the target’s\nAttack stat. Lowers the target’s Attack stat by 1 stage.",
@@ -11994,7 +12190,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 454,
+      "Index": 452,
       "LabelName": "WAZAINFO_SYN_669",
       "LabelHash": -566602090,
       "OriginalText": "The user gains the Charging status on the turn this move is used,\nthen attacks on the following turn. In harsh sunlight, the user\ndoes not gain the Charging status and can attack immediately.\nThis move’s power is halved in any other weather condition.",
@@ -12070,7 +12266,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 455,
+      "Index": 453,
       "LabelName": "WAZAINFO_SYN_672",
       "LabelHash": 1806050906,
       "OriginalText": "Lowers the target’s Speed stat by 2 stages and poisons it.",
@@ -12092,7 +12288,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 456,
+      "Index": 454,
       "LabelName": "WAZAINFO_SYN_675",
       "LabelHash": 1402766379,
       "OriginalText": "Gives the target the Throat Chopped status.",
@@ -12114,7 +12310,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 457,
+      "Index": 455,
       "LabelName": "WAZAINFO_SYN_676",
       "LabelHash": -163317562,
       "OriginalText": "When used on an ally, this move restores 1/2 of its max HP\ninstead of dealing damage.",
@@ -12154,7 +12350,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 459,
+      "Index": 457,
       "LabelName": "WAZAINFO_SYN_678",
       "LabelHash": 999481852,
       "OriginalText": "Turns the entire field into Psychic Terrain for 5 turns.",
@@ -12176,7 +12372,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 460,
+      "Index": 458,
       "LabelName": "WAZAINFO_SYN_679",
       "LabelHash": -566602089,
       "OriginalText": "Lowers the target’s Attack stat by 1 stage.",
@@ -12198,7 +12394,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 461,
+      "Index": 459,
       "LabelName": "WAZAINFO_SYN_680",
       "LabelHash": 643251489,
       "OriginalText": "Lowers the target’s Defense stat by 1 stage.",
@@ -12220,7 +12416,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 462,
+      "Index": 460,
       "LabelName": "WAZAINFO_SYN_681",
       "LabelHash": -922832452,
       "OriginalText": "This move’s power is increased by 20 for each stage that the\nuser’s stats have been boosted.",
@@ -12260,7 +12456,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 463,
+      "Index": 461,
       "LabelName": "WAZAINFO_SYN_682",
       "LabelHash": 1806050903,
       "OriginalText": "The user loses the Fire type. Cures the user of being frozen.\nThis move fails unless it is used by a Fire type.",
@@ -12300,7 +12496,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 464,
+      "Index": 462,
       "LabelName": "WAZAINFO_SYN_683",
       "LabelHash": 239966962,
       "OriginalText": "The user and the target swap their Speed stats.",
@@ -12322,7 +12518,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 465,
+      "Index": 463,
       "LabelName": "WAZAINFO_SYN_684",
       "LabelHash": -1326116979,
       "OriginalText": "This move never misses.",
@@ -12344,7 +12540,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 469,
+      "Index": 467,
       "LabelName": "WAZAINFO_SYN_688",
       "LabelHash": 999481849,
       "OriginalText": "Lowers the target’s Attack stat by 1 stage.",
@@ -12366,7 +12562,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 470,
+      "Index": 468,
       "LabelName": "WAZAINFO_SYN_689",
       "LabelHash": -566602092,
       "OriginalText": "The user makes the target reuse the last move it used.",
@@ -12388,7 +12584,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 471,
+      "Index": 469,
       "LabelName": "WAZAINFO_SYN_690",
       "LabelHash": 643251490,
       "OriginalText": "If the user is hit by a contact move before it uses this move, the\nattacker will be burned.",
@@ -12428,7 +12624,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 472,
+      "Index": 470,
       "LabelName": "WAZAINFO_SYN_691",
       "LabelHash": -922832451,
       "OriginalText": "Lowers the user’s Defense stat by 1 stage.",
@@ -12450,7 +12646,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 473,
+      "Index": 471,
       "LabelName": "WAZAINFO_SYN_694",
       "LabelHash": -1326116978,
       "OriginalText": "Gives the user’s side the Aurora Veil status for 5 turns. This\nmove can be used only in snow.",
@@ -12490,7 +12686,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 485,
+      "Index": 483,
       "LabelName": "WAZAINFO_SYN_706",
       "LabelHash": 1140644358,
       "OriginalText": "Removes the Light Screen, Reflect, and Aurora Veil statuses on\nthe target’s side.",
@@ -12530,7 +12726,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 486,
+      "Index": 484,
       "LabelName": "WAZAINFO_SYN_707",
       "LabelHash": -1588238997,
       "OriginalText": "This move’s power is doubled if the user couldn’t act or its move\nmissed or failed on the previous turn.",
@@ -12570,7 +12766,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 488,
+      "Index": 486,
       "LabelName": "WAZAINFO_SYN_710",
       "LabelHash": 1947213413,
       "OriginalText": "Has a 20% chance of lowering the target’s Defense stat by\n1 stage.",
@@ -12610,7 +12806,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 493,
+      "Index": 491,
       "LabelName": "WAZAINFO_SYN_715",
       "LabelHash": 1543928886,
       "OriginalText": "Lowers the target’s Attack and Sp. Atk stats by 1 stage. This\nmove ignores the target’s evasiveness and can hit a target using\na move such as Protect.",
@@ -12668,7 +12864,91 @@
       "StyleCode": 68
     },
     {
-      "Index": 512,
+      "Index": 492,
+      "LabelName": "WAZAINFO_SYN_716",
+      "LabelHash": 1140644359,
+      "OriginalText": "Has a 30% chance of making the target flinch.",
+      "TextInfos": [
+        {
+          "Text": "Has a 30% chance of making the target flinch.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 508,
+      "LabelName": "WAZAINFO_SYN_745",
+      "LabelHash": 1543928881,
+      "OriginalText": "This move ignores the effects of Abilities and moves that draw\nin moves. It has a 1-stage Critical-Hit Ratio Boost.",
+      "TextInfos": [
+        {
+          "Text": "This move ignores the effects of Abilities and moves that draw",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "in moves. It has a 1-stage Critical-Hit Ratio Boost.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 509,
+      "LabelName": "WAZAINFO_SYN_746",
+      "LabelHash": 1140644354,
+      "OriginalText": "The user and target gain the Jaw Locked status.",
+      "TextInfos": [
+        {
+          "Text": "The user and target gain the Jaw Locked status.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 510,
       "LabelName": "WAZAINFO_SYN_747",
       "LabelHash": -1588239001,
       "OriginalText": "The user eats its held Berry and boosts its Defense stat by 2\nstages. This move can’t be used if the user is not holding a Berry.",
@@ -12708,7 +12988,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 513,
+      "Index": 511,
       "LabelName": "WAZAINFO_SYN_748",
       "LabelHash": -1991523528,
       "OriginalText": "Boosts the user’s Attack, Defense, Sp. Atk, Sp. Def, and Speed\nstats by 1 stage. The user gains the Can’t Escape status. This\nmove can only be used once per time the user enters battle—\notherwise it will fail.",
@@ -12784,13 +13064,31 @@
       "StyleCode": 68
     },
     {
-      "Index": 515,
+      "Index": 513,
       "LabelName": "WAZAINFO_SYN_750",
       "LabelHash": 1947213409,
-      "OriginalText": "Changes the target’s type to Psychic.",
+      "OriginalText": "Changes the target’s type to Psychic. Grass-type Pokémon\nare unaffected.",
       "TextInfos": [
         {
-          "Text": "Changes the target’s type to Psychic.",
+          "Text": "Changes the target’s type to Psychic. Grass-type Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -12806,7 +13104,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 516,
+      "Index": 514,
       "LabelName": "WAZAINFO_SYN_751",
       "LabelHash": -781669946,
       "OriginalText": "The user attacks twice in a row. If there are 2 opposing\nPokémon, each of them is attacked once.",
@@ -12846,7 +13144,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 517,
+      "Index": 515,
       "LabelName": "WAZAINFO_SYN_752",
       "LabelHash": -1184954473,
       "OriginalText": "Causes all Pokémon on the field to eat their held Berries.",
@@ -12868,7 +13166,69 @@
       "StyleCode": 68
     },
     {
-      "Index": 540,
+      "Index": 516,
+      "LabelName": "WAZAINFO_SYN_753",
+      "LabelHash": 381129468,
+      "OriginalText": "Gives the target the Octolocked and Can’t Escape statuses.",
+      "TextInfos": [
+        {
+          "Text": "Gives the target the Octolocked and Can’t Escape statuses.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 519,
+      "LabelName": "WAZAINFO_SYN_756",
+      "LabelHash": 1140644355,
+      "OriginalText": "Swaps the statuses affecting the user’s side of the field with the\nstatuses affecting the opponent’s side of the field.",
+      "TextInfos": [
+        {
+          "Text": "Swaps the statuses affecting the user’s side of the field with the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "statuses affecting the opponent’s side of the field.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 538,
       "LabelName": "WAZAINFO_SYN_775",
       "LabelHash": 1543928880,
       "OriginalText": "The user loses 1/3 of its max HP to boost its Attack, Defense,\nSp. Atk, Sp. Def, and Speed stats by 1 stage. This move fails if\nthe user doesn’t have enough remaining HP.",
@@ -12926,7 +13286,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 541,
+      "Index": 539,
       "LabelName": "WAZAINFO_SYN_776",
       "LabelHash": 1140644353,
       "OriginalText": "The damage dealt by this move is calculated using the user’s\nDefense stat instead of its Attack stat.",
@@ -12966,7 +13326,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 542,
+      "Index": 540,
       "LabelName": "WAZAINFO_SYN_777",
       "LabelHash": -1588239002,
       "OriginalText": "Boosts the target’s Attack and Sp. Atk stats by 2 stages.",
@@ -12988,7 +13348,29 @@
       "StyleCode": 68
     },
     {
-      "Index": 544,
+      "Index": 541,
+      "LabelName": "WAZAINFO_SYN_778",
+      "LabelHash": -1991523529,
+      "OriginalText": "Lowers the target’s Speed stat by 1 stage.",
+      "TextInfos": [
+        {
+          "Text": "Lowers the target’s Speed stat by 1 stage.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 542,
       "LabelName": "WAZAINFO_SYN_779",
       "LabelHash": -425439588,
       "OriginalText": "Gives the target the Bound status.",
@@ -13010,7 +13392,47 @@
       "StyleCode": 68
     },
     {
-      "Index": 548,
+      "Index": 543,
+      "LabelName": "WAZAINFO_SYN_780",
+      "LabelHash": 1947213404,
+      "OriginalText": "Has a 10% chance of burning the target. Cures the user of\nbeing frozen.",
+      "TextInfos": [
+        {
+          "Text": "Has a 10% chance of burning the target. Cures the user of",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "being frozen.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 546,
       "LabelName": "WAZAINFO_SYN_783",
       "LabelHash": 381129463,
       "OriginalText": "Boosts the user’s Speed stat by 1 stage. This move’s type\ndepends on Morpeko’s form.",
@@ -13050,7 +13472,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 549,
+      "Index": 547,
       "LabelName": "WAZAINFO_SYN_784",
       "LabelHash": -22155064,
       "OriginalText": "Lowers targets’ Attack stats by 1 stage.",
@@ -13072,7 +13494,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 551,
+      "Index": 548,
       "LabelName": "WAZAINFO_SYN_787",
       "LabelHash": -1588239005,
       "OriginalText": "Lowers the target’s Sp. Def stat by 1 stage.",
@@ -13094,7 +13516,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 552,
+      "Index": 549,
       "LabelName": "WAZAINFO_SYN_788",
       "LabelHash": -1991523532,
       "OriginalText": "Lowers the target’s Defense stat by 1 stage. This move’s power\nis boosted by 50% when the Gravity status is active.",
@@ -13134,7 +13556,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 553,
+      "Index": 550,
       "LabelName": "WAZAINFO_SYN_789",
       "LabelHash": -425439591,
       "OriginalText": "Lowers the target’s Sp. Atk stat by 1 stage.",
@@ -13156,7 +13578,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 555,
+      "Index": 552,
       "LabelName": "WAZAINFO_SYN_791",
       "LabelHash": -781669950,
       "OriginalText": "Restores 1/4 of the max HP of the user and its allies.",
@@ -13178,7 +13600,47 @@
       "StyleCode": 68
     },
     {
-      "Index": 559,
+      "Index": 554,
+      "LabelName": "WAZAINFO_SYN_794",
+      "LabelHash": -22155063,
+      "OriginalText": "The user gains the Recharging status on the turn after this move\nis used.",
+      "TextInfos": [
+        {
+          "Text": "The user gains the Recharging status on the turn after this move",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "is used.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 556,
       "LabelName": "WAZAINFO_SYN_796",
       "LabelHash": 1140644351,
       "OriginalText": "After attacking, the user takes damage equal to 1/2 of its\nmax HP.",
@@ -13218,7 +13680,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 560,
+      "Index": 557,
       "LabelName": "WAZAINFO_SYN_797",
       "LabelHash": -1588239004,
       "OriginalText": "If the user is under the effect of Psychic Terrain, this move’s\npower is boosted by 50% and its range extends to\nall opponents.",
@@ -13276,7 +13738,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 561,
+      "Index": 558,
       "LabelName": "WAZAINFO_SYN_798",
       "LabelHash": -1991523531,
       "OriginalText": "Removes any terrain. This move fails if there is no terrain on\nthe field.",
@@ -13316,7 +13778,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 562,
+      "Index": 559,
       "LabelName": "WAZAINFO_SYN_799",
       "LabelHash": -425439590,
       "OriginalText": "The user attacks 2 to 5 times in a row. This move lowers the\nuser’s Defense stat by 1 stage and boosts its Speed stat by\n1 stage.",
@@ -13374,7 +13836,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 563,
+      "Index": 560,
       "LabelName": "WAZAINFO_SYN_800",
       "LabelHash": -1333023517,
       "OriginalText": "The user gains the Charging status on the turn this move is used,\nthen attacks on the following turn. The user’s Sp. Atk stat is\nboosted by 1 stage on the turn this move is used.",
@@ -13432,7 +13894,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 564,
+      "Index": 561,
       "LabelName": "WAZAINFO_SYN_801",
       "LabelHash": 1395859838,
       "OriginalText": "Has a 20% chance of poisoning the target. Becomes a physical\nmove if that will deal more damage.",
@@ -13472,7 +13934,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 565,
+      "Index": 562,
       "LabelName": "WAZAINFO_SYN_802",
       "LabelHash": 1799144365,
       "OriginalText": "If the user is under the effect of Misty Terrain, this move’s power\nis boosted by 50%. The user faints upon using this move.",
@@ -13512,7 +13974,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 566,
+      "Index": 563,
       "LabelName": "WAZAINFO_SYN_803",
       "LabelHash": 233060424,
       "OriginalText": "If the user is under the effect of Grassy Terrain, this move’s\npriority becomes +1.",
@@ -13552,7 +14014,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 567,
+      "Index": 564,
       "LabelName": "WAZAINFO_SYN_804",
       "LabelHash": 636344951,
       "OriginalText": "This move’s power is doubled if the target is under the effect of\nElectric Terrain.",
@@ -13592,7 +14054,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 568,
+      "Index": 565,
       "LabelName": "WAZAINFO_SYN_805",
       "LabelHash": -929738990,
       "OriginalText": "This move’s power is doubled if the user is under the effect of\na terrain. This move’s type depends on the terrain.",
@@ -13632,7 +14094,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 569,
+      "Index": 566,
       "LabelName": "WAZAINFO_SYN_806",
       "LabelHash": -526454463,
       "OriginalText": "Lowers the target’s Sp. Atk stat by 1 stage.",
@@ -13654,7 +14116,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 570,
+      "Index": 567,
       "LabelName": "WAZAINFO_SYN_807",
       "LabelHash": -2092538404,
       "OriginalText": "Burns targets if their stats were boosted during the turn this\nmove is used.",
@@ -13694,7 +14156,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 571,
+      "Index": 568,
       "LabelName": "WAZAINFO_SYN_808",
       "LabelHash": -1689253877,
       "OriginalText": "This move’s power is doubled if the user’s stats were lowered\nduring the turn this move is used.",
@@ -13734,7 +14196,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 572,
+      "Index": 569,
       "LabelName": "WAZAINFO_SYN_809",
       "LabelHash": 1039629478,
       "OriginalText": "This move fails if the target isn’t holding an item.",
@@ -13756,7 +14218,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 573,
+      "Index": 570,
       "LabelName": "WAZAINFO_SYN_810",
       "LabelHash": -1333023516,
       "OriginalText": "Causes all other Pokémon on the field to lose their held items.",
@@ -13778,7 +14240,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 574,
+      "Index": 571,
       "LabelName": "WAZAINFO_SYN_811",
       "LabelHash": 1395859839,
       "OriginalText": "Boosts allies’ Attack and Defense stats by 1 stage.",
@@ -13800,7 +14262,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 575,
+      "Index": 572,
       "LabelName": "WAZAINFO_SYN_812",
       "LabelHash": 1799144366,
       "OriginalText": "After attacking, the user switches out of battle to be replaced\nby another party Pokémon.",
@@ -13840,7 +14302,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 576,
+      "Index": 573,
       "LabelName": "WAZAINFO_SYN_813",
       "LabelHash": 233060425,
       "OriginalText": "The user attacks 3 times in a row—first with a power of 20, then\nwith a power of 40, then with a power of 60. The attack ends if\nthe user misses.",
@@ -13898,7 +14360,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 577,
+      "Index": 574,
       "LabelName": "WAZAINFO_SYN_814",
       "LabelHash": 636344952,
       "OriginalText": "The user attacks twice in a row.",
@@ -13920,7 +14382,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 578,
+      "Index": 575,
       "LabelName": "WAZAINFO_SYN_815",
       "LabelHash": -929738989,
       "OriginalText": "Has a 30% chance of burning the target. Cures the user and\ntarget of being frozen.",
@@ -13960,7 +14422,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 589,
+      "Index": 586,
       "LabelName": "WAZAINFO_SYN_826",
       "LabelHash": -526454465,
       "OriginalText": "Removes 3 PP from the move last used by the target.",
@@ -13982,7 +14444,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 590,
+      "Index": 587,
       "LabelName": "WAZAINFO_SYN_827",
       "LabelHash": -2092538406,
       "OriginalText": "Has a 30% chance of leaving the target poisoned, paralyzed,\nor asleep.",
@@ -14022,7 +14484,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 591,
+      "Index": 588,
       "LabelName": "WAZAINFO_SYN_828",
       "LabelHash": -1689253879,
       "OriginalText": "Boosts the user’s Defense stat by 1 stage.",
@@ -14044,7 +14506,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 592,
+      "Index": 589,
       "LabelName": "WAZAINFO_SYN_829",
       "LabelHash": 1039629476,
       "OriginalText": "The user gains the Atk/Def Swapped status.",
@@ -14066,7 +14528,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 593,
+      "Index": 590,
       "LabelName": "WAZAINFO_SYN_830",
       "LabelHash": -1333023518,
       "OriginalText": "Gives the opponent’s side the Stealth Rock status.",
@@ -14088,7 +14550,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 596,
+      "Index": 593,
       "LabelName": "WAZAINFO_SYN_833",
       "LabelHash": 233060423,
       "OriginalText": "The user gains the Rampaging status.",
@@ -14110,7 +14572,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 597,
+      "Index": 594,
       "LabelName": "WAZAINFO_SYN_834",
       "LabelHash": 636344950,
       "OriginalText": "The user takes 1/3 of the damage dealt by this move.",
@@ -14132,7 +14594,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 599,
+      "Index": 596,
       "LabelName": "WAZAINFO_SYN_836",
       "LabelHash": -526454464,
       "OriginalText": "Has a 30% chance of making the target flinch.",
@@ -14154,7 +14616,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 601,
+      "Index": 598,
       "LabelName": "WAZAINFO_SYN_838",
       "LabelHash": -1689253878,
       "OriginalText": "Lowers the user’s Defense and Sp. Def stats by 1 stage.",
@@ -14176,7 +14638,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 602,
+      "Index": 599,
       "LabelName": "WAZAINFO_SYN_839",
       "LabelHash": 1039629477,
       "OriginalText": "Has a 50% chance of poisoning the target. This move’s power is\ndoubled if the target is poisoned or badly poisoned.",
@@ -14216,7 +14678,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 604,
+      "Index": 601,
       "LabelName": "WAZAINFO_SYN_841",
       "LabelHash": 1395859834,
       "OriginalText": "Lowers the target’s Attack stat by 1 stage.",
@@ -14238,7 +14700,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 605,
+      "Index": 602,
       "LabelName": "WAZAINFO_SYN_842",
       "LabelHash": 1799144361,
       "OriginalText": "Boosts the user’s Defense stat by 2 stages.",
@@ -14260,7 +14722,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 606,
+      "Index": 603,
       "LabelName": "WAZAINFO_SYN_843",
       "LabelHash": 233060420,
       "OriginalText": "Has a 50% chance of lowering the target’s Defense stat by\n1 stage and has a 30% chance of making the target flinch.\nThis move has a 1-stage Critical-Hit Ratio Boost.",
@@ -14318,7 +14780,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 607,
+      "Index": 604,
       "LabelName": "WAZAINFO_SYN_844",
       "LabelHash": 636344947,
       "OriginalText": "Has a 30% chance of burning the target. This move’s power is\ndoubled if the target has a status condition.",
@@ -14358,7 +14820,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 608,
+      "Index": 605,
       "LabelName": "WAZAINFO_SYN_845",
       "LabelHash": -929738994,
       "OriginalText": "Gives the opponent’s side the Spikes status.",
@@ -14380,7 +14842,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 617,
+      "Index": 614,
       "LabelName": "WAZAINFO_SYN_853",
       "LabelHash": 233060421,
       "OriginalText": "Has a 30% chance of confusing the target. If this move misses\nor fails, the user takes damage equal to 1/2 of its max HP.",
@@ -14420,7 +14882,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 618,
+      "Index": 615,
       "LabelName": "WAZAINFO_SYN_854",
       "LabelHash": 636344948,
       "OriginalText": "This move’s power is increased by 50 for each time that a\nPokémon in the user’s party has fainted.",
@@ -14460,7 +14922,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 619,
+      "Index": 616,
       "LabelName": "WAZAINFO_SYN_855",
       "LabelHash": -929738993,
       "OriginalText": "Lowers the target’s Sp. Def stat by 2 stages.",
@@ -14482,7 +14944,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 621,
+      "Index": 618,
       "LabelName": "WAZAINFO_SYN_858",
       "LabelHash": -1689253880,
       "OriginalText": "Lowers the target’s Defense stat by 2 stages and boosts its\nAttack stat by 2 stages.",
@@ -14522,7 +14984,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 623,
+      "Index": 620,
       "LabelName": "WAZAINFO_SYN_860",
       "LabelHash": -1333023523,
       "OriginalText": "The user attacks 1 to 10 times in a row. The attack ends if the\nuser misses.",
@@ -14562,7 +15024,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 624,
+      "Index": 621,
       "LabelName": "WAZAINFO_SYN_861",
       "LabelHash": 1395859832,
       "OriginalText": "Removes any terrain.",
@@ -14584,7 +15046,47 @@
       "StyleCode": 68
     },
     {
-      "Index": 626,
+      "Index": 622,
+      "LabelName": "WAZAINFO_SYN_862",
+      "LabelHash": 1799144359,
+      "OriginalText": "The user gains the Wide Open status until the next time it takes\nan action.",
+      "TextInfos": [
+        {
+          "Text": "The user gains the Wide Open status until the next time it takes",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "an action.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 68
+    },
+    {
+      "Index": 623,
       "LabelName": "WAZAINFO_SYN_863",
       "LabelHash": 233060418,
       "OriginalText": "Revives a Pokémon in the user’s party that has fainted and\nrestores 1/2 of that Pokémon’s max HP.",
@@ -14624,7 +15126,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 627,
+      "Index": 624,
       "LabelName": "WAZAINFO_SYN_864",
       "LabelHash": 636344945,
       "OriginalText": "Gives the target the Salt Cured status.",
@@ -14646,7 +15148,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 629,
+      "Index": 626,
       "LabelName": "WAZAINFO_SYN_866",
       "LabelHash": -526454469,
       "OriginalText": "Removes the Bound and Leech Seeded statuses from the user\nand removes the Sticky Web, Stealth Rock, Spikes, and Toxic\nSpikes statuses from the user’s side. Poisons targets.",
@@ -14704,7 +15206,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 632,
+      "Index": 629,
       "LabelName": "WAZAINFO_SYN_869",
       "LabelHash": 1039629472,
       "OriginalText": "This move never misses.",
@@ -14726,7 +15228,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 633,
+      "Index": 630,
       "LabelName": "WAZAINFO_SYN_870",
       "LabelHash": -1333023522,
       "OriginalText": "This move never misses and is always a critical hit.",
@@ -14748,7 +15250,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 634,
+      "Index": 631,
       "LabelName": "WAZAINFO_SYN_871",
       "LabelHash": 1395859833,
       "OriginalText": "Boosts the user’s Sp. Atk stat by 1 stage.",
@@ -14770,7 +15272,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 635,
+      "Index": 632,
       "LabelName": "WAZAINFO_SYN_872",
       "LabelHash": 1799144360,
       "OriginalText": "Boosts the user’s Speed stat by 1 stage.",
@@ -14792,7 +15294,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 636,
+      "Index": 633,
       "LabelName": "WAZAINFO_SYN_873",
       "LabelHash": 233060419,
       "OriginalText": "Removes the Light Screen, Reflect, and Aurora Veil statuses on\nthe target’s side. This move’s type depends on the user’s form.",
@@ -14832,7 +15334,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 637,
+      "Index": 634,
       "LabelName": "WAZAINFO_SYN_874",
       "LabelHash": 636344946,
       "OriginalText": "Lowers the user’s Sp. Atk stat by 2 stages.",
@@ -14854,7 +15356,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 643,
+      "Index": 640,
       "LabelName": "WAZAINFO_SYN_880",
       "LabelHash": -1333023525,
       "OriginalText": "The user loses 1/2 of its max HP to create a substitute, then\nswitches out of battle to be replaced by another party\nPokémon. The substitute will be hit by moves instead of that\nPokémon, and it will vanish when it takes damage equal to 1/4\nof the user’s max HP.",
@@ -14948,7 +15450,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 644,
+      "Index": 641,
       "LabelName": "WAZAINFO_SYN_881",
       "LabelHash": 1395859830,
       "OriginalText": "Summons snow for 5 turns. The user switches out of battle to be\nreplaced by another party Pokémon.",
@@ -14988,7 +15490,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 645,
+      "Index": 642,
       "LabelName": "WAZAINFO_SYN_882",
       "LabelHash": 1799144357,
       "OriginalText": "Removes the Sticky Web, Stealth Rock, Substitute, Spikes, and\nToxic Spikes statuses from the entire field. Boosts the user’s\nAttack and Speed stats by 1 stage.",
@@ -15046,7 +15548,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 646,
+      "Index": 643,
       "LabelName": "WAZAINFO_SYN_883",
       "LabelHash": 233060416,
       "OriginalText": "Summons snow for 5 turns.",
@@ -15068,7 +15570,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 647,
+      "Index": 644,
       "LabelName": "WAZAINFO_SYN_884",
       "LabelHash": 636344943,
       "OriginalText": "Lowers the target’s Speed stat by 1 stage.",
@@ -15090,7 +15592,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 648,
+      "Index": 645,
       "LabelName": "WAZAINFO_SYN_885",
       "LabelHash": -929738998,
       "OriginalText": "Boosts the user’s Speed stat by 1 stage.",
@@ -15112,7 +15614,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 649,
+      "Index": 646,
       "LabelName": "WAZAINFO_SYN_886",
       "LabelHash": -526454471,
       "OriginalText": "Lowers the target’s Attack stat by 1 stage.",
@@ -15134,7 +15636,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 651,
+      "Index": 648,
       "LabelName": "WAZAINFO_SYN_888",
       "LabelHash": -1689253885,
       "OriginalText": "The user attacks twice in a row.",
@@ -15156,7 +15658,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 652,
+      "Index": 649,
       "LabelName": "WAZAINFO_SYN_889",
       "LabelHash": 1039629470,
       "OriginalText": "This move’s power is increased by 50 each time the user takes\ndamage from a move, up to a maximum power of 350. If the\nuser switches out of battle, the move’s power returns to its\nusual value.",
@@ -15232,7 +15734,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 653,
+      "Index": 650,
       "LabelName": "WAZAINFO_SYN_890",
       "LabelHash": -1333023524,
       "OriginalText": "Lowers the user’s Defense and Sp. Def stats by 1 stage.",
@@ -15254,7 +15756,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 654,
+      "Index": 651,
       "LabelName": "WAZAINFO_SYN_891",
       "LabelHash": 1395859831,
       "OriginalText": "The user’s HP is restored by 1/2 of the damage dealt by\nthis move.",
@@ -15294,7 +15796,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 655,
+      "Index": 652,
       "LabelName": "WAZAINFO_SYN_892",
       "LabelHash": 1799144358,
       "OriginalText": "The user loses the Electric type. This move fails unless it is used\nby an Electric type.",
@@ -15334,7 +15836,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 656,
+      "Index": 653,
       "LabelName": "WAZAINFO_SYN_893",
       "LabelHash": 233060417,
       "OriginalText": "This move can’t be used twice in a row.",
@@ -15356,7 +15858,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 657,
+      "Index": 654,
       "LabelName": "WAZAINFO_SYN_894",
       "LabelHash": 636344944,
       "OriginalText": "The user retaliates to deal 150% of the damage it took from an\nopponent’s move during the turn this move is used.",
@@ -15396,7 +15898,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 658,
+      "Index": 655,
       "LabelName": "WAZAINFO_SYN_895",
       "LabelHash": -929738997,
       "OriginalText": "This move has a 1-stage Critical-Hit Ratio Boost.",
@@ -15418,7 +15920,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 660,
+      "Index": 657,
       "LabelName": "WAZAINFO_SYN_902",
       "LabelHash": -1191861016,
       "OriginalText": "Has a 20% chance of burning targets. The user’s HP is restored\nby 1/2 of the damage dealt by this move.",
@@ -15458,7 +15960,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 661,
+      "Index": 658,
       "LabelName": "WAZAINFO_SYN_903",
       "LabelHash": 374222925,
       "OriginalText": "Gives the target the Syrupy status for 3 turns.",
@@ -15480,7 +15982,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 663,
+      "Index": 660,
       "LabelName": "WAZAINFO_SYN_905",
       "LabelHash": -788576489,
       "OriginalText": "The user gains the Charging status on the turn this move is used,\nthen attacks on the following turn. In rain, the user does not\ngain the Charging status and can attack immediately. The user’s\nSp. Atk stat is boosted by 1 stage on the turn this move is used.",
@@ -15556,7 +16058,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 665,
+      "Index": 662,
       "LabelName": "WAZAINFO_SYN_907",
       "LabelHash": -1951375903,
       "OriginalText": "This move has a 30% chance of its power being doubled.",
@@ -15578,7 +16080,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 670,
+      "Index": 667,
       "LabelName": "WAZAINFO_SYN_912",
       "LabelHash": -1191861015,
       "OriginalText": "The more HP the target has left, the greater this move’s power\n(ranging between 1 and 100).",
@@ -15618,7 +16120,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 671,
+      "Index": 668,
       "LabelName": "WAZAINFO_SYN_913",
       "LabelHash": 374222926,
       "OriginalText": "Gives allies a Critical-Hit Ratio Boost. Dragon types receive a\n2-stage boost. All other types receive a 1-stage boost.",
@@ -15658,7 +16160,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 672,
+      "Index": 669,
       "LabelName": "WAZAINFO_SYN_914",
       "LabelHash": 1940306867,
       "OriginalText": "Confuses the target if its stats were boosted during the turn this\nmove is used.",
@@ -15698,7 +16200,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 673,
+      "Index": 670,
       "LabelName": "WAZAINFO_SYN_915",
       "LabelHash": -788576488,
       "OriginalText": "This move’s power is doubled if the user couldn’t act or its move\nmissed or failed on the previous turn.",
@@ -15738,7 +16240,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 674,
+      "Index": 671,
       "LabelName": "WAZAINFO_SYN_916",
       "LabelHash": 777507453,
       "OriginalText": "If this move misses or fails, the user takes damage equal to 1/2\nof its max HP. If the target has the Minimized status, this move’s\npower is doubled and it will be sure to hit.",
@@ -15796,7 +16298,7 @@
       "StyleCode": 68
     },
     {
-      "Index": 675,
+      "Index": 672,
       "LabelName": "WAZAINFO_SYN_917",
       "LabelHash": -1951375902,
       "OriginalText": "Gives the target the Healing Prevented status for 2 turns.",
@@ -15818,10 +16320,10 @@
       "StyleCode": 68
     },
     {
-      "Index": 676,
+      "Index": 673,
       "LabelName": "WAZAINFO_SYN_918",
       "LabelHash": -385291961,
-      "OriginalText": "Makes the target flinch. This move fails if the target isn’t about\nto use a priority move.",
+      "OriginalText": "Makes the target flinch. This move fails if the target isn’t about\nto use a priority attack.",
       "TextInfos": [
         {
           "Text": "Makes the target flinch. This move fails if the target isn’t about",
@@ -15842,7 +16344,7 @@
           }
         },
         {
-          "Text": "to use a priority move.",
+          "Text": "to use a priority attack.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

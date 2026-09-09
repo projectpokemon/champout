@@ -1399,10 +1399,28 @@
       "Index": 40,
       "LabelName": "BTR_STATE_SYN_25_02",
       "LabelHash": -514925382,
-      "OriginalText": "The Pokémon cannot be switched out of battle.",
+      "OriginalText": "The Pokémon cannot be switched out of battle.\nGhost-type Pokémon are unaffected.",
       "TextInfos": [
         {
           "Text": "The Pokémon cannot be switched out of battle.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Ghost-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -2047,7 +2065,7 @@
       "Index": 58,
       "LabelName": "BTR_STATE_SYN_37_02",
       "LabelHash": -797255631,
-      "OriginalText": "Pokémon that switch into battle will be poisoned\nor, if 2 layers of Toxic Spikes are set, badly\npoisoned. Pokémon such as Flying types or ones\nwith the Levitate Ability are unaffected.",
+      "OriginalText": "Pokémon that switch into battle will be poisoned\nor, if 2 layers of Toxic Spikes are set, badly\npoisoned. Pokémon such as Flying types or ones\nwith the Levitate Ability are unaffected. This status\nis removed if a Poison-type Pokémon enters battle.",
       "TextInfos": [
         {
           "Text": "Pokémon that switch into battle will be poisoned",
@@ -2104,7 +2122,25 @@
           }
         },
         {
-          "Text": "with the Levitate Ability are unaffected.",
+          "Text": "with the Levitate Ability are unaffected. This status",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "is removed if a Poison-type Pokémon enters battle.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3033,10 +3069,10 @@
       "Index": 84,
       "LabelName": "BTR_STATE_SYN_52_02",
       "LabelHash": 1353683472,
-      "OriginalText": "The Pokémon takes damage equal to 1/8 of\nits max HP at the end of every turn. Whichever\nPokémon is in the spot of the Pokémon that\ncaused the Leech Seeded status has its HP\nrestored by the same amount.",
+      "OriginalText": "The Pokémon takes damage equal to 1/8 of its\nmax HP at the end of every turn. The Pokémon in\nthe spot of the Pokémon that caused the Leech\nSeeded status has its HP restored by the same\namount. Grass-type Pokémon are unaffected.",
       "TextInfos": [
         {
-          "Text": "The Pokémon takes damage equal to 1/8 of",
+          "Text": "The Pokémon takes damage equal to 1/8 of its",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3054,7 +3090,7 @@
           }
         },
         {
-          "Text": "its max HP at the end of every turn. Whichever",
+          "Text": "max HP at the end of every turn. The Pokémon in",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3072,7 +3108,7 @@
           }
         },
         {
-          "Text": "Pokémon is in the spot of the Pokémon that",
+          "Text": "the spot of the Pokémon that caused the Leech",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3090,7 +3126,7 @@
           }
         },
         {
-          "Text": "caused the Leech Seeded status has its HP",
+          "Text": "Seeded status has its HP restored by the same",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -3108,7 +3144,7 @@
           }
         },
         {
-          "Text": "restored by the same amount.",
+          "Text": "amount. Grass-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4008,6 +4044,68 @@
       "StyleCode": 14
     },
     {
+      "Index": 116,
+      "LabelName": "BTR_STATE_SYN_77_02",
+      "LabelHash": -797259723,
+      "OriginalText": "The Pokémon’s Defense and Sp. Def stats are\nlowered by 1 stage at the end of every turn.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon’s Defense and Sp. Def stats are",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "lowered by 1 stage at the end of every turn.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 117,
+      "LabelName": "BTR_STATE_SYN_77_03",
+      "LabelHash": -797259724,
+      "OriginalText": "Octolocked",
+      "TextInfos": [
+        {
+          "Text": "Octolocked",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
       "Index": 128,
       "LabelName": "BTR_STATE_SYN_106_02",
       "LabelHash": 54712378,
@@ -4215,6 +4313,68 @@
       "TextInfos": [
         {
           "Text": "Healing Prevented",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 134,
+      "LabelName": "BTR_STATE_SYN_112_02",
+      "LabelHash": 862573219,
+      "OriginalText": "Opponents’ moves will not miss the Pokémon\nand will deal double damage.",
+      "TextInfos": [
+        {
+          "Text": "Opponents’ moves will not miss the Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "and will deal double damage.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 135,
+      "LabelName": "BTR_STATE_SYN_112_03",
+      "LabelHash": -703510722,
+      "OriginalText": "Wide Open",
+      "TextInfos": [
+        {
+          "Text": "Wide Open",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -4881,6 +5041,86 @@
       "TextInfos": [
         {
           "Text": "Flash Fire",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 14
+    },
+    {
+      "Index": 158,
+      "LabelName": "BTR_STATE_SYN_124_02",
+      "LabelHash": -1187865550,
+      "OriginalText": "Neither the Pokémon that caused the Jaw Locked\nstatus nor the Pokémon on the receiving end can\nbe switched out of battle.",
+      "TextInfos": [
+        {
+          "Text": "Neither the Pokémon that caused the Jaw Locked",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "status nor the Pokémon on the receiving end can",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "be switched out of battle.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 47
+    },
+    {
+      "Index": 159,
+      "LabelName": "BTR_STATE_SYN_124_03",
+      "LabelHash": 378218391,
+      "OriginalText": "Jaw Locked",
+      "TextInfos": [
+        {
+          "Text": "Jaw Locked",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

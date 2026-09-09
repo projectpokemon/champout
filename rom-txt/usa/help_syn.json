@@ -25671,7 +25671,7 @@
       "Index": 283,
       "LabelName": "help_11_03_00",
       "LabelHash": 16260161,
-      "OriginalText": "Poisoned Status Condition\n\nThe Pokémon takes damage equal to 1/8 of its max HP\nat the end of every turn.",
+      "OriginalText": "Poisoned Status Condition\n\nThe Pokémon takes damage equal to 1/8 of its max HP\nat the end of every turn. Poison- and Steel-type Pokémon\nare unaffected.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -25698,6 +25698,15 @@
         },
         {
           "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
           "Type": 2,
           "TagInfo": {
             "TagGroupId": 0,
@@ -25708,15 +25717,6 @@
               0,
               255
             ]
-          }
-        },
-        {
-          "Text": "{0}",
-          "Type": 4,
-          "TagInfo": {
-            "TagGroupId": -1,
-            "TagId": 0,
-            "Params": []
           }
         },
         {
@@ -25747,7 +25747,25 @@
           }
         },
         {
-          "Text": "at the end of every turn.",
+          "Text": "at the end of every turn. Poison- and Steel-type Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -25766,7 +25784,7 @@
       "Index": 284,
       "LabelName": "help_11_03_01",
       "LabelHash": 16260162,
-      "OriginalText": "Badly Poisoned Status Condition\n\nThe Pokémon takes increasing poison damage at the end of\nevery turn, starting at 1/16 of the Pokémon’s max HP, then\n2/16, then 3/16, and so on. If the Pokémon switches out and\nreenters battle, the damage restarts at 1/16 of its max HP.",
+      "OriginalText": "Badly Poisoned Status Condition\n\nThe Pokémon takes increasing poison damage at the end of\nevery turn, starting at 1/16 of the Pokémon’s max HP, then\n2/16, then 3/16, and so on. If the Pokémon switches out and\nreenters battle, the damage restarts at 1/16 of its max HP.\nPoison- and Steel-type Pokémon are unaffected.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -25885,6 +25903,24 @@
             "TagId": 0,
             "Params": []
           }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Poison- and Steel-type Pokémon are unaffected.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
         }
       ],
       "GenderCode": 0,
@@ -25897,7 +25933,7 @@
       "Index": 285,
       "LabelName": "help_11_03_02",
       "LabelHash": 16260163,
-      "OriginalText": "Burned Status Condition\n\nThe Pokémon takes damage equal to 1/16 of its max HP\nat the end of every turn. The damage dealt by its physical\nmoves is also halved.",
+      "OriginalText": "Burned Status Condition\n\nThe Pokémon takes damage equal to 1/16 of its max HP\nat the end of every turn. The damage dealt by its physical\nmoves is also halved. Fire-type Pokémon are unaffected.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -25991,7 +26027,7 @@
           }
         },
         {
-          "Text": "moves is also halved.",
+          "Text": "moves is also halved. Fire-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -26032,7 +26068,7 @@
       "Index": 287,
       "LabelName": "help_11_04_00",
       "LabelHash": 1037897074,
-      "OriginalText": "Paralyzed Status Condition\n\nThe Pokémon has a 12.5% chance of being unable to use\nmoves. Its Speed stat is also halved.",
+      "OriginalText": "Paralyzed Status Condition\n\nThe Pokémon has a 12.5% chance of being unable to use\nmoves. Its Speed stat is also halved. Electric-type Pokémon\nare unaffected.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -26108,7 +26144,25 @@
           }
         },
         {
-          "Text": "moves. Its Speed stat is also halved.",
+          "Text": "moves. Its Speed stat is also halved. Electric-type Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -26127,7 +26181,7 @@
       "Index": 288,
       "LabelName": "help_11_04_01",
       "LabelHash": 1037897075,
-      "OriginalText": "Frozen Status Condition\n\nThe Pokémon can’t use almost any moves but has a 25%\nchance of being cured each time it tries to do so. The\nPokémon will be cured on its third turn after becoming\nfrozen or if it takes damage from a Fire-type move or\ncertain other moves.",
+      "OriginalText": "Frozen Status Condition\n\nThe Pokémon can’t use almost any moves but has a 25%\nchance of being cured each time it tries to do so. The\nPokémon will be cured on its third turn after becoming\nfrozen or if it takes damage from a Fire-type move or\ncertain other moves. Ice-type Pokémon are unaffected.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -26257,7 +26311,7 @@
           }
         },
         {
-          "Text": "certain other moves.",
+          "Text": "certain other moves. Ice-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -27351,7 +27405,7 @@
       "Index": 299,
       "LabelName": "help_11_05_08",
       "LabelHash": -266064833,
-      "OriginalText": "Toxic Spikes Status\n\nPokémon that switch into battle will be poisoned\nor, if 2 layers of Toxic Spikes are set, badly\npoisoned. Pokémon such as Flying types or ones\nwith the Levitate Ability are unaffected.",
+      "OriginalText": "Toxic Spikes Status\n\nPokémon that switch into battle will be poisoned or,\nif 2 layers of Toxic Spikes are set, badly poisoned.\nPokémon such as Flying types or ones with the\nLevitate Ability are unaffected. This status is\nremoved if a Poison-type Pokémon enters battle.",
       "TextInfos": [
         {
           "Text": "{0}",
@@ -27409,7 +27463,7 @@
           }
         },
         {
-          "Text": "Pokémon that switch into battle will be poisoned",
+          "Text": "Pokémon that switch into battle will be poisoned or,",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -27427,7 +27481,7 @@
           }
         },
         {
-          "Text": "or, if 2 layers of Toxic Spikes are set, badly",
+          "Text": "if 2 layers of Toxic Spikes are set, badly poisoned.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -27445,7 +27499,7 @@
           }
         },
         {
-          "Text": "poisoned. Pokémon such as Flying types or ones",
+          "Text": "Pokémon such as Flying types or ones with the",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -27463,7 +27517,25 @@
           }
         },
         {
-          "Text": "with the Levitate Ability are unaffected.",
+          "Text": "Levitate Ability are unaffected. This status is",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "removed if a Poison-type Pokémon enters battle.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,

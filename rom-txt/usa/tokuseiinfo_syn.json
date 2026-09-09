@@ -77,7 +77,7 @@
       "Index": 2,
       "LabelName": "TOKUSEIINFO_SYN_003",
       "LabelHash": 536861931,
-      "OriginalText": "Boosts the Pokémon’s Speed stat by 1 stage at the end of\nevery turn.",
+      "OriginalText": "Boosts the Pokémon’s Speed stat by 1 stage at the end of\nevery turn. The Speed stat will not be boosted on the turn\nthat the Pokémon switches into battle.",
       "TextInfos": [
         {
           "Text": "Boosts the Pokémon’s Speed stat by 1 stage at the end of",
@@ -98,7 +98,25 @@
           }
         },
         {
-          "Text": "every turn.",
+          "Text": "every turn. The Speed stat will not be boosted on the turn",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "that the Pokémon switches into battle.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -259,10 +277,28 @@
       "Index": 7,
       "LabelName": "TOKUSEIINFO_SYN_008",
       "LabelHash": 536861920,
-      "OriginalText": "Boosts the Pokémon’s evasiveness by 25% in a sandstorm.",
+      "OriginalText": "Boosts the Pokémon’s evasiveness by 25% in a sandstorm.\nThe Pokémon takes no damage from sandstorms.",
       "TextInfos": [
         {
           "Text": "Boosts the Pokémon’s evasiveness by 25% in a sandstorm.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "The Pokémon takes no damage from sandstorms.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -831,7 +867,7 @@
       "Index": 26,
       "LabelName": "TOKUSEIINFO_SYN_027",
       "LabelHash": -625937487,
-      "OriginalText": "When the Pokémon is hit by a contact move, the attacker has a\n30% chance of being poisoned, paralyzed, or put to sleep.",
+      "OriginalText": "When the Pokémon is hit by a contact move, the attacker has a\n30% chance of being poisoned, paralyzed, or put to sleep.\nGrass-type Pokémon are unaffected.",
       "TextInfos": [
         {
           "Text": "When the Pokémon is hit by a contact move, the attacker has a",
@@ -853,6 +889,24 @@
         },
         {
           "Text": "30% chance of being poisoned, paralyzed, or put to sleep.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Grass-type Pokémon are unaffected.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -1574,6 +1628,64 @@
       "StyleCode": 69
     },
     {
+      "Index": 49,
+      "LabelName": "TOKUSEIINFO_SYN_050",
+      "LabelHash": 133577401,
+      "OriginalText": "Enables the Pokémon to ignore any effects that would usually\nprevent it from switching out of battle and being replaced by\nanother party Pokémon.",
+      "TextInfos": [
+        {
+          "Text": "Enables the Pokémon to ignore any effects that would usually",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "prevent it from switching out of battle and being replaced by",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "another party Pokémon.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 50,
       "LabelName": "TOKUSEIINFO_SYN_051",
       "LabelHash": 133577402,
@@ -2093,6 +2205,64 @@
         },
         {
           "Text": "boosted by 50%.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 63,
+      "LabelName": "TOKUSEIINFO_SYN_064",
+      "LabelHash": 1699661338,
+      "OriginalText": "When the Pokémon is hit by an HP-absorbing move, the\nattacker does not restore HP but instead takes damage equal\nto the amount of HP it would have restored.",
+      "TextInfos": [
+        {
+          "Text": "When the Pokémon is hit by an HP-absorbing move, the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "attacker does not restore HP but instead takes damage equal",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "to the amount of HP it would have restored.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5000,6 +5170,64 @@
       "StyleCode": 69
     },
     {
+      "Index": 154,
+      "LabelName": "TOKUSEIINFO_SYN_155",
+      "LabelHash": 133577493,
+      "OriginalText": "When the Pokémon takes damage from a Dark-, Ghost-, or\nBug-type move or when it is on the receiving end of Intimidate,\nits Speed stat is boosted by 1 stage.",
+      "TextInfos": [
+        {
+          "Text": "When the Pokémon takes damage from a Dark-, Ghost-, or",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Bug-type move or when it is on the receiving end of Intimidate,",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "its Speed stat is boosted by 1 stage.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 155,
       "LabelName": "TOKUSEIINFO_SYN_156",
       "LabelHash": 133577496,
@@ -5083,10 +5311,46 @@
       "Index": 157,
       "LabelName": "TOKUSEIINFO_SYN_158",
       "LabelHash": 133577490,
-      "OriginalText": "Increases the priority of the Pokémon’s status moves by 1 stage.",
+      "OriginalText": "Increases the priority of the Pokémon’s status moves by 1 stage.\nHowever, the Pokémon’s status moves no longer work against\nDark-type Pokémon.",
       "TextInfos": [
         {
           "Text": "Increases the priority of the Pokémon’s status moves by 1 stage.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "However, the Pokémon’s status moves no longer work against",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Dark-type Pokémon.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -5684,6 +5948,28 @@
       "StyleCode": 69
     },
     {
+      "Index": 178,
+      "LabelName": "TOKUSEIINFO_SYN_179",
+      "LabelHash": -1029221925,
+      "OriginalText": "Boosts the Pokémon’s Defense stat by 50% on Grassy Terrain.",
+      "TextInfos": [
+        {
+          "Text": "Boosts the Pokémon’s Defense stat by 50% on Grassy Terrain.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 179,
       "LabelName": "TOKUSEIINFO_SYN_180",
       "LabelHash": 893092385,
@@ -5986,6 +6272,46 @@
       "StyleCode": 69
     },
     {
+      "Index": 193,
+      "LabelName": "TOKUSEIINFO_SYN_194",
+      "LabelHash": -1835790974,
+      "OriginalText": "The Pokémon switches out of battle when its HP drops to 1/2 or\nless of its max.",
+      "TextInfos": [
+        {
+          "Text": "The Pokémon switches out of battle when its HP drops to 1/2 or",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "less of its max.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 195,
       "LabelName": "TOKUSEIINFO_SYN_196",
       "LabelHash": -1835790972,
@@ -6011,6 +6337,46 @@
         },
         {
           "Text": "poisoned or badly poisoned.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 197,
+      "LabelName": "TOKUSEIINFO_SYN_198",
+      "LabelHash": -1835790978,
+      "OriginalText": "Doubles the power of the Pokémon’s moves when it attacks\ntargets that have just switched into battle.",
+      "TextInfos": [
+        {
+          "Text": "Doubles the power of the Pokémon’s moves when it attacks",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "targets that have just switched into battle.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6568,6 +6934,144 @@
       "StyleCode": 69
     },
     {
+      "Index": 226,
+      "LabelName": "TOKUSEIINFO_SYN_227",
+      "LabelHash": -625937425,
+      "OriginalText": "Turns the entire field into Psychic Terrain for 5 turns when the\nPokémon enters a battle.",
+      "TextInfos": [
+        {
+          "Text": "Turns the entire field into Psychic Terrain for 5 turns when the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pokémon enters a battle.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 228,
+      "LabelName": "TOKUSEIINFO_SYN_229",
+      "LabelHash": -625937427,
+      "OriginalText": "Turns the entire field into Grassy Terrain for 5 turns when the\nPokémon enters a battle.",
+      "TextInfos": [
+        {
+          "Text": "Turns the entire field into Grassy Terrain for 5 turns when the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pokémon enters a battle.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 235,
+      "LabelName": "TOKUSEIINFO_SYN_236",
+      "LabelHash": 940146515,
+      "OriginalText": "Changes the Pokémon’s type to the type of the move it’s\nabout to use. This works only once per time the Pokémon\nenters battle.",
+      "TextInfos": [
+        {
+          "Text": "Changes the Pokémon’s type to the type of the move it’s",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "about to use. This works only once per time the Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "enters battle.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 239,
       "LabelName": "TOKUSEIINFO_SYN_240",
       "LabelHash": -1432506474,
@@ -6633,6 +7137,64 @@
         },
         {
           "Text": "draw in moves.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 243,
+      "LabelName": "TOKUSEIINFO_SYN_244",
+      "LabelHash": -1432506478,
+      "OriginalText": "Boosts the power of the Pokémon’s sound-based moves\nby 30% and halves the damage the Pokémon takes from\nsound-based moves.",
+      "TextInfos": [
+        {
+          "Text": "Boosts the power of the Pokémon’s sound-based moves",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "by 30% and halves the damage the Pokémon takes from",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "sound-based moves.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -6757,6 +7319,46 @@
         },
         {
           "Text": "Reflect, and Aurora Veil statuses.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 251,
+      "LabelName": "TOKUSEIINFO_SYN_252",
+      "LabelHash": 133577465,
+      "OriginalText": "Boosts the power of the Steel-type moves of the Pokémon and\nits allies by 50%.",
+      "TextInfos": [
+        {
+          "Text": "Boosts the power of the Steel-type moves of the Pokémon and",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "its allies by 50%.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -7008,6 +7610,104 @@
       "StyleCode": 69
     },
     {
+      "Index": 268,
+      "LabelName": "TOKUSEIINFO_SYN_269",
+      "LabelHash": 1699661401,
+      "OriginalText": "Turns the entire field into Grassy Terrain for 5 turns when the\nPokémon takes damage from moves.",
+      "TextInfos": [
+        {
+          "Text": "Turns the entire field into Grassy Terrain for 5 turns when the",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Pokémon takes damage from moves.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 269,
+      "LabelName": "TOKUSEIINFO_SYN_270",
+      "LabelHash": -1029221947,
+      "OriginalText": "When the Pokémon takes damage from a Fire-type move, its\nAttack stat is boosted by 1 stage. The Pokémon cannot be\nburned.",
+      "TextInfos": [
+        {
+          "Text": "When the Pokémon takes damage from a Fire-type move, its",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "Attack stat is boosted by 1 stage. The Pokémon cannot be",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "burned.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
       "Index": 271,
       "LabelName": "TOKUSEIINFO_SYN_272",
       "LabelHash": -1029221949,
@@ -7033,6 +7733,82 @@
         },
         {
           "Text": "The Pokémon is immune to status conditions.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 274,
+      "LabelName": "TOKUSEIINFO_SYN_275",
+      "LabelHash": -1029221950,
+      "OriginalText": "Intimidate does not work on the Pokémon. Instead, it boosts\nthe Pokémon’s Attack stat by 1 stage. The Pokémon is also\nunaffected by the moves and held items of other Pokémon\nthat would force it to switch out of battle.",
+      "TextInfos": [
+        {
+          "Text": "Intimidate does not work on the Pokémon. Instead, it boosts",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "the Pokémon’s Attack stat by 1 stage. The Pokémon is also",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "unaffected by the moves and held items of other Pokémon",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "{0}",
+          "Type": 4,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        },
+        {
+          "Text": "that would force it to switch out of battle.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
@@ -7789,6 +8565,28 @@
         },
         {
           "Text": "the attacker.",
+          "Type": 3,
+          "TagInfo": {
+            "TagGroupId": -1,
+            "TagId": 0,
+            "Params": []
+          }
+        }
+      ],
+      "GenderCode": 0,
+      "CountabilityCode": 1,
+      "ArticleCode": 0,
+      "InitialSoundCode": 0,
+      "StyleCode": 69
+    },
+    {
+      "Index": 318,
+      "LabelName": "TOKUSEIINFO_SYN_319",
+      "LabelHash": 2102946023,
+      "OriginalText": "Halves the damage the Pokémon takes from contact moves.",
+      "TextInfos": [
+        {
+          "Text": "Halves the damage the Pokémon takes from contact moves.",
           "Type": 3,
           "TagInfo": {
             "TagGroupId": -1,
